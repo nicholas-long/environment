@@ -1,6 +1,7 @@
 # tmux config
 
 - concept of `tmux config`
+- copied from my previous version https://github.com/nicholas-long/pen-test-environ/blob/main/tmux.conf
 
 ```
 ```
@@ -15,4 +16,4 @@
 
 Tags:
 
-    #idea
+    #dotfile

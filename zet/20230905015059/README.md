@@ -1,6 +1,7 @@
 # vim config
 
 - concept of `vim config`
+- copied from my old config https://github.com/nicholas-long/pen-test-environ/blob/main/neovim-bindings.vim
 
 ```
 ```
@@ -15,4 +16,4 @@
 
 Tags:
 
-    #idea
+    #dotfile
