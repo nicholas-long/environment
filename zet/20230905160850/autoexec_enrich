@@ -9,7 +9,7 @@ echo "generating shortcuts..."
 
 # remove existing ones
 for f in $(ls shortcuts); do
-  rm shorcuts/$f
+  rm shortcuts/$f
 done
 
 ./graphquery @shortcmd | while read id; do
