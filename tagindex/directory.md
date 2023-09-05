@@ -1,0 +1,1 @@
+- [20230905160850](/zet/20230905160850/README.md) directory for executable short commands to run on path

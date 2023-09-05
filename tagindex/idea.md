@@ -19,4 +19,3 @@
 - [20230905015028](/zet/20230905015028/README.md) dotfiles hub
 - [20230905015120](/zet/20230905015120/README.md) bash rc file and config
 - [20230905021157](/zet/20230905021157/README.md) log of commands run to set up previous environment
-- [20230905160850](/zet/20230905160850/README.md) directory for executable short commands to run on path
