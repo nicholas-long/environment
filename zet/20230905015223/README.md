@@ -65,6 +65,11 @@ tldr -u
 [ -d ~/GTFOBins.github.io ] || git clone https://github.com/GTFOBins/GTFOBins.github.io
 ```
 
+## symlink to installation script
+```
+ln -s zet/20230905015223/install-environment ./install
+```
+
 ` zet/20230905015223/README.md `
 
 # Related

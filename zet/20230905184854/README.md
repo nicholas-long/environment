@@ -6,6 +6,7 @@
   - choose one to install into?
 - coreutils bash
   - [20230905185446](/zet/20230905185446/README.md) bash file commands that are not builtins
+- script is called `zet/20230905184854/install-prerequisites`
 
 ```bash
 # select install program
@@ -25,17 +26,6 @@ function install_it {
   fi
 }
 
-install_it fzf fzf
-install_it realpath coreutils
-install_it realpath realpath # if debian or ubuntu install realpath as well?
-install_it realpath coreutils
-
-if ! which nvim >/dev/null; then
-  echo no neovim
-  install_it vim vim
-else
-  echo neovim is installed
-fi
 ```
 
 ` zet/20230905184854/README.md `

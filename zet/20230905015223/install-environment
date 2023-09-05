@@ -1,0 +1,7 @@
+#!/bin/bash
+
+echo installing environment
+echo should run from base working directory of repository
+
+# install prerequesite tools using package manager
+zet/20230905184854/install-prerequisites

@@ -1,0 +1,30 @@
+#!/bin/bash
+
+# select install program
+if which brew >/dev/null ; then
+  installprog="brew install"
+elif which apt-get >/dev/null ; then
+  installprog="apt-get install"
+fi
+echo $installprog
+
+function install_it {
+  if ! which $1 >/dev/null ; then
+    echo Installing $1 from $2
+    sudo $installprog $2
+  else
+    echo $1 is installed
+  fi
+}
+
+install_it fzf fzf
+install_it realpath coreutils
+install_it basename coreutils
+install_it realpath realpath # if debian or ubuntu install realpath as well?
+
+if ! which nvim >/dev/null; then
+  echo no neovim
+  install_it vim vim
+else
+  echo neovim is installed
+fi
