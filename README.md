@@ -5,6 +5,9 @@
   - [20230905015107](/zet/20230905015107/README.md) tmux config #idea
   - [20230905015223](/zet/20230905015223/README.md) install scripts #script #setup
 
+- symbolic links to executable scripts are kept up to date in a directory using tags and attachments in cards
+  - [20230905160850](/zet/20230905160850/README.md) directory for executable short commands to run on path #directory
+
 - Based on zkvr zettelkasten developed in 2022
   - [20221013021614](/zet/20221013021614/README.md) zkvr terminal graph browser #tui #program #zettelkasten
 

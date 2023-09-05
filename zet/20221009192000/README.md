@@ -28,6 +28,7 @@ Extra:
 - [20230905015059](/zet/20230905015059/README.md) vim config
 - [20230905015107](/zet/20230905015107/README.md) tmux config
 - [20230905015223](/zet/20230905015223/README.md) install scripts
+- [20230905160850](/zet/20230905160850/README.md) directory for executable short commands to run on path
 
 Tags:
 
