@@ -6,8 +6,12 @@ a script will check to see if the ID numbers appear on the main README.
 
 ```
 Missing:
+- [20221013021614](/zet/20221013021614/README.md) zkvr terminal graph browser #tui #program #zettelkasten
 - [20221101043303](/zet/20221101043303/README.md) important features and workflow tricks to mention on main page #idea #list
 - [20221101052020](/zet/20221101052020/README.md) TODO: Your to-do list #todo #list #me #hub
+- [20230905015059](/zet/20230905015059/README.md) vim config #idea
+- [20230905015107](/zet/20230905015107/README.md) tmux config #idea
+- [20230905015223](/zet/20230905015223/README.md) install scripts #script #setup
 Extra:
 ```
 

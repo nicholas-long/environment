@@ -27,6 +27,7 @@ stuff i am working on.
 - [20221105224810](/zet/20221105224810/README.md) launch browser to current card on github
 - [20221101052020](/zet/20221101052020/README.md) TODO: Your to-do list
 - [20230905015028](/zet/20230905015028/README.md) dotfiles hub
+- [20230905015223](/zet/20230905015223/README.md) install scripts
 
 Tags:
 

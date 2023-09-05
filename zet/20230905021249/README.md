@@ -60,6 +60,7 @@ bat_0.23.0_i686.deb https://github.com/sharkdp/bat/releases/download/v0.23.0/bat
 
 - [20230905021157](/zet/20230905021157/README.md) log of commands run to set up previous environment
 - [20230905015223](/zet/20230905015223/README.md) install scripts
+- [20221012171100](/zet/20221012171100/README.md) recently created nodes hub
 
 Tags:
 
