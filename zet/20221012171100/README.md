@@ -19,6 +19,7 @@ zet/20221012171100/README.md
 - [20230905020305](/zet/20230905020305/README.md) symlinks needed for install script
 - [20230905021157](/zet/20230905021157/README.md) log of commands run to set up previous environment
 - [20230905021249](/zet/20230905021249/README.md) the issue with installing bat
+- [20230905030303](/zet/20230905030303/README.md) script to get github release links
 
 Tags:
 

@@ -1,0 +1,1 @@
+- [20230905030303](/zet/20230905030303/README.md) script to get github release links
