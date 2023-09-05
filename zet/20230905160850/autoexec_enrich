@@ -7,6 +7,10 @@
 # loop over all the zet IDs that have tag shortcmd and enumerate all executable files and filenames
 echo "generating shortcuts..."
 
+if [ ! -d shortcuts ]; then
+  mkdir shortcuts
+fi
+
 # remove existing ones
 for f in $(ls shortcuts); do
   rm shortcuts/$f
