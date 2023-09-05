@@ -1,0 +1,19 @@
+#!/bin/bash
+
+if [ ! -d shortcuts ]; then
+  mkdir shortcuts
+fi
+
+# remove existing ones
+for f in $(ls shortcuts); do
+  rm shortcuts/$f
+done
+
+# loop over all the zet IDs that have tag shortcmd and enumerate all executable files and filenames
+./graphquery @shortcmd | while read id; do
+  find zet/$id -type f -executable | while read filepath; do
+    shortcutname=$(basename $filepath)
+    ln -s $(realpath $filepath) shortcuts/$shortcutname
+    echo $shortcutname $filepath
+  done
+done
