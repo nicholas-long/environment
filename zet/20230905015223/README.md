@@ -1,8 +1,11 @@
 # install scripts
 
 - concept of `install scripts`
-- is it a good idea to set up git credential storage?
+- [ ] choose correct config and location for both vim and neovim
+- [ ] install my rc script into bashrc and zshrc.
+  - [ ] also into rc file for bourne shell?
 
+- is it a good idea to set up git credential storage?
 ```
 git config --global credential.helper store
 ```
