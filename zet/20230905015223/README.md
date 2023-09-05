@@ -87,6 +87,7 @@ ln -s zet/20230905015223/install-environment ./install
 - [20230905015120](/zet/20230905015120/README.md) bash rc file and config
 - [20230905160850](/zet/20230905160850/README.md) directory for executable short commands to run on path
 - [20230905184854](/zet/20230905184854/README.md) prerequesites for environment
+- [20230905210416](/zet/20230905210416/README.md) fast file manager fff
 
 Tags:
 
