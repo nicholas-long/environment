@@ -1,6 +1,7 @@
 # prerequesites for environment
 
 - fzf - called `fzf` everywhere https://command-not-found.com/fzf
+- tmux
 - vim or nvim
   - choose one to install into?
 - coreutils bash
@@ -15,10 +16,26 @@ elif which apt-get >/dev/null ; then
 fi
 echo $installprog
 
-if which fzf >/dev/null ; then
-  $installprog fzf
-fi
+function install_it {
+  if ! which $1 >/dev/null ; then
+    echo Installing $1 from $2
+    sudo $installprog $2
+  else
+    echo $1 is installed
+  fi
+}
 
+install_it fzf fzf
+install_it realpath coreutils
+install_it realpath realpath # if debian or ubuntu install realpath as well?
+install_it realpath coreutils
+
+if ! which nvim >/dev/null; then
+  echo no neovim
+  install_it vim vim
+else
+  echo neovim is installed
+fi
 ```
 
 ` zet/20230905184854/README.md `
