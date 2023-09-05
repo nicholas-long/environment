@@ -8,6 +8,9 @@
   - [20230905030303](/zet/20230905030303/README.md) script to get github release links #script #github
 - i could either use shortcuts or write little bash stubs that fix up the working directory?
 - should little programs or commands in here contain references to each other by name?
+- uses scripts run during enrich stage to keep the list of shortcuts up to date
+  - [20221008063052](/zet/20221008063052/README.md) autorunning scripts in cards
+  - script is in file `autoexec_enrich`
 
 ```bash
 ./graphquery @shortcmd
@@ -32,4 +35,4 @@ done
 
 Tags:
 
-    #idea
+    #directory

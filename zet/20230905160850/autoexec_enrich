@@ -15,7 +15,7 @@ done
 ./graphquery @shortcmd | while read id; do
   find zet/$id -type f -executable | while read filepath; do
     shortcutname=$(basename $filepath)
-    ln -s $filepath shortcuts/$shortcutname
+    ln -s $(realpath $filepath) shortcuts/$shortcutname
     echo $shortcutname $filepath
   done
 done
