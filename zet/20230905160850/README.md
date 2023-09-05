@@ -1,17 +1,16 @@
 # directory for executable short commands to run on path
 
-- concept of `directory for executable short commands to run on path`
-- [ ] add this directory to path in install scripts
-  - [20230905015223](/zet/20230905015223/README.md) install scripts
-  - the reason this should be run when installing is to generate the actual initial shortcuts - they will be absolute paths
-- example for testing: github release links
-  - [20230905030303](/zet/20230905030303/README.md) script to get github release links #script #github
-- i could either use shortcuts or write little bash stubs that fix up the working directory?
-- should little programs or commands in here contain references to each other by name?
-- uses scripts run during enrich stage to keep the list of shortcuts up to date
+- shortcut directory `shortcuts/`
+  - [ ] add this directory to path in install scripts
+    - [20230905015223](/zet/20230905015223/README.md) install scripts
+    - run shortcut maintenance script during installing. the reason this should be run when installing is to generate the actual initial shortcuts - they will be absolute paths
+- maintenance script `zet/20230905160850/update-shortcuts`
+  - i could also write little bash stubs that fix up the working directory?
+- this card uses scripts run during enrich stage to keep the list of shortcuts up to date
   - [20221008063052](/zet/20221008063052/README.md) autorunning scripts in cards
   - script is called from file `autoexec_enrich`
   - the reason this runs in the enrich stage is so my shortcuts are kept up-to-date during my own development process
+- should little programs or commands in here contain references to each other by name?
 
 ```bash
 ./graphquery @shortcmd
