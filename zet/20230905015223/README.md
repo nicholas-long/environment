@@ -71,6 +71,8 @@ tldr -u
 - [20230905015028](/zet/20230905015028/README.md) dotfiles hub
 - [20221012171100](/zet/20221012171100/README.md) recently created nodes hub
 - [20230905020305](/zet/20230905020305/README.md) symlinks needed for install script
+- [20221008042814](/zet/20221008042814/README.md) WIP
+- [20230905021157](/zet/20230905021157/README.md) log of commands run to set up previous environment
 
 Tags:
 

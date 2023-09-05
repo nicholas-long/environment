@@ -27,6 +27,9 @@ Extra:
 - [20221101043303](/zet/20221101043303/README.md) important features and workflow tricks to mention on main page
 - [20221008063052](/zet/20221008063052/README.md) autorunning scripts in cards
 - [20221101052020](/zet/20221101052020/README.md) TODO: Your to-do list
+- [20230905015059](/zet/20230905015059/README.md) vim config
+- [20230905015107](/zet/20230905015107/README.md) tmux config
+- [20230905015223](/zet/20230905015223/README.md) install scripts
 
 Tags:
 
