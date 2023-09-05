@@ -1,3 +1,4 @@
 - [20221006032546](/zet/20221006032546/README.md) my original implementation of zet cmd
 - [20221011145143](/zet/20221011145143/README.md) bat command pretty printer
 - [20221027011800](/zet/20221027011800/README.md) zetcli bash wrapper subcommand implementation
+- [20230905185446](/zet/20230905185446/README.md) bash file commands that are not builtins

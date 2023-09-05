@@ -21,6 +21,8 @@ zet/20221012171100/README.md
 - [20230905021249](/zet/20230905021249/README.md) the issue with installing bat
 - [20230905030303](/zet/20230905030303/README.md) script to get github release links
 - [20230905160850](/zet/20230905160850/README.md) directory for executable short commands to run on path
+- [20230905184854](/zet/20230905184854/README.md) prerequesites for environment
+- [20230905185446](/zet/20230905185446/README.md) bash file commands that are not builtins
 
 Tags:
 

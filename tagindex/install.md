@@ -1,0 +1,1 @@
+- [20230905185446](/zet/20230905185446/README.md) bash file commands that are not builtins
