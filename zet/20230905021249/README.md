@@ -3,7 +3,10 @@
 - https://github.com/sharkdp/bat
 - bat never works correctly in package managers
 - could make a script to parse the latest version and download from github?
+  - need jq to parse API responses
 - could build from source on github? - probably the better idea
+  - it is rust though. i cannot expect to have rust installed on any random environment?
+  - easy to install on a kali distro with tons of dev tools
 
 - work in progress
 - use github API responses and jq to parse out URLs
@@ -61,6 +64,8 @@ bat_0.23.0_i686.deb https://github.com/sharkdp/bat/releases/download/v0.23.0/bat
 - [20230905021157](/zet/20230905021157/README.md) log of commands run to set up previous environment
 - [20230905015223](/zet/20230905015223/README.md) install scripts
 - [20221012171100](/zet/20221012171100/README.md) recently created nodes hub
+- [20221011145143](/zet/20221011145143/README.md) bat command pretty printer
+- [20230905030303](/zet/20230905030303/README.md) script to get github release links
 
 Tags:
 
