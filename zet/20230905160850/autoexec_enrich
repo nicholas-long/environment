@@ -1,0 +1,22 @@
+#!/bin/bash
+
+#export MY_DIR="$2"
+#export MY_ID=$(echo "$MY_DIR" | awk -F / '{print $NF}')
+#export ZET_IMPL=20221006032546
+
+# loop over all the zet IDs that have tag shortcmd and enumerate all executable files and filenames
+echo "generating shortcuts..."
+
+# remove existing ones
+for f in $(ls shortcuts); do
+  rm shorcuts/$f
+done
+
+./graphquery @shortcmd | while read id; do
+  find zet/$id -type f -executable | while read filepath; do
+    shortcutname=$(basename $filepath)
+    ln -s $filepath shortcuts/$shortcutname
+    echo $shortcutname $filepath
+  done
+done
+echo "shortcuts done."
