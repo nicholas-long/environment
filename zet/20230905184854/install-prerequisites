@@ -21,6 +21,7 @@ install_it fzf fzf
 install_it realpath coreutils
 install_it basename coreutils
 install_it realpath realpath # if debian or ubuntu install realpath as well?
+install_it jq jq
 
 if ! which nvim >/dev/null; then
   echo no neovim

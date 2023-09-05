@@ -1,11 +1,12 @@
 # prerequesites for environment
 
-- fzf - called `fzf` everywhere https://command-not-found.com/fzf
+- [x] fzf - called `fzf` everywhere https://command-not-found.com/fzf
 - tmux
-- vim or nvim
+- [x] vim or nvim
   - choose one to install into?
-- coreutils bash
+- [x] coreutils bash
   - [20230905185446](/zet/20230905185446/README.md) bash file commands that are not builtins
+- [x] jq
 - script is called `zet/20230905184854/install-prerequisites`
 
 ```bash
