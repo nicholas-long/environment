@@ -23,6 +23,7 @@ zet/20221012171100/README.md
 - [20230905160850](/zet/20230905160850/README.md) directory for executable short commands to run on path
 - [20230905184854](/zet/20230905184854/README.md) prerequesites for environment
 - [20230905185446](/zet/20230905185446/README.md) bash file commands that are not builtins
+- [20230905210416](/zet/20230905210416/README.md) fast file manager fff
 
 Tags:
 

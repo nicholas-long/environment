@@ -12,6 +12,7 @@
 - [20230905015028](/zet/20230905015028/README.md) dotfiles hub
 - [20221012171100](/zet/20221012171100/README.md) recently created nodes hub
 - [20230905015223](/zet/20230905015223/README.md) install scripts
+- [20230905210416](/zet/20230905210416/README.md) fast file manager fff
 
 Tags:
 

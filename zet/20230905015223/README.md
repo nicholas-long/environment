@@ -4,6 +4,7 @@
 - [ ] choose correct config and location for both vim and neovim
 - [ ] install my rc script into bashrc and zshrc.
   - [ ] also into rc file for bourne shell?
+- [x] install with makefile [20230905210416](/zet/20230905210416/README.md) fast file manager fff
 
 - is it a good idea to set up git credential storage?
 ```

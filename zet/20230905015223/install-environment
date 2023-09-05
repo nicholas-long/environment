@@ -5,3 +5,5 @@ echo should run from base working directory of repository
 
 # install prerequesite tools using package manager
 zet/20230905184854/install-prerequisites
+
+zet/20230905210416/install-fff

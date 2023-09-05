@@ -3,3 +3,4 @@
 - [20221027011800](/zet/20221027011800/README.md) zetcli bash wrapper subcommand implementation
 - [20221028173620](/zet/20221028173620/README.md) yq binaries
 - [20221105220915](/zet/20221105220915/README.md) add recurring timers using github cron actions
+- [20230905210416](/zet/20230905210416/README.md) fast file manager fff

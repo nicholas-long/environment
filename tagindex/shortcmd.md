@@ -1,1 +1,2 @@
 - [20230905030303](/zet/20230905030303/README.md) script to get github release links
+- [20230905210416](/zet/20230905210416/README.md) fast file manager fff
