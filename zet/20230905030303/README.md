@@ -36,4 +36,4 @@ curl -L \
 
 Tags:
 
-    #script #github
+    #script #github #shortcmd

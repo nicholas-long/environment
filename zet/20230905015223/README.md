@@ -2,6 +2,7 @@
 
 - concept of `install scripts`
 - is it a good idea to set up git credential storage?
+
 ```
 git config --global credential.helper store
 ```
@@ -76,6 +77,7 @@ tldr -u
 - [20221009192000](/zet/20221009192000/README.md) stuff to put on main page
 - [20230905021249](/zet/20230905021249/README.md) the issue with installing bat
 - [20230905015120](/zet/20230905015120/README.md) bash rc file and config
+- [20230905160850](/zet/20230905160850/README.md) directory for executable short commands to run on path
 
 Tags:
 
