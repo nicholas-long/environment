@@ -1,6 +1,12 @@
 # zkvr
 
-Dotfiles and scripts organized into zettelkasten format
+- Dotfiles and scripts organized into zettelkasten format
+  - [20230905015059](/zet/20230905015059/README.md) vim config #idea
+  - [20230905015107](/zet/20230905015107/README.md) tmux config #idea
+  - [20230905015223](/zet/20230905015223/README.md) install scripts #script #setup
+
+- Based on zkvr zettelkasten developed in 2022
+  - [20221013021614](/zet/20221013021614/README.md) zkvr terminal graph browser #tui #program #zettelkasten
 
 # navigation links
 
@@ -10,9 +16,12 @@ Dotfiles and scripts organized into zettelkasten format
 
 - [todo list #hub](/zet/20221007044552/README.md)
   - [todo](/zet/20221003150098/README.md)
+  - [20221101052020](/zet/20221101052020/README.md) TODO: Your to-do list #todo #list #me #hub
+  - [ ] why are there 2 todo lists?
   - [work in progress WIP](/zet/20221008042814/README.md)
   - [finished, but with ongoing related work #idea #meta](/zet/20221014215609/README.md)
   - [finished #done #hub](/zet/20221009095853/README.md)
+
 
 - [video notes #hub](/zet/20221006213953/README.md)
 
@@ -25,3 +34,4 @@ Dotfiles and scripts organized into zettelkasten format
 - [CLI docs](/zet/20221006032546/README.md)
 - [autorunning scripts in cards #zettelkasten #bash #script #template #test](/zet/20221008063052/README.md)
   - [stuff that should be on this page](/zet/20221009192000/README.md)
+- [20221101043303](/zet/20221101043303/README.md) important features and workflow tricks to mention on main page #idea #list
