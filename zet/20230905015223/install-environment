@@ -7,3 +7,9 @@ echo should run from base working directory of repository
 zet/20230905184854/install-prerequisites
 
 zet/20230905210416/install-fff
+
+environ_path=$(pwd)
+if ! grep "20230905015120" ~/.bashrc; then
+  echo "installing into bashrc..."
+  echo "ENVIRON_PATH=$environ_path source $environ_path/zet/20230905015120/bashrc" >> ~/.bashrc
+fi

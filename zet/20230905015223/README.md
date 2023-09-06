@@ -2,7 +2,10 @@
 
 - concept of `install scripts`
 - [ ] choose correct config and location for both vim and neovim
-- [ ] install my rc script into bashrc and zshrc.
+- install my rc script
+  - this script [20230905015120](/zet/20230905015120/README.md) bash rc file and config
+  - [x] into bashrc
+  - [ ] into zshrc
   - [ ] also into rc file for bourne shell?
 - [x] install with makefile [20230905210416](/zet/20230905210416/README.md) fast file manager fff
 
@@ -16,12 +19,14 @@ git config --global credential.helper store
   - [20230905212307](/zet/20230905212307/README.md) important things from install scripts
   - [20230905212316](/zet/20230905212316/README.md) low priority or optional things from install scripts
 
-```bash
-```
-
 ## installation paths in bashrc
 - writing paths to bashrc
 - example: `envpath=asdf source zet/1234/test.sh` echo this to bashrc
+- check if installed
+```bash
+grep "20230905015120" ~/.bashrc
+echo $?
+```
 
 ## symlink to installation script
 ```

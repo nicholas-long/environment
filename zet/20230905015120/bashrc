@@ -1,0 +1,3 @@
+# expect path to environment to be provided env variable ENVIRON_PATH
+
+echo "sourced the environment: $ENVIRON_PATH"
