@@ -19,6 +19,10 @@ git config --global credential.helper store
 ```bash
 ```
 
+## installation paths in bashrc
+- writing paths to bashrc
+- example: `envpath=asdf source zet/1234/test.sh` echo this to bashrc
+
 ## symlink to installation script
 ```
 ln -s zet/20230905015223/install-environment ./install
