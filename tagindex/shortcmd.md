@@ -1,3 +1,5 @@
 - [20230905030303](/zet/20230905030303/README.md) script to get github release links
 - [20230906033727](/zet/20230906033727/README.md) commands to get ip
 - [20230906035236](/zet/20230906035236/README.md) scripts to draw title bars
+- [20230906035650](/zet/20230906035650/README.md) script to print reverse shell snippets
+- [20230906035744](/zet/20230906035744/README.md) scripts to optimize alphanumeric base64

