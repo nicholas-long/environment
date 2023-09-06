@@ -16,6 +16,7 @@
 - [20230905210416](/zet/20230905210416/README.md) fast file manager fff
 - [20230905160850](/zet/20230905160850/README.md) directory for executable short commands to run on path
 - [20230906032330](/zet/20230906032330/README.md) ascii art spash screen
+- [20230906033259](/zet/20230906033259/README.md) functions to copy over and possibly remake as commands
 
 Tags:
 

@@ -1,0 +1,19 @@
+#!/bin/bash
+
+iface=$1
+ifacestf=$(mktemp)
+
+if [ -z "$iface" ]; then
+  ip l | grep -E '^[[:digit:]]+: ' | cut -d ':' -f 2 | awk '{print $1}' > $ifacestf
+  tunifaces=$(cat $ifacestf | grep '^tun')
+  # if there's one single tun interface, grab it
+  if [ $(echo "$tunifaces" | wc -l) == 1 ]; then
+    export iface=$tunifaces
+  fi
+  # if we still can't find it, ask
+  if [ -z "$iface" ]; then
+    export iface=$(cat $ifacestf | fzf)
+  fi
+  rm $ifacestf
+fi
+ip a s $iface | grep -Eo '[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}' | head -n 1

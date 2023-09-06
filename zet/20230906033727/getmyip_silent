@@ -1,0 +1,4 @@
+#!/bin/bash
+
+iface=$(ip a s | awk -f ~/kb/awk-scripting/get-interface.awk)
+ip a s $iface | awk '$1 == "inet" { gsub(/\/.*/,"",$2);print $2 }'
