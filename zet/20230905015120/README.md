@@ -20,7 +20,7 @@ getmyip_silent
 - [20230905015223](/zet/20230905015223/README.md) install scripts
 - [20230905210416](/zet/20230905210416/README.md) fast file manager fff
 - [20230905160850](/zet/20230905160850/README.md) directory for executable short commands to run on path
-- [20230906032330](/zet/20230906032330/README.md) ascii art spash screen
+- [20230906032330](/zet/20230906032330/README.md) ascii art splash screen
 - [20230906033259](/zet/20230906033259/README.md) functions to copy over and possibly remake as commands
 - [20230906035744](/zet/20230906035744/README.md) scripts to optimize alphanumeric base64
 - [20230906043752](/zet/20230906043752/README.md) make it easy to work with and source this file from vim

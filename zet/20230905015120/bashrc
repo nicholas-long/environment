@@ -1,13 +1,22 @@
 # expect path to environment to be provided env variable ENVIRON_PATH
-
 # export the path to this repo so scripts can find each other
-if [ -z "$ENVIRON_BASEPATH" ]; then
+if [ -z "$ENVIRON_PATH" ]; then
   if [ -d zet ]; then
     export ENVIRON_BASEPATH="."
   fi
 else
   echo "sourced the environment: $ENVIRON_PATH"
-  cat $ENVIRON_PATH/zet/20230906032330/splash
+  $ENVIRON_PATH/zet/20230906050031/center-text $ENVIRON_PATH/zet/20230906032330/splash
   export ENVIRON_BASEPATH="$ENVIRON_PATH"
 fi
 export PATH="$PATH:$ENVIRON_BASEPATH/shortcuts"
+
+# Add this to your .bashrc, .zshrc or equivalent.
+# Run 'fff' with 'f' or whatever you decide to name the function.
+f() {
+    EDITOR=nvim fff "$@"
+    cd "$(cat "${XDG_CACHE_HOME:=${HOME}/.cache}/fff/.fff_d")"
+}
+
+# turn bash prompt into vi edit with Esc
+set -o vi

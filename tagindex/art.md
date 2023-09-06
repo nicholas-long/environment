@@ -1,1 +1,1 @@
-- [20230906032330](/zet/20230906032330/README.md) ascii art spash screen
+- [20230906032330](/zet/20230906032330/README.md) ascii art splash screen

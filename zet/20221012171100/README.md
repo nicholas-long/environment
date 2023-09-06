@@ -26,7 +26,7 @@ zet/20221012171100/README.md
 - [20230905210416](/zet/20230905210416/README.md) fast file manager fff
 - [20230905212307](/zet/20230905212307/README.md) important things from install scripts
 - [20230905212316](/zet/20230905212316/README.md) low priority or optional things from install scripts
-- [20230906032330](/zet/20230906032330/README.md) ascii art spash screen
+- [20230906032330](/zet/20230906032330/README.md) ascii art splash screen
 - [20230906033259](/zet/20230906033259/README.md) functions to copy over and possibly remake as commands
 - [20230906033727](/zet/20230906033727/README.md) commands to get ip
 - [20230906035236](/zet/20230906035236/README.md) scripts to draw title bars
@@ -34,6 +34,7 @@ zet/20221012171100/README.md
 - [20230906035744](/zet/20230906035744/README.md) scripts to optimize alphanumeric base64
 - [20230906043752](/zet/20230906043752/README.md) make it easy to work with and source this file from vim
 - [20230906044835](/zet/20230906044835/README.md) script to obfuscate a nishang reverse tcp shell for windows powershell
+- [20230906050031](/zet/20230906050031/README.md) script to center text in the terminal
 
 Tags:
 
