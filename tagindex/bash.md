@@ -3,3 +3,4 @@
 - [20221025024238](/zet/20221025024238/README.md) enumerate tags
 - [20221027011800](/zet/20221027011800/README.md) zetcli bash wrapper subcommand implementation
 - [20230905185446](/zet/20230905185446/README.md) bash file commands that are not builtins
+- [20230906035236](/zet/20230906035236/README.md) scripts to draw title bars
