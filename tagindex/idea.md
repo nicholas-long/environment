@@ -17,8 +17,8 @@
 - [20221105224810](/zet/20221105224810/README.md) launch browser to current card on github
 - [20221120183400](/zet/20221120183400/README.md) make copy option process indentation of code blocks properly
 - [20230905015028](/zet/20230905015028/README.md) dotfiles hub
-- [20230905015120](/zet/20230905015120/README.md) bash rc file and config
 - [20230905021157](/zet/20230905021157/README.md) log of commands run to set up previous environment
 - [20230905212307](/zet/20230905212307/README.md) important things from install scripts
 - [20230905212316](/zet/20230905212316/README.md) low priority or optional things from install scripts
 - [20230906033259](/zet/20230906033259/README.md) functions to copy over and possibly remake as commands
+- [20230906043752](/zet/20230906043752/README.md) make it easy to work with and source this file from vim

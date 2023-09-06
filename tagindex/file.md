@@ -1,1 +1,2 @@
 - [20221028172836](/zet/20221028172836/README.md) symlink dockerfile
+- [20230905015120](/zet/20230905015120/README.md) bash rc file and config
