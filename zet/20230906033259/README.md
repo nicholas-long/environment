@@ -17,6 +17,7 @@
 - [20221012171100](/zet/20221012171100/README.md) recently created nodes hub
 - [20230906035236](/zet/20230906035236/README.md) scripts to draw title bars
 - [20230906035650](/zet/20230906035650/README.md) script to print reverse shell snippets
+- [20230906044835](/zet/20230906044835/README.md) script to obfuscate a nishang reverse tcp shell for windows powershell
 
 Tags:
 
