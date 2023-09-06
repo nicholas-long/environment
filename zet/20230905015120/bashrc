@@ -1,9 +1,13 @@
 # expect path to environment to be provided env variable ENVIRON_PATH
 
-echo "sourced the environment: $ENVIRON_PATH"
-cat $ENVIRON_PATH/zet/20230906032330/splash
-
-export PATH="$PATH:$ENVIRON_PATH/shortcuts"
-
 # export the path to this repo so scripts can find each other
-export ENVIRON_BASEPATH="$ENVIRON_PATH"
+if [ -z "$ENVIRON_BASEPATH" ]; then
+  if [ -d zet ]; then
+    export ENVIRON_BASEPATH="."
+  fi
+else
+  echo "sourced the environment: $ENVIRON_PATH"
+  cat $ENVIRON_PATH/zet/20230906032330/splash
+  export ENVIRON_BASEPATH="$ENVIRON_PATH"
+fi
+export PATH="$PATH:$ENVIRON_BASEPATH/shortcuts"

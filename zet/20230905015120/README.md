@@ -3,8 +3,12 @@
 - concept of `bash rc file and config`
 - splash screen: `cat zet/20230906032330/splash`
 - base path to this repository in env var: `$ENVIRON_BASEPATH`
+- example snippet working with shortcut symlink commands from environment in vim
 
-```
+```bash
+source zet/20230905015120/bashrc
+# now subcommands are included
+getmyip_silent
 ```
 
 ` zet/20230905015120/README.md `
@@ -19,7 +23,8 @@
 - [20230906032330](/zet/20230906032330/README.md) ascii art spash screen
 - [20230906033259](/zet/20230906033259/README.md) functions to copy over and possibly remake as commands
 - [20230906035744](/zet/20230906035744/README.md) scripts to optimize alphanumeric base64
+- [20230906043752](/zet/20230906043752/README.md) make it easy to work with and source this file from vim
 
 Tags:
 
-    #idea
+    #bash #file #script
