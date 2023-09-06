@@ -27,6 +27,8 @@ zet/20221012171100/README.md
 - [20230905212307](/zet/20230905212307/README.md) important things from install scripts
 - [20230905212316](/zet/20230905212316/README.md) low priority or optional things from install scripts
 - [20230906032330](/zet/20230906032330/README.md) ascii art spash screen
+- [20230906033259](/zet/20230906033259/README.md) functions to copy over and possibly remake as commands
+- [20230906033727](/zet/20230906033727/README.md) commands to get ip
 
 Tags:
 

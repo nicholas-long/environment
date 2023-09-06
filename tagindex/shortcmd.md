@@ -1,1 +1,2 @@
 - [20230905030303](/zet/20230905030303/README.md) script to get github release links
+- [20230906033727](/zet/20230906033727/README.md) commands to get ip

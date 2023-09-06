@@ -21,3 +21,4 @@
 - [20230905021157](/zet/20230905021157/README.md) log of commands run to set up previous environment
 - [20230905212307](/zet/20230905212307/README.md) important things from install scripts
 - [20230905212316](/zet/20230905212316/README.md) low priority or optional things from install scripts
+- [20230906033259](/zet/20230906033259/README.md) functions to copy over and possibly remake as commands

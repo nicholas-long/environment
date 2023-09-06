@@ -1,0 +1,1 @@
+- [20230906033727](/zet/20230906033727/README.md) commands to get ip
