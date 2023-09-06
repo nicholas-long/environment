@@ -1,0 +1,17 @@
+# scripts to draw title bars
+
+- concept of `scripts to draw title bars`
+- kind of stupid, but they could be useful
+
+```
+```
+
+` zet/20230906035236/README.md `
+
+# Related
+
+- [20230906033259](/zet/20230906033259/README.md) functions to copy over and possibly remake as commands
+
+Tags:
+
+    #bash #script #shortcmd
