@@ -26,6 +26,7 @@ zet/20221012171100/README.md
 - [20230905210416](/zet/20230905210416/README.md) fast file manager fff
 - [20230905212307](/zet/20230905212307/README.md) important things from install scripts
 - [20230905212316](/zet/20230905212316/README.md) low priority or optional things from install scripts
+- [20230906032330](/zet/20230906032330/README.md) ascii art spash screen
 
 Tags:
 

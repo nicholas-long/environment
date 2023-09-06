@@ -15,7 +15,7 @@
 - [20230905015223](/zet/20230905015223/README.md) install scripts
 - [20230905210416](/zet/20230905210416/README.md) fast file manager fff
 - [20230905160850](/zet/20230905160850/README.md) directory for executable short commands to run on path
-- [20230906032330](/zet/20230906032330/README.md) spash screen
+- [20230906032330](/zet/20230906032330/README.md) ascii art spash screen
 
 Tags:
 
