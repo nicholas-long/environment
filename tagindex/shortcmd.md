@@ -3,3 +3,4 @@
 - [20230906035236](/zet/20230906035236/README.md) scripts to draw title bars
 - [20230906035650](/zet/20230906035650/README.md) script to print reverse shell snippets
 - [20230906035744](/zet/20230906035744/README.md) scripts to optimize alphanumeric base64
+- [20230906044835](/zet/20230906044835/README.md) script to obfuscate a nishang reverse tcp shell for windows powershell
