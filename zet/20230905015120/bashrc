@@ -4,3 +4,6 @@ echo "sourced the environment: $ENVIRON_PATH"
 cat $ENVIRON_PATH/zet/20230906032330/splash
 
 export PATH="$PATH:$ENVIRON_PATH/shortcuts"
+
+# export the path to this repo so scripts can find each other
+export ENVIRON_BASEPATH="$ENVIRON_PATH"

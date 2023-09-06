@@ -2,6 +2,7 @@
 
 - concept of `bash rc file and config`
 - splash screen: `cat zet/20230906032330/splash`
+- base path to this repository in env var: `$ENVIRON_BASEPATH`
 
 ```
 ```
