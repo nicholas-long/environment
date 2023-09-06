@@ -18,19 +18,9 @@ export EDITOR=nvim
 # aliases for quick shell commands
 
 # productivity boosts
-# gotta go fast
-# like really fast
-alias g=lazygit
-alias v='nvim $(fzf --preview="bat --color=always {}")'
-alias t='tmux a -t $(tmux ls | fzf| cut -d ":" -f 1) || tmux'
-alias a='sudo apt install -y $(apt list 2>/dev/null | fzf | cut -d '/' -f 1)'
-alias c='cd $(find / -type d 2>/dev/null | fzf "--preview=ls -al {}")'
-alias q=exit
 alias startnotes="nvim -c ':split' -c ':e scratch.md' notes.md"
-alias ll='ls -haltr --color=auto --time-style=full-iso'
 alias s='nvim scratch.md'
 alias vars='nvim ~/variables.sh && source ~/variables.sh'
-alias sess='tmux new -s'
 
 # helpful info scripts
 alias k='~/tmux-scripts/searchmarkdown.sh -q "^# " ~/kb'

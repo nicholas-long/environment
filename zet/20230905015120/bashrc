@@ -1,15 +1,15 @@
 # expect path to environment to be provided env variable ENVIRON_PATH
+
 # export the path to this repo so scripts can find each other
-if [ -z "$ENVIRON_PATH" ]; then
+if [ -z "$ENVIRON_PATH" ]; then # running from somewhere without the environment var, maybe vim
   if [ -d zet ]; then
     export ENVIRON_BASEPATH="."
   fi
-else
+else # running from bashrc
   echo "sourced the environment: $ENVIRON_PATH"
   $ENVIRON_PATH/zet/20230906050031/center-text $ENVIRON_PATH/zet/20230906032330/splash
   export ENVIRON_BASEPATH="$ENVIRON_PATH"
 fi
-export PATH="$PATH:$ENVIRON_BASEPATH/shortcuts"
 
 # Add this to your .bashrc, .zshrc or equivalent.
 # Run 'fff' with 'f' or whatever you decide to name the function.
@@ -20,3 +20,17 @@ f() {
 
 # turn bash prompt into vi edit with Esc
 set -o vi
+
+# productivity boost shortcuts
+alias g=lazygit
+alias v='nvim $(fzf --preview="bat --color=always {}")'
+alias t='tmux a -t $(tmux ls | fzf| cut -d ":" -f 1) || tmux'
+alias a='sudo apt install -y $(apt list 2>/dev/null | fzf | cut -d '/' -f 1)'
+alias c='cd $(find / -type d 2>/dev/null | fzf "--preview=ls -al {}")'
+alias q=exit
+alias ll='ls -haltr --color=auto --time-style=full-iso'
+alias sess='tmux new -s'
+alias http='python3 -m http.server'
+alias bc='sudo bettercap -autostart events.stream,net.recon,net.sniff,net.probe,arp.spoof,any.proxy'
+
+export PATH="$PATH:$ENVIRON_BASEPATH/shortcuts"
