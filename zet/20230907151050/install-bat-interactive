@@ -1,0 +1,25 @@
+#!/bin/bash
+# run from within root directory of repo
+# install bat to /usr/bin/bat
+# pick download url from github interactively
+
+downloadurl=$(zet/20230905030303/github-latest-files https://github.com/sharkdp/bat | \
+  fzf --preview=lscpu "--prompt=select the version of bat for your cpu> " | \
+  awk '{print $2}')
+if [ -z "$downloadurl" ]; then
+  exit 1
+fi
+wget $downloadurl
+filename=$(ls bat* | head -n 1)
+
+# install it
+if [[ $filename =~ bat.*deb ]]; then
+  sudo dpkg -i $filename
+  rm $filename
+elif [[ $filename =~ bat.*tar.gz ]]; then
+  echo "todo: tar -xzvf"
+  echo "tar not implemented yet... unpack $filename and copy to /usr/bin/bat"
+else
+  echo "not implemented yet... unpack $filename and copy to /usr/bin/bat"
+fi
+
