@@ -5,3 +5,4 @@
 - [20230905015223](/zet/20230905015223/README.md) install scripts
 - [20230905030303](/zet/20230905030303/README.md) script to get github release links
 - [20230906035236](/zet/20230906035236/README.md) scripts to draw title bars
+- [20230907151050](/zet/20230907151050/README.md) bat interactive install script

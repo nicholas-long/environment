@@ -50,6 +50,7 @@ ln -s zet/20230905015223/install-environment ./install
 - [20230905160850](/zet/20230905160850/README.md) directory for executable short commands to run on path
 - [20230905184854](/zet/20230905184854/README.md) prerequesites for environment
 - [20230905210416](/zet/20230905210416/README.md) fast file manager fff
+- [20230907151050](/zet/20230907151050/README.md) bat interactive install script
 
 Tags:
 

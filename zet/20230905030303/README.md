@@ -33,6 +33,7 @@ curl -L \
 
 - [20230905021249](/zet/20230905021249/README.md) the issue with installing bat
 - [20221012171100](/zet/20221012171100/README.md) recently created nodes hub
+- [20230907151050](/zet/20230907151050/README.md) bat interactive install script
 
 Tags:
 
