@@ -11,10 +11,6 @@ function key {
   cat $filename.pub
 }
 
-# configure sudoedit
-export EDITOR=nvim
-
-
 # aliases for quick shell commands
 
 # productivity boosts

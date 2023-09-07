@@ -11,10 +11,19 @@ else # running from bashrc
   export ENVIRON_BASEPATH="$ENVIRON_PATH"
 fi
 
+# configure EDITOR environment variable so sudoedit and fff work
+if [ -z "$EDITOR" ]; then
+  if [ which nvim >/dev/null ]; then
+    export EDITOR=nvim
+  else
+    export EDITOR=vim
+  fi
+fi
+
 # Add this to your .bashrc, .zshrc or equivalent.
 # Run 'fff' with 'f' or whatever you decide to name the function.
 f() {
-    EDITOR=nvim fff "$@"
+    fff "$@"
     cd "$(cat "${XDG_CACHE_HOME:=${HOME}/.cache}/fff/.fff_d")"
 }
 

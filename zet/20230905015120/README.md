@@ -4,11 +4,14 @@
 - splash screen: `cat zet/20230906032330/splash`
 - base path to this repository in env var: `$ENVIRON_BASEPATH`
 - example snippet working with shortcut symlink commands from environment in vim
+- need to automatically set `EDITOR` environment variable so features in some other programs work
+  - sudoedit and fff use this variable
 
 ```bash
 source zet/20230905015120/bashrc
 # now subcommands are included
 getmyip_silent
+
 ```
 
 ` zet/20230905015120/README.md `
