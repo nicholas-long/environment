@@ -6,6 +6,11 @@ echo should run from base working directory of repository
 # install prerequesite tools using package manager
 zet/20230905184854/install-prerequisites
 
+if which bat >/dev/null; then
+  echo "bat is installed"
+else
+  zet/20230907151050/install-bat-interactive
+fi
 if which fff >/dev/null; then
   echo "fff is installed"
 else
