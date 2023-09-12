@@ -4,11 +4,21 @@ find $ZK_PATH -name '*.md' -type f -print0 | xargs -0 awk '
   BEGIN {
     OFS = "\t"
   }
-  {
-    gsub(/\t/,"")
+  BEGINFILE {
     fn=FILENAME
     gsub(/.*\//,"",fn)
+    gsub(/\.md$/,"",fn)
     gsub(/^[0-9]+ /,"",fn)
+  }
+  { content = 0 }
+  /^Tags: $/ { next }
+  /^# Related *$/ { next }
+  /^[ \t]*$/ { next } #not all spaces
+  /^ *- / { content = 1 }
+  /^# / { content = 1 }
+  /^ *# / { content = 1 }
+  content {
+    gsub(/\t/,"")
     print FILENAME, fn, $0
   }
 '
