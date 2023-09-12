@@ -32,7 +32,6 @@ done
 # Related
 
 - [20230905015223](/zet/20230905015223/README.md) install scripts
-- [20221012171100](/zet/20221012171100/README.md) recently created nodes hub
 - [20221008063052](/zet/20221008063052/README.md) autorunning scripts in cards
 - [20221009192000](/zet/20221009192000/README.md) stuff to put on main page
 - [20230905015120](/zet/20230905015120/README.md) bash rc file and config

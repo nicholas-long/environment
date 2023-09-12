@@ -64,7 +64,6 @@ bat_0.23.0_i686.deb https://github.com/sharkdp/bat/releases/download/v0.23.0/bat
 
 - [20230905021157](/zet/20230905021157/README.md) log of commands run to set up previous environment
 - [20230905015223](/zet/20230905015223/README.md) install scripts
-- [20221012171100](/zet/20221012171100/README.md) recently created nodes hub
 - [20221011145143](/zet/20221011145143/README.md) bat command pretty printer
 - [20230905030303](/zet/20230905030303/README.md) script to get github release links
 - [20230907151050](/zet/20230907151050/README.md) bat interactive install script

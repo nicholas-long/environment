@@ -41,7 +41,6 @@ ln -s zet/20230905015223/install-environment ./install
 - [20230905212307](/zet/20230905212307/README.md) important things from install scripts
 - [20230905212316](/zet/20230905212316/README.md) low priority or optional things from install scripts
 - [20230905015028](/zet/20230905015028/README.md) dotfiles hub
-- [20221012171100](/zet/20221012171100/README.md) recently created nodes hub
 - [20230905020305](/zet/20230905020305/README.md) symlinks needed for install script
 - [20221008042814](/zet/20221008042814/README.md) WIP
 - [20230905021157](/zet/20230905021157/README.md) log of commands run to set up previous environment
