@@ -1,5 +1,12 @@
 #!/bin/bash
 
-$ENVIRON_BASEPATH/zet/20230912192810/fuzzy-search-markdown-content | \
-  fzf -m | \
-  cut -d $'\t' -f 1
+filename=$($ENVIRON_BASEPATH/zet/20230912192810/fuzzy-search-markdown-content | \
+  fzf -m \
+    --delimiter $'\t' \
+    --preview="echo {} | awk -F $'\\t' '{ system (\"bat --color=always --language=markdown \\x22\" \$1 \"\x22\" ) }'" \
+    --preview-window=top \
+    --with-nth=2,3 | \
+    cut -d $'\t' -f 1)
+
+bat --color=always --paging=never --style=header-filename --language=md "$filename"
+
