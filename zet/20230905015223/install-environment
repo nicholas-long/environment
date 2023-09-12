@@ -17,6 +17,11 @@ else
   zet/20230905210416/install-fff
 fi
 
+# regenearate shortcut command symlinks
+echo "updating command shortcut symlinks..."
+zet/20230905160850/update-shortcuts
+
+# add to bashrc
 environ_path=$(pwd)
 if ! grep "20230905015120" ~/.bashrc; then
   echo "installing into bashrc..."

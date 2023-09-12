@@ -1,11 +1,11 @@
 # directory for executable short commands to run on path
 
 - shortcut directory `shortcuts/`
-  - [ ] add this directory to path in bashrc
+  - [x] add this directory to path in bashrc
     - [20230905015120](/zet/20230905015120/README.md) bash rc file and config
-    - run shortcut maintenance script during installing. the reason this should be run when installing is to generate the actual initial shortcuts - they will be absolute paths
     - can do something like `x=123 source test.sh`
 - maintenance script `zet/20230905160850/update-shortcuts` located in this card
+  - run shortcut maintenance script during installing. the reason this should be run when installing is to generate the actual initial shortcuts - they will be absolute paths
   - i could also write little bash stubs that fix up the working directory?
   - [ ] ought to ignore files like `autoexec_enrich` that are used for zkvr cards when finding shortcuts
 - this card uses scripts run during enrich stage to keep the list of shortcuts up to date
