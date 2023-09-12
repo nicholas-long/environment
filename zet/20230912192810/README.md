@@ -70,6 +70,18 @@ ENDFILE {
 - need to define something like `ZK_PATH` in bashrc to make it work
 ```bash
 ZK_PATH=/media/psf/zk
+find $ZK_PATH -name '*.md' -type f -print0 | xargs -0 awk '
+  BEGIN {
+    OFS = "\t"
+  }
+  {
+    gsub(/\t/,"")
+    fn=FILENAME
+    gsub(/.*\//,"",fn)
+    gsub(/^[0-9]+ /,"",fn)
+    print FILENAME, fn, $0
+  }
+'
 
 ```
 
