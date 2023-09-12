@@ -18,4 +18,4 @@ alias k='~/tmux-scripts/searchmarkdown.sh -q "^# " ~/kb'
 
 Tags:
 
-    #bash #script #markdown #search #workflow
+    #bash #script #markdown #search #workflow #shortcmd
