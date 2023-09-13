@@ -13,6 +13,9 @@
   - `zet/20221013021614/graphbrowser`
   - `zet/20221013021614/connectome_deep`
 - [x] should print tags on every line to help with searching
+- [x] should support selecting and printing multiple files using fzf built in multi-select
+  - [x] fix issue with single quotes in filename of search results
+- [ ] fix issue with double quotes in preview
 
 ```bash
 # from zet/20221013021614/graphbrowser
