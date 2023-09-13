@@ -15,8 +15,8 @@
 - [x] should print tags on every line to help with searching
 - [x] should support selecting and printing multiple files using fzf built in multi-select
   - [x] fix issue with single quotes in filename of search results
-- [ ] fix issue with double quotes in preview
-- [ ] need to use single quotes because commands can execute in double quotes
+- [ ] fix issue with double quotes in filenames in preview
+- [ ] need to use single quotes because commands can execute in double quotes, like for instance with backticks
 
 ```bash
 # from zet/20221013021614/graphbrowser
