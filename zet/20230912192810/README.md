@@ -98,6 +98,7 @@ find $ZK_PATH -name '*.md' -type f -print0 | xargs -0 awk '
 - [20221012171100](/zet/20221012171100/README.md) recently created nodes hub
 - [20221013021614](/zet/20221013021614/README.md) zkvr terminal graph browser
 - [20230905015120](/zet/20230905015120/README.md) bash rc file and config
+- [20221009192000](/zet/20221009192000/README.md) stuff to put on main page
 
 Tags:
 
