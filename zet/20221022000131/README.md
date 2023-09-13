@@ -27,6 +27,7 @@ chmod +x zet/20221022000131/entrypoint
 
 - [20221009095853](/zet/20221009095853/README.md) finished
 - [20221028172836](/zet/20221028172836/README.md) symlink dockerfile
+- [20230905015107](/zet/20230905015107/README.md) tmux config
 
 Tags:
 
