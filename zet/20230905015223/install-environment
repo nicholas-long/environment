@@ -29,3 +29,7 @@ if ! grep "20230905015120" ~/.bashrc; then
 else
   echo "already installed into bashrc"
 fi
+
+# install configs
+echo "installing tmux config"
+zet/20230905015107/install-tmux-config

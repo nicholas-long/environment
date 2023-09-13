@@ -9,6 +9,9 @@
   - [ ] also into rc file for bourne shell?
 - [x] install with makefile [20230905210416](/zet/20230905210416/README.md) fast file manager fff
 - [x] run maintenance script to update
+- [x] tmux
+- [ ] nvim
+- [ ] vim - basic set of keybinds
 
 - is it a good idea to set up git credential storage?
 ```
