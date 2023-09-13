@@ -42,4 +42,7 @@ alias sess='tmux new -s'
 alias http='python3 -m http.server'
 alias bc='sudo bettercap -autostart events.stream,net.recon,net.sniff,net.probe,arp.spoof,any.proxy'
 
+# scripts
+alias k='search-markdown'
+
 export PATH="$PATH:$ENVIRON_BASEPATH/shortcuts"
