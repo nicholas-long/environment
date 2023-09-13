@@ -9,6 +9,9 @@ find $ZK_PATH -name '*.md' -type f -print0 | xargs -0 awk '
     gsub(/.*\//,"",fn)
     gsub(/\.md$/,"",fn)
     gsub(/^[0-9]+ /,"",fn)
+    split("", array) # clear out lines array
+    split("", tags) # clear out tags array
+    n = 0 # array index
   }
   { content = 0 }
   /^Tags: $/ { next }
@@ -19,6 +22,20 @@ find $ZK_PATH -name '*.md' -type f -print0 | xargs -0 awk '
   /^ *# / { content = 1 }
   content {
     gsub(/\t/,"")
-    print FILENAME, fn, $0
+    array[n++] = $0 # store line to print later
+  }
+  { # look for tags
+    for (f = 1; f < NF; f++) { # loop over all words
+      if ($f ~ /^#[A-Za-z0-9]+$/) { # regular expression to match valid tags
+        tags[$f]++
+      }
+    }
+  }
+  ENDFILE {
+    tagline = ""
+    for (t in tags) { tagline = tagline " " t }
+    for (i = 0; i < n; i++) {
+      print FILENAME, fn, array[i] tagline
+    }
   }
 '
