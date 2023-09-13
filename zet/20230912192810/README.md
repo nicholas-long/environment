@@ -16,6 +16,7 @@
 - [x] should support selecting and printing multiple files using fzf built in multi-select
   - [x] fix issue with single quotes in filename of search results
 - [ ] fix issue with double quotes in preview
+- [ ] need to use single quotes because commands can execute in double quotes
 
 ```bash
 # from zet/20221013021614/graphbrowser
