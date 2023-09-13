@@ -48,6 +48,7 @@ alias ocrurl='~/kb/bash-scripting/copy-text-from-image-url.sh'
 - [20230906044835](/zet/20230906044835/README.md) script to obfuscate a nishang reverse tcp shell for windows powershell
 - [20230906050031](/zet/20230906050031/README.md) script to center text in the terminal
 - [20230912192810](/zet/20230912192810/README.md) script to search zk markdown in command line
+- [20230913044318](/zet/20230913044318/README.md) tmux buffer edit hotkey script
 
 Tags:
 

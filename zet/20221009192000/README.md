@@ -7,6 +7,7 @@ a script will check to see if the ID numbers appear on the main README.
 ```
 Missing:
 - [20230912192810](/zet/20230912192810/README.md) script to search zk markdown in command line #bash #script #markdown #search #workflow #shortcmd
+- [20230913044318](/zet/20230913044318/README.md) tmux buffer edit hotkey script #script
 Extra:
 ```
 
@@ -31,6 +32,7 @@ Extra:
 - [20230905015223](/zet/20230905015223/README.md) install scripts
 - [20230905160850](/zet/20230905160850/README.md) directory for executable short commands to run on path
 - [20230912192810](/zet/20230912192810/README.md) script to search zk markdown in command line
+- [20230913044318](/zet/20230913044318/README.md) tmux buffer edit hotkey script
 
 Tags:
 
