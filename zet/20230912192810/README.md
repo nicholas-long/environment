@@ -12,7 +12,7 @@
   - [20221013021614](/zet/20221013021614/README.md) zkvr terminal graph browser
   - `zet/20221013021614/graphbrowser`
   - `zet/20221013021614/connectome_deep`
-- [ ] should print tags on every line to help with searching
+- [x] should print tags on every line to help with searching
 
 ```bash
 # from zet/20221013021614/graphbrowser
