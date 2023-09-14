@@ -13,7 +13,7 @@
 - [ ] fff file names
 - [ ] hotkeys
 - [ ] tmux-pwn-menu has its own repository. i can move it into this environment
-- [ ] main menu script - what was in this?
+- [ ] main menu script - what was in this? `~/tmux-scripts/menu.sh`
 
 ## old scripts not migrating
 - fuzzy apt install - should be a shortcut. needed an external script because it has an fzf preview
@@ -30,6 +30,7 @@
 - [20221009192000](/zet/20221009192000/README.md) stuff to put on main page
 - [20221022000131](/zet/20221022000131/README.md) put tmux and vim rc config in dockerfile
 - [20230913044318](/zet/20230913044318/README.md) tmux buffer edit hotkey script
+- [20230914030626](/zet/20230914030626/README.md) tmux pwn menu script for hacking reverse shells and file transfer commands
 
 Tags:
 
