@@ -12,6 +12,7 @@
 - [x] tmux
 - [ ] nvim
 - [ ] vim - basic set of keybinds
+- [x] install python requirements for tmux scripts
 
 - is it a good idea to set up git credential storage?
 ```

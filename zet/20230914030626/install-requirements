@@ -1,0 +1,20 @@
+#!/bin/bash
+
+echo "installing requirements for tmux-pwn-menu"
+
+which tmux >/dev/null 2>/dev/null
+if [ $? -ne 0 ]; then
+  echo "no tmux"
+  exit 1
+fi
+which python3 >/dev/null 2>/dev/null
+if [ $? -ne 0 ]; then
+  echo "no python3"
+  exit 1
+fi
+which pip3 >/dev/null 2>/dev/null
+if [ $? -ne 0 ]; then
+  echo "no pip3"
+  exit 1
+fi
+pip3 install -r zet/20230914030626/requirements.txt

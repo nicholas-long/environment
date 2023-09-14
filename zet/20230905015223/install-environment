@@ -33,3 +33,7 @@ fi
 # install configs
 echo "installing tmux config"
 zet/20230905015107/install-tmux-config
+
+# install tmux-pwn-menu
+# logic to avoid installing these if unnecessary should be located in that script
+zet/20230914030626/install-requirements
