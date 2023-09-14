@@ -8,7 +8,7 @@
 bind b display-popup -E '~/tmux-pwn-menu/tmux-pwn-menu.py'
 ```
 - [ ] requires python3 and pip3 [20230905184854](/zet/20230905184854/README.md) prerequesites for environment
-- [ ] needs to be called from install scripts to install requirements [20230905015223](/zet/20230905015223/README.md) install scripts
+- [x] needs to be called from install scripts to install requirements [20230905015223](/zet/20230905015223/README.md) install scripts
   - should only do it if tmux and python3 is installed to avoid bloat? that's a decision to be made here.
 
 ` zet/20230914030626/README.md `
