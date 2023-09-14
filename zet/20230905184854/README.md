@@ -11,6 +11,7 @@
   - curl
   - wget
 - script is called `zet/20230905184854/install-prerequisites`
+- python3 and pip3
 
 ```bash
 # select install program
