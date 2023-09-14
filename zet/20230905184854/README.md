@@ -39,6 +39,7 @@ function install_it {
 - [20230905015223](/zet/20230905015223/README.md) install scripts
 - [20230905185446](/zet/20230905185446/README.md) bash file commands that are not builtins
 - [20230905021157](/zet/20230905021157/README.md) log of commands run to set up previous environment
+- [20230914030626](/zet/20230914030626/README.md) tmux pwn menu script for hacking reverse shells and file transfer commands
 
 Tags:
 
