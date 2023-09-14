@@ -12,7 +12,7 @@
 - [x] buffer edit
 - [ ] fff file names
 - [ ] hotkeys
-- [ ] tmux-pwn-menu has its own repository. i can move it into this environment
+- [x] tmux-pwn-menu has its own repository. i can move it into this environment [20230914030626](/zet/20230914030626/README.md)
 - [ ] main menu script - what was in this? `~/tmux-scripts/menu.sh`
 
 ## old scripts not migrating
