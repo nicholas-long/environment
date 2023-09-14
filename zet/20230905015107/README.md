@@ -10,6 +10,14 @@
 
 ## old scripts called from tmux config that need to be migrated
 - [x] buffer edit
+- [ ] fff file names
+- [ ] hotkeys
+- [ ] tmux-pwn-menu has its own repository. i can move it into this environment
+- [ ] main menu script - what was in this?
+
+## old scripts not migrating
+- fuzzy apt install - should be a shortcut. needed an external script because it has an fzf preview
+- searching for exploits on github or searchsploit - should be handled by shortcuts
 
 ```
 ```
