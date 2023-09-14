@@ -3,8 +3,9 @@
 - concept of `tmux pwn menu script for hacking reverse shells and file transfer commands`
 - https://github.com/nicholas-long/tmux-pwn-menu
 - https://github.com/nicholas-long/tmux-pwn-menu/blob/main/tmux-pwn-menu.py
-
+- example line in tmux config
 ```
+bind b display-popup -E '~/tmux-pwn-menu/tmux-pwn-menu.py'
 ```
 
 ` zet/20230914030626/README.md `
