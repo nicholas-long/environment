@@ -10,3 +10,4 @@
 - [20230913044318](/zet/20230913044318/README.md) tmux buffer edit hotkey script
 - [20230914030626](/zet/20230914030626/README.md) tmux pwn menu script for hacking reverse shells and file transfer commands
 - [20230916125222](/zet/20230916125222/README.md) tmux scripts directory
+- [20230916132320](/zet/20230916132320/README.md) script to get platform install command

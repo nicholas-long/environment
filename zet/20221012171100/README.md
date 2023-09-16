@@ -16,6 +16,7 @@ zet/20221012171100/README.md
 - [20230914030626](/zet/20230914030626/README.md) tmux pwn menu script for hacking reverse shells and file transfer commands
 - [20230916125222](/zet/20230916125222/README.md) tmux scripts directory
 - [20230916125704](/zet/20230916125704/README.md) terminal color schemes
+- [20230916132320](/zet/20230916132320/README.md) script to get platform install command
 
 Tags:
 
