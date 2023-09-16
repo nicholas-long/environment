@@ -4,6 +4,7 @@
 #bug
 #cleanup
 #coding
+#color
 #command
 #concept
 #cron
@@ -47,6 +48,7 @@
 #syntax
 #template
 #templatemain
+#terminal
 #test
 #tmux
 #to-try-list

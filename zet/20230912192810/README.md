@@ -99,6 +99,7 @@ find $ZK_PATH -name '*.md' -type f -print0 | xargs -0 awk '
 - [20221013021614](/zet/20221013021614/README.md) zkvr terminal graph browser
 - [20230905015120](/zet/20230905015120/README.md) bash rc file and config
 - [20221009192000](/zet/20221009192000/README.md) stuff to put on main page
+- [20230916125222](/zet/20230916125222/README.md) tmux scripts directory
 
 Tags:
 
