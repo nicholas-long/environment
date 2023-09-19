@@ -5,6 +5,7 @@
 - [x] get all links filenames
   - can use `dirname $file` to get path of parent directory
 - [ ] in order to actually work like obsidian, this should actually traverse back up to the top of the directory structure
+  - [20230919172630](/zet/20230919172630/README.md) script to get root of repository or obsidian knowledge base
 
 ```bash
 zet/20230919153113/markdown-obsidian-links "/media/psf/zk/recycling ideas from old zkvr autorunning scripts.md"
@@ -50,6 +51,18 @@ zet/20230919153113/markdown-obsidian-link-files "/media/psf/zk/recycling ideas f
 /media/psf/zk/20221028194014 check header line lengths in script.md
 /media/psf/zk/20221030041924 generate mermaid graph from set of zet cards.md
 /media/psf/zk/20221111225634 fix empty cards with only links.md
+
+```
+
+## testing links within repositories or knowledge bases
+
+```bash
+# find a book with links to test
+grep -R '\[\[' /media/psf/zk/books/
+# use /media/psf/zk/books/9781400081882 Improv Wisdom.md
+
+# test a book with backlinks
+zet/20230919153113/markdown-obsidian-link-files "/media/psf/zk/books/9781400081882 Improv Wisdom.md"
 
 ```
 

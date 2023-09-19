@@ -2,9 +2,15 @@
 
 SCRIPT_DIR=$( cd -- "$( dirname -- "${BASH_SOURCE[0]}" )" &> /dev/null && pwd )
 
+# use script zet/20230919172630/root-knowledge-base-repo-path to get root knowledge path. make it work if it's running as a shortcmd
+if ls $SCRIPT_DIR/../zet 2>/dev/null >/dev/null; then
+  relativescript="$SCRIPT_DIR/../zet/20230919172630/root-knowledge-base-repo-path"
+elif ls $SCRIPT_DIR/../../zet 2>/dev/null >/dev/null; then
+  relativescript="$SCRIPT_DIR/../../zet/20230919172630/root-knowledge-base-repo-path"
+fi
 # the search directory to start looking for related links.
 # in order to actually work like obsidian, this should actually traverse back up to the top of the directory structure
-searchdir=$(dirname "$1")
+searchdir=$($relativescript "$1")
 
 # TODO: this might not work if called from a shortcut? maybe it would if both scripts are there.
 $SCRIPT_DIR/markdown-obsidian-links "$@" | while read line;
