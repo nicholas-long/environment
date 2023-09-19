@@ -116,10 +116,10 @@ grep -R '\[\[.*\[\[' /home/coyote/Documents/zk/
 
 # Related
 
-- [20221008042814](/zet/20221008042814/README.md) WIP
 - [20230905160850](/zet/20230905160850/README.md) directory for executable short commands to run on path
 - [20221013221136](/zet/20221013221136/README.md) graph query language for zettelkasten
 - [20221012171100](/zet/20221012171100/README.md) recently created nodes hub
+- [20230919172630](/zet/20230919172630/README.md) script to get root of repository or obsidian knowledge base
 
 Tags:
 

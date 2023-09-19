@@ -28,7 +28,6 @@ stuff i am working on.
 - [20221101052020](/zet/20221101052020/README.md) TODO: Your to-do list
 - [20230905015028](/zet/20230905015028/README.md) dotfiles hub
 - [20230905015223](/zet/20230905015223/README.md) install scripts
-- [20230919153113](/zet/20230919153113/README.md) obsidian links scripts
 
 Tags:
 
