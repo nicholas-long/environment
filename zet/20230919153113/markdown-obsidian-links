@@ -1,0 +1,9 @@
+#!/usr/bin/awk -f
+
+/\[\[/ { # for any lines with obsidian style links
+  #gsub(/^.*\[\[/,"") # simple replace
+  gsub(/^[^\[]*\[\[/,"") # replace everything before [[
+  gsub(/\]\][^\[]*\[+/,"\n") # remove middle bits ]].*[[
+  gsub(/\]\].*$/,"") # remove end bit ]]
+  print
+}
