@@ -23,4 +23,3 @@
 - [20230906033259](/zet/20230906033259/README.md) functions to copy over and possibly remake as commands
 - [20230906043752](/zet/20230906043752/README.md) make it easy to work with and source this file from vim
 - [20230906050031](/zet/20230906050031/README.md) script to center text in the terminal
-- [20230919172630](/zet/20230919172630/README.md) script to get root of repository or obsidian knowledge base

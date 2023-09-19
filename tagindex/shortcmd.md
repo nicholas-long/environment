@@ -6,3 +6,4 @@
 - [20230906044835](/zet/20230906044835/README.md) script to obfuscate a nishang reverse tcp shell for windows powershell
 - [20230912192810](/zet/20230912192810/README.md) script to search zk markdown in command line
 - [20230919153113](/zet/20230919153113/README.md) obsidian links scripts
+- [20230919172630](/zet/20230919172630/README.md) script to get root of repository or obsidian knowledge base

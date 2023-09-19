@@ -12,3 +12,4 @@
 - [20230916125222](/zet/20230916125222/README.md) tmux scripts directory
 - [20230916132320](/zet/20230916132320/README.md) script to get platform install command
 - [20230919153113](/zet/20230919153113/README.md) obsidian links scripts
+- [20230919172630](/zet/20230919172630/README.md) script to get root of repository or obsidian knowledge base
