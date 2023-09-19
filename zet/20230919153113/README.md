@@ -53,6 +53,34 @@ zet/20230919153113/markdown-obsidian-link-files "/media/psf/zk/recycling ideas f
 
 ```
 
+## test running it in console
+```bash
+markdown-obsidian-links "/media/psf/zk/recycling ideas from old zkvr autorunning scripts.md"
+
+┌──(parallels㉿kali-linux-2022-2)-[~]
+└─$ markdown-obsidian-links "/media/psf/zk/recycling ideas from old zkvr autorunning scripts.md"
+obsidian query blocks
+20221008063052 autorunning scripts in cards
+20221005200242 empty zettels to fix
+20221006032546 my original implementation of zet cmd
+20221006213953 video notes
+20221008063052 autorunning scripts in cards
+20221009192000 stuff to put on main page
+20221012144502 track modification dates
+20221017173622 report about fixing problem tags in cards
+20221021081636 template example card to run command output in snippet
+20221024180316 check for duplicate hashtags in cards
+20221026064448 check syntax of dash lists for tabstop 4
+20221026135114 add step to check for duplicate links in enrich scanrefs
+20221026165857 second snippet example card
+20221028014614 keep track of scripts with graphquery
+20221028033132 how many cards you got now
+20221028161058 enforce assets live in nodes
+20221028194014 check header line lengths in script
+20221030041924 generate mermaid graph from set of zet cards
+20221111225634 fix empty cards with only links
+```
+
 # content of file
 
 ```md
