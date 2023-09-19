@@ -6,8 +6,6 @@ a script will check to see if the ID numbers appear on the main README.
 
 ```
 Missing:
-- [20230912192810](/zet/20230912192810/README.md) script to search zk markdown in command line #bash #script #markdown #search #workflow #shortcmd
-- [20230913044318](/zet/20230913044318/README.md) tmux buffer edit hotkey script #script
 Extra:
 ```
 

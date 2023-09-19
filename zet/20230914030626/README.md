@@ -17,7 +17,6 @@ bind b display-popup -E '~/tmux-pwn-menu/tmux-pwn-menu.py'
 
 - [20230905015107](/zet/20230905015107/README.md) tmux config
 - [20221008061845](/zet/20221008061845/README.md) workflow
-- [20221012171100](/zet/20221012171100/README.md) recently created nodes hub
 - [20230905184854](/zet/20230905184854/README.md) prerequesites for environment
 - [20230905015223](/zet/20230905015223/README.md) install scripts
 - [20230916125222](/zet/20230916125222/README.md) tmux scripts directory
