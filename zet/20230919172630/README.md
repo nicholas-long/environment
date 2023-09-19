@@ -19,6 +19,18 @@ zet/20230919172630/root-knowledge-base-repo-path ~/environment/zet/2022100315009
 
 ```
 
+- testing as short command and invalid files
+```bash
+# the first example is an invalid file
+┌──(parallels㉿kali-linux-2022-2)-[~]
+└─$ root-knowledge-base-repo-path zet/20221003150098/README.md
+root path not found
+
+┌──(parallels㉿kali-linux-2022-2)-[~]
+└─$ root-knowledge-base-repo-path environment/zet/20221003150098/README.md
+environment
+```
+
 ` zet/20230919172630/README.md `
 
 # Related
