@@ -1,14 +1,13 @@
 # obsidian links scripts
 
 - concept of `obsidian links scripts`
-- get all links filenames
+- [x] get all links
+- [x] get all links filenames
   - can use `dirname $file` to get path of parent directory
+- [ ] in order to actually work like obsidian, this should actually traverse back up to the top of the directory structure
 
-```
-zet/20230919153113/markdown-obsidian-links ~/Documents/zk/2022-12-01.md
-zet/20230919153113/markdown-obsidian-links "$HOME/Documents/zk/20221003150075 tmux tricks hub.md"
-zet/20230919153113/markdown-obsidian-links "/home/coyote/Documents/zk/recycling ideas from old zkvr autorunning scripts.md"
-
+```bash
+zet/20230919153113/markdown-obsidian-links "/media/psf/zk/recycling ideas from old zkvr autorunning scripts.md"
 obsidian query blocks
 20221008063052 autorunning scripts in cards
 20221005200242 empty zettels to fix
@@ -30,8 +29,33 @@ obsidian query blocks
 20221030041924 generate mermaid graph from set of zet cards
 20221111225634 fix empty cards with only links
 
+zet/20230919153113/markdown-obsidian-link-files "/media/psf/zk/recycling ideas from old zkvr autorunning scripts.md"
+/media/psf/zk/obsidian query blocks.md
+/media/psf/zk/20221008063052 autorunning scripts in cards.md
+/media/psf/zk/20221005200242 empty zettels to fix.md
+/media/psf/zk/20221006032546 my original implementation of zet cmd.md
+/media/psf/zk/20221006213953 video notes.md
+/media/psf/zk/20221008063052 autorunning scripts in cards.md
+/media/psf/zk/20221009192000 stuff to put on main page.md
+/media/psf/zk/20221012144502 track modification dates.md
+/media/psf/zk/20221017173622 report about fixing problem tags in cards.md
+/media/psf/zk/20221021081636 template example card to run command output in snippet.md
+/media/psf/zk/20221024180316 check for duplicate hashtags in cards.md
+/media/psf/zk/20221026064448 check syntax of dash lists for tabstop 4.md
+/media/psf/zk/20221026135114 add step to check for duplicate links in enrich scanrefs.md
+/media/psf/zk/20221026165857 second snippet example card.md
+/media/psf/zk/20221028014614 keep track of scripts with graphquery.md
+/media/psf/zk/20221028033132 how many cards you got now.md
+/media/psf/zk/20221028161058 enforce assets live in nodes.md
+/media/psf/zk/20221028194014 check header line lengths in script.md
+/media/psf/zk/20221030041924 generate mermaid graph from set of zet cards.md
+/media/psf/zk/20221111225634 fix empty cards with only links.md
+
+```
+
 # content of file
 
+```md
 - [[obsidian query blocks]] have similar use cases as in zkvr -> [[20221008063052 autorunning scripts in cards]]
 
 - old autorunning cards
