@@ -4,7 +4,7 @@
 - [x] get all links
 - [x] get all links filenames
   - can use `dirname $file` to get path of parent directory
-- [ ] in order to actually work like obsidian, this should actually traverse back up to the top of the directory structure
+- [x] in order to actually work like obsidian, this should actually traverse back up to the top of the directory structure
   - [20230919172630](/zet/20230919172630/README.md) script to get root of repository or obsidian knowledge base
 
 ```bash
@@ -94,34 +94,9 @@ obsidian query blocks
 20221111225634 fix empty cards with only links
 ```
 
-# content of file
+- how to find an example markdown file with 2 or more links on a line for testing purposes
 
-```md
-- [[obsidian query blocks]] have similar use cases as in zkvr -> [[20221008063052 autorunning scripts in cards]]
-
-- old autorunning cards
-- [[20221005200242 empty zettels to fix]]
-- [[20221006032546 my original implementation of zet cmd]]
-- [[20221006213953 video notes]]
-- [[20221008063052 autorunning scripts in cards]]
-- [[20221009192000 stuff to put on main page]]
-- [[20221012144502 track modification dates]]
-- [[20221017173622 report about fixing problem tags in cards]]
-- [[20221021081636 template example card to run command output in snippet]]
-- [[20221024180316 check for duplicate hashtags in cards]]
-- [[20221026064448 check syntax of dash lists for tabstop 4]]
-- [[20221026135114 add step to check for duplicate links in enrich scanrefs]]
-- [[20221026165857 second snippet example card]]
-- [[20221028014614 keep track of scripts with graphquery]]
-- [[20221028033132 how many cards you got now]]
-- [[20221028161058 enforce assets live in nodes]]
-- [[20221028194014 check header line lengths in script]]
-- [[20221030041924 generate mermaid graph from set of zet cards]]
-- [[20221111225634 fix empty cards with only links]]
-```
-
-- how to find something with 2 links to test
-```
+```bash
 grep -R '\[\[.*\[\[' /home/coyote/Documents/zk/
 ```
 

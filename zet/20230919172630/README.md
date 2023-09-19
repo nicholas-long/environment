@@ -9,7 +9,6 @@
     - look for .obsidian directory
   - git repository
     - look for .git directory
-- [x] problem: it crashes forever with an invalid file
 
 ```bash
 zet/20230919172630/root-knowledge-base-repo-path "/media/psf/zk/books/9780060731335 Freakonomics.md"
