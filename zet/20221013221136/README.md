@@ -51,6 +51,7 @@ ln -s zet/20221013221136/graphquery ./graphquery
 - [20221024215216](/zet/20221024215216/README.md) future enhancements to graph query language
 - [20221006084204](/zet/20221006084204/README.md) future enhancements to zet cmd
 - [20221014025416](/zet/20221014025416/README.md) clone a subsection of a graph by tag boundaries
+- [20230919153113](/zet/20230919153113/README.md) obsidian links scripts
 
 Tags:
 

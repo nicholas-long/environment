@@ -6,3 +6,4 @@
 - [20230905185446](/zet/20230905185446/README.md) bash file commands that are not builtins
 - [20230906035236](/zet/20230906035236/README.md) scripts to draw title bars
 - [20230912192810](/zet/20230912192810/README.md) script to search zk markdown in command line
+- [20230919153113](/zet/20230919153113/README.md) obsidian links scripts
