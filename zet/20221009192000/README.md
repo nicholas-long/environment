@@ -6,6 +6,8 @@ a script will check to see if the ID numbers appear on the main README.
 
 ```
 Missing:
+- [20230920022857](/zet/20230920022857/README.md) script to get linpeas to current directory #idea #shortcmd #hacking
+- [20230920031249](/zet/20230920031249/README.md) script to search tldr commands by features to find ways to do things #bash #script #shortcmd
 Extra:
 ```
 
@@ -31,6 +33,8 @@ Extra:
 - [20230905160850](/zet/20230905160850/README.md) directory for executable short commands to run on path
 - [20230912192810](/zet/20230912192810/README.md) script to search zk markdown in command line
 - [20230913044318](/zet/20230913044318/README.md) tmux buffer edit hotkey script
+- [20230920022857](/zet/20230920022857/README.md) script to get linpeas to current directory
+- [20230920031249](/zet/20230920031249/README.md) script to search tldr commands by features to find ways to do things
 
 Tags:
 
