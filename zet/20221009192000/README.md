@@ -34,6 +34,7 @@ Extra:
 - [20230920022857](/zet/20230920022857/README.md) script to get linpeas to current directory
 - [20230920031249](/zet/20230920031249/README.md) script to search tldr commands by features to find ways to do things
 - [20230906035650](/zet/20230906035650/README.md) script to print reverse shell snippets
+- [20230914030626](/zet/20230914030626/README.md) tmux pwn menu script for hacking reverse shells and file transfer commands
 
 Tags:
 

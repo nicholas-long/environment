@@ -20,6 +20,7 @@ bind b display-popup -E '~/tmux-pwn-menu/tmux-pwn-menu.py'
 - [20230905184854](/zet/20230905184854/README.md) prerequesites for environment
 - [20230905015223](/zet/20230905015223/README.md) install scripts
 - [20230916125222](/zet/20230916125222/README.md) tmux scripts directory
+- [20221009192000](/zet/20221009192000/README.md) stuff to put on main page
 
 Tags:
 

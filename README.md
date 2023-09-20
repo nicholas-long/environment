@@ -8,15 +8,18 @@
 - symbolic links to executable scripts are kept up to date in a directory using tags and attachments in cards
   - [20230905160850](/zet/20230905160850/README.md) directory for executable short commands to run on path #directory
 
-- useful scripts
-  - [20230912192810](/zet/20230912192810/README.md) script to search zk markdown in command line #bash #script #markdown #search #workflow #shortcmd
-  - [20230913044318](/zet/20230913044318/README.md) tmux buffer edit hotkey script #script
-  - [20230920031249](/zet/20230920031249/README.md) script to search tldr commands by features to find ways to do things #bash #script #shortcmd
+## useful scripts
 
-- useful hacking scripts
+### useful hacking scripts
   - [20230920022857](/zet/20230920022857/README.md) script to get linpeas to current directory #idea #shortcmd #hacking
   - [20230906035650](/zet/20230906035650/README.md) script to print reverse shell snippets #shortcmd
     - alphanumeric base64 optimization for bash reverse shells
+  - [20230914030626](/zet/20230914030626/README.md) tmux pwn menu script for hacking reverse shells and file transfer commands
+
+### workflow optimizations
+  - [20230912192810](/zet/20230912192810/README.md) script to search zk markdown in command line #bash #script #markdown #search #workflow #shortcmd
+  - [20230913044318](/zet/20230913044318/README.md) tmux buffer edit hotkey script #script
+  - [20230920031249](/zet/20230920031249/README.md) script to search tldr commands by features to find ways to do things #bash #script #shortcmd
 
 - Based on zkvr zettelkasten developed in 2022
   - [20221013021614](/zet/20221013021614/README.md) zkvr terminal graph browser #tui #program #zettelkasten
