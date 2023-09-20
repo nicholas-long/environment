@@ -30,6 +30,21 @@ root path not found
 environment
 ```
 
+- where could it be useful?
+```bash
+grep -R ENVIRON_BASEPATH zet
+zet/20230906035650/revshell:lhost=$($ENVIRON_BASEPATH/zet/20230906033727/getmyip)
+zet/20230906035650/revshell:$ENVIRON_BASEPATH/zet/20230906035236/draw_title_bar "windows rev shell"
+zet/20230906035650/revshell:$ENVIRON_BASEPATH/zet/20230906035236/draw_title_bar "linux rev shell"
+zet/20230906035744/find-alnum-base64:echo "$1" | $ENVIRON_BASEPATH/zet/20230906035744/space-invader | while read line; do
+zet/20230905015120/bashrc:    export ENVIRON_BASEPATH="."
+zet/20230905015120/bashrc:  export ENVIRON_BASEPATH="$ENVIRON_PATH"
+zet/20230905015120/bashrc:export PATH="$PATH:$ENVIRON_BASEPATH/shortcuts"
+zet/20230905015120/README.md:- base path to this repository in env var: `$ENVIRON_BASEPATH`
+zet/20230912192810/search-markdown:$ENVIRON_BASEPATH/zet/20230912192810/fuzzy-search-markdown-content | \
+zet/20230912192810/search-markdown:# #--preview="$ENVIRON_BASEPATH/zet/20230912192810/markdown-search-preview" 
+```
+
 ` zet/20230919172630/README.md `
 
 # Related
