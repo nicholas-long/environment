@@ -49,6 +49,7 @@ alias ocrurl='~/kb/bash-scripting/copy-text-from-image-url.sh'
 - [20230906050031](/zet/20230906050031/README.md) script to center text in the terminal
 - [20230912192810](/zet/20230912192810/README.md) script to search zk markdown in command line
 - [20230913044318](/zet/20230913044318/README.md) tmux buffer edit hotkey script
+- [20230920031249](/zet/20230920031249/README.md) script to search tldr commands by features to find ways to do things
 
 Tags:
 
