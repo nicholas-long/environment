@@ -15,6 +15,7 @@
 - [20230906035744](/zet/20230906035744/README.md) scripts to optimize alphanumeric base64
 - [20230906033727](/zet/20230906033727/README.md) commands to get ip
 - [20230906035236](/zet/20230906035236/README.md) scripts to draw title bars
+- [20221009192000](/zet/20221009192000/README.md) stuff to put on main page
 
 Tags:
 
