@@ -1,2 +1,3 @@
 - [20230906035744](/zet/20230906035744/README.md) scripts to optimize alphanumeric base64
 - [20230914030626](/zet/20230914030626/README.md) tmux pwn menu script for hacking reverse shells and file transfer commands
+- [20230920022857](/zet/20230920022857/README.md) script to get linpeas to current directory

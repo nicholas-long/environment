@@ -16,6 +16,7 @@ zet/20221012171100/README.md
 - [20230916132320](/zet/20230916132320/README.md) script to get platform install command
 - [20230919153113](/zet/20230919153113/README.md) obsidian links scripts
 - [20230919172630](/zet/20230919172630/README.md) script to get root of repository or obsidian knowledge base
+- [20230920022857](/zet/20230920022857/README.md) script to get linpeas to current directory
 
 Tags:
 

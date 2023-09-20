@@ -1,0 +1,6 @@
+#!/bin/bash
+
+url=$( $ENVIRON_BASEPATH/zet/20230905030303/github-latest-files "https://github.com/carlospolop/PEASS-ng" | fzf | awk '{print $2}' )
+if [ ! -z "$url" ]; then
+  wget "$url"
+fi

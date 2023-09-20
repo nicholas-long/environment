@@ -33,6 +33,7 @@ curl -L \
 
 - [20230905021249](/zet/20230905021249/README.md) the issue with installing bat
 - [20230907151050](/zet/20230907151050/README.md) bat interactive install script
+- [20230920022857](/zet/20230920022857/README.md) script to get linpeas to current directory
 
 Tags:
 
