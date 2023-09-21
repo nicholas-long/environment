@@ -6,6 +6,7 @@ a script will check to see if the ID numbers appear on the main README.
 
 ```
 Missing:
+- [20230921220633](/zet/20230921220633/README.md) list of cool ideas i still want to implement in my environment #idea #list #coding
 Extra:
 ```
 

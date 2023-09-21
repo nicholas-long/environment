@@ -1,1 +1,2 @@
 - [20221006032546](/zet/20221006032546/README.md) my original implementation of zet cmd
+- [20230921220633](/zet/20230921220633/README.md) list of cool ideas i still want to implement in my environment

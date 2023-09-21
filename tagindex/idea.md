@@ -23,3 +23,5 @@
 - [20230906033259](/zet/20230906033259/README.md) functions to copy over and possibly remake as commands
 - [20230906043752](/zet/20230906043752/README.md) make it easy to work with and source this file from vim
 - [20230906050031](/zet/20230906050031/README.md) script to center text in the terminal
+- [20230921220633](/zet/20230921220633/README.md) list of cool ideas i still want to implement in my environment
+- [20230921220840](/zet/20230921220840/README.md) list of kb scripts that i could decide whether to copy over

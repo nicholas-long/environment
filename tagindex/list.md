@@ -3,3 +3,5 @@
 - [20221101043303](/zet/20221101043303/README.md) important features and workflow tricks to mention on main page
 - [20221101052020](/zet/20221101052020/README.md) TODO: Your to-do list
 - [20230905020305](/zet/20230905020305/README.md) symlinks needed for install script
+- [20230921220633](/zet/20230921220633/README.md) list of cool ideas i still want to implement in my environment
+- [20230921220840](/zet/20230921220840/README.md) list of kb scripts that i could decide whether to copy over

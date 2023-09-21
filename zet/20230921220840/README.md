@@ -221,6 +221,7 @@ find ~/kb -type f -executable
 # Related
 
 - [20230921220633](/zet/20230921220633/README.md) list of cool ideas i still want to implement in my environment
+- [20221012171100](/zet/20221012171100/README.md) recently created nodes hub
 
 Tags:
 
