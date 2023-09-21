@@ -78,43 +78,43 @@
 
 # files with "no comment"
 /home/parallels/kb/awk-scripting/user-interface-fzf.awk no comment
-cat /home/parallels/kb/awk-scripting/user-interface-fzf.awk no comment
+cat /home/parallels/kb/awk-scripting/user-interface-fzf.awk
 /home/parallels/kb/awk-scripting/start-service.awk no comment
-cat /home/parallels/kb/awk-scripting/start-service.awk no comment
+cat /home/parallels/kb/awk-scripting/start-service.awk
 /home/parallels/kb/awk-scripting/docker-exec-picker.awk no comment
-cat /home/parallels/kb/awk-scripting/docker-exec-picker.awk no comment
+cat /home/parallels/kb/awk-scripting/docker-exec-picker.awk
 /home/parallels/kb/awk-scripting/get-headings.awk no comment
-cat /home/parallels/kb/awk-scripting/get-headings.awk no comment
+cat /home/parallels/kb/awk-scripting/get-headings.awk
 /home/parallels/kb/awk-scripting/center.awk no comment
-cat /home/parallels/kb/awk-scripting/center.awk no comment
+cat /home/parallels/kb/awk-scripting/center.awk
 /home/parallels/kb/docker/get-tags.sh no comment
-cat /home/parallels/kb/docker/get-tags.sh no comment
+cat /home/parallels/kb/docker/get-tags.sh
 /home/parallels/kb/docker/destroy-containers-and-images.sh no comment
-cat /home/parallels/kb/docker/destroy-containers-and-images.sh no comment
+cat /home/parallels/kb/docker/destroy-containers-and-images.sh
 /home/parallels/kb/awk-scripting/nmap-script-types.sh no comment
-cat /home/parallels/kb/awk-scripting/nmap-script-types.sh no comment
+cat /home/parallels/kb/awk-scripting/nmap-script-types.sh
 /home/parallels/kb/tmux/tmux-script-log.sh no comment
-cat /home/parallels/kb/tmux/tmux-script-log.sh no comment
+cat /home/parallels/kb/tmux/tmux-script-log.sh
 /home/parallels/kb/docker/templates/ubuntu-dockerfile-template.sh no comment
-cat /home/parallels/kb/docker/templates/ubuntu-dockerfile-template.sh no comment
+cat /home/parallels/kb/docker/templates/ubuntu-dockerfile-template.sh
 /home/parallels/kb/bash-scripting/get-interface-ip.sh no comment
-cat /home/parallels/kb/bash-scripting/get-interface-ip.sh no comment
+cat /home/parallels/kb/bash-scripting/get-interface-ip.sh
 /home/parallels/kb/bash-scripting/get-current-notes-line-count.sh no comment
-cat /home/parallels/kb/bash-scripting/get-current-notes-line-count.sh no comment
+cat /home/parallels/kb/bash-scripting/get-current-notes-line-count.sh
 /home/parallels/kb/linux/package-it-all.sh no comment
-cat /home/parallels/kb/linux/package-it-all.sh no comment
+cat /home/parallels/kb/linux/package-it-all.sh
 /home/parallels/kb/linux/get-ip-tmux.sh no comment
-cat /home/parallels/kb/linux/get-ip-tmux.sh no comment
-/home/parallels/kb/linux/named-pipe-to-netcat.sh no comment
-cat /home/parallels/kb/linux/named-pipe-to-netcat.sh no comment
+cat /home/parallels/kb/linux/get-ip-tmux.sh
+/home/parallels/kb/linux/named-pipe-to-netcat.sh no
+cat /home/parallels/kb/linux/named-pipe-to-netcat.sh
 /home/parallels/kb/linux/getip.sh no comment
-cat /home/parallels/kb/linux/getip.sh no comment
-/home/parallels/kb/hacking/test-vuln-in-dockers/ubuntu-reverse-shell/run-docker-catch-rev-shell.sh no comment
-cat /home/parallels/kb/hacking/test-vuln-in-dockers/ubuntu-reverse-shell/run-docker-catch-rev-shell.sh no comment
-/home/parallels/kb/hacking/test-vuln-in-dockers/ubuntu-reverse-shell-user-feature-test/run-docker-catch-rev-shell.sh no comment
-cat /home/parallels/kb/hacking/test-vuln-in-dockers/ubuntu-reverse-shell-user-feature-test/run-docker-catch-rev-shell.sh no comment
+cat /home/parallels/kb/linux/getip.sh
+/home/parallels/kb/hacking/test-vuln-in-dockers/ubuntu-reverse-shell/run-docker-catch-rev-shell.sh no
+cat /home/parallels/kb/hacking/test-vuln-in-dockers/ubuntu-reverse-shell/run-docker-catch-rev-shell.sh
+/home/parallels/kb/hacking/test-vuln-in-dockers/ubuntu-reverse-shell-user-feature-test/run-docker-catch-rev-shell.sh no
+cat /home/parallels/kb/hacking/test-vuln-in-dockers/ubuntu-reverse-shell-user-feature-test/run-docker-catch-rev-shell.sh
 /home/parallels/kb/bash-scripting/self-parsing-code-function-names.sh no comment
-cat /home/parallels/kb/bash-scripting/self-parsing-code-function-names.sh no comment
+cat /home/parallels/kb/bash-scripting/self-parsing-code-function-names.sh
 
 # kb internal stuff - might be interesting to check
 /home/parallels/kb/bash-scripting/autogenerate.sh generated the markdown content for files named auto-bash, auto-awk, etc
