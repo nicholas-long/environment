@@ -1,0 +1,13 @@
+#!/usr/bin/awk -f
+
+BEGINFILE { found = 0 }
+/^# / {
+  print FILENAME, $0
+  found = 1
+  nextfile
+}
+ENDFILE {
+  if (!found) {
+    print FILENAME, "no comment"
+  }
+}
