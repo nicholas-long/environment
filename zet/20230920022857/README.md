@@ -3,6 +3,7 @@
 - concept of `script to get linpeas to current directory`
 - https://github.com/carlospolop/PEASS-ng
 - use fzf to select the release of linpeas to download. can download right from github releases with wget.
+- script named `linpeas-me`
 
 ```
 ```
@@ -17,4 +18,4 @@
 
 Tags:
 
-    #idea #shortcmd #hacking
+    #shortcmd #hacking
