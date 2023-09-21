@@ -71,26 +71,14 @@
 /home/parallels/kb/awk-scripting/get-http-post-content.awk # get HTTP POST content from HTTP request stream
 /home/parallels/kb/bash-scripting/what-installed-this-file.sh find what apt package caused a particular specific file to be installed
 /home/parallels/kb/awk-scripting/find-only-h1-files.awk parse a list of files and figure out if they contain h2 headings
-
-# done and converted
-/home/parallels/kb/awk-scripting/space-invader.awk # print all variations of spaces between tokens
-/home/parallels/kb/bash-scripting/find-alphanum-base64.sh # find alphanumeric base64 using awk script
+/home/parallels/kb/awk-scripting/user-interface-fzf.awk testing a user interface in fzf from within awk
+/home/parallels/kb/awk-scripting/start-service.awk an attempt to select and start linux services from an fzf menu
+/home/parallels/kb/awk-scripting/docker-exec-picker.awk testing an interactive docker menu with fzf
+/home/parallels/kb/awk-scripting/get-headings.awk get nested headings from markdown in order to get full keyword contents
+/home/parallels/kb/docker/get-tags.sh get the tags of a particular docker repository using curl and jq
+/home/parallels/kb/docker/destroy-containers-and-images.sh shutdown and destroy docker images manually to clean up space
 
 # files with "no comment"
-/home/parallels/kb/awk-scripting/user-interface-fzf.awk no comment
-cat /home/parallels/kb/awk-scripting/user-interface-fzf.awk
-/home/parallels/kb/awk-scripting/start-service.awk no comment
-cat /home/parallels/kb/awk-scripting/start-service.awk
-/home/parallels/kb/awk-scripting/docker-exec-picker.awk no comment
-cat /home/parallels/kb/awk-scripting/docker-exec-picker.awk
-/home/parallels/kb/awk-scripting/get-headings.awk no comment
-cat /home/parallels/kb/awk-scripting/get-headings.awk
-/home/parallels/kb/awk-scripting/center.awk no comment
-cat /home/parallels/kb/awk-scripting/center.awk
-/home/parallels/kb/docker/get-tags.sh no comment
-cat /home/parallels/kb/docker/get-tags.sh
-/home/parallels/kb/docker/destroy-containers-and-images.sh no comment
-cat /home/parallels/kb/docker/destroy-containers-and-images.sh
 /home/parallels/kb/awk-scripting/nmap-script-types.sh no comment
 cat /home/parallels/kb/awk-scripting/nmap-script-types.sh
 /home/parallels/kb/tmux/tmux-script-log.sh no comment
@@ -115,6 +103,11 @@ cat /home/parallels/kb/hacking/test-vuln-in-dockers/ubuntu-reverse-shell/run-doc
 cat /home/parallels/kb/hacking/test-vuln-in-dockers/ubuntu-reverse-shell-user-feature-test/run-docker-catch-rev-shell.sh
 /home/parallels/kb/bash-scripting/self-parsing-code-function-names.sh no comment
 cat /home/parallels/kb/bash-scripting/self-parsing-code-function-names.sh
+
+# done and converted
+/home/parallels/kb/awk-scripting/center.awk center text within the terminal - i think i mgiht have converted this one already?
+/home/parallels/kb/awk-scripting/space-invader.awk # print all variations of spaces between tokens
+/home/parallels/kb/bash-scripting/find-alphanum-base64.sh # find alphanumeric base64 using awk script
 
 # kb internal stuff - might be interesting to check
 /home/parallels/kb/bash-scripting/autogenerate.sh generated the markdown content for files named auto-bash, auto-awk, etc
