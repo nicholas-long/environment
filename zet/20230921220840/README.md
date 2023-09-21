@@ -2,6 +2,7 @@
 
 - created script `zet/20230921220840/describe-script` to print the first comment it finds in scripts to help sorting these
 - [ ] i could just copy most of these in to a card here and fix up all the relative paths
+- [ ] i need to look for non executable scripts as well
 
 # filtered list
 ```bash
