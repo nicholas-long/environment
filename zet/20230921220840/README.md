@@ -77,18 +77,13 @@
 /home/parallels/kb/awk-scripting/get-headings.awk get nested headings from markdown in order to get full keyword contents
 /home/parallels/kb/docker/get-tags.sh get the tags of a particular docker repository using curl and jq
 /home/parallels/kb/docker/destroy-containers-and-images.sh shutdown and destroy docker images manually to clean up space
+/home/parallels/kb/awk-scripting/nmap-script-types.sh enumerate all available types of nmap scripts
+/home/parallels/kb/tmux/tmux-script-log.sh attempt to create script logs from tmux panes
+/home/parallels/kb/docker/templates/ubuntu-dockerfile-template.sh create an ubuntu dockerfile
+/home/parallels/kb/bash-scripting/get-interface-ip.sh select a network interface with fzf menu
+/home/parallels/kb/bash-scripting/get-current-notes-line-count.sh attempt to get a line count of notes while ignoring certain file extensions
 
 # files with "no comment"
-/home/parallels/kb/awk-scripting/nmap-script-types.sh no comment
-cat /home/parallels/kb/awk-scripting/nmap-script-types.sh
-/home/parallels/kb/tmux/tmux-script-log.sh no comment
-cat /home/parallels/kb/tmux/tmux-script-log.sh
-/home/parallels/kb/docker/templates/ubuntu-dockerfile-template.sh no comment
-cat /home/parallels/kb/docker/templates/ubuntu-dockerfile-template.sh
-/home/parallels/kb/bash-scripting/get-interface-ip.sh no comment
-cat /home/parallels/kb/bash-scripting/get-interface-ip.sh
-/home/parallels/kb/bash-scripting/get-current-notes-line-count.sh no comment
-cat /home/parallels/kb/bash-scripting/get-current-notes-line-count.sh
 /home/parallels/kb/linux/package-it-all.sh no comment
 cat /home/parallels/kb/linux/package-it-all.sh
 /home/parallels/kb/linux/get-ip-tmux.sh no comment
