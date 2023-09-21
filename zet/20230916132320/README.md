@@ -19,7 +19,6 @@ id -u
 - [20230916125222](/zet/20230916125222/README.md) tmux scripts directory
 - [20230905015223](/zet/20230905015223/README.md) install scripts
 - [20230905184854](/zet/20230905184854/README.md) prerequesites for environment
-- [20221012171100](/zet/20221012171100/README.md) recently created nodes hub
 
 Tags:
 

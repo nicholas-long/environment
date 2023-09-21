@@ -42,7 +42,6 @@ tmux-scripts
 - [20230913044318](/zet/20230913044318/README.md) tmux buffer edit hotkey script
 - [20230912192810](/zet/20230912192810/README.md) script to search zk markdown in command line
 - [20230914030626](/zet/20230914030626/README.md) tmux pwn menu script for hacking reverse shells and file transfer commands
-- [20221012171100](/zet/20221012171100/README.md) recently created nodes hub
 - [20230916132320](/zet/20230916132320/README.md) script to get platform install command
 
 Tags:
