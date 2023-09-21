@@ -82,22 +82,13 @@
 /home/parallels/kb/docker/templates/ubuntu-dockerfile-template.sh create an ubuntu dockerfile
 /home/parallels/kb/bash-scripting/get-interface-ip.sh select a network interface with fzf menu
 /home/parallels/kb/bash-scripting/get-current-notes-line-count.sh attempt to get a line count of notes while ignoring certain file extensions
-
-# files with "no comment"
-/home/parallels/kb/linux/package-it-all.sh no comment
-cat /home/parallels/kb/linux/package-it-all.sh
-/home/parallels/kb/linux/get-ip-tmux.sh no comment
-cat /home/parallels/kb/linux/get-ip-tmux.sh
-/home/parallels/kb/linux/named-pipe-to-netcat.sh no
-cat /home/parallels/kb/linux/named-pipe-to-netcat.sh
-/home/parallels/kb/linux/getip.sh no comment
-cat /home/parallels/kb/linux/getip.sh
-/home/parallels/kb/hacking/test-vuln-in-dockers/ubuntu-reverse-shell/run-docker-catch-rev-shell.sh no
-cat /home/parallels/kb/hacking/test-vuln-in-dockers/ubuntu-reverse-shell/run-docker-catch-rev-shell.sh
-/home/parallels/kb/hacking/test-vuln-in-dockers/ubuntu-reverse-shell-user-feature-test/run-docker-catch-rev-shell.sh no
-cat /home/parallels/kb/hacking/test-vuln-in-dockers/ubuntu-reverse-shell-user-feature-test/run-docker-catch-rev-shell.sh
-/home/parallels/kb/bash-scripting/self-parsing-code-function-names.sh no comment
-cat /home/parallels/kb/bash-scripting/self-parsing-code-function-names.sh
+/home/parallels/kb/linux/package-it-all.sh attempt to package up all dependencies deb files into a tar to install on a remote target machine
+/home/parallels/kb/linux/get-ip-tmux.sh test tmux script to get IP? looks pretty bad
+/home/parallels/kb/linux/named-pipe-to-netcat.sh example of how to communicate between the network and a named pipe
+/home/parallels/kb/linux/getip.sh another script to get ip. isn't there enough of these?
+/home/parallels/kb/hacking/test-vuln-in-dockers/ubuntu-reverse-shell/run-docker-catch-rev-shell.sh test running an ubuntu docker and catching a reverse shell from it
+/home/parallels/kb/hacking/test-vuln-in-dockers/ubuntu-reverse-shell-user-feature-test/run-docker-catch-rev-shell.sh test running an ubuntu docker and catching a reverse shell from it
+/home/parallels/kb/bash-scripting/self-parsing-code-function-names.sh test self-parsing scripts
 
 # done and converted
 /home/parallels/kb/awk-scripting/center.awk center text within the terminal - i think i mgiht have converted this one already?
