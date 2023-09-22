@@ -12,43 +12,45 @@
 find ~/kb -type f -not -executable | grep -v '\.md$'
 # filtering the list to find some interesting files i might want to copy over
 /home/coyote/kb/.github/workflows/main.yml # example github workflow
-/home/coyote/kb/wordlists/etc.files
-/home/coyote/kb/wordlists/active_directory_brute
-/home/coyote/kb/wordlists/custom.dirbusting
-/home/coyote/kb/sed-scripting/httpd-conf-enable-cgi.sed
-/home/coyote/kb/linux/java8.sh
-/home/coyote/kb/linux/mount-shared-folders-in-vm.sh
-/home/coyote/kb/linux/setup_aliases.sh
-/home/coyote/kb/linux/install_sublime.sh
-/home/coyote/kb/linux/oracle.sh
-/home/coyote/kb/linux/install_vscode.sh
-/home/coyote/kb/linux/old-machine-project/tandy-output-filter.c
-/home/coyote/kb/awk-scripting/colorize.awk
-/home/coyote/kb/awk-scripting/snippet.awk
-/home/coyote/kb/awk-scripting/get-interface.awk
-/home/coyote/kb/awk-scripting/autogenerate-headings-for-source-files.awk
-/home/coyote/kb/awk-scripting/convert-to-try-list-to-separate-files.awk
-/home/coyote/kb/fix-headings
-/home/coyote/kb/zettelkasten-tag-ideas
-/home/coyote/kb/bash-scripting/get-wikipedia-info.sh
-/home/coyote/kb/vim/example-vimrc-bindings.vim
-/home/coyote/kb/vim/example-neovim-bindings.vim
-/home/coyote/kb/hacking/general-notes.md.old
-/home/coyote/kb/hacking/windows/convert-msds-managed-password-to-ntlm-hash.py
-/home/coyote/kb/hacking/windows/uacbypass/fodhelper.ps1
-/home/coyote/kb/hacking/windows/printnightmare-kb-list.txt
-/home/coyote/kb/hacking/passwords/password_cracking_rules/LICENSE
-/home/coyote/kb/hacking/passwords/password_cracking_rules/OneRuleToRuleThemAll.rule
-/home/coyote/kb/hacking/test-vuln-in-dockers/ubuntu-reverse-shell/Dockerfile
-/home/coyote/kb/hacking/test-vuln-in-dockers/ubuntu-reverse-shell-user-feature-test/Dockerfile
-/home/coyote/kb/hacking/test-vuln-in-dockers/ubuntu-reverse-shell-user-feature-test/.gitignore
-/home/coyote/kb/hacking/pwn/boilerplate-pwn-script.py
-/home/coyote/kb/hacking/notes-template/clues
-/home/coyote/kb/hacking/notes-template/passwords
-/home/coyote/kb/hacking/notes-template/users
-/home/coyote/kb/hacking/cve/note
-/home/coyote/kb/hacking/tricks/python-fuzz-valid-dates.py
-/home/coyote/kb/hacking/nmap.commands.old
+
+# used zet/20230921220840/describe-script to print headings, but lots of them had no comments
+# then went and manually worked on them
+/home/coyote/kb/hacking/tricks/python-fuzz-valid-dates.py # fuzz valid dates
+/home/coyote/kb/hacking/nmap.commands.old # Initial Fast TCP Scan
+/home/coyote/kb/linux/mount-shared-folders-in-vm.sh # mount shared folders on VM
+/home/coyote/kb/linux/install_sublime.sh # install sublimetext
+/home/coyote/kb/linux/install_vscode.sh # install vscode
+/home/coyote/kb/awk-scripting/colorize.awk # replace words with colorized versions
+/home/coyote/kb/awk-scripting/snippet.awk # awk print markdown snippet text between backtick lines
+/home/coyote/kb/awk-scripting/autogenerate-headings-for-source-files.awk # autogenerate headings for source files
+/home/coyote/kb/bash-scripting/get-wikipedia-info.sh # get headings from wikipedia page
+/home/coyote/kb/hacking/general-notes.md.old # figure out what to do with this
+/home/coyote/kb/hacking/windows/convert-msds-managed-password-to-ntlm-hash.py # convert a GMSA managed password structure to a NTLM hash
+/home/coyote/kb/hacking/passwords/password_cracking_rules/OneRuleToRuleThemAll.rule # rule file for hashcat that is worth having
+/home/coyote/kb/hacking/pwn/boilerplate-pwn-script.py # pwntools template binary exploit script
+/home/coyote/kb/hacking/notes-template # directory that is a template folder structure for hacking notes
+
+/home/coyote/kb/hacking/cve/note no comment
+/home/coyote/kb/wordlists/etc.files no comment
+/home/coyote/kb/wordlists/active_directory_brute no comment
+/home/coyote/kb/wordlists/custom.dirbusting no comment
+/home/coyote/kb/sed-scripting/httpd-conf-enable-cgi.sed no comment
+/home/coyote/kb/linux/java8.sh no comment
+/home/coyote/kb/linux/setup_aliases.sh no comment
+/home/coyote/kb/linux/oracle.sh no comment
+/home/coyote/kb/linux/old-machine-project/tandy-output-filter.c no comment
+/home/coyote/kb/awk-scripting/get-interface.awk no comment
+/home/coyote/kb/awk-scripting/convert-to-try-list-to-separate-files.awk no comment
+/home/coyote/kb/fix-headings # comment only says: not doing?
+/home/coyote/kb/zettelkasten-tag-ideas no comment
+/home/coyote/kb/vim/example-vimrc-bindings.vim no comment
+/home/coyote/kb/vim/example-neovim-bindings.vim no comment
+/home/coyote/kb/hacking/windows/uacbypass/fodhelper.ps1 no comment
+/home/coyote/kb/hacking/windows/printnightmare-kb-list.txt no comment
+/home/coyote/kb/hacking/passwords/password_cracking_rules/LICENSE no comment
+/home/coyote/kb/hacking/test-vuln-in-dockers/ubuntu-reverse-shell/Dockerfile no comment
+/home/coyote/kb/hacking/test-vuln-in-dockers/ubuntu-reverse-shell-user-feature-test/Dockerfile no comment
+/home/coyote/kb/hacking/test-vuln-in-dockers/ubuntu-reverse-shell-user-feature-test/.gitignore no comment
 
 ```
 
