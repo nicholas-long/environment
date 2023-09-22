@@ -11,7 +11,7 @@
 - [x] run maintenance script to update
 - [x] tmux
 - [x] nvim
-- [ ] vim - basic set of keybinds
+- [x] vim - basic set of keybinds
 - [x] lazygit
   - [20230922051930](/zet/20230922051930/README.md) lazygit interactive install script
 - [x] install python requirements for tmux scripts
