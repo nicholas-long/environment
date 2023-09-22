@@ -18,6 +18,7 @@ downloadurl=$(zet/20230905030303/github-latest-files https://github.com/sharkdp/
 - [20221011145143](/zet/20221011145143/README.md) bat command pretty printer
 - [20230905030303](/zet/20230905030303/README.md) script to get github release links
 - [20230905015223](/zet/20230905015223/README.md) install scripts
+- [20230922051930](/zet/20230922051930/README.md) lazygit interactive install script
 
 Tags:
 
