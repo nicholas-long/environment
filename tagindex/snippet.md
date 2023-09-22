@@ -1,0 +1,1 @@
+- [20230922212036](/zet/20230922212036/README.md) command shortcut to get markdown titles or content summaries

@@ -1,3 +1,4 @@
 - [20221011145143](/zet/20221011145143/README.md) bat command pretty printer
 - [20230912192810](/zet/20230912192810/README.md) script to search zk markdown in command line
 - [20230919153113](/zet/20230919153113/README.md) obsidian links scripts
+- [20230922212036](/zet/20230922212036/README.md) command shortcut to get markdown titles or content summaries

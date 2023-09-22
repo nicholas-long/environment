@@ -9,3 +9,4 @@
 - [20230919153113](/zet/20230919153113/README.md) obsidian links scripts
 - [20230919172630](/zet/20230919172630/README.md) script to get root of repository or obsidian knowledge base
 - [20230920031249](/zet/20230920031249/README.md) script to search tldr commands by features to find ways to do things
+- [20230922212036](/zet/20230922212036/README.md) command shortcut to get markdown titles or content summaries

@@ -20,6 +20,7 @@ zet/20221012171100/README.md
 - [20230922051930](/zet/20230922051930/README.md) lazygit interactive install script
 - [20230922203837](/zet/20230922203837/README.md) get rid of all platform specific binaries from zkvr
 - [20230922210126](/zet/20230922210126/README.md) cards i can clean up
+- [20230922212036](/zet/20230922212036/README.md) command shortcut to get markdown titles or content summaries
 
 Tags:
 
