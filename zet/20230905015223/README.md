@@ -1,7 +1,6 @@
 # install scripts
 
 - concept of `install scripts`
-- [ ] choose correct config and location for both vim and neovim
 - install my rc script
   - this script [20230905015120](/zet/20230905015120/README.md) bash rc file and config
   - [x] into bashrc
@@ -10,11 +9,13 @@
 - [x] install with makefile [20230905210416](/zet/20230905210416/README.md) fast file manager fff
 - [x] run maintenance script to update
 - [x] tmux
-- [x] nvim
+- [ ] nvim - i don't think i have done this yet
+  - should i include plugins?
 - [x] vim - basic set of keybinds
 - [x] lazygit
   - [20230922051930](/zet/20230922051930/README.md) lazygit interactive install script
 - [x] install python requirements for tmux scripts
+- [ ] choose correct config and location for both vim and neovim
 
 - is it a good idea to set up git credential storage?
 ```

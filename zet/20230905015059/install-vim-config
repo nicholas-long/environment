@@ -3,7 +3,7 @@
 # install vimrc
 # check if this version is already symlinked
 if ls -al ~/.vimrc 2>/dev/null | grep 20230905015059 2>/dev/null >/dev/null ; then
-  echo vimrc symlink is installed
+  echo vimrc symlink is already installed
 else
   # install
   mv ~/.vimrc ~/vimrc.bak 2>/dev/null
