@@ -29,6 +29,7 @@ stuff i am working on.
 - [20230905015028](/zet/20230905015028/README.md) dotfiles hub
 - [20230905015223](/zet/20230905015223/README.md) install scripts
 - [20230922203837](/zet/20230922203837/README.md) get rid of all platform specific binaries from zkvr
+- [20230922210126](/zet/20230922210126/README.md) cards i can clean up
 
 Tags:
 
