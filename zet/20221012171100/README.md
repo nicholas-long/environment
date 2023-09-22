@@ -24,6 +24,8 @@ zet/20221012171100/README.md
 - [20230922214323](/zet/20230922214323/README.md) this environment
 - [20230922214602](/zet/20230922214602/README.md) things i want to implement in zkvr after working on the environment
 - [20230922220109](/zet/20230922220109/README.md) create a dockerfile for this environment
+- [20230922222627](/zet/20230922222627/README.md) testing environment on netbook
+- [20230922222809](/zet/20230922222809/README.md) getting rid of on-screen keyboard
 
 Tags:
 

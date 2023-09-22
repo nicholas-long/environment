@@ -26,6 +26,7 @@ stuff i am working on.
 - [20230922214323](/zet/20230922214323/README.md) this environment
 - [20230922214602](/zet/20230922214602/README.md) things i want to implement in zkvr after working on the environment
 - [20230922220109](/zet/20230922220109/README.md) create a dockerfile for this environment
+- [20230921220840](/zet/20230921220840/README.md) list of kb scripts that i could decide whether to copy over
 
 Tags:
 

@@ -14,6 +14,7 @@
 
 - [20230922214323](/zet/20230922214323/README.md) this environment
 - [20230922222809](/zet/20230922222809/README.md) getting rid of on-screen keyboard
+- [20221012171100](/zet/20221012171100/README.md) recently created nodes hub
 
 Tags:
 
