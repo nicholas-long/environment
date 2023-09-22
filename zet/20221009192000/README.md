@@ -7,6 +7,7 @@ a script will check to see if the ID numbers appear on the main README.
 ```
 Missing:
 - [20230921220633](/zet/20230921220633/README.md) list of cool ideas i still want to implement in my environment #idea #list #coding
+- [20230922214323](/zet/20230922214323/README.md) this environment #hub
 Extra:
 ```
 
@@ -37,6 +38,7 @@ Extra:
 - [20230906035650](/zet/20230906035650/README.md) script to print reverse shell snippets
 - [20230914030626](/zet/20230914030626/README.md) tmux pwn menu script for hacking reverse shells and file transfer commands
 - [20230921220633](/zet/20230921220633/README.md) list of cool ideas i still want to implement in my environment
+- [20230922214323](/zet/20230922214323/README.md) this environment
 
 Tags:
 

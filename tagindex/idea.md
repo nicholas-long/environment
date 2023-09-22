@@ -20,3 +20,4 @@
 - [20230906050031](/zet/20230906050031/README.md) script to center text in the terminal
 - [20230921220633](/zet/20230921220633/README.md) list of cool ideas i still want to implement in my environment
 - [20230921220840](/zet/20230921220840/README.md) list of kb scripts that i could decide whether to copy over
+- [20230922214602](/zet/20230922214602/README.md) things i want to implement in zkvr after working on the environment

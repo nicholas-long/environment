@@ -15,6 +15,7 @@
 - [20230922214602](/zet/20230922214602/README.md) things i want to implement in zkvr after working on the environment
 - [20221009192000](/zet/20221009192000/README.md) stuff to put on main page
 - [20221006013313](/zet/20221006013313/README.md) zettelkasten
+- [20221012171100](/zet/20221012171100/README.md) recently created nodes hub
 
 Tags:
 
