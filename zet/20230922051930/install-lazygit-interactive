@@ -9,14 +9,15 @@ downloadurl=$(zet/20230905030303/github-latest-files https://github.com/jesseduf
 if [ -z "$downloadurl" ]; then
   exit 1
 fi
-tf=$(mkdtemp -d)
+tf=$(mktemp -d)
 cd "$tf"
 wget $downloadurl
 filename=$(ls lazygit_* | head -n 1)
 
 # install it
 echo "installing file $filename"
+echo "using directory $tf"
 tar -xzvf "$filename"
 sudo cp lazygit /usr/bin/
 cd - >/dev/null
-rm "$tf"
+rm -rf "$tf"
