@@ -1,9 +1,7 @@
 20221003150098	zet/20221003150098/README.md	TODO
 20221006013313	zet/20221006013313/README.md	zettelkasten
 20221006032546	zet/20221006032546/README.md	my original implementation of zet cmd
-20221006084204	zet/20221006084204/README.md	future enhancements to zet cmd
 20221006213953	zet/20221006213953/README.md	video notes
-20221007043646	zet/20221007043646/README.md	findings about implementing zettelkasten
 20221007044552	zet/20221007044552/README.md	todo or to-try list
 20221007193324	zet/20221007193324/README.md	github actions
 20221008042814	zet/20221008042814/README.md	WIP
@@ -32,15 +30,11 @@
 20221101043303	zet/20221101043303/README.md	important features and workflow tricks to mention on main page
 20221101052020	zet/20221101052020/README.md	TODO: Your to-do list
 20221101163755	zet/20221101163755/README.md	fix clone
-20221102180120	zet/20221102180120/README.md	get some screenshots
-20221102180133	zet/20221102180133/README.md	record terminal video of usage
-20221102180329	zet/20221102180329/README.md	mermaidjs automatic card
 20221103162623	zet/20221103162623/README.md	move zetcmd to wrapper CLI and remove fzf subcommands from CLI
 20221105021715	zet/20221105021715/README.md	git diff picker feature
 20221105220915	zet/20221105220915/README.md	add recurring timers using github cron actions
 20221105222236	zet/20221105222236/README.md	cron syntax
 20221105224810	zet/20221105224810/README.md	launch browser to current card on github
-20221120183400	zet/20221120183400/README.md	make copy option process indentation of code blocks properly
 20230905015028	zet/20230905015028/README.md	dotfiles hub
 20230905015059	zet/20230905015059/README.md	vim config
 20230905015107	zet/20230905015107/README.md	tmux config

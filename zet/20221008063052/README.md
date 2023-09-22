@@ -23,7 +23,6 @@ zet/20230905160850/autoexec_enrich
 - [20221012144502](/zet/20221012144502/README.md) track modification dates
 - [20221009192000](/zet/20221009192000/README.md) stuff to put on main page
 - [20221009095853](/zet/20221009095853/README.md) finished
-- [20221006084204](/zet/20221006084204/README.md) future enhancements to zet cmd
 - [20221006032546](/zet/20221006032546/README.md) my original implementation of zet cmd
 - [20230905160850](/zet/20230905160850/README.md) directory for executable short commands to run on path
 
