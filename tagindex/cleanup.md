@@ -1,1 +1,2 @@
 - [20221021071146](/zet/20221021071146/README.md) delete things marked as #DEL periodically
+- [20230922203837](/zet/20230922203837/README.md) get rid of all platform specific binaries from zkvr

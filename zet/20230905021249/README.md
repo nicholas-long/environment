@@ -67,6 +67,7 @@ bat_0.23.0_i686.deb https://github.com/sharkdp/bat/releases/download/v0.23.0/bat
 - [20221011145143](/zet/20221011145143/README.md) bat command pretty printer
 - [20230905030303](/zet/20230905030303/README.md) script to get github release links
 - [20230907151050](/zet/20230907151050/README.md) bat interactive install script
+- [20230922203837](/zet/20230922203837/README.md) get rid of all platform specific binaries from zkvr
 
 Tags:
 
