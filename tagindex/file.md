@@ -1,2 +1,2 @@
-- [20221028172836](/zet/20221028172836/README.md) symlink dockerfile
+- [20221028172836](/zet/20221028172836/README.md) old dockerfile for testing zkvr with vim and tmux config
 - [20230905015120](/zet/20230905015120/README.md) bash rc file and config

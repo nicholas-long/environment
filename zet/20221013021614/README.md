@@ -67,15 +67,12 @@ zet/20221013021614/getcopycontent zet/20221013021614/README.md
 
 - [20221006032546](/zet/20221006032546/README.md) my original implementation of zet cmd
 - [20221008042814](/zet/20221008042814/README.md) WIP
-- [20221028172836](/zet/20221028172836/README.md) symlink dockerfile
-- [20221014215609](/zet/20221014215609/README.md) finished, but with ongoing related work
+- [20221028172836](/zet/20221028172836/README.md) old dockerfile for testing zkvr with vim and tmux config
 - [20221009192000](/zet/20221009192000/README.md) stuff to put on main page
 - [20221025024238](/zet/20221025024238/README.md) enumerate tags
 - [20221101043303](/zet/20221101043303/README.md) important features and workflow tricks to mention on main page
-- [20221101163755](/zet/20221101163755/README.md) fix clone
 - [20221014025416](/zet/20221014025416/README.md) clone a subsection of a graph by tag boundaries
 - [20221011145143](/zet/20221011145143/README.md) bat command pretty printer
-- [20221105021715](/zet/20221105021715/README.md) git diff picker feature
 - [20221027011800](/zet/20221027011800/README.md) zetcli bash wrapper subcommand implementation
 - [20221105224810](/zet/20221105224810/README.md) launch browser to current card on github
 - [20230912192810](/zet/20230912192810/README.md) script to search zk markdown in command line

@@ -23,6 +23,7 @@ zet/20221012171100/README.md
 - [20230922212036](/zet/20230922212036/README.md) command shortcut to get markdown titles or content summaries
 - [20230922214323](/zet/20230922214323/README.md) this environment
 - [20230922214602](/zet/20230922214602/README.md) things i want to implement in zkvr after working on the environment
+- [20230922220109](/zet/20230922220109/README.md) create a dockerfile for this environment
 
 Tags:
 

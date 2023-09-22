@@ -10,7 +10,6 @@
 
 # Related
 
-- [20221014215609](/zet/20221014215609/README.md) finished, but with ongoing related work
 
 Tags:
 

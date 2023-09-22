@@ -16,7 +16,6 @@ stuff i am working on.
 - [20221007044552](/zet/20221007044552/README.md) todo or to-try list
 - [20221003150098](/zet/20221003150098/README.md) TODO
 - [20221024215216](/zet/20221024215216/README.md) future enhancements to graph query language
-- [20221014215609](/zet/20221014215609/README.md) finished, but with ongoing related work
 - [20221008061845](/zet/20221008061845/README.md) workflow
 - [20221105224810](/zet/20221105224810/README.md) launch browser to current card on github
 - [20221101052020](/zet/20221101052020/README.md) TODO: Your to-do list
@@ -26,6 +25,7 @@ stuff i am working on.
 - [20230922210126](/zet/20230922210126/README.md) cards i can clean up
 - [20230922214323](/zet/20230922214323/README.md) this environment
 - [20230922214602](/zet/20230922214602/README.md) things i want to implement in zkvr after working on the environment
+- [20230922220109](/zet/20230922220109/README.md) create a dockerfile for this environment
 
 Tags:
 

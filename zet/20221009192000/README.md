@@ -8,6 +8,7 @@ a script will check to see if the ID numbers appear on the main README.
 Missing:
 - [20230921220633](/zet/20230921220633/README.md) list of cool ideas i still want to implement in my environment #idea #list #coding
 - [20230922214323](/zet/20230922214323/README.md) this environment #hub
+- [20230922220109](/zet/20230922220109/README.md) create a dockerfile for this environment #docker #script
 Extra:
 ```
 
@@ -22,7 +23,6 @@ Extra:
 - [20221003150098](/zet/20221003150098/README.md) TODO
 - [20221007044552](/zet/20221007044552/README.md) todo or to-try list
 - [20221009095853](/zet/20221009095853/README.md) finished
-- [20221014215609](/zet/20221014215609/README.md) finished, but with ongoing related work
 - [20221031092923](/zet/20221031092923/README.md) template for video notes
 - [20221101043303](/zet/20221101043303/README.md) important features and workflow tricks to mention on main page
 - [20221008063052](/zet/20221008063052/README.md) autorunning scripts in cards
@@ -39,6 +39,7 @@ Extra:
 - [20230914030626](/zet/20230914030626/README.md) tmux pwn menu script for hacking reverse shells and file transfer commands
 - [20230921220633](/zet/20230921220633/README.md) list of cool ideas i still want to implement in my environment
 - [20230922214323](/zet/20230922214323/README.md) this environment
+- [20230922220109](/zet/20230922220109/README.md) create a dockerfile for this environment
 
 Tags:
 
