@@ -11,6 +11,11 @@ if which bat >/dev/null; then
 else
   zet/20230907151050/install-bat-interactive
 fi
+if which lazygit >/dev/null; then
+  echo "lazygit is installed"
+else
+  zet/20230922051930/install-lazygit-interactive
+fi
 if which fff >/dev/null; then
   echo "fff is installed"
 else
