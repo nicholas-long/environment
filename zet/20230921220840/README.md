@@ -6,6 +6,8 @@
 - [ ] i could definitely make a card to store wordlists
 
 # list of non-executable scripts
+- [ ] finish going though this list
+
 ```bash
 find ~/kb -type f -not -executable | grep -v '\.md$'
 # filtering the list to find some interesting files i might want to copy over
