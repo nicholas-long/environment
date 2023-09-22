@@ -4,11 +4,13 @@
 # pick download url from github interactively
 
 downloadurl=$(zet/20230905030303/github-latest-files https://github.com/jesseduffield/lazygit | \
-  fzf --preview=lscpu "--prompt=select the version of bat for your cpu> " | \
+  fzf --preview=lscpu "--prompt=select version of lazygit for your cpu> " | \
   awk '{print $2}')
 if [ -z "$downloadurl" ]; then
   exit 1
 fi
+tf=$(mkdtemp -d)
+cd "$tf"
 wget $downloadurl
 filename=$(ls lazygit_* | head -n 1)
 
@@ -16,3 +18,5 @@ filename=$(ls lazygit_* | head -n 1)
 echo "installing file $filename"
 tar -xzvf "$filename"
 sudo cp lazygit /usr/bin/
+cd - >/dev/null
+rm "$tf"
