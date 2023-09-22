@@ -42,6 +42,7 @@
 - [20221008042814](/zet/20221008042814/README.md) WIP
 - [20221008063052](/zet/20221008063052/README.md) autorunning scripts in cards
 - [20221014025416](/zet/20221014025416/README.md) clone a subsection of a graph by tag boundaries
+- [20230922210126](/zet/20230922210126/README.md) cards i can clean up
 
 Tags:
 

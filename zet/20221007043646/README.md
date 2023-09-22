@@ -132,6 +132,7 @@
 - [20221006084204](/zet/20221006084204/README.md) future enhancements to zet cmd
 - [20221006032546](/zet/20221006032546/README.md) my original implementation of zet cmd
 - [20221006013313](/zet/20221006013313/README.md) zettelkasten
+- [20230922210126](/zet/20230922210126/README.md) cards i can clean up
 
 Tags:
 

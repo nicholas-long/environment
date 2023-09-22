@@ -17,6 +17,7 @@
 - [20221006013313](/zet/20221006013313/README.md) zettelkasten
 - [20221031092923](/zet/20221031092923/README.md) template for video notes
 - [20221008061845](/zet/20221008061845/README.md) workflow
+- [20230922210126](/zet/20230922210126/README.md) cards i can clean up
 
 Tags:
 

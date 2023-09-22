@@ -19,6 +19,7 @@
 - https://github.com/naps62/zk
 - [20221008042814](/zet/20221008042814/README.md) WIP
 - [20221013221136](/zet/20221013221136/README.md) graph query language for zettelkasten
+- [20230922210126](/zet/20230922210126/README.md) cards i can clean up
 
 Tags:
 
