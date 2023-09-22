@@ -3,6 +3,52 @@
 - created script `zet/20230921220840/describe-script` to print the first comment it finds in scripts to help sorting these
 - [ ] i could just copy most of these in to a card here and fix up all the relative paths
 - [ ] i need to look for non executable scripts as well
+- [ ] i could definitely make a card to store wordlists
+
+# list of non-executable scripts
+```bash
+find ~/kb -type f -not -executable | grep -v '\.md$'
+# filtering the list to find some interesting files i might want to copy over
+/home/coyote/kb/.github/workflows/main.yml # example github workflow
+/home/coyote/kb/wordlists/etc.files
+/home/coyote/kb/wordlists/active_directory_brute
+/home/coyote/kb/wordlists/custom.dirbusting
+/home/coyote/kb/sed-scripting/httpd-conf-enable-cgi.sed
+/home/coyote/kb/linux/java8.sh
+/home/coyote/kb/linux/mount-shared-folders-in-vm.sh
+/home/coyote/kb/linux/setup_aliases.sh
+/home/coyote/kb/linux/install_sublime.sh
+/home/coyote/kb/linux/oracle.sh
+/home/coyote/kb/linux/install_vscode.sh
+/home/coyote/kb/linux/old-machine-project/tandy-output-filter.c
+/home/coyote/kb/awk-scripting/colorize.awk
+/home/coyote/kb/awk-scripting/snippet.awk
+/home/coyote/kb/awk-scripting/get-interface.awk
+/home/coyote/kb/awk-scripting/autogenerate-headings-for-source-files.awk
+/home/coyote/kb/awk-scripting/convert-to-try-list-to-separate-files.awk
+/home/coyote/kb/fix-headings
+/home/coyote/kb/zettelkasten-tag-ideas
+/home/coyote/kb/bash-scripting/get-wikipedia-info.sh
+/home/coyote/kb/vim/example-vimrc-bindings.vim
+/home/coyote/kb/vim/example-neovim-bindings.vim
+/home/coyote/kb/hacking/general-notes.md.old
+/home/coyote/kb/hacking/windows/convert-msds-managed-password-to-ntlm-hash.py
+/home/coyote/kb/hacking/windows/uacbypass/fodhelper.ps1
+/home/coyote/kb/hacking/windows/printnightmare-kb-list.txt
+/home/coyote/kb/hacking/passwords/password_cracking_rules/LICENSE
+/home/coyote/kb/hacking/passwords/password_cracking_rules/OneRuleToRuleThemAll.rule
+/home/coyote/kb/hacking/test-vuln-in-dockers/ubuntu-reverse-shell/Dockerfile
+/home/coyote/kb/hacking/test-vuln-in-dockers/ubuntu-reverse-shell-user-feature-test/Dockerfile
+/home/coyote/kb/hacking/test-vuln-in-dockers/ubuntu-reverse-shell-user-feature-test/.gitignore
+/home/coyote/kb/hacking/pwn/boilerplate-pwn-script.py
+/home/coyote/kb/hacking/notes-template/clues
+/home/coyote/kb/hacking/notes-template/passwords
+/home/coyote/kb/hacking/notes-template/users
+/home/coyote/kb/hacking/cve/note
+/home/coyote/kb/hacking/tricks/python-fuzz-valid-dates.py
+/home/coyote/kb/hacking/nmap.commands.old
+
+```
 
 # filtered list
 ```bash
@@ -214,6 +260,7 @@ find ~/kb -type f -executable
 
 - [20230921220633](/zet/20230921220633/README.md) list of cool ideas i still want to implement in my environment
 - [20221012171100](/zet/20221012171100/README.md) recently created nodes hub
+- [20221008042814](/zet/20221008042814/README.md) WIP
 
 Tags:
 
