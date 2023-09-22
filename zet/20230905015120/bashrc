@@ -13,7 +13,7 @@ fi
 
 # configure EDITOR environment variable so sudoedit and fff work
 if [ -z "$EDITOR" ]; then
-  if [ which nvim >/dev/null ]; then
+  if which nvim >/dev/null ; then
     export EDITOR=nvim
   else
     export EDITOR=vim
