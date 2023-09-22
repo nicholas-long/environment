@@ -1,4 +1,4 @@
-# put tmux and vim rc config in dockerfile
+# put tmux and vim rc config in dockerfile for testing zkvr
 
 - concept of `put tmux and vim rc config in dockerfile`
 - could use some ideas from pen test environ, but not the whole config
@@ -31,4 +31,4 @@ chmod +x zet/20221022000131/entrypoint
 
 Tags:
 
-    #idea
+    #docker #dotfiles

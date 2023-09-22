@@ -9,7 +9,13 @@
   - has a snippet and automatic enrich that finds all viedeo notes cards that are not linked. could be useful. keeping this for now.
 - [20221023085822](/zet/20221023085822/README.md) implement returning paths or tables in graph query language
   - there is a script here that might be useful or used or something to look at in the future
-- [20221006013313](/zet/20221006013313/README.md) zettelkasten - this is linked to like everything and should be saved
+- interesting stuff for dockerfile project
+  - [20221028172836](/zet/20221028172836/README.md) symlink dockerfile
+  - [20221022000131](/zet/20221022000131/README.md) put tmux and vim rc config in dockerfile
+- might want to save - interesting
+  - [20221105220915](/zet/20221105220915/README.md) add recurring timers using github cron actions
+  - [20221014025416](/zet/20221014025416/README.md) clone a subsection of a graph by tag boundaries
+  - [20221026064448](/zet/20221026064448/README.md) check syntax of dash lists for tabstop 4
 
 ```
 ls zet/20221023085822
@@ -21,6 +27,42 @@ ls zet/20221006213953
 README.md
 autoexec_enrich
 snippet
+```
+
+## batch 3 - stuff that was linked to the finished card
+
+- [20221014215609](/zet/20221014215609/README.md) finished, but with ongoing related work
+- [20221101163755](/zet/20221101163755/README.md) fix clone
+- [20221105021715](/zet/20221105021715/README.md) git diff picker feature
+
+```
+ls -al zet/20221014215609
+ls -al zet/20221101163755
+ls -al zet/20221026064448
+ls -al zet/20221105021715
+
+total 12
+drwxr-xr-x  2 coyote coyote 4096 Sep 21 23:22 .
+drwxr-xr-x 83 coyote coyote 4096 Sep 22 17:01 ..
+-rw-r--r--  1 coyote coyote  693 Sep 21 23:22 README.md
+total 12
+drwxr-xr-x  2 coyote coyote 4096 Sep 21 23:22 .
+drwxr-xr-x 83 coyote coyote 4096 Sep 22 17:01 ..
+-rw-r--r--  1 coyote coyote  542 Sep 21 23:22 README.md
+total 20
+drwxr-xr-x  2 coyote coyote 4096 Sep 22 16:49 .
+drwxr-xr-x 83 coyote coyote 4096 Sep 22 17:01 ..
+-rw-------  1 coyote coyote  343 Sep 22 16:49 README.md
+-rwxr-xr-x  1 coyote coyote  416 Sep 21 23:22 autoexec_enrich
+-rwxr-xr-x  1 coyote coyote  332 Sep 21 23:22 snippet
+total 12
+drwxr-xr-x  2 coyote coyote 4096 Sep 21 23:22 .
+drwxr-xr-x 83 coyote coyote 4096 Sep 22 17:01 ..
+-rw-r--r--  1 coyote coyote  522 Sep 21 23:22 README.md
+
+rm -rf zet/20221014215609
+rm -rf zet/20221101163755
+rm -rf zet/20221105021715
 ```
 
 - enumerating and prioritizing all cards
