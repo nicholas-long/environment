@@ -2,6 +2,8 @@
 
 - created script `zet/20230921220840/describe-script` to print the first comment it finds in scripts to help sorting these
 - [ ] i could just copy most of these in to a card here and fix up all the relative paths
+  - there are definitely like 100 scripts here. i think any ones that don't need a lot of cleanup can just be brought right in.
+  - is there a way to check with grep if the scripts contain a nested mess of references to other kb scripts?
 - [x] i need to look for non executable scripts as well
 - [ ] i could definitely make a card to store wordlists
 
@@ -15,6 +17,26 @@ find ~/kb -type f -not -executable | grep -v '\.md$'
 
 # used zet/20230921220840/describe-script to print headings, but lots of them had no comments
 # then went and manually worked on them
+# then moved them to be included in "filtered list" of everything to copy
+
+```
+
+# do not copy these
+```
+/home/coyote/kb/awk-scripting/convert-to-try-list-to-separate-files.awk rewriting a lot of commands. trash this
+/home/coyote/kb/zettelkasten-tag-ideas example tags to use in zettelkasten? trash this
+/home/coyote/kb/fix-headings # comment only says: not doing? this looks like a scratch list from an old project
+/home/coyote/kb/vim/example-vimrc-bindings.vim old vimrc that looks unimportant
+/home/coyote/kb/vim/example-neovim-bindings.vim old vimrc that looks unimportant
+
+# kb internal stuff
+/home/parallels/kb/bash-scripting/autogenerate.sh generated the markdown content for files named auto-bash, auto-awk, etc
+/home/parallels/kb/autogenerate-all-languages.sh generated the markdown content for files named auto-bash, auto-awk, etc
+```
+
+# filtered list
+```bash
+
 /home/coyote/kb/hacking/tricks/python-fuzz-valid-dates.py # fuzz valid dates
 /home/coyote/kb/hacking/nmap.commands.old # Initial Fast TCP Scan
 /home/coyote/kb/linux/mount-shared-folders-in-vm.sh # mount shared folders on VM
@@ -42,18 +64,6 @@ find ~/kb -type f -not -executable | grep -v '\.md$'
 /home/coyote/kb/hacking/test-vuln-in-dockers/ubuntu-reverse-shell save this directory
 /home/coyote/kb/hacking/test-vuln-in-dockers/ubuntu-reverse-shell-user-feature-test save this directory
 /home/coyote/kb/hacking/windows/uacbypass/fodhelper.ps1 a fodhelper bypass that should go in zk hacking notes
-
-# do not copy these
-/home/coyote/kb/awk-scripting/convert-to-try-list-to-separate-files.awk rewriting a lot of commands. trash this
-/home/coyote/kb/zettelkasten-tag-ideas example tags to use in zettelkasten? trash this
-/home/coyote/kb/fix-headings # comment only says: not doing? this looks like a scratch list from an old project
-/home/coyote/kb/vim/example-vimrc-bindings.vim old vimrc that looks unimportant
-/home/coyote/kb/vim/example-neovim-bindings.vim old vimrc that looks unimportant
-```
-
-# filtered list
-```bash
-
 /home/parallels/kb/linux/runneo4j.sh # run neo4j in a docker
 /home/parallels/kb/linux/alacritty-run-tmux.sh # shortcut to start tmux session in a working directory with alacritty
 /home/parallels/kb/hacking/cve/get-tsv.sh # download the current CVE list get as Tab Separated Values. everything in this cve directory is about this project.
@@ -142,10 +152,6 @@ find ~/kb -type f -not -executable | grep -v '\.md$'
 /home/parallels/kb/awk-scripting/center.awk center text within the terminal - i think i mgiht have converted this one already?
 /home/parallels/kb/awk-scripting/space-invader.awk # print all variations of spaces between tokens
 /home/parallels/kb/bash-scripting/find-alphanum-base64.sh # find alphanumeric base64 using awk script
-
-# kb internal stuff - might be interesting to check
-/home/parallels/kb/bash-scripting/autogenerate.sh generated the markdown content for files named auto-bash, auto-awk, etc
-/home/parallels/kb/autogenerate-all-languages.sh generated the markdown content for files named auto-bash, auto-awk, etc
 
 ```
 
