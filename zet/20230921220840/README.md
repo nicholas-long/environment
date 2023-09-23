@@ -1,5 +1,7 @@
 # list of kb scripts that i could decide whether to copy over
 
+- this is definitely going to be an ongoing project. i think i should copy over the most interesting and useful scripts first, and copy the rest as needed.
+  - i should be able to locate that these scripts exist by name by searching within zkvr as needed
 - created script `zet/20230921220840/describe-script` to print the first comment it finds in scripts to help sorting these
 - [ ] i could just copy most of these in to a card here and fix up all the relative paths
   - there are definitely like 100 scripts here. i think any ones that don't need a lot of cleanup can just be brought right in.
@@ -270,6 +272,7 @@ find ~/kb -type f -executable
 - [20221012171100](/zet/20221012171100/README.md) recently created nodes hub
 - [20221008042814](/zet/20221008042814/README.md) WIP
 - [20230923065000](/zet/20230923065000/README.md) determining which scripts have kb references using grep
+- [20230906033259](/zet/20230906033259/README.md) functions to copy over and possibly remake as commands
 
 Tags:
 
