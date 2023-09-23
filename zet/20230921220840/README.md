@@ -44,9 +44,6 @@ find ~/kb -type f -not -executable | grep -v '\.md$'
 # filtered list
 ```bash
 
-/home/parallels/kb/python/convert-csv-to-tsv.py # convert CSV to TSV
-/home/parallels/kb/hacking/cve/get-tsv.sh # download the current CVE list get as Tab Separated Values. everything in this cve directory is about this project.
-/home/parallels/kb/hacking/cve/relevant.awk # filter the CVE list for potentially valid, relevant vulnerabilities
 /home/parallels/kb/awk-scripting/get-headings.awk get nested headings from markdown in order to get full keyword contents
 /home/parallels/kb/bash-scripting/exif-all-images.sh # run exiftool on all of the images within a directory
 /home/parallels/kb/awk-scripting/live-combine.awk # combine lines with all previous lines combinatorically
@@ -158,6 +155,9 @@ find ~/kb -type f -not -executable | grep -v '\.md$'
 /home/parallels/kb/awk-scripting/center.awk center text within the terminal - i think i mgiht have converted this one already?
 /home/parallels/kb/awk-scripting/space-invader.awk # print all variations of spaces between tokens
 /home/parallels/kb/bash-scripting/find-alphanum-base64.sh # find alphanumeric base64 using awk script
+/home/parallels/kb/python/convert-csv-to-tsv.py # convert CSV to TSV
+/home/parallels/kb/hacking/cve/get-tsv.sh # download the current CVE list get as Tab Separated Values. everything in this cve directory is about this project.
+/home/parallels/kb/hacking/cve/relevant.awk # filter the CVE list for potentially valid, relevant vulnerabilities
 
 ```
 

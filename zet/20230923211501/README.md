@@ -1,6 +1,11 @@
 # get current CVE list as tsv
 
-- concept of `get current CVE list as tsv`
+- [x] need to update the relative path used in the sh script
+- script named `zet/20230923211501/get-cve-list-tsv`
+- example running and filtering with the awk script
+```bash
+zet/20230923211501/get-cve-list-tsv | zet/20230923211501/filter-relevant-cve-items
+```
 
 ```bash
 /home/coyote/kb/python/convert-csv-to-tsv.py # convert CSV to TSV
