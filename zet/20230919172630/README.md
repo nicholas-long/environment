@@ -50,7 +50,6 @@ zet/20230912192810/search-markdown:# #--preview="$ENVIRON_BASEPATH/zet/202309121
 # Related
 
 - [20230919153113](/zet/20230919153113/README.md) obsidian links scripts
-- [20221012171100](/zet/20221012171100/README.md) recently created nodes hub
 - [20230905015120](/zet/20230905015120/README.md) bash rc file and config
 
 Tags:

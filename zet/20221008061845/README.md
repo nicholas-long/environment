@@ -23,6 +23,7 @@ hub node for `workflow`
 - [20230905210416](/zet/20230905210416/README.md) fast file manager fff
 - [20230913044318](/zet/20230913044318/README.md) tmux buffer edit hotkey script
 - [20230914030626](/zet/20230914030626/README.md) tmux pwn menu script for hacking reverse shells and file transfer commands
+- [20230923211501](/zet/20230923211501/README.md) get current CVE list as tsv
 
 Tags:
 
