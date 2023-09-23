@@ -4,6 +4,7 @@
 - [ ] i could just copy most of these in to a card here and fix up all the relative paths
   - there are definitely like 100 scripts here. i think any ones that don't need a lot of cleanup can just be brought right in.
   - is there a way to check with grep if the scripts contain a nested mess of references to other kb scripts?
+  - [20230923065000](/zet/20230923065000/README.md) determining which scripts have kb references using grep
 - [x] i need to look for non executable scripts as well
 - [ ] i could definitely make a card to store wordlists
 
@@ -268,6 +269,7 @@ find ~/kb -type f -executable
 - [20230921220633](/zet/20230921220633/README.md) list of cool ideas i still want to implement in my environment
 - [20221012171100](/zet/20221012171100/README.md) recently created nodes hub
 - [20221008042814](/zet/20221008042814/README.md) WIP
+- [20230923065000](/zet/20230923065000/README.md) determining which scripts have kb references using grep
 
 Tags:
 
