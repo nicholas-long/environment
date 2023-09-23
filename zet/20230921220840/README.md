@@ -2,11 +2,11 @@
 
 - created script `zet/20230921220840/describe-script` to print the first comment it finds in scripts to help sorting these
 - [ ] i could just copy most of these in to a card here and fix up all the relative paths
-- [ ] i need to look for non executable scripts as well
+- [x] i need to look for non executable scripts as well
 - [ ] i could definitely make a card to store wordlists
 
 # list of non-executable scripts
-- [ ] finish going though this list
+- [x] finish going though this list
 
 ```bash
 find ~/kb -type f -not -executable | grep -v '\.md$'
@@ -29,29 +29,26 @@ find ~/kb -type f -not -executable | grep -v '\.md$'
 /home/coyote/kb/hacking/passwords/password_cracking_rules/OneRuleToRuleThemAll.rule # rule file for hashcat that is worth having
 /home/coyote/kb/hacking/pwn/boilerplate-pwn-script.py # pwntools template binary exploit script
 /home/coyote/kb/hacking/notes-template # directory that is a template folder structure for hacking notes
+/home/coyote/kb/wordlists/etc.files list of etc files from seclists project. could just link to project.
+/home/coyote/kb/wordlists/active_directory_brute simple season and year wordlist plus some simple passwords
+/home/coyote/kb/wordlists/custom.dirbusting my custom dirbusting list of things that sounded important and missing from existing lists
+/home/coyote/kb/sed-scripting/httpd-conf-enable-cgi.sed example sed script to edit httpd conf
+/home/coyote/kb/linux/java8.sh source this in order to use a java 8 environment if it is installed
+/home/coyote/kb/linux/setup_aliases.sh an attempt to sync zshrc and bashrc
+/home/coyote/kb/linux/oracle.sh environment required to get oracle client working
+/home/coyote/kb/linux/old-machine-project/tandy-output-filter.c a poor attempt to create a text filter to get the tandy screen working as a terminal. link this to the old machine terminal project.
+/home/coyote/kb/awk-scripting/get-interface.awk get your preferred networking interface to work with, tunnels first, then networks, and then lan
+/home/coyote/kb/hacking/windows/printnightmare-kb-list.txt this should really go in zk or somewhere else
+/home/coyote/kb/hacking/test-vuln-in-dockers/ubuntu-reverse-shell save this directory
+/home/coyote/kb/hacking/test-vuln-in-dockers/ubuntu-reverse-shell-user-feature-test save this directory
+/home/coyote/kb/hacking/windows/uacbypass/fodhelper.ps1 a fodhelper bypass that should go in zk hacking notes
 
-/home/coyote/kb/hacking/cve/note no comment
-/home/coyote/kb/wordlists/etc.files no comment
-/home/coyote/kb/wordlists/active_directory_brute no comment
-/home/coyote/kb/wordlists/custom.dirbusting no comment
-/home/coyote/kb/sed-scripting/httpd-conf-enable-cgi.sed no comment
-/home/coyote/kb/linux/java8.sh no comment
-/home/coyote/kb/linux/setup_aliases.sh no comment
-/home/coyote/kb/linux/oracle.sh no comment
-/home/coyote/kb/linux/old-machine-project/tandy-output-filter.c no comment
-/home/coyote/kb/awk-scripting/get-interface.awk no comment
-/home/coyote/kb/awk-scripting/convert-to-try-list-to-separate-files.awk no comment
-/home/coyote/kb/fix-headings # comment only says: not doing?
-/home/coyote/kb/zettelkasten-tag-ideas no comment
-/home/coyote/kb/vim/example-vimrc-bindings.vim no comment
-/home/coyote/kb/vim/example-neovim-bindings.vim no comment
-/home/coyote/kb/hacking/windows/uacbypass/fodhelper.ps1 no comment
-/home/coyote/kb/hacking/windows/printnightmare-kb-list.txt no comment
-/home/coyote/kb/hacking/passwords/password_cracking_rules/LICENSE no comment
-/home/coyote/kb/hacking/test-vuln-in-dockers/ubuntu-reverse-shell/Dockerfile no comment
-/home/coyote/kb/hacking/test-vuln-in-dockers/ubuntu-reverse-shell-user-feature-test/Dockerfile no comment
-/home/coyote/kb/hacking/test-vuln-in-dockers/ubuntu-reverse-shell-user-feature-test/.gitignore no comment
-
+# do not copy these
+/home/coyote/kb/awk-scripting/convert-to-try-list-to-separate-files.awk rewriting a lot of commands. trash this
+/home/coyote/kb/zettelkasten-tag-ideas example tags to use in zettelkasten? trash this
+/home/coyote/kb/fix-headings # comment only says: not doing? this looks like a scratch list from an old project
+/home/coyote/kb/vim/example-vimrc-bindings.vim old vimrc that looks unimportant
+/home/coyote/kb/vim/example-neovim-bindings.vim old vimrc that looks unimportant
 ```
 
 # filtered list
@@ -59,7 +56,7 @@ find ~/kb -type f -not -executable | grep -v '\.md$'
 
 /home/parallels/kb/linux/runneo4j.sh # run neo4j in a docker
 /home/parallels/kb/linux/alacritty-run-tmux.sh # shortcut to start tmux session in a working directory with alacritty
-/home/parallels/kb/hacking/cve/get-tsv.sh # download the current CVE list get as Tab Separated Values
+/home/parallels/kb/hacking/cve/get-tsv.sh # download the current CVE list get as Tab Separated Values. everything in this cve directory is about this project.
 /home/parallels/kb/hacking/cve/relevant.awk # filter the CVE list for potentially valid, relevant vulnerabilities
 /home/parallels/kb/hacking/priv-esc/strings-all-memory.sh # run strings on memory dumps for every readable process
 /home/parallels/kb/hacking/scripts/print-all-md5s.sh # print the md5 hashes of all lines in a wordlist file
