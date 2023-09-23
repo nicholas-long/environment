@@ -17,3 +17,4 @@
 - [20230921220840](/zet/20230921220840/README.md) list of kb scripts that i could decide whether to copy over
 - [20230922051930](/zet/20230922051930/README.md) lazygit interactive install script
 - [20230922220109](/zet/20230922220109/README.md) create a dockerfile for this environment
+- [20230923065000](/zet/20230923065000/README.md) determining which scripts have kb references using grep
