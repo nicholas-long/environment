@@ -273,6 +273,7 @@ find ~/kb -type f -executable
 - [20221008042814](/zet/20221008042814/README.md) WIP
 - [20230923065000](/zet/20230923065000/README.md) determining which scripts have kb references using grep
 - [20230906033259](/zet/20230906033259/README.md) functions to copy over and possibly remake as commands
+- [20230922214323](/zet/20230922214323/README.md) this environment
 
 Tags:
 
