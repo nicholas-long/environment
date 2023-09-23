@@ -9,6 +9,7 @@ Missing:
 - [20230921220633](/zet/20230921220633/README.md) list of cool ideas i still want to implement in my environment #idea #list #coding
 - [20230922214323](/zet/20230922214323/README.md) this environment #hub
 - [20230922220109](/zet/20230922220109/README.md) create a dockerfile for this environment #docker #script
+- [20230923211501](/zet/20230923211501/README.md) get current CVE list as tsv #script #bash #awk
 Extra:
 ```
 
@@ -40,6 +41,7 @@ Extra:
 - [20230921220633](/zet/20230921220633/README.md) list of cool ideas i still want to implement in my environment
 - [20230922214323](/zet/20230922214323/README.md) this environment
 - [20230922220109](/zet/20230922220109/README.md) create a dockerfile for this environment
+- [20230923211501](/zet/20230923211501/README.md) get current CVE list as tsv
 
 Tags:
 
