@@ -7,6 +7,9 @@
   - there are definitely like 100 scripts here. i think any ones that don't need a lot of cleanup can just be brought right in.
   - is there a way to check with grep if the scripts contain a nested mess of references to other kb scripts?
   - [20230923065000](/zet/20230923065000/README.md) determining which scripts have kb references using grep
+  - i could copy them to a card with the intent of storing them and updating them as needed.
+  - should tag cards i make from kb scripts with a tag to keep track of them
+  - could automatically generate cards with some content about each script using manually updated titles in here
 - [x] i need to look for non executable scripts as well
 - [ ] i could definitely make a card to store wordlists
 
