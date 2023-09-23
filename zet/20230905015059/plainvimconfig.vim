@@ -49,3 +49,9 @@ vmap <Up> :m0<Enter>
 vmap <Down> :m$<Enter>
 vmap <Left> :m'{<Enter>
 vmap <Right> :m'}-1<Enter>
+
+" space q to quit
+nmap <Space>q :q<Enter>
+
+" space w to write
+nmap <Space>w :w<Enter>
