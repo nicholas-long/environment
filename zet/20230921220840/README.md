@@ -27,20 +27,6 @@ find ~/kb -type f -not -executable | grep -v '\.md$'
 
 ```
 
-# do not copy these
-```
-/home/coyote/kb/awk-scripting/convert-to-try-list-to-separate-files.awk rewriting a lot of commands. trash this
-/home/coyote/kb/zettelkasten-tag-ideas example tags to use in zettelkasten? trash this
-/home/coyote/kb/fix-headings # comment only says: not doing? this looks like a scratch list from an old project
-/home/coyote/kb/vim/example-vimrc-bindings.vim old vimrc that looks unimportant
-/home/coyote/kb/vim/example-neovim-bindings.vim old vimrc that looks unimportant
-/home/parallels/kb/bash-scripting/get-interface-ip.sh select a network interface with fzf menu
-
-# kb internal stuff
-/home/parallels/kb/bash-scripting/autogenerate.sh generated the markdown content for files named auto-bash, auto-awk, etc
-/home/parallels/kb/autogenerate-all-languages.sh generated the markdown content for files named auto-bash, auto-awk, etc
-```
-
 # filtered list
 ```bash
 
@@ -159,6 +145,20 @@ find ~/kb -type f -not -executable | grep -v '\.md$'
 /home/parallels/kb/hacking/cve/get-tsv.sh # download the current CVE list get as Tab Separated Values. everything in this cve directory is about this project.
 /home/parallels/kb/hacking/cve/relevant.awk # filter the CVE list for potentially valid, relevant vulnerabilities
 
+```
+
+# do not copy these
+```
+/home/coyote/kb/awk-scripting/convert-to-try-list-to-separate-files.awk rewriting a lot of commands. trash this
+/home/coyote/kb/zettelkasten-tag-ideas example tags to use in zettelkasten? trash this
+/home/coyote/kb/fix-headings # comment only says: not doing? this looks like a scratch list from an old project
+/home/coyote/kb/vim/example-vimrc-bindings.vim old vimrc that looks unimportant
+/home/coyote/kb/vim/example-neovim-bindings.vim old vimrc that looks unimportant
+/home/parallels/kb/bash-scripting/get-interface-ip.sh select a network interface with fzf menu
+
+# kb internal stuff
+/home/parallels/kb/bash-scripting/autogenerate.sh generated the markdown content for files named auto-bash, auto-awk, etc
+/home/parallels/kb/autogenerate-all-languages.sh generated the markdown content for files named auto-bash, auto-awk, etc
 ```
 
 # full list
