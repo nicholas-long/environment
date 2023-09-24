@@ -30,15 +30,15 @@ find ~/kb -type f -not -executable | grep -v '\.md$'
 # filtered list
 ```bash
 
-/home/parallels/kb/awk-scripting/live-combine.awk # combine lines with all previous lines combinatorically
-/home/parallels/kb/bash-scripting/exif-all-images.sh # run exiftool on all of the images within a directory
+/home/parallels/kb/docker/build-github-repo-docker-image.sh # clone github repository and build docker image with its name
+/home/parallels/kb/hacking/dockers/enum4linux-ng.sh # build and run enum4linux-ng docker
 /home/parallels/kb/hacking/dockers/impacket.sh # build and run impacket docker
 /home/parallels/kb/hacking/dockers/crackmapexec.sh # build and run CrackMapExec docker
 /home/parallels/kb/bash-scripting/docker-current-directory.sh # run docker image with current directory mounted as working directory
+/home/parallels/kb/awk-scripting/live-combine.awk # combine lines with all previous lines combinatorically
+/home/parallels/kb/bash-scripting/exif-all-images.sh # run exiftool on all of the images within a directory
 /home/parallels/kb/hacking/tricks/extract-pdf-embedded-file-stream.sh # extract PDF embedded file stream for use with PDF file attach exploits like mpdf
-/home/parallels/kb/awk-scripting/nmap-script-types.sh enumerate all available types of nmap scripts
 /home/parallels/kb/bash-scripting/self-parsing-code-function-names.sh test self-parsing scripts
-/home/parallels/kb/docker/build-github-repo-docker-image.sh # clone github repository and build docker image with its name
 /home/parallels/kb/bash-scripting/ssh-keygen-generate-file.exp # expect script to generate ssh key by filename
 /home/parallels/kb/bash-scripting/watch-failed-ssh-logins-live-check-shodan.sh # watch failed ssh login attempts as a live stream
 /home/parallels/kb/linux/runneo4j.sh # run neo4j in a docker
@@ -47,7 +47,6 @@ find ~/kb -type f -not -executable | grep -v '\.md$'
 /home/parallels/kb/bash-scripting/list-github-repos.sh # list public github repositories for user
 /home/parallels/kb/bash-scripting/git-file-modification-date.sh # get the date of the last commit to modify a file as epoch timestamp and iso date
 /home/parallels/kb/bash-scripting/copy-text-from-image-url.sh # copy and read text from PNG image URL arg print with tesseract OCR
-/home/parallels/kb/hacking/dockers/enum4linux-ng.sh # build and run enum4linux-ng docker
 /home/parallels/kb/hacking/priv-esc/strings-all-memory.sh # run strings on memory dumps for every readable process
 /home/coyote/kb/hacking/windows/uacbypass/fodhelper.ps1 a fodhelper bypass that should go in zk hacking notes
 /home/parallels/kb/linux/package-it-all.sh attempt to package up all dependencies deb files into a tar to install on a remote target machine
@@ -94,7 +93,6 @@ find ~/kb -type f -not -executable | grep -v '\.md$'
 /home/parallels/kb/bash-scripting/urlencode-base64-every-line.sh # urlencode and base64 encode lines individually
 /home/parallels/kb/bash-scripting/search-tldr-commands-text.sh # search through tldr command descriptions with fzf and display file with bat
 /home/parallels/kb/bash-scripting/urlencode.sh # urlencode a line of text from stdin
-/home/parallels/kb/bash-scripting/nmap-get-top-ports.sh # get top N most common ports from nmap list pass argument
 /home/parallels/kb/bash-scripting/template.sh # parse args with case statement
 /home/parallels/kb/bash-scripting/generate-dates.sh # generate ISO format dates wordlists for the last few years
 /home/parallels/kb/bash-scripting/get-current-ubuntu-distro.sh # return the most recently updated ubuntu distro
@@ -112,7 +110,6 @@ find ~/kb -type f -not -executable | grep -v '\.md$'
 /home/parallels/kb/awk-scripting/line-lengths.awk # constrict line widths of input text stream
 /home/parallels/kb/awk-scripting/get-columns.awk # get column headings from first line of CSV
 /home/parallels/kb/awk-scripting/hydra-bruteforce-with-database.awk # attempt to reuse credentials using hydra and keep track of usernames and passwords tried
-/home/parallels/kb/awk-scripting/nmap-ports.sh # query nmap ports and service description definitions
 /home/parallels/kb/awk-scripting/print-markdown-content-nested-in-heading.awk # print nested markdown content within headings
 /home/parallels/kb/awk-scripting/file-grep-multi-lines.awk # check output of grep and next line using awk "grep -A 1 -R '^# ' ."
 /home/parallels/kb/awk-scripting/toggle-case-combinatoric.awk # print all variations of upper and lower case for given lowercase string
@@ -144,6 +141,9 @@ find ~/kb -type f -not -executable | grep -v '\.md$'
 /home/parallels/kb/hacking/cve/get-tsv.sh # download the current CVE list get as Tab Separated Values. everything in this cve directory is about this project.
 /home/parallels/kb/hacking/cve/relevant.awk # filter the CVE list for potentially valid, relevant vulnerabilities
 /home/parallels/kb/awk-scripting/get-headings.awk get nested headings from markdown in order to get full keyword contents
+/home/parallels/kb/awk-scripting/nmap-ports.sh # query nmap ports and service description definitions
+/home/parallels/kb/bash-scripting/nmap-get-top-ports.sh # get top N most common ports from nmap list pass argument
+/home/parallels/kb/awk-scripting/nmap-script-types.sh enumerate all available types of nmap scripts
 
 ```
 
@@ -279,6 +279,7 @@ find ~/kb -type f -executable
 - [20230922214323](/zet/20230922214323/README.md) this environment
 - [20230923211501](/zet/20230923211501/README.md) get current CVE list as tsv
 - [20230924221605](/zet/20230924221605/README.md) script to get nested markdown headings for keyword searching
+- [20230924224635](/zet/20230924224635/README.md) nmap script types
 
 Tags:
 
