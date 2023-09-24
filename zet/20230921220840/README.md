@@ -30,9 +30,8 @@ find ~/kb -type f -not -executable | grep -v '\.md$'
 # filtered list
 ```bash
 
-/home/parallels/kb/awk-scripting/get-headings.awk get nested headings from markdown in order to get full keyword contents
-/home/parallels/kb/bash-scripting/exif-all-images.sh # run exiftool on all of the images within a directory
 /home/parallels/kb/awk-scripting/live-combine.awk # combine lines with all previous lines combinatorically
+/home/parallels/kb/bash-scripting/exif-all-images.sh # run exiftool on all of the images within a directory
 /home/parallels/kb/hacking/dockers/impacket.sh # build and run impacket docker
 /home/parallels/kb/hacking/dockers/crackmapexec.sh # build and run CrackMapExec docker
 /home/parallels/kb/bash-scripting/docker-current-directory.sh # run docker image with current directory mounted as working directory
@@ -144,6 +143,7 @@ find ~/kb -type f -not -executable | grep -v '\.md$'
 /home/parallels/kb/python/convert-csv-to-tsv.py # convert CSV to TSV
 /home/parallels/kb/hacking/cve/get-tsv.sh # download the current CVE list get as Tab Separated Values. everything in this cve directory is about this project.
 /home/parallels/kb/hacking/cve/relevant.awk # filter the CVE list for potentially valid, relevant vulnerabilities
+/home/parallels/kb/awk-scripting/get-headings.awk get nested headings from markdown in order to get full keyword contents
 
 ```
 
@@ -278,6 +278,7 @@ find ~/kb -type f -executable
 - [20230906033259](/zet/20230906033259/README.md) functions to copy over and possibly remake as commands
 - [20230922214323](/zet/20230922214323/README.md) this environment
 - [20230923211501](/zet/20230923211501/README.md) get current CVE list as tsv
+- [20230924221605](/zet/20230924221605/README.md) script to get nested markdown headings for keyword searching
 
 Tags:
 
