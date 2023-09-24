@@ -280,6 +280,7 @@ find ~/kb -type f -executable
 - [20230923211501](/zet/20230923211501/README.md) get current CVE list as tsv
 - [20230924221605](/zet/20230924221605/README.md) script to get nested markdown headings for keyword searching
 - [20230924224635](/zet/20230924224635/README.md) scripts to get nmap information
+- [20230916125222](/zet/20230916125222/README.md) tmux scripts directory
 
 Tags:
 

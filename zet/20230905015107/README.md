@@ -10,10 +10,27 @@
 
 ## old scripts called from tmux config that need to be migrated
 - [x] buffer edit
-- [ ] fff file names
-- [ ] hotkeys
+- [x] fff file names
 - [x] tmux-pwn-menu has its own repository. i can move it into this environment [20230914030626](/zet/20230914030626/README.md)
 - [ ] main menu script - what was in this? `~/tmux-scripts/menu.sh`
+- hotkeys - not important. make a new one.
+- [ ] TODO: finish enumerating from
+  - [20230916125222](/zet/20230916125222/README.md) tmux scripts directory
+- enumerating old scripts from tmux config
+```bash
+grep 'tmux-scripts' zet/20230905015107/tmux.conf
+grep 'kb' zet/20230905015107/tmux.conf
+#bind C-e display-popup -E -w 80% -h 80% '~/tmux-scripts/search-fzf-sploit.sh' 
+#bind C-g display-popup -E -w 80% -h 80% './tmux-scripts/run-github-exploit-index.sh' 
+#bind C-e new-window -c "#{pane_current_path}" '~/tmux-scripts/exploit-search-init.sh'
+#bind C-q split-window -c "#{pane_current_path}" -h '~/tmux-scripts/fff/fff'
+#bind C-m split-window -c "#{pane_current_path}" -h bash -c 'bat --paging=always -pp ~/tmux-scripts/hotkeys.md'
+#bind C-a new-window -c "#{pane_current_path}" bash -c 'sudo apt install -y $(apt list 2>/dev/null | fzf "--preview=~/tmux-scripts/apt-preview.sh {}" | cut -d "/" -f 1)'
+#bind C-o split-window -h -c "#{pane_current_path}" bash -c '~/tmux-scripts/kb.sh -p ~/kb'
+#bind C-Space display-popup -E -w 80% -h 80% '~/tmux-scripts/menu.sh'
+#bind C-r split-window -c "#{pane_current_path}" bash -c '~/tmux-scripts/lazygit'
+#bind C-o split-window -h -c "#{pane_current_path}" bash -c '~/tmux-scripts/kb.sh -p ~/kb'
+```
 
 ## old scripts not migrating
 - fuzzy apt install - should be a shortcut. needed an external script because it has an fzf preview
