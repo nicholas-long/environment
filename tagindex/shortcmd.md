@@ -10,3 +10,4 @@
 - [20230920022857](/zet/20230920022857/README.md) script to get linpeas to current directory
 - [20230920031249](/zet/20230920031249/README.md) script to search tldr commands by features to find ways to do things
 - [20230924221605](/zet/20230924221605/README.md) script to get nested markdown headings for keyword searching
+- [20230924224635](/zet/20230924224635/README.md) scripts to get nmap information

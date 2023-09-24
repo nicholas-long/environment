@@ -1,0 +1,1 @@
+- [20230924224635](/zet/20230924224635/README.md) scripts to get nmap information
