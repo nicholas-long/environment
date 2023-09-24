@@ -100,6 +100,7 @@ find $ZK_PATH -name '*.md' -type f -print0 | xargs -0 awk '
 - [20221009192000](/zet/20221009192000/README.md) stuff to put on main page
 - [20230916125222](/zet/20230916125222/README.md) tmux scripts directory
 - [20230920031249](/zet/20230920031249/README.md) script to search tldr commands by features to find ways to do things
+- [20230924221605](/zet/20230924221605/README.md) script to get nested markdown headings for keyword searching
 
 Tags:
 

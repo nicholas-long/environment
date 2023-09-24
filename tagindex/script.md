@@ -19,3 +19,4 @@
 - [20230922220109](/zet/20230922220109/README.md) create a dockerfile for this environment
 - [20230923065000](/zet/20230923065000/README.md) determining which scripts have kb references using grep
 - [20230923211501](/zet/20230923211501/README.md) get current CVE list as tsv
+- [20230924221605](/zet/20230924221605/README.md) script to get nested markdown headings for keyword searching

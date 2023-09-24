@@ -11,8 +11,6 @@ zet/20221012171100/README.md
 # Related
 
 - [20221012144502](/zet/20221012144502/README.md) track modification dates
-- [20230920022857](/zet/20230920022857/README.md) script to get linpeas to current directory
-- [20230920031249](/zet/20230920031249/README.md) script to search tldr commands by features to find ways to do things
 - [20230921220633](/zet/20230921220633/README.md) list of cool ideas i still want to implement in my environment
 - [20230921220840](/zet/20230921220840/README.md) list of kb scripts that i could decide whether to copy over
 - [20230922051930](/zet/20230922051930/README.md) lazygit interactive install script
@@ -26,6 +24,7 @@ zet/20221012171100/README.md
 - [20230922222809](/zet/20230922222809/README.md) getting rid of on-screen keyboard
 - [20230923065000](/zet/20230923065000/README.md) determining which scripts have kb references using grep
 - [20230923211501](/zet/20230923211501/README.md) get current CVE list as tsv
+- [20230924221605](/zet/20230924221605/README.md) script to get nested markdown headings for keyword searching
 
 Tags:
 
