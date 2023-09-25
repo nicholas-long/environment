@@ -26,4 +26,4 @@ zet/20230925143506/search-fzf-sploit.sh references executable file preview.sh
 
 Tags:
 
-    #script #hacking
+    #script #hacking #shortcmd
