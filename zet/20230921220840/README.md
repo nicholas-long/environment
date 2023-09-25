@@ -14,6 +14,8 @@
 - [ ] i could definitely make a card to store wordlists
 - [ ] the collection of docker scripts is not fully converted yet
   - [20230925001420](/zet/20230925001420/README.md) cool docker scripts to migrate
+- [ ] the collection of git scripts is not fully converted yet
+  - [20230925050125](/zet/20230925050125/README.md) git scripting related hub
 
 # list of non-executable scripts
 - [x] finish going though this list
@@ -39,9 +41,6 @@ find ~/kb -type f -not -executable | grep -v '\.md$'
 /home/parallels/kb/bash-scripting/ssh-keygen-generate-file.exp # expect script to generate ssh key by filename
 /home/parallels/kb/bash-scripting/watch-failed-ssh-logins-live-check-shodan.sh # watch failed ssh login attempts as a live stream
 /home/coyote/kb/awk-scripting/snippet.awk # awk print markdown snippet text between backtick lines
-/home/parallels/kb/bash-scripting/pull-all-git-repos.sh # pull all the git repos in home directory
-/home/parallels/kb/bash-scripting/list-github-repos.sh # list public github repositories for user
-/home/parallels/kb/bash-scripting/git-file-modification-date.sh # get the date of the last commit to modify a file as epoch timestamp and iso date
 /home/parallels/kb/bash-scripting/copy-text-from-image-url.sh # copy and read text from PNG image URL arg print with tesseract OCR
 /home/parallels/kb/hacking/priv-esc/strings-all-memory.sh # run strings on memory dumps for every readable process
 /home/coyote/kb/hacking/windows/uacbypass/fodhelper.ps1 # a fodhelper bypass that should go in zk hacking notes
@@ -77,14 +76,9 @@ find ~/kb -type f -not -executable | grep -v '\.md$'
 /home/parallels/kb/hacking/passwords/generate-common-passwords.sh # generate common passwords
 /home/parallels/kb/hacking/tricks/get-versions-from-composer-lock-json.sh # get library dependency versions from composer.lock json file
 /home/parallels/kb/bash-scripting/get-random-unique-id.sh # get random hex unique ID bash
-/home/parallels/kb/bash-scripting/get-github-credentials.sh # get the current user's github colon separated credentials
-/home/parallels/kb/bash-scripting/enum-git-repos-in-directory.sh # find all git repositories in a directory
 /home/parallels/kb/bash-scripting/colorize.sh # colorize words from stdin with regular expressions
-/home/parallels/kb/bash-scripting/hash-git-repository.sh # clone repo into temp dir
-/home/parallels/kb/bash-scripting/loop-array-pull-git-repositories.sh # define bash array
 /home/parallels/kb/bash-scripting/decorate-passwd-file.sh # decorate and colorize a passwd file piped from stdin
 /home/parallels/kb/bash-scripting/awk-print-unique-lines.sh # use awk to print only unique lines as a stream processor
-/home/parallels/kb/bash-scripting/update-all-git-repos.sh # update all the git repos in home directory and prompt with lazygit
 /home/parallels/kb/bash-scripting/urlencode-base64-every-line.sh # urlencode and base64 encode lines individually
 /home/parallels/kb/bash-scripting/search-tldr-commands-text.sh # search through tldr command descriptions with fzf and display file with bat
 /home/parallels/kb/bash-scripting/urlencode.sh # urlencode a line of text from stdin
@@ -96,7 +90,6 @@ find ~/kb -type f -not -executable | grep -v '\.md$'
 /home/parallels/kb/bash-scripting/string-to-hex.sh # convert string to hex with no newlines
 /home/parallels/kb/bash-scripting/sort-words-by-length.sh # sort words by length
 /home/parallels/kb/bash-scripting/find-largest-files.sh # find the largest N files
-/home/parallels/kb/bash-scripting/get-github-api-key.sh # get the current user's github api key
 /home/parallels/kb/python/tsv-to-python-dict.py # convert tsv with key and value fields to python dictionary
 /home/parallels/kb/python/decode-post-params.py # parse all post params from post content given on standard input
 /home/parallels/kb/python/decode-cookies.py # parse a cookie from every line on standard input
@@ -146,6 +139,15 @@ find ~/kb -type f -not -executable | grep -v '\.md$'
 /home/parallels/kb/hacking/dockers/impacket.sh # build and run impacket docker
 /home/parallels/kb/hacking/dockers/crackmapexec.sh # build and run CrackMapExec docker
 /home/parallels/kb/bash-scripting/docker-current-directory.sh # run docker image with current directory mounted as working directory
+/home/parallels/kb/bash-scripting/get-github-api-key.sh # get the current user's github api key
+/home/parallels/kb/bash-scripting/update-all-git-repos.sh # update all the git repos in home directory and prompt with lazygit
+/home/parallels/kb/bash-scripting/loop-array-pull-git-repositories.sh # define bash array
+/home/parallels/kb/bash-scripting/hash-git-repository.sh # clone repo into temp dir
+/home/parallels/kb/bash-scripting/get-github-credentials.sh # get the current user's github colon separated credentials
+/home/parallels/kb/bash-scripting/enum-git-repos-in-directory.sh # find all git repositories in a directory
+/home/parallels/kb/bash-scripting/pull-all-git-repos.sh # pull all the git repos in home directory
+/home/parallels/kb/bash-scripting/list-github-repos.sh # list public github repositories for user
+/home/parallels/kb/bash-scripting/git-file-modification-date.sh # get the date of the last commit to modify a file as epoch timestamp and iso date
 
 ```
 
@@ -285,6 +287,7 @@ find ~/kb -type f -executable
 - [20230916125222](/zet/20230916125222/README.md) tmux scripts directory
 - [20230925001420](/zet/20230925001420/README.md) cool docker scripts to migrate
 - [20230925024118](/zet/20230925024118/README.md) script to display information about other scripts and their dependencies
+- [20230925050125](/zet/20230925050125/README.md) git scripting related hub
 
 Tags:
 
