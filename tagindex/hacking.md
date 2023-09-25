@@ -2,3 +2,4 @@
 - [20230914030626](/zet/20230914030626/README.md) tmux pwn menu script for hacking reverse shells and file transfer commands
 - [20230920022857](/zet/20230920022857/README.md) script to get linpeas to current directory
 - [20230924224635](/zet/20230924224635/README.md) scripts to get nmap information
+- [20230925052317](/zet/20230925052317/README.md) wordlists for pentesting

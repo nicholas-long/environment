@@ -1,1 +1,2 @@
 - [20230924224635](/zet/20230924224635/README.md) scripts to get nmap information
+- [20230925052317](/zet/20230925052317/README.md) wordlists for pentesting

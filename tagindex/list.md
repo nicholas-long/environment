@@ -6,3 +6,4 @@
 - [20230921220633](/zet/20230921220633/README.md) list of cool ideas i still want to implement in my environment
 - [20230921220840](/zet/20230921220840/README.md) list of kb scripts that i could decide whether to copy over
 - [20230923065000](/zet/20230923065000/README.md) determining which scripts have kb references using grep
+- [20230925052317](/zet/20230925052317/README.md) wordlists for pentesting
