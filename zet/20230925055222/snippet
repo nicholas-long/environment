@@ -1,4 +1,4 @@
 #!/bin/bash
 
-grep -R '^ *- \[ \]' zet
+grep -R '^ *- \[ \]' zet | sort
 ./graphquery --human <( grep -R '^ *- \[ \]' zet | cut -d : -f 1 | sort -u | cut -d / -f 2 )
