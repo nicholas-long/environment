@@ -5,8 +5,14 @@
 - if running on a mac, it is recommended to install homebrew first
 - bat didn't install, but it can be installed with brew
 - added brew to lazygit, bat, and fff install scripts
+- issue with ll alias on mac os - fixing in bash rc by test running the program
 
-```
+- how to tell if ls supports `time-style`
+```bash
+┌──(parallels㉿kali-linux-2022-2)-[~/environment]
+└─$ ls --help | grep time-style
+      --full-time            like -l --time-style=full-iso
+      --time-style=TIME_STYLE
 ```
 
 ` zet/20230925193834/README.md `
@@ -18,6 +24,7 @@
 - [20221012171100](/zet/20221012171100/README.md) recently created nodes hub
 - [20230922051930](/zet/20230922051930/README.md) lazygit interactive install script
 - [20230905210416](/zet/20230905210416/README.md) fast file manager fff
+- [20230905015120](/zet/20230905015120/README.md) bash rc file and config
 
 Tags:
 
