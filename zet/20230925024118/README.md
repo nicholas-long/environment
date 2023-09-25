@@ -5,9 +5,11 @@
   - calls awk script to check dependencies of scripts whose filenames are passed as arguments `zet/20230925024118/check-script-dependencies`
 - check if scripts reference hardcoded paths i know about like /kb/ and /tmux-scripts/ or something
 - check if scripts reference each other - harder
+  - easy solution is to report any mentions of any executable scripts that are nested within the current directory
 - awk script could find individual reference scripts
 - useful for
   - [20230923065000](/zet/20230923065000/README.md) determining which scripts have kb references using grep
+- it works on the whole kb directory!
 
 - example usage
 ```bash
@@ -25,6 +27,7 @@ zet/20230925024118/scripts-dependencies
 - [20230925001420](/zet/20230925001420/README.md) cool docker scripts to migrate
 - [20230923065000](/zet/20230923065000/README.md) determining which scripts have kb references using grep
 - [20221012171100](/zet/20221012171100/README.md) recently created nodes hub
+- [20230925033312](/zet/20230925033312/README.md) bash current script directory
 
 Tags:
 
