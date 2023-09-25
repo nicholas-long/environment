@@ -14,6 +14,7 @@
 - python3 and pip3
 - [ ] xclip
 - testing on Mac OS, and the install script did not work. issues trying to run homebrew as root? edit script to use no sudo for brew
+- if running on a mac, it is recommended to install homebrew first
 
 ```bash
 # select install program
@@ -44,6 +45,7 @@ function install_it {
 - [20230905021157](/zet/20230905021157/README.md) log of commands run to set up previous environment
 - [20230914030626](/zet/20230914030626/README.md) tmux pwn menu script for hacking reverse shells and file transfer commands
 - [20230916132320](/zet/20230916132320/README.md) script to get platform install command
+- [20230925193834](/zet/20230925193834/README.md) testing on mac os
 
 Tags:
 
