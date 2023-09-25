@@ -1,11 +1,13 @@
 # WIP
 
 stuff i am working on.
+- [useful list of things that are unfinished to check occasionally](/zet/20230925055222/README.md) list of unfinished todo items
 
 ` zet/20221008042814/README.md `
 
 # Related
 
+- [20230925055222](/zet/20230925055222/README.md) list of unfinished todo items
 - [20221101043303](/zet/20221101043303/README.md) important features and workflow tricks to mention on main page
 - [20221013021614](/zet/20221013021614/README.md) zkvr terminal graph browser
 - [20221027011800](/zet/20221027011800/README.md) zetcli bash wrapper subcommand implementation
@@ -31,7 +33,6 @@ stuff i am working on.
 - [20230925001420](/zet/20230925001420/README.md) cool docker scripts to migrate
 - [20230925050125](/zet/20230925050125/README.md) git scripting hub
 - [20230925054339](/zet/20230925054339/README.md) convert MSDS managed password structure to NTLM hash
-- [20230925055222](/zet/20230925055222/README.md) list of unfinished todo items
 
 Tags:
 
