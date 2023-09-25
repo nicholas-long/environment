@@ -42,6 +42,7 @@ zet/20230925001420/ubuntu-docker-build-environment.sh references executable file
 - [20221028172836](/zet/20221028172836/README.md) old dockerfile for testing zkvr with vim and tmux config
 - [20230922220109](/zet/20230922220109/README.md) create a dockerfile for this environment
 - [20221012171100](/zet/20221012171100/README.md) recently created nodes hub
+- [20230925024118](/zet/20230925024118/README.md) script to display information about other scripts and their dependencies
 
 Tags:
 

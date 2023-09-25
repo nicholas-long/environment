@@ -150,6 +150,7 @@ grep: /home/coyote/kb/hacking/test-vuln-in-dockers/ubuntu-reverse-shell-user-fea
 
 - [20230921220840](/zet/20230921220840/README.md) list of kb scripts that i could decide whether to copy over
 - [20221012171100](/zet/20221012171100/README.md) recently created nodes hub
+- [20230925024118](/zet/20230925024118/README.md) script to display information about other scripts and their dependencies
 
 Tags:
 

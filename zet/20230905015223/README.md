@@ -62,6 +62,7 @@ ln -s zet/20230905015223/install-environment ./install
 - [20230916132320](/zet/20230916132320/README.md) script to get platform install command
 - [20230922051930](/zet/20230922051930/README.md) lazygit interactive install script
 - [20230905015059](/zet/20230905015059/README.md) vim config
+- [20230925024118](/zet/20230925024118/README.md) script to display information about other scripts and their dependencies
 
 Tags:
 
