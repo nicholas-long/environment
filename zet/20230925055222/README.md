@@ -6,7 +6,6 @@
 
 ```markdown
 zet/20230905015059/README.md:  - [ ] one potential issue is that normal vim (not neovim) seems to mess up the terminal when lauched with multiple files with xfer
-zet/20230905015223/README.md:  - [ ] also into rc file for bourne shell?
 zet/20230905015223/README.md:- [ ] choose correct config and location for both vim and neovim
 zet/20230905015223/README.md:  - [ ] into zshrc
 zet/20230905015223/README.md:- [ ] nvim - i don't think i have done this yet
