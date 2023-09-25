@@ -20,6 +20,7 @@
 # Related
 
 - [20230905184854](/zet/20230905184854/README.md) prerequesites for environment
+- [20230925033312](/zet/20230925033312/README.md) bash current script directory
 
 Tags:
 

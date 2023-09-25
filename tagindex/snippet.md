@@ -1,1 +1,2 @@
 - [20230922212036](/zet/20230922212036/README.md) command shortcut to get markdown titles or content summaries
+- [20230925033312](/zet/20230925033312/README.md) bash current script directory
