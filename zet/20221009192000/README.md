@@ -10,6 +10,7 @@ Missing:
 - [20230922214323](/zet/20230922214323/README.md) this environment #hub
 - [20230922220109](/zet/20230922220109/README.md) create a dockerfile for this environment #docker #script
 - [20230923211501](/zet/20230923211501/README.md) get current CVE list as tsv #script #bash #awk
+- [20230925055222](/zet/20230925055222/README.md) list of unfinished todo items #script #todo #list
 Extra:
 ```
 
@@ -42,6 +43,7 @@ Extra:
 - [20230922214323](/zet/20230922214323/README.md) this environment
 - [20230922220109](/zet/20230922220109/README.md) create a dockerfile for this environment
 - [20230923211501](/zet/20230923211501/README.md) get current CVE list as tsv
+- [20230925055222](/zet/20230925055222/README.md) list of unfinished todo items
 
 Tags:
 
