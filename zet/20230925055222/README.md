@@ -10,11 +10,11 @@ grep -R '^ *- \[ \]' zet | cut -d : -f 1 | sort -u | cut -d / -f 2
 ./graphquery --human <( grep -R '^ *- \[ \]' zet | cut -d : -f 1 | sort -u | cut -d / -f 2 )
 ```
 
-- where can i find snippets
-- zet/20221008063052/autoexec_enrich
-- zet/20221009192000/autoexec_enrich
-- zet/20221006213953/autoexec_enrich
-- zet/20221026064448/autoexec_enrich
+- where can i find snippets?
+  - zet/20221008063052/autoexec_enrich
+  - zet/20221009192000/autoexec_enrich
+  - zet/20221006213953/autoexec_enrich
+  - zet/20221026064448/autoexec_enrich
 
 
 ` zet/20230925055222/README.md `
@@ -22,7 +22,8 @@ grep -R '^ *- \[ \]' zet | cut -d : -f 1 | sort -u | cut -d / -f 2
 # Related
 
 - [20221008042814](/zet/20221008042814/README.md) WIP
-- 20221008063052
+- [20221008063052](/zet/20221008063052/README.md) autorunning scripts in cards
+- [20221012171100](/zet/20221012171100/README.md) recently created nodes hub
 
 Tags:
 

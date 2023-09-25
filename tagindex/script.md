@@ -24,3 +24,4 @@
 - [20230925001420](/zet/20230925001420/README.md) cool docker scripts to migrate
 - [20230925024118](/zet/20230925024118/README.md) script to display information about other scripts and their dependencies
 - [20230925050125](/zet/20230925050125/README.md) git scripting hub
+- [20230925055222](/zet/20230925055222/README.md) list of unfinished todo items

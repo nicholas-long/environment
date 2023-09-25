@@ -25,6 +25,7 @@ zet/20230905160850/autoexec_enrich
 - [20221009095853](/zet/20221009095853/README.md) finished
 - [20221006032546](/zet/20221006032546/README.md) my original implementation of zet cmd
 - [20230905160850](/zet/20230905160850/README.md) directory for executable short commands to run on path
+- [20230925055222](/zet/20230925055222/README.md) list of unfinished todo items
 
 Tags:
 

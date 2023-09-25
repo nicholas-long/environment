@@ -7,3 +7,4 @@
 - [20230921220840](/zet/20230921220840/README.md) list of kb scripts that i could decide whether to copy over
 - [20230923065000](/zet/20230923065000/README.md) determining which scripts have kb references using grep
 - [20230925052317](/zet/20230925052317/README.md) wordlists for pentesting
+- [20230925055222](/zet/20230925055222/README.md) list of unfinished todo items
