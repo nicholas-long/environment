@@ -19,7 +19,6 @@ zet/20230921220840/README.md:- [ ] the collection of docker scripts is not fully
 zet/20230921220840/README.md:- [ ] the collection of git scripts is not fully converted yet
 zet/20230922214602/README.md:- [ ] fuzzy file search for opening and editing multiple files, any files in any directory
 zet/20230925001420/README.md:- [ ] update and fix any relative paths or kb references
-zet/20230925050125/README.md:- [ ] still need to update references and dependencies
 zet/20230925054339/README.md:- [ ] copy in more information from my zk
 - [20230905015059](/zet/20230905015059/README.md) vim config #dotfile
 - [20230905015223](/zet/20230905015223/README.md) install scripts #script #setup
@@ -30,7 +29,6 @@ zet/20230925054339/README.md:- [ ] copy in more information from my zk
 - [20230921220840](/zet/20230921220840/README.md) list of kb scripts that i could decide whether to copy over #idea #list #script
 - [20230922214602](/zet/20230922214602/README.md) things i want to implement in zkvr after working on the environment #idea
 - [20230925001420](/zet/20230925001420/README.md) cool docker scripts to migrate #docker #script
-- [20230925050125](/zet/20230925050125/README.md) git scripting hub #git #script
 - [20230925054339](/zet/20230925054339/README.md) convert MSDS managed password structure to NTLM hash #windows #password
 ```
 

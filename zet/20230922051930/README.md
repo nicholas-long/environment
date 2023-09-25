@@ -36,6 +36,7 @@ tar -xzvf lazygit_0.40.2_Linux_x86_64.tar.gz
 - [20230905015223](/zet/20230905015223/README.md) install scripts
 - [20221012171100](/zet/20221012171100/README.md) recently created nodes hub
 - [20230905210416](/zet/20230905210416/README.md) fast file manager fff
+- [20230925193834](/zet/20230925193834/README.md) testing on mac os
 
 Tags:
 
