@@ -7,6 +7,15 @@
 > Vim's user-specific configuration file is located in the home directory: `~/.vimrc`, and Vim files of current user are located inside ~/.vim/ . The global configuration file is located at /etc/vimrc .Jul 29, 2023
 - created script to install `zet/20230905015059/install-vim-config`
 - i like having space q to quit while working in zkvr
+- a lot of vim users don't recomment using visual mode, but i think it's really useful for picking lines and throwing them up and down within paragraphs or to the top or bottom of the document.
+```vim
+" cool feature for sorting lines
+" visual move to top and bottom
+vmap <Up> :m0<Enter>
+vmap <Down> :m$<Enter>
+vmap <Left> :m'{<Enter>
+vmap <Right> :m'}-1<Enter>
+```
 
 - install it
 ```bash
