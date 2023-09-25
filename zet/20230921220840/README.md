@@ -30,18 +30,12 @@ find ~/kb -type f -not -executable | grep -v '\.md$'
 # filtered list
 ```bash
 
-/home/parallels/kb/docker/build-github-repo-docker-image.sh # clone github repository and build docker image with its name
-/home/parallels/kb/hacking/dockers/enum4linux-ng.sh # build and run enum4linux-ng docker
-/home/parallels/kb/hacking/dockers/impacket.sh # build and run impacket docker
-/home/parallels/kb/hacking/dockers/crackmapexec.sh # build and run CrackMapExec docker
-/home/parallels/kb/bash-scripting/docker-current-directory.sh # run docker image with current directory mounted as working directory
 /home/parallels/kb/awk-scripting/live-combine.awk # combine lines with all previous lines combinatorically
 /home/parallels/kb/bash-scripting/exif-all-images.sh # run exiftool on all of the images within a directory
 /home/parallels/kb/hacking/tricks/extract-pdf-embedded-file-stream.sh # extract PDF embedded file stream for use with PDF file attach exploits like mpdf
 /home/parallels/kb/bash-scripting/self-parsing-code-function-names.sh # test self-parsing scripts
 /home/parallels/kb/bash-scripting/ssh-keygen-generate-file.exp # expect script to generate ssh key by filename
 /home/parallels/kb/bash-scripting/watch-failed-ssh-logins-live-check-shodan.sh # watch failed ssh login attempts as a live stream
-/home/parallels/kb/linux/runneo4j.sh # run neo4j in a docker
 /home/coyote/kb/awk-scripting/snippet.awk # awk print markdown snippet text between backtick lines
 /home/parallels/kb/bash-scripting/pull-all-git-repos.sh # pull all the git repos in home directory
 /home/parallels/kb/bash-scripting/list-github-repos.sh # list public github repositories for user
@@ -87,7 +81,6 @@ find ~/kb -type f -not -executable | grep -v '\.md$'
 /home/parallels/kb/bash-scripting/hash-git-repository.sh # clone repo into temp dir
 /home/parallels/kb/bash-scripting/loop-array-pull-git-repositories.sh # define bash array
 /home/parallels/kb/bash-scripting/decorate-passwd-file.sh # decorate and colorize a passwd file piped from stdin
-/home/parallels/kb/bash-scripting/ubuntu-docker-build-environment.sh # launch ubuntu build environment docker with current directory mounted as working directory
 /home/parallels/kb/bash-scripting/awk-print-unique-lines.sh # use awk to print only unique lines as a stream processor
 /home/parallels/kb/bash-scripting/update-all-git-repos.sh # update all the git repos in home directory and prompt with lazygit
 /home/parallels/kb/bash-scripting/urlencode-base64-every-line.sh # urlencode and base64 encode lines individually
@@ -120,9 +113,6 @@ find ~/kb -type f -not -executable | grep -v '\.md$'
 /home/parallels/kb/awk-scripting/find-only-h1-files.awk # parse a list of files and figure out if they contain h2 headings
 /home/parallels/kb/awk-scripting/user-interface-fzf.awk # testing a user interface in fzf from within awk
 /home/parallels/kb/awk-scripting/start-service.awk # an attempt to select and start linux services from an fzf menu
-/home/parallels/kb/awk-scripting/docker-exec-picker.awk # testing an interactive docker menu with fzf
-/home/parallels/kb/docker/get-tags.sh # get the tags of a particular docker repository using curl and jq
-/home/parallels/kb/docker/destroy-containers-and-images.sh # shutdown and destroy docker images manually to clean up space
 /home/parallels/kb/docker/templates/ubuntu-dockerfile-template.sh # create an ubuntu dockerfile
 /home/parallels/kb/bash-scripting/get-current-notes-line-count.sh # attempt to get a line count of notes while ignoring certain file extensions
 /home/parallels/kb/linux/get-ip-tmux.sh # test tmux script to get IP? looks pretty bad
@@ -144,6 +134,16 @@ find ~/kb -type f -not -executable | grep -v '\.md$'
 /home/parallels/kb/awk-scripting/nmap-ports.sh # query nmap ports and service description definitions
 /home/parallels/kb/bash-scripting/nmap-get-top-ports.sh # get top N most common ports from nmap list pass argument
 /home/parallels/kb/awk-scripting/nmap-script-types.sh # enumerate all available types of nmap scripts
+/home/parallels/kb/docker/get-tags.sh # get the tags of a particular docker repository using curl and jq
+/home/parallels/kb/docker/destroy-containers-and-images.sh # shutdown and destroy docker images manually to clean up space
+/home/parallels/kb/awk-scripting/docker-exec-picker.awk # testing an interactive docker menu with fzf
+/home/parallels/kb/bash-scripting/ubuntu-docker-build-environment.sh # launch ubuntu build environment docker with current directory mounted as working directory
+/home/parallels/kb/linux/runneo4j.sh # run neo4j in a docker
+/home/parallels/kb/docker/build-github-repo-docker-image.sh # clone github repository and build docker image with its name
+/home/parallels/kb/hacking/dockers/enum4linux-ng.sh # build and run enum4linux-ng docker
+/home/parallels/kb/hacking/dockers/impacket.sh # build and run impacket docker
+/home/parallels/kb/hacking/dockers/crackmapexec.sh # build and run CrackMapExec docker
+/home/parallels/kb/bash-scripting/docker-current-directory.sh # run docker image with current directory mounted as working directory
 
 ```
 
@@ -281,6 +281,7 @@ find ~/kb -type f -executable
 - [20230924221605](/zet/20230924221605/README.md) script to get nested markdown headings for keyword searching
 - [20230924224635](/zet/20230924224635/README.md) scripts to get nmap information
 - [20230916125222](/zet/20230916125222/README.md) tmux scripts directory
+- [20230925001420](/zet/20230925001420/README.md) cool docker scripts to migrate
 
 Tags:
 
