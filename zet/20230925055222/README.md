@@ -2,6 +2,7 @@
 
 - concept of `list of unfinished todo items`
 - i can do this in obsidan wtih a query, so why not here?
+- i tried pasting the grep results togeher with the graphquery results, but that didn't work because the graphquery only returns unique results.
 
 ```markdown
 zet/20230921220840/README.md:- [ ] i could just copy most of these in to a card here and fix up all the relative paths
