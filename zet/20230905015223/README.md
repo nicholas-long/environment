@@ -16,6 +16,7 @@
   - [20230922051930](/zet/20230922051930/README.md) lazygit interactive install script
 - [x] install python requirements for tmux scripts
 - [ ] choose correct config and location for both vim and neovim
+- testing on Mac OS, and the install script did not work. tried to run homebrew as root?
 
 - is it a good idea to set up git credential storage?
 ```
