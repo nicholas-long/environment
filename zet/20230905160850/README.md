@@ -7,7 +7,8 @@
 - maintenance script `zet/20230905160850/update-shortcuts` located in this card
   - run shortcut maintenance script during installing. the reason this should be run when installing is to generate the actual initial shortcuts - they will be absolute paths
   - i could also write little bash stubs that fix up the working directory?
-  - [ ] ought to ignore files like `autoexec_enrich` that are used for zkvr cards when finding shortcuts
+  - [x] ought to ignore files like `autoexec_enrich` that are used for zkvr cards when finding shortcuts
+    - ignoring this one in particular for now. if more come up, may need something more complicated or a data file in here.
 - this card uses scripts run during enrich stage to keep the list of shortcuts up to date
   - [20221008063052](/zet/20221008063052/README.md) autorunning scripts in cards
   - script is called from file `autoexec_enrich`
