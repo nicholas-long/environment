@@ -9,10 +9,8 @@
 
 ```
 zet/20230925024118/scripts-dependencies zet/20230925143506
-zet/20230925143506/search-fzf-sploit.sh references executable file parse-searchsploit-csv.sh
-> choice=$($SCRIPT_DIR/parse-searchsploit-csv.sh | fzf --no-hscroll -d ':' --with-nth=2 --preview="$SCRIPT_DIR/preview.sh {}")
-zet/20230925143506/search-fzf-sploit.sh references executable file preview.sh
-> choice=$($SCRIPT_DIR/parse-searchsploit-csv.sh | fzf --no-hscroll -d ':' --with-nth=2 --preview="$SCRIPT_DIR/preview.sh {}")
+zet/20230925143506/exploit-fuzzy-search references executable file exploit-fuzzy-search-preview
+> choice=$(bash $SCRIPT_DIR/parse-searchsploit-csv.sh | fzf --no-hscroll -d ':' --with-nth=2 --preview="$SCRIPT_DIR/exploit-fuzzy-search-preview {}")
 ```
 
 ` zet/20230925143506/README.md `
