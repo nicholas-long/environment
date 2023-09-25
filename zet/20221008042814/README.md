@@ -31,6 +31,7 @@ stuff i am working on.
 - [20230925001420](/zet/20230925001420/README.md) cool docker scripts to migrate
 - [20230925050125](/zet/20230925050125/README.md) git scripting hub
 - [20230925054339](/zet/20230925054339/README.md) convert MSDS managed password structure to NTLM hash
+- [20230925055222](/zet/20230925055222/README.md) list of unfinished todo items
 
 Tags:
 
