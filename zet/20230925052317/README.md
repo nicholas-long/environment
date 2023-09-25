@@ -19,4 +19,4 @@ cp /home/coyote/kb/wordlists/active_directory_brute /home/coyote/kb/wordlists/et
 
 Tags:
 
-    #idea
+    #hacking #list #wordlist #data
