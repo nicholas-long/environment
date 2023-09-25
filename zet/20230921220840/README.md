@@ -35,7 +35,6 @@ find ~/kb -type f -not -executable | grep -v '\.md$'
 ```bash
 
 /home/parallels/kb/hacking/scripts/print-all-md5s.sh # print the md5 hashes of all lines in a wordlist file
-/home/coyote/kb/hacking/windows/convert-msds-managed-password-to-ntlm-hash.py # convert a GMSA managed password structure to a NTLM hash
 /home/coyote/kb/hacking/passwords/password_cracking_rules/OneRuleToRuleThemAll.rule # rule file for hashcat that is worth having
 /home/parallels/kb/awk-scripting/live-combine.awk # combine lines with all previous lines combinatorically
 /home/parallels/kb/bash-scripting/exif-all-images.sh # run exiftool on all of the images within a directory
@@ -148,6 +147,7 @@ find ~/kb -type f -not -executable | grep -v '\.md$'
 /home/coyote/kb/wordlists/active_directory_brute # simple season and year wordlist plus some simple passwords
 /home/coyote/kb/wordlists/etc.files # list of etc files from seclists project. could just link to project.
 /home/coyote/kb/wordlists/custom.dirbusting # my custom dirbusting list of things that sounded important and missing from existing lists
+/home/coyote/kb/hacking/windows/convert-msds-managed-password-to-ntlm-hash.py # convert a GMSA managed password structure to a NTLM hash
 
 ```
 
@@ -289,6 +289,7 @@ find ~/kb -type f -executable
 - [20230925024118](/zet/20230925024118/README.md) script to display information about other scripts and their dependencies
 - [20230925050125](/zet/20230925050125/README.md) git scripting hub
 - [20230925052317](/zet/20230925052317/README.md) wordlists for pentesting
+- [20230925054339](/zet/20230925054339/README.md) convert MSDS managed password structure to NTLM hash
 
 Tags:
 
