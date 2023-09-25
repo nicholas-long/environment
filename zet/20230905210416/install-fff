@@ -1,5 +1,9 @@
 #!/bin/bash
 
+if which brew 2>/dev/null >/dev/null; then
+  brew install fff # that was easy
+  exit 0
+fi
 git clone https://github.com/dylanaraps/fff
 cd fff
 sudo make install

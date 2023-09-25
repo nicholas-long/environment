@@ -4,6 +4,7 @@
 - make a script to select the correct version using fzf
 - fzf and stuff will be installed at this point, but the shortcuts might not be
   - refer to the github script by full path
+- errors installing fff with makefile, but there's a brew package for it too
 
 ```
 zet/20230905030303/github-latest-files https://github.com/sharkdp/bat
@@ -20,6 +21,7 @@ downloadurl=$(zet/20230905030303/github-latest-files https://github.com/sharkdp/
 - [20230905015223](/zet/20230905015223/README.md) install scripts
 - [20230922051930](/zet/20230922051930/README.md) lazygit interactive install script
 - [20230925193834](/zet/20230925193834/README.md) testing on mac os
+- [20230905210416](/zet/20230905210416/README.md) fast file manager fff
 
 Tags:
 
