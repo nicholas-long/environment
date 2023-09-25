@@ -1,6 +1,8 @@
 #!/bin/bash
 
-choice=$($HOME/tmux-scripts/parse-searchsploit-csv.sh | fzf --no-hscroll -d ':' --with-nth=2 --preview="$HOME/tmux-scripts/preview.sh {}")
+SCRIPT_DIR=$( cd -- "$( dirname -- "${BASH_SOURCE[0]}" )" &> /dev/null && pwd )
+
+choice=$($SCRIPT_DIR/parse-searchsploit-csv.sh | fzf --no-hscroll -d ':' --with-nth=2 --preview="$SCRIPT_DIR/preview.sh {}")
 echo $choice
 if [ $? == 0 ]; then
   sel=$(echo $choice | cut -d ':' -f 1 | awk '{print $1}' | sed 's/exploits\///g')
