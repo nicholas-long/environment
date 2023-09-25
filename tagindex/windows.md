@@ -1,0 +1,1 @@
+- [20230925054339](/zet/20230925054339/README.md) convert MSDS managed password structure to NTLM hash

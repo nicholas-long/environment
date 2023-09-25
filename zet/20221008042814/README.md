@@ -30,6 +30,7 @@ stuff i am working on.
 - [20230916125222](/zet/20230916125222/README.md) tmux scripts directory
 - [20230925001420](/zet/20230925001420/README.md) cool docker scripts to migrate
 - [20230925050125](/zet/20230925050125/README.md) git scripting hub
+- [20230925054339](/zet/20230925054339/README.md) convert MSDS managed password structure to NTLM hash
 
 Tags:
 
