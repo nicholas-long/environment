@@ -26,3 +26,5 @@
 - [20230925050125](/zet/20230925050125/README.md) git scripting hub
 - [20230925055222](/zet/20230925055222/README.md) list of unfinished todo items
 - [20230925143506](/zet/20230925143506/README.md) searchsploit fuzzy search for exploits
+- [20230925180416](/zet/20230925180416/README.md) print md5 of every line in a password wordlist
+- [20230925180815](/zet/20230925180815/README.md) password scripts hub

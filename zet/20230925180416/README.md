@@ -25,6 +25,7 @@ cat $1 | hashing
 
 - [20230921220840](/zet/20230921220840/README.md) list of kb scripts that i could decide whether to copy over
 - [20230925180815](/zet/20230925180815/README.md) password scripts hub
+- [20221012171100](/zet/20221012171100/README.md) recently created nodes hub
 
 Tags:
 
