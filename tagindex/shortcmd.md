@@ -12,3 +12,4 @@
 - [20230924221605](/zet/20230924221605/README.md) script to get nested markdown headings for keyword searching
 - [20230924224635](/zet/20230924224635/README.md) scripts to get nmap information
 - [20230925024118](/zet/20230925024118/README.md) script to display information about other scripts and their dependencies
+- [20230925143506](/zet/20230925143506/README.md) searchsploit fuzzy search for exploits

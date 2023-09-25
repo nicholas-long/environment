@@ -17,6 +17,7 @@ grep -R SCRIPT_DIR zet
 - [20230925024118](/zet/20230925024118/README.md) script to display information about other scripts and their dependencies
 - [20230905185446](/zet/20230905185446/README.md) bash file commands that are not builtins
 - [20221012171100](/zet/20221012171100/README.md) recently created nodes hub
+- [20230925143506](/zet/20230925143506/README.md) searchsploit fuzzy search for exploits
 
 Tags:
 

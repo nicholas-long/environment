@@ -21,7 +21,6 @@ zet/20230925054339/README.md:- [ ] copy in more information from my zk
 zet/20230905184854/README.md:- [ ] xclip
 zet/20230922214602/README.md:- [ ] fuzzy file search for opening and editing multiple files, any files in any directory
 zet/20230925001420/README.md:- [ ] update and fix any relative paths or kb references
-zet/20230925143506/README.md:- [ ] fix relative paths
 - [20230905015059](/zet/20230905015059/README.md) vim config #dotfile
 - [20230905015223](/zet/20230905015223/README.md) install scripts #script #setup
 - [20230905160850](/zet/20230905160850/README.md) directory for executable short commands to run on path #directory
@@ -33,7 +32,6 @@ zet/20230925143506/README.md:- [ ] fix relative paths
 - [20230925001420](/zet/20230925001420/README.md) cool docker scripts to migrate #docker #script
 - [20230925050125](/zet/20230925050125/README.md) git scripting hub #git #script
 - [20230925054339](/zet/20230925054339/README.md) convert MSDS managed password structure to NTLM hash #windows #password
-- [20230925143506](/zet/20230925143506/README.md) searchsploit fuzzy search for exploits #script #hacking
 ```
 
 - where can i find snippets?
