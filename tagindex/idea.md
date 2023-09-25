@@ -21,3 +21,4 @@
 - [20230922214602](/zet/20230922214602/README.md) things i want to implement in zkvr after working on the environment
 - [20230922222627](/zet/20230922222627/README.md) testing environment on netbook
 - [20230922222809](/zet/20230922222809/README.md) getting rid of on-screen keyboard
+- [20230925052317](/zet/20230925052317/README.md) wordlists for pentesting
