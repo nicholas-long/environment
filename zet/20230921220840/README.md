@@ -14,7 +14,7 @@
 - [x] i could definitely make a card to store wordlists
 - [ ] the collection of docker scripts is not fully converted yet
   - [20230925001420](/zet/20230925001420/README.md) cool docker scripts to migrate
-- [ ] the collection of git scripts is not fully converted yet
+- [x] the collection of git scripts is not fully converted yet
   - [20230925050125](/zet/20230925050125/README.md) git scripting related hub
 
 # list of non-executable scripts

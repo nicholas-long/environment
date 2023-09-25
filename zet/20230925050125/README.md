@@ -3,6 +3,8 @@
 - concept of `git scripting related hub`
 - it loooks like there could be a couple duplicates?
 - [x] still need to update references and dependencies
+- a lot of these scripts still have `.sh` extensions and stuff. i can rename them.
+- the one that is a dependency of other scripts has been renamed `git-enum-repos-in-directory`
 
 - list of scripts with descriptions
 ```bash
