@@ -6,11 +6,6 @@ a script will check to see if the ID numbers appear on the main README.
 
 ```
 Missing:
-- [20230921220633](/zet/20230921220633/README.md) list of cool ideas i still want to implement in my environment #idea #list #coding
-- [20230922214323](/zet/20230922214323/README.md) this environment #hub
-- [20230922220109](/zet/20230922220109/README.md) create a dockerfile for this environment #docker #script
-- [20230923211501](/zet/20230923211501/README.md) get current CVE list as tsv #script #bash #awk
-- [20230925055222](/zet/20230925055222/README.md) list of unfinished todo items #script #todo #list
 Extra:
 ```
 
