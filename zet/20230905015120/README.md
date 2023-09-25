@@ -31,6 +31,7 @@ getmyip_silent
 - [20230912192810](/zet/20230912192810/README.md) script to search zk markdown in command line
 - [20230916125704](/zet/20230916125704/README.md) terminal color schemes
 - [20230919172630](/zet/20230919172630/README.md) script to get root of repository or obsidian knowledge base
+- [20230925193834](/zet/20230925193834/README.md) testing on mac os
 
 Tags:
 
