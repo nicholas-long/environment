@@ -9,7 +9,6 @@ zet/20230905015059/README.md:  - [ ] one potential issue is that normal vim (not
 zet/20230905015223/README.md:- [ ] choose correct config and location for both vim and neovim
 zet/20230905015223/README.md:  - [ ] into zshrc
 zet/20230905015223/README.md:- [ ] nvim - i don't think i have done this yet
-zet/20230905160850/README.md:  - [ ] ought to ignore files like `autoexec_enrich` that are used for zkvr cards when finding shortcuts
 zet/20230905184854/README.md:- [ ] xclip
 zet/20230906044835/README.md:  - [ ] add error handling
 zet/20230916125222/README.md:- [ ] clean up scripts with relative path issues
@@ -20,7 +19,6 @@ zet/20230925001420/README.md:- [ ] update and fix any relative paths or kb refer
 zet/20230925054339/README.md:- [ ] copy in more information from my zk
 - [20230905015059](/zet/20230905015059/README.md) vim config #dotfile
 - [20230905015223](/zet/20230905015223/README.md) install scripts #script #setup
-- [20230905160850](/zet/20230905160850/README.md) directory for executable short commands to run on path #directory
 - [20230905184854](/zet/20230905184854/README.md) prerequesites for environment #environment
 - [20230906044835](/zet/20230906044835/README.md) script to obfuscate a nishang reverse tcp shell for windows powershell #shortcmd
 - [20230916125222](/zet/20230916125222/README.md) tmux scripts directory #tmux #script #directory
