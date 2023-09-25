@@ -15,6 +15,7 @@
 " visual move to top and bottom
 vmap <Up> :m0<Enter>
 vmap <Down> :m$<Enter>
+" left and right move a line to the beginning or end of a paragraph
 vmap <Left> :m'{<Enter>
 vmap <Right> :m'}-1<Enter>
 ```
