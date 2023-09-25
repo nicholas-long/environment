@@ -12,6 +12,8 @@
   - could automatically generate cards with some content about each script using manually updated titles in here
 - [x] i need to look for non executable scripts as well
 - [ ] i could definitely make a card to store wordlists
+- [ ] the collection of docker scripts is not fully converted yet
+  - [20230925001420](/zet/20230925001420/README.md) cool docker scripts to migrate
 
 # list of non-executable scripts
 - [x] finish going though this list
