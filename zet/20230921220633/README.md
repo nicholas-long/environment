@@ -2,6 +2,7 @@
 
 - deploy to apache
 - interactive docker stuff
+  - [20230925001420](/zet/20230925001420/README.md) cool docker scripts to migrate
 
 ```
 ```
@@ -13,6 +14,7 @@
 - [20221009192000](/zet/20221009192000/README.md) stuff to put on main page
 - [20230921220840](/zet/20230921220840/README.md) list of kb scripts that i could decide whether to copy over
 - [20221012171100](/zet/20221012171100/README.md) recently created nodes hub
+- [20230925001420](/zet/20230925001420/README.md) cool docker scripts to migrate
 
 Tags:
 

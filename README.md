@@ -3,6 +3,10 @@
 - Dotfiles and scripts organized into zettelkasten format
 - Based on zkvr zettelkasten developed in 2022 https://github.com/nicholas-long/zkvr
   - [20221013021614](/zet/20221013021614/README.md) zkvr terminal graph browser #tui #program #zettelkasten
+- [20230922214323](/zet/20230922214323/README.md) this environment #hub
+- [20230921220633](/zet/20230921220633/README.md) list of cool ideas i still want to implement in my environment #idea #list #coding
+  - [20230922220109](/zet/20230922220109/README.md) create a dockerfile for this environment #docker #script
+- [20230925055222](/zet/20230925055222/README.md) list of unfinished todo items #script #todo #list
 
 ## useful scripts
 
@@ -12,6 +16,7 @@
 - [20230906035650](/zet/20230906035650/README.md) script to print reverse shell snippets #shortcmd
   - alphanumeric base64 optimization for bash reverse shells
 - [20230914030626](/zet/20230914030626/README.md) tmux pwn menu script for hacking reverse shells and file transfer commands
+- [20230923211501](/zet/20230923211501/README.md) get current CVE list as tsv #script #bash #awk
 
 ### workflow optimizations
 
@@ -41,6 +46,7 @@
   - [20221101052020](/zet/20221101052020/README.md) TODO: Your to-do list #todo #list #me #hub
   - [ ] why are there 2 todo lists?
   - [work in progress WIP](/zet/20221008042814/README.md)
+  - [list of unfinished todo items](/zet/20230925055222/README.md)
   - [finished, but with ongoing related work #idea #meta](/zet/20221014215609/README.md)
   - [finished #done #hub](/zet/20221009095853/README.md)
 
