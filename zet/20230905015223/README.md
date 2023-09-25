@@ -5,7 +5,7 @@
   - this script [20230905015120](/zet/20230905015120/README.md) bash rc file and config
   - [x] into bashrc
   - [ ] into zshrc
-  - [ ] also into rc file for bourne shell?
+  - also into rc file for bourne shell? maybe only if planning on packaging this into a lightweight environment to transfer to target machines
 - [x] install with makefile [20230905210416](/zet/20230905210416/README.md) fast file manager fff
 - [x] run maintenance script to update
 - [x] tmux
