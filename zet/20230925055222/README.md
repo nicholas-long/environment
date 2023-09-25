@@ -16,7 +16,6 @@ zet/20230906044835/README.md:  - [ ] add error handling
 zet/20230916125222/README.md:- [ ] clean up scripts with relative path issues
 zet/20230921220840/README.md:- [ ] i could just copy most of these in to a card here and fix up all the relative paths
 zet/20230921220840/README.md:- [ ] the collection of docker scripts is not fully converted yet
-zet/20230921220840/README.md:- [ ] the collection of git scripts is not fully converted yet
 zet/20230922214602/README.md:- [ ] fuzzy file search for opening and editing multiple files, any files in any directory
 zet/20230925001420/README.md:- [ ] update and fix any relative paths or kb references
 zet/20230925054339/README.md:- [ ] copy in more information from my zk
