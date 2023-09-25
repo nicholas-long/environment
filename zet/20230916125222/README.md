@@ -110,7 +110,7 @@ tmux-scripts
 - [20230916132320](/zet/20230916132320/README.md) script to get platform install command
 - [20221008042814](/zet/20221008042814/README.md) WIP
 - [20230921220840](/zet/20230921220840/README.md) list of kb scripts that i could decide whether to copy over
-- [20230925143506](/zet/20230925143506/README.md) searchsploit csv parser
+- [20230925143506](/zet/20230925143506/README.md) searchsploit fuzzy search for exploits
 
 Tags:
 

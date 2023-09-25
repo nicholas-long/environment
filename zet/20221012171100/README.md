@@ -33,6 +33,7 @@ zet/20221012171100/README.md
 - [20230925052317](/zet/20230925052317/README.md) wordlists for pentesting
 - [20230925054339](/zet/20230925054339/README.md) convert MSDS managed password structure to NTLM hash
 - [20230925055222](/zet/20230925055222/README.md) list of unfinished todo items
+- [20230925143506](/zet/20230925143506/README.md) searchsploit fuzzy search for exploits
 
 Tags:
 

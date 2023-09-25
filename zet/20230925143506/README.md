@@ -24,6 +24,7 @@ zet/20230916125222/search-fzf-sploit.sh references executable file preview.sh
 
 - [20230916125222](/zet/20230916125222/README.md) tmux scripts directory
 - [20221008042814](/zet/20221008042814/README.md) WIP
+- [20221012171100](/zet/20221012171100/README.md) recently created nodes hub
 
 Tags:
 

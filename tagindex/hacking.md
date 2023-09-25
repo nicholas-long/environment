@@ -3,3 +3,4 @@
 - [20230920022857](/zet/20230920022857/README.md) script to get linpeas to current directory
 - [20230924224635](/zet/20230924224635/README.md) scripts to get nmap information
 - [20230925052317](/zet/20230925052317/README.md) wordlists for pentesting
+- [20230925143506](/zet/20230925143506/README.md) searchsploit fuzzy search for exploits
