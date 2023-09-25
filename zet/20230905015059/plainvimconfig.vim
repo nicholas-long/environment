@@ -55,3 +55,6 @@ nmap <Space>q :q<Enter>
 
 " space w to write
 nmap <Space>w :w<Enter>
+
+" enable syntax highlighting
+syntax on
