@@ -34,6 +34,9 @@ find ~/kb -type f -not -executable | grep -v '\.md$'
 # filtered list
 ```bash
 
+/home/parallels/kb/hacking/scripts/print-all-md5s.sh # print the md5 hashes of all lines in a wordlist file
+/home/coyote/kb/hacking/windows/convert-msds-managed-password-to-ntlm-hash.py # convert a GMSA managed password structure to a NTLM hash
+/home/coyote/kb/hacking/passwords/password_cracking_rules/OneRuleToRuleThemAll.rule # rule file for hashcat that is worth having
 /home/parallels/kb/awk-scripting/live-combine.awk # combine lines with all previous lines combinatorically
 /home/parallels/kb/bash-scripting/exif-all-images.sh # run exiftool on all of the images within a directory
 /home/parallels/kb/hacking/tricks/extract-pdf-embedded-file-stream.sh # extract PDF embedded file stream for use with PDF file attach exploits like mpdf
@@ -46,7 +49,6 @@ find ~/kb -type f -not -executable | grep -v '\.md$'
 /home/coyote/kb/hacking/windows/uacbypass/fodhelper.ps1 # a fodhelper bypass that should go in zk hacking notes
 /home/parallels/kb/linux/package-it-all.sh # attempt to package up all dependencies deb files into a tar to install on a remote target machine
 /home/coyote/kb/awk-scripting/get-interface.awk # get your preferred networking interface to work with, tunnels first, then networks, and then lan
-/home/coyote/kb/wordlists/custom.dirbusting # my custom dirbusting list of things that sounded important and missing from existing lists
 /home/coyote/kb/hacking/pwn/boilerplate-pwn-script.py # pwntools template binary exploit script
 /home/coyote/kb/bash-scripting/get-wikipedia-info.sh # get headings from wikipedia page
 /home/coyote/kb/linux/mount-shared-folders-in-vm.sh # mount shared folders on VM
@@ -57,11 +59,7 @@ find ~/kb -type f -not -executable | grep -v '\.md$'
 /home/coyote/kb/awk-scripting/colorize.awk # replace words with colorized versions
 /home/coyote/kb/awk-scripting/autogenerate-headings-for-source-files.awk # autogenerate headings for source files
 /home/coyote/kb/hacking/general-notes.md.old # figure out what to do with this
-/home/coyote/kb/hacking/windows/convert-msds-managed-password-to-ntlm-hash.py # convert a GMSA managed password structure to a NTLM hash
-/home/coyote/kb/hacking/passwords/password_cracking_rules/OneRuleToRuleThemAll.rule # rule file for hashcat that is worth having
 /home/coyote/kb/hacking/notes-template # directory that is a template folder structure for hacking notes
-/home/coyote/kb/wordlists/etc.files # list of etc files from seclists project. could just link to project.
-/home/coyote/kb/wordlists/active_directory_brute # simple season and year wordlist plus some simple passwords
 /home/coyote/kb/sed-scripting/httpd-conf-enable-cgi.sed # example sed script to edit httpd conf
 /home/coyote/kb/linux/java8.sh # source this in order to use a java 8 environment if it is installed
 /home/coyote/kb/linux/setup_aliases.sh # an attempt to sync zshrc and bashrc
@@ -70,7 +68,6 @@ find ~/kb -type f -not -executable | grep -v '\.md$'
 /home/coyote/kb/hacking/test-vuln-in-dockers/ubuntu-reverse-shell # save this directory
 /home/coyote/kb/hacking/test-vuln-in-dockers/ubuntu-reverse-shell-user-feature-test # save this directory
 /home/parallels/kb/linux/alacritty-run-tmux.sh # shortcut to start tmux session in a working directory with alacritty
-/home/parallels/kb/hacking/scripts/print-all-md5s.sh # print the md5 hashes of all lines in a wordlist file
 /home/parallels/kb/hacking/scripts/copy-burp-request-as-python-script.sh # parse burpsuite saved request file and convert to python requests script for copying
 /home/parallels/kb/hacking/scripts/get-burp-http-saved-request.sh # get raw HTTP request data from burp saved request
 /home/parallels/kb/hacking/passwords/generate-common-passwords.sh # generate common passwords
@@ -148,6 +145,9 @@ find ~/kb -type f -not -executable | grep -v '\.md$'
 /home/parallels/kb/bash-scripting/pull-all-git-repos.sh # pull all the git repos in home directory
 /home/parallels/kb/bash-scripting/list-github-repos.sh # list public github repositories for user
 /home/parallels/kb/bash-scripting/git-file-modification-date.sh # get the date of the last commit to modify a file as epoch timestamp and iso date
+/home/coyote/kb/wordlists/active_directory_brute # simple season and year wordlist plus some simple passwords
+/home/coyote/kb/wordlists/etc.files # list of etc files from seclists project. could just link to project.
+/home/coyote/kb/wordlists/custom.dirbusting # my custom dirbusting list of things that sounded important and missing from existing lists
 
 ```
 
@@ -288,6 +288,7 @@ find ~/kb -type f -executable
 - [20230925001420](/zet/20230925001420/README.md) cool docker scripts to migrate
 - [20230925024118](/zet/20230925024118/README.md) script to display information about other scripts and their dependencies
 - [20230925050125](/zet/20230925050125/README.md) git scripting hub
+- [20230925052317](/zet/20230925052317/README.md) wordlists for pentesting
 
 Tags:
 
