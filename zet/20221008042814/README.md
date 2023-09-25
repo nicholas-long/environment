@@ -28,6 +28,7 @@ stuff i am working on.
 - [20230922220109](/zet/20230922220109/README.md) create a dockerfile for this environment
 - [20230921220840](/zet/20230921220840/README.md) list of kb scripts that i could decide whether to copy over
 - [20230916125222](/zet/20230916125222/README.md) tmux scripts directory
+- [20230925001420](/zet/20230925001420/README.md) cool docker scripts to migrate
 
 Tags:
 

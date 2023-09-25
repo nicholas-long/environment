@@ -26,6 +26,7 @@ zet/20221012171100/README.md
 - [20230923211501](/zet/20230923211501/README.md) get current CVE list as tsv
 - [20230924221605](/zet/20230924221605/README.md) script to get nested markdown headings for keyword searching
 - [20230924224635](/zet/20230924224635/README.md) scripts to get nmap information
+- [20230925001420](/zet/20230925001420/README.md) cool docker scripts to migrate
 
 Tags:
 

@@ -19,6 +19,7 @@
 - [20221009192000](/zet/20221009192000/README.md) stuff to put on main page
 - [20221008042814](/zet/20221008042814/README.md) WIP
 - [20221012171100](/zet/20221012171100/README.md) recently created nodes hub
+- [20230925001420](/zet/20230925001420/README.md) cool docker scripts to migrate
 
 Tags:
 

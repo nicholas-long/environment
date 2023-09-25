@@ -29,6 +29,7 @@ chmod +x zet/20221022000131/entrypoint
 - [20221028172836](/zet/20221028172836/README.md) old dockerfile for testing zkvr with vim and tmux config
 - [20230905015107](/zet/20230905015107/README.md) tmux config
 - [20230922220109](/zet/20230922220109/README.md) create a dockerfile for this environment
+- [20230925001420](/zet/20230925001420/README.md) cool docker scripts to migrate
 
 Tags:
 

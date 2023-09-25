@@ -22,6 +22,7 @@ ln -s zet/20221028172836/rundocker
 - [20221009095853](/zet/20221009095853/README.md) finished
 - [20221022000131](/zet/20221022000131/README.md) put tmux and vim rc config in dockerfile for testing zkvr
 - [20230922220109](/zet/20230922220109/README.md) create a dockerfile for this environment
+- [20230925001420](/zet/20230925001420/README.md) cool docker scripts to migrate
 
 Tags:
 
