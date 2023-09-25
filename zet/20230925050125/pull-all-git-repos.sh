@@ -1,8 +1,9 @@
 #!/bin/bash
 
+SCRIPT_DIR=$( cd -- "$( dirname -- "${BASH_SOURCE[0]}" )" &> /dev/null && pwd )
 # pull all the git repos in home directory
 
-~/kb/bash-scripting/enum-git-repos-in-directory.sh $HOME |\
+$SCRIPT_DIR/git-enum-repos-in-directory $HOME |\
   awk -F / 'NF == 4 {print}' |\
   while read dir; do
     cd $dir

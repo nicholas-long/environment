@@ -2,7 +2,7 @@
 
 - concept of `git scripting related hub`
 - it loooks like there could be a couple duplicates?
-- [ ] still need to update references and dependencies
+- [x] still need to update references and dependencies
 
 - list of scripts with descriptions
 ```bash
@@ -27,14 +27,10 @@ cp /home/coyote/kb/bash-scripting/get-github-api-key.sh /home/coyote/kb/bash-scr
 - checking references within scripts
 ```
 zet/20230925024118/scripts-dependencies zet/20230925050125
-zet/20230925050125/update-all-git-repos.sh references kb
-> ~/kb/bash-scripting/enum-git-repos-in-directory.sh $HOME |\
-zet/20230925050125/update-all-git-repos.sh references executable file enum-git-repos-in-directory.sh
-> ~/kb/bash-scripting/enum-git-repos-in-directory.sh $HOME |\
-zet/20230925050125/pull-all-git-repos.sh references kb
-> ~/kb/bash-scripting/enum-git-repos-in-directory.sh $HOME |\
-zet/20230925050125/pull-all-git-repos.sh references executable file enum-git-repos-in-directory.sh
-> ~/kb/bash-scripting/enum-git-repos-in-directory.sh $HOME |\
+zet/20230925050125/update-all-git-repos.sh references executable file git-enum-repos-in-directory
+> $SCRIPT_DIR/git-enum-repos-in-directory $HOME |\
+zet/20230925050125/pull-all-git-repos.sh references executable file git-enum-repos-in-directory
+> $SCRIPT_DIR/git-enum-repos-in-directory $HOME |\
 ```
 
 ` zet/20230925050125/README.md `
