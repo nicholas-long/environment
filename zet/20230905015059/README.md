@@ -6,6 +6,8 @@
   - `plainvimconfig.vim`
   - [ ] one potential issue is that normal vim (not neovim) seems to mess up the terminal when lauched with multiple files with xfer
     - i think this is related to the error message about vim not being launched from a terminal. it works if you launch it from the command line with `-p`.
+    - the editor is called from within an awk system call
+    - i tried printing printing the command instead and piping it to bash, but it didn't fix it
 > Vim's user-specific configuration file is located in the home directory: `~/.vimrc`, and Vim files of current user are located inside ~/.vim/ . The global configuration file is located at /etc/vimrc .Jul 29, 2023
 - created script to install `zet/20230905015059/install-vim-config`
 - i like having space q to quit while working in zkvr
