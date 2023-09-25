@@ -1,0 +1,28 @@
+#!/usr/bin/awk -f
+
+BEGIN {
+  command = "find . -type f -executable | awk -F / '{print $NF}'"
+  while (command | getline fn > 0) {
+    files[fn] = 1
+  }
+}
+/^ *#/ { next } # ignore comments
+/\/kb\// {
+  print FILENAME " references kb"
+  print ">", $0
+}
+/\/tmux-scripts\// {
+  print FILENAME " references tmux-scripts"
+  print ">", $0
+}
+# TODO: add checks for referenes to other executable scripts
+
+# find every other reference
+{
+  for (fn in files) {
+    if (index($0, fn)) {
+      print FILENAME " references executable file " fn
+      print ">", $0
+    }
+  }
+}

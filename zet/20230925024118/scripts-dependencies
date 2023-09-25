@@ -1,0 +1,8 @@
+#!/bin/bash
+
+#executable_files=$(mktemp)
+#find zet -type f -executable | sort > "$executable_files"
+
+directory=${1:-zet} # argument value or default
+
+zet/20230925024118/check-script-dependencies $( find $directory -type f -executable )

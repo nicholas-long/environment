@@ -284,6 +284,7 @@ find ~/kb -type f -executable
 - [20230924224635](/zet/20230924224635/README.md) scripts to get nmap information
 - [20230916125222](/zet/20230916125222/README.md) tmux scripts directory
 - [20230925001420](/zet/20230925001420/README.md) cool docker scripts to migrate
+- [20230925024118](/zet/20230925024118/README.md) script to display information about other scripts and their dependencies
 
 Tags:
 
