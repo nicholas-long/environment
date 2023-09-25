@@ -1,7 +1,8 @@
 # tmux scripts directory
 
 - https://github.com/nicholas-long/pen-test-environ/tree/main/tmux-scripts
-- [ ] first figure out if there are any tmux scripts i actually want to preserve
+- [x] first figure out if there are any tmux scripts i actually want to preserve
+- some of these things should have actually been bash aliases instead of tmux hotkeys. there's not a lot of advantage to a tmux hotkey over a bash alias except if you are in the middle of doing something?
 - [ ] clean up scripts with relative path issues
 
 - scripts with relative path issues
@@ -33,6 +34,35 @@ zet/20230916125222/searchmarkdown.sh:      echo "Usage: $0 -q \"(grep pattern)\"
 zet/20230916125222/searchmarkdown.sh:  awk -v "line=$line" -f ~/kb/awk-scripting/print-markdown-content-nested-in-heading.awk "$file" | bat --language=md --paging=never --style=plain --color=always
 zet/20230916125222/searchmarkdown.sh:    awk -v "line=$line" -f ~/kb/awk-scripting/print-markdown-content-nested-in-heading.awk "$file" | tmux loadb -
 zet/20230916125222/searchmarkdown.sh:  xargs awk -f ~/kb/awk-scripting/get-headings.awk | \
+
+# checking dependencies using script
+zet/20230925024118/scripts-dependencies zet/20230916125222
+zet/20230916125222/run-github-exploit-index.sh references tmux-scripts
+> repo=$(~/tmux-scripts/github-exploit-code-repository-index/browse.sh)
+zet/20230916125222/exploit-search-init.sh references tmux-scripts
+>   ~/tmux-scripts/run-github-exploit-index.sh
+zet/20230916125222/exploit-search-init.sh references executable file run-github-exploit-index.sh
+>   ~/tmux-scripts/run-github-exploit-index.sh
+zet/20230916125222/exploit-search-init.sh references tmux-scripts
+>   ~/tmux-scripts/search-fzf-sploit.sh
+zet/20230916125222/exploit-search-init.sh references executable file search-fzf-sploit.sh
+>   ~/tmux-scripts/search-fzf-sploit.sh
+zet/20230916125222/kb.sh references executable file searchmarkdown.sh
+> $SCRIPT_DIR/searchmarkdown.sh -q '^# ' -p "$KB_DIR"
+zet/20230916125222/menu.sh references executable file kb.sh
+>   echo "Knowledge base search:$SCRIPT_DIR/kb.sh"
+zet/20230916125222/menu.sh references executable file exploit-search-init.sh
+>   echo "Exploit search:$SCRIPT_DIR/exploit-search-init.sh"
+zet/20230916125222/menu.sh references executable file tmux-pwn-menu
+>   echo "Reverse shell kit:$SCRIPT_DIR/tmux-pwn-menu/tmux-pwn-menu.py"
+zet/20230916125222/menu.sh references executable file recent-files.sh
+>   echo "Copy file path to tmux:$SCRIPT_DIR/recent-files.sh"
+zet/20230916125222/searchmarkdown.sh references kb
+>   awk -v "line=$line" -f ~/kb/awk-scripting/print-markdown-content-nested-in-heading.awk "$file" | bat --language=md --paging=never --style=plain --color=always
+zet/20230916125222/searchmarkdown.sh references kb
+>     awk -v "line=$line" -f ~/kb/awk-scripting/print-markdown-content-nested-in-heading.awk "$file" | tmux loadb -
+zet/20230916125222/searchmarkdown.sh references kb
+>   xargs awk -f ~/kb/awk-scripting/get-headings.awk | \
 
 ```
 
@@ -80,6 +110,7 @@ tmux-scripts
 - [20230916132320](/zet/20230916132320/README.md) script to get platform install command
 - [20221008042814](/zet/20221008042814/README.md) WIP
 - [20230921220840](/zet/20230921220840/README.md) list of kb scripts that i could decide whether to copy over
+- [20230925143506](/zet/20230925143506/README.md) searchsploit csv parser
 
 Tags:
 

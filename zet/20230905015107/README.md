@@ -12,10 +12,13 @@
 - [x] buffer edit
 - [x] fff file names
 - [x] tmux-pwn-menu has its own repository. i can move it into this environment [20230914030626](/zet/20230914030626/README.md)
-- [ ] main menu script - what was in this? `~/tmux-scripts/menu.sh`
+- [x] main menu script - what was in this? `~/tmux-scripts/menu.sh` - Knowledge base search, Exploit search, Reverse shell kit, Manage files, Start Apache, Stop Apache, Copy file path to tmux, Help
+  - not copying this
 - hotkeys - not important. make a new one.
-- [ ] TODO: finish enumerating from
+- [x] TODO: finish enumerating from
   - [20230916125222](/zet/20230916125222/README.md) tmux scripts directory
+  - everything that should be brought over is.
+  - some other things should have actually been bash aliases instead of tmux hotkeys. there's not a lot of advantage to a tmux hotkey over a bash alias except if you are in the middle of doing something?
 - enumerating old scripts from tmux config
 ```bash
 grep 'tmux-scripts' zet/20230905015107/tmux.conf

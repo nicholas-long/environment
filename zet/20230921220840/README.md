@@ -11,7 +11,7 @@
   - should tag cards i make from kb scripts with a tag to keep track of them
   - could automatically generate cards with some content about each script using manually updated titles in here
 - [x] i need to look for non executable scripts as well
-- [ ] i could definitely make a card to store wordlists
+- [x] i could definitely make a card to store wordlists
 - [ ] the collection of docker scripts is not fully converted yet
   - [20230925001420](/zet/20230925001420/README.md) cool docker scripts to migrate
 - [ ] the collection of git scripts is not fully converted yet
