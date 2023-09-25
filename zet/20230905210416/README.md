@@ -19,6 +19,7 @@ rm -rf fff
 - [20221008061845](/zet/20221008061845/README.md) workflow
 - [20230905015120](/zet/20230905015120/README.md) bash rc file and config
 - [20230907151050](/zet/20230907151050/README.md) bat interactive install script
+- [20230922051930](/zet/20230922051930/README.md) lazygit interactive install script
 
 Tags:
 

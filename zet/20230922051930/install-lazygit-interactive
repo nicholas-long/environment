@@ -3,6 +3,10 @@
 # install bat to /usr/bin/bat
 # pick download url from github interactively
 
+if which brew 2>/dev/null >/dev/null; then
+  brew install lazygit # that was easy
+  exit 0
+fi
 downloadurl=$(zet/20230905030303/github-latest-files https://github.com/jesseduffield/lazygit | \
   fzf --preview=lscpu "--prompt=select version of lazygit for your cpu> " | \
   awk '{print $2}')
