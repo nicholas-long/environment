@@ -276,7 +276,6 @@ find ~/kb -type f -executable
 # Related
 
 - [20230921220633](/zet/20230921220633/README.md) list of cool ideas i still want to implement in my environment
-- [20221012171100](/zet/20221012171100/README.md) recently created nodes hub
 - [20221008042814](/zet/20221008042814/README.md) WIP
 - [20230923065000](/zet/20230923065000/README.md) determining which scripts have kb references using grep
 - [20230906033259](/zet/20230906033259/README.md) functions to copy over and possibly remake as commands
