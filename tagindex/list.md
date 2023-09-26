@@ -8,3 +8,4 @@
 - [20230923065000](/zet/20230923065000/README.md) determining which scripts have kb references using grep
 - [20230925052317](/zet/20230925052317/README.md) wordlists for pentesting
 - [20230925055222](/zet/20230925055222/README.md) list of unfinished todo items
+- [20230926190350](/zet/20230926190350/README.md) scripts to process text with line by line operations

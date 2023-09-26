@@ -28,3 +28,4 @@
 - [20230925143506](/zet/20230925143506/README.md) searchsploit fuzzy search for exploits
 - [20230925180416](/zet/20230925180416/README.md) print md5 of every line in a password wordlist
 - [20230925180815](/zet/20230925180815/README.md) password scripts hub
+- [20230926190350](/zet/20230926190350/README.md) scripts to process text with line by line operations

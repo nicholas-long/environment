@@ -16,6 +16,7 @@ zet/20230921220840/README.md:- [ ] the collection of docker scripts is not fully
 zet/20230922214602/README.md:- [ ] fuzzy file search for opening and editing multiple files, any files in any directory
 zet/20230925001420/README.md:- [ ] update and fix any relative paths or kb references
 zet/20230925054339/README.md:- [ ] copy in more information from my zk
+zet/20230925193834/README.md:- [ ] shortcut directory does not build - error with awk syntax in graphquery?
 - [20230905015059](/zet/20230905015059/README.md) vim config #dotfile
 - [20230905015223](/zet/20230905015223/README.md) install scripts #script #setup
 - [20230905184854](/zet/20230905184854/README.md) prerequesites for environment #environment
@@ -25,6 +26,7 @@ zet/20230925054339/README.md:- [ ] copy in more information from my zk
 - [20230922214602](/zet/20230922214602/README.md) things i want to implement in zkvr after working on the environment #idea
 - [20230925001420](/zet/20230925001420/README.md) cool docker scripts to migrate #docker #script
 - [20230925054339](/zet/20230925054339/README.md) convert MSDS managed password structure to NTLM hash #windows #password
+- [20230925193834](/zet/20230925193834/README.md) testing on mac os #idea
 ```
 
 - where can i find snippets?

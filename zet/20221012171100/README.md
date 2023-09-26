@@ -34,6 +34,7 @@ zet/20221012171100/README.md
 - [20230925180416](/zet/20230925180416/README.md) print md5 of every line in a password wordlist
 - [20230925180815](/zet/20230925180815/README.md) password scripts hub
 - [20230925193834](/zet/20230925193834/README.md) testing on mac os
+- [20230926190350](/zet/20230926190350/README.md) scripts to process text with line by line operations
 
 Tags:
 
