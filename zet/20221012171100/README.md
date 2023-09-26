@@ -36,6 +36,7 @@ zet/20221012171100/README.md
 - [20230925193834](/zet/20230925193834/README.md) testing on mac os
 - [20230926190350](/zet/20230926190350/README.md) scripts to process text with line by line operations
 - [20230926224444](/zet/20230926224444/README.md) updating scripts to use gawk when possible
+- [20230926234809](/zet/20230926234809/README.md) a non-platform-specific find command script for executable files
 
 Tags:
 

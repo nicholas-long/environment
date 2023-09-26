@@ -23,3 +23,4 @@
 - [20230922222809](/zet/20230922222809/README.md) getting rid of on-screen keyboard
 - [20230925193834](/zet/20230925193834/README.md) testing on mac os
 - [20230926224444](/zet/20230926224444/README.md) updating scripts to use gawk when possible
+- [20230926234809](/zet/20230926234809/README.md) a non-platform-specific find command script for executable files
