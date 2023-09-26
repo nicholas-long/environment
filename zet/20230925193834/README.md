@@ -49,6 +49,7 @@
 - zkvr scripts should be updated to use gawk instead of awk
   - [20230926224444](/zet/20230926224444/README.md) updating scripts to use gawk when possible
 - linking documents was initially broken, but seems to be working now after changing one problem script to gawk
+  - the particular script that was fixed on the mac is called `parseids`
 - navigation and editing documents work
 - awk script that drives the copy snippet functionality works as expected
 
