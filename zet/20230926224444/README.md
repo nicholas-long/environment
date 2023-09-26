@@ -2,7 +2,7 @@
 
 - plain awk won't work the same as GNU awk on mac os
 - should update scripts to use gawk in particular
-
+- update scripts within zc implementation `lrwxrwxrwx 1 parallels parallels 18 Aug 31 23:50 implementation -> zet/20221006032546`
 ```bash
 grep -R '#!/usr/bin/awk -f' zet
 zet/20230906035744/space-invader:#!/usr/bin/awk -f
@@ -28,12 +28,15 @@ zet/20230906050031/center-text:#!/usr/bin/awk -f
 zet/20230924221605/markdown-get-nested-headings:#!/usr/bin/awk -f
 zet/20230924221605/README.md:#!/usr/bin/awk -f
 zet/20230919153113/markdown-obsidian-links:#!/usr/bin/awk -f
-zet/20221013021614/getcopycontent:#!/usr/bin/awk -f
 zet/20221025024238/enumtags:#!/usr/bin/awk -f
 zet/20230921220840/describe-script:#!/usr/bin/awk -f
 zet/20230925024118/check-script-dependencies:#!/usr/bin/awk -f
 zet/20230905015059/plainvimconfig.vim:abbr _awk #!/usr/bin/awk -f
 zet/20230905015059/vimconfig.vim:abbr _awk #!/usr/bin/awk -f
+
+# test if copying works
+zet/20221013021614/getcopycontent:#!/usr/bin/awk -f
+
 ```
 
 ` zet/20230926224444/README.md `
@@ -43,6 +46,8 @@ zet/20230905015059/vimconfig.vim:abbr _awk #!/usr/bin/awk -f
 - [20230925193834](/zet/20230925193834/README.md) testing on mac os
 - [20221013021614](/zet/20221013021614/README.md) zkvr terminal graph browser
 - [20221012171100](/zet/20221012171100/README.md) recently created nodes hub
+- [20221013221136](/zet/20221013221136/README.md) graph query language for zettelkasten
+- 20221006032546
 
 Tags:
 
