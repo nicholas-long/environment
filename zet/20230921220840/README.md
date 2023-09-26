@@ -34,10 +34,20 @@ find ~/kb -type f -not -executable | grep -v '\.md$'
 # filtered list
 ```bash
 
-/home/coyote/kb/hacking/passwords/password_cracking_rules/OneRuleToRuleThemAll.rule # rule file for hashcat that is worth having
-/home/parallels/kb/awk-scripting/live-combine.awk # combine lines with all previous lines combinatorically
-/home/parallels/kb/bash-scripting/exif-all-images.sh # run exiftool on all of the images within a directory
+/home/parallels/kb/bash-scripting/decorate-passwd-file.sh # decorate and colorize a passwd file piped from stdin
+/home/parallels/kb/bash-scripting/decorate-xml.sh # decorate XML with colors for tags, attributes, and content
 /home/parallels/kb/hacking/tricks/extract-pdf-embedded-file-stream.sh # extract PDF embedded file stream for use with PDF file attach exploits like mpdf
+/home/parallels/kb/python/urlencode.py # urlencode every input line
+/home/parallels/kb/bash-scripting/urlencode.sh # urlencode a line of text from stdin
+/home/parallels/kb/bash-scripting/urlencode-base64-every-line.sh # urlencode and base64 encode lines individually
+/home/parallels/kb/python/decode-post-params.py # parse all post params from post content given on standard input
+/home/parallels/kb/python/decode-cookies.py # parse a cookie from every line on standard input
+/home/parallels/kb/python/get-url-params.py # parse all get parameters from a url
+/home/parallels/kb/hacking/scripts/get-burp-http-saved-request.sh # get raw HTTP request data from burp saved request
+/home/parallels/kb/awk-scripting/get-http-post-content.awk # get HTTP POST content from HTTP request stream
+/home/coyote/kb/hacking/passwords/password_cracking_rules/OneRuleToRuleThemAll.rule # rule file for hashcat that is worth having
+/home/parallels/kb/bash-scripting/awk-print-unique-lines.sh # use awk to print only unique lines as a stream processor
+/home/parallels/kb/bash-scripting/exif-all-images.sh # run exiftool on all of the images within a directory
 /home/parallels/kb/bash-scripting/self-parsing-code-function-names.sh # test self-parsing scripts
 /home/parallels/kb/bash-scripting/ssh-keygen-generate-file.exp # expect script to generate ssh key by filename
 /home/parallels/kb/bash-scripting/watch-failed-ssh-logins-live-check-shodan.sh # watch failed ssh login attempts as a live stream
@@ -67,38 +77,20 @@ find ~/kb -type f -not -executable | grep -v '\.md$'
 /home/coyote/kb/hacking/test-vuln-in-dockers/ubuntu-reverse-shell-user-feature-test # save this directory
 /home/parallels/kb/linux/alacritty-run-tmux.sh # shortcut to start tmux session in a working directory with alacritty
 /home/parallels/kb/hacking/scripts/copy-burp-request-as-python-script.sh # parse burpsuite saved request file and convert to python requests script for copying
-/home/parallels/kb/hacking/scripts/get-burp-http-saved-request.sh # get raw HTTP request data from burp saved request
 /home/parallels/kb/hacking/passwords/generate-common-passwords.sh # generate common passwords
 /home/parallels/kb/hacking/tricks/get-versions-from-composer-lock-json.sh # get library dependency versions from composer.lock json file
 /home/parallels/kb/bash-scripting/get-random-unique-id.sh # get random hex unique ID bash
 /home/parallels/kb/bash-scripting/colorize.sh # colorize words from stdin with regular expressions
-/home/parallels/kb/bash-scripting/decorate-passwd-file.sh # decorate and colorize a passwd file piped from stdin
-/home/parallels/kb/bash-scripting/awk-print-unique-lines.sh # use awk to print only unique lines as a stream processor
-/home/parallels/kb/bash-scripting/urlencode-base64-every-line.sh # urlencode and base64 encode lines individually
 /home/parallels/kb/bash-scripting/search-tldr-commands-text.sh # search through tldr command descriptions with fzf and display file with bat
-/home/parallels/kb/bash-scripting/urlencode.sh # urlencode a line of text from stdin
 /home/parallels/kb/bash-scripting/template.sh # parse args with case statement
 /home/parallels/kb/bash-scripting/generate-dates.sh # generate ISO format dates wordlists for the last few years
 /home/parallels/kb/bash-scripting/get-current-ubuntu-distro.sh # return the most recently updated ubuntu distro
 /home/parallels/kb/bash-scripting/get-bash-lines-from-kb-snippets.sh # get bash lines from kb snippets
-/home/parallels/kb/bash-scripting/decorate-xml.sh # decorate XML with colors for tags, attributes, and content
-/home/parallels/kb/bash-scripting/string-to-hex.sh # convert string to hex with no newlines
-/home/parallels/kb/bash-scripting/sort-words-by-length.sh # sort words by length
 /home/parallels/kb/bash-scripting/find-largest-files.sh # find the largest N files
 /home/parallels/kb/python/tsv-to-python-dict.py # convert tsv with key and value fields to python dictionary
-/home/parallels/kb/python/decode-post-params.py # parse all post params from post content given on standard input
-/home/parallels/kb/python/decode-cookies.py # parse a cookie from every line on standard input
-/home/parallels/kb/python/urlencode.py # urlencode every input line
-/home/parallels/kb/python/get-url-params.py # parse all get parameters from a url
-/home/parallels/kb/awk-scripting/line-lengths.awk # constrict line widths of input text stream
 /home/parallels/kb/awk-scripting/get-columns.awk # get column headings from first line of CSV
-/home/parallels/kb/awk-scripting/hydra-bruteforce-with-database.awk # attempt to reuse credentials using hydra and keep track of usernames and passwords tried
 /home/parallels/kb/awk-scripting/print-markdown-content-nested-in-heading.awk # print nested markdown content within headings
 /home/parallels/kb/awk-scripting/file-grep-multi-lines.awk # check output of grep and next line using awk "grep -A 1 -R '^# ' ."
-/home/parallels/kb/awk-scripting/toggle-case-combinatoric.awk # print all variations of upper and lower case for given lowercase string
-/home/parallels/kb/awk-scripting/base64-every-line.awk # base64 encode lines individually
-/home/parallels/kb/awk-scripting/combine-files.awk # combine lines from two files combinatorically with symbol between
-/home/parallels/kb/awk-scripting/get-http-post-content.awk # get HTTP POST content from HTTP request stream
 /home/parallels/kb/bash-scripting/what-installed-this-file.sh # find what apt package caused a particular specific file to be installed
 /home/parallels/kb/awk-scripting/find-only-h1-files.awk # parse a list of files and figure out if they contain h2 headings
 /home/parallels/kb/awk-scripting/user-interface-fzf.awk # testing a user interface in fzf from within awk
@@ -148,6 +140,15 @@ find ~/kb -type f -not -executable | grep -v '\.md$'
 /home/coyote/kb/wordlists/custom.dirbusting # my custom dirbusting list of things that sounded important and missing from existing lists
 /home/coyote/kb/hacking/windows/convert-msds-managed-password-to-ntlm-hash.py # convert a GMSA managed password structure to a NTLM hash
 /home/parallels/kb/hacking/scripts/print-all-md5s.sh # print the md5 hashes of all lines in a wordlist file
+/home/parallels/kb/awk-scripting/line-lengths.awk # constrict line widths of input text stream
+/home/parallels/kb/bash-scripting/string-to-hex.sh # convert string to hex with no newlines
+/home/parallels/kb/bash-scripting/sort-words-by-length.sh # sort words by length
+/home/parallels/kb/awk-scripting/hydra-bruteforce-with-database.awk # attempt to reuse credentials using hydra and keep track of usernames and passwords tried
+/home/parallels/kb/awk-scripting/toggle-case-combinatoric.awk # print all variations of upper and lower case for given lowercase string
+/home/parallels/kb/awk-scripting/base64-every-line.awk # base64 encode lines individually
+/home/parallels/kb/awk-scripting/combine-files.awk # combine lines from two files combinatorically with symbol between
+/home/parallels/kb/awk-scripting/live-combine.awk # combine lines with all previous lines combinatorically
+
 
 ```
 
@@ -290,6 +291,7 @@ find ~/kb -type f -executable
 - [20230925052317](/zet/20230925052317/README.md) wordlists for pentesting
 - [20230925054339](/zet/20230925054339/README.md) convert MSDS managed password structure to NTLM hash
 - [20230925180416](/zet/20230925180416/README.md) print md5 of every line in a password wordlist
+- [20230926190350](/zet/20230926190350/README.md) scripts to process text with line by line operations
 
 Tags:
 
