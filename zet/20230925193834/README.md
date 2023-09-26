@@ -32,6 +32,7 @@
 - [20230905210416](/zet/20230905210416/README.md) fast file manager fff
 - [20230905015120](/zet/20230905015120/README.md) bash rc file and config
 - [20230905015107](/zet/20230905015107/README.md) tmux config
+- [20230913044318](/zet/20230913044318/README.md) tmux buffer edit hotkey script
 
 Tags:
 
