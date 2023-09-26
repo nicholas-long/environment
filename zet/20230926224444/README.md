@@ -3,6 +3,7 @@
 - plain awk won't work the same as GNU awk on mac os
 - should update scripts to use gawk in particular
 - update scripts within zc implementation `lrwxrwxrwx 1 parallels parallels 18 Aug 31 23:50 implementation -> zet/20221006032546`
+
 ```bash
 grep -R '#!/usr/bin/awk -f' zet
 zet/20230906035744/space-invader:#!/usr/bin/awk -f
@@ -39,6 +40,16 @@ zet/20221006032546/addsnippet:#!/usr/bin/awk -f
 # test if copying works because this is used in copy functionality
 zet/20221013021614/getcopycontent:#!/usr/bin/awk -f
 
+# updated query for work in progress with converting
+grep -R '#!/usr/bin/awk -f' zet/20221006032546
+zet/20221006032546/scanrefs:#!/usr/bin/awk -f
+zet/20221006032546/parseids:#!/usr/bin/awk -f
+zet/20221006032546/quickrefs:#!/usr/bin/awk -f
+grep: zet/20221006032546/todo.md: No such file or directory
+zet/20221006032546/countlines:#!/usr/bin/awk -f
+zet/20221006032546/getcontent:#!/usr/bin/awk -f
+zet/20221006032546/fixlines:#!/usr/bin/awk -f
+zet/20221006032546/addsnippet:#!/usr/bin/awk -f
 ```
 
 ` zet/20230926224444/README.md `
