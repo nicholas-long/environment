@@ -9,9 +9,19 @@ for f in $(ls shortcuts); do
   rm shortcuts/$f
 done
 
+
+# need to check if find command supports executable parameter
+if find --help | grep '[-]executable' >/dev/null; then
+  findcommandmods="-type f -executable"
+else
+  # if it doesn't, there's a non-portable alternative for mac os
+  findcommandmods="-perm +111 -type f"
+fi
+
 # loop over all the zet IDs that have tag shortcmd and enumerate all executable files and filenames
-./graphquery @shortcmd | while read id; do
-  find zet/$id -type f -executable | grep -v autoexec_enrich | while read filepath; do
+grep -R '#shortcmd' zet | awk '/:    / { print }' | cut -d / -f 2 | sort -u | while read id; do
+  # find executable files
+  find zet/$id $findcommandmods | grep -v autoexec_enrich | while read filepath; do
     shortcutname=$(basename $filepath)
     ln -s $(realpath $filepath) shortcuts/$shortcutname
     echo $shortcutname $filepath
