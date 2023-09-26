@@ -22,6 +22,22 @@
       --time-style=TIME_STYLE
 ```
 
+- shortcut commands dont work
+```bash
+coyote@Nicholass-MacBook-Pro environment % zet/20230905160850/update-shortcuts
+query @shortcmd
+/usr/bin/awk: syntax error at source line 4 source file implementation/parseids
+ context is
+        match($0, >>>  /zet.([0-9]+)\//, <<<
+/usr/bin/awk: bailing out at source line 4 source file implementation/parseids
+no more results
+```
+- could try changing relevant zkvr commands to gawk instead of awk?
+  - have to use `#!/usr/bin/env gawk -f`
+- issues with find command
+  - find doesn't support `-executable` on mac os. i use this quite frequently.
+  - https://apple.stackexchange.com/questions/116367/find-all-executable-files-within-a-folder-in-terminal
+
 ` zet/20230925193834/README.md `
 
 # Related
