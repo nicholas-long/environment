@@ -2,6 +2,20 @@
 
 tf=$(mktemp)
 tmux saveb $tf
-$EDITOR $tf
-head -c -1 $tf | tmux loadb -
+if [ -z "$EDITOR" ]; then
+  (nvim $tf || vim $tf)
+  echo "used editor hack"
+  sleep 5
+else
+  $EDITOR $tf
+fi
+# this is not supported on mac os
+# check if this version of head supports negative characters
+if head --help | grep 'bytes=\[-\]' 2>/dev/null >/dev/null; then
+  head -c -1 $tf | tmux loadb -
+else
+  # otherwise just forget about dropping the last newline character on mac os for now.
+  # TODO: fix this
+  cat $tf | tmux loadb -
+fi
 rm $tf
