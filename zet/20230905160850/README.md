@@ -54,6 +54,7 @@ done
 - [20230905015120](/zet/20230905015120/README.md) bash rc file and config
 - [20230919153113](/zet/20230919153113/README.md) obsidian links scripts
 - [20230925193834](/zet/20230925193834/README.md) testing on mac os
+- [20230926234809](/zet/20230926234809/README.md) a non-platform-specific find command script for executable files
 
 Tags:
 

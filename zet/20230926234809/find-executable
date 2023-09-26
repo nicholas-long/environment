@@ -1,0 +1,10 @@
+#!/bin/bash
+
+if find --help | grep '[-]executable' >/dev/null; then
+  findcommandmods="-type f -executable"
+else
+  # if it doesn't, there's a non-portable alternative for mac os
+  findcommandmods="-perm +111 -type f"
+fi
+
+find $findcommandmods $@

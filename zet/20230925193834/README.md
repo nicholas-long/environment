@@ -68,6 +68,7 @@
 - [20230905160850](/zet/20230905160850/README.md) directory for executable short commands to run on path
 - [20230912192810](/zet/20230912192810/README.md) script to search zk markdown in command line
 - [20230926224444](/zet/20230926224444/README.md) updating scripts to use gawk when possible
+- [20230926234809](/zet/20230926234809/README.md) a non-platform-specific find command script for executable files
 
 Tags:
 
