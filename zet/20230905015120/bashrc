@@ -40,7 +40,7 @@ alias q=exit
 if ls --help | grep 'time-style' 2>/dev/null >/dev/null; then
   alias ll='ls -haltr --color=auto --time-style=full-iso'
 else
-  alias ll='ls -haltr --color=auto'
+  alias ll='ls -haltr --color=always' # for mac os, color=auto does not work
 fi
 alias sess='tmux new -s'
 alias http='python3 -m http.server'
