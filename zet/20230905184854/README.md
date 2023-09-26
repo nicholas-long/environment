@@ -12,9 +12,7 @@
   - wget
 - script is called `zet/20230905184854/install-prerequisites`
 - python3 and pip3
-- [ ] xclip
-- testing on Mac OS, and the install script did not work. issues trying to run homebrew as root? edit script to use no sudo for brew
-- if running on a mac, it is recommended to install homebrew first
+- [ ] xclip - xclip does not work on mac os. use pbcopy instead.
 
 ```bash
 # select install program

@@ -8,6 +8,10 @@
 - issue with ll alias on mac os - fixing in bash rc by test running the program
 - default terminal fonts don't support the arrow symbols required to draw the tmux hotbar
 - [ ] shortcut directory does not build - error with awk syntax in graphquery?
+- xclip - xclip does not work on mac os. need to figure out what does.
+  - https://curiosum.com/til/copy-paste-within-terminal-macos-and-linux
+  - pbcopy and pbpaste
+  - this will affect the tmux scripts that copy the tmux buffer to clipboard
 
 - how to tell if ls supports `time-style`
 ```bash
