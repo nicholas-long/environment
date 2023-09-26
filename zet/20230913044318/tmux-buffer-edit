@@ -4,8 +4,8 @@ tf=$(mktemp)
 tmux saveb $tf
 if [ -z "$EDITOR" ]; then
   (nvim $tf || vim $tf)
-  echo "used editor hack"
-  sleep 5
+  echo "used editor hack because EDITOR is not defined."
+  sleep 1
 else
   $EDITOR $tf
 fi
