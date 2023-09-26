@@ -1,0 +1,52 @@
+# expect path to environment to be provided env variable ENVIRON_PATH
+
+# export the path to this repo so scripts can find each other
+if [ -z "$ENVIRON_PATH" ]; then # running from somewhere without the environment var, maybe vim
+  if [ -d zet ]; then
+    export ENVIRON_BASEPATH="."
+  fi
+else # running from bashrc
+  echo "sourced the environment: $ENVIRON_PATH"
+  $ENVIRON_PATH/zet/20230906050031/center-text $ENVIRON_PATH/zet/20230906032330/splash
+  export ENVIRON_BASEPATH="$ENVIRON_PATH"
+fi
+
+# configure EDITOR environment variable so sudoedit and fff work
+if [ -z "$EDITOR" ]; then
+  if which nvim >/dev/null ; then
+    export EDITOR=nvim
+  else
+    export EDITOR=vim
+  fi
+fi
+
+# Add this to your .bashrc, .zshrc or equivalent.
+# Run 'fff' with 'f' or whatever you decide to name the function.
+f() {
+    fff "$@"
+    cd "$(cat "${XDG_CACHE_HOME:=${HOME}/.cache}/fff/.fff_d")"
+}
+
+# turn bash prompt into vi edit with Esc
+set -o vi
+
+# productivity boost shortcuts
+alias g=lazygit
+alias v='nvim $(fzf --preview="bat --color=always {}")'
+alias t='tmux a -t $(tmux ls | fzf| cut -d ":" -f 1) || tmux'
+alias a='sudo apt install -y $(apt list 2>/dev/null | fzf | cut -d '/' -f 1)'
+alias c='cd $(find / -type d 2>/dev/null | fzf "--preview=ls -al {}")'
+alias q=exit
+if ls --help | grep 'time-style' 2>/dev/null >/dev/null; then
+  alias ll='ls -haltr --color=auto --time-style=full-iso'
+else
+  alias ll='ls -haltr --color=always' # for mac os, color=auto does not work
+fi
+alias sess='tmux new -s'
+alias http='python3 -m http.server'
+alias bc='sudo bettercap -autostart events.stream,net.recon,net.sniff,net.probe,arp.spoof,any.proxy'
+
+# scripts
+alias k='search-markdown'
+
+export PATH="$PATH:$ENVIRON_BASEPATH/shortcuts"

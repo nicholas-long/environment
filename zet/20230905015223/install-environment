@@ -34,6 +34,12 @@ if ! grep "20230905015120" ~/.bashrc; then
 else
   echo "already installed into bashrc"
 fi
+if ! grep "20230905015120" ~/.zshrc; then
+  echo "installing into zshrc..."
+  echo "ENVIRON_PATH=$environ_path source $environ_path/zet/20230905015120/zshrc" >> ~/.zshrc
+else
+  echo "already installed into zshrc"
+fi
 
 # install configs
 echo "installing tmux config"
