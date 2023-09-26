@@ -6,6 +6,7 @@
 - bat didn't install, but it can be installed with brew
 - added brew to lazygit, bat, and fff install scripts
 - issue with ll alias on mac os - fixing in bash rc by test running the program
+- default terminal fonts don't support the arrow symbols required to draw the tmux hotbar
 
 - how to tell if ls supports `time-style`
 ```bash
