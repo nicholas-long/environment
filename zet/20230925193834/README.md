@@ -13,6 +13,7 @@
   - pbcopy and pbpaste
   - this will affect the tmux scripts that copy the tmux buffer to clipboard
 - `$EDITOR` is still not defined from within tmux - why?
+- mac os is missing the `ip` command. seriously?
 
 - how to tell if ls supports `time-style`
 ```bash
