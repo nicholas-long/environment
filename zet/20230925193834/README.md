@@ -14,6 +14,8 @@
   - this will affect the tmux scripts that copy the tmux buffer to clipboard
 - `$EDITOR` is still not defined from within tmux - why?
 - mac os is missing the `ip` command. seriously?
+- problems with the find command mean that i am unable to search markdown from within the terminal
+  - [20230912192810](/zet/20230912192810/README.md) script to search zk markdown in command line
 
 - how to tell if ls supports `time-style`
 ```bash
@@ -54,6 +56,7 @@ no more results
 - [20230905015107](/zet/20230905015107/README.md) tmux config
 - [20230913044318](/zet/20230913044318/README.md) tmux buffer edit hotkey script
 - [20230905160850](/zet/20230905160850/README.md) directory for executable short commands to run on path
+- [20230912192810](/zet/20230912192810/README.md) script to search zk markdown in command line
 
 Tags:
 
