@@ -15,7 +15,6 @@
 - mac os is missing the `ip` command. seriously?
 - problems with the find command mean that i am unable to search markdown from within the terminal
   - [20230912192810](/zet/20230912192810/README.md) script to search zk markdown in command line
-- [ ] zkvr scripts need to be updated to use gawk instead of awk
 
 - how to tell if ls supports `time-style`
 ```bash
@@ -45,6 +44,10 @@
     - https://apple.stackexchange.com/questions/116367/find-all-executable-files-within-a-folder-in-terminal
 - [20230905160850](/zet/20230905160850/README.md) directory for executable short commands to run on path
   - trying to avoid using graphquery to build this because it might be hard to get it working
+
+## zkvr-specific issues on mac os
+- zkvr scripts should be updated to use gawk instead of awk
+- linking documents was initially broken, but seems to be working now after changing one problem script to gawk
 
 ` zet/20230925193834/README.md `
 
