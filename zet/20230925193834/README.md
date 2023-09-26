@@ -12,6 +12,7 @@
   - https://curiosum.com/til/copy-paste-within-terminal-macos-and-linux
   - pbcopy and pbpaste
   - this will affect the tmux scripts that copy the tmux buffer to clipboard
+- `$EDITOR` is still not defined from within tmux - why?
 
 - how to tell if ls supports `time-style`
 ```bash
