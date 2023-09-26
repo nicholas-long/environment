@@ -7,7 +7,6 @@
 - added brew to lazygit, bat, and fff install scripts
 - issue with ll alias on mac os - fixing in bash rc by test running the program
 - default terminal fonts don't support the arrow symbols required to draw the tmux hotbar
-- [ ] shortcut directory does not build - error with awk syntax in graphquery?
 - xclip - xclip does not work on mac os. need to figure out what does.
   - https://curiosum.com/til/copy-paste-within-terminal-macos-and-linux
   - pbcopy and pbpaste
@@ -16,6 +15,7 @@
 - mac os is missing the `ip` command. seriously?
 - problems with the find command mean that i am unable to search markdown from within the terminal
   - [20230912192810](/zet/20230912192810/README.md) script to search zk markdown in command line
+- [ ] zkvr scripts need to be updated to use gawk instead of awk
 
 - how to tell if ls supports `time-style`
 ```bash
@@ -25,16 +25,19 @@
       --time-style=TIME_STYLE
 ```
 
-- shortcut commands dont work
-```bash
-coyote@Nicholass-MacBook-Pro environment % zet/20230905160850/update-shortcuts
-query @shortcmd
-/usr/bin/awk: syntax error at source line 4 source file implementation/parseids
- context is
-        match($0, >>>  /zet.([0-9]+)\//, <<<
-/usr/bin/awk: bailing out at source line 4 source file implementation/parseids
-no more results
-```
+- shortcut commands dont work - fixed script
+  - [x] shortcut directory does not build - error with awk syntax in graphquery?
+  - problems with graphquery
+  ```bash
+  coyote@Nicholass-MacBook-Pro environment % zet/20230905160850/update-shortcuts
+  query @shortcmd
+  /usr/bin/awk: syntax error at source line 4 source file implementation/parseids
+   context is
+          match($0, >>>  /zet.([0-9]+)\//, <<<
+  /usr/bin/awk: bailing out at source line 4 source file implementation/parseids
+  no more results
+  ```
+
 - could try changing relevant zkvr commands to gawk instead of awk?
   - have to use `#!/usr/bin/env gawk -f`
   - issues with find command
@@ -57,6 +60,7 @@ no more results
 - [20230913044318](/zet/20230913044318/README.md) tmux buffer edit hotkey script
 - [20230905160850](/zet/20230905160850/README.md) directory for executable short commands to run on path
 - [20230912192810](/zet/20230912192810/README.md) script to search zk markdown in command line
+- [20230926224444](/zet/20230926224444/README.md) updating scripts to use gawk when possible
 
 Tags:
 
