@@ -15,14 +15,6 @@ zet/20230926190350/hydra-bruteforce-with-database.awk:#!/usr/bin/awk -f
 zet/20230926190350/toggle-case-combinatoric.awk:#!/usr/bin/awk -f
 zet/20230926190350/base64-every-line.awk:#!/usr/bin/awk -f
 zet/20230926190350/combine-files.awk:#!/usr/bin/awk -f
-zet/20221006032546/scanrefs:#!/usr/bin/awk -f
-zet/20221006032546/parseids:#!/usr/bin/awk -f
-zet/20221006032546/quickrefs:#!/usr/bin/awk -f
-grep: zet/20221006032546/todo.md: No such file or directory
-zet/20221006032546/countlines:#!/usr/bin/awk -f
-zet/20221006032546/getcontent:#!/usr/bin/awk -f
-zet/20221006032546/fixlines:#!/usr/bin/awk -f
-zet/20221006032546/addsnippet:#!/usr/bin/awk -f
 zet/20230923211501/filter-relevant-cve-items:#!/usr/bin/awk -f
 zet/20230906050031/center-text:#!/usr/bin/awk -f
 zet/20230924221605/markdown-get-nested-headings:#!/usr/bin/awk -f
@@ -34,7 +26,17 @@ zet/20230925024118/check-script-dependencies:#!/usr/bin/awk -f
 zet/20230905015059/plainvimconfig.vim:abbr _awk #!/usr/bin/awk -f
 zet/20230905015059/vimconfig.vim:abbr _awk #!/usr/bin/awk -f
 
-# test if copying works
+# scripts used in zc implementation
+zet/20221006032546/scanrefs:#!/usr/bin/awk -f
+zet/20221006032546/parseids:#!/usr/bin/awk -f
+zet/20221006032546/quickrefs:#!/usr/bin/awk -f
+grep: zet/20221006032546/todo.md: No such file or directory
+zet/20221006032546/countlines:#!/usr/bin/awk -f
+zet/20221006032546/getcontent:#!/usr/bin/awk -f
+zet/20221006032546/fixlines:#!/usr/bin/awk -f
+zet/20221006032546/addsnippet:#!/usr/bin/awk -f
+
+# test if copying works because this is used in copy functionality
 zet/20221013021614/getcopycontent:#!/usr/bin/awk -f
 
 ```
