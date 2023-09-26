@@ -5,6 +5,11 @@
 - update scripts within zc implementation `lrwxrwxrwx 1 parallels parallels 18 Aug 31 23:50 implementation -> zet/20221006032546`
 - linking documents was initially broken, but seems to be working now after changing one problem script to gawk
   - the particular script that was fixed on the mac is called `parseids`
+- shebang line to use
+  - because awk has a -f parameter and this influences how scripts are run
+```
+#!/usr/bin/env -S gawk -f
+```
 
 ```bash
 grep -R '#!/usr/bin/awk -f' zet
