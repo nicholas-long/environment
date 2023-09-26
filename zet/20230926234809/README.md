@@ -4,6 +4,7 @@
 - need to replace find executable commands within here to work on mac os
 - first uncovered this issue testing on mac os with the short cmd directory script not finding executables
   - [20230905160850](/zet/20230905160850/README.md) directory for executable short commands to run on path
+- script name `zet/20230926234809/find-executable`
 
 - original fix
 ```bash
