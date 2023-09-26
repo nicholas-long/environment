@@ -28,6 +28,16 @@ query @shortcmd
 done
 ```
 
+## troubleshooting script on mac os
+- could avoid using graphquery to build this because it might be hard to get it working.
+- this simple bash command could find specific tags within zkvr
+  ```bash
+  grep -R '#shortcmd' zet
+  grep -R '#shortcmd' zet | awk '/:    / { print }'
+  # this will return a set of all things that have the tag #shortcmd without using graphquery
+  grep -R '#shortcmd' zet | awk '/:    / { print }' | cut -d / -f 2 | sort -u
+  ```
+
 ` zet/20230905160850/README.md `
 
 # Related
