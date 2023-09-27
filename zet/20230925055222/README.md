@@ -7,23 +7,19 @@
 ```markdown
 zet/20230905015223/README.md:- [ ] choose correct config and location for both vim and neovim
 zet/20230905015223/README.md:- [ ] nvim - i don't think i have done this yet
-zet/20230905184854/README.md:  - [ ] i still want xclip installed as a dependency on linux.
 zet/20230906044835/README.md:  - [ ] add error handling
 zet/20230916125222/README.md:- [ ] clean up scripts with relative path issues
 zet/20230921220840/README.md:- [ ] i could just copy most of these in to a card here and fix up all the relative paths
 zet/20230921220840/README.md:- [ ] the collection of docker scripts is not fully converted yet
 zet/20230922214602/README.md:- [ ] fuzzy file search for opening and editing multiple files, any files in any directory
 zet/20230925001420/README.md:- [ ] update and fix any relative paths or kb references
-zet/20230925054339/README.md:- [ ] copy in more information from my zk
 zet/20230925193834/README.md:  - [ ] many places still need to be updated to use this script
 - [20230905015223](/zet/20230905015223/README.md) install scripts #script #setup
-- [20230905184854](/zet/20230905184854/README.md) prerequesites for environment #environment
 - [20230906044835](/zet/20230906044835/README.md) script to obfuscate a nishang reverse tcp shell for windows powershell #shortcmd
 - [20230916125222](/zet/20230916125222/README.md) tmux scripts directory #tmux #script #directory
 - [20230921220840](/zet/20230921220840/README.md) list of kb scripts that i could decide whether to copy over #idea #list #script
 - [20230922214602](/zet/20230922214602/README.md) things i want to implement in zkvr after working on the environment #idea
 - [20230925001420](/zet/20230925001420/README.md) cool docker scripts to migrate #docker #script
-- [20230925054339](/zet/20230925054339/README.md) convert MSDS managed password structure to NTLM hash #windows #password
 - [20230925193834](/zet/20230925193834/README.md) testing on mac os #idea
 ```
 
