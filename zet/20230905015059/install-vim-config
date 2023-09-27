@@ -23,10 +23,12 @@ if which nvim; then
     ln -s $(pwd)/zet/20230905015059/vimconfig.vim $neovimrc
   fi
 
-  if [ ! -d .vim/bundle/Vundle.vim/.git ]; then
+  if [ ! -d $HOME/.vim/bundle/Vundle.vim/.git ]; then
     echo "installing neovim plugin vundle"
     # set up vundle for neovim plugins
     git clone https://github.com/VundleVim/Vundle.vim.git $HOME/.vim/bundle/Vundle.vim
+  else
+    echo "neovim plugin vundle is already initialized"
   fi
   nvim -c ':PluginInstall' -c ':q' -c ':q'
 fi
