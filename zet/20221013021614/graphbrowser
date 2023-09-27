@@ -319,11 +319,10 @@ while [ 1 == "$going" ]; do
       /^ *- \[.*\]\(\/zet\/[0-9]+\/README.md\)/ { print | "implementation/parseids" }
       /^zet\// { print }
     ' | awk '
-      BEGIN { c = ENVIRON["EDITOR"] " -p " ENVIRON["doc"] " " }
-      /^[0-9]+/ { c = c " zet/" $0 "/README.md" }
-      /^zet\// { c = c " \047" $0 "\047" }
-      END { system(c) }
-      '
+      BEGIN { print  ENVIRON["doc"] }
+      /^[0-9]+/ { print " zet/" $0 "/README.md" }
+      /^zet\// { print "\047" $0 "\047" }
+      ' | xargs -o $EDITOR -p
   elif [ "$act" == "zkcopy" ]; then
     otherzet=$(find / -readable -type d -name zet 2>/dev/null | fzf)
     if [ ! -z "$otherzet" ]; then
