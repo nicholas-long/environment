@@ -7,7 +7,7 @@
 ```markdown
 zet/20230906044835/README.md:  - [ ] add error handling
 zet/20230916125222/README.md:- [ ] clean up scripts with relative path issues
-zet/20230922214602/README.md:- [ ] fuzzy file search for opening and editing multiple files, any files in any directory
+zet/20230922214602/README.md:- [ ] copy current fixes back up to zkvr
 zet/20230925001420/README.md:- [ ] update and fix any relative paths or kb references
 - [20230906044835](/zet/20230906044835/README.md) script to obfuscate a nishang reverse tcp shell for windows powershell #shortcmd
 - [20230916125222](/zet/20230916125222/README.md) tmux scripts directory #tmux #script #directory

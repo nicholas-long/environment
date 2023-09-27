@@ -31,6 +31,7 @@
   - `diff`        - git diff interactive commit selector
   - `back`        - go back, like a browser
     - if you edit links in cards you are working on, you could get trapped and need to hop back to previous card
+  - `fuzz`        - fuzzy find and edit files in tabs alongside the current document
   - `enrich`      - insert backlinks and other various cleanup scripts. runs automatic scripts in cards
     - consider the security implications of automatic scripts
   - `quit`        - exit program. i like q as a hotkey so this is good in fzf.
@@ -77,6 +78,7 @@ zet/20221013021614/getcopycontent zet/20221013021614/README.md
 - [20221105224810](/zet/20221105224810/README.md) launch browser to current card on github
 - [20230912192810](/zet/20230912192810/README.md) script to search zk markdown in command line
 - [20230926224444](/zet/20230926224444/README.md) updating scripts to use gawk when possible
+- [20230922214602](/zet/20230922214602/README.md) things i want to implement in zkvr after working on the environment
 
 Tags:
 
