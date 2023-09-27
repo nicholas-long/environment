@@ -9,13 +9,13 @@
 - [x] install with makefile [20230905210416](/zet/20230905210416/README.md) fast file manager fff
 - [x] run maintenance script to update
 - [x] tmux
-- [ ] nvim - i don't think i have done this yet
+- [x] nvim - this is done in the vim config install scripts only if neovim is installed
   - should i include plugins?
 - [x] vim - basic set of keybinds
 - [x] lazygit
   - [20230922051930](/zet/20230922051930/README.md) lazygit interactive install script
 - [x] install python requirements for tmux scripts
-- [ ] choose correct config and location for both vim and neovim
+- [x] choose correct config and location for both vim and neovim
 - testing on Mac OS, and the install script did not work. tried to run homebrew as root?
 
 - is it a good idea to set up git credential storage?
