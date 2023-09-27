@@ -17,6 +17,7 @@
   - [x] fix issue with single quotes in filename of search results
 - [x] fix issue with double quotes in filenames in preview
 - [x] need to use single quotes because commands can execute in double quotes, like for instance with backticks
+- changed to print tags only on lines with headings and next to the filename just in case
 
 ```bash
 # from zet/20221013021614/graphbrowser
