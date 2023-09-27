@@ -9,12 +9,10 @@ zet/20230906044835/README.md:  - [ ] add error handling
 zet/20230916125222/README.md:- [ ] clean up scripts with relative path issues
 zet/20230922214602/README.md:- [ ] fuzzy file search for opening and editing multiple files, any files in any directory
 zet/20230925001420/README.md:- [ ] update and fix any relative paths or kb references
-zet/20230927001343/README.md:- [ ] work this list until all places the find command is used are updated
 - [20230906044835](/zet/20230906044835/README.md) script to obfuscate a nishang reverse tcp shell for windows powershell #shortcmd
 - [20230916125222](/zet/20230916125222/README.md) tmux scripts directory #tmux #script #directory
 - [20230922214602](/zet/20230922214602/README.md) things i want to implement in zkvr after working on the environment #idea
 - [20230925001420](/zet/20230925001420/README.md) cool docker scripts to migrate #docker #script
-- [20230927001343](/zet/20230927001343/README.md) places to update find command to use new executable version in order to be compatible on mac #list #broken
 ```
 
 - where can i find snippets?
