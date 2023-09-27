@@ -1,6 +1,7 @@
 # places to update find command to use new executable version in order to be compatible on mac
 
 - concept of `places to update find command to use new executable version in order to be compatible on mac`
+- [ ] work this list until all places the find command is used are updated
 - queries used to find these locations with grep
   ```bash
   grep -R 'find.*executable' zet
