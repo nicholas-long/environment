@@ -39,9 +39,6 @@
   /usr/bin/awk: bailing out at source line 4 source file implementation/parseids
   no more results
   ```
-- mac os is missing the `ip` command. seriously? this means scripts that get my ip will definitely not work. it should be added to dependencies.
-  - https://command-not-found.com/ip
-  - [x] add iproute2 to dependencies
 
 ## open issues
 - default terminal fonts don't support the arrow symbols required to draw the tmux hotbar
@@ -50,6 +47,10 @@
   - have to use `#!/usr/bin/env gawk -f`
 - [20230905160850](/zet/20230905160850/README.md) directory for executable short commands to run on path
   - trying to avoid using graphquery to build this because it might be hard to get it working
+- mac os is missing the `ip` command. seriously? this means scripts that get my ip will definitely not work. it should be added to dependencies.
+  - https://command-not-found.com/ip
+  - [x] add iproute2 to dependencies. that doesn't fix it on mac os though, but maybe on some dockers.
+  - there is not a version of ip for mac os?
 
 ## zkvr-specific issues on mac os
 - zkvr scripts should be updated to use gawk instead of awk
