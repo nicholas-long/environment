@@ -1,6 +1,7 @@
 # colorizing and prettifying scripts for transforming text
 
 - concept of `colorizing and prettifying scripts for transforming text`
+- [ ] update references here - scripts to decorate things use colorize.sh
 
 ```bash
 /home/parallels/kb/bash-scripting/colorize.sh # colorize words from stdin with regular expressions
