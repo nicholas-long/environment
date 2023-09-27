@@ -17,6 +17,7 @@ cp /home/parallels/kb/bash-scripting/colorize.sh /home/parallels/kb/awk-scriptin
 
 - [20230921220840](/zet/20230921220840/README.md) list of kb scripts that i could decide whether to copy over
 - [20230906050031](/zet/20230906050031/README.md) script to center text in the terminal
+- [20221012171100](/zet/20221012171100/README.md) recently created nodes hub
 
 Tags:
 

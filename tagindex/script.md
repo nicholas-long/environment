@@ -29,3 +29,4 @@
 - [20230925180416](/zet/20230925180416/README.md) print md5 of every line in a password wordlist
 - [20230925180815](/zet/20230925180815/README.md) password scripts hub
 - [20230926190350](/zet/20230926190350/README.md) scripts to process text with line by line operations
+- [20230927233110](/zet/20230927233110/README.md) colorizing and prettifying scripts for transforming text
