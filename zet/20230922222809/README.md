@@ -2821,7 +2821,6 @@ ii  zstd                                           1.5.5+dfsg2-1                
 # Related
 
 - [20230922222627](/zet/20230922222627/README.md) testing environment on netbook
-- [20221012171100](/zet/20221012171100/README.md) recently created nodes hub
 
 Tags:
 
