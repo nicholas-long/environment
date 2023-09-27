@@ -12,3 +12,4 @@
 - [20230922212036](/zet/20230922212036/README.md) command shortcut to get markdown titles or content summaries
 - [20230923211501](/zet/20230923211501/README.md) get current CVE list as tsv
 - [20230925033312](/zet/20230925033312/README.md) bash current script directory
+- [20230926234809](/zet/20230926234809/README.md) a non-platform-specific find command script for executable files
