@@ -3,6 +3,13 @@
 - concept of `cool docker scripts to migrate`
 - these are not done yet
 - [ ] update and fix any relative paths or kb references
+- renamed script to `docker-build-github-repo-image`
+- renamed tags script to `docker-get-tags`
+```bash
+mv build-github-repo-docker-image.sh docker-build-github-repo-image
+get-tags.sh docker-get-tags
+```
+- get tags script
 
 ```bash
 /home/coyote/kb/docker/build-github-repo-docker-image.sh # clone github repository and build docker image with its name. this is a dependency of others
@@ -47,4 +54,4 @@ zet/20230925001420/ubuntu-docker-build-environment.sh references executable file
 
 Tags:
 
-    #docker #script
+    #docker #script #shortcmd
