@@ -96,7 +96,6 @@ ls zet | ./graphquery --human
 - [20221105222236](/zet/20221105222236/README.md) cron syntax #cron #syntax #info
 - [20221105224810](/zet/20221105224810/README.md) launch browser to current card on github #idea #git #web #zet
 - [20221012144502](/zet/20221012144502/README.md) track modification dates #idea
-- [20221012171100](/zet/20221012171100/README.md) recently created nodes hub #hub
 - [20221013021614](/zet/20221013021614/README.md) zkvr terminal graph browser #tui #program #zettelkasten
 - [20221013221136](/zet/20221013221136/README.md) graph query language for zettelkasten #idea #todo
 - [20221014074318](/zet/20221014074318/README.md) important choices of tech stack #idea
@@ -117,7 +116,6 @@ ls zet | ./graphquery --human
 - [20221023085822](/zet/20221023085822/README.md) implement returning paths or tables in graph query language
 - [20221006013313](/zet/20221006013313/README.md) zettelkasten
 - [20221006213953](/zet/20221006213953/README.md) video notes
-- [20221012171100](/zet/20221012171100/README.md) recently created nodes hub
 - [20230922212036](/zet/20230922212036/README.md) command shortcut to get markdown titles or content summaries
 
 Tags:

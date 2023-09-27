@@ -11,7 +11,6 @@
 
 - [20230922214323](/zet/20230922214323/README.md) this environment
 - [20221008042814](/zet/20221008042814/README.md) WIP
-- [20221012171100](/zet/20221012171100/README.md) recently created nodes hub
 
 Tags:
 

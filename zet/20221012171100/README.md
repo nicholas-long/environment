@@ -11,11 +11,6 @@ zet/20221012171100/README.md
 # Related
 
 - [20221012144502](/zet/20221012144502/README.md) track modification dates
-- [20230922203837](/zet/20230922203837/README.md) get rid of all platform specific binaries from zkvr
-- [20230922210126](/zet/20230922210126/README.md) cards i can clean up
-- [20230922212036](/zet/20230922212036/README.md) command shortcut to get markdown titles or content summaries
-- [20230922214323](/zet/20230922214323/README.md) this environment
-- [20230922214602](/zet/20230922214602/README.md) things i want to implement in zkvr after working on the environment
 - [20230922220109](/zet/20230922220109/README.md) create a dockerfile for this environment
 - [20230922222627](/zet/20230922222627/README.md) testing environment on netbook
 - [20230922222809](/zet/20230922222809/README.md) getting rid of on-screen keyboard

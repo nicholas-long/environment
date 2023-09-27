@@ -11,7 +11,6 @@ ls zet | ./graphquery --human
 # Related
 
 - [20230922210126](/zet/20230922210126/README.md) cards i can clean up
-- [20221012171100](/zet/20221012171100/README.md) recently created nodes hub
 
 Tags:
 

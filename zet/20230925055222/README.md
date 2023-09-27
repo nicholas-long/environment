@@ -5,6 +5,7 @@
 - i tried pasting the grep results togeher with the graphquery results, but that didn't work because the graphquery only returns unique results.
 
 ```markdown
+zet/20230905015059/README.md:- [ ] neovim seems to be required for the xfer command to work for now. why?
 zet/20230905015059/README.md:  - [ ] one potential issue is that normal vim (not neovim) seems to mess up the terminal when lauched with multiple files with xfer
 zet/20230905015223/README.md:- [ ] choose correct config and location for both vim and neovim
 zet/20230905015223/README.md:- [ ] nvim - i don't think i have done this yet
