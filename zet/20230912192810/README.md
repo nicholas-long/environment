@@ -18,6 +18,7 @@
 - [x] fix issue with double quotes in filenames in preview
 - [x] need to use single quotes because commands can execute in double quotes, like for instance with backticks
 - changed to print tags only on lines with headings and next to the filename just in case
+- added script to find and edit markdown pages in my obsidian zk, but it doesn't work with files with single quotes in the name
 
 ```bash
 # from zet/20221013021614/graphbrowser

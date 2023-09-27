@@ -48,5 +48,6 @@ alias bc='sudo bettercap -autostart events.stream,net.recon,net.sniff,net.probe,
 
 # scripts
 alias k='search-markdown'
+alias ke='edit-kb-fuzzy-find-markdown'
 
 export PATH="$PATH:$ENVIRON_BASEPATH/shortcuts"
