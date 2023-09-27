@@ -9,3 +9,24 @@ else
   mv ~/.vimrc ~/vimrc.bak 2>/dev/null
   ln -s $(pwd)/zet/20230905015059/plainvimconfig.vim $HOME/.vimrc
 fi
+
+if which nvim; then
+  echo "installing neovim config"
+  # initialize neovim config dir
+  mkdir -p $HOME/.config/nvim
+  neovimrc="$HOME/.config/nvim/init.vim"
+  if ls -al "$neovimrc" 2>/dev/null | grep 20230905015059 >/dev/null; then
+    echo "neovim config is already installed"
+  else
+    # nvim config is is zet/20230905015059/vimconfig.vim
+    mv $neovimrc "$neovimrc.bak"
+    ln -s $(pwd)/zet/20230905015059/vimconfig.vim $neovimrc
+  fi
+
+  if [ ! -d .vim/bundle/Vundle.vim/.git ]; then
+    echo "installing neovim plugin vundle"
+    # set up vundle for neovim plugins
+    git clone https://github.com/VundleVim/Vundle.vim.git $HOME/.vim/bundle/Vundle.vim
+  fi
+  nvim -c ':PluginInstall' -c ':q' -c ':q'
+fi
