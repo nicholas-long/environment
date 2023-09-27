@@ -1,6 +1,6 @@
 #!/bin/bash
 
-if find --help | grep '[-]executable' >/dev/null; then
+if 2>&1 find --help | grep '[-]executable' >/dev/null; then
   findcommandmods="-executable"
 else
   # if it doesn't, there's a non-portable alternative for mac os
