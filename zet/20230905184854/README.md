@@ -13,7 +13,7 @@
 - script is called `zet/20230905184854/install-prerequisites`
 - python3 and pip3
 - xclip - xclip does not work on mac os. use pbcopy instead.
-  - [ ] i still want xclip installed as a dependency on linux.
+  - [x] i still want xclip installed as a dependency on linux.
 - [x] ip command
   - https://command-not-found.com/ip
   - add iproute2 to dependencies

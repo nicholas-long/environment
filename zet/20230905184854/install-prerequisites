@@ -34,3 +34,9 @@ if ! which nvim >/dev/null; then
 else
   echo neovim is installed
 fi
+
+# i want xclip installed as a prerequesite on linux but not on mac os
+if ! which pbclip; then
+  echo "need to have xclip on this machine"
+  install_it xclip xclip
+fi
