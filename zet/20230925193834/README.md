@@ -59,6 +59,19 @@
   - the particular script that was fixed on the mac is called `parseids`
 - navigation and editing documents work
 - awk script that drives the copy snippet functionality works as expected
+- spawn doesn't work. it looks like an issue with sed in a script
+  ```
+  enter title> debugging the script on mac os
+  [diag] new debugging the script on mac os
+  sed: 1: "zet/20230927032725/READ ...": invalid command code z
+  [diag] addref 20230927032725 20230912192810
+  sed: 1: "zet/20230927032725/READ ...": invalid command code z
+  spawned 20230927032725
+  [diag] addref 20230912192810 20230927032725
+  [diag] enrich_links_single  20230912192810
+  [diag] enrich_links_single  20230927032725
+  ```
+  - it was able to spawn a card, but it didn't replace the template content or insert the link into the current card
 
 ` zet/20230925193834/README.md `
 
