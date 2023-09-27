@@ -5,7 +5,6 @@
 - i tried pasting the grep results togeher with the graphquery results, but that didn't work because the graphquery only returns unique results.
 
 ```markdown
-zet/20230906044835/README.md:  - [ ] add error handling
 zet/20230916125222/README.md:- [ ] clean up scripts with relative path issues
 zet/20230922214602/README.md:- [ ] copy current fixes back up to zkvr
 zet/20230925001420/README.md:- [ ] update and fix any relative paths or kb references
@@ -16,7 +15,6 @@ zet/20230927152827/extracted/sandbox/Formatting/Task.md:- [ ] this is an incompl
 zet/20230927152827/old-notes-from-obsidian.md:  - [ ] could be that the password should be hashed by the client before even being sent? there was some stuff that looked like crypto algorithms?
 zet/20230927152827/old-notes-from-obsidian.md:  - [ ] could it be that the user agent or something has to be right?
 zet/20230927152827/README.md:- [ ] figure out why login doesn't work and return a token
-- [20230906044835](/zet/20230906044835/README.md) script to obfuscate a nishang reverse tcp shell for windows powershell #shortcmd
 - [20230916125222](/zet/20230916125222/README.md) tmux scripts directory #tmux #script #directory
 - [20230922214602](/zet/20230922214602/README.md) things i want to implement in zkvr after working on the environment #idea
 - [20230925001420](/zet/20230925001420/README.md) cool docker scripts to migrate #docker #script
