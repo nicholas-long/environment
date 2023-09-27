@@ -6,6 +6,20 @@
   - [20230905160850](/zet/20230905160850/README.md) directory for executable short commands to run on path
 - script name `zet/20230926234809/find-executable`
 
+- usage
+```bash
+┌──(parallels㉿kali-linux-2022-2)-[~/environment]
+└─$ find-executable . -type f -name autoexec_enrich
+./zet/20230905160850/autoexec_enrich
+./zet/20221012144502/autoexec_enrich
+./zet/20221006032546/autoexec_enrich
+./zet/20221026064448/autoexec_enrich
+./zet/20221006213953/autoexec_enrich
+./zet/20221008063052/autoexec_enrich
+./zet/20230925055222/autoexec_enrich
+./zet/20221009192000/autoexec_enrich
+```
+
 - original fix
 ```bash
 # need to check if find command supports executable parameter
@@ -27,4 +41,4 @@ fi
 
 Tags:
 
-    #idea #shortcmd
+    #shortcmd #bash #command
