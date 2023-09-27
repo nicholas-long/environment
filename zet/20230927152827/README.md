@@ -116,6 +116,113 @@ t.prototype.verifyPassword = function(e, t, n, i) {
 // verifyPassword called on line 98992
 return r.trys.push([1, 5, , 6]), n = this.currentVaultInfo, [4, this.plugin.verifyPassword(n.id, e, n.salt, n.host)]; //e = this.keyInputEl.value
 // key hash is generated from key e and n.salt which, i think, is the salt returned for the vault
+
+t.prototype.makeKeyHash = function(e, t) {
+    return v(this, void 0, void 0, (function() {
+        var n, i;
+        return y(this, (function(r) {
+            switch (r.label) {
+                case 0:
+                    return [4, J(e, t)];//J is a crypto function
+                case 1:
+                    return n = r.sent(), i = G, [4, j(n)];
+                case 2:
+                    return [2, i.apply(void 0, [r.sent()])]
+            }
+        }))
+    }))
+} //, t.prototype.getSalt = function() {
+
+//uses scrypt
+function J(e, t) {
+    return v(this, void 0, Promise, (function() {
+        var n;
+        return y(this, (function(i) {
+            switch (i.label) {
+                case 0:
+                    return e = e.normalize("NFKC"), t = t.normalize("NFKC"), (n = window.require && window.require("crypto")) ? [4, new Promise((function(i, r) {
+                        n.scrypt(Buffer.from(e, "utf8"), Buffer.from(t, "utf8"), 32, Q, (function(e, t) {
+                            e ? r(e) : i(t)
+                        }))
+                    }))] : [3, 2];
+                case 1:
+                    return [2, B(i.sent())];
+                case 2:
+                    return [4, window.scrypt.scrypt(new Uint8Array(H(e)), new Uint8Array(H(t)), Z, 8, 1, 32)];
+                case 3:
+                    return [2, R(i.sent())]
+            }
+        }))
+    }))
+}
+
+function H(e) {
+    return R((new TextEncoder).encode(e))
+}
+```
+
+### logging into a vault
+- password and salt are unicode normalized with NFKC https://towardsdatascience.com/difference-between-nfd-nfc-nfkd-and-nfkc-explained-with-python-code-e2631f96ae6c
+- password and salt are passed to scrypt with key length of 32
+- how scrypt works in browser https://www.tutorialspoint.com/crypto-scrypt-method-in-node-js#:~:text=The%20crypto.,attacks%20and%20makes%20it%20unawarding.
+  ```javascript
+  crypto.scrypt(password, salt, keylen, [options], [callback])
+  ```
+- 
+
+## looking into downloading files
+- found where logging is called that download is complete, line 100249
+  ```
+  t.prototype.syncFileDown = function(e, t) {
+    //...
+    (v = this.localFiles[n]) && (v.hash = h, v.synchash = h), this.log("Downloading complete", n), y.label = 31;
+  ```
+```
+t.prototype.asyncGetServer = function() {
+    return v(this, void 0, Promise, (function() {
+        var e, t, n, i, r, o, a = this;
+        return y(this, (function(s) {
+            switch (s.label) {
+                case 0:
+                    return !(e = this.server) || e.isConnected() || e.isConnecting() || (e.disconnect(), e = this.server = null, this.backoff.fail()), e ? [3, 4] : this.host && this.app.account.token && this.vaultId && this.key ? [4, Y(this.key)] : [3, 3];
+                case 1:
+                    return t = s.sent(), i = G, [4, j(this.key)];
+                case 2:
+                    return n = i.apply(void 0, [s.sent()]), e = this.server = new WJ(t, n), [3, 4];
+                case 3:
+                    return [2, null];
+                case 4:
+                    if (e.hasConnection()) return [3, 8];
+                    this.setStatus("Connecting to server"), this.log("Connecting to server"), this.ready = !1, s.label = 5;
+                case 5:
+                    return s.trys.push([5, 7, , 8]), r = this.deviceName || this.getDefaultDeviceName(), [4, e.connect(this.getHost(), this.app.account.token, this.vaultId, this.version, this.initial, r, (function(e) {
+                        a.log("Connection successful. Detecting changes..."), a.ready = !0, a.initial && (a.initial = !1), a.version < e && (a.version = e), a.dirty = !0, a.requestSaveData(), a.requestSync()
+                    }), this.onPushedFile.bind(this))];
+                case 6:
+                    return s.sent(), this.backoff.success(), [3, 8];
+                case 7:
+                    return (o = s.sent()).message && o.message.contains("Your subscription to Obsidian Sync has expired") && new LI(o.message), console.error(o), this.log(o.message, null, !0), e.disconnect(), e = this.server = null, this.error = !0, this.backoff.fail(), [2, null];
+                case 8:
+                    return [2, e]
+            }
+        }))
+    }))
+}, t.prototype._sync = function() { } //...
+```
+### selecting server
+- this looks related to obsidian publish though
+```
+e.prototype.apiPostBackend = function(e, t) {
+    return v(this, void 0, Promise, (function() {
+        return y(this, (function(n) {
+            return t.id = this.siteId, t.token = this.app.account.token, [2, this.apiRequest({
+                method: "POST",
+                url: this.getHost() + "/" + e,
+                data: t
+            })]
+        }))
+    }))
+}, //e.prototype.apiSetSlug = function(e, t, n) {
 ```
 
 ## analyzing source
