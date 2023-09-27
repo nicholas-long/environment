@@ -34,8 +34,6 @@ find ~/kb -type f -not -executable | grep -v '\.md$'
 # filtered list
 ```bash
 
-/home/parallels/kb/bash-scripting/decorate-passwd-file.sh # decorate and colorize a passwd file piped from stdin
-/home/parallels/kb/bash-scripting/decorate-xml.sh # decorate XML with colors for tags, attributes, and content
 /home/parallels/kb/hacking/tricks/extract-pdf-embedded-file-stream.sh # extract PDF embedded file stream for use with PDF file attach exploits like mpdf
 /home/parallels/kb/python/urlencode.py # urlencode every input line
 /home/parallels/kb/bash-scripting/urlencode.sh # urlencode a line of text from stdin
@@ -64,7 +62,6 @@ find ~/kb -type f -not -executable | grep -v '\.md$'
 /home/coyote/kb/hacking/nmap.commands.old # Initial Fast TCP Scan
 /home/coyote/kb/linux/install_sublime.sh # install sublimetext
 /home/coyote/kb/linux/install_vscode.sh # install vscode
-/home/coyote/kb/awk-scripting/colorize.awk # replace words with colorized versions
 /home/coyote/kb/awk-scripting/autogenerate-headings-for-source-files.awk # autogenerate headings for source files
 /home/coyote/kb/hacking/general-notes.md.old # figure out what to do with this
 /home/coyote/kb/hacking/notes-template # directory that is a template folder structure for hacking notes
@@ -80,7 +77,6 @@ find ~/kb -type f -not -executable | grep -v '\.md$'
 /home/parallels/kb/hacking/passwords/generate-common-passwords.sh # generate common passwords
 /home/parallels/kb/hacking/tricks/get-versions-from-composer-lock-json.sh # get library dependency versions from composer.lock json file
 /home/parallels/kb/bash-scripting/get-random-unique-id.sh # get random hex unique ID bash
-/home/parallels/kb/bash-scripting/colorize.sh # colorize words from stdin with regular expressions
 /home/parallels/kb/bash-scripting/search-tldr-commands-text.sh # search through tldr command descriptions with fzf and display file with bat
 /home/parallels/kb/bash-scripting/template.sh # parse args with case statement
 /home/parallels/kb/bash-scripting/generate-dates.sh # generate ISO format dates wordlists for the last few years
@@ -148,6 +144,10 @@ find ~/kb -type f -not -executable | grep -v '\.md$'
 /home/parallels/kb/awk-scripting/base64-every-line.awk # base64 encode lines individually
 /home/parallels/kb/awk-scripting/combine-files.awk # combine lines from two files combinatorically with symbol between
 /home/parallels/kb/awk-scripting/live-combine.awk # combine lines with all previous lines combinatorically
+/home/parallels/kb/bash-scripting/colorize.sh # colorize words from stdin with regular expressions
+/home/coyote/kb/awk-scripting/colorize.awk # replace words with colorized versions
+/home/parallels/kb/bash-scripting/decorate-passwd-file.sh # decorate and colorize a passwd file piped from stdin
+/home/parallels/kb/bash-scripting/decorate-xml.sh # decorate XML with colors for tags, attributes, and content
 
 
 ```
@@ -292,6 +292,7 @@ find ~/kb -type f -executable
 - [20230925054339](/zet/20230925054339/README.md) convert MSDS managed password structure to NTLM hash
 - [20230925180416](/zet/20230925180416/README.md) print md5 of every line in a password wordlist
 - [20230926190350](/zet/20230926190350/README.md) scripts to process text with line by line operations
+- [20230927233110](/zet/20230927233110/README.md) colorizing and prettifying scripts for transforming text
 
 Tags:
 
