@@ -51,6 +51,7 @@
   - https://command-not-found.com/ip
   - [x] add iproute2 to dependencies. that doesn't fix it on mac os though, but maybe on some dockers.
   - there is not a version of ip for mac os?
+- awk on mac os does not support `BEGINFILE`. i will need to search for this and use gawk instead.
 
 ## zkvr-specific issues on mac os
 - zkvr scripts should be updated to use gawk instead of awk

@@ -1,6 +1,18 @@
+# debugging the markdown script on mac os
+
+- concept of `debugging the script on mac os`
+- command `fuzzy-search-markdown-content` returns nothing on mac os
+- solution was to change it to gawk!
+- awk on mac os does not support `BEGINFILE`
+
+- script contents
+  - test awk print
+  - test arg
+```
+cat $(which fuzzy-search-markdown-content)
 #!/bin/bash
 
-find $ZK_PATH -name '*.md' -type f -print0 | xargs -0 gawk '
+find $ZK_PATH -name '*.md' -type f -print0 | xargs -0 awk '
   BEGIN {
     OFS = "\t"
   }
@@ -39,3 +51,15 @@ find $ZK_PATH -name '*.md' -type f -print0 | xargs -0 gawk '
     }
   }
 '
+```
+
+` zet/20230927033258/README.md `
+
+# Related
+
+- [20230912192810](/zet/20230912192810/README.md) script to search zk markdown in command line
+- [20230925193834](/zet/20230925193834/README.md) testing on mac os
+
+Tags:
+
+    #idea
