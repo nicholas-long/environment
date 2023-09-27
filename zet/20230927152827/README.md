@@ -86,6 +86,55 @@ curl -X POST -H 'Content-Type: application/json' -d "{\"token\":\"$token\"}" htt
 ```
 
 ## accessing a vault
+
+```
+{
+  "vaults": [
+    {
+      "id": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+      "created": 1669939940932,
+      "name": "zk",
+      "size": 1241718784,
+      "host": "bbbbbbb.obsidian.md",
+      "password": "",
+      "salt": "cccccccccccccccccccc"
+    }
+  ],
+  "shared": []
+}
+
+# this does not work
+source /home/parallels/obsidiancreds # needs token defined in creds file
+curl -X POST -H 'Content-Type: application/json' -d "{\"token\":\"$token\",\"vault_uid\":\"$vault_uid\",\"keyhash\":$keyhash,\"host\":\"$host\"}" https://api.obsidian.md/vault/access | jq
+
+```
+
+- when i tried sending it a json encoded buffer object, it said invalid request: keyhash must be a string, so we know that much
+- i keep getting error `{ error: 'Wrong vault key, please try again.' }`
+  - this is the exact same as the error message you get in obsidian when you type the wrong password for your vault
+- i can't figure out where obsidian actually converts this value to a string when putting it in.
+  - tried base64
+  - tried hex
+
+```javascript
+crypto.scrypt(Buffer.from(password, "utf8"), Buffer.from(salt, "utf8"), 32, {}, (function(e, t) { console.log(e); keyhash = t; }));
+
+body = {
+  token: token,
+  vault_uid: vaultuid,
+  keyhash: keyhash.toString(),
+  host: host
+};
+response = await fetch('https://api.obsidian.md/vault/access', {
+	method: 'post',
+	body: JSON.stringify(body),
+	headers: {'Content-Type': 'application/json'}
+});
+data = await response.json();
+```
+
+### keyhash information
+
 - it looks like you take the salt and encrypt something with your password to access the vault?
 - uses function `makeKeyHash`
 - you pass in the host and it uses the same function?
@@ -209,21 +258,6 @@ t.prototype.asyncGetServer = function() {
     }))
 }, t.prototype._sync = function() { } //...
 ```
-### selecting server
-- this looks related to obsidian publish though
-```
-e.prototype.apiPostBackend = function(e, t) {
-    return v(this, void 0, Promise, (function() {
-        return y(this, (function(n) {
-            return t.id = this.siteId, t.token = this.app.account.token, [2, this.apiRequest({
-                method: "POST",
-                url: this.getHost() + "/" + e,
-                data: t
-            })]
-        }))
-    }))
-}, //e.prototype.apiSetSlug = function(e, t, n) {
-```
 
 ## analyzing source
 - `app_pretty.js` line 98702
@@ -298,6 +332,22 @@ t.prototype.login = function() {
         }))
     }))
 } //, t
+```
+
+### selecting server
+- this looks related to obsidian publish though
+```
+e.prototype.apiPostBackend = function(e, t) {
+    return v(this, void 0, Promise, (function() {
+        return y(this, (function(n) {
+            return t.id = this.siteId, t.token = this.app.account.token, [2, this.apiRequest({
+                method: "POST",
+                url: this.getHost() + "/" + e,
+                data: t
+            })]
+        }))
+    }))
+}, //e.prototype.apiSetSlug = function(e, t, n) {
 ```
 
 ` zet/20230927152827/README.md `
