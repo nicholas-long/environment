@@ -6,7 +6,6 @@ a script will check to see if the ID numbers appear on the main README.
 
 ```
 Missing:
-- [20230927152827](/zet/20230927152827/README.md) reverse engineering obsidian to create an obsidian sync cli tool #program #command #reveng #util
 Extra:
 ```
 

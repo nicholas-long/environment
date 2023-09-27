@@ -30,6 +30,9 @@
 - [20230905015107](/zet/20230905015107/README.md) tmux config #idea
 - [20230905015223](/zet/20230905015223/README.md) install scripts #script #setup
 
+## projects
+- [20230927152827](/zet/20230927152827/README.md) reverse engineering obsidian to create an obsidian sync cli tool #program #command #reveng #util
+
 ## shortcuts and symbolic links
 
 - symbolic links to executable scripts are kept up to date in a directory using tags and attachments in cards
