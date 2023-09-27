@@ -5,8 +5,6 @@
 - i tried pasting the grep results togeher with the graphquery results, but that didn't work because the graphquery only returns unique results.
 
 ```markdown
-zet/20230905015223/README.md:- [ ] choose correct config and location for both vim and neovim
-zet/20230905015223/README.md:- [ ] nvim - i don't think i have done this yet
 zet/20230906044835/README.md:  - [ ] add error handling
 zet/20230916125222/README.md:- [ ] clean up scripts with relative path issues
 zet/20230921220840/README.md:- [ ] i could just copy most of these in to a card here and fix up all the relative paths
@@ -14,7 +12,6 @@ zet/20230921220840/README.md:- [ ] the collection of docker scripts is not fully
 zet/20230922214602/README.md:- [ ] fuzzy file search for opening and editing multiple files, any files in any directory
 zet/20230925001420/README.md:- [ ] update and fix any relative paths or kb references
 zet/20230925193834/README.md:  - [ ] many places still need to be updated to use this script
-- [20230905015223](/zet/20230905015223/README.md) install scripts #script #setup
 - [20230906044835](/zet/20230906044835/README.md) script to obfuscate a nishang reverse tcp shell for windows powershell #shortcmd
 - [20230916125222](/zet/20230916125222/README.md) tmux scripts directory #tmux #script #directory
 - [20230921220840](/zet/20230921220840/README.md) list of kb scripts that i could decide whether to copy over #idea #list #script
