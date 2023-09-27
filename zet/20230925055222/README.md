@@ -8,7 +8,7 @@
 zet/20230905015059/README.md:  - [ ] one potential issue is that normal vim (not neovim) seems to mess up the terminal when lauched with multiple files with xfer
 zet/20230905015223/README.md:- [ ] choose correct config and location for both vim and neovim
 zet/20230905015223/README.md:- [ ] nvim - i don't think i have done this yet
-zet/20230905184854/README.md:- [ ] xclip - xclip does not work on mac os. use pbcopy instead.
+zet/20230905184854/README.md:  - [ ] i still want xclip installed as a dependency on linux.
 zet/20230906044835/README.md:  - [ ] add error handling
 zet/20230916125222/README.md:- [ ] clean up scripts with relative path issues
 zet/20230921220840/README.md:- [ ] i could just copy most of these in to a card here and fix up all the relative paths
@@ -16,6 +16,7 @@ zet/20230921220840/README.md:- [ ] the collection of docker scripts is not fully
 zet/20230922214602/README.md:- [ ] fuzzy file search for opening and editing multiple files, any files in any directory
 zet/20230925001420/README.md:- [ ] update and fix any relative paths or kb references
 zet/20230925054339/README.md:- [ ] copy in more information from my zk
+zet/20230925193834/README.md:  - [ ] many places still need to be updated to use this script
 - [20230905015059](/zet/20230905015059/README.md) vim config #dotfile
 - [20230905015223](/zet/20230905015223/README.md) install scripts #script #setup
 - [20230905184854](/zet/20230905184854/README.md) prerequesites for environment #environment
@@ -25,6 +26,7 @@ zet/20230925054339/README.md:- [ ] copy in more information from my zk
 - [20230922214602](/zet/20230922214602/README.md) things i want to implement in zkvr after working on the environment #idea
 - [20230925001420](/zet/20230925001420/README.md) cool docker scripts to migrate #docker #script
 - [20230925054339](/zet/20230925054339/README.md) convert MSDS managed password structure to NTLM hash #windows #password
+- [20230925193834](/zet/20230925193834/README.md) testing on mac os #idea
 ```
 
 - where can i find snippets?
