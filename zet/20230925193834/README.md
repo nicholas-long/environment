@@ -13,10 +13,15 @@
   - this will affect the tmux scripts that copy the tmux buffer to clipboard
 - `$EDITOR` is still not defined from within tmux - why?
 - mac os is missing the `ip` command. seriously?
-- problems with the find command mean that i am unable to search markdown from within the terminal
-  - [20230926234809](/zet/20230926234809/README.md) a non-platform-specific find command script for executable files
+- issues with find command
+  - find doesn't support `-executable` on mac os. i use this quite frequently.
+  - fixed this with a custom script.
+    - [20230926234809](/zet/20230926234809/README.md) a non-platform-specific find command script for executable files
+  - [ ] many places still need to be updated to use this script
     - [20230927001343](/zet/20230927001343/README.md) places to update find command to use new executable version in order to be compatible on mac
-  - [20230912192810](/zet/20230912192810/README.md) script to search zk markdown in command line
+  - https://apple.stackexchange.com/questions/116367/find-all-executable-files-within-a-folder-in-terminal
+  - problems with the find command mean that i am unable to search markdown from within the terminal
+    - [20230912192810](/zet/20230912192810/README.md) script to search zk markdown in command line
 
 - how to tell if ls supports `time-style`
 ```bash
@@ -41,9 +46,6 @@
 
 - could try changing relevant zkvr commands to gawk instead of awk?
   - have to use `#!/usr/bin/env gawk -f`
-  - issues with find command
-    - find doesn't support `-executable` on mac os. i use this quite frequently.
-    - https://apple.stackexchange.com/questions/116367/find-all-executable-files-within-a-folder-in-terminal
 - [20230905160850](/zet/20230905160850/README.md) directory for executable short commands to run on path
   - trying to avoid using graphquery to build this because it might be hard to get it working
 
