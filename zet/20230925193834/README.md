@@ -1,18 +1,23 @@
 # testing on mac os
 
-- concept of `testing on mac os`
-- testing on Mac OS, and the install script did not work. issues trying to run homebrew as root? edit script to use no sudo for brew
+## resolved issues
 - if running on a mac, it is recommended to install homebrew first
-- bat didn't install, but it can be installed with brew
+  - issues trying to run homebrew as root? edit script to use no sudo for brew
+- bat can be installed with brew
 - added brew to lazygit, bat, and fff install scripts
 - issue with ll alias on mac os - fixing in bash rc by test running the program
-- default terminal fonts don't support the arrow symbols required to draw the tmux hotbar
 - xclip - xclip does not work on mac os. need to figure out what does.
   - https://curiosum.com/til/copy-paste-within-terminal-macos-and-linux
   - pbcopy and pbpaste
-  - this will affect the tmux scripts that copy the tmux buffer to clipboard
-- `$EDITOR` is still not defined from within tmux - why?
-- mac os is missing the `ip` command. seriously?
+  - this will affect the tmux scripts that copy the tmux buffer to clipboard. added to tmux config.
+    - [20230905015107](/zet/20230905015107/README.md) tmux config
+- `ll` keyword - how to tell if ls supports `time-style`
+```bash
+┌──(parallels㉿kali-linux-2022-2)-[~/environment]
+└─$ ls --help | grep time-style
+      --full-time            like -l --time-style=full-iso
+      --time-style=TIME_STYLE
+```
 - issues with find command
   - find doesn't support `-executable` on mac os. i use this quite frequently.
   - fixed this with a custom script.
@@ -22,15 +27,6 @@
   - https://apple.stackexchange.com/questions/116367/find-all-executable-files-within-a-folder-in-terminal
   - problems with the find command mean that i am unable to search markdown from within the terminal
     - [20230912192810](/zet/20230912192810/README.md) script to search zk markdown in command line
-
-- how to tell if ls supports `time-style`
-```bash
-┌──(parallels㉿kali-linux-2022-2)-[~/environment]
-└─$ ls --help | grep time-style
-      --full-time            like -l --time-style=full-iso
-      --time-style=TIME_STYLE
-```
-
 - shortcut commands dont work - fixed script
   - [x] shortcut directory does not build - error with awk syntax in graphquery?
   - problems with graphquery
@@ -43,7 +39,13 @@
   /usr/bin/awk: bailing out at source line 4 source file implementation/parseids
   no more results
   ```
+- mac os is missing the `ip` command. seriously? this means scripts that get my ip will definitely not work. it should be added to dependencies.
+  - https://command-not-found.com/ip
+  - [x] add iproute2 to dependencies
 
+## open issues
+- default terminal fonts don't support the arrow symbols required to draw the tmux hotbar
+- `$EDITOR` is still not defined from within tmux - why?
 - could try changing relevant zkvr commands to gawk instead of awk?
   - have to use `#!/usr/bin/env gawk -f`
 - [20230905160850](/zet/20230905160850/README.md) directory for executable short commands to run on path
