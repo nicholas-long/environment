@@ -1,2 +1,1 @@
-- [20221028173620](/zet/20221028173620/README.md) yq binaries
 - [20230927152827](/zet/20230927152827/README.md) reverse engineering obsidian to create an obsidian sync cli tool

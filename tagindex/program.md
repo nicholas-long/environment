@@ -4,3 +4,4 @@
 - [20221028173620](/zet/20221028173620/README.md) yq binaries
 - [20221105220915](/zet/20221105220915/README.md) add recurring timers using github cron actions
 - [20230905210416](/zet/20230905210416/README.md) fast file manager fff
+- [20230927152827](/zet/20230927152827/README.md) reverse engineering obsidian to create an obsidian sync cli tool

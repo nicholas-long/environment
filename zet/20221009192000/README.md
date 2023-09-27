@@ -6,6 +6,7 @@ a script will check to see if the ID numbers appear on the main README.
 
 ```
 Missing:
+- [20230927152827](/zet/20230927152827/README.md) reverse engineering obsidian to create an obsidian sync cli tool #program #command #reveng #util
 Extra:
 ```
 
@@ -39,6 +40,7 @@ Extra:
 - [20230922220109](/zet/20230922220109/README.md) create a dockerfile for this environment
 - [20230923211501](/zet/20230923211501/README.md) get current CVE list as tsv
 - [20230925055222](/zet/20230925055222/README.md) list of unfinished todo items
+- [20230927152827](/zet/20230927152827/README.md) reverse engineering obsidian to create an obsidian sync cli tool
 
 Tags:
 

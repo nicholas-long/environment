@@ -4,3 +4,4 @@
 - [20230905185446](/zet/20230905185446/README.md) bash file commands that are not builtins
 - [20230922212036](/zet/20230922212036/README.md) command shortcut to get markdown titles or content summaries
 - [20230926234809](/zet/20230926234809/README.md) a non-platform-specific find command script for executable files
+- [20230927152827](/zet/20230927152827/README.md) reverse engineering obsidian to create an obsidian sync cli tool
