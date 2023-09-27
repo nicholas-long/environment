@@ -217,7 +217,35 @@ function H(e) {
   ```javascript
   crypto.scrypt(password, salt, keylen, [options], [callback])
   ```
-- 
+
+#### full login procedure
+- why are all the functions written like this?
+  - it's like step by step callbacks
+```javascript
+s = function() {
+    return v(i, void 0, void 0, (function() {
+        var e, n, i;
+        return y(this, (function(r) {
+            switch (r.label) {
+                case 0:
+                    o.show(), a.hide(), this.errorEl.hide(), e = this.keyInputEl.value, r.label = 1;
+                case 1:
+                    return r.trys.push([1, 5, , 6]), n = this.currentVaultInfo, [4, this.plugin.verifyPassword(n.id, e, n.salt, n.host)];
+                case 2:
+                    return r.sent(), new LI(gJ.msgVerifiedPassword()), [4, this.plugin.setup(n.id, n.name, e, n.salt, n.host)];
+                case 3:
+                    return r.sent(), [4, this.plugin.setPause(!0)];
+                case 4:
+                    return r.sent(), this.successCallback && this.successCallback(), new TJ(t, this.plugin, n.name).open(), this.close(), [3, 6];
+                case 5:
+                    return i = r.sent(), console.error(i), i instanceof XMLHttpRequest ? this.errorEl.setText(rf.plugins.publish.msgNetworkError()) : this.errorEl.setText(i.message), this.errorEl.show(), [3, 6];
+                case 6:
+                    return a.show(), o.hide(), [2]
+            }
+        }))
+    }))
+};
+```
 
 ## looking into downloading files
 - found where logging is called that download is complete, line 100249
