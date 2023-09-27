@@ -10,7 +10,7 @@ else
   ln -s $(pwd)/zet/20230905015059/plainvimconfig.vim $HOME/.vimrc
 fi
 
-if which nvim; then
+if which nvim >/dev/null 2>/dev/null; then
   echo "installing neovim config"
   # initialize neovim config dir
   mkdir -p $HOME/.config/nvim

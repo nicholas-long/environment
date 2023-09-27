@@ -43,16 +43,29 @@ fi
 ```
 
 ## installing neovim bindings and plugins
-- [ ] neovim seems to be required for the xfer command to work for now. why?
 - needs to clone repo
-```
-# initialize neovim config dir
-mkdir -p $HOME/.config/nvim
+- added to install script conditionally
+```bash
+if which nvim; then
+  echo "installing neovim config"
+  # initialize neovim config dir
+  # ...
+  if ls -al "$neovimrc" 2>/dev/null | grep 20230905015059 >/dev/null; then
+    echo "neovim config is already installed"
+  else
+    # nvim config is is zet/20230905015059/vimconfig.vim
+    # ...
+  fi
 
-# set up neovim plugins
-git clone https://github.com/VundleVim/Vundle.vim.git $HOME/.vim/bundle/Vundle.vim
-nvim -c ':PluginInstall' -c ':q' -c ':q'
-
+  if [ ! -d $HOME/.vim/bundle/Vundle.vim/.git ]; then
+    echo "installing neovim plugin vundle"
+    # set up vundle for neovim plugins
+    git clone https://github.com/VundleVim/Vundle.vim.git $HOME/.vim/bundle/Vundle.vim
+  else
+    echo "neovim plugin vundle is already initialized"
+  fi
+  nvim -c ':PluginInstall' -c ':q' -c ':q'
+fi
 ```
 
 ` zet/20230905015059/README.md `
