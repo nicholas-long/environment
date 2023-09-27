@@ -73,6 +73,7 @@ Options:
 - [20221011145143](/zet/20221011145143/README.md) bat command pretty printer
 - [20221103162623](/zet/20221103162623/README.md) move zetcmd to wrapper CLI and remove fzf subcommands from CLI
 - [20230926224444](/zet/20230926224444/README.md) updating scripts to use gawk when possible
+- [20230927001343](/zet/20230927001343/README.md) places to update find command to use new executable version in order to be compatible on mac
 
 Tags:
 

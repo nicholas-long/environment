@@ -7,4 +7,4 @@ SCRIPT_DIR=$( cd -- "$( dirname -- "${BASH_SOURCE[0]}" )" &> /dev/null && pwd )
 
 directory=${1:-zet} # argument value or default
 
-$SCRIPT_DIR/check-script-dependencies $( find $directory -type f -executable )
+$SCRIPT_DIR/check-script-dependencies $( $ENVIRON_BASEPATH/zet/20230926234809/find-executable $directory -type f )

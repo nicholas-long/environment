@@ -1,7 +1,8 @@
 #!/usr/bin/awk -f
 
 BEGIN {
-  command = "find . -type f -executable | awk -F / '{print $NF}'"
+  findexecutable = ENVIRON["ENVIRON_BASEPATH"] "/zet/20230926234809/find-executable"
+  command = findexecutable " . -type f | awk -F / '{print $NF}'"
   while (command | getline fn > 0) {
     files[fn] = 1
   }
