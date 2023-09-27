@@ -17,7 +17,7 @@ zet/20230927152827/old-notes-from-obsidian.md:  - [ ] could it be that the user 
 zet/20230927152827/README.md:- [ ] figure out why login doesn't work and return a token
 - [20230916125222](/zet/20230916125222/README.md) tmux scripts directory #tmux #script #directory
 - [20230922214602](/zet/20230922214602/README.md) things i want to implement in zkvr after working on the environment #idea
-- [20230925001420](/zet/20230925001420/README.md) cool docker scripts to migrate #docker #script
+- [20230925001420](/zet/20230925001420/README.md) cool docker scripts to migrate #docker #script #shortcmd
 - [20230927152827](/zet/20230927152827/README.md) reverse engineering obsidian to create an obsidian sync cli tool #program #command #reveng #util
 ```
 

@@ -1,4 +1,6 @@
 #!/bin/bash
 
+# TODO: this script is no longer supported, and the API has changed.
+echo "TODO: this script is no longer supported, and the API has changed."
 rep=$1
 curl "https://registry.hub.docker.com/v1/repositories/$rep/tags" 2>/dev/null | jq -r '.[].name'

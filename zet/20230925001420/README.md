@@ -2,7 +2,8 @@
 
 - concept of `cool docker scripts to migrate`
 - these are not done yet
-- [ ] update and fix any relative paths or kb references
+- [x] update and fix any relative paths or kb references
+- [ ] fix get tags script because the API changed
 - renamed script to `docker-build-github-repo-image`
 - renamed tags script to `docker-get-tags`
 ```bash
