@@ -2,7 +2,7 @@
 
 - concept of `script to obfuscate a nishang reverse tcp shell for windows powershell`
 - must have nishang package installed
-  - [ ] add error handling
+  - [x] add error handling
 
 ```bash
 #!/bin/bash

