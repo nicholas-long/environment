@@ -35,7 +35,12 @@ find $ZK_PATH -name '*.md' -type f -print0 | xargs -0 gawk '
     tagline = ""
     for (t in tags) { tagline = tagline " " t }
     for (i = 0; i < n; i++) {
-      print FILENAME, fn, array[i] tagline
+      if (array[i] ~ /^#+ /) { # print tags next to titles
+        print FILENAME, fn, array[i] tagline
+      } else {
+        print FILENAME, fn, array[i]
+      }
     }
+    print FILENAME, fn, tagline # print tagline in case it did not get printed with a title
   }
 '
