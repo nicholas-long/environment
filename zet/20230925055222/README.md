@@ -15,10 +15,12 @@ zet/20230927152827/extracted/sandbox/Formatting/Task.md:- [ ] this is an incompl
 zet/20230927152827/old-notes-from-obsidian.md:  - [ ] could be that the password should be hashed by the client before even being sent? there was some stuff that looked like crypto algorithms?
 zet/20230927152827/old-notes-from-obsidian.md:  - [ ] could it be that the user agent or something has to be right?
 zet/20230927152827/README.md:- [ ] figure out why login doesn't work and return a token
+zet/20230927233110/README.md:- [ ] update references here - scripts to decorate things use colorize.sh
 - [20230916125222](/zet/20230916125222/README.md) tmux scripts directory #tmux #script #directory
 - [20230922214602](/zet/20230922214602/README.md) things i want to implement in zkvr after working on the environment #idea
 - [20230925001420](/zet/20230925001420/README.md) cool docker scripts to migrate #docker #script #shortcmd
 - [20230927152827](/zet/20230927152827/README.md) reverse engineering obsidian to create an obsidian sync cli tool #program #command #reveng #util
+- [20230927233110](/zet/20230927233110/README.md) colorizing and prettifying scripts for transforming text #script #color
 ```
 
 - where can i find snippets?
