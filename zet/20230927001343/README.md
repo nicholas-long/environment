@@ -31,6 +31,7 @@ query --human /dev/stdin
 - [20230926234809](/zet/20230926234809/README.md) a non-platform-specific find command script for executable files
 - [20230925193834](/zet/20230925193834/README.md) testing on mac os
 - [20221012171100](/zet/20221012171100/README.md) recently created nodes hub
+- [20221006032546](/zet/20221006032546/README.md) my original implementation of zet cmd
 
 Tags:
 
