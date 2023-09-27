@@ -7,7 +7,7 @@
 ```markdown
 zet/20230916125222/README.md:- [ ] clean up scripts with relative path issues
 zet/20230922214602/README.md:- [ ] copy current fixes back up to zkvr
-zet/20230925001420/README.md:- [ ] update and fix any relative paths or kb references
+zet/20230925001420/README.md:- [ ] fix get tags script because the API changed
 zet/20230927152827/extracted/sandbox/Formatting/Task.md:- [ ] tasks can be clicked in Preview to be checked off
 zet/20230927152827/extracted/sandbox/Formatting/Task.md:- [ ] tasks can be clicked in Preview to be checked off
 zet/20230927152827/extracted/sandbox/Formatting/Task.md:- [ ] this is an incomplete item
