@@ -1,6 +1,7 @@
 # ssh keygen automated expect script to generate a public and private key pair
 
 - ssh keygen automated expect script to generate a public and private key pair
+  - automatically answers ssh questions to generate the keypair
 ```expect
 #!/usr/bin/expect -f
 set filename [lindex $argv 0];
@@ -35,4 +36,4 @@ cp /home/parallels/kb/bash-scripting/ssh-keygen-generate-file.exp .
 
 Tags:
 
-    #idea #shortcmd #hacking
+    #shortcmd #hacking

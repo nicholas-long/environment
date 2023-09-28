@@ -27,4 +27,3 @@
 - [20230928164948](/zet/20230928164948/README.md) password cracking rules
 - [20230928171946](/zet/20230928171946/README.md) data analysis scripting hub
 - [20230928175434](/zet/20230928175434/README.md) tandy project notes and scripts for old machine project
-- [20230928175625](/zet/20230928175625/README.md) ssh keygen automated expect script to generate a public and private key pair

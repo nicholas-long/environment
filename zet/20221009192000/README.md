@@ -7,7 +7,7 @@ a script will check to see if the ID numbers appear on the main README.
 ```
 Missing:
 - [20230928133216](/zet/20230928133216/README.md) scripts to work with burpsuite saved requests and automatically generate python code #script #hacking #http
-- [20230928175625](/zet/20230928175625/README.md) ssh keygen automated expect script to generate a public and private key pair #idea #shortcmd #hacking
+- [20230928175625](/zet/20230928175625/README.md) ssh keygen automated expect script to generate a public and private key pair #shortcmd #hacking
 Extra:
 ```
 
