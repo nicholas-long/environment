@@ -2,6 +2,7 @@
 
 - concept of `scripts to work with burp requests and generate python code`
 - these scripts require go to be installed. runs xpup go library to parse xml
+  - added go to [20230905184854](/zet/20230905184854/README.md) prerequesites for environment
 - `copy-burp-request-as-python-script.sh` - parse burpsuite saved request file and convert to python requests script
 - `get-burp-http-saved-request.sh` - get raw HTTP request data from burp saved request
 - [ ] add error handling
