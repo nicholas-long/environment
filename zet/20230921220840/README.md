@@ -34,8 +34,6 @@ find ~/kb -type f -not -executable | grep -v '\.md$'
 # filtered list
 ```bash
 
-/home/parallels/kb/hacking/tricks/get-versions-from-composer-lock-json.sh # get library dependency versions from composer.lock json file
-
 /home/parallels/kb/bash-scripting/what-installed-this-file.sh # find what apt package caused a particular specific file to be installed
 /home/parallels/kb/awk-scripting/user-interface-fzf.awk # testing a user interface in fzf from within awk
 /home/coyote/kb/awk-scripting/get-interface.awk # get your preferred networking interface to work with, tunnels first, then networks, and then lan
@@ -145,6 +143,7 @@ find ~/kb -type f -not -executable | grep -v '\.md$'
 /home/parallels/kb/hacking/priv-esc/strings-all-memory.sh # run strings on memory dumps for every readable process
 /home/coyote/kb/hacking/windows/printnightmare-kb-list.txt # this should really go in zk or somewhere else
 /home/coyote/kb/hacking/windows/uacbypass/fodhelper.ps1 # a fodhelper bypass that should go in zk hacking notes
+/home/parallels/kb/hacking/tricks/get-versions-from-composer-lock-json.sh # get library dependency versions from composer.lock json file
 
 ```
 
@@ -309,7 +308,8 @@ find ~/kb -type f -executable
 - [20230928185057](/zet/20230928185057/README.md) bash self parsing code
 - [20230928185603](/zet/20230928185603/README.md) script to print the content of markdown text within the heading level of a particular line
 - [20230928185944](/zet/20230928185944/README.md) script to package up program and debian dependencies a tar to install on a remote target machine
-- [20230928191243](/zet/20230928191243/README.md) privesc scripts
+- [20230928191243](/zet/20230928191243/README.md) privesc scripts and lists
+- [20230928191955](/zet/20230928191955/README.md) get library dependency versions from composer.lock json file
 
 Tags:
 
