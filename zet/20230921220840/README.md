@@ -34,24 +34,26 @@ find ~/kb -type f -not -executable | grep -v '\.md$'
 # filtered list
 ```bash
 
-/home/parallels/kb/bash-scripting/exif-all-images.sh # run exiftool on all of the images within a directory
+# cool script that deserves its own card. probably has dependencies.
+/home/parallels/kb/bash-scripting/watch-failed-ssh-logins-live-check-shodan.sh # watch failed ssh login attempts as a live stream
+
+/home/coyote/kb/hacking/pwn/boilerplate-pwn-script.py # pwntools template binary exploit script
+
+# markdown stuff?
+/home/coyote/kb/awk-scripting/autogenerate-headings-for-source-files.awk # autogenerate headings for source files
+
 /home/parallels/kb/bash-scripting/self-parsing-code-function-names.sh # test self-parsing scripts
 /home/parallels/kb/bash-scripting/ssh-keygen-generate-file.exp # expect script to generate ssh key by filename
-/home/parallels/kb/bash-scripting/watch-failed-ssh-logins-live-check-shodan.sh # watch failed ssh login attempts as a live stream
 /home/coyote/kb/awk-scripting/snippet.awk # awk print markdown snippet text between backtick lines
-/home/parallels/kb/bash-scripting/copy-text-from-image-url.sh # copy and read text from PNG image URL arg print with tesseract OCR
 /home/parallels/kb/hacking/priv-esc/strings-all-memory.sh # run strings on memory dumps for every readable process
 /home/coyote/kb/hacking/windows/uacbypass/fodhelper.ps1 # a fodhelper bypass that should go in zk hacking notes
 /home/parallels/kb/linux/package-it-all.sh # attempt to package up all dependencies deb files into a tar to install on a remote target machine
 /home/coyote/kb/awk-scripting/get-interface.awk # get your preferred networking interface to work with, tunnels first, then networks, and then lan
-/home/coyote/kb/hacking/pwn/boilerplate-pwn-script.py # pwntools template binary exploit script
 /home/coyote/kb/bash-scripting/get-wikipedia-info.sh # get headings from wikipedia page
 /home/coyote/kb/linux/mount-shared-folders-in-vm.sh # mount shared folders on VM
 /home/coyote/kb/hacking/tricks/python-fuzz-valid-dates.py # fuzz valid dates
-/home/coyote/kb/hacking/nmap.commands.old # Initial Fast TCP Scan
 /home/coyote/kb/linux/install_sublime.sh # install sublimetext
 /home/coyote/kb/linux/install_vscode.sh # install vscode
-/home/coyote/kb/awk-scripting/autogenerate-headings-for-source-files.awk # autogenerate headings for source files
 /home/coyote/kb/hacking/general-notes.md.old # figure out what to do with this
 /home/coyote/kb/hacking/notes-template # directory that is a template folder structure for hacking notes
 /home/coyote/kb/sed-scripting/httpd-conf-enable-cgi.sed # example sed script to edit httpd conf
@@ -148,6 +150,8 @@ find ~/kb -type f -not -executable | grep -v '\.md$'
 /home/parallels/kb/hacking/passwords/generate-common-passwords.sh # generate common passwords
 /home/coyote/kb/hacking/passwords/password_cracking_rules/OneRuleToRuleThemAll.rule # rule file for hashcat that is worth having
 /home/parallels/kb/bash-scripting/awk-print-unique-lines.sh # use awk to print only unique lines as a stream processor
+/home/parallels/kb/bash-scripting/copy-text-from-image-url.sh # copy and read text from PNG image URL arg print with tesseract OCR
+/home/parallels/kb/bash-scripting/exif-all-images.sh # run exiftool on all of the images within a directory
 
 ```
 
@@ -159,6 +163,7 @@ find ~/kb -type f -not -executable | grep -v '\.md$'
 /home/coyote/kb/vim/example-vimrc-bindings.vim # old vimrc that looks unimportant
 /home/coyote/kb/vim/example-neovim-bindings.vim # old vimrc that looks unimportant
 /home/parallels/kb/bash-scripting/get-interface-ip.sh # select a network interface with fzf menu
+/home/coyote/kb/hacking/nmap.commands.old # Initial Fast TCP Scan
 
 # kb internal stuff
 /home/parallels/kb/bash-scripting/autogenerate.sh # generated the markdown content for files named auto-bash, auto-awk, etc
@@ -298,6 +303,7 @@ find ~/kb -type f -executable
 - [20230928164014](/zet/20230928164014/README.md) dockerfile templates
 - [20230928164948](/zet/20230928164948/README.md) password cracking rules
 - [20230928165457](/zet/20230928165457/README.md) awk print unique lines
+- [20230928172527](/zet/20230928172527/README.md) image analysis commands
 
 Tags:
 

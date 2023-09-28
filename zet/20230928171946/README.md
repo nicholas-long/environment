@@ -1,0 +1,18 @@
+# data analysis scripting hub
+
+- concept of `data analysis scripting hub`
+
+```
+```
+
+` zet/20230928171946/README.md `
+
+# Related
+
+- [20230925180815](/zet/20230925180815/README.md) password scripts hub
+- [20230924224635](/zet/20230924224635/README.md) scripts to get nmap information
+- [20230924221605](/zet/20230924221605/README.md) script to get nested markdown headings for keyword searching
+
+Tags:
+
+    #idea
