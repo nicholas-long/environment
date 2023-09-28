@@ -34,7 +34,8 @@ find ~/kb -type f -not -executable | grep -v '\.md$'
 # filtered list
 ```bash
 
-/home/coyote/kb/hacking/pwn/boilerplate-pwn-script.py # pwntools template binary exploit script
+# card about tandy project
+/home/coyote/kb/linux/old-machine-project/tandy-output-filter.c # a poor attempt to create a text filter to get the tandy screen working as a terminal. link this to the old machine terminal project.
 
 /home/parallels/kb/bash-scripting/self-parsing-code-function-names.sh # test self-parsing scripts
 /home/parallels/kb/bash-scripting/ssh-keygen-generate-file.exp # expect script to generate ssh key by filename
@@ -48,13 +49,10 @@ find ~/kb -type f -not -executable | grep -v '\.md$'
 /home/coyote/kb/hacking/tricks/python-fuzz-valid-dates.py # fuzz valid dates
 /home/coyote/kb/linux/install_sublime.sh # install sublimetext
 /home/coyote/kb/linux/install_vscode.sh # install vscode
-/home/coyote/kb/hacking/general-notes.md.old # figure out what to do with this
-/home/coyote/kb/hacking/notes-template # directory that is a template folder structure for hacking notes
 /home/coyote/kb/sed-scripting/httpd-conf-enable-cgi.sed # example sed script to edit httpd conf
 /home/coyote/kb/linux/java8.sh # source this in order to use a java 8 environment if it is installed
 /home/coyote/kb/linux/setup_aliases.sh # an attempt to sync zshrc and bashrc
 /home/coyote/kb/linux/oracle.sh # environment required to get oracle client working
-/home/coyote/kb/linux/old-machine-project/tandy-output-filter.c # a poor attempt to create a text filter to get the tandy screen working as a terminal. link this to the old machine terminal project.
 /home/coyote/kb/hacking/test-vuln-in-dockers/ubuntu-reverse-shell # save this directory
 /home/coyote/kb/hacking/test-vuln-in-dockers/ubuntu-reverse-shell-user-feature-test # save this directory
 /home/parallels/kb/linux/alacritty-run-tmux.sh # shortcut to start tmux session in a working directory with alacritty
@@ -148,6 +146,7 @@ find ~/kb -type f -not -executable | grep -v '\.md$'
 /home/parallels/kb/bash-scripting/exif-all-images.sh # run exiftool on all of the images within a directory
 /home/parallels/kb/bash-scripting/watch-failed-ssh-logins-live-check-shodan.sh # watch failed ssh login attempts as a live stream
 /home/coyote/kb/awk-scripting/autogenerate-headings-for-source-files.awk # autogenerate headings for source files
+/home/coyote/kb/hacking/pwn/boilerplate-pwn-script.py # pwntools template binary exploit script
 
 ```
 
@@ -160,6 +159,8 @@ find ~/kb -type f -not -executable | grep -v '\.md$'
 /home/coyote/kb/vim/example-neovim-bindings.vim # old vimrc that looks unimportant
 /home/parallels/kb/bash-scripting/get-interface-ip.sh # select a network interface with fzf menu
 /home/coyote/kb/hacking/nmap.commands.old # Initial Fast TCP Scan
+/home/coyote/kb/hacking/general-notes.md.old # figure out what to do with this
+/home/coyote/kb/hacking/notes-template # directory that is a template folder structure for hacking notes
 
 # kb internal stuff
 /home/parallels/kb/bash-scripting/autogenerate.sh # generated the markdown content for files named auto-bash, auto-awk, etc
@@ -302,6 +303,7 @@ find ~/kb -type f -executable
 - [20230928172527](/zet/20230928172527/README.md) image analysis commands
 - [20230928173645](/zet/20230928173645/README.md) live ssh perimeter defense script with colorized login attempts and shodan lookup
 - [20230928174503](/zet/20230928174503/README.md) script to automatically generate headings and markdown for displaying code files as snippets
+- [20230928175049](/zet/20230928175049/README.md) pwntools template binary exploit script
 
 Tags:
 
