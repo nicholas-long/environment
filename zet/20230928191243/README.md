@@ -1,8 +1,14 @@
 # privesc scripts and lists
 
-- concept of `privesc scripts`
+## windows
+- fodhelper is a UAC bypass that remained unpatched. not sure if it's still unpatched in 2023
+- printnightmare update list
 
-```
+## linux
+- `zet/20230928191243/strings-all-memory.sh` run strings on memory dumps for every readable process
+
+## setting up this card
+```bash
 /home/parallels/kb/hacking/priv-esc/strings-all-memory.sh # run strings on memory dumps for every readable process
 /home/coyote/kb/hacking/windows/printnightmare-kb-list.txt # list of printnightmare KB patches
 /home/coyote/kb/hacking/windows/uacbypass/fodhelper.ps1 # a fodhelper bypass that should go in zk hacking notes
@@ -19,4 +25,4 @@ cp /home/parallels/kb/hacking/priv-esc/strings-all-memory.sh /home/coyote/kb/hac
 
 Tags:
 
-    #hacking #script #hub
+    #hacking #script #hub #privesc
