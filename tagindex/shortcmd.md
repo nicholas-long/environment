@@ -20,3 +20,4 @@
 - [20230928172527](/zet/20230928172527/README.md) image analysis commands
 - [20230928173645](/zet/20230928173645/README.md) live ssh perimeter defense script with colorized login attempts and shodan lookup
 - [20230928175625](/zet/20230928175625/README.md) ssh keygen automated expect script to generate a public and private key pair
+- [20230928193803](/zet/20230928193803/README.md) find what apt package installed a particular specific file

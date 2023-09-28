@@ -52,6 +52,7 @@ zet/20221012171100/README.md
 - [20230928191955](/zet/20230928191955/README.md) get library dependency versions from composer.lock json file
 - [20230928192818](/zet/20230928192818/README.md) micro environment scripts needed to get programs working
 - [20230928193054](/zet/20230928193054/README.md) docker reverse shell testing project
+- [20230928193803](/zet/20230928193803/README.md) find what apt package installed a particular specific file
 
 Tags:
 
