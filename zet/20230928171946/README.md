@@ -14,6 +14,7 @@
 - [20230924221605](/zet/20230924221605/README.md) script to get nested markdown headings for keyword searching
 - [20230928172527](/zet/20230928172527/README.md) image analysis commands
 - [20221012171100](/zet/20221012171100/README.md) recently created nodes hub
+- [20230928173645](/zet/20230928173645/README.md) live ssh perimeter defense script with colorized login attempts and shodan lookup
 
 Tags:
 
