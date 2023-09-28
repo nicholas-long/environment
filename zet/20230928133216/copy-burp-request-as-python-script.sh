@@ -11,7 +11,7 @@ dos2unix $http_request 2>/dev/null
 url=$(cat $file | $xpup //url)
 ct=$(awk '/^Content-Type/ { print $2 }' $http_request)
 method=$(awk 'NR == 1 { print $1 }' $http_request)
-getparams=$(echo $url | ~/kb/python/get-url-params.py)
+getparams=$(echo $url | $ENVIRON_BASEPATH/zet/20230928133216/get-url-params.py)
 http_headers=$(awk '
   BEGIN {
     FS = ": "
@@ -26,8 +26,7 @@ http_headers=$(awk '
   /^Content-Type/ { next }
   NF == 2 { $1 = $1; print }
   /^$/ { exit 0 }
-  ' $http_request | ~/kb/python/tsv-to-python-dict.py
-)
+  ' $http_request | $ENVIRON_BASEPATH/zet/20230928133216/tsv-to-python-dict.py)
 
 cookies=$(awk '
 /^Cookie/ {
@@ -35,7 +34,7 @@ cookies=$(awk '
   for (n = 2; n <= NF; n++)
     print $n
 }
-' $http_request | ~/kb/python/decode-cookies.py)
+' $http_request | $ENVIRON_BASEPATH/zet/20230928133216/decode-cookies.py)
 
 #--------------------------------------------------------------------------------
 
@@ -53,8 +52,7 @@ HEADER
 
 if [ $method == "POST" ]; then
   if [ $ct == "application/x-www-form-urlencoded" ]; then
-    postdata=$(~/kb/awk-scripting/get-http-post-content.awk $http_request | ~/kb/python/decode-post-params.py)
-
+    postdata=$( $ENVIRON_BASEPATH/zet/20230928133216/get-http-post-content.awk $http_request | $ENVIRON_BASEPATH/zet/20230928133216/decode-post-params.py)
     cat << PYTHON
 postdata = $postdata
 r = requests.post(url, data=postdata, headers=headers, cookies=cookies)

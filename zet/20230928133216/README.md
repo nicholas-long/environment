@@ -5,8 +5,9 @@
   - added go to [20230905184854](/zet/20230905184854/README.md) prerequesites for environment
 - `copy-burp-request-as-python-script.sh` - parse burpsuite saved request file and convert to python requests script
 - `get-burp-http-saved-request.sh` - get raw HTTP request data from burp saved request
-- [ ] add error handling
-- [ ] update references within files to point within here
+- [x] add error handling if go is not installed - i installed go instead
+- [x] update references within files to point within here
+- [ ] test the new version
 
 ```bash
 /home/parallels/kb/hacking/scripts/get-burp-http-saved-request.sh # get raw HTTP request data from burp saved request
@@ -55,6 +56,19 @@ zet/20230928133216/copy-burp-request-as-python-script.sh references executable f
 >     postdata=$(~/kb/awk-scripting/get-http-post-content.awk $http_request | ~/kb/python/decode-post-params.py)
 zet/20230928133216/copy-burp-request-as-python-script.sh references executable file get-http-post-content.awk
 >     postdata=$(~/kb/awk-scripting/get-http-post-content.awk $http_request | ~/kb/python/decode-post-params.py)
+
+# final dependencies after fix
+zet/20230925024118/scripts-dependencies zet/20230928133216
+zet/20230928133216/copy-burp-request-as-python-script.sh references executable file get-url-params.py
+> getparams=$(echo $url | $ENVIRON_BASEPATH/zet/20230928133216/get-url-params.py)
+zet/20230928133216/copy-burp-request-as-python-script.sh references executable file tsv-to-python-dict.py
+>   ' $http_request | $ENVIRON_BASEPATH/zet/20230928133216/tsv-to-python-dict.py)
+zet/20230928133216/copy-burp-request-as-python-script.sh references executable file decode-cookies.py
+> ' $http_request | $ENVIRON_BASEPATH/zet/20230928133216/decode-cookies.py)
+zet/20230928133216/copy-burp-request-as-python-script.sh references executable file decode-post-params.py
+>     postdata=$( $ENVIRON_BASEPATH/zet/20230928133216/get-http-post-content.awk $http_request | $ENVIRON_BASEPATH/zet/20230928133216/decode-post-params.py)
+zet/20230928133216/copy-burp-request-as-python-script.sh references executable file get-http-post-content.awk
+>     postdata=$( $ENVIRON_BASEPATH/zet/20230928133216/get-http-post-content.awk $http_request | $ENVIRON_BASEPATH/zet/20230928133216/decode-post-params.py)
 ```
 
 ` zet/20230928133216/README.md `
