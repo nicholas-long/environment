@@ -38,10 +38,6 @@ find ~/kb -type f -not -executable | grep -v '\.md$'
 /home/parallels/kb/docker/templates/ubuntu-dockerfile-template.sh # create an ubuntu dockerfile
 # put to existing password things
 /home/parallels/kb/hacking/passwords/generate-common-passwords.sh # generate common passwords
-# URL and HTTP encoding stuff -> link to burpsuite requests because these were shared with there
-/home/parallels/kb/python/urlencode.py # urlencode every input line
-/home/parallels/kb/bash-scripting/urlencode.sh # urlencode a line of text from stdin
-/home/parallels/kb/bash-scripting/urlencode-base64-every-line.sh # urlencode and base64 encode lines individually
 # password cracking rules -> password hub
 /home/coyote/kb/hacking/passwords/password_cracking_rules/OneRuleToRuleThemAll.rule # rule file for hashcat that is worth having
 /home/parallels/kb/bash-scripting/awk-print-unique-lines.sh # use awk to print only unique lines as a stream processor
@@ -152,6 +148,9 @@ find ~/kb -type f -not -executable | grep -v '\.md$'
 /home/parallels/kb/python/decode-cookies.py # parse a cookie from every line on standard input
 /home/parallels/kb/python/get-url-params.py # parse all get parameters from a url
 /home/parallels/kb/python/tsv-to-python-dict.py # convert tsv with key and value fields to python dictionary
+/home/parallels/kb/python/urlencode.py # urlencode every input line
+/home/parallels/kb/bash-scripting/urlencode.sh # urlencode a line of text from stdin
+/home/parallels/kb/bash-scripting/urlencode-base64-every-line.sh # urlencode and base64 encode lines individually
 
 ```
 
@@ -297,7 +296,8 @@ find ~/kb -type f -executable
 - [20230926190350](/zet/20230926190350/README.md) scripts to process text with line by line operations
 - [20230927233110](/zet/20230927233110/README.md) colorizing and prettifying scripts for transforming text
 - [20230928014124](/zet/20230928014124/README.md) script to extract an embedded file stream from a PDF
-- [20230928133216](/zet/20230928133216/README.md) scripts to work with burp requests and generate python code
+- [20230928133216](/zet/20230928133216/README.md) scripts to work with burpsuite saved requests and automatically generate python code
+- [20230928134931](/zet/20230928134931/README.md) scripts for URL and HTTP encoding
 
 Tags:
 
