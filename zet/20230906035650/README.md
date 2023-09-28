@@ -16,6 +16,7 @@
 - [20230906033727](/zet/20230906033727/README.md) commands to get ip
 - [20230906035236](/zet/20230906035236/README.md) scripts to draw title bars
 - [20221009192000](/zet/20221009192000/README.md) stuff to put on main page
+- [20230928133216](/zet/20230928133216/README.md) scripts to work with burpsuite saved requests and automatically generate python code
 
 Tags:
 

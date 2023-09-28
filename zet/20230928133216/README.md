@@ -63,6 +63,8 @@ zet/20230928133216/copy-burp-request-as-python-script.sh references executable f
 - [20230921220840](/zet/20230921220840/README.md) list of kb scripts that i could decide whether to copy over
 - [20221009192000](/zet/20221009192000/README.md) stuff to put on main page
 - [20230906035650](/zet/20230906035650/README.md) script to print reverse shell snippets
+- [20230928134931](/zet/20230928134931/README.md) scripts for URL and HTTP encoding
+- [20221012171100](/zet/20221012171100/README.md) recently created nodes hub
 
 Tags:
 
