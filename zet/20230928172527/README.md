@@ -2,6 +2,9 @@
 
 - concept of `image analysis commands`
 - `zet/20230928172527/copy-text-from-image-url.sh`
+  - requires tesseract to be installed
+  - provide image URL as argument
+  - prints the text output from tesseract to terminal
 - `zet/20230928172527/exif-all-images.sh`
 
 ```bash
