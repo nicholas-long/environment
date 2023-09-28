@@ -105,6 +105,7 @@ find $ZK_PATH -name '*.md' -type f -print0 | xargs -0 awk '
 - [20230924221605](/zet/20230924221605/README.md) script to get nested markdown headings for keyword searching
 - [20230925193834](/zet/20230925193834/README.md) testing on mac os
 - [20230927033258](/zet/20230927033258/README.md) debugging the markdown script on mac os
+- [20230928174503](/zet/20230928174503/README.md) script to automatically generate headings and markdown for displaying code files as snippets
 
 Tags:
 

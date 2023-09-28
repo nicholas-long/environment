@@ -40,6 +40,7 @@ zet/20221012171100/README.md
 - [20230928171946](/zet/20230928171946/README.md) data analysis scripting hub
 - [20230928172527](/zet/20230928172527/README.md) image analysis commands
 - [20230928173645](/zet/20230928173645/README.md) live ssh perimeter defense script with colorized login attempts and shodan lookup
+- [20230928174503](/zet/20230928174503/README.md) script to automatically generate headings and markdown for displaying code files as snippets
 
 Tags:
 
