@@ -42,3 +42,4 @@
 - [20230928185944](/zet/20230928185944/README.md) script to package up program and debian dependencies a tar to install on a remote target machine
 - [20230928191243](/zet/20230928191243/README.md) privesc scripts and lists
 - [20230928193054](/zet/20230928193054/README.md) docker reverse shell testing project
+- [20230928220755](/zet/20230928220755/README.md) find the largest N files

@@ -1,3 +1,4 @@
 - [20221021071146](/zet/20221021071146/README.md) delete things marked as #DEL periodically
 - [20230922203837](/zet/20230922203837/README.md) get rid of all platform specific binaries from zkvr
 - [20230922210126](/zet/20230922210126/README.md) cards i can clean up
+- [20230928220755](/zet/20230928220755/README.md) find the largest N files
