@@ -1,2 +1,3 @@
 - [20221008063052](/zet/20221008063052/README.md) autorunning scripts in cards
 - [20230928164014](/zet/20230928164014/README.md) dockerfile templates
+- [20230928175049](/zet/20230928175049/README.md) pwntools template binary exploit script

@@ -110,3 +110,6 @@
 20230928172527	zet/20230928172527/README.md	image analysis commands
 20230928173645	zet/20230928173645/README.md	live ssh perimeter defense script with colorized login attempts and shodan lookup
 20230928174503	zet/20230928174503/README.md	script to automatically generate headings and markdown for displaying code files as snippets
+20230928175049	zet/20230928175049/README.md	pwntools template binary exploit script
+20230928175434	zet/20230928175434/README.md	tandy project notes and scripts for old machine project
+20230928175625	zet/20230928175625/README.md	ssh keygen automated expect script to generate a public and private key pair
