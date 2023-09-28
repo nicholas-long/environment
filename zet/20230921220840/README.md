@@ -34,10 +34,6 @@ find ~/kb -type f -not -executable | grep -v '\.md$'
 # filtered list
 ```bash
 
-# put to existing password things
-/home/parallels/kb/hacking/passwords/generate-common-passwords.sh # generate common passwords
-# password cracking rules -> password hub
-/home/coyote/kb/hacking/passwords/password_cracking_rules/OneRuleToRuleThemAll.rule # rule file for hashcat that is worth having
 /home/parallels/kb/bash-scripting/awk-print-unique-lines.sh # use awk to print only unique lines as a stream processor
 /home/parallels/kb/bash-scripting/exif-all-images.sh # run exiftool on all of the images within a directory
 /home/parallels/kb/bash-scripting/self-parsing-code-function-names.sh # test self-parsing scripts
@@ -150,6 +146,8 @@ find ~/kb -type f -not -executable | grep -v '\.md$'
 /home/parallels/kb/bash-scripting/urlencode.sh # urlencode a line of text from stdin
 /home/parallels/kb/bash-scripting/urlencode-base64-every-line.sh # urlencode and base64 encode lines individually
 /home/parallels/kb/docker/templates/ubuntu-dockerfile-template.sh # create an ubuntu dockerfile
+/home/parallels/kb/hacking/passwords/generate-common-passwords.sh # generate common passwords
+/home/coyote/kb/hacking/passwords/password_cracking_rules/OneRuleToRuleThemAll.rule # rule file for hashcat that is worth having
 
 ```
 
@@ -298,6 +296,7 @@ find ~/kb -type f -executable
 - [20230928133216](/zet/20230928133216/README.md) scripts to work with burpsuite saved requests and automatically generate python code
 - [20230928134931](/zet/20230928134931/README.md) scripts for URL and HTTP encoding
 - [20230928164014](/zet/20230928164014/README.md) dockerfile templates
+- [20230928164948](/zet/20230928164948/README.md) password cracking rules
 
 Tags:
 

@@ -1,6 +1,8 @@
 # wordlists for pentesting
 
 - concept of `wordlists for pentesting`
+- also putting scripts that generate wordlists (like dates and stuff) in here
+- script to generate common passwords `zet/20230925052317/generate-common-passwords.sh`
 
 ```bash
 /home/coyote/kb/wordlists/active_directory_brute # simple season and year wordlist plus some simple passwords
@@ -8,6 +10,9 @@
 /home/coyote/kb/wordlists/custom.dirbusting # my custom dirbusting list of things that sounded important and missing from existing lists
 
 cp /home/coyote/kb/wordlists/active_directory_brute /home/coyote/kb/wordlists/etc.files /home/coyote/kb/wordlists/custom.dirbusting .
+
+/home/parallels/kb/hacking/passwords/generate-common-passwords.sh # generate common passwords
+cp /home/parallels/kb/hacking/passwords/generate-common-passwords.sh .
 ```
 
 ` zet/20230925052317/README.md `
