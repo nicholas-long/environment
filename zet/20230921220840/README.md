@@ -34,8 +34,10 @@ find ~/kb -type f -not -executable | grep -v '\.md$'
 # filtered list
 ```bash
 
-/home/parallels/kb/hacking/priv-esc/strings-all-memory.sh # run strings on memory dumps for every readable process
-/home/coyote/kb/hacking/windows/uacbypass/fodhelper.ps1 # a fodhelper bypass that should go in zk hacking notes
+/home/parallels/kb/hacking/tricks/get-versions-from-composer-lock-json.sh # get library dependency versions from composer.lock json file
+
+/home/parallels/kb/bash-scripting/what-installed-this-file.sh # find what apt package caused a particular specific file to be installed
+/home/parallels/kb/awk-scripting/user-interface-fzf.awk # testing a user interface in fzf from within awk
 /home/coyote/kb/awk-scripting/get-interface.awk # get your preferred networking interface to work with, tunnels first, then networks, and then lan
 /home/coyote/kb/bash-scripting/get-wikipedia-info.sh # get headings from wikipedia page
 /home/coyote/kb/linux/mount-shared-folders-in-vm.sh # mount shared folders on VM
@@ -44,12 +46,10 @@ find ~/kb -type f -not -executable | grep -v '\.md$'
 /home/coyote/kb/linux/install_vscode.sh # install vscode
 /home/coyote/kb/sed-scripting/httpd-conf-enable-cgi.sed # example sed script to edit httpd conf
 /home/coyote/kb/linux/java8.sh # source this in order to use a java 8 environment if it is installed
-/home/coyote/kb/linux/setup_aliases.sh # an attempt to sync zshrc and bashrc
 /home/coyote/kb/linux/oracle.sh # environment required to get oracle client working
 /home/coyote/kb/hacking/test-vuln-in-dockers/ubuntu-reverse-shell # save this directory
 /home/coyote/kb/hacking/test-vuln-in-dockers/ubuntu-reverse-shell-user-feature-test # save this directory
 /home/parallels/kb/linux/alacritty-run-tmux.sh # shortcut to start tmux session in a working directory with alacritty
-/home/parallels/kb/hacking/tricks/get-versions-from-composer-lock-json.sh # get library dependency versions from composer.lock json file
 /home/parallels/kb/bash-scripting/get-random-unique-id.sh # get random hex unique ID bash
 /home/parallels/kb/bash-scripting/search-tldr-commands-text.sh # search through tldr command descriptions with fzf and display file with bat
 /home/parallels/kb/bash-scripting/template.sh # parse args with case statement
@@ -59,9 +59,6 @@ find ~/kb -type f -not -executable | grep -v '\.md$'
 /home/parallels/kb/bash-scripting/find-largest-files.sh # find the largest N files
 /home/parallels/kb/awk-scripting/get-columns.awk # get column headings from first line of CSV
 /home/parallels/kb/awk-scripting/file-grep-multi-lines.awk # check output of grep and next line using awk "grep -A 1 -R '^# ' ."
-/home/parallels/kb/bash-scripting/what-installed-this-file.sh # find what apt package caused a particular specific file to be installed
-/home/parallels/kb/awk-scripting/find-only-h1-files.awk # parse a list of files and figure out if they contain h2 headings
-/home/parallels/kb/awk-scripting/user-interface-fzf.awk # testing a user interface in fzf from within awk
 /home/parallels/kb/awk-scripting/start-service.awk # an attempt to select and start linux services from an fzf menu
 /home/parallels/kb/bash-scripting/get-current-notes-line-count.sh # attempt to get a line count of notes while ignoring certain file extensions
 /home/parallels/kb/linux/get-ip-tmux.sh # test tmux script to get IP? looks pretty bad
@@ -69,7 +66,6 @@ find ~/kb -type f -not -executable | grep -v '\.md$'
 /home/parallels/kb/linux/getip.sh # another script to get ip. isn't there enough of these?
 /home/parallels/kb/hacking/test-vuln-in-dockers/ubuntu-reverse-shell/run-docker-catch-rev-shell.sh # test running an ubuntu docker and catching a reverse shell from it
 /home/parallels/kb/hacking/test-vuln-in-dockers/ubuntu-reverse-shell-user-feature-test/run-docker-catch-rev-shell.sh # test running an ubuntu docker and catching a reverse shell from it
-/home/coyote/kb/hacking/windows/printnightmare-kb-list.txt # this should really go in zk or somewhere else
 /home/parallels/kb/tmux/tmux-script-log.sh # attempt to create script logs from tmux panes
 
 # done and converted
@@ -145,6 +141,10 @@ find ~/kb -type f -not -executable | grep -v '\.md$'
 /home/parallels/kb/bash-scripting/self-parsing-code-function-names.sh # test self-parsing scripts
 /home/parallels/kb/awk-scripting/print-markdown-content-nested-in-heading.awk # print nested markdown content within headings
 /home/parallels/kb/linux/package-it-all.sh # attempt to package up all dependencies deb files into a tar to install on a remote target machine
+/home/parallels/kb/awk-scripting/find-only-h1-files.awk # parse a list of files and figure out if they contain h2 headings
+/home/parallels/kb/hacking/priv-esc/strings-all-memory.sh # run strings on memory dumps for every readable process
+/home/coyote/kb/hacking/windows/printnightmare-kb-list.txt # this should really go in zk or somewhere else
+/home/coyote/kb/hacking/windows/uacbypass/fodhelper.ps1 # a fodhelper bypass that should go in zk hacking notes
 
 ```
 
@@ -159,6 +159,7 @@ find ~/kb -type f -not -executable | grep -v '\.md$'
 /home/coyote/kb/hacking/nmap.commands.old # Initial Fast TCP Scan
 /home/coyote/kb/hacking/general-notes.md.old # figure out what to do with this
 /home/coyote/kb/hacking/notes-template # directory that is a template folder structure for hacking notes
+/home/coyote/kb/linux/setup_aliases.sh # an attempt to sync zshrc and bashrc
 
 # kb internal stuff
 /home/parallels/kb/bash-scripting/autogenerate.sh # generated the markdown content for files named auto-bash, auto-awk, etc
@@ -308,6 +309,7 @@ find ~/kb -type f -executable
 - [20230928185057](/zet/20230928185057/README.md) bash self parsing code
 - [20230928185603](/zet/20230928185603/README.md) script to print the content of markdown text within the heading level of a particular line
 - [20230928185944](/zet/20230928185944/README.md) script to package up program and debian dependencies a tar to install on a remote target machine
+- [20230928191243](/zet/20230928191243/README.md) privesc scripts
 
 Tags:
 

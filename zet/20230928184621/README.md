@@ -7,6 +7,8 @@
 ```bash
 /home/parallels/kb/awk-scripting/snippet.awk # awk print markdown snippet text between backtick lines
 cp /home/parallels/kb/awk-scripting/snippet.awk .
+/home/parallels/kb/awk-scripting/find-only-h1-files.awk # parse a list of files and figure out if they contain h2 headings
+cp /home/parallels/kb/awk-scripting/find-only-h1-files.awk .
 ```
 
 ` zet/20230928184621/README.md `
