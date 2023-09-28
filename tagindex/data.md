@@ -2,3 +2,4 @@
 - [20230925052317](/zet/20230925052317/README.md) wordlists for pentesting
 - [20230928165457](/zet/20230928165457/README.md) awk print unique lines
 - [20230928185603](/zet/20230928185603/README.md) script to print the content of markdown text within the heading level of a particular line
+- [20230928191955](/zet/20230928191955/README.md) get library dependency versions from composer.lock json file

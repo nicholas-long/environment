@@ -8,3 +8,4 @@
 - [20221101052020](/zet/20221101052020/README.md) TODO: Your to-do list
 - [20230922214323](/zet/20230922214323/README.md) this environment
 - [20230925180815](/zet/20230925180815/README.md) password scripts hub
+- [20230928191243](/zet/20230928191243/README.md) privesc scripts and lists

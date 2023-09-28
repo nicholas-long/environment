@@ -11,3 +11,5 @@
 - [20230928175049](/zet/20230928175049/README.md) pwntools template binary exploit script
 - [20230928175625](/zet/20230928175625/README.md) ssh keygen automated expect script to generate a public and private key pair
 - [20230928185944](/zet/20230928185944/README.md) script to package up program and debian dependencies a tar to install on a remote target machine
+- [20230928191243](/zet/20230928191243/README.md) privesc scripts and lists
+- [20230928191955](/zet/20230928191955/README.md) get library dependency versions from composer.lock json file

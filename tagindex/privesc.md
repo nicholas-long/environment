@@ -1,0 +1,2 @@
+- [20230928191243](/zet/20230928191243/README.md) privesc scripts and lists
+- [20230928191955](/zet/20230928191955/README.md) get library dependency versions from composer.lock json file

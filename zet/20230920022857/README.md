@@ -14,6 +14,7 @@
 
 - [20230905030303](/zet/20230905030303/README.md) script to get github release links
 - [20221009192000](/zet/20221009192000/README.md) stuff to put on main page
+- [20230928191243](/zet/20230928191243/README.md) privesc scripts and lists
 
 Tags:
 
