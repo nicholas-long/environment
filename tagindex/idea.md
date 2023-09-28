@@ -31,3 +31,4 @@
 - [20230928185057](/zet/20230928185057/README.md) bash self parsing code
 - [20230928185944](/zet/20230928185944/README.md) script to package up program and debian dependencies a tar to install on a remote target machine
 - [20230928192818](/zet/20230928192818/README.md) micro environment scripts needed to get programs working
+- [20230928220222](/zet/20230928220222/README.md) get the currently released ubuntu distro

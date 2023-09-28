@@ -34,7 +34,6 @@ find ~/kb -type f -not -executable | grep -v '\.md$'
 # filtered list
 ```bash
 
-/home/parallels/kb/bash-scripting/get-current-ubuntu-distro.sh # return the most recently updated ubuntu distro
 /home/parallels/kb/awk-scripting/user-interface-fzf.awk # testing a user interface in fzf from within awk
 /home/coyote/kb/awk-scripting/get-interface.awk # get your preferred networking interface to work with, tunnels first, then networks, and then lan
 /home/coyote/kb/bash-scripting/get-wikipedia-info.sh # get headings from wikipedia page
@@ -142,6 +141,7 @@ find ~/kb -type f -not -executable | grep -v '\.md$'
 /home/coyote/kb/hacking/test-vuln-in-dockers/ubuntu-reverse-shell # save this directory
 /home/coyote/kb/hacking/test-vuln-in-dockers/ubuntu-reverse-shell-user-feature-test # save this directory
 /home/parallels/kb/bash-scripting/what-installed-this-file.sh # find what apt package caused a particular specific file to be installed
+/home/parallels/kb/bash-scripting/get-current-ubuntu-distro.sh # return the most recently updated ubuntu distro
 
 ```
 
@@ -313,6 +313,7 @@ find ~/kb -type f -executable
 - [20230928192818](/zet/20230928192818/README.md) micro environment scripts needed to get programs working
 - [20230928193054](/zet/20230928193054/README.md) docker reverse shell testing project
 - [20230928193803](/zet/20230928193803/README.md) find what apt package installed a particular specific file
+- [20230928220222](/zet/20230928220222/README.md) get the currently released ubuntu distro
 
 Tags:
 
