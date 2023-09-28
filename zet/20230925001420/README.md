@@ -52,6 +52,7 @@ zet/20230925001420/ubuntu-docker-build-environment.sh references executable file
 - [20221012171100](/zet/20221012171100/README.md) recently created nodes hub
 - [20230925024118](/zet/20230925024118/README.md) script to display information about other scripts and their dependencies
 - [20230921220633](/zet/20230921220633/README.md) list of cool ideas i still want to implement in my environment
+- [20230928164014](/zet/20230928164014/README.md) dockerfile templates
 
 Tags:
 

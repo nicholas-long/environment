@@ -34,8 +34,6 @@ find ~/kb -type f -not -executable | grep -v '\.md$'
 # filtered list
 ```bash
 
-# docker templates
-/home/parallels/kb/docker/templates/ubuntu-dockerfile-template.sh # create an ubuntu dockerfile
 # put to existing password things
 /home/parallels/kb/hacking/passwords/generate-common-passwords.sh # generate common passwords
 # password cracking rules -> password hub
@@ -151,6 +149,7 @@ find ~/kb -type f -not -executable | grep -v '\.md$'
 /home/parallels/kb/python/urlencode.py # urlencode every input line
 /home/parallels/kb/bash-scripting/urlencode.sh # urlencode a line of text from stdin
 /home/parallels/kb/bash-scripting/urlencode-base64-every-line.sh # urlencode and base64 encode lines individually
+/home/parallels/kb/docker/templates/ubuntu-dockerfile-template.sh # create an ubuntu dockerfile
 
 ```
 
@@ -298,6 +297,7 @@ find ~/kb -type f -executable
 - [20230928014124](/zet/20230928014124/README.md) script to extract an embedded file stream from a PDF
 - [20230928133216](/zet/20230928133216/README.md) scripts to work with burpsuite saved requests and automatically generate python code
 - [20230928134931](/zet/20230928134931/README.md) scripts for URL and HTTP encoding
+- [20230928164014](/zet/20230928164014/README.md) dockerfile templates
 
 Tags:
 
