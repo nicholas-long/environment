@@ -35,3 +35,4 @@
 - [20230928134931](/zet/20230928134931/README.md) scripts for URL and HTTP encoding
 - [20230928165457](/zet/20230928165457/README.md) awk print unique lines
 - [20230928172527](/zet/20230928172527/README.md) image analysis commands
+- [20230928173645](/zet/20230928173645/README.md) live ssh perimeter defense script with colorized login attempts and shodan lookup

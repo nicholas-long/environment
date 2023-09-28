@@ -1,3 +1,4 @@
 - [20221025024238](/zet/20221025024238/README.md) enumerate tags
 - [20230923211501](/zet/20230923211501/README.md) get current CVE list as tsv
 - [20230928165457](/zet/20230928165457/README.md) awk print unique lines
+- [20230928173645](/zet/20230928173645/README.md) live ssh perimeter defense script with colorized login attempts and shodan lookup

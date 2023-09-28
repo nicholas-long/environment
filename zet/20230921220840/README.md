@@ -34,9 +34,6 @@ find ~/kb -type f -not -executable | grep -v '\.md$'
 # filtered list
 ```bash
 
-# cool script that deserves its own card. probably has dependencies.
-/home/parallels/kb/bash-scripting/watch-failed-ssh-logins-live-check-shodan.sh # watch failed ssh login attempts as a live stream
-
 /home/coyote/kb/hacking/pwn/boilerplate-pwn-script.py # pwntools template binary exploit script
 
 # markdown stuff?
@@ -152,6 +149,7 @@ find ~/kb -type f -not -executable | grep -v '\.md$'
 /home/parallels/kb/bash-scripting/awk-print-unique-lines.sh # use awk to print only unique lines as a stream processor
 /home/parallels/kb/bash-scripting/copy-text-from-image-url.sh # copy and read text from PNG image URL arg print with tesseract OCR
 /home/parallels/kb/bash-scripting/exif-all-images.sh # run exiftool on all of the images within a directory
+/home/parallels/kb/bash-scripting/watch-failed-ssh-logins-live-check-shodan.sh # watch failed ssh login attempts as a live stream
 
 ```
 
@@ -304,6 +302,7 @@ find ~/kb -type f -executable
 - [20230928164948](/zet/20230928164948/README.md) password cracking rules
 - [20230928165457](/zet/20230928165457/README.md) awk print unique lines
 - [20230928172527](/zet/20230928172527/README.md) image analysis commands
+- [20230928173645](/zet/20230928173645/README.md) live ssh perimeter defense script with colorized login attempts and shodan lookup
 
 Tags:
 

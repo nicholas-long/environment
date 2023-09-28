@@ -7,3 +7,4 @@
 - [20230925180416](/zet/20230925180416/README.md) print md5 of every line in a password wordlist
 - [20230928014124](/zet/20230928014124/README.md) script to extract an embedded file stream from a PDF
 - [20230928133216](/zet/20230928133216/README.md) scripts to work with burpsuite saved requests and automatically generate python code
+- [20230928173645](/zet/20230928173645/README.md) live ssh perimeter defense script with colorized login attempts and shodan lookup

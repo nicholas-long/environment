@@ -39,6 +39,7 @@ zet/20221012171100/README.md
 - [20230928165457](/zet/20230928165457/README.md) awk print unique lines
 - [20230928171946](/zet/20230928171946/README.md) data analysis scripting hub
 - [20230928172527](/zet/20230928172527/README.md) image analysis commands
+- [20230928173645](/zet/20230928173645/README.md) live ssh perimeter defense script with colorized login attempts and shodan lookup
 
 Tags:
 

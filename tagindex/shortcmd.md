@@ -18,3 +18,4 @@
 - [20230928014124](/zet/20230928014124/README.md) script to extract an embedded file stream from a PDF
 - [20230928165457](/zet/20230928165457/README.md) awk print unique lines
 - [20230928172527](/zet/20230928172527/README.md) image analysis commands
+- [20230928173645](/zet/20230928173645/README.md) live ssh perimeter defense script with colorized login attempts and shodan lookup
