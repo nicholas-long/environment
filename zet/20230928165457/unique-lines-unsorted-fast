@@ -1,0 +1,4 @@
+#!/usr/bin/awk -f
+
+# use awk to print only unique lines as a stream processor
+!seen[$0]++ { print }

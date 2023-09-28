@@ -33,3 +33,4 @@
 - [20230928014124](/zet/20230928014124/README.md) script to extract an embedded file stream from a PDF
 - [20230928133216](/zet/20230928133216/README.md) scripts to work with burpsuite saved requests and automatically generate python code
 - [20230928134931](/zet/20230928134931/README.md) scripts for URL and HTTP encoding
+- [20230928165457](/zet/20230928165457/README.md) awk print unique lines

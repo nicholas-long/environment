@@ -16,3 +16,4 @@
 - [20230925143506](/zet/20230925143506/README.md) searchsploit fuzzy search for exploits
 - [20230926234809](/zet/20230926234809/README.md) a non-platform-specific find command script for executable files
 - [20230928014124](/zet/20230928014124/README.md) script to extract an embedded file stream from a PDF
+- [20230928165457](/zet/20230928165457/README.md) awk print unique lines
