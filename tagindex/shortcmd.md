@@ -15,3 +15,4 @@
 - [20230925024118](/zet/20230925024118/README.md) script to display information about other scripts and their dependencies
 - [20230925143506](/zet/20230925143506/README.md) searchsploit fuzzy search for exploits
 - [20230926234809](/zet/20230926234809/README.md) a non-platform-specific find command script for executable files
+- [20230928014124](/zet/20230928014124/README.md) script to extract an embedded file stream from a PDF

@@ -5,3 +5,4 @@
 - [20230925052317](/zet/20230925052317/README.md) wordlists for pentesting
 - [20230925143506](/zet/20230925143506/README.md) searchsploit fuzzy search for exploits
 - [20230925180416](/zet/20230925180416/README.md) print md5 of every line in a password wordlist
+- [20230928014124](/zet/20230928014124/README.md) script to extract an embedded file stream from a PDF
