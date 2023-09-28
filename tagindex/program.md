@@ -5,3 +5,4 @@
 - [20221105220915](/zet/20221105220915/README.md) add recurring timers using github cron actions
 - [20230905210416](/zet/20230905210416/README.md) fast file manager fff
 - [20230927152827](/zet/20230927152827/README.md) reverse engineering obsidian to create an obsidian sync cli tool
+- [20230928185944](/zet/20230928185944/README.md) script to package up program and debian dependencies a tar to install on a remote target machine

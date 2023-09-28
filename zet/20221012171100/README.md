@@ -44,6 +44,10 @@ zet/20221012171100/README.md
 - [20230928175049](/zet/20230928175049/README.md) pwntools template binary exploit script
 - [20230928175434](/zet/20230928175434/README.md) tandy project notes and scripts for old machine project
 - [20230928175625](/zet/20230928175625/README.md) ssh keygen automated expect script to generate a public and private key pair
+- [20230928184621](/zet/20230928184621/README.md) markdown helper scripts
+- [20230928185057](/zet/20230928185057/README.md) bash self parsing code
+- [20230928185603](/zet/20230928185603/README.md) script to print the content of markdown text within the heading level of a particular line
+- [20230928185944](/zet/20230928185944/README.md) script to package up program and debian dependencies a tar to install on a remote target machine
 
 Tags:
 

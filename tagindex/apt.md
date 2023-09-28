@@ -1,2 +1,1 @@
-- [20221011145143](/zet/20221011145143/README.md) bat command pretty printer
 - [20230928185944](/zet/20230928185944/README.md) script to package up program and debian dependencies a tar to install on a remote target machine

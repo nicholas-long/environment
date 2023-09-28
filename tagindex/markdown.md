@@ -4,3 +4,4 @@
 - [20230922212036](/zet/20230922212036/README.md) command shortcut to get markdown titles or content summaries
 - [20230924221605](/zet/20230924221605/README.md) script to get nested markdown headings for keyword searching
 - [20230928174503](/zet/20230928174503/README.md) script to automatically generate headings and markdown for displaying code files as snippets
+- [20230928185603](/zet/20230928185603/README.md) script to print the content of markdown text within the heading level of a particular line

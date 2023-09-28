@@ -17,6 +17,7 @@ cp /home/parallels/kb/awk-scripting/snippet.awk .
 - [20221013021614](/zet/20221013021614/README.md) zkvr terminal graph browser
 - [20230912192810](/zet/20230912192810/README.md) script to search zk markdown in command line
 - [20230924221605](/zet/20230924221605/README.md) script to get nested markdown headings for keyword searching
+- [20221012171100](/zet/20221012171100/README.md) recently created nodes hub
 
 Tags:
 

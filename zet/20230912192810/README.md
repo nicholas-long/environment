@@ -106,6 +106,8 @@ find $ZK_PATH -name '*.md' -type f -print0 | xargs -0 awk '
 - [20230925193834](/zet/20230925193834/README.md) testing on mac os
 - [20230927033258](/zet/20230927033258/README.md) debugging the markdown script on mac os
 - [20230928174503](/zet/20230928174503/README.md) script to automatically generate headings and markdown for displaying code files as snippets
+- [20230928185603](/zet/20230928185603/README.md) script to print the content of markdown text within the heading level of a particular line
+- [20230928184621](/zet/20230928184621/README.md) markdown helper scripts
 
 Tags:
 
