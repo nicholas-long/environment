@@ -35,7 +35,6 @@ find ~/kb -type f -not -executable | grep -v '\.md$'
 ```bash
 
 /home/parallels/kb/bash-scripting/self-parsing-code-function-names.sh # test self-parsing scripts
-/home/coyote/kb/awk-scripting/snippet.awk # awk print markdown snippet text between backtick lines
 /home/parallels/kb/hacking/priv-esc/strings-all-memory.sh # run strings on memory dumps for every readable process
 /home/coyote/kb/hacking/windows/uacbypass/fodhelper.ps1 # a fodhelper bypass that should go in zk hacking notes
 /home/parallels/kb/linux/package-it-all.sh # attempt to package up all dependencies deb files into a tar to install on a remote target machine
@@ -145,6 +144,7 @@ find ~/kb -type f -not -executable | grep -v '\.md$'
 /home/coyote/kb/hacking/pwn/boilerplate-pwn-script.py # pwntools template binary exploit script
 /home/coyote/kb/linux/old-machine-project/tandy-output-filter.c # a poor attempt to create a text filter to get the tandy screen working as a terminal. link this to the old machine terminal project.
 /home/parallels/kb/bash-scripting/ssh-keygen-generate-file.exp # expect script to generate ssh key by filename
+/home/coyote/kb/awk-scripting/snippet.awk # awk print markdown snippet text between backtick lines
 
 ```
 
@@ -304,6 +304,7 @@ find ~/kb -type f -executable
 - [20230928175049](/zet/20230928175049/README.md) pwntools template binary exploit script
 - [20230928175434](/zet/20230928175434/README.md) tandy project notes and scripts for old machine project
 - [20230928175625](/zet/20230928175625/README.md) ssh keygen automated expect script to generate a public and private key pair
+- [20230928184621](/zet/20230928184621/README.md) markdown helper scripts
 
 Tags:
 
