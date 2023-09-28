@@ -27,6 +27,7 @@ install_it wget wget
 install_it pip3 python3-pip
 install_it python3 python3
 install_it ip iproute2
+install_it go golang
 
 if ! which nvim >/dev/null; then
   echo no neovim

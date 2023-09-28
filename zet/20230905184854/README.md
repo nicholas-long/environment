@@ -18,6 +18,14 @@
   - https://command-not-found.com/ip
   - add iproute2 to dependencies
   - mac os is still missing the `ip` command. there is not a version for it? will need to update scripts
+- [x] golang
+  - i'm not so sure about this one. it feels like bloat to install so many programming languages
+  - go looks useful for scripting though, and bash scripts that depend on go scripts can call them with `go run` without even installing the scripts first.
+  - there's a lot of useful libraries out there in go that work as programs i think
+  - go will end up being a dependency for hacking related scripts that have to parse files
+  - rwxrob uses it and he likes bash scripting too
+  - i don't think i'm going to learn how to program in go right now, but i can use libraries and programs
+  - lazygit is written in go. can i install it with go instead of the interactive binary selector?
 
 ```bash
 # select install program
