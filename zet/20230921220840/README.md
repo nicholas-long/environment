@@ -34,10 +34,8 @@ find ~/kb -type f -not -executable | grep -v '\.md$'
 # filtered list
 ```bash
 
-/home/parallels/kb/bash-scripting/self-parsing-code-function-names.sh # test self-parsing scripts
 /home/parallels/kb/hacking/priv-esc/strings-all-memory.sh # run strings on memory dumps for every readable process
 /home/coyote/kb/hacking/windows/uacbypass/fodhelper.ps1 # a fodhelper bypass that should go in zk hacking notes
-/home/parallels/kb/linux/package-it-all.sh # attempt to package up all dependencies deb files into a tar to install on a remote target machine
 /home/coyote/kb/awk-scripting/get-interface.awk # get your preferred networking interface to work with, tunnels first, then networks, and then lan
 /home/coyote/kb/bash-scripting/get-wikipedia-info.sh # get headings from wikipedia page
 /home/coyote/kb/linux/mount-shared-folders-in-vm.sh # mount shared folders on VM
@@ -60,7 +58,6 @@ find ~/kb -type f -not -executable | grep -v '\.md$'
 /home/parallels/kb/bash-scripting/get-bash-lines-from-kb-snippets.sh # get bash lines from kb snippets
 /home/parallels/kb/bash-scripting/find-largest-files.sh # find the largest N files
 /home/parallels/kb/awk-scripting/get-columns.awk # get column headings from first line of CSV
-/home/parallels/kb/awk-scripting/print-markdown-content-nested-in-heading.awk # print nested markdown content within headings
 /home/parallels/kb/awk-scripting/file-grep-multi-lines.awk # check output of grep and next line using awk "grep -A 1 -R '^# ' ."
 /home/parallels/kb/bash-scripting/what-installed-this-file.sh # find what apt package caused a particular specific file to be installed
 /home/parallels/kb/awk-scripting/find-only-h1-files.awk # parse a list of files and figure out if they contain h2 headings
@@ -145,6 +142,9 @@ find ~/kb -type f -not -executable | grep -v '\.md$'
 /home/coyote/kb/linux/old-machine-project/tandy-output-filter.c # a poor attempt to create a text filter to get the tandy screen working as a terminal. link this to the old machine terminal project.
 /home/parallels/kb/bash-scripting/ssh-keygen-generate-file.exp # expect script to generate ssh key by filename
 /home/coyote/kb/awk-scripting/snippet.awk # awk print markdown snippet text between backtick lines
+/home/parallels/kb/bash-scripting/self-parsing-code-function-names.sh # test self-parsing scripts
+/home/parallels/kb/awk-scripting/print-markdown-content-nested-in-heading.awk # print nested markdown content within headings
+/home/parallels/kb/linux/package-it-all.sh # attempt to package up all dependencies deb files into a tar to install on a remote target machine
 
 ```
 
@@ -305,6 +305,9 @@ find ~/kb -type f -executable
 - [20230928175434](/zet/20230928175434/README.md) tandy project notes and scripts for old machine project
 - [20230928175625](/zet/20230928175625/README.md) ssh keygen automated expect script to generate a public and private key pair
 - [20230928184621](/zet/20230928184621/README.md) markdown helper scripts
+- [20230928185057](/zet/20230928185057/README.md) bash self parsing code
+- [20230928185603](/zet/20230928185603/README.md) script to print the content of markdown text within the heading level of a particular line
+- [20230928185944](/zet/20230928185944/README.md) script to package up program and debian dependencies a tar to install on a remote target machine
 
 Tags:
 
