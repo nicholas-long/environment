@@ -1,6 +1,8 @@
 # markdown helper scripts
 
 - concept of `markdown helper scripts`
+- `zet/20230928184621/snippet.awk` print markdown snippet text between backtick lines
+- [20230924221605](/zet/20230924221605/README.md) script to get nested markdown headings for keyword searching
 
 ```bash
 /home/parallels/kb/awk-scripting/snippet.awk # awk print markdown snippet text between backtick lines
