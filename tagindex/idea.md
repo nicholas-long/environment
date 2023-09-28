@@ -24,3 +24,4 @@
 - [20230925193834](/zet/20230925193834/README.md) testing on mac os
 - [20230926224444](/zet/20230926224444/README.md) updating scripts to use gawk when possible
 - [20230927033258](/zet/20230927033258/README.md) debugging the markdown script on mac os
+- [20230928164948](/zet/20230928164948/README.md) password cracking rules

@@ -35,6 +35,7 @@ zet/20221012171100/README.md
 - [20230928133216](/zet/20230928133216/README.md) scripts to work with burpsuite saved requests and automatically generate python code
 - [20230928134931](/zet/20230928134931/README.md) scripts for URL and HTTP encoding
 - [20230928164014](/zet/20230928164014/README.md) dockerfile templates
+- [20230928164948](/zet/20230928164948/README.md) password cracking rules
 
 Tags:
 
