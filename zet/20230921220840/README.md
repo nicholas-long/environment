@@ -34,9 +34,6 @@ find ~/kb -type f -not -executable | grep -v '\.md$'
 # filtered list
 ```bash
 
-# card about tandy project
-/home/coyote/kb/linux/old-machine-project/tandy-output-filter.c # a poor attempt to create a text filter to get the tandy screen working as a terminal. link this to the old machine terminal project.
-
 /home/parallels/kb/bash-scripting/self-parsing-code-function-names.sh # test self-parsing scripts
 /home/parallels/kb/bash-scripting/ssh-keygen-generate-file.exp # expect script to generate ssh key by filename
 /home/coyote/kb/awk-scripting/snippet.awk # awk print markdown snippet text between backtick lines
@@ -147,6 +144,7 @@ find ~/kb -type f -not -executable | grep -v '\.md$'
 /home/parallels/kb/bash-scripting/watch-failed-ssh-logins-live-check-shodan.sh # watch failed ssh login attempts as a live stream
 /home/coyote/kb/awk-scripting/autogenerate-headings-for-source-files.awk # autogenerate headings for source files
 /home/coyote/kb/hacking/pwn/boilerplate-pwn-script.py # pwntools template binary exploit script
+/home/coyote/kb/linux/old-machine-project/tandy-output-filter.c # a poor attempt to create a text filter to get the tandy screen working as a terminal. link this to the old machine terminal project.
 
 ```
 
@@ -304,6 +302,7 @@ find ~/kb -type f -executable
 - [20230928173645](/zet/20230928173645/README.md) live ssh perimeter defense script with colorized login attempts and shodan lookup
 - [20230928174503](/zet/20230928174503/README.md) script to automatically generate headings and markdown for displaying code files as snippets
 - [20230928175049](/zet/20230928175049/README.md) pwntools template binary exploit script
+- [20230928175434](/zet/20230928175434/README.md) tandy project notes and scripts for old machine project
 
 Tags:
 
