@@ -34,14 +34,15 @@ find ~/kb -type f -not -executable | grep -v '\.md$'
 # filtered list
 ```bash
 
+# docker templates
+/home/parallels/kb/docker/templates/ubuntu-dockerfile-template.sh # create an ubuntu dockerfile
+# put to existing password things
+/home/parallels/kb/hacking/passwords/generate-common-passwords.sh # generate common passwords
+# URL and HTTP encoding stuff -> link to burpsuite requests because these were shared with there
 /home/parallels/kb/python/urlencode.py # urlencode every input line
 /home/parallels/kb/bash-scripting/urlencode.sh # urlencode a line of text from stdin
 /home/parallels/kb/bash-scripting/urlencode-base64-every-line.sh # urlencode and base64 encode lines individually
-/home/parallels/kb/python/decode-post-params.py # parse all post params from post content given on standard input
-/home/parallels/kb/python/decode-cookies.py # parse a cookie from every line on standard input
-/home/parallels/kb/python/get-url-params.py # parse all get parameters from a url
-/home/parallels/kb/hacking/scripts/get-burp-http-saved-request.sh # get raw HTTP request data from burp saved request
-/home/parallels/kb/awk-scripting/get-http-post-content.awk # get HTTP POST content from HTTP request stream
+# password cracking rules -> password hub
 /home/coyote/kb/hacking/passwords/password_cracking_rules/OneRuleToRuleThemAll.rule # rule file for hashcat that is worth having
 /home/parallels/kb/bash-scripting/awk-print-unique-lines.sh # use awk to print only unique lines as a stream processor
 /home/parallels/kb/bash-scripting/exif-all-images.sh # run exiftool on all of the images within a directory
@@ -72,8 +73,6 @@ find ~/kb -type f -not -executable | grep -v '\.md$'
 /home/coyote/kb/hacking/test-vuln-in-dockers/ubuntu-reverse-shell # save this directory
 /home/coyote/kb/hacking/test-vuln-in-dockers/ubuntu-reverse-shell-user-feature-test # save this directory
 /home/parallels/kb/linux/alacritty-run-tmux.sh # shortcut to start tmux session in a working directory with alacritty
-/home/parallels/kb/hacking/scripts/copy-burp-request-as-python-script.sh # parse burpsuite saved request file and convert to python requests script for copying
-/home/parallels/kb/hacking/passwords/generate-common-passwords.sh # generate common passwords
 /home/parallels/kb/hacking/tricks/get-versions-from-composer-lock-json.sh # get library dependency versions from composer.lock json file
 /home/parallels/kb/bash-scripting/get-random-unique-id.sh # get random hex unique ID bash
 /home/parallels/kb/bash-scripting/search-tldr-commands-text.sh # search through tldr command descriptions with fzf and display file with bat
@@ -82,7 +81,6 @@ find ~/kb -type f -not -executable | grep -v '\.md$'
 /home/parallels/kb/bash-scripting/get-current-ubuntu-distro.sh # return the most recently updated ubuntu distro
 /home/parallels/kb/bash-scripting/get-bash-lines-from-kb-snippets.sh # get bash lines from kb snippets
 /home/parallels/kb/bash-scripting/find-largest-files.sh # find the largest N files
-/home/parallels/kb/python/tsv-to-python-dict.py # convert tsv with key and value fields to python dictionary
 /home/parallels/kb/awk-scripting/get-columns.awk # get column headings from first line of CSV
 /home/parallels/kb/awk-scripting/print-markdown-content-nested-in-heading.awk # print nested markdown content within headings
 /home/parallels/kb/awk-scripting/file-grep-multi-lines.awk # check output of grep and next line using awk "grep -A 1 -R '^# ' ."
@@ -90,7 +88,6 @@ find ~/kb -type f -not -executable | grep -v '\.md$'
 /home/parallels/kb/awk-scripting/find-only-h1-files.awk # parse a list of files and figure out if they contain h2 headings
 /home/parallels/kb/awk-scripting/user-interface-fzf.awk # testing a user interface in fzf from within awk
 /home/parallels/kb/awk-scripting/start-service.awk # an attempt to select and start linux services from an fzf menu
-/home/parallels/kb/docker/templates/ubuntu-dockerfile-template.sh # create an ubuntu dockerfile
 /home/parallels/kb/bash-scripting/get-current-notes-line-count.sh # attempt to get a line count of notes while ignoring certain file extensions
 /home/parallels/kb/linux/get-ip-tmux.sh # test tmux script to get IP? looks pretty bad
 /home/parallels/kb/linux/named-pipe-to-netcat.sh # example of how to communicate between the network and a named pipe
@@ -148,7 +145,13 @@ find ~/kb -type f -not -executable | grep -v '\.md$'
 /home/parallels/kb/bash-scripting/decorate-passwd-file.sh # decorate and colorize a passwd file piped from stdin
 /home/parallels/kb/bash-scripting/decorate-xml.sh # decorate XML with colors for tags, attributes, and content
 /home/parallels/kb/hacking/tricks/extract-pdf-embedded-file-stream.sh # extract PDF embedded file stream for use with PDF file attach exploits like mpdf
-
+/home/parallels/kb/hacking/scripts/get-burp-http-saved-request.sh # get raw HTTP request data from burp saved request
+/home/parallels/kb/hacking/scripts/copy-burp-request-as-python-script.sh # parse burpsuite saved request file and convert to python requests script for copying
+/home/parallels/kb/awk-scripting/get-http-post-content.awk # get HTTP POST content from HTTP request stream
+/home/parallels/kb/python/decode-post-params.py # parse all post params from post content given on standard input
+/home/parallels/kb/python/decode-cookies.py # parse a cookie from every line on standard input
+/home/parallels/kb/python/get-url-params.py # parse all get parameters from a url
+/home/parallels/kb/python/tsv-to-python-dict.py # convert tsv with key and value fields to python dictionary
 
 ```
 
@@ -294,6 +297,7 @@ find ~/kb -type f -executable
 - [20230926190350](/zet/20230926190350/README.md) scripts to process text with line by line operations
 - [20230927233110](/zet/20230927233110/README.md) colorizing and prettifying scripts for transforming text
 - [20230928014124](/zet/20230928014124/README.md) script to extract an embedded file stream from a PDF
+- [20230928133216](/zet/20230928133216/README.md) scripts to work with burp requests and generate python code
 
 Tags:
 
