@@ -2,6 +2,7 @@
 
 - ssh keygen automated expect script to generate a public and private key pair
   - automatically answers ssh questions to generate the keypair
+  - 2023-09-28 tested and this still works
 ```expect
 #!/usr/bin/expect -f
 set filename [lindex $argv 0];
