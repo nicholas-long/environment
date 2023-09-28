@@ -41,3 +41,4 @@
 - [20230928185603](/zet/20230928185603/README.md) script to print the content of markdown text within the heading level of a particular line
 - [20230928185944](/zet/20230928185944/README.md) script to package up program and debian dependencies a tar to install on a remote target machine
 - [20230928191243](/zet/20230928191243/README.md) privesc scripts and lists
+- [20230928193054](/zet/20230928193054/README.md) docker reverse shell testing project
