@@ -35,24 +35,15 @@ find ~/kb -type f -not -executable | grep -v '\.md$'
 ```bash
 
 /home/parallels/kb/bash-scripting/what-installed-this-file.sh # find what apt package caused a particular specific file to be installed
+/home/parallels/kb/bash-scripting/get-current-ubuntu-distro.sh # return the most recently updated ubuntu distro
 /home/parallels/kb/awk-scripting/user-interface-fzf.awk # testing a user interface in fzf from within awk
 /home/coyote/kb/awk-scripting/get-interface.awk # get your preferred networking interface to work with, tunnels first, then networks, and then lan
 /home/coyote/kb/bash-scripting/get-wikipedia-info.sh # get headings from wikipedia page
-/home/coyote/kb/linux/mount-shared-folders-in-vm.sh # mount shared folders on VM
 /home/coyote/kb/hacking/tricks/python-fuzz-valid-dates.py # fuzz valid dates
-/home/coyote/kb/linux/install_sublime.sh # install sublimetext
-/home/coyote/kb/linux/install_vscode.sh # install vscode
 /home/coyote/kb/sed-scripting/httpd-conf-enable-cgi.sed # example sed script to edit httpd conf
-/home/coyote/kb/linux/java8.sh # source this in order to use a java 8 environment if it is installed
-/home/coyote/kb/linux/oracle.sh # environment required to get oracle client working
-/home/coyote/kb/hacking/test-vuln-in-dockers/ubuntu-reverse-shell # save this directory
-/home/coyote/kb/hacking/test-vuln-in-dockers/ubuntu-reverse-shell-user-feature-test # save this directory
-/home/parallels/kb/linux/alacritty-run-tmux.sh # shortcut to start tmux session in a working directory with alacritty
 /home/parallels/kb/bash-scripting/get-random-unique-id.sh # get random hex unique ID bash
-/home/parallels/kb/bash-scripting/search-tldr-commands-text.sh # search through tldr command descriptions with fzf and display file with bat
 /home/parallels/kb/bash-scripting/template.sh # parse args with case statement
 /home/parallels/kb/bash-scripting/generate-dates.sh # generate ISO format dates wordlists for the last few years
-/home/parallels/kb/bash-scripting/get-current-ubuntu-distro.sh # return the most recently updated ubuntu distro
 /home/parallels/kb/bash-scripting/get-bash-lines-from-kb-snippets.sh # get bash lines from kb snippets
 /home/parallels/kb/bash-scripting/find-largest-files.sh # find the largest N files
 /home/parallels/kb/awk-scripting/get-columns.awk # get column headings from first line of CSV
@@ -62,8 +53,6 @@ find ~/kb -type f -not -executable | grep -v '\.md$'
 /home/parallels/kb/linux/get-ip-tmux.sh # test tmux script to get IP? looks pretty bad
 /home/parallels/kb/linux/named-pipe-to-netcat.sh # example of how to communicate between the network and a named pipe
 /home/parallels/kb/linux/getip.sh # another script to get ip. isn't there enough of these?
-/home/parallels/kb/hacking/test-vuln-in-dockers/ubuntu-reverse-shell/run-docker-catch-rev-shell.sh # test running an ubuntu docker and catching a reverse shell from it
-/home/parallels/kb/hacking/test-vuln-in-dockers/ubuntu-reverse-shell-user-feature-test/run-docker-catch-rev-shell.sh # test running an ubuntu docker and catching a reverse shell from it
 /home/parallels/kb/tmux/tmux-script-log.sh # attempt to create script logs from tmux panes
 
 # done and converted
@@ -144,6 +133,15 @@ find ~/kb -type f -not -executable | grep -v '\.md$'
 /home/coyote/kb/hacking/windows/printnightmare-kb-list.txt # this should really go in zk or somewhere else
 /home/coyote/kb/hacking/windows/uacbypass/fodhelper.ps1 # a fodhelper bypass that should go in zk hacking notes
 /home/parallels/kb/hacking/tricks/get-versions-from-composer-lock-json.sh # get library dependency versions from composer.lock json file
+/home/parallels/kb/bash-scripting/search-tldr-commands-text.sh # search through tldr command descriptions with fzf and display file with bat
+/home/coyote/kb/linux/java8.sh # source this in order to use a java 8 environment if it is installed
+/home/coyote/kb/linux/oracle.sh # environment required to get oracle client working
+/home/coyote/kb/linux/mount-shared-folders-in-vm.sh # mount shared folders on VM
+/home/parallels/kb/linux/alacritty-run-tmux.sh # shortcut to start tmux session in a working directory with alacritty
+/home/parallels/kb/hacking/test-vuln-in-dockers/ubuntu-reverse-shell/run-docker-catch-rev-shell.sh # test running an ubuntu docker and catching a reverse shell from it
+/home/parallels/kb/hacking/test-vuln-in-dockers/ubuntu-reverse-shell-user-feature-test/run-docker-catch-rev-shell.sh # test running an ubuntu docker and catching a reverse shell from it
+/home/coyote/kb/hacking/test-vuln-in-dockers/ubuntu-reverse-shell # save this directory
+/home/coyote/kb/hacking/test-vuln-in-dockers/ubuntu-reverse-shell-user-feature-test # save this directory
 
 ```
 
@@ -159,6 +157,8 @@ find ~/kb -type f -not -executable | grep -v '\.md$'
 /home/coyote/kb/hacking/general-notes.md.old # figure out what to do with this
 /home/coyote/kb/hacking/notes-template # directory that is a template folder structure for hacking notes
 /home/coyote/kb/linux/setup_aliases.sh # an attempt to sync zshrc and bashrc
+/home/coyote/kb/linux/install_sublime.sh # install sublimetext
+/home/coyote/kb/linux/install_vscode.sh # install vscode
 
 # kb internal stuff
 /home/parallels/kb/bash-scripting/autogenerate.sh # generated the markdown content for files named auto-bash, auto-awk, etc
@@ -310,6 +310,8 @@ find ~/kb -type f -executable
 - [20230928185944](/zet/20230928185944/README.md) script to package up program and debian dependencies a tar to install on a remote target machine
 - [20230928191243](/zet/20230928191243/README.md) privesc scripts and lists
 - [20230928191955](/zet/20230928191955/README.md) get library dependency versions from composer.lock json file
+- [20230928192818](/zet/20230928192818/README.md) micro environment scripts needed to get programs working
+- [20230928193054](/zet/20230928193054/README.md) docker reverse shell testing project
 
 Tags:
 
