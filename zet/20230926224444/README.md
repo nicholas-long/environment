@@ -5,6 +5,7 @@
 - update scripts within zc implementation `lrwxrwxrwx 1 parallels parallels 18 Aug 31 23:50 implementation -> zet/20221006032546`
 - linking documents was initially broken, but seems to be working now after changing one problem script to gawk
   - the particular script that was fixed on the mac is called `parseids`
+- [20230929064428](/zet/20230929064428/README.md) script to check for BEGINFILE usage in awk scripts requiring change to gawk
 - shebang line to use
   - because awk has a -f parameter and this influences how scripts are run
 ```

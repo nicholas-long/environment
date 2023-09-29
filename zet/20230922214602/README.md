@@ -3,7 +3,7 @@
 - [x] fuzzy file search for opening and editing multiple files, any files in any directory
 - [x] copy current fixes back up to zkvr
   - 2023-09-29 copied in
-- [ ] should copy up find executable command - id 20230926234809
+- [x] should copy up find executable command - id 20230926234809
 
 - commands run and work on copying stuff over
 ```bash
