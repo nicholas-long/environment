@@ -36,3 +36,4 @@
 - [20230929055134](/zet/20230929055134/README.md) attempt to create script logs from tmux panes
 - [20230929064428](/zet/20230929064428/README.md) script to check for BEGINFILE usage in awk scripts requiring change to gawk
 - [20230929153207](/zet/20230929153207/README.md) computer science experiments hub
+- [20230929194846](/zet/20230929194846/README.md) testing if shortcuts will work and not pick up extra files

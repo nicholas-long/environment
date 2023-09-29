@@ -55,6 +55,7 @@ done
 - [20230919153113](/zet/20230919153113/README.md) obsidian links scripts
 - [20230925193834](/zet/20230925193834/README.md) testing on mac os
 - [20230926234809](/zet/20230926234809/README.md) a non-platform-specific find command script for executable files
+- [20230929194846](/zet/20230929194846/README.md) testing if shortcuts will work and not pick up extra files
 
 Tags:
 

@@ -24,3 +24,4 @@
 - [20230928220755](/zet/20230928220755/README.md) find the largest N files
 - [20230929053721](/zet/20230929053721/README.md) get random hex unique ID bash
 - [20230929054848](/zet/20230929054848/README.md) awk script to get column headings from the first line of CSV
+- [20230929145418](/zet/20230929145418/README.md) file based database for partitioning and event sourced data
