@@ -20,4 +20,4 @@ cp /home/parallels/kb/awk-scripting/file-grep-multi-lines.awk /home/parallels/kb
 
 Tags:
 
-    #idea
+    #linux #trick #script #install

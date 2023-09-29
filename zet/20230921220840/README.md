@@ -16,6 +16,7 @@
   - [20230925001420](/zet/20230925001420/README.md) cool docker scripts to migrate
 - git scripts converted
   - [20230925050125](/zet/20230925050125/README.md) git scripting related hub
+- 2023-09-29 early AM - everything is converted!
 
 # list of non-executable scripts
 - [x] finish going though this list
@@ -33,15 +34,6 @@ find ~/kb -type f -not -executable | grep -v '\.md$'
 
 # filtered list
 ```bash
-
-/home/parallels/kb/bash-scripting/get-random-unique-id.sh # get random hex unique ID bash
-/home/parallels/kb/bash-scripting/template.sh # parse args with case statement
-/home/parallels/kb/bash-scripting/generate-dates.sh # generate ISO format dates wordlists for the last few years
-/home/parallels/kb/awk-scripting/get-columns.awk # get column headings from first line of CSV
-/home/parallels/kb/linux/get-ip-tmux.sh # test tmux script to get IP? looks pretty bad
-/home/parallels/kb/linux/named-pipe-to-netcat.sh # example of how to communicate between the network and a named pipe
-/home/parallels/kb/linux/getip.sh # another script to get ip. isn't there enough of these?
-/home/parallels/kb/tmux/tmux-script-log.sh # attempt to create script logs from tmux panes
 
 # done and converted
 /home/parallels/kb/awk-scripting/center.awk # center text within the terminal - i think i mgiht have converted this one already?
@@ -142,6 +134,12 @@ find ~/kb -type f -not -executable | grep -v '\.md$'
 /home/parallels/kb/awk-scripting/file-grep-multi-lines.awk # check output of grep and next line using awk "grep -A 1 -R '^# ' ."
 /home/parallels/kb/awk-scripting/start-service.awk # an attempt to select and start linux services from an fzf menu
 /home/coyote/kb/sed-scripting/httpd-conf-enable-cgi.sed # example sed script to edit httpd conf
+/home/parallels/kb/bash-scripting/get-random-unique-id.sh # get random hex unique ID bash
+/home/parallels/kb/bash-scripting/template.sh # parse args with case statement
+/home/parallels/kb/bash-scripting/generate-dates.sh # generate ISO format dates wordlists for the last few years
+/home/parallels/kb/awk-scripting/get-columns.awk # get column headings from first line of CSV
+/home/parallels/kb/linux/named-pipe-to-netcat.sh # example of how to communicate between the network and a named pipe
+/home/parallels/kb/tmux/tmux-script-log.sh # attempt to create script logs from tmux panes
 
 ```
 
@@ -159,6 +157,8 @@ find ~/kb -type f -not -executable | grep -v '\.md$'
 /home/coyote/kb/linux/setup_aliases.sh # an attempt to sync zshrc and bashrc
 /home/coyote/kb/linux/install_sublime.sh # install sublimetext
 /home/coyote/kb/linux/install_vscode.sh # install vscode
+/home/parallels/kb/linux/get-ip-tmux.sh # test tmux script to get IP? looks pretty bad
+/home/parallels/kb/linux/getip.sh # another script to get ip. isn't there enough of these?
 
 # kb internal stuff
 /home/parallels/kb/bash-scripting/autogenerate.sh # generated the markdown content for files named auto-bash, auto-awk, etc
@@ -320,6 +320,11 @@ find ~/kb -type f -executable
 - [20230929023608](/zet/20230929023608/README.md) script to get your preferred networking interface based on what is available
 - [20230929024225](/zet/20230929024225/README.md) meta note related scripts
 - [20230929024545](/zet/20230929024545/README.md) scripts for linux tricks
+- [20230929053721](/zet/20230929053721/README.md) get random hex unique ID bash
+- [20230929054003](/zet/20230929054003/README.md) bash scripting simple program template parsing arguments with case statement
+- [20230929054848](/zet/20230929054848/README.md) awk script to get column headings from the first line of CSV
+- [20230929055042](/zet/20230929055042/README.md) example of how to communicate between the network and a named pipe
+- [20230929055134](/zet/20230929055134/README.md) attempt to create script logs from tmux panes
 
 Tags:
 

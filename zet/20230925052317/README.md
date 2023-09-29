@@ -16,6 +16,9 @@ cp /home/parallels/kb/hacking/passwords/generate-common-passwords.sh .
 
 /home/parallels/kb/hacking/tricks/python-fuzz-valid-dates.py # fuzz valid dates
 cp /home/parallels/kb/hacking/tricks/python-fuzz-valid-dates.py .
+
+/home/parallels/kb/bash-scripting/generate-dates.sh # generate ISO format dates wordlists for the last few years
+cp /home/parallels/kb/bash-scripting/generate-dates.sh .
 ```
 
 ` zet/20230925052317/README.md `
