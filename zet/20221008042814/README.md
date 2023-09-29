@@ -27,6 +27,7 @@ stuff i am working on.
 - [20230925001420](/zet/20230925001420/README.md) cool docker scripts to migrate
 - [20230925050125](/zet/20230925050125/README.md) git scripting hub
 - [20230927152827](/zet/20230927152827/README.md) reverse engineering obsidian to create an obsidian sync cli tool
+- [20230926224444](/zet/20230926224444/README.md) updating scripts to use gawk when possible
 
 Tags:
 
