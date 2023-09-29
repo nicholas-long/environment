@@ -59,6 +59,9 @@
   - [20230929064428](/zet/20230929064428/README.md) script to check for beginfile usage
 - linking documents was initially broken, but seems to be working now after changing one problem script to gawk
   - the particular script that was fixed on the mac is called `parseids`
+- [ ] unlinking documents doesn't work
+- [ ] adding and deleting tags doesn't work
+- many things are broken in enrich
 - navigation and editing documents work
 - awk script that drives the copy snippet functionality works as expected
 - spawn doesn't work. it looks like an issue with sed in a script
