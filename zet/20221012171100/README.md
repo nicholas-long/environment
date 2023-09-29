@@ -11,7 +11,6 @@ zet/20221012171100/README.md
 # Related
 
 - [20221012144502](/zet/20221012144502/README.md) track modification dates
-- [20230925024118](/zet/20230925024118/README.md) script to display information about other scripts and their dependencies
 - [20230925033312](/zet/20230925033312/README.md) bash current script directory
 - [20230925050125](/zet/20230925050125/README.md) git scripting hub
 - [20230925052317](/zet/20230925052317/README.md) wordlists for pentesting
@@ -62,6 +61,7 @@ zet/20221012171100/README.md
 - [20230929054848](/zet/20230929054848/README.md) awk script to get column headings from the first line of CSV
 - [20230929055042](/zet/20230929055042/README.md) example of how to communicate between the network and a named pipe
 - [20230929055134](/zet/20230929055134/README.md) attempt to create script logs from tmux panes
+- [20230929064428](/zet/20230929064428/README.md) script to check for BEGINFILE usage in awk scripts requiring change to gawk
 
 Tags:
 

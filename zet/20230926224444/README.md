@@ -68,6 +68,7 @@ zet/20221006032546/addsnippet:#!/usr/bin/awk -f
 - [20221012171100](/zet/20221012171100/README.md) recently created nodes hub
 - [20221013221136](/zet/20221013221136/README.md) graph query language for zettelkasten
 - [20221006032546](/zet/20221006032546/README.md) my original implementation of zet cmd
+- [20230929064428](/zet/20230929064428/README.md) script to check for BEGINFILE usage in awk scripts requiring change to gawk
 
 Tags:
 

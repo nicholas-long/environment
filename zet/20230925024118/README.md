@@ -26,7 +26,6 @@ zet/20230925024118/scripts-dependencies
 - [20230905015223](/zet/20230905015223/README.md) install scripts
 - [20230925001420](/zet/20230925001420/README.md) cool docker scripts to migrate
 - [20230923065000](/zet/20230923065000/README.md) determining which scripts have kb references using grep
-- [20221012171100](/zet/20221012171100/README.md) recently created nodes hub
 - [20230925033312](/zet/20230925033312/README.md) bash current script directory
 - [20230925050125](/zet/20230925050125/README.md) git scripting hub
 
