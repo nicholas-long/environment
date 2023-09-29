@@ -16,6 +16,7 @@ things that are finished.
 - [20221022000131](/zet/20221022000131/README.md) put tmux and vim rc config in dockerfile for testing zkvr
 - [20221105220915](/zet/20221105220915/README.md) add recurring timers using github cron actions
 - [20230925143506](/zet/20230925143506/README.md) searchsploit fuzzy search for exploits
+- [20230921220840](/zet/20230921220840/README.md) list of kb scripts that i could decide whether to copy over
 
 Tags:
 

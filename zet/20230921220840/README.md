@@ -276,7 +276,6 @@ find ~/kb -type f -executable
 # Related
 
 - [20230921220633](/zet/20230921220633/README.md) list of cool ideas i still want to implement in my environment
-- [20221008042814](/zet/20221008042814/README.md) WIP
 - [20230923065000](/zet/20230923065000/README.md) determining which scripts have kb references using grep
 - [20230906033259](/zet/20230906033259/README.md) functions to copy over and possibly remake as commands
 - [20230922214323](/zet/20230922214323/README.md) this environment
@@ -325,6 +324,7 @@ find ~/kb -type f -executable
 - [20230929054848](/zet/20230929054848/README.md) awk script to get column headings from the first line of CSV
 - [20230929055042](/zet/20230929055042/README.md) example of how to communicate between the network and a named pipe
 - [20230929055134](/zet/20230929055134/README.md) attempt to create script logs from tmux panes
+- [20221009095853](/zet/20221009095853/README.md) finished
 
 Tags:
 
