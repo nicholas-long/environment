@@ -9,7 +9,6 @@
 - [20221103162623](/zet/20221103162623/README.md) move zetcmd to wrapper CLI and remove fzf subcommands from CLI
 - [20221105220915](/zet/20221105220915/README.md) add recurring timers using github cron actions
 - [20221105224810](/zet/20221105224810/README.md) launch browser to current card on github
-- [20230905015028](/zet/20230905015028/README.md) dotfiles hub
 - [20230905021157](/zet/20230905021157/README.md) log of commands run to set up previous environment
 - [20230905212307](/zet/20230905212307/README.md) important things from install scripts
 - [20230905212316](/zet/20230905212316/README.md) low priority or optional things from install scripts

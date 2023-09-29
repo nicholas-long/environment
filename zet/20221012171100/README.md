@@ -11,7 +11,6 @@ zet/20221012171100/README.md
 # Related
 
 - [20221012144502](/zet/20221012144502/README.md) track modification dates
-- [20230925033312](/zet/20230925033312/README.md) bash current script directory
 - [20230925050125](/zet/20230925050125/README.md) git scripting hub
 - [20230925052317](/zet/20230925052317/README.md) wordlists for pentesting
 - [20230925054339](/zet/20230925054339/README.md) convert MSDS managed password structure to NTLM hash
