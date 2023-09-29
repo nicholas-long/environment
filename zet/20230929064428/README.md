@@ -19,6 +19,10 @@ find . -type f -executable | xargs file | grep 'awk script' | cut -d : -f 1 | xa
 
 # find example scripts that are updated to use gawk
 grep -R 'env.*gawk'
+
+# did the updates
+find . -type f -executable | xargs file | grep 'awk script' | cut -d : -f 1 | xargs grep 'BEGINFILE\|ENDFILE'
+# nothing returned
 ```
 
 ` zet/20230929064428/README.md `
