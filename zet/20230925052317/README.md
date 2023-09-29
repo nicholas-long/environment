@@ -13,6 +13,9 @@ cp /home/coyote/kb/wordlists/active_directory_brute /home/coyote/kb/wordlists/et
 
 /home/parallels/kb/hacking/passwords/generate-common-passwords.sh # generate common passwords
 cp /home/parallels/kb/hacking/passwords/generate-common-passwords.sh .
+
+/home/parallels/kb/hacking/tricks/python-fuzz-valid-dates.py # fuzz valid dates
+cp /home/parallels/kb/hacking/tricks/python-fuzz-valid-dates.py .
 ```
 
 ` zet/20230925052317/README.md `

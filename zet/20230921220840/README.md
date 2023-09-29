@@ -34,19 +34,10 @@ find ~/kb -type f -not -executable | grep -v '\.md$'
 # filtered list
 ```bash
 
-/home/coyote/kb/bash-scripting/get-wikipedia-info.sh # get headings from wikipedia page
-/home/parallels/kb/awk-scripting/user-interface-fzf.awk # testing a user interface in fzf from within awk
-/home/coyote/kb/awk-scripting/get-interface.awk # get your preferred networking interface to work with, tunnels first, then networks, and then lan
-/home/coyote/kb/hacking/tricks/python-fuzz-valid-dates.py # fuzz valid dates
-/home/coyote/kb/sed-scripting/httpd-conf-enable-cgi.sed # example sed script to edit httpd conf
 /home/parallels/kb/bash-scripting/get-random-unique-id.sh # get random hex unique ID bash
 /home/parallels/kb/bash-scripting/template.sh # parse args with case statement
 /home/parallels/kb/bash-scripting/generate-dates.sh # generate ISO format dates wordlists for the last few years
-/home/parallels/kb/bash-scripting/get-bash-lines-from-kb-snippets.sh # get bash lines from kb snippets
 /home/parallels/kb/awk-scripting/get-columns.awk # get column headings from first line of CSV
-/home/parallels/kb/awk-scripting/file-grep-multi-lines.awk # check output of grep and next line using awk "grep -A 1 -R '^# ' ."
-/home/parallels/kb/awk-scripting/start-service.awk # an attempt to select and start linux services from an fzf menu
-/home/parallels/kb/bash-scripting/get-current-notes-line-count.sh # attempt to get a line count of notes while ignoring certain file extensions
 /home/parallels/kb/linux/get-ip-tmux.sh # test tmux script to get IP? looks pretty bad
 /home/parallels/kb/linux/named-pipe-to-netcat.sh # example of how to communicate between the network and a named pipe
 /home/parallels/kb/linux/getip.sh # another script to get ip. isn't there enough of these?
@@ -142,6 +133,15 @@ find ~/kb -type f -not -executable | grep -v '\.md$'
 /home/parallels/kb/bash-scripting/what-installed-this-file.sh # find what apt package caused a particular specific file to be installed
 /home/parallels/kb/bash-scripting/get-current-ubuntu-distro.sh # return the most recently updated ubuntu distro
 /home/parallels/kb/bash-scripting/find-largest-files.sh # find the largest N files
+/home/coyote/kb/bash-scripting/get-wikipedia-info.sh # get headings from wikipedia page
+/home/parallels/kb/awk-scripting/user-interface-fzf.awk # testing a user interface in fzf from within awk
+/home/coyote/kb/awk-scripting/get-interface.awk # get your preferred networking interface to work with, tunnels first, then networks, and then lan
+/home/coyote/kb/hacking/tricks/python-fuzz-valid-dates.py # fuzz valid dates
+/home/parallels/kb/bash-scripting/get-bash-lines-from-kb-snippets.sh # get bash lines from kb snippets
+/home/parallels/kb/bash-scripting/get-current-notes-line-count.sh # attempt to get a line count of notes while ignoring certain file extensions
+/home/parallels/kb/awk-scripting/file-grep-multi-lines.awk # check output of grep and next line using awk "grep -A 1 -R '^# ' ."
+/home/parallels/kb/awk-scripting/start-service.awk # an attempt to select and start linux services from an fzf menu
+/home/coyote/kb/sed-scripting/httpd-conf-enable-cgi.sed # example sed script to edit httpd conf
 
 ```
 
@@ -315,6 +315,11 @@ find ~/kb -type f -executable
 - [20230928193803](/zet/20230928193803/README.md) find what apt package installed a particular specific file
 - [20230928220222](/zet/20230928220222/README.md) get the currently released ubuntu distro
 - [20230928220755](/zet/20230928220755/README.md) find the largest N files
+- [20230929022947](/zet/20230929022947/README.md) script to get headings from wikipedia page
+- [20230929023221](/zet/20230929023221/README.md) testing user interfaces in fzf
+- [20230929023608](/zet/20230929023608/README.md) script to get your preferred networking interface based on what is available
+- [20230929024225](/zet/20230929024225/README.md) meta note related scripts
+- [20230929024545](/zet/20230929024545/README.md) scripts for random linux tricks
 
 Tags:
 
