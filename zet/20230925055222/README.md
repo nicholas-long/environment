@@ -7,7 +7,6 @@
 ```markdown
 zet/20230916125222/README.md:- [ ] clean up scripts with relative path issues
 zet/20230922214602/README.md:- [ ] copy current fixes back up to zkvr
-zet/20230925001420/README.md:- [ ] fix get tags script because the API changed
 zet/20230927152827/extracted/sandbox/Formatting/Task.md:- [ ] tasks can be clicked in Preview to be checked off
 zet/20230927152827/extracted/sandbox/Formatting/Task.md:- [ ] tasks can be clicked in Preview to be checked off
 zet/20230927152827/extracted/sandbox/Formatting/Task.md:- [ ] this is an incomplete item
@@ -18,7 +17,6 @@ zet/20230927152827/README.md:- [ ] figure out why login doesn't work and return 
 zet/20230928133216/README.md:- [ ] test the new version
 - [20230916125222](/zet/20230916125222/README.md) tmux scripts directory #tmux #script #directory
 - [20230922214602](/zet/20230922214602/README.md) things i want to implement in zkvr after working on the environment #idea
-- [20230925001420](/zet/20230925001420/README.md) cool docker scripts to migrate #docker #script #shortcmd
 - [20230927152827](/zet/20230927152827/README.md) reverse engineering obsidian to create an obsidian sync cli tool #program #command #reveng #util
 - [20230928133216](/zet/20230928133216/README.md) scripts to work with burpsuite saved requests and automatically generate python code #script #hacking #http
 ```
