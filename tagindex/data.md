@@ -5,3 +5,4 @@
 - [20230928191955](/zet/20230928191955/README.md) get library dependency versions from composer.lock json file
 - [20230929022947](/zet/20230929022947/README.md) script to get headings from wikipedia page
 - [20230929053721](/zet/20230929053721/README.md) get random hex unique ID bash
+- [20230929145418](/zet/20230929145418/README.md) file based database for partitioning and event sourced data
