@@ -6,3 +6,4 @@
 - [20230929022947](/zet/20230929022947/README.md) script to get headings from wikipedia page
 - [20230929053721](/zet/20230929053721/README.md) get random hex unique ID bash
 - [20230929145418](/zet/20230929145418/README.md) file based database for partitioning and event sourced data
+- [20230929153242](/zet/20230929153242/README.md) natural language processing libraries

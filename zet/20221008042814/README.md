@@ -30,6 +30,7 @@ stuff i am working on.
 - [20230926224444](/zet/20230926224444/README.md) updating scripts to use gawk when possible
 - [20230929145418](/zet/20230929145418/README.md) file based database for partitioning and event sourced data
 - [20230929153207](/zet/20230929153207/README.md) computer science experiments hub
+- [20230929153242](/zet/20230929153242/README.md) natural language processing libraries
 
 Tags:
 
