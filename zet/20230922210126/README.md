@@ -108,6 +108,16 @@ ls zet | ./graphquery --human
 
 ```
 
+- todo issue
+```
+./tagindex/todo.md
+./zet/20221006032546/todo.md
+
+ls -al ./zet/20221006032546/todo.md
+find . -name '*.md'
+rm ./zet/20221006032546/todo.md
+```
+
 ` zet/20230922210126/README.md `
 
 # Related
