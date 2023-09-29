@@ -12,11 +12,14 @@
 
 ### useful hacking scripts
 
+- [20230928133216](/zet/20230928133216/README.md) scripts to work with burpsuite saved requests and automatically generate python code #script #hacking #http
 - [20230920022857](/zet/20230920022857/README.md) script to get linpeas to current directory #idea #shortcmd #hacking
 - [20230906035650](/zet/20230906035650/README.md) script to print reverse shell snippets #shortcmd
   - alphanumeric base64 optimization for bash reverse shells
-- [20230914030626](/zet/20230914030626/README.md) tmux pwn menu script for hacking reverse shells and file transfer commands
 - [20230923211501](/zet/20230923211501/README.md) get current CVE list as tsv #script #bash #awk
+- [20230928175625](/zet/20230928175625/README.md) ssh keygen automated expect script to generate a public and private key pair #shortcmd #hacking
+- [20230928185944](/zet/20230928185944/README.md) script to package up program and debian dependencies a tar to install on a remote target machine #idea #hacking #script #linux #program #apt
+- [20230914030626](/zet/20230914030626/README.md) tmux pwn menu script for hacking reverse shells and file transfer commands
 
 ### workflow optimizations
 
