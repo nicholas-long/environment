@@ -2,6 +2,7 @@
 
 - concept of `testing if shortcuts will work and not pick up extra files`
 - yes shortcuts brought in nested executables. that seems like unwanted behavior
+- confirmed that only one line was added now for the new short cmd
 
 ```bash
 # before
@@ -54,6 +55,7 @@ update-shortcuts
 watch-failed-ssh-logins-live-check-shodan.sh
 what-installed-this-file.sh
 
+# after fix
 ls shortcuts/
 check-script-dependencies
 copy-text-from-image-url.sh
@@ -82,8 +84,6 @@ getmyip_silent
 get-random-unique-id.sh
 github-latest-files
 impacket.sh
-ingest
-init
 linpeas-me
 markdown-get-nested-headings
 markdown-obsidian-link-files
@@ -96,7 +96,6 @@ revshell
 root-knowledge-base-repo-path
 runneo4j.sh
 scripts-dependencies
-search
 search-markdown
 space-invader
 ssh-keygen-generate-file.exp
@@ -106,6 +105,7 @@ unique-lines-unsorted-fast
 update-shortcuts
 watch-failed-ssh-logins-live-check-shodan.sh
 what-installed-this-file.sh
+
 ```
 
 ` zet/20230929194846/README.md `
