@@ -6,6 +6,7 @@ SCRIPT_DIR=$( cd -- "$( dirname -- "${BASH_SOURCE[0]}" )" &> /dev/null && pwd )
 #fi
 
 subcommand_dir="$SCRIPT_DIR/subcommands"
+export fsdb_prog="$0"
 
 subcommand="$1"
 shift

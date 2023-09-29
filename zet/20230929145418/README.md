@@ -24,7 +24,11 @@
 - i like that there's a basic set of ideas here to get a database working, and extra features like bloom filters and indexing things or looking things up by timestamps can be handled by a separate database
   - call something like `ingest_hook` in the database to pass in duplicate data if such a program exists
   - something like `search_hook` called before searches, can filter things out
-- use a subcommand implementation
+
+## subcommand implementation
+- subcommand directory
+- subcommands can call other commands
+  - name of original program is stored in env var `fsdb_prog`
 
 ## future ideas
 - cool future idea: join with another file or stream on a specific column
