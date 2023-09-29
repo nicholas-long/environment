@@ -1,9 +1,11 @@
 # cool docker scripts to migrate
 
 - concept of `cool docker scripts to migrate`
+- the script to get tags needed help fixing up docker API calls
+  - https://nickjanetakis.com/blog/using-dockers-v2-api-to-get-a-list-of-tags-with-the-help-of-jq
 - these are not done yet
 - [x] update and fix any relative paths or kb references
-- [ ] fix get tags script because the API changed
+- [x] fix get tags script because the API changed
 - renamed script to `docker-build-github-repo-image`
 - renamed tags script to `docker-get-tags`
 ```bash

@@ -1,6 +1,8 @@
 #!/bin/bash
 
-# TODO: this script is no longer supported, and the API has changed.
-echo "TODO: this script is no longer supported, and the API has changed."
+# fixed with https://nickjanetakis.com/blog/using-dockers-v2-api-to-get-a-list-of-tags-with-the-help-of-jq
 rep=$1
-curl "https://registry.hub.docker.com/v1/repositories/$rep/tags" 2>/dev/null | jq -r '.[].name'
+
+curl --silent \
+    "https://registry.hub.docker.com/v2/repositories/library/${rep}/tags?page_size=1000" \
+    | jq -r ".results[].name" | sort --version-sort
