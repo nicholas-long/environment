@@ -1,6 +1,8 @@
 # testing on mac os
 
 ## resolved issues
+- [20230905160850](/zet/20230905160850/README.md) directory for executable short commands to run on path
+  - trying to avoid using graphquery to build this because it might be hard to get it working
 - if running on a mac, it is recommended to install homebrew first
   - issues trying to run homebrew as root? edit script to use no sudo for brew
 - bat can be installed with brew
@@ -44,18 +46,17 @@
 - default terminal fonts don't support the arrow symbols required to draw the tmux hotbar
 - `$EDITOR` is still not defined from within tmux - why?
 - could try changing relevant zkvr commands to gawk instead of awk?
+  - awk on mac os does not support `BEGINFILE`. i will need to search for this and use gawk instead.
   - have to use `#!/usr/bin/env gawk -f`
-- [20230905160850](/zet/20230905160850/README.md) directory for executable short commands to run on path
-  - trying to avoid using graphquery to build this because it might be hard to get it working
-- mac os is missing the `ip` command. seriously? this means scripts that get my ip will definitely not work. it should be added to dependencies.
+  - [20230929064428](/zet/20230929064428/README.md) script to check for beginfile usage
+- mac os is missing the `ip` command. this means scripts that get my ip will definitely not work.
   - https://command-not-found.com/ip
-  - [x] add iproute2 to dependencies. that doesn't fix it on mac os though, but maybe on some dockers.
-  - there is not a version of ip for mac os?
-- awk on mac os does not support `BEGINFILE`. i will need to search for this and use gawk instead.
+  - [x] add iproute2 to dependencies. that doesn't fix it on mac os though, but maybe on some dockers. there is not a version of ip for mac os?
 
 ## zkvr-specific issues on mac os
 - zkvr scripts should be updated to use gawk instead of awk
   - [20230926224444](/zet/20230926224444/README.md) updating scripts to use gawk when possible
+  - [20230929064428](/zet/20230929064428/README.md) script to check for beginfile usage
 - linking documents was initially broken, but seems to be working now after changing one problem script to gawk
   - the particular script that was fixed on the mac is called `parseids`
 - navigation and editing documents work
@@ -92,6 +93,7 @@
 - [20230926234809](/zet/20230926234809/README.md) a non-platform-specific find command script for executable files
 - [20230927001343](/zet/20230927001343/README.md) places to update find command to use new executable version in order to be compatible on mac
 - [20230927033258](/zet/20230927033258/README.md) debugging the markdown script on mac os
+- [20230929064428](/zet/20230929064428/README.md) script to check for beginfile usage
 
 Tags:
 
