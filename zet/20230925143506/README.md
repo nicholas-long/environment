@@ -18,7 +18,6 @@ zet/20230925143506/exploit-fuzzy-search references executable file exploit-fuzzy
 # Related
 
 - [20230916125222](/zet/20230916125222/README.md) tmux scripts directory
-- [20221012171100](/zet/20221012171100/README.md) recently created nodes hub
 - [20230925033312](/zet/20230925033312/README.md) bash current script directory
 - [20221009095853](/zet/20221009095853/README.md) finished
 

@@ -11,7 +11,6 @@ zet/20221012171100/README.md
 # Related
 
 - [20221012144502](/zet/20221012144502/README.md) track modification dates
-- [20230925143506](/zet/20230925143506/README.md) searchsploit fuzzy search for exploits
 - [20230925180416](/zet/20230925180416/README.md) print md5 of every line in a password wordlist
 - [20230925180815](/zet/20230925180815/README.md) password scripts hub
 - [20230925193834](/zet/20230925193834/README.md) testing on mac os
