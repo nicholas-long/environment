@@ -19,6 +19,7 @@
 - [20230928133216](/zet/20230928133216/README.md) scripts to work with burpsuite saved requests and automatically generate python code
 - [20230928175625](/zet/20230928175625/README.md) ssh keygen automated expect script to generate a public and private key pair
 - [20230928185944](/zet/20230928185944/README.md) script to package up program and debian dependencies a tar to install on a remote target machine
+- [20230929023608](/zet/20230929023608/README.md) script to get your preferred networking interface based on what is available
 
 Tags:
 

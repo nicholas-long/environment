@@ -1,1 +1,2 @@
 - [20230906033727](/zet/20230906033727/README.md) commands to get ip
+- [20230929023608](/zet/20230929023608/README.md) script to get your preferred networking interface based on what is available

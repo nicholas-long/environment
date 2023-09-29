@@ -11,8 +11,6 @@ zet/20221012171100/README.md
 # Related
 
 - [20221012144502](/zet/20221012144502/README.md) track modification dates
-- [20230924221605](/zet/20230924221605/README.md) script to get nested markdown headings for keyword searching
-- [20230924224635](/zet/20230924224635/README.md) scripts to get nmap information
 - [20230925001420](/zet/20230925001420/README.md) cool docker scripts to migrate
 - [20230925024118](/zet/20230925024118/README.md) script to display information about other scripts and their dependencies
 - [20230925033312](/zet/20230925033312/README.md) bash current script directory
@@ -55,6 +53,11 @@ zet/20221012171100/README.md
 - [20230928193803](/zet/20230928193803/README.md) find what apt package installed a particular specific file
 - [20230928220222](/zet/20230928220222/README.md) get the currently released ubuntu distro
 - [20230928220755](/zet/20230928220755/README.md) find the largest N files
+- [20230929022947](/zet/20230929022947/README.md) script to get headings from wikipedia page
+- [20230929023221](/zet/20230929023221/README.md) testing user interfaces in fzf
+- [20230929023608](/zet/20230929023608/README.md) script to get your preferred networking interface based on what is available
+- [20230929024225](/zet/20230929024225/README.md) meta note related scripts
+- [20230929024545](/zet/20230929024545/README.md) scripts for linux tricks
 
 Tags:
 

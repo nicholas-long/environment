@@ -1,2 +1,3 @@
 - [20221006213953](/zet/20221006213953/README.md) video notes
 - [20221031092923](/zet/20221031092923/README.md) template for video notes
+- [20230929024225](/zet/20230929024225/README.md) meta note related scripts

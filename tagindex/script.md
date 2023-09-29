@@ -43,3 +43,6 @@
 - [20230928191243](/zet/20230928191243/README.md) privesc scripts and lists
 - [20230928193054](/zet/20230928193054/README.md) docker reverse shell testing project
 - [20230928220755](/zet/20230928220755/README.md) find the largest N files
+- [20230929022947](/zet/20230929022947/README.md) script to get headings from wikipedia page
+- [20230929023221](/zet/20230929023221/README.md) testing user interfaces in fzf
+- [20230929023608](/zet/20230929023608/README.md) script to get your preferred networking interface based on what is available

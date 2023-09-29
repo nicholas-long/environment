@@ -59,7 +59,6 @@ grep -R '^## ' ~/kb
 
 - [20230921220840](/zet/20230921220840/README.md) list of kb scripts that i could decide whether to copy over
 - [20230912192810](/zet/20230912192810/README.md) script to search zk markdown in command line
-- [20221012171100](/zet/20221012171100/README.md) recently created nodes hub
 - [20230928171946](/zet/20230928171946/README.md) data analysis scripting hub
 - [20230928174503](/zet/20230928174503/README.md) script to automatically generate headings and markdown for displaying code files as snippets
 - [20230928185603](/zet/20230928185603/README.md) script to print the content of markdown text within the heading level of a particular line

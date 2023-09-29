@@ -1,3 +1,4 @@
 - [20221008063052](/zet/20221008063052/README.md) autorunning scripts in cards
 - [20221026064448](/zet/20221026064448/README.md) check syntax of dash lists for tabstop 4
 - [20230928193054](/zet/20230928193054/README.md) docker reverse shell testing project
+- [20230929023221](/zet/20230929023221/README.md) testing user interfaces in fzf

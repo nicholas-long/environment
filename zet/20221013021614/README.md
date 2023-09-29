@@ -80,6 +80,7 @@ zet/20221013021614/getcopycontent zet/20221013021614/README.md
 - [20230926224444](/zet/20230926224444/README.md) updating scripts to use gawk when possible
 - [20230922214602](/zet/20230922214602/README.md) things i want to implement in zkvr after working on the environment
 - [20230928184621](/zet/20230928184621/README.md) markdown helper scripts
+- [20230929023221](/zet/20230929023221/README.md) testing user interfaces in fzf
 
 Tags:
 
