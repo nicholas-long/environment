@@ -23,7 +23,6 @@ $ cat managed_password | awk '{ printf("%.2x", $1) }' > managed_password.hex
 # Related
 
 - [20230921220840](/zet/20230921220840/README.md) list of kb scripts that i could decide whether to copy over
-- [20221008042814](/zet/20221008042814/README.md) WIP
 - [20221012171100](/zet/20221012171100/README.md) recently created nodes hub
 - [20230925180815](/zet/20230925180815/README.md) password scripts hub
 
