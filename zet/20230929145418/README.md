@@ -22,6 +22,7 @@
   - recompress - maybe: rewrite all compressed streams as continuous gzip streams to optimize space?
 - data is stored in partition files named after the _last_ 3 characters of the ID
   - so if you use it with sequential IDs, it will partition reasonably
+- bloom filter https://github.com/nicholas-long/bfbf
 
 ### issues with bloom filter optimization
 - this feature doesn't really fit very many applications?

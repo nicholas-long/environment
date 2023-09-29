@@ -1,0 +1,22 @@
+#!/usr/bin/env python3
+
+from pattern.en import parse
+import fileinput
+
+# for some reason i have to run it twice before it works?
+try:
+    parse("test", relations=True)
+except:
+    pass
+try:
+    parse("test", relations=True)
+except:
+    pass
+
+for rawline in fileinput.input():
+    try:
+        rawline = rawline.rstrip("\n")
+        output = parse(rawline, relations=True)
+        print(output)
+    except:
+        print("ERROR")
