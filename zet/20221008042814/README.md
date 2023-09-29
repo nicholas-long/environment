@@ -28,6 +28,7 @@ stuff i am working on.
 - [20230925050125](/zet/20230925050125/README.md) git scripting hub
 - [20230927152827](/zet/20230927152827/README.md) reverse engineering obsidian to create an obsidian sync cli tool
 - [20230926224444](/zet/20230926224444/README.md) updating scripts to use gawk when possible
+- [20230929145418](/zet/20230929145418/README.md) file based database for partitioning and event sourced data
 
 Tags:
 

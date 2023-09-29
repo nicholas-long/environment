@@ -11,10 +11,6 @@ zet/20221012171100/README.md
 # Related
 
 - [20221012144502](/zet/20221012144502/README.md) track modification dates
-- [20230925050125](/zet/20230925050125/README.md) git scripting hub
-- [20230925052317](/zet/20230925052317/README.md) wordlists for pentesting
-- [20230925054339](/zet/20230925054339/README.md) convert MSDS managed password structure to NTLM hash
-- [20230925055222](/zet/20230925055222/README.md) list of unfinished todo items
 - [20230925143506](/zet/20230925143506/README.md) searchsploit fuzzy search for exploits
 - [20230925180416](/zet/20230925180416/README.md) print md5 of every line in a password wordlist
 - [20230925180815](/zet/20230925180815/README.md) password scripts hub
@@ -61,6 +57,7 @@ zet/20221012171100/README.md
 - [20230929055042](/zet/20230929055042/README.md) example of how to communicate between the network and a named pipe
 - [20230929055134](/zet/20230929055134/README.md) attempt to create script logs from tmux panes
 - [20230929064428](/zet/20230929064428/README.md) script to check for BEGINFILE usage in awk scripts requiring change to gawk
+- [20230929145418](/zet/20230929145418/README.md) file based database for partitioning and event sourced data
 
 Tags:
 

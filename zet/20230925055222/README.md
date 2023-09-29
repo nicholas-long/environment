@@ -15,9 +15,11 @@ zet/20230927152827/old-notes-from-obsidian.md:  - [ ] could be that the password
 zet/20230927152827/old-notes-from-obsidian.md:  - [ ] could it be that the user agent or something has to be right?
 zet/20230927152827/README.md:- [ ] figure out why login doesn't work and return a token
 zet/20230928133216/README.md:- [ ] test the new version
+zet/20230929145418/README.md:- [ ] link to this in notes
 - [20230925193834](/zet/20230925193834/README.md) testing on mac os #idea
 - [20230927152827](/zet/20230927152827/README.md) reverse engineering obsidian to create an obsidian sync cli tool #program #command #reveng #util
 - [20230928133216](/zet/20230928133216/README.md) scripts to work with burpsuite saved requests and automatically generate python code #script #hacking #http
+- [20230929145418](/zet/20230929145418/README.md) file based database for partitioning and event sourced data #idea
 ```
 
 - where can i find snippets?
@@ -33,7 +35,6 @@ zet/20230928133216/README.md:- [ ] test the new version
 
 - [20221008042814](/zet/20221008042814/README.md) WIP
 - [20221008063052](/zet/20221008063052/README.md) autorunning scripts in cards
-- [20221012171100](/zet/20221012171100/README.md) recently created nodes hub
 - [20221009192000](/zet/20221009192000/README.md) stuff to put on main page
 
 Tags:

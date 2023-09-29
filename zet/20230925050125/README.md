@@ -42,7 +42,6 @@ zet/20230925050125/pull-all-git-repos.sh references executable file git-enum-rep
 - [20230921220840](/zet/20230921220840/README.md) list of kb scripts that i could decide whether to copy over
 - [20230925024118](/zet/20230925024118/README.md) script to display information about other scripts and their dependencies
 - [20221008042814](/zet/20221008042814/README.md) WIP
-- [20221012171100](/zet/20221012171100/README.md) recently created nodes hub
 - [20230929054003](/zet/20230929054003/README.md) bash scripting simple program template parsing arguments with case statement
 
 Tags:
