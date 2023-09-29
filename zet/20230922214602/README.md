@@ -3,13 +3,18 @@
 - [x] fuzzy file search for opening and editing multiple files, any files in any directory
 - [x] copy current fixes back up to zkvr
   - 2023-09-29 copied in
+- [ ] should copy up find executable command - id 20230926234809
 
+- commands run and work on copying stuff over
 ```bash
 for zkvrid in $(ls ~/zkvr/zet); do
   echo "doing id $zkvrid"
   cp -r zet/$zkvrid/* ~/zkvr/zet/$zkvrid/
 done
 
+find . -name find-executable
+zet/20230926234809/find-executable
+cp -r zet/20230926234809 ~/zkvr/zet/
 ```
 
 ` zet/20230922214602/README.md `
