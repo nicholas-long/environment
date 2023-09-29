@@ -79,7 +79,6 @@ got file /dev/fd/62
 
 - [20221011181347](/zet/20221011181347/README.md) hacking notes template 1 #notes
 - [20221009192000](/zet/20221009192000/README.md) stuff to put on main page #meta
-- [20221008042814](/zet/20221008042814/README.md) WIP #todo
 
 - [20221011181347](/zet/20221011181347/README.md) hacking notes template 1 #notes
 - [20221009192000](/zet/20221009192000/README.md) stuff to put on main page #meta
@@ -234,7 +233,6 @@ zet/20221023085822/walkquery --human --path id 20221011181347 refs not <( echo 2
 # Related
 
 - [20221013221136](/zet/20221013221136/README.md) graph query language for zettelkasten
-- [20221008042814](/zet/20221008042814/README.md) WIP
 - [20221024215216](/zet/20221024215216/README.md) future enhancements to graph query language
 - [20230922210126](/zet/20230922210126/README.md) cards i can clean up
 

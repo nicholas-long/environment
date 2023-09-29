@@ -67,7 +67,6 @@ zet/20221013021614/getcopycontent zet/20221013021614/README.md
 # Related
 
 - [20221006032546](/zet/20221006032546/README.md) my original implementation of zet cmd
-- [20221008042814](/zet/20221008042814/README.md) WIP
 - [20221028172836](/zet/20221028172836/README.md) old dockerfile for testing zkvr with vim and tmux config
 - [20221009192000](/zet/20221009192000/README.md) stuff to put on main page
 - [20221025024238](/zet/20221025024238/README.md) enumerate tags
