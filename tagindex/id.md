@@ -1,0 +1,1 @@
+- [20230929053721](/zet/20230929053721/README.md) get random hex unique ID bash

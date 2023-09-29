@@ -46,3 +46,6 @@
 - [20230929022947](/zet/20230929022947/README.md) script to get headings from wikipedia page
 - [20230929023221](/zet/20230929023221/README.md) testing user interfaces in fzf
 - [20230929023608](/zet/20230929023608/README.md) script to get your preferred networking interface based on what is available
+- [20230929024545](/zet/20230929024545/README.md) scripts for linux tricks
+- [20230929053721](/zet/20230929053721/README.md) get random hex unique ID bash
+- [20230929054003](/zet/20230929054003/README.md) bash scripting simple program template parsing arguments with case statement

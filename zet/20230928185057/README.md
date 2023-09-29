@@ -35,6 +35,7 @@ cp /home/parallels/kb/bash-scripting/self-parsing-code-function-names.sh .
 
 - [20230921220840](/zet/20230921220840/README.md) list of kb scripts that i could decide whether to copy over
 - [20221012171100](/zet/20221012171100/README.md) recently created nodes hub
+- [20230929054003](/zet/20230929054003/README.md) bash scripting simple program template parsing arguments with case statement
 
 Tags:
 

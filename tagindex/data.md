@@ -4,3 +4,4 @@
 - [20230928185603](/zet/20230928185603/README.md) script to print the content of markdown text within the heading level of a particular line
 - [20230928191955](/zet/20230928191955/README.md) get library dependency versions from composer.lock json file
 - [20230929022947](/zet/20230929022947/README.md) script to get headings from wikipedia page
+- [20230929053721](/zet/20230929053721/README.md) get random hex unique ID bash

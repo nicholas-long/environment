@@ -33,4 +33,5 @@
 - [20230928192818](/zet/20230928192818/README.md) micro environment scripts needed to get programs working
 - [20230928220222](/zet/20230928220222/README.md) get the currently released ubuntu distro
 - [20230929024225](/zet/20230929024225/README.md) meta note related scripts
-- [20230929024545](/zet/20230929024545/README.md) scripts for linux tricks
+- [20230929055042](/zet/20230929055042/README.md) example of how to communicate between the network and a named pipe
+- [20230929055134](/zet/20230929055134/README.md) attempt to create script logs from tmux panes

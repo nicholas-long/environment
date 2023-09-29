@@ -60,6 +60,7 @@ cp /home/parallels/kb/bash-scripting/template.sh .
 - [20230921220840](/zet/20230921220840/README.md) list of kb scripts that i could decide whether to copy over
 - [20230925050125](/zet/20230925050125/README.md) git scripting hub
 - [20230928185057](/zet/20230928185057/README.md) bash self parsing code
+- [20221012171100](/zet/20221012171100/README.md) recently created nodes hub
 
 Tags:
 

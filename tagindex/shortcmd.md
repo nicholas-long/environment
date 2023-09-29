@@ -22,3 +22,5 @@
 - [20230928175625](/zet/20230928175625/README.md) ssh keygen automated expect script to generate a public and private key pair
 - [20230928193803](/zet/20230928193803/README.md) find what apt package installed a particular specific file
 - [20230928220755](/zet/20230928220755/README.md) find the largest N files
+- [20230929053721](/zet/20230929053721/README.md) get random hex unique ID bash
+- [20230929054848](/zet/20230929054848/README.md) awk script to get column headings from the first line of CSV

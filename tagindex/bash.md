@@ -14,3 +14,5 @@
 - [20230925033312](/zet/20230925033312/README.md) bash current script directory
 - [20230926234809](/zet/20230926234809/README.md) a non-platform-specific find command script for executable files
 - [20230928173645](/zet/20230928173645/README.md) live ssh perimeter defense script with colorized login attempts and shodan lookup
+- [20230929053721](/zet/20230929053721/README.md) get random hex unique ID bash
+- [20230929054003](/zet/20230929054003/README.md) bash scripting simple program template parsing arguments with case statement

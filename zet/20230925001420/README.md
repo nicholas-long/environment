@@ -49,7 +49,6 @@ zet/20230925001420/ubuntu-docker-build-environment.sh references executable file
 - [20221022000131](/zet/20221022000131/README.md) put tmux and vim rc config in dockerfile for testing zkvr
 - [20221028172836](/zet/20221028172836/README.md) old dockerfile for testing zkvr with vim and tmux config
 - [20230922220109](/zet/20230922220109/README.md) create a dockerfile for this environment
-- [20221012171100](/zet/20221012171100/README.md) recently created nodes hub
 - [20230925024118](/zet/20230925024118/README.md) script to display information about other scripts and their dependencies
 - [20230921220633](/zet/20230921220633/README.md) list of cool ideas i still want to implement in my environment
 - [20230928164014](/zet/20230928164014/README.md) dockerfile templates
