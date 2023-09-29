@@ -1,0 +1,25 @@
+#!/bin/bash
+
+SCRIPT_DIR=$( cd -- "$( dirname -- "${BASH_SOURCE[0]}" )" &> /dev/null && pwd )
+# if it's a symlink then we have to follow it to find subcommands
+#if [ -L $0 ]; then # how to do this
+#fi
+
+subcommand_dir="$SCRIPT_DIR/subcommands"
+
+subcommand="$1"
+shift
+if [ -z "$subcommand" ]; then
+  subcommand="--help"
+elif [[ "$subcommand" == "-h" ]]; then
+  subcommand="--help"
+fi
+
+if [[ "$subcommand" == "--help" ]]; then
+  echo "Usage: $0 [ subcommand ] ..."
+  echo "Subcommand Options:"
+  ls "$subcommand_dir"
+  exit 1
+else
+  "$subcommand_dir/$subcommand" "$@"
+fi

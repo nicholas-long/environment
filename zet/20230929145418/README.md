@@ -3,7 +3,7 @@
 - concept of `file based database for partitioning and event sourced data`
   - like a local file storage version of a kafka database
 
-##  how data is stored
+## how data is stored
 - the first field of the data is regarded as an ID
 - data stored as TSV or CSV in two partition files:
   - a compressed file holds all existing data
@@ -12,25 +12,30 @@
 
 ## developing ideas
 - can test compressing files when things are running by writing a python script to keep file(s) open for testing
-- [ ] link to this in notes
-- features / subcommands needed for database
+- [x] link to this in notes
+- basic set of features / subcommands needed for database
   - initialize and set up number of partitions
-  - search (one or many, searching many can be more efficient)
-    - optimization: check if an ID exists in the database or not, using a bloom filter
+  - search for one ID or multiple
   - ingest data - pipe it into standard input and an awk script will put it where it belongs
   - compress - called from cron to compress text files and append to gzip streams together
-  - recompress - maybe: rewrite all compressed streams as continuous gzip streams to optimize space?
 - data is stored in partition files named after the _last_ 3 characters of the ID
   - so if you use it with sequential IDs, it will partition reasonably
 - bloom filter https://github.com/nicholas-long/bfbf
+- i like that there's a basic set of ideas here to get a database working, and extra features like bloom filters and indexing things or looking things up by timestamps can be handled by a separate database
+  - call something like `ingest_hook` in the database to pass in duplicate data if such a program exists
+  - something like `search_hook` called before searches, can filter things out
+- use a subcommand implementation
+
+## future ideas
+- cool future idea: join with another file or stream on a specific column
+- future optimization: check if an ID exists in the database or not, using a bloom filter.
+- future optimization: searching many can be more efficient if you can pair them up.
+- future: recompress - maybe: rewrite all compressed streams as continuous gzip streams to optimize space?
 
 ### issues with bloom filter optimization
 - this feature doesn't really fit very many applications?
 - if i support string bloom filters, then IDs that are all hex might not be as efficient
   - but various sizes of hex will require different hashing optimization code
-
-## future ideas
-- cool future idea: join with another file or stream on a specific column
 
 ```
 ```
