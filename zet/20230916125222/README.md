@@ -3,7 +3,10 @@
 - https://github.com/nicholas-long/pen-test-environ/tree/main/tmux-scripts
 - [x] first figure out if there are any tmux scripts i actually want to preserve
 - some of these things should have actually been bash aliases instead of tmux hotkeys. there's not a lot of advantage to a tmux hotkey over a bash alias except if you are in the middle of doing something?
-- [ ] clean up scripts with relative path issues
+- [x] clean up scripts with relative path issues
+  - i fixed up references in `search-fzf-sploit.sh`. it is now identical to [20230925143506](/zet/20230925143506/README.md) searchsploit fuzzy search for exploits
+- old hierarchy of UI `menu -> kb.sh -> searchmarkdown.sh`
+- github exploit search shouldn't be used because it is out of date
 
 - scripts with relative path issues
 ```bash
@@ -37,32 +40,30 @@ zet/20230916125222/searchmarkdown.sh:  xargs awk -f ~/kb/awk-scripting/get-headi
 
 # checking dependencies using script
 zet/20230925024118/scripts-dependencies zet/20230916125222
-zet/20230916125222/run-github-exploit-index.sh references tmux-scripts
-> repo=$(~/tmux-scripts/github-exploit-code-repository-index/browse.sh)
-zet/20230916125222/exploit-search-init.sh references tmux-scripts
->   ~/tmux-scripts/run-github-exploit-index.sh
-zet/20230916125222/exploit-search-init.sh references executable file run-github-exploit-index.sh
->   ~/tmux-scripts/run-github-exploit-index.sh
-zet/20230916125222/exploit-search-init.sh references tmux-scripts
->   ~/tmux-scripts/search-fzf-sploit.sh
-zet/20230916125222/exploit-search-init.sh references executable file search-fzf-sploit.sh
->   ~/tmux-scripts/search-fzf-sploit.sh
-zet/20230916125222/kb.sh references executable file searchmarkdown.sh
-> $SCRIPT_DIR/searchmarkdown.sh -q '^# ' -p "$KB_DIR"
+zet/20230916125222/search-fzf-sploit.sh references tmux-scripts
+> choice=$($HOME/tmux-scripts/parse-searchsploit-csv.sh | fzf --no-hscroll -d ':' --with-nth=2 --preview="$HOME/tmux-scripts/preview.sh {}")
+zet/20230916125222/search-fzf-sploit.sh references executable file preview.sh
+> choice=$($HOME/tmux-scripts/parse-searchsploit-csv.sh | fzf --no-hscroll -d ':' --with-nth=2 --preview="$HOME/tmux-scripts/preview.sh {}")
+
+# unimportant
+zet/20230916125222/searchmarkdown.sh references kb
+>   awk -v "line=$line" -f ~/kb/awk-scripting/print-markdown-content-nested-in-heading.awk "$file" | bat --language=md --paging=never --style=plain --color=always
+zet/20230916125222/searchmarkdown.sh references executable file print-markdown-content-nested-in-heading.awk
+>   awk -v "line=$line" -f ~/kb/awk-scripting/print-markdown-content-nested-in-heading.awk "$file" | bat --language=md --paging=never --style=plain --color=always
+zet/20230916125222/searchmarkdown.sh references kb
+>     awk -v "line=$line" -f ~/kb/awk-scripting/print-markdown-content-nested-in-heading.awk "$file" | tmux loadb -
+zet/20230916125222/searchmarkdown.sh references executable file print-markdown-content-nested-in-heading.awk
+>     awk -v "line=$line" -f ~/kb/awk-scripting/print-markdown-content-nested-in-heading.awk "$file" | tmux loadb -
+zet/20230916125222/searchmarkdown.sh references kb
+>   xargs awk -f ~/kb/awk-scripting/get-headings.awk | \
 zet/20230916125222/menu.sh references executable file kb.sh
 >   echo "Knowledge base search:$SCRIPT_DIR/kb.sh"
-zet/20230916125222/menu.sh references executable file exploit-search-init.sh
->   echo "Exploit search:$SCRIPT_DIR/exploit-search-init.sh"
 zet/20230916125222/menu.sh references executable file tmux-pwn-menu
 >   echo "Reverse shell kit:$SCRIPT_DIR/tmux-pwn-menu/tmux-pwn-menu.py"
 zet/20230916125222/menu.sh references executable file recent-files.sh
 >   echo "Copy file path to tmux:$SCRIPT_DIR/recent-files.sh"
-zet/20230916125222/searchmarkdown.sh references kb
->   awk -v "line=$line" -f ~/kb/awk-scripting/print-markdown-content-nested-in-heading.awk "$file" | bat --language=md --paging=never --style=plain --color=always
-zet/20230916125222/searchmarkdown.sh references kb
->     awk -v "line=$line" -f ~/kb/awk-scripting/print-markdown-content-nested-in-heading.awk "$file" | tmux loadb -
-zet/20230916125222/searchmarkdown.sh references kb
->   xargs awk -f ~/kb/awk-scripting/get-headings.awk | \
+zet/20230916125222/kb.sh references executable file searchmarkdown.sh
+> $SCRIPT_DIR/searchmarkdown.sh -q '^# ' -p "$KB_DIR"
 
 ```
 
