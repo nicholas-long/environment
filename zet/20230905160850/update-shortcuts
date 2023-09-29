@@ -12,9 +12,14 @@ done
 # loop over all the zet IDs that have tag shortcmd and enumerate all executable files and filenames
 grep -R '#shortcmd' zet | awk '/:    / { print }' | cut -d / -f 2 | sort -u | while read id; do
   # find executable files
-  zet/20230926234809/find-executable zet/$id -type f | grep -v autoexec_enrich | while read filepath; do
-    shortcutname=$(basename $filepath)
-    ln -s $(realpath $filepath) shortcuts/$shortcutname
-    echo $shortcutname $filepath
-  done
+  zet/20230926234809/find-executable zet/$id -type f | \
+    awk -F / '
+      NF != 3 { next } #only want files like zet/1234/whatever
+      /autoexec_enrich/ { next } #skip autoexec
+      {print}
+    ' | while read filepath; do
+      shortcutname=$(basename $filepath)
+      ln -s $(realpath $filepath) shortcuts/$shortcutname
+      echo $shortcutname $filepath
+    done
 done
