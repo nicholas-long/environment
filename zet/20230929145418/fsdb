@@ -2,10 +2,13 @@
 
 SCRIPT_DIR=$( cd -- "$( dirname -- "${BASH_SOURCE[0]}" )" &> /dev/null && pwd )
 # if it's a symlink then we have to follow it to find subcommands
-#if [ -L $0 ]; then # how to do this
-#fi
+if [ -L "$0" ]; then
+  realdir=$(dirname $(realpath "$0") )
+  subcommand_dir="$realdir/subcommands"
+else
+  subcommand_dir="$SCRIPT_DIR/subcommands"
+fi
 
-subcommand_dir="$SCRIPT_DIR/subcommands"
 export fsdb_prog="$0"
 
 subcommand="$1"
