@@ -5,6 +5,7 @@
 - fzf and stuff will be installed at this point, but the shortcuts might not be
   - refer to the github script by full path
 - errors installing fff with makefile, but there's a brew package for it too
+- this now will attempt to install the correct version using lscpu and awk and github bash scripts
 
 ```
 zet/20230905030303/github-latest-files https://github.com/sharkdp/bat
