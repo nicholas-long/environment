@@ -3,7 +3,8 @@
 - root directory
 - data - data directory
   - files for each partition: newest additions file and the gzipped version
-- .dbconfig - file to source for database settings
+- hooks directory
+- .fsdbconfig - file to source for database settings
 
 ## how data is stored
 - the first field of the data is regarded as an ID
