@@ -4,7 +4,7 @@
 if which brew >/dev/null ; then
   installprog="brew install"
 elif which apt-get >/dev/null ; then
-  installprog="sudo apt-get install"
+  installprog="sudo apt-get install -y"
 fi
 echo $installprog
 
