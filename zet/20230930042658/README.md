@@ -74,6 +74,7 @@ NR % 100000 == 0 {
 
 - [20230930041146](/zet/20230930041146/README.md) fsdb developing ideas
 - [20230929145418](/zet/20230929145418/README.md) fsdb project - file based database for partitioning and event sourced data
+- [20221012171100](/zet/20221012171100/README.md) recently created nodes hub
 
 Tags:
 

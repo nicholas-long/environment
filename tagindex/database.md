@@ -1,3 +1,3 @@
-- [20230929145418](/zet/20230929145418/README.md) file based database for partitioning and event sourced data
+- [20230929145418](/zet/20230929145418/README.md) fsdb project - file based database for partitioning and event sourced data
 - [20230930040657](/zet/20230930040657/README.md) fsdb file structure
 - [20230930041146](/zet/20230930041146/README.md) fsdb developing ideas

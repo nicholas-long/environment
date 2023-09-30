@@ -39,3 +39,4 @@
 - [20230929194846](/zet/20230929194846/README.md) testing if shortcuts will work and not pick up extra files
 - [20230930041018](/zet/20230930041018/README.md) fsdb future ideas
 - [20230930041146](/zet/20230930041146/README.md) fsdb developing ideas
+- [20230930042658](/zet/20230930042658/README.md) fsdb ingest subcommand notes

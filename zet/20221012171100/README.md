@@ -53,13 +53,14 @@ zet/20221012171100/README.md
 - [20230929055042](/zet/20230929055042/README.md) example of how to communicate between the network and a named pipe
 - [20230929055134](/zet/20230929055134/README.md) attempt to create script logs from tmux panes
 - [20230929064428](/zet/20230929064428/README.md) script to check for BEGINFILE usage in awk scripts requiring change to gawk
-- [20230929145418](/zet/20230929145418/README.md) file based database for partitioning and event sourced data
+- [20230929145418](/zet/20230929145418/README.md) fsdb project - file based database for partitioning and event sourced data
 - [20230929153207](/zet/20230929153207/README.md) computer science experiments hub
 - [20230929153242](/zet/20230929153242/README.md) natural language processing libraries
 - [20230929194846](/zet/20230929194846/README.md) testing if shortcuts will work and not pick up extra files
 - [20230930040657](/zet/20230930040657/README.md) fsdb file structure
 - [20230930041018](/zet/20230930041018/README.md) fsdb future ideas
 - [20230930041146](/zet/20230930041146/README.md) fsdb developing ideas
+- [20230930042658](/zet/20230930042658/README.md) fsdb ingest subcommand notes
 
 Tags:
 

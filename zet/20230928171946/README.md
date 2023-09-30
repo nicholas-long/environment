@@ -16,7 +16,7 @@
 - [20221012171100](/zet/20221012171100/README.md) recently created nodes hub
 - [20230928173645](/zet/20230928173645/README.md) live ssh perimeter defense script with colorized login attempts and shodan lookup
 - [20230928191955](/zet/20230928191955/README.md) get library dependency versions from composer.lock json file
-- [20230929145418](/zet/20230929145418/README.md) file based database for partitioning and event sourced data
+- [20230929145418](/zet/20230929145418/README.md) fsdb project - file based database for partitioning and event sourced data
 
 Tags:
 
