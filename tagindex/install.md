@@ -2,3 +2,4 @@
 - [20230916132320](/zet/20230916132320/README.md) script to get platform install command
 - [20230922051930](/zet/20230922051930/README.md) lazygit interactive install script
 - [20230929024545](/zet/20230929024545/README.md) scripts for linux tricks
+- [20230930145814](/zet/20230930145814/README.md) determining cpu version for install

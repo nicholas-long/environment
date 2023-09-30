@@ -51,3 +51,4 @@
 - [20230929054003](/zet/20230929054003/README.md) bash scripting simple program template parsing arguments with case statement
 - [20230929064428](/zet/20230929064428/README.md) script to check for BEGINFILE usage in awk scripts requiring change to gawk
 - [20230929153242](/zet/20230929153242/README.md) natural language processing libraries
+- [20230930145814](/zet/20230930145814/README.md) determining cpu version for install

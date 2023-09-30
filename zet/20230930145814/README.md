@@ -65,4 +65,4 @@ lscpu |  awk '/Architecture/ { print $2 }' | awk '
 
 Tags:
 
-    #idea
+    #script #install #version

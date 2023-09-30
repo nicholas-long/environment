@@ -1,0 +1,1 @@
+- [20230930145814](/zet/20230930145814/README.md) determining cpu version for install
