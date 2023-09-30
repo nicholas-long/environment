@@ -37,3 +37,5 @@
 - [20230929064428](/zet/20230929064428/README.md) script to check for BEGINFILE usage in awk scripts requiring change to gawk
 - [20230929153207](/zet/20230929153207/README.md) computer science experiments hub
 - [20230929194846](/zet/20230929194846/README.md) testing if shortcuts will work and not pick up extra files
+- [20230930041018](/zet/20230930041018/README.md) fsdb future ideas
+- [20230930041146](/zet/20230930041146/README.md) fsdb developing ideas

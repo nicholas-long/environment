@@ -10,3 +10,5 @@
 - [20230925055222](/zet/20230925055222/README.md) list of unfinished todo items
 - [20230926190350](/zet/20230926190350/README.md) scripts to process text with line by line operations
 - [20230927001343](/zet/20230927001343/README.md) places to update find command to use new executable version in order to be compatible on mac
+- [20230930041018](/zet/20230930041018/README.md) fsdb future ideas
+- [20230930041146](/zet/20230930041146/README.md) fsdb developing ideas

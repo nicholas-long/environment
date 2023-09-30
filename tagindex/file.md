@@ -2,3 +2,5 @@
 - [20230905015120](/zet/20230905015120/README.md) bash rc file and config
 - [20230928014124](/zet/20230928014124/README.md) script to extract an embedded file stream from a PDF
 - [20230929145418](/zet/20230929145418/README.md) file based database for partitioning and event sourced data
+- [20230930040657](/zet/20230930040657/README.md) fsdb file structure
+- [20230930041146](/zet/20230930041146/README.md) fsdb developing ideas

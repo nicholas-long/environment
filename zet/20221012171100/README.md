@@ -11,9 +11,6 @@ zet/20221012171100/README.md
 # Related
 
 - [20221012144502](/zet/20221012144502/README.md) track modification dates
-- [20230925180416](/zet/20230925180416/README.md) print md5 of every line in a password wordlist
-- [20230925180815](/zet/20230925180815/README.md) password scripts hub
-- [20230925193834](/zet/20230925193834/README.md) testing on mac os
 - [20230926190350](/zet/20230926190350/README.md) scripts to process text with line by line operations
 - [20230926224444](/zet/20230926224444/README.md) updating scripts to use gawk when possible
 - [20230926234809](/zet/20230926234809/README.md) a non-platform-specific find command script for executable files
@@ -60,6 +57,9 @@ zet/20221012171100/README.md
 - [20230929153207](/zet/20230929153207/README.md) computer science experiments hub
 - [20230929153242](/zet/20230929153242/README.md) natural language processing libraries
 - [20230929194846](/zet/20230929194846/README.md) testing if shortcuts will work and not pick up extra files
+- [20230930040657](/zet/20230930040657/README.md) fsdb file structure
+- [20230930041018](/zet/20230930041018/README.md) fsdb future ideas
+- [20230930041146](/zet/20230930041146/README.md) fsdb developing ideas
 
 Tags:
 
