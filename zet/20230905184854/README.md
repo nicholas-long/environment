@@ -60,6 +60,7 @@ function install_it {
 - [20230927233110](/zet/20230927233110/README.md) colorizing and prettifying scripts for transforming text
 - [20230928133216](/zet/20230928133216/README.md) scripts to work with burpsuite saved requests and automatically generate python code
 - [20230930145814](/zet/20230930145814/README.md) determining cpu version for install
+- [20230922220109](/zet/20230922220109/README.md) create a dockerfile for this environment
 
 Tags:
 
