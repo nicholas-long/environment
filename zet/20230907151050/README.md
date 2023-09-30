@@ -22,6 +22,7 @@ downloadurl=$(zet/20230905030303/github-latest-files https://github.com/sharkdp/
 - [20230922051930](/zet/20230922051930/README.md) lazygit interactive install script
 - [20230925193834](/zet/20230925193834/README.md) testing on mac os
 - [20230905210416](/zet/20230905210416/README.md) fast file manager fff
+- [20230930145814](/zet/20230930145814/README.md) determining cpu version for install
 
 Tags:
 
