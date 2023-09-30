@@ -11,9 +11,11 @@ zet/20230927152827/README.md:- [ ] figure out why login doesn't work and return 
 zet/20230927152827/old-notes-from-obsidian.md:  - [ ] could be that the password should be hashed by the client before even being sent? there was some stuff that looked like crypto algorithms?
 zet/20230927152827/old-notes-from-obsidian.md:  - [ ] could it be that the user agent or something has to be right?
 zet/20230928133216/README.md:- [ ] test the new version
+zet/20230930224454/README.md:- [ ] cannot edit a file within a nested directory
 - [20230925193834](/zet/20230925193834/README.md) testing on mac os #idea
 - [20230927152827](/zet/20230927152827/README.md) reverse engineering obsidian to create an obsidian sync cli tool #program #command #reveng #util
 - [20230928133216](/zet/20230928133216/README.md) scripts to work with burpsuite saved requests and automatically generate python code #script #hacking #http
+- [20230930224454](/zet/20230930224454/README.md) problems encountered with zkvr while testing this environment #idea
 ```
 
 - where can i find snippets?

@@ -40,3 +40,4 @@
 - [20230930041018](/zet/20230930041018/README.md) fsdb future ideas
 - [20230930041146](/zet/20230930041146/README.md) fsdb developing ideas
 - [20230930042658](/zet/20230930042658/README.md) fsdb ingest subcommand notes
+- [20230930224454](/zet/20230930224454/README.md) problems encountered with zkvr while testing this environment

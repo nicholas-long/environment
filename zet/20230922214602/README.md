@@ -24,6 +24,7 @@ cp -r zet/20230926234809 ~/zkvr/zet/
 - [20230922214323](/zet/20230922214323/README.md) this environment
 - [20221008042814](/zet/20221008042814/README.md) WIP
 - [20221013021614](/zet/20221013021614/README.md) zkvr terminal graph browser
+- [20230930224454](/zet/20230930224454/README.md) problems encountered with zkvr while testing this environment
 
 Tags:
 
