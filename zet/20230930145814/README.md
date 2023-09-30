@@ -10,10 +10,17 @@
 - determine version for arch
 
 ```bash
+# netbook
 lscpu |  awk '/Architecture/ { print $2 }'
 x86_64
 uname -a
 Linux netbook3 6.4.0-kali3-amd64 #1 SMP PREEMPT_DYNAMIC Debian 6.4.11-1kali1 (2023-08-21) x86_64 GNU/Linux
+
+# macbook parallels
+lscpu |  awk '/Architecture/ { print $2 }'
+aarch64
+Linux kali-linux-2022-2 6.4.0-kali3-arm64 #1 SMP Debian 6.4.11-1kali1 (2023-08-21) aarch64 GNU/Linux
+
 which dpkg
 /usr/bin/dpkg
 
@@ -39,8 +46,8 @@ bat_0.23.0_armhf.deb	https://github.com/sharkdp/bat/releases/download/v0.23.0/ba
 bat_0.23.0_i686.deb	https://github.com/sharkdp/bat/releases/download/v0.23.0/bat_0.23.0_i686.deb
 
 lscpu |  awk '/Architecture/ { print $2 }' | awk '
-/aarch/ { print "arm64" } # test this
-/arm.*64/ { print "arm64" } # test this
+/aarch/ { print "arm64" }
+/arm.*64/ { print "arm64" }
 /arm.*32/ { print "armhf" } # test this
 /x.*64/ { print "amd64" }
 '
