@@ -13,6 +13,7 @@
 - [20230929145418](/zet/20230929145418/README.md) fsdb project - file based database for partitioning and event sourced data
 - [20230922214602](/zet/20230922214602/README.md) things i want to implement in zkvr after working on the environment
 - [20221012171100](/zet/20221012171100/README.md) recently created nodes hub
+- [20221013021614](/zet/20221013021614/README.md) zkvr terminal graph browser
 
 Tags:
 
