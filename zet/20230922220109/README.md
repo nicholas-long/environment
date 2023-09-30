@@ -6,8 +6,21 @@
   - [20221022000131](/zet/20221022000131/README.md) put tmux and vim rc config in dockerfile for testing zkvr
 - it should be much easier now that the install script is much more sophisticated.
   - it might need to be updated to run in a docker where there are often missing prerequisites that should normally be installed
+- 2023-09-30 i tried the old zkvr dockerfile and it still basically works. i might just need to try running the install command
 
+## developing
+- the prerequisites are not installing in docker. sudo isn't installed in docker.
+  - can use tty to determine if we can install bat interactively
+  - should i have a fallback version?
 ```
+Step 6/6 : RUN tty
+ ---> Running in ea39de95341e
+not a tty
+The command '/bin/sh -c tty' returned a non-zero code: 1
+```
+
+```bash
+ln -s zet/20230922220109/Dockerfile Dockerfile
 ```
 
 ` zet/20230922220109/README.md `
