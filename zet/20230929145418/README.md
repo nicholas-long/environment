@@ -1,4 +1,4 @@
-# file based database for partitioning and event sourced data
+# fsdb project - file based database for partitioning and event sourced data
 
 - concept of `file based database for partitioning and event sourced data`
   - like a local file storage version of a kafka database
