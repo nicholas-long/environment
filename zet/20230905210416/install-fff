@@ -6,6 +6,10 @@ if which brew 2>/dev/null >/dev/null; then
 fi
 git clone https://github.com/dylanaraps/fff
 cd fff
-sudo make install
+if [ "$UID" -eq 0 ]; then
+  make install
+else
+  sudo make install
+fi
 cd ..
 rm -rf fff
