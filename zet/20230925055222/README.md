@@ -7,13 +7,9 @@
 ```markdown
 zet/20230925193834/README.md:- [ ] adding and deleting tags doesn't work
 zet/20230925193834/README.md:- [ ] unlinking documents doesn't work
-zet/20230927152827/extracted/sandbox/Formatting/Task.md:- [ ] tasks can be clicked in Preview to be checked off
-zet/20230927152827/extracted/sandbox/Formatting/Task.md:- [ ] tasks can be clicked in Preview to be checked off
-zet/20230927152827/extracted/sandbox/Formatting/Task.md:- [ ] this is an incomplete item
-zet/20230927152827/extracted/sandbox/Formatting/Task.md:- [ ] this is an incomplete item
+zet/20230927152827/README.md:- [ ] figure out why login doesn't work and return a token
 zet/20230927152827/old-notes-from-obsidian.md:  - [ ] could be that the password should be hashed by the client before even being sent? there was some stuff that looked like crypto algorithms?
 zet/20230927152827/old-notes-from-obsidian.md:  - [ ] could it be that the user agent or something has to be right?
-zet/20230927152827/README.md:- [ ] figure out why login doesn't work and return a token
 zet/20230928133216/README.md:- [ ] test the new version
 - [20230925193834](/zet/20230925193834/README.md) testing on mac os #idea
 - [20230927152827](/zet/20230927152827/README.md) reverse engineering obsidian to create an obsidian sync cli tool #program #command #reveng #util
