@@ -32,6 +32,7 @@ ln -s zet/20230922220109/Dockerfile Dockerfile
 - [20221009192000](/zet/20221009192000/README.md) stuff to put on main page
 - [20221008042814](/zet/20221008042814/README.md) WIP
 - [20230925001420](/zet/20230925001420/README.md) cool docker scripts to migrate
+- [20230930145814](/zet/20230930145814/README.md) determining cpu version for install
 
 Tags:
 
