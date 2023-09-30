@@ -3,10 +3,26 @@
 # install bat to /usr/bin/bat
 # pick download url from github interactively
 
+# exit early if installed, but this shouldn't be run from the install scripts if that is the case
+if which bat >/dev/null 2>/dev/null; then
+  echo "bat is already installed. shouldn't run this."
+  exit 0
+fi
+
+# install with brew if it is available
 if which brew 2>/dev/null >/dev/null; then
   brew install bat # that was easy
   exit 0
 fi
+
+# try to automatically detect and install the version and skip interactive selection if that was successful
+zet/20230907151050/try-install-bat-version-for-cpu
+if [ "$?" -eq 0 ]; then
+  echo "bat was successfully installed automatically. exiting..."
+  exit 0
+fi
+
+# install ineractively
 downloadurl=$(zet/20230905030303/github-latest-files https://github.com/sharkdp/bat | \
   fzf --preview=lscpu "--prompt=select the version of bat for your cpu> " | \
   awk '{print $2}')
@@ -18,7 +34,11 @@ filename=$(ls bat* | head -n 1)
 
 # install it
 if [[ $filename =~ bat.*deb ]]; then
-  sudo dpkg -i $filename
+  if [ $UID -eq 0 ]; then
+    dpkg -i $filename
+  else
+    sudo dpkg -i $filename
+  fi
   rm $filename
 elif [[ $filename =~ bat.*tar.gz ]]; then
   echo "todo: tar -xzvf"

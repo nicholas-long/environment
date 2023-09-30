@@ -1,0 +1,53 @@
+#!/bin/bash
+
+# TODO: allow installing gzip versions if needed
+# exit if no dpkg since this is for selecting deb files
+if ! which dpkg; then
+  echo "no dpkg. this is only for deb files now."
+  exit 1
+fi
+if ! which lscpu; then
+  exit 1
+fi
+
+export desired_arch=$( lscpu |  awk '/Architecture/ { print $2 }' | awk '
+  /aarch/ { print "arm64" } # test this
+  /arm.*64/ { print "arm64" } # test this
+  /arm.*32/ { print "armhf" } # test this
+  /x.*64/ { print "amd64" }
+' )
+
+if [ -z "$desired_arch" ]; then
+  echo "could not interpret this architecture version."
+  exit 1
+fi
+
+download_url=$(zet/20230905030303/github-latest-files https://github.com/sharkdp/bat | grep -v musl | awk '$1 ~ /deb$/' | awk '
+  $1 ~ ENVIRON["desired_arch"] { print $2 }
+')
+
+# exit if url empty
+if [ -z "$download_url" ]; then
+  echo "could not find download url."
+  exit 1
+fi
+
+# download it and get filename
+wget "$download_url"
+filename=$(ls bat* | head -n 1)
+
+# install it
+if [[ $filename =~ bat.*deb ]]; then
+  if [ $UID -eq 0 ]; then
+    dpkg -i "$filename"
+  else
+    sudo dpkg -i "$filename"
+  fi
+  rm "$filename"
+  echo "successfully installed bat from URL!"
+  exit 0
+else
+  exit 1
+fi
+
+exit 1
