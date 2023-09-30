@@ -1,11 +1,11 @@
 # environment
 
 - Dotfiles and scripts organized into zettelkasten format
+- [20230922214323](/zet/20230922214323/README.md) this environment #hub
+- [20230922220109](/zet/20230922220109/README.md) dockerfile for this environment #docker #script
 - Based on zkvr zettelkasten developed in 2022 https://github.com/nicholas-long/zkvr
   - [20221013021614](/zet/20221013021614/README.md) zkvr terminal graph browser #tui #program #zettelkasten
-- [20230922214323](/zet/20230922214323/README.md) this environment #hub
 - [20230921220633](/zet/20230921220633/README.md) list of cool ideas i still want to implement in my environment #idea #list #coding
-  - [20230922220109](/zet/20230922220109/README.md) create a dockerfile for this environment #docker #script
 - [20230925055222](/zet/20230925055222/README.md) list of unfinished todo items #script #todo #list
 
 ## useful scripts
