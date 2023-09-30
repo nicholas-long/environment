@@ -2,6 +2,8 @@
 
 - concept of `file based database for partitioning and event sourced data`
   - like a local file storage version of a kafka database
+- [20230930041146](/zet/20230930041146/README.md) fsdb developing ideas
+  - [20230930041018](/zet/20230930041018/README.md) fsdb future ideas
 
 ## how data is stored
 - the first field of the data is regarded as an ID
@@ -9,6 +11,7 @@
   - a compressed file holds all existing data
   - an uncompressed file holds recently added data.
     - this data can be compressed and appended to the compressed file periodically by a cron.
+- [20230930040657](/zet/20230930040657/README.md) fsdb file structure
 
 ## implementation
 - basic set of features / subcommands needed for database
@@ -29,9 +32,9 @@
 - [20230928171946](/zet/20230928171946/README.md) data analysis scripting hub
 - [20230929153207](/zet/20230929153207/README.md) computer science experiments hub
 - [20230929194846](/zet/20230929194846/README.md) testing if shortcuts will work and not pick up extra files
-- [20230930040657](/zet/20230930040657/README.md) fsdb file structure
-- [20230930041018](/zet/20230930041018/README.md) fsdb future ideas
 - [20230930041146](/zet/20230930041146/README.md) fsdb developing ideas
+- [20230930041018](/zet/20230930041018/README.md) fsdb future ideas
+- [20230930040657](/zet/20230930040657/README.md) fsdb file structure
 
 Tags:
 

@@ -14,6 +14,7 @@
   - script is called from file `autoexec_enrich`
   - the reason this runs in the enrich stage is so my shortcuts are kept up-to-date during my own development process
 - should little programs or commands in here contain references to each other by name?
+- 2023-09-29 changes today mean the script will only pick up executables to add as short commands if they are in a zet directory. this means short cmds can have subcommand implementations. still works on mac os.
 
 ```bash
 ./graphquery @shortcmd
