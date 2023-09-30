@@ -7,6 +7,8 @@
 - it should be much easier now that the install script is much more sophisticated.
   - it might need to be updated to run in a docker where there are often missing prerequisites that should normally be installed
 - 2023-09-30 i tried the old zkvr dockerfile and it still basically works. i might just need to try running the install command
+- attempting to have the dockerfile install nothing at all
+- it is assumed when you get this environment that you got it with git, but i should install it as a prerequisite in the environment
 
 ## developing
 - the prerequisites are not installing in docker. sudo isn't installed in docker.
@@ -17,6 +19,7 @@ Step 6/6 : RUN tty
  ---> Running in ea39de95341e
 not a tty
 The command '/bin/sh -c tty' returned a non-zero code: 1
+
 ```
 
 ```bash
