@@ -1,0 +1,1 @@
+- [20230928192818](/zet/20230928192818/README.md) micro environment scripts needed to get programs working

@@ -5,6 +5,10 @@
 - [20230905015223](/zet/20230905015223/README.md) install scripts
 - [20230905030303](/zet/20230905030303/README.md) script to get github release links
 - [20230906035236](/zet/20230906035236/README.md) scripts to draw title bars
+- [20230906035650](/zet/20230906035650/README.md) script to print reverse shell snippets
+- [20230906035744](/zet/20230906035744/README.md) scripts to optimize alphanumeric base64
+- [20230906044835](/zet/20230906044835/README.md) script to obfuscate a nishang reverse tcp shell for windows powershell
+- [20230906050031](/zet/20230906050031/README.md) script to center text in the terminal
 - [20230907151050](/zet/20230907151050/README.md) bat interactive install script
 - [20230912192810](/zet/20230912192810/README.md) script to search zk markdown in command line
 - [20230913044318](/zet/20230913044318/README.md) tmux buffer edit hotkey script
@@ -13,6 +17,7 @@
 - [20230916132320](/zet/20230916132320/README.md) script to get platform install command
 - [20230919153113](/zet/20230919153113/README.md) obsidian links scripts
 - [20230919172630](/zet/20230919172630/README.md) script to get root of repository or obsidian knowledge base
+- [20230920022857](/zet/20230920022857/README.md) script to get linpeas to current directory
 - [20230920031249](/zet/20230920031249/README.md) script to search tldr commands by features to find ways to do things
 - [20230921220840](/zet/20230921220840/README.md) list of kb scripts that i could decide whether to copy over
 - [20230922051930](/zet/20230922051930/README.md) lazygit interactive install script
@@ -29,26 +34,34 @@
 - [20230925180416](/zet/20230925180416/README.md) print md5 of every line in a password wordlist
 - [20230925180815](/zet/20230925180815/README.md) password scripts hub
 - [20230926190350](/zet/20230926190350/README.md) scripts to process text with line by line operations
+- [20230926234809](/zet/20230926234809/README.md) a non-platform-specific find command script for executable files
 - [20230927233110](/zet/20230927233110/README.md) colorizing and prettifying scripts for transforming text
 - [20230928014124](/zet/20230928014124/README.md) script to extract an embedded file stream from a PDF
 - [20230928133216](/zet/20230928133216/README.md) scripts to work with burpsuite saved requests and automatically generate python code
 - [20230928134931](/zet/20230928134931/README.md) scripts for URL and HTTP encoding
 - [20230928165457](/zet/20230928165457/README.md) awk print unique lines
+- [20230928171946](/zet/20230928171946/README.md) data analysis scripting hub
 - [20230928172527](/zet/20230928172527/README.md) image analysis commands
 - [20230928173645](/zet/20230928173645/README.md) live ssh perimeter defense script with colorized login attempts and shodan lookup
 - [20230928174503](/zet/20230928174503/README.md) script to automatically generate headings and markdown for displaying code files as snippets
 - [20230928175049](/zet/20230928175049/README.md) pwntools template binary exploit script
+- [20230928175625](/zet/20230928175625/README.md) ssh keygen automated expect script to generate a public and private key pair
+- [20230928184621](/zet/20230928184621/README.md) markdown helper scripts
 - [20230928185603](/zet/20230928185603/README.md) script to print the content of markdown text within the heading level of a particular line
 - [20230928185944](/zet/20230928185944/README.md) script to package up program and debian dependencies a tar to install on a remote target machine
 - [20230928191243](/zet/20230928191243/README.md) privesc scripts and lists
+- [20230928192818](/zet/20230928192818/README.md) micro environment scripts needed to get programs working
 - [20230928193054](/zet/20230928193054/README.md) docker reverse shell testing project
 - [20230928220755](/zet/20230928220755/README.md) find the largest N files
 - [20230929022947](/zet/20230929022947/README.md) script to get headings from wikipedia page
 - [20230929023221](/zet/20230929023221/README.md) testing user interfaces in fzf
 - [20230929023608](/zet/20230929023608/README.md) script to get your preferred networking interface based on what is available
+- [20230929024225](/zet/20230929024225/README.md) meta note related scripts
 - [20230929024545](/zet/20230929024545/README.md) scripts for linux tricks
 - [20230929053721](/zet/20230929053721/README.md) get random hex unique ID bash
 - [20230929054003](/zet/20230929054003/README.md) bash scripting simple program template parsing arguments with case statement
+- [20230929054848](/zet/20230929054848/README.md) awk script to get column headings from the first line of CSV
+- [20230929055134](/zet/20230929055134/README.md) attempt to create script logs from tmux panes
 - [20230929064428](/zet/20230929064428/README.md) script to check for BEGINFILE usage in awk scripts requiring change to gawk
 - [20230929153242](/zet/20230929153242/README.md) natural language processing libraries
 - [20230930145814](/zet/20230930145814/README.md) determining cpu version for install
