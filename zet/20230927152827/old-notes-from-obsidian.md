@@ -77,8 +77,8 @@ let asarPath = path.join(APP_PATH, 'obsidian.asar');
 - tried calling the login function quickly with curl, and it's not working
   - tried ordinary form post data
   - tried json
-  - [ ] could be that the password should be hashed by the client before even being sent? there was some stuff that looked like crypto algorithms?
-  - [ ] could it be that the user agent or something has to be right?
+  - could be that the password should be hashed by the client before even being sent? there was some stuff that looked like crypto algorithms?
+  - could it be that the user agent or something has to be right?
 - found some parts of the sync code
 
 ```javascript
