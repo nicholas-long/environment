@@ -4,6 +4,8 @@
 - this script will use md5sum to keep track of changes to all executable code files
 - it uses the zet minimum dependency script to find all cards related to zkvr
   - [20231001000026](/zet/20231001000026/README.md) script to find the minimum required set of zettels to ship a scripting project
+- update the data file after you ship using the data generation script
+  - `zet/20231001082012/get-data > zet/20231001082012/data`
 
 ```diff
 ```
