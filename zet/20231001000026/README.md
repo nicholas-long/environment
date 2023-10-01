@@ -1,4 +1,4 @@
-# script to find the minimum required set of zettels to ship a scripting project
+# script to find the minimum required set of dependent zettels to ship a scripting project
 
 ## definition
 - input: one or more initial IDs to ship

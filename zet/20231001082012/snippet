@@ -1,5 +1,3 @@
 #!/bin/bash
 
-tf=$*mktemp)
 diff <( zet/20231001082012/get-data ) zet/20231001082012/data
-rm "$tf"
