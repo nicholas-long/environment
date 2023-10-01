@@ -56,6 +56,7 @@ minimum-required-dependency-zets 20221013021614
 - [20221008042814](/zet/20221008042814/README.md) WIP
 - [20230922214602](/zet/20230922214602/README.md) things i want to implement in zkvr after working on the environment
 - [20221012171100](/zet/20221012171100/README.md) recently created nodes hub
+- [20231001082012](/zet/20231001082012/README.md) automatically keeping track of changes to zkvr binaries
 
 Tags:
 
