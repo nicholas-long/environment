@@ -6,10 +6,10 @@
 ## algorithm
 - take a set of all ids as references to search for
 - maintain a working set which is initially the input IDs
-- loop
+- loop while working set is not empty
   - add working set to found
   - grep the directories in working set for references. trim the grep output to just a list of unique IDs
-  - take the references returned and subtract anything already in the results
+  - take the references returned and subtract anything already in the results so we don't repeat IDs
     - those references become the next working set
 - return found
 

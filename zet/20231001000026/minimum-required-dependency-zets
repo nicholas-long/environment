@@ -1,0 +1,21 @@
+#!/bin/bash
+
+allreferences=$(mktemp)
+workingset=$(mktemp)
+
+# - take a set of all ids as references to search for
+ls zet > $allreferences
+
+# - maintain a working set which is initially the input IDs
+echo $1 >> $workingset
+workingsetsize=$(wc -l $workingset | awk '{print $1}')
+
+# - loop while working set is not empty
+while [[ $workingsetsize -gt 0 ]]; do
+#   - add working set to found
+#   - grep the directories in working set for references. trim the grep output to just a list of unique IDs
+#   - take the references returned and subtract anything already in the results so we don't repeat IDs
+#     - those references become the next working set
+done
+# - return found
+
