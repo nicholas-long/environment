@@ -60,6 +60,7 @@ zet/20221012171100/README.md
 - [20230930224454](/zet/20230930224454/README.md) problems encountered with zkvr while testing this environment
 - [20231001000026](/zet/20231001000026/README.md) script to find the minimum required set of dependent zettels to ship a scripting project
 - [20231001082012](/zet/20231001082012/README.md) automatically keeping track of changes to zkvr binaries
+- [20231001090029](/zet/20231001090029/README.md) find things missing tags
 
 Tags:
 

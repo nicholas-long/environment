@@ -127,6 +127,7 @@ rm ./zet/20221006032546/todo.md
 - [20221006013313](/zet/20221006013313/README.md) zettelkasten
 - [20221006213953](/zet/20221006213953/README.md) video notes
 - [20230922212036](/zet/20230922212036/README.md) command shortcut to get markdown titles or content summaries
+- [20231001090029](/zet/20231001090029/README.md) find things missing tags
 
 Tags:
 

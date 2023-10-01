@@ -1,3 +1,4 @@
 - [20221009192000](/zet/20221009192000/README.md) stuff to put on main page
 - [20221028172836](/zet/20221028172836/README.md) old dockerfile for testing zkvr with vim and tmux config
 - [20230929024225](/zet/20230929024225/README.md) meta note related scripts
+- [20231001090029](/zet/20231001090029/README.md) find things missing tags
