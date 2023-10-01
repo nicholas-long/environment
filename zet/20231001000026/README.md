@@ -1,5 +1,6 @@
 # script to find the minimum required set of zettels to ship a scripting project
 
+## definition
 - input: one or more initial IDs to ship
 - output: everything that needs shippin with it
 
@@ -7,10 +8,28 @@
 ┌──(coyote㉿netbook3)-[~/environment]
 └─$ ./graphquery --human <(minimum-required-dependency-zets 20221013021614)
 query --human /dev/fd/63
+- [20221003150098](/zet/20221003150098/README.md) TODO #hub #todo #list
+- [20221006013313](/zet/20221006013313/README.md) zettelkasten #zettelkasten
 - [20221006032546](/zet/20221006032546/README.md) my original implementation of zet cmd #zettelkasten #bash #coding #program #script #command #command #repo
+- [20221006213953](/zet/20221006213953/README.md) video notes #video #notes #hub #videonotes
+- [20221007044552](/zet/20221007044552/README.md) todo or to-try list #todo #list #to-try-list #hub
+- [20221007193324](/zet/20221007193324/README.md) github actions #git
 - [20221013021614](/zet/20221013021614/README.md) zkvr terminal graph browser #tui #program #zettelkasten
 - [20221014025416](/zet/20221014025416/README.md) clone a subsection of a graph by tag boundaries #idea
 - [20221025024238](/zet/20221025024238/README.md) enumerate tags #bash #trick #awk #script #zet
+- [20230926234809](/zet/20230926234809/README.md) a non-platform-specific find command script for executable files #shortcmd #bash #command
+
+minimum-required-dependency-zets 20221013021614
+```
+
+## notes
+- no need to trim the single chars from front and back of output since its grepping specific IDs
+- i would expect to see find-executable
+```
+grep -R find-executable zet
+# found
+zet/20221006032546/zetcmd:    zet/20230926234809/find-executable zet -name autoexec_enrich | awk '
+zet/20221027011800/orig_zetcmd:    zet/20230926234809/find-executable zet -name autoexec_enrich | awk '
 ```
 
 ## algorithm
@@ -34,6 +53,15 @@ grep -Ro 20221008042814 zet/20231001000026
 grep -Rof <(ls zet) zet/20231001000026
 # trim match files and take unique IDs
 grep -Rof <(ls zet) zet/20231001000026 | cut -d : -f 2 | sort -u
+
+grep -Rf <(ls zet) zet/20221006032546
+
+# check implementation
+./graphquery --human <(minimum-required-dependency-zets 20221006032546)
+
+# check zkvr
+./graphquery --human <(minimum-required-dependency-zets 20221013021614)
+minimum-required-dependency-zets 20221013021614
 ```
 
 ` zet/20231001000026/README.md `
