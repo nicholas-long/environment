@@ -41,3 +41,4 @@
 - [20230930041146](/zet/20230930041146/README.md) fsdb developing ideas
 - [20230930042658](/zet/20230930042658/README.md) fsdb ingest subcommand notes
 - [20230930224454](/zet/20230930224454/README.md) problems encountered with zkvr while testing this environment
+- [20231001000026](/zet/20231001000026/README.md) script to find the minimum required set of zettels to ship a scripting project

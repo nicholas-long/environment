@@ -26,6 +26,7 @@ cp -r zet/20230926234809 ~/zkvr/zet/
 - [20221008042814](/zet/20221008042814/README.md) WIP
 - [20221013021614](/zet/20221013021614/README.md) zkvr terminal graph browser
 - [20230930224454](/zet/20230930224454/README.md) problems encountered with zkvr while testing this environment
+- [20231001000026](/zet/20231001000026/README.md) script to find the minimum required set of zettels to ship a scripting project
 
 Tags:
 
