@@ -11,7 +11,6 @@ zet/20221012171100/README.md
 # Related
 
 - [20221012144502](/zet/20221012144502/README.md) track modification dates
-- [20230927152827](/zet/20230927152827/README.md) reverse engineering obsidian to create an obsidian sync cli tool
 - [20230927233110](/zet/20230927233110/README.md) colorizing and prettifying scripts for transforming text
 - [20230928014124](/zet/20230928014124/README.md) script to extract an embedded file stream from a PDF
 - [20230928133216](/zet/20230928133216/README.md) scripts to work with burpsuite saved requests and automatically generate python code
@@ -62,6 +61,7 @@ zet/20221012171100/README.md
 - [20231001082012](/zet/20231001082012/README.md) automatically keeping track of changes to zkvr binaries
 - [20231001090029](/zet/20231001090029/README.md) find things missing tags
 - [20231001151606](/zet/20231001151606/README.md) hashcodes for fsdb project
+- [20231001222624](/zet/20231001222624/README.md) test gzip append functionality
 
 Tags:
 

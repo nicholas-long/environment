@@ -40,3 +40,4 @@
 - [20230930224454](/zet/20230930224454/README.md) problems encountered with zkvr while testing this environment
 - [20231001082012](/zet/20231001082012/README.md) automatically keeping track of changes to zkvr binaries
 - [20231001151606](/zet/20231001151606/README.md) hashcodes for fsdb project
+- [20231001222624](/zet/20231001222624/README.md) test gzip append functionality
