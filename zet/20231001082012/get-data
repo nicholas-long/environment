@@ -1,0 +1,6 @@
+#!/bin/bash
+
+for id in $(zet/20231001000026/minimum-required-dependency-zets 20221013021614); do
+  find-executable zet/$id -type f | xargs md5sum
+done | sort
+
