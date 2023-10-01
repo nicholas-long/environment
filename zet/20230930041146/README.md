@@ -9,19 +9,7 @@
   - call something like `ingest_hook` in the database to pass in duplicate data if such a program exists
   - something like `search_hook` called before searches, can filter things out
 - bloom filter https://github.com/nicholas-long/bfbf
-- hashcode could be just the sum of all the letters, modulus partition number.
-  - still use the last digits in order to make partitions?
-  - hashcode implementation
-  ```awk
-  BEGIN {
-    for(n=0;n<256;n++) ord[sprintf("%c",n)]=n
-    # test finding the hashcode of this string
-    str="testing"
-    hashcode = 0
-    for (n = 1; n <= length(str); n++) hashcode += ord[substr(str,n,1)]
-    print hashcode
-  }
-  ```
+- hashcodes [20231001151606](/zet/20231001151606/README.md) hashcodes for fsdb project
 
 ### subcommand implementation
 - subcommand directory
@@ -37,6 +25,7 @@
 - [20221012171100](/zet/20221012171100/README.md) recently created nodes hub
 - [20230930041018](/zet/20230930041018/README.md) fsdb future ideas
 - [20230930042658](/zet/20230930042658/README.md) fsdb ingest subcommand notes
+- [20231001151606](/zet/20231001151606/README.md) hashcodes for fsdb project
 
 Tags:
 
