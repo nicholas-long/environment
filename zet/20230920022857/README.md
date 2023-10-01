@@ -18,4 +18,4 @@
 
 Tags:
 
-    #shortcmd #hacking
+    #shortcmd #hacking #script

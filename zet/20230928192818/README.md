@@ -24,4 +24,4 @@ zet/20230925024118/scripts-dependencies zet/20230928192818
 
 Tags:
 
-    #idea
+    #script #fix

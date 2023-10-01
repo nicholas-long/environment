@@ -16,4 +16,4 @@ cp /home/parallels/kb/awk-scripting/get-columns.awk .
 
 Tags:
 
-    #awk #csv #shortcmd
+    #awk #csv #shortcmd #script

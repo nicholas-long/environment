@@ -22,4 +22,4 @@ asdf asdf  asdf
 
 Tags:
 
-    #shortcmd #hacking #payload
+    #shortcmd #hacking #payload #script

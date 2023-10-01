@@ -23,4 +23,4 @@
 
 Tags:
 
-    #shortcmd
+    #shortcmd #script

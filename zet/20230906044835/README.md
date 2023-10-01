@@ -30,4 +30,4 @@ ex -s -c "\$s/4444/$PORT/" -c wq nishang.ps1
 
 Tags:
 
-    #shortcmd
+    #shortcmd #script #hacking

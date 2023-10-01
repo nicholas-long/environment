@@ -37,4 +37,4 @@ cp /home/parallels/kb/bash-scripting/ssh-keygen-generate-file.exp .
 
 Tags:
 
-    #shortcmd #hacking
+    #shortcmd #hacking #script
