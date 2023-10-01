@@ -32,7 +32,6 @@ stuff i am working on.
 - [20230929153207](/zet/20230929153207/README.md) computer science experiments hub
 - [20230929153242](/zet/20230929153242/README.md) natural language processing libraries
 - [20230930041146](/zet/20230930041146/README.md) fsdb developing ideas
-- [20231001000026](/zet/20231001000026/README.md) script to find the minimum required set of dependent zettels to ship a scripting project
 
 Tags:
 
