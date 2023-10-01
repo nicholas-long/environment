@@ -1,0 +1,12 @@
+#!/usr/bin/awk -f
+
+BEGIN {
+  for(n=0;n<256;n++) ord[sprintf("%c",n)]=n
+  # test finding the hashcode of this string
+}
+{
+  str=$0
+  hashcode = 0
+  for (n = 1; n <= length(str); n++) hashcode += n * ord[substr(str,n,1)]
+  print hashcode % 50
+}
