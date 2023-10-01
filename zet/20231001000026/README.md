@@ -12,8 +12,18 @@
   - take the references returned and subtract anything already in the results so we don't repeat IDs
     - those references become the next working set
 - return found
+- working on grep query
+```bash
+# test good 20231001000026
+# test garbage 2023100100002620231001000026
 
-```
+grep -R '[0-9]\{14\}' zet/20231001000026
+# match exactly the right number
+grep -Ro 20221008042814 zet/20231001000026
+# search for all IDs and show all found
+grep -Rof <(ls zet) zet/20231001000026
+# trim match files and take unique IDs
+grep -Rof <(ls zet) zet/20231001000026 | cut -d : -f 2 | sort -u
 ```
 
 ` zet/20231001000026/README.md `
@@ -26,4 +36,4 @@
 
 Tags:
 
-    #idea
+    #shortcmd #script
