@@ -1,3 +1,17 @@
-#!/bin/bash
+#!/usr/bin/awk -f
 
-echo "running ingest"
+BEGIN {
+  partcount = ENVIRON["partitions"]
+  hasingesthook = (system("test -e hooks/ingest") == 0)
+  # populate initial counts of parition file lines
+  for (n = 0; n < partcount; n++) {
+    cmd = "wc -l data/" n
+    cmd | getline
+    partdumpsize[n] = $1
+    close(cmd)
+  }
+}
+{
+  print
+  # print to ingest hook if it exists: var hasingesthook
+}

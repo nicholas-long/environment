@@ -10,7 +10,7 @@
 - data stored as TSV or CSV in two partition files:
   - a compressed file holds all existing data
   - an uncompressed file holds recently added data.
-    - this data can be compressed and appended to the compressed file periodically by a cron.
+    - this data can be compressed and appended to the compressed file periodically as data is inserted so the overall size of the database doesn't grow too fast
 - [20230930040657](/zet/20230930040657/README.md) fsdb file structure
 
 ## implementation
