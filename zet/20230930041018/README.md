@@ -4,6 +4,7 @@
 - future optimization: check if an ID exists in the database or not, using a bloom filter.
 - future optimization: searching many can be more efficient if you can pair them up.
 - future: recompress - maybe: rewrite all compressed streams as continuous gzip streams to optimize space?
+- compress subcommand - compress text files and append to gzip streams together
 
 ## issues with bloom filter optimization
 - this feature doesn't really fit very many applications?

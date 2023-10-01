@@ -11,6 +11,8 @@
   - a compressed file holds all existing data
   - an uncompressed file holds recently added data.
     - this data can be compressed and appended to the compressed file periodically as data is inserted so the overall size of the database doesn't grow too fast
+- should store a timestamp with each row
+  - should ignore it when printing unless provided with a command line option to print timestamp?
 - [20230930040657](/zet/20230930040657/README.md) fsdb file structure
 
 ## implementation
@@ -18,9 +20,16 @@
   - initialize and set up number of partitions
   - search for one ID or multiple
   - ingest data - pipe it into standard input and an awk script will put it where it belongs
-  - compress - called from cron to compress text files and append to gzip streams together
+  - print all data
 
-```
+- testing timestamps for data
+```bash
+awk '
+BEGIN {
+  print systime()
+}
+'
+1696194880
 ```
 
 ` zet/20230929145418/README.md `
