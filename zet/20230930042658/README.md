@@ -2,6 +2,11 @@
 
 - https://github.com/nicholas-long/private/blob/main/filehash.io/testdb/ingest.awk
 - https://github.com/nicholas-long/private/blob/main/filehash.io/testdb/partition.awk
+- i think ingest needs to compress things.
+  - compress can't only happen in a cron or else this program is just making huge data files
+  - when it starts, it can count the initial lines
+  - this can hapen at a regular basis, like 100 rows.
+    - i don't think this needs to be configurable?
 
 ## code
 
