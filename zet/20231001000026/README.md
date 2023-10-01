@@ -3,6 +3,16 @@
 - input: one or more initial IDs to ship
 - output: everything that needs shippin with it
 
+```
+┌──(coyote㉿netbook3)-[~/environment]
+└─$ ./graphquery --human <(minimum-required-dependency-zets 20221013021614)
+query --human /dev/fd/63
+- [20221006032546](/zet/20221006032546/README.md) my original implementation of zet cmd #zettelkasten #bash #coding #program #script #command #command #repo
+- [20221013021614](/zet/20221013021614/README.md) zkvr terminal graph browser #tui #program #zettelkasten
+- [20221014025416](/zet/20221014025416/README.md) clone a subsection of a graph by tag boundaries #idea
+- [20221025024238](/zet/20221025024238/README.md) enumerate tags #bash #trick #awk #script #zet
+```
+
 ## algorithm
 - take a set of all ids as references to search for
 - maintain a working set which is initially the input IDs
