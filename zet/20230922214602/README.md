@@ -16,6 +16,18 @@ done
 find . -name find-executable
 zet/20230926234809/find-executable
 cp -r zet/20230926234809 ~/zkvr/zet/
+
+zet/20231001000026/minimum-required-dependency-zets 20221013021614
+zet/20231001000026/minimum-required-dependency-zets 20221013021614
+
+./graphquery --human <(minimum-required-dependency-zets 20221013021614)
+query --human /dev/fd/63
+- [20221006032546](/zet/20221006032546/README.md) my original implementation of zet cmd #zettelkasten #bash #coding #program #script #command #command #repo
+- [20221013021614](/zet/20221013021614/README.md) zkvr terminal graph browser #tui #program #zettelkasten
+- [20221014025416](/zet/20221014025416/README.md) clone a subsection of a graph by tag boundaries #idea
+- [20221025024238](/zet/20221025024238/README.md) enumerate tags #bash #trick #awk #script #zet
+- [20230926234809](/zet/20230926234809/README.md) a non-platform-specific find command script for executable files #shortcmd #bash #command
+
 ```
 
 ` zet/20230922214602/README.md `
