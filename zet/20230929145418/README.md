@@ -21,6 +21,7 @@
   - search for one ID or multiple
   - ingest data - pipe it into standard input and an awk script will put it where it belongs
   - print all data
+  - compress subcommand - compress text files and append to gzip streams together. called by ingest when a partition gets too large
 
 - testing timestamps for data
 ```bash
