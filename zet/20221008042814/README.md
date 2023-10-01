@@ -32,6 +32,7 @@ stuff i am working on.
 - [20230929153207](/zet/20230929153207/README.md) computer science experiments hub
 - [20230929153242](/zet/20230929153242/README.md) natural language processing libraries
 - [20230930041146](/zet/20230930041146/README.md) fsdb developing ideas
+- [20231001090029](/zet/20231001090029/README.md) find things missing tags
 
 Tags:
 
