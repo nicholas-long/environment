@@ -4,7 +4,7 @@
 - [x] copy current fixes back up to zkvr
   - 2023-09-29 copied in
 - [x] should copy up find executable command - id 20230926234809
-- [ ] copy up new code fixes 2023-09-30
+- [x] copy up new code fixes 2023-09-30
 
 - commands run and work on copying stuff over
 ```bash
@@ -27,6 +27,11 @@ query --human /dev/fd/63
 - [20221014025416](/zet/20221014025416/README.md) clone a subsection of a graph by tag boundaries #idea
 - [20221025024238](/zet/20221025024238/README.md) enumerate tags #bash #trick #awk #script #zet
 - [20230926234809](/zet/20230926234809/README.md) a non-platform-specific find command script for executable files #shortcmd #bash #command
+
+for zkvrid in $(minimum-required-dependency-zets 20221013021614); do
+  echo "doing id $zkvrid"
+  cp -r zet/$zkvrid/* ~/zkvr/zet/$zkvrid/
+done
 
 ```
 
