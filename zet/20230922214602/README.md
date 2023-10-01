@@ -4,6 +4,7 @@
 - [x] copy current fixes back up to zkvr
   - 2023-09-29 copied in
 - [x] should copy up find executable command - id 20230926234809
+- [ ] copy up new code fixes 2023-09-30
 
 - commands run and work on copying stuff over
 ```bash
