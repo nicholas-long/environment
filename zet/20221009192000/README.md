@@ -6,7 +6,6 @@ a script will check to see if the ID numbers appear on the main README.
 
 ```
 Missing:
-- [20230929145418](/zet/20230929145418/README.md) fsdb project - file based database for partitioning and event sourced data #data #file #database #project #shortcmd
 Extra:
 ```
 

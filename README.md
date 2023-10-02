@@ -35,6 +35,7 @@
 
 ## projects
 - [20230927152827](/zet/20230927152827/README.md) reverse engineering obsidian to create an obsidian sync cli tool #program #command #reveng #util
+- [20230929145418](/zet/20230929145418/README.md) fsdb project - file based database for partitioning and event sourced data #data #file #database #project #shortcmd
 
 ## shortcuts and symbolic links
 
