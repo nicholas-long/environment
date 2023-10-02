@@ -18,6 +18,7 @@
   - [20231002021919](/zet/20231002021919/README.md) bloom filter for fsdb
 
 ## implementation
+- [ ] add timestamps before rows and change logic to account for that
 - basic set of features / subcommands needed for database
   - initialize and set up number of partitions
   - search for one ID or multiple
