@@ -1,4 +1,34 @@
-#!/bin/bash
+#!/usr/bin/awk -f
 
 #partitions env variable holds the number of partitions of this database
-echo "running search"
+
+# TODO: search hook
+BEGIN {
+  compress_line_limit = 100 # constant value
+  for(n=0;n<256;n++) ord[sprintf("%c",n)]=n # prepare char code lookup table
+  partcount = ENVIRON["partitions"]
+  print "using", partcount, "partitions"
+  #hasingesthook = (system("test -e hooks/ingest") == 0)
+}
+# parse each input line as an ID to read
+{
+  hashcode = 0
+  for (n = 1; n <= length($1); n++) hashcode += n * ord[substr($1,n,1)]
+  part = hashcode % partcount
+  # record partitions and IDs needed
+  partusing[part] = 1
+  ids[$1] = 1
+}
+END {
+  for (p in partusing) {
+    print "scanning partition", p
+    datafile = "data/" p
+    cmd = "zcat data/" p ".gz"
+    while ((cmd | getline) > 0) {
+      if ($1 in ids) print
+    }
+    while ((getline < datafile) > 0) { # read in file
+      if ($1 in ids) print
+    }
+  }
+}
