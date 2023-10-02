@@ -20,6 +20,8 @@
 # Related
 
 - [20230930041018](/zet/20230930041018/README.md) fsdb future ideas
+- [20230930041146](/zet/20230930041146/README.md) fsdb developing ideas
+- [20221012171100](/zet/20221012171100/README.md) recently created nodes hub
 
 Tags:
 
