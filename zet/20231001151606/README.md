@@ -1,4 +1,4 @@
-# hashcodes for fsdb project
+# hashcodes for fsdb partitioning
 
 - concept of `hashcodes for fsdb project`
 - add together all the charcodes in the string
