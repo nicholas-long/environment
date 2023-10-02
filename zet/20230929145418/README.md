@@ -49,7 +49,7 @@ BEGIN {
 - [20230930040657](/zet/20230930040657/README.md) fsdb file structure
 - [20230930042658](/zet/20230930042658/README.md) fsdb ingest subcommand notes
 - [20230930224454](/zet/20230930224454/README.md) problems encountered with zkvr while testing this environment
-- [20231001151606](/zet/20231001151606/README.md) hashcodes for fsdb project
+- [20231001151606](/zet/20231001151606/README.md) hashcodes for fsdb partitioning
 - [20231001222624](/zet/20231001222624/README.md) test gzip append functionality
 - [20221009192000](/zet/20221009192000/README.md) stuff to put on main page
 

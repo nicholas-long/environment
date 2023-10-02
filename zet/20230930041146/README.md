@@ -24,7 +24,7 @@
 - [20221012171100](/zet/20221012171100/README.md) recently created nodes hub
 - [20230930041018](/zet/20230930041018/README.md) fsdb future ideas
 - [20230930042658](/zet/20230930042658/README.md) fsdb ingest subcommand notes
-- [20231001151606](/zet/20231001151606/README.md) hashcodes for fsdb project
+- [20231001151606](/zet/20231001151606/README.md) hashcodes for fsdb partitioning
 - [20231002021919](/zet/20231002021919/README.md) bloom filter for fsdb
 
 Tags:
