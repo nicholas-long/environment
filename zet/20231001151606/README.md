@@ -9,6 +9,27 @@
   - but with numbers, adding the digits is terrible.
   - therefore, hashcodes need to be made by adding and multiplying.
 
+- testing fsdb database with hashes from test data
+```bash
+# copied some hashes in before this
+tmux saveb - | fsdb search
+using 10 partitions
+scanning partition 2
+8afa847f50a716e64932d995c8e7435a princess
+scanning partition 4
+25d55ad283aa400af464c76d713c07ad 12345678
+scanning partition 5
+e99a18c428cb38d5f260853678922e03 abc123
+scanning partition 6
+5f4dcc3b5aa765d61d8327deb882cf99 password
+scanning partition 8
+25f9e794323b453885f5181f1b624d0b 123456789
+fcea920f7412b5da7be0cf42b8c93759 1234567
+f806fc5a2a0d5ba2471600758452799c rockyou
+scanning partition 9
+f25a2fc72690b780b2a14e140ef6a9e0 iloveyou
+```
+
 - hashcode implementation
 ```awk
 BEGIN {
