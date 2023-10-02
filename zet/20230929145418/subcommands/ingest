@@ -1,9 +1,11 @@
 #!/usr/bin/awk -f
 
+# environ var fsdb_prog holds original arg var $0, the main program
 BEGIN {
-  compress_line_limit = 15 # constant value
+  compress_line_limit = 100 # constant value
   for(n=0;n<256;n++) ord[sprintf("%c",n)]=n # prepare char code lookup table
   partcount = ENVIRON["partitions"]
+  print "using", partcount, "partitions"
   hasingesthook = (system("test -e hooks/ingest") == 0)
   # populate initial counts of parition file lines
   for (n = 0; n < partcount; n++) {
@@ -15,7 +17,7 @@ BEGIN {
 }
 {
   hashcode = 0
-  for (n = 1; n <= length(str); n++) hashcode += ord[substr(str,n,1)]
+  for (n = 1; n <= length($1); n++) hashcode += n * ord[substr($1,n,1)]
   part = hashcode % partcount
   partfn = "data/" part
   print >> partfn
@@ -24,9 +26,10 @@ BEGIN {
   if (++lines_written[part] > compress_line_limit) {
     close(partfn)
     delete mru[partfn]
-    print "want to compress", part, "total read", NR
-    #system( "./compress.sh " part )
-    # TODO: call compress subcommand here
+    # call compress subcommand here
+    print "compressing", part, "total read", NR
+    compresscommand = ENVIRON["fsdb_prog"] " compress " part
+    system(compresscommand)
     lines_written[part] = 0
   }
   # clean up stuff from MRU if it is too big

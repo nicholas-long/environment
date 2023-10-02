@@ -8,6 +8,11 @@
   - this can hapen at a regular basis, like 100 rows.
     - i don't think this needs to be configurable?
 
+## debugging
+```
+awk: /home/parallels/environment/zet/20230929145418/subcommands/ingest:19: (FILENAME=- FNR=1) fatal: division by zero attempted in `%'
+```
+
 ## code
 
 - old ingest code

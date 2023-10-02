@@ -19,6 +19,14 @@ elif [[ "$subcommand" == "-h" ]]; then
   subcommand="--help"
 fi
 
+# get config settings
+if [ -f .fsdbconfig ]; then
+  source .fsdbconfig
+  export partitions
+else
+  echo "where is my config file .fsdbconfig ?" > /dev/stderr
+fi
+
 if [[ "$subcommand" == "--help" ]]; then
   echo "Usage: $0 [ subcommand ] ..."
   echo "Subcommand Options:"
