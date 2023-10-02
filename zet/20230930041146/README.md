@@ -8,7 +8,6 @@
 - i like that there's a basic set of ideas here to get a database working, and extra features like bloom filters and indexing things or looking things up by timestamps can be handled by a separate database
   - call something like `ingest_hook` in the database to pass in duplicate data if such a program exists
   - something like `search_hook` called before searches, can filter things out
-- bloom filter https://github.com/nicholas-long/bfbf
 - hashcodes [20231001151606](/zet/20231001151606/README.md) hashcodes for fsdb project
 
 ### subcommand implementation
@@ -26,6 +25,7 @@
 - [20230930041018](/zet/20230930041018/README.md) fsdb future ideas
 - [20230930042658](/zet/20230930042658/README.md) fsdb ingest subcommand notes
 - [20231001151606](/zet/20231001151606/README.md) hashcodes for fsdb project
+- [20231002021919](/zet/20231002021919/README.md) bloom filter for fsdb
 
 Tags:
 

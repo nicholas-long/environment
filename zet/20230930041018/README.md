@@ -4,11 +4,7 @@
 - future optimization: check if an ID exists in the database or not, using a bloom filter.
 - future optimization: searching many can be more efficient if you can pair them up.
 - future: recompress - maybe: rewrite all compressed streams as continuous gzip streams to optimize space?
-
-## issues with bloom filter optimization
-- this feature doesn't really fit very many applications?
-- if i support string bloom filters, then IDs that are all hex might not be as efficient
-  - but various sizes of hex will require different hashing optimization code
+- [20231002021919](/zet/20231002021919/README.md) bloom filter for fsdb
 
 ```
 ```
@@ -20,6 +16,7 @@
 - [20230929145418](/zet/20230929145418/README.md) fsdb project - file based database for partitioning and event sourced data
 - [20221012171100](/zet/20221012171100/README.md) recently created nodes hub
 - [20230930041146](/zet/20230930041146/README.md) fsdb developing ideas
+- [20231002021919](/zet/20231002021919/README.md) bloom filter for fsdb
 
 Tags:
 

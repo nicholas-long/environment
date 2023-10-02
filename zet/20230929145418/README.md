@@ -14,6 +14,8 @@
 - should store a timestamp with each row
   - should ignore it when printing unless provided with a command line option to print timestamp?
 - [20230930040657](/zet/20230930040657/README.md) fsdb file structure
+- bloom filter could be optional feature implemented with hooks
+  - [20231002021919](/zet/20231002021919/README.md) bloom filter for fsdb
 
 ## implementation
 - basic set of features / subcommands needed for database
