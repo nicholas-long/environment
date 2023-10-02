@@ -1,6 +1,8 @@
 #!/usr/bin/awk -f
 
 BEGIN {
+  compress_line_limit = 15 # constant value
+  for(n=0;n<256;n++) ord[sprintf("%c",n)]=n # prepare char code lookup table
   partcount = ENVIRON["partitions"]
   hasingesthook = (system("test -e hooks/ingest") == 0)
   # populate initial counts of parition file lines
@@ -12,6 +14,29 @@ BEGIN {
   }
 }
 {
-  print
-  # print to ingest hook if it exists: var hasingesthook
+  hashcode = 0
+  for (n = 1; n <= length(str); n++) hashcode += ord[substr(str,n,1)]
+  part = hashcode % partcount
+  partfn = "data/" part
+  print >> partfn
+  # maintain mru most recent use collection for file handles
+  mru[partfn] = NR
+  if (++lines_written[part] > compress_line_limit) {
+    close(partfn)
+    delete mru[partfn]
+    print "want to compress", part, "total read", NR
+    #system( "./compress.sh " part )
+    # TODO: call compress subcommand here
+    lines_written[part] = 0
+  }
+  # clean up stuff from MRU if it is too big
+  if (length(mru) > 64) {
+    oldest = 0
+    for (p in mru) if (mru[p] < oldest) oldest = mru[p]
+    for (p in mru) if (mru[p] == oldest) {
+      close(p)
+      delete mru[p]
+    }
+  }
+  # TODO: print to ingest hook if it exists: var hasingesthook
 }
