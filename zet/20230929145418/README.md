@@ -22,7 +22,8 @@
 - [20231003062001](/zet/20231003062001/README.md) fsdb use case - using as a set
 
 ## implementation
-- [ ] add timestamps before rows and change logic to account for that
+- [x] add timestamps before rows and change logic to account for that
+  - [20231003063630](/zet/20231003063630/README.md) adding timestamps to fsdb
 - [ ] search subcommand should accept, process, and use arguments if given instead of letting awk treat them as files
 - basic set of features / subcommands needed for database
   - initialize and set up number of partitions

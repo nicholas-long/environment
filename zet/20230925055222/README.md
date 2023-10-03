@@ -9,7 +9,6 @@ zet/20230925193834/README.md:- [ ] adding and deleting tags doesn't work
 zet/20230925193834/README.md:- [ ] unlinking documents doesn't work
 zet/20230927152827/README.md:- [ ] figure out why login doesn't work and return a token
 zet/20230928133216/README.md:- [ ] test the new version
-zet/20230929145418/README.md:- [ ] add timestamps before rows and change logic to account for that
 zet/20230929145418/README.md:- [ ] search subcommand should accept, process, and use arguments if given instead of letting awk treat them as files
 zet/20230930224454/README.md:- [ ] cannot edit a file within a nested directory
 - [20230925193834](/zet/20230925193834/README.md) testing on mac os #idea
