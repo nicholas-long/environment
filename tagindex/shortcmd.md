@@ -26,3 +26,4 @@
 - [20230929054848](/zet/20230929054848/README.md) awk script to get column headings from the first line of CSV
 - [20230929145418](/zet/20230929145418/README.md) fsdb project - file based database for partitioning and event sourced data
 - [20231001000026](/zet/20231001000026/README.md) script to find the minimum required set of dependent zettels to ship a scripting project
+- [20231003021548](/zet/20231003021548/README.md) script to enumerate all files in an aws s3 bucket url recursively

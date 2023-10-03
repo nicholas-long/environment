@@ -66,3 +66,4 @@
 - [20230929153242](/zet/20230929153242/README.md) natural language processing libraries
 - [20230930145814](/zet/20230930145814/README.md) determining cpu version for install
 - [20231001000026](/zet/20231001000026/README.md) script to find the minimum required set of dependent zettels to ship a scripting project
+- [20231003021548](/zet/20231003021548/README.md) script to enumerate all files in an aws s3 bucket url recursively

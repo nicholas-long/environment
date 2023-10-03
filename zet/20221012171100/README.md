@@ -11,30 +11,6 @@ zet/20221012171100/README.md
 # Related
 
 - [20221012144502](/zet/20221012144502/README.md) track modification dates
-- [20230928014124](/zet/20230928014124/README.md) script to extract an embedded file stream from a PDF
-- [20230928133216](/zet/20230928133216/README.md) scripts to work with burpsuite saved requests and automatically generate python code
-- [20230928134931](/zet/20230928134931/README.md) scripts for URL and HTTP encoding
-- [20230928164014](/zet/20230928164014/README.md) dockerfile templates
-- [20230928164948](/zet/20230928164948/README.md) password cracking rules
-- [20230928165457](/zet/20230928165457/README.md) awk print unique lines
-- [20230928171946](/zet/20230928171946/README.md) data analysis scripting hub
-- [20230928172527](/zet/20230928172527/README.md) image analysis commands
-- [20230928173645](/zet/20230928173645/README.md) live ssh perimeter defense script with colorized login attempts and shodan lookup
-- [20230928174503](/zet/20230928174503/README.md) script to automatically generate headings and markdown for displaying code files as snippets
-- [20230928175049](/zet/20230928175049/README.md) pwntools template binary exploit script
-- [20230928175434](/zet/20230928175434/README.md) tandy project notes and scripts for old machine project
-- [20230928175625](/zet/20230928175625/README.md) ssh keygen automated expect script to generate a public and private key pair
-- [20230928184621](/zet/20230928184621/README.md) markdown helper scripts
-- [20230928185057](/zet/20230928185057/README.md) bash self parsing code
-- [20230928185603](/zet/20230928185603/README.md) script to print the content of markdown text within the heading level of a particular line
-- [20230928185944](/zet/20230928185944/README.md) script to package up program and debian dependencies a tar to install on a remote target machine
-- [20230928191243](/zet/20230928191243/README.md) privesc scripts and lists
-- [20230928191955](/zet/20230928191955/README.md) get library dependency versions from composer.lock json file
-- [20230928192818](/zet/20230928192818/README.md) micro environment scripts needed to get programs working
-- [20230928193054](/zet/20230928193054/README.md) docker reverse shell testing project
-- [20230928193803](/zet/20230928193803/README.md) find what apt package installed a particular specific file
-- [20230928220222](/zet/20230928220222/README.md) get the currently released ubuntu distro
-- [20230928220755](/zet/20230928220755/README.md) find the largest N files
 - [20230929022947](/zet/20230929022947/README.md) script to get headings from wikipedia page
 - [20230929023221](/zet/20230929023221/README.md) testing user interfaces in fzf
 - [20230929023608](/zet/20230929023608/README.md) script to get your preferred networking interface based on what is available
@@ -62,6 +38,7 @@ zet/20221012171100/README.md
 - [20231001151606](/zet/20231001151606/README.md) hashcodes for fsdb partitioning
 - [20231001222624](/zet/20231001222624/README.md) test gzip append functionality
 - [20231002021919](/zet/20231002021919/README.md) bloom filter for fsdb
+- [20231003021548](/zet/20231003021548/README.md) script to enumerate all files in an aws s3 bucket url recursively
 
 Tags:
 

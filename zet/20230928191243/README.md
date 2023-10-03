@@ -23,7 +23,6 @@ cp /home/parallels/kb/hacking/priv-esc/strings-all-memory.sh /home/coyote/kb/hac
 - [20230921220840](/zet/20230921220840/README.md) list of kb scripts that i could decide whether to copy over
 - [20230920022857](/zet/20230920022857/README.md) script to get linpeas to current directory
 - [20230928191955](/zet/20230928191955/README.md) get library dependency versions from composer.lock json file
-- [20221012171100](/zet/20221012171100/README.md) recently created nodes hub
 
 Tags:
 

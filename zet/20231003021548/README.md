@@ -19,6 +19,7 @@ zet/20231003021548/enum-s3-files-within-url s3://bucketname/path/to/directory/
 # Related
 
 - [20221008042814](/zet/20221008042814/README.md) WIP
+- [20221012171100](/zet/20221012171100/README.md) recently created nodes hub
 
 Tags:
 
