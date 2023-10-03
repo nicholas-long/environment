@@ -11,10 +11,6 @@ zet/20221012171100/README.md
 # Related
 
 - [20221012144502](/zet/20221012144502/README.md) track modification dates
-- [20230929022947](/zet/20230929022947/README.md) script to get headings from wikipedia page
-- [20230929023221](/zet/20230929023221/README.md) testing user interfaces in fzf
-- [20230929023608](/zet/20230929023608/README.md) script to get your preferred networking interface based on what is available
-- [20230929024225](/zet/20230929024225/README.md) meta note related scripts
 - [20230929024545](/zet/20230929024545/README.md) scripts for linux tricks
 - [20230929053721](/zet/20230929053721/README.md) get random hex unique ID bash
 - [20230929054003](/zet/20230929054003/README.md) bash scripting simple program template parsing arguments with case statement
@@ -41,6 +37,7 @@ zet/20221012171100/README.md
 - [20231003021548](/zet/20231003021548/README.md) script to enumerate all files in an aws s3 bucket url recursively
 - [20231003022851](/zet/20231003022851/README.md) data engineering hub
 - [20231003062001](/zet/20231003062001/README.md) fsdb use case - using as a set
+- [20231003063630](/zet/20231003063630/README.md) adding timestamps to fsdb
 
 Tags:
 

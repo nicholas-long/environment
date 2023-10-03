@@ -18,7 +18,6 @@ eth0
 - [20230921220840](/zet/20230921220840/README.md) list of kb scripts that i could decide whether to copy over
 - [20230906035650](/zet/20230906035650/README.md) script to print reverse shell snippets
 - [20230906033727](/zet/20230906033727/README.md) commands to get ip
-- [20221012171100](/zet/20221012171100/README.md) recently created nodes hub
 
 Tags:
 

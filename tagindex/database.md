@@ -2,3 +2,4 @@
 - [20230930040657](/zet/20230930040657/README.md) fsdb file structure
 - [20230930041146](/zet/20230930041146/README.md) fsdb developing ideas
 - [20231003022851](/zet/20231003022851/README.md) data engineering hub
+- [20231003063630](/zet/20231003063630/README.md) adding timestamps to fsdb
