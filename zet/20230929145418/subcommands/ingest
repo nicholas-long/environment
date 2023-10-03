@@ -34,7 +34,8 @@ BEGIN {
     close(partfn)
     delete mru[partfn]
     # call compress subcommand here
-    print "compressing", part, "total read", NR
+    #print "compressing", part, "total read", NR
+    # printing too much will slow it way down
     compresscommand = ENVIRON["fsdb_prog"] " compress " part
     system(compresscommand)
     lines_written[part] = 0
@@ -50,3 +51,4 @@ BEGIN {
   }
   # TODO: print to ingest hook if it exists: var hasingesthook
 }
+# NR % 1000000 == 0 { print "total records", NR }
