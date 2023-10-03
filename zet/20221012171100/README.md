@@ -11,13 +11,6 @@ zet/20221012171100/README.md
 # Related
 
 - [20221012144502](/zet/20221012144502/README.md) track modification dates
-- [20230929024545](/zet/20230929024545/README.md) scripts for linux tricks
-- [20230929053721](/zet/20230929053721/README.md) get random hex unique ID bash
-- [20230929054003](/zet/20230929054003/README.md) bash scripting simple program template parsing arguments with case statement
-- [20230929054848](/zet/20230929054848/README.md) awk script to get column headings from the first line of CSV
-- [20230929055042](/zet/20230929055042/README.md) example of how to communicate between the network and a named pipe
-- [20230929055134](/zet/20230929055134/README.md) attempt to create script logs from tmux panes
-- [20230929064428](/zet/20230929064428/README.md) script to check for BEGINFILE usage in awk scripts requiring change to gawk
 - [20230929145418](/zet/20230929145418/README.md) fsdb project - file based database for partitioning and event sourced data
 - [20230929153207](/zet/20230929153207/README.md) computer science experiments hub
 - [20230929153242](/zet/20230929153242/README.md) natural language processing libraries

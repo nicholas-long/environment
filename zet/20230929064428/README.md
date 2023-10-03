@@ -31,7 +31,6 @@ find . -type f -executable | xargs file | grep 'awk script' | cut -d : -f 1 | xa
 
 - [20230925193834](/zet/20230925193834/README.md) testing on mac os
 - [20230926224444](/zet/20230926224444/README.md) updating scripts to use gawk when possible
-- [20221012171100](/zet/20221012171100/README.md) recently created nodes hub
 
 Tags:
 

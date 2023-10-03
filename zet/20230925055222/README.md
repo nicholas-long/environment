@@ -11,6 +11,7 @@ zet/20230927152827/README.md:- [ ] figure out why login doesn't work and return 
 zet/20230928133216/README.md:- [ ] test the new version
 zet/20230929145418/README.md:- [ ] add timestamps before rows and change logic to account for that
 zet/20230930224454/README.md:- [ ] cannot edit a file within a nested directory
+zet/20231003063630/README.md:  - [ ] search code
 zet/20231003063630/README.md:- [ ] need to add code changes to
 - [20230925193834](/zet/20230925193834/README.md) testing on mac os #idea
 - [20230927152827](/zet/20230927152827/README.md) reverse engineering obsidian to create an obsidian sync cli tool #program #command #reveng #util
