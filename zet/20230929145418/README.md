@@ -53,6 +53,7 @@ BEGIN {
 - [20231001151606](/zet/20231001151606/README.md) hashcodes for fsdb partitioning
 - [20231001222624](/zet/20231001222624/README.md) test gzip append functionality
 - [20221009192000](/zet/20221009192000/README.md) stuff to put on main page
+- [20231003022851](/zet/20231003022851/README.md) data engineering hub
 
 Tags:
 
