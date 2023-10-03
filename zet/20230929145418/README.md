@@ -48,7 +48,6 @@ BEGIN {
 # Related
 
 - [20221008042814](/zet/20221008042814/README.md) WIP
-- [20221012171100](/zet/20221012171100/README.md) recently created nodes hub
 - [20230928171946](/zet/20230928171946/README.md) data analysis scripting hub
 - [20230929153207](/zet/20230929153207/README.md) computer science experiments hub
 - [20230929194846](/zet/20230929194846/README.md) testing if shortcuts will work and not pick up extra files

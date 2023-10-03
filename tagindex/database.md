@@ -3,3 +3,4 @@
 - [20230930041146](/zet/20230930041146/README.md) fsdb developing ideas
 - [20231003022851](/zet/20231003022851/README.md) data engineering hub
 - [20231003063630](/zet/20231003063630/README.md) adding timestamps to fsdb
+- [20231003212610](/zet/20231003212610/README.md) example of using fsdb as a lookup table

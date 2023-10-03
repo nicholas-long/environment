@@ -11,9 +11,6 @@ zet/20221012171100/README.md
 # Related
 
 - [20221012144502](/zet/20221012144502/README.md) track modification dates
-- [20230929145418](/zet/20230929145418/README.md) fsdb project - file based database for partitioning and event sourced data
-- [20230929153207](/zet/20230929153207/README.md) computer science experiments hub
-- [20230929153242](/zet/20230929153242/README.md) natural language processing libraries
 - [20230929194846](/zet/20230929194846/README.md) testing if shortcuts will work and not pick up extra files
 - [20230930040657](/zet/20230930040657/README.md) fsdb file structure
 - [20230930041018](/zet/20230930041018/README.md) fsdb future ideas
@@ -31,6 +28,7 @@ zet/20221012171100/README.md
 - [20231003022851](/zet/20231003022851/README.md) data engineering hub
 - [20231003062001](/zet/20231003062001/README.md) fsdb use case - using as a set
 - [20231003063630](/zet/20231003063630/README.md) adding timestamps to fsdb
+- [20231003212610](/zet/20231003212610/README.md) example of using fsdb as a lookup table
 
 Tags:
 

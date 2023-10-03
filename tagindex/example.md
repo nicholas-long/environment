@@ -1,0 +1,1 @@
+- [20231003212610](/zet/20231003212610/README.md) example of using fsdb as a lookup table
