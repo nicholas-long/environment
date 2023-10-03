@@ -25,7 +25,11 @@ if [ -f .fsdbconfig ]; then
   export partitions
   export timestamps
 else
-  echo "where is my config file .fsdbconfig ?" > /dev/stderr
+  if [[ "$subcommand" == "init" ]]; then
+    echo "initializing config"
+  else
+    echo "where is my config file .fsdbconfig ?" > /dev/stderr
+  fi
 fi
 
 if [[ "$subcommand" == "--help" ]]; then
