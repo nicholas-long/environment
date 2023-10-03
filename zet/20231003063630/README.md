@@ -17,7 +17,7 @@
   - could use existing date functions to allow querying by human readable dates
 - 2023-10-03 testing this. i'm going to try adding a few rows at different times
   - [x] test timestamps
-  - [ ] check that the existing functionality still works if timestamps are disabled
+  - [x] check that the existing functionality still works if timestamps are disabled
     - [20231003062001](/zet/20231003062001/README.md) fsdb use case - using as a set
 
 - testing timestamps for data
