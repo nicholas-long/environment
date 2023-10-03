@@ -23,6 +23,7 @@
 
 ## implementation
 - [ ] add timestamps before rows and change logic to account for that
+- [ ] search subcommand should accept, process, and use arguments if given instead of letting awk treat them as files
 - basic set of features / subcommands needed for database
   - initialize and set up number of partitions
   - search for one ID or multiple
