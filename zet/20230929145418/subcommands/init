@@ -5,11 +5,16 @@
 #- hooks directory
 #- .dbconfig - file to source for database settings
 
+timestamps=0
+
 while [[ $# -gt 0 ]]; do
   case $1 in
     -p|--partitions) # number of partitions
       shift # pop arg
       partitions="$1"
+      ;;
+    -t|--timestamps) # include timestamps in database
+      timestamps=1
       ;;
     *)
       echo "what is $1?"
@@ -42,5 +47,6 @@ fi
 # initialize
 mkdir hooks
 mkdir data
-touch .fsdbconfig
 echo "partitions=$partitions" > .fsdbconfig
+echo "timestamps=$timestamps" >> .fsdbconfig
+

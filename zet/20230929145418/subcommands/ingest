@@ -2,6 +2,8 @@
 
 # environ var fsdb_prog holds original arg var $0, the main program
 BEGIN {
+  timestamps = ENVIRON["timestamps"]
+  if (timestamps) OFS = "\t" # use tab char to separate timestamp from line
   compress_line_limit = 100 # constant value
   for(n=0;n<256;n++) ord[sprintf("%c",n)]=n # prepare char code lookup table
   partcount = ENVIRON["partitions"]
@@ -16,11 +18,16 @@ BEGIN {
   }
 }
 {
+  # calculate hashcode
   hashcode = 0
   for (n = 1; n <= length($1); n++) hashcode += n * ord[substr($1,n,1)]
-  part = hashcode % partcount
-  partfn = "data/" part
-  print >> partfn
+  part = hashcode % partcount # partition number
+  partfn = "data/" part # generate filename
+  if (timestamps) { # print timestamps before lines if enabled
+    print systime(), $0 >> partfn
+  } else {
+    print >> partfn
+  }
   # maintain mru most recent use collection for file handles
   mru[partfn] = NR
   if (++lines_written[part] > compress_line_limit) {

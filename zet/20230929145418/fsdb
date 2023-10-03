@@ -23,6 +23,7 @@ fi
 if [ -f .fsdbconfig ]; then
   source .fsdbconfig
   export partitions
+  export timestamps
 else
   echo "where is my config file .fsdbconfig ?" > /dev/stderr
 fi

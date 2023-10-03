@@ -7,13 +7,21 @@
   - find events occuring within x seconds or minutes of a time
 - awk systime timestamps are only accurate to the second - epoch time. i think this is okay for small projects.
 - [ ] need to add code changes to
-  - initialize code - extra option. required. `-t` for timestamps or `-n` for no timestamps
-  - ingest code
+  - [x] initialize code - extra option. required. `-t` for timestamps or `-n` for no timestamps
+  - [x] fsdb - export the new env var
+  - [x] ingest code
     - check env var at beginning
-  - search code
+  - [ ] search code
     - check args at beginning and see if user wants timestamps printed - only if they are available in database
 
-```
+- testing timestamps for data
+```bash
+awk '
+BEGIN {
+  print systime()
+}
+'
+1696194880
 ```
 
 ` zet/20231003063630/README.md `
