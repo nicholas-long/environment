@@ -1,0 +1,6 @@
+#!/bin/bash
+
+for i in $(seq 1 10); do
+  echo $(head -c 5 /dev/random | xxd -p) "event"
+  sleep 1
+done
