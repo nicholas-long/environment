@@ -17,6 +17,10 @@
 - bloom filter could be optional feature implemented with hooks
   - [20231002021919](/zet/20231002021919/README.md) bloom filter for fsdb
 
+## use cases
+- large lookup table like dynamo db
+- [20231003062001](/zet/20231003062001/README.md) fsdb use case - using as a set
+
 ## implementation
 - [ ] add timestamps before rows and change logic to account for that
 - basic set of features / subcommands needed for database
