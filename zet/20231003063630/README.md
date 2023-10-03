@@ -13,7 +13,7 @@
     - check env var at beginning
   - [x] search code
     - check args at beginning and see if user wants timestamps printed - only if they are available in database
-- [ ] create new function to search by time
+- [x] create new function to search by time
   - could use existing date functions to allow querying by human readable dates
 - 2023-10-03 testing this. i'm going to try adding a few rows at different times
   - [x] test timestamps
