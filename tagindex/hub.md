@@ -9,4 +9,6 @@
 - [20230905015028](/zet/20230905015028/README.md) dotfiles hub
 - [20230922214323](/zet/20230922214323/README.md) this environment
 - [20230925180815](/zet/20230925180815/README.md) password scripts hub
+- [20230928171946](/zet/20230928171946/README.md) data analysis scripting hub
 - [20230928191243](/zet/20230928191243/README.md) privesc scripts and lists
+- [20231003022851](/zet/20231003022851/README.md) data engineering hub

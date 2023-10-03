@@ -14,6 +14,7 @@
 - [20230925052317](/zet/20230925052317/README.md) wordlists for pentesting
 - [20230928164948](/zet/20230928164948/README.md) password cracking rules
 - [20230928171946](/zet/20230928171946/README.md) data analysis scripting hub
+- [20231003022851](/zet/20231003022851/README.md) data engineering hub
 
 Tags:
 

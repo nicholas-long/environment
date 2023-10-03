@@ -24,7 +24,6 @@
 - [20230926224444](/zet/20230926224444/README.md) updating scripts to use gawk when possible
 - [20230927033258](/zet/20230927033258/README.md) debugging the markdown script on mac os
 - [20230928164948](/zet/20230928164948/README.md) password cracking rules
-- [20230928171946](/zet/20230928171946/README.md) data analysis scripting hub
 - [20230928175434](/zet/20230928175434/README.md) tandy project notes and scripts for old machine project
 - [20230928185057](/zet/20230928185057/README.md) bash self parsing code
 - [20230928185944](/zet/20230928185944/README.md) script to package up program and debian dependencies a tar to install on a remote target machine

@@ -16,6 +16,8 @@
 - [20230928173645](/zet/20230928173645/README.md) live ssh perimeter defense script with colorized login attempts and shodan lookup
 - [20230928191955](/zet/20230928191955/README.md) get library dependency versions from composer.lock json file
 - [20230929145418](/zet/20230929145418/README.md) fsdb project - file based database for partitioning and event sourced data
+- [20231003021548](/zet/20231003021548/README.md) script to enumerate all files in an aws s3 bucket url recursively
+- [20231003022851](/zet/20231003022851/README.md) data engineering hub
 
 Tags:
 
