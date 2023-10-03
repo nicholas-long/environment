@@ -1,0 +1,15 @@
+#!/bin/bash
+
+currenturl="$1"
+echo "scanning $currenturl" > /dev/stderr
+output=$(mktemp)
+aws s3 ls "$currenturl" > $output
+# for each directory
+awk '$1 == "PRE" { print $2 }' $output | while read line; do
+  "$0" "$currenturl$line"
+done
+awk '$1 != "PRE" { print $NF }' $output | while read line; do
+  fileurl="$currenturl$line"
+  echo "$fileurl"
+done
+rm "$output"
