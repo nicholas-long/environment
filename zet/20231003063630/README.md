@@ -6,13 +6,16 @@
 - but if they are needed, it would be really neat to search all partitions by timestamps
   - find events occuring within x seconds or minutes of a time
 - awk systime timestamps are only accurate to the second - epoch time. i think this is okay for small projects.
-- [ ] need to add code changes to
+- [x] need to add code changes to
   - [x] initialize code - extra option. required. `-t` for timestamps or `-n` for no timestamps
   - [x] fsdb - export the new env var
   - [x] ingest code
     - check env var at beginning
-  - [ ] search code
+  - [x] search code
     - check args at beginning and see if user wants timestamps printed - only if they are available in database
+- [ ] create new function to search by time
+  - could use existing date functions to allow querying by human readable dates
+- 2023-10-03 testing this. i'm going to try adding a few rows at different times
 
 - testing timestamps for data
 ```bash

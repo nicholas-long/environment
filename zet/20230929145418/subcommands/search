@@ -4,6 +4,7 @@
 
 # TODO: search hook
 BEGIN {
+  timestamps = ENVIRON["timestamps"]
   compress_line_limit = 100 # constant value
   for(n=0;n<256;n++) ord[sprintf("%c",n)]=n # prepare char code lookup table
   partcount = ENVIRON["partitions"]
@@ -25,10 +26,12 @@ END {
     datafile = "data/" p
     cmd = "zcat data/" p ".gz"
     while ((cmd | getline) > 0) {
-      if ($1 in ids) print
+      if (timestamps && $2 in ids || !timestamps && $1 in ids) print
+      #if ($1 in ids) print
     }
     while ((getline < datafile) > 0) { # read in file
-      if ($1 in ids) print
+      #if ($1 in ids) print
+      if (timestamps && $2 in ids || !timestamps && $1 in ids) print
     }
   }
 }
