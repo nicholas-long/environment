@@ -2,7 +2,7 @@
 
 - similar in concept to [20230928171946](/zet/20230928171946/README.md) data analysis scripting hub
 - focus on data engineering problems like loading data from sources and transforming and saving data to databases
-- [ ] link to this in similar hub within my zk
+- [x] link to this in similar hub within my zk
 
 ## scripts
 - [20231003021548](/zet/20231003021548/README.md) script to enumerate all files in an aws s3 bucket url recursively
