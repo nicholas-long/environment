@@ -18,7 +18,8 @@
   - [20231002021919](/zet/20231002021919/README.md) bloom filter for fsdb
 
 ## use cases
-- large lookup table like dynamo db
+- [20231003212610](/zet/20231003212610/README.md) example of using fsdb as a lookup table
+  - can use as large lookup table like dynamo db
 - [20231003062001](/zet/20231003062001/README.md) fsdb use case - using as a set
 
 ## implementation
@@ -62,6 +63,7 @@ BEGIN {
 - [20231003022851](/zet/20231003022851/README.md) data engineering hub
 - [20231003062001](/zet/20231003062001/README.md) fsdb use case - using as a set
 - [20231003063630](/zet/20231003063630/README.md) adding timestamps to fsdb
+- [20231003212610](/zet/20231003212610/README.md) example of using fsdb as a lookup table
 
 Tags:
 
