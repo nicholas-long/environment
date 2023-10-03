@@ -11,7 +11,7 @@ BEGIN {
   hasingesthook = (system("test -e hooks/ingest") == 0)
   # populate initial counts of parition file lines
   for (n = 0; n < partcount; n++) {
-    cmd = "wc -l data/" n
+    cmd = "wc -l data/" n " 2>/dev/null"
     cmd | getline
     partdumpsize[n] = $1
     close(cmd)
