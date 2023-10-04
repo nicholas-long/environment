@@ -33,6 +33,8 @@ for zkvrid in $(minimum-required-dependency-zets 20221013021614); do
   cp -r zet/$zkvrid/* ~/zkvr/zet/$zkvrid/
 done
 
+# need the todo tracker
+cp -r zet/20230925055222 ~/zkvr/zet/
 ```
 
 ` zet/20230922214602/README.md `
