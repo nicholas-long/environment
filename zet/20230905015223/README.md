@@ -64,6 +64,7 @@ ln -s zet/20230905015223/install-environment ./install
 - [20230922051930](/zet/20230922051930/README.md) lazygit interactive install script
 - [20230905015059](/zet/20230905015059/README.md) vim config
 - [20230925024118](/zet/20230925024118/README.md) script to display information about other scripts and their dependencies
+- [20230929145418](/zet/20230929145418/README.md) fsdb project - file based database for partitioning and event sourced data
 
 Tags:
 
