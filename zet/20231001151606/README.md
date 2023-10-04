@@ -37,8 +37,8 @@ BEGIN {
   # test finding the hashcode of this string
   str="testing"
   hashcode = 0
-  for (n = 1; n <= length(str); n++) hashcode += ord[substr(str,n,1)]
-  print hashcode
+  for (n = 1; n <= length(str); n++) hashcode += n * ord[substr(str,n,1)]
+  print hashcode % 10
 }
 ```
 

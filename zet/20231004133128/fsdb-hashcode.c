@@ -11,8 +11,10 @@ int get_line(int partitions) {
   int index = 1;
   char buf[65536]; // store the ID
   while ((c = getc(stdin)) != EOF) {
-    if (index >= 65536) { // if on the off chance we exceeded space for ID chars
+    if (index >= 65535) { // if on the off chance we exceeded space for ID chars
       //TODO: print something?
+      buf[index-1] = 0; // add null byte
+      printf("0\t%s",buf);
       parsingId = 0;
     }
     switch (c) {
@@ -44,7 +46,6 @@ int get_line(int partitions) {
 int main(int argc, char **argv)
 {
   int c = 0;
-  puts("it worked!");
   int partitions = atoi(getenv("partitions"));
   
   while (get_line(partitions) != EOF) {
