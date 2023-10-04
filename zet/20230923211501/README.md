@@ -1,5 +1,7 @@
 # get current CVE list as tsv
 
+- 2023-10-04 tested this and it does not work: curl error - failure writing output to destination
+- i was able to just wget the file and work with it fine. this script seems kind of extra.
 - [x] need to update the relative path used in the sh script
 - script named `zet/20230923211501/get-cve-list-tsv`
 - example running and filtering with the awk script
