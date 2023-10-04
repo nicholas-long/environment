@@ -1,1 +1,2 @@
 - [20230928134931](/zet/20230928134931/README.md) scripts for URL and HTTP encoding
+- [20231004044241](/zet/20231004044241/README.md) script to strip and scrape all URLs out of text

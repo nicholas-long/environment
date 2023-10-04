@@ -11,7 +11,6 @@ zet/20221012171100/README.md
 # Related
 
 - [20221012144502](/zet/20221012144502/README.md) track modification dates
-- [20230929194846](/zet/20230929194846/README.md) testing if shortcuts will work and not pick up extra files
 - [20230930040657](/zet/20230930040657/README.md) fsdb file structure
 - [20230930041018](/zet/20230930041018/README.md) fsdb future ideas
 - [20230930041146](/zet/20230930041146/README.md) fsdb developing ideas
@@ -29,6 +28,7 @@ zet/20221012171100/README.md
 - [20231003062001](/zet/20231003062001/README.md) fsdb use case - using as a set
 - [20231003063630](/zet/20231003063630/README.md) adding timestamps to fsdb
 - [20231003212610](/zet/20231003212610/README.md) example of using fsdb as a lookup table
+- [20231004044241](/zet/20231004044241/README.md) script to strip and scrape all URLs out of text
 
 Tags:
 

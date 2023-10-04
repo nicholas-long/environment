@@ -18,6 +18,7 @@
 - [20230929145418](/zet/20230929145418/README.md) fsdb project - file based database for partitioning and event sourced data
 - [20231003021548](/zet/20231003021548/README.md) script to enumerate all files in an aws s3 bucket url recursively
 - [20231003022851](/zet/20231003022851/README.md) data engineering hub
+- [20231004044241](/zet/20231004044241/README.md) script to strip and scrape all URLs out of text
 
 Tags:
 
