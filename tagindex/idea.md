@@ -43,3 +43,4 @@
 - [20231002021919](/zet/20231002021919/README.md) bloom filter for fsdb
 - [20231003063630](/zet/20231003063630/README.md) adding timestamps to fsdb
 - [20231004060725](/zet/20231004060725/README.md) fsdb missing functionality for set difference
+- [20231004133128](/zet/20231004133128/README.md) an optimized hashcode generator for partitioning work into multiple processes

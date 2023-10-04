@@ -11,10 +11,6 @@ zet/20221012171100/README.md
 # Related
 
 - [20221012144502](/zet/20221012144502/README.md) track modification dates
-- [20230930040657](/zet/20230930040657/README.md) fsdb file structure
-- [20230930041018](/zet/20230930041018/README.md) fsdb future ideas
-- [20230930041146](/zet/20230930041146/README.md) fsdb developing ideas
-- [20230930042658](/zet/20230930042658/README.md) fsdb ingest subcommand notes
 - [20230930145814](/zet/20230930145814/README.md) determining cpu version for install
 - [20230930224454](/zet/20230930224454/README.md) problems encountered with zkvr while testing this environment
 - [20231001000026](/zet/20231001000026/README.md) script to find the minimum required set of dependent zettels to ship a scripting project
@@ -30,6 +26,7 @@ zet/20221012171100/README.md
 - [20231003212610](/zet/20231003212610/README.md) example of using fsdb as a lookup table
 - [20231004044241](/zet/20231004044241/README.md) script to strip and scrape all URLs out of text
 - [20231004060725](/zet/20231004060725/README.md) fsdb missing functionality for set difference
+- [20231004133128](/zet/20231004133128/README.md) an optimized hashcode generator for partitioning work into multiple processes
 
 Tags:
 
