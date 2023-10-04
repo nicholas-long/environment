@@ -29,6 +29,7 @@
 - basic set of features / subcommands needed for database
   - initialize and set up number of partitions
   - search for one ID or multiple
+  - search for IDs missing from the database - set difference
   - ingest data - pipe it into standard input and an awk script will put it where it belongs
   - print all data
   - compress subcommand - compress text files and append to gzip streams together. called by ingest when a partition gets too large
@@ -63,6 +64,7 @@ BEGIN {
 - [20231003062001](/zet/20231003062001/README.md) fsdb use case - using as a set
 - [20231003063630](/zet/20231003063630/README.md) adding timestamps to fsdb
 - [20231003212610](/zet/20231003212610/README.md) example of using fsdb as a lookup table
+- [20231004060725](/zet/20231004060725/README.md) fsdb missing functionality for set difference
 
 Tags:
 
