@@ -7,6 +7,11 @@
   - when it starts, it can count the initial lines
   - this can hapen at a regular basis, like 100 rows.
     - i don't think this needs to be configurable?
+- without optimizing generating hashcodes first, fsdb is too slow to be usable for big data. it will take weeks to load billions of rows.
+  - i think this is because awk is using a ton of hashmap lookups to calculate the hashcode. this is fine for searching, but not for massive ingesting
+  - when i used this type of database to store billions of hashes, i split the ingesting into a bunch of processes that were all receiving data.
+    - each one was responsible for its own set of partitions - they should never attempt to access the same set of files
+  - [20231004133128](/zet/20231004133128/README.md) an optimized hashcode generator for partitioning work into multiple processes
 
 ## debugging
 ```
@@ -85,6 +90,7 @@ NR % 100000 == 0 {
 - [20230930041146](/zet/20230930041146/README.md) fsdb developing ideas
 - [20230929145418](/zet/20230929145418/README.md) fsdb project - file based database for partitioning and event sourced data
 - [20231001151606](/zet/20231001151606/README.md) hashcodes for fsdb partitioning
+- [20231004133128](/zet/20231004133128/README.md) an optimized hashcode generator for partitioning work into multiple processes
 
 Tags:
 
