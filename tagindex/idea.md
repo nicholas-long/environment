@@ -42,3 +42,4 @@
 - [20231001222624](/zet/20231001222624/README.md) test gzip append functionality
 - [20231002021919](/zet/20231002021919/README.md) bloom filter for fsdb
 - [20231003063630](/zet/20231003063630/README.md) adding timestamps to fsdb
+- [20231004060725](/zet/20231004060725/README.md) fsdb missing functionality for set difference

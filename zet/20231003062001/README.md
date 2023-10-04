@@ -138,6 +138,7 @@ scanning partition 2
 - [20230929145418](/zet/20230929145418/README.md) fsdb project - file based database for partitioning and event sourced data
 - [20221012171100](/zet/20221012171100/README.md) recently created nodes hub
 - [20231003063630](/zet/20231003063630/README.md) adding timestamps to fsdb
+- [20231004060725](/zet/20231004060725/README.md) fsdb missing functionality for set difference
 
 Tags:
 
