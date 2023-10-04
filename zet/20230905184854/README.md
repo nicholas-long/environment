@@ -26,6 +26,7 @@
   - rwxrob uses it and he likes bash scripting too
   - i don't think i'm going to learn how to program in go right now, but i can use libraries and programs
   - lazygit is written in go. can i install it with go instead of the interactive binary selector?
+- gcc - obvious
 
 ```bash
 # select install program

@@ -23,6 +23,7 @@ function install_it {
 }
 
 install_it vim vim
+install_it gcc gcc
 install_it git git # in docker, git is required
 install_it make make # make is required to install some things
 install_it tmux tmux
