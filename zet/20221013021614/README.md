@@ -81,6 +81,7 @@ zet/20221013021614/getcopycontent zet/20221013021614/README.md
 - [20230928184621](/zet/20230928184621/README.md) markdown helper scripts
 - [20230929023221](/zet/20230929023221/README.md) testing user interfaces in fzf
 - [20230930224454](/zet/20230930224454/README.md) problems encountered with zkvr while testing this environment
+- [20231001082012](/zet/20231001082012/README.md) automatically keeping track of changes to zkvr binaries
 
 Tags:
 
