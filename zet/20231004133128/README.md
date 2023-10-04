@@ -7,7 +7,9 @@
 - the general idea is to add this into the stream early in the pipeline, before putting data into partitions. i want to split up the work into a bunch of processes
 - in order to do that, i need to precompute the hashcode and insert it before the string using optimized c code
 
-```
+- test program
+```bash
+gcc fsdb-hashcode.c -o program && partitions=10 ./program
 ```
 
 ` zet/20231004133128/README.md `
