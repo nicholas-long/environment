@@ -23,6 +23,8 @@
 - [20231003062001](/zet/20231003062001/README.md) fsdb use case - using as a set
 
 ## implementation
+- [ ] try optimizing ingest to use multiple processes and split work
+  - 2023-10-04 i have been ingesting hash data into fsdb for at least 14 hours, and it has only added about 6 million rows
 - [x] add timestamps before rows and change logic to account for that
   - [20231003063630](/zet/20231003063630/README.md) adding timestamps to fsdb
 - [ ] search subcommand should accept, process, and use arguments if given instead of letting awk treat them as files
@@ -65,6 +67,7 @@ BEGIN {
 - [20231003063630](/zet/20231003063630/README.md) adding timestamps to fsdb
 - [20231003212610](/zet/20231003212610/README.md) example of using fsdb as a lookup table
 - [20231004060725](/zet/20231004060725/README.md) fsdb missing functionality for set difference
+- [20231004133128](/zet/20231004133128/README.md) an optimized hashcode generator for partitioning work into multiple processes
 
 Tags:
 
