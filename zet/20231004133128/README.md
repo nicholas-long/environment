@@ -14,6 +14,42 @@ gcc fsdb-hashcode.c -o program && partitions=10 ./program
 gcc zet/20231004133128/fsdb-hashcode.c -o zet/20230929145418/subcommands/hashcode-optimized
 ```
 
+- test awk code to strip out part before tab
+```bash
+
+echo $'before\tafter' | awk '
+{
+  gsub(/^[^\t]+\t/, "")
+  print
+}
+'
+
+```
+
+- testing code - worked on first try! how often does that happen?
+```bash
+┌──(parallels㉿kali-linux-2022-2)-[~/environment/zet/20231004133128]
+└─$ fsdb init -p 10
+initializing config
+10 partitions ok
+
+┌──(parallels㉿kali-linux-2022-2)-[~/environment/zet/20231004133128]
+└─$ seq 1 10000 | fsdb load
+using 10 partitions
+using 10 partitions
+
+┌──(parallels㉿kali-linux-2022-2)-[~/environment/zet/20231004133128]
+└─$ fsdb print | wc -l
+10000
+
+┌──(parallels㉿kali-linux-2022-2)-[~/environment/zet/20231004133128]
+└─$ echo 999 | fsdb search
+using 10 partitions
+scanning partition 2
+999
+
+```
+
 ` zet/20231004133128/README.md `
 
 # Related
