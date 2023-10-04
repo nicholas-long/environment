@@ -278,6 +278,7 @@ zet/20231001151606/testhashcode <( seq 1 10000 ) | zet/20231001151606/testhistog
 - [20230930041146](/zet/20230930041146/README.md) fsdb developing ideas
 - [20221012171100](/zet/20221012171100/README.md) recently created nodes hub
 - [20230930042658](/zet/20230930042658/README.md) fsdb ingest subcommand notes
+- [20231004133128](/zet/20231004133128/README.md) an optimized hashcode generator for partitioning work into multiple processes
 
 Tags:
 

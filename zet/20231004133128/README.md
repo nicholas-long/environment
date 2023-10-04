@@ -19,6 +19,7 @@ gcc fsdb-hashcode.c -o program && partitions=10 ./program
 - [20230929145418](/zet/20230929145418/README.md) fsdb project - file based database for partitioning and event sourced data
 - [20221012171100](/zet/20221012171100/README.md) recently created nodes hub
 - [20230930042658](/zet/20230930042658/README.md) fsdb ingest subcommand notes
+- [20231001151606](/zet/20231001151606/README.md) hashcodes for fsdb partitioning
 
 Tags:
 
