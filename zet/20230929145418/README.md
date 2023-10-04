@@ -4,6 +4,8 @@
   - like a local file storage version of a kafka database
 - [20230930041146](/zet/20230930041146/README.md) fsdb developing ideas
   - [20230930041018](/zet/20230930041018/README.md) fsdb future ideas
+- run build script `build-fsdb` to build optimized components.
+  - i tried to make the whole thing with just scripts, but it is just too slow to handle billions of rows.
 
 ## how data is stored
 - the first field of the data is regarded as an ID
@@ -68,6 +70,7 @@ BEGIN {
 - [20231003212610](/zet/20231003212610/README.md) example of using fsdb as a lookup table
 - [20231004060725](/zet/20231004060725/README.md) fsdb missing functionality for set difference
 - [20231004133128](/zet/20231004133128/README.md) an optimized hashcode generator for partitioning work into multiple processes
+- [20230905015223](/zet/20230905015223/README.md) install scripts
 
 Tags:
 

@@ -10,6 +10,8 @@
 - test program
 ```bash
 gcc fsdb-hashcode.c -o program && partitions=10 ./program
+
+gcc zet/20231004133128/fsdb-hashcode.c -o zet/20230929145418/subcommands/hashcode-optimized
 ```
 
 ` zet/20231004133128/README.md `

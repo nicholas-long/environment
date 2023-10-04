@@ -51,3 +51,6 @@ zet/20230905015059/install-vim-config
 # install tmux-pwn-menu
 # logic to avoid installing these if unnecessary should be located in that script
 zet/20230914030626/install-requirements
+
+# run build script for fsdb to build compiled and optimized components
+zet/20230929145418/build-fsdb
