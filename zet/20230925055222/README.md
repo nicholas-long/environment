@@ -13,7 +13,6 @@ zet/20230930042658/README.md:- [ ] i could make the number of rows before compre
 zet/20230930224454/README.md:- [ ] cannot edit a file within a nested directory
 zet/20231005062610/README.md:- [ ] implement bloom filter
 zet/20231005062610/README.md:- [ ] implement hooks
-zet/20231005062610/README.md:- [ ] recompress - rewrite all compressed streams as continuous gzip streams to optimize space
 - [20230925193834](/zet/20230925193834/README.md) testing on mac os #idea
 - [20230927152827](/zet/20230927152827/README.md) reverse engineering obsidian to create an obsidian sync cli tool #program #command #reveng #util
 - [20230928133216](/zet/20230928133216/README.md) scripts to work with burpsuite saved requests and automatically generate python code #script #hacking #http
