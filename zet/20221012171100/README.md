@@ -11,9 +11,6 @@ zet/20221012171100/README.md
 # Related
 
 - [20221012144502](/zet/20221012144502/README.md) track modification dates
-- [20230930145814](/zet/20230930145814/README.md) determining cpu version for install
-- [20230930224454](/zet/20230930224454/README.md) problems encountered with zkvr while testing this environment
-- [20231001000026](/zet/20231001000026/README.md) script to find the minimum required set of dependent zettels to ship a scripting project
 - [20231001082012](/zet/20231001082012/README.md) automatically keeping track of changes to zkvr binaries
 - [20231001090029](/zet/20231001090029/README.md) find things missing tags
 - [20231001151606](/zet/20231001151606/README.md) hashcodes for fsdb partitioning
@@ -27,6 +24,7 @@ zet/20221012171100/README.md
 - [20231004044241](/zet/20231004044241/README.md) script to strip and scrape all URLs out of text
 - [20231004060725](/zet/20231004060725/README.md) fsdb missing functionality for set difference
 - [20231004133128](/zet/20231004133128/README.md) an optimized hashcode generator for partitioning work into multiple processes
+- [20231005062610](/zet/20231005062610/README.md) fsdb TODO items
 
 Tags:
 

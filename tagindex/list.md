@@ -13,3 +13,4 @@
 - [20230929024225](/zet/20230929024225/README.md) meta note related scripts
 - [20230930041018](/zet/20230930041018/README.md) fsdb future ideas
 - [20230930041146](/zet/20230930041146/README.md) fsdb developing ideas
+- [20231005062610](/zet/20231005062610/README.md) fsdb TODO items
