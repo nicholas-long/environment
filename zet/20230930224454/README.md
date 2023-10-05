@@ -1,7 +1,8 @@
 # problems encountered with zkvr while testing this environment
 
-- [ ] cannot edit a file within a nested directory
+- [x] cannot edit a file within a nested directory
   - [20230929145418](/zet/20230929145418/README.md) fsdb project - file based database for partitioning and event sourced data
+  - fixed this with a find command instead of ls the zet directory in zkvr graphbrowser
 
 ```
 ```
@@ -16,4 +17,4 @@
 
 Tags:
 
-    #idea
+    #broken #list

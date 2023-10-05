@@ -36,7 +36,6 @@
 - [20230930041018](/zet/20230930041018/README.md) fsdb future ideas
 - [20230930041146](/zet/20230930041146/README.md) fsdb developing ideas
 - [20230930042658](/zet/20230930042658/README.md) fsdb ingest subcommand notes
-- [20230930224454](/zet/20230930224454/README.md) problems encountered with zkvr while testing this environment
 - [20231001082012](/zet/20231001082012/README.md) automatically keeping track of changes to zkvr binaries
 - [20231001151606](/zet/20231001151606/README.md) hashcodes for fsdb partitioning
 - [20231001222624](/zet/20231001222624/README.md) test gzip append functionality
