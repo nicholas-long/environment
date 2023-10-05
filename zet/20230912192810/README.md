@@ -109,6 +109,7 @@ find $ZK_PATH -name '*.md' -type f -print0 | xargs -0 awk '
 - [20230928185603](/zet/20230928185603/README.md) script to print the content of markdown text within the heading level of a particular line
 - [20230928184621](/zet/20230928184621/README.md) markdown helper scripts
 - [20231005211810](/zet/20231005211810/README.md) script to sync only markdown files from zk to github
+- [20221011145143](/zet/20221011145143/README.md) bat command pretty printer
 
 Tags:
 
