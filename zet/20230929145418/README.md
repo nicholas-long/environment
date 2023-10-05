@@ -25,11 +25,6 @@
 - [20231003062001](/zet/20231003062001/README.md) fsdb use case - using as a set
 
 ## implementation
-- [ ] try optimizing ingest to use multiple processes and split work
-  - 2023-10-04 i have been ingesting hash data into fsdb for at least 14 hours, and it has only added about 6 million rows
-- [x] add timestamps before rows and change logic to account for that
-  - [20231003063630](/zet/20231003063630/README.md) adding timestamps to fsdb
-- [ ] search subcommand should accept, process, and use arguments if given instead of letting awk treat them as files
 - basic set of features / subcommands needed for database
   - initialize and set up number of partitions
   - search for one ID or multiple
@@ -71,6 +66,7 @@ BEGIN {
 - [20231004060725](/zet/20231004060725/README.md) fsdb missing functionality for set difference
 - [20231004133128](/zet/20231004133128/README.md) an optimized hashcode generator for partitioning work into multiple processes
 - [20230905015223](/zet/20230905015223/README.md) install scripts
+- [20231005062610](/zet/20231005062610/README.md) fsdb TODO items
 
 Tags:
 
