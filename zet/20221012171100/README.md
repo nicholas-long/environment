@@ -11,7 +11,6 @@ zet/20221012171100/README.md
 # Related
 
 - [20221012144502](/zet/20221012144502/README.md) track modification dates
-- [20231001151606](/zet/20231001151606/README.md) hashcodes for fsdb partitioning
 - [20231001222624](/zet/20231001222624/README.md) test gzip append functionality
 - [20231002021919](/zet/20231002021919/README.md) bloom filter for fsdb
 - [20231003021548](/zet/20231003021548/README.md) script to enumerate all files in an aws s3 bucket url recursively
@@ -25,6 +24,7 @@ zet/20221012171100/README.md
 - [20231005062610](/zet/20231005062610/README.md) fsdb TODO items
 - [20231005170329](/zet/20231005170329/README.md) hooks needed for fsdb
 - [20231005174423](/zet/20231005174423/README.md) testing reoptimize functionality
+- [20231005211810](/zet/20231005211810/README.md) script to sync only markdown files from zk to github
 
 Tags:
 

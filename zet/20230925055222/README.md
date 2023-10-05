@@ -13,12 +13,14 @@ zet/20230930042658/README.md:- [ ] i could make the number of rows before compre
 zet/20230930224454/README.md:- [ ] cannot edit a file within a nested directory
 zet/20231005062610/README.md:- [ ] implement bloom filter
 zet/20231005062610/README.md:- [ ] implement hooks
+zet/20231005211810/README.md:- [ ] implement github zk markdown sync script
 - [20230925193834](/zet/20230925193834/README.md) testing on mac os #idea
 - [20230927152827](/zet/20230927152827/README.md) reverse engineering obsidian to create an obsidian sync cli tool #program #command #reveng #util
 - [20230928133216](/zet/20230928133216/README.md) scripts to work with burpsuite saved requests and automatically generate python code #script #hacking #http
 - [20230930042658](/zet/20230930042658/README.md) fsdb ingest subcommand notes #idea
 - [20230930224454](/zet/20230930224454/README.md) problems encountered with zkvr while testing this environment #idea
 - [20231005062610](/zet/20231005062610/README.md) fsdb TODO items #idea #todo #list
+- [20231005211810](/zet/20231005211810/README.md) script to sync only markdown files from zk to github #idea #script
 ```
 
 - where can i find snippets?
