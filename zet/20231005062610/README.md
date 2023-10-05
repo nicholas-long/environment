@@ -25,6 +25,7 @@
 - [20230930041146](/zet/20230930041146/README.md) fsdb developing ideas
 - [20231002021919](/zet/20231002021919/README.md) bloom filter for fsdb
 - [20231005170329](/zet/20231005170329/README.md) hooks needed for fsdb
+- [20230930041018](/zet/20230930041018/README.md) fsdb future ideas
 
 Tags:
 
