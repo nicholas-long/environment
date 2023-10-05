@@ -8,6 +8,9 @@
   - with md5s, the partitions will spread themselves out automatically
   - but with numbers, adding the digits is terrible.
   - therefore, hashcodes need to be made by adding and multiplying.
+- program to print hashcodes compiled to `zet/20230929145418/subcommands/hashcode-optimized`
+  - [20231004133128](/zet/20231004133128/README.md) an optimized hashcode generator for partitioning work into multiple processes
+  - works as a subcommand `hashcode-optimized`
 
 - testing fsdb database with hashes from test data
 ```bash
