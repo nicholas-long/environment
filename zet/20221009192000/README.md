@@ -7,6 +7,7 @@ a script will check to see if the ID numbers appear on the main README.
 ```
 Missing:
 Extra:
+- [20221012171100](/zet/20221012171100/README.md) recently created nodes hub #hub
 ```
 
 ` zet/20221009192000/README.md `
@@ -44,6 +45,7 @@ Extra:
 - [20230928175625](/zet/20230928175625/README.md) ssh keygen automated expect script to generate a public and private key pair
 - [20230928185944](/zet/20230928185944/README.md) script to package up program and debian dependencies a tar to install on a remote target machine
 - [20230929145418](/zet/20230929145418/README.md) fsdb project - file based database for partitioning and event sourced data
+- [20231005213930](/zet/20231005213930/README.md) list of cards in order
 
 Tags:
 

@@ -44,10 +44,13 @@
 
 # navigation links
 
+- [20231005213930](/zet/20231005213930/README.md) list of cards in order #meta #list
+
 ## search by [tags](/tagindex/)
 
 ## hubs
 
+- [20221012171100](/zet/20221012171100/README.md) recently created nodes hub
 - [todo list #hub](/zet/20221007044552/README.md)
   - [todo](/zet/20221003150098/README.md)
   - [20221101052020](/zet/20221101052020/README.md) TODO: Your to-do list #todo #list #me #hub
