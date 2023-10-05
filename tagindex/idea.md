@@ -46,3 +46,4 @@
 - [20231004133128](/zet/20231004133128/README.md) an optimized hashcode generator for partitioning work into multiple processes
 - [20231005062610](/zet/20231005062610/README.md) fsdb TODO items
 - [20231005170329](/zet/20231005170329/README.md) hooks needed for fsdb
+- [20231005174423](/zet/20231005174423/README.md) testing reoptimize functionality
