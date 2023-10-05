@@ -12,9 +12,9 @@ name: zc
 - for scripting
   - [20221013221136](/zet/20221013221136/README.md) graph query language
 - installing command shortcut to zc - useful for vim filters and as CLI
-    - `echo "$(pwd)/zc \$@" > ~/.local/bin/z`
-      - make sure `$HOME/.local/bin` is in your path
-      - still trying to figure out this shortcut since it's not perfect
+  - `echo "$(pwd)/zc \$@" > ~/.local/bin/z`
+    - make sure `$HOME/.local/bin` is in your path
+    - still trying to figure out this shortcut since it's not perfect
 
 - dependencies
   - vim or nvim

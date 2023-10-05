@@ -1,4 +1,3 @@
-- [20221012144502](/zet/20221012144502/README.md) track modification dates
 - [20221013221136](/zet/20221013221136/README.md) graph query language for zettelkasten
 - [20221014025416](/zet/20221014025416/README.md) clone a subsection of a graph by tag boundaries
 - [20221014074318](/zet/20221014074318/README.md) important choices of tech stack
