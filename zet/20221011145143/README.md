@@ -1,11 +1,17 @@
 # bat command pretty printer
 
-- the command `bat`
+- the command `bat` - useful for previewing markdown
 - https://github.com/sharkdp/bat
-- included release package in this directory
-  - update with new versions
 - 2023-09-22 install bat from github release pages now with environment install scripts
   - [20230907151050](/zet/20230907151050/README.md) bat interactive install script
+  - 2023-10-05 removing binary from attachments here
+- powers zkvr UI window
+  - [20221013021614](/zet/20221013021614/README.md) zkvr terminal graph browser
+- powers markdown searching scripts
+  - [20230912192810](/zet/20230912192810/README.md) script to search zk markdown in command line
+- formerly had problems with automatically installing in environments
+  - [20230905021249](/zet/20230905021249/README.md) the issue with installing bat
+  - fixed by [new script](/zet/20230907151050/README.md) - bat interactive install script
 
 ```
 ```
@@ -20,6 +26,7 @@
 - [20230905021249](/zet/20230905021249/README.md) the issue with installing bat
 - [20230907151050](/zet/20230907151050/README.md) bat interactive install script
 - [20230922203837](/zet/20230922203837/README.md) get rid of all platform specific binaries from zkvr
+- [20230912192810](/zet/20230912192810/README.md) script to search zk markdown in command line
 
 Tags:
 
