@@ -91,6 +91,7 @@ NR % 100000 == 0 {
 - [20230929145418](/zet/20230929145418/README.md) fsdb project - file based database for partitioning and event sourced data
 - [20231001151606](/zet/20231001151606/README.md) hashcodes for fsdb partitioning
 - [20231004133128](/zet/20231004133128/README.md) an optimized hashcode generator for partitioning work into multiple processes
+- [20231005170329](/zet/20231005170329/README.md) hooks needed for fsdb
 
 Tags:
 

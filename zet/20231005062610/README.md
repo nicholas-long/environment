@@ -7,7 +7,9 @@
   - [20231003063630](/zet/20231003063630/README.md) adding timestamps to fsdb
 - [x] search subcommand should accept, process, and use arguments if given instead of letting awk treat them as files
 - [ ] implement hooks
+  - [20231005170329](/zet/20231005170329/README.md) hooks needed for fsdb
 - [ ] implement bloom filter
+  - [20231002021919](/zet/20231002021919/README.md) bloom filter for fsdb
 
 ```
 ```
@@ -20,6 +22,8 @@
 - [20221008042814](/zet/20221008042814/README.md) WIP
 - [20221012171100](/zet/20221012171100/README.md) recently created nodes hub
 - [20230930041146](/zet/20230930041146/README.md) fsdb developing ideas
+- [20231002021919](/zet/20231002021919/README.md) bloom filter for fsdb
+- [20231005170329](/zet/20231005170329/README.md) hooks needed for fsdb
 
 Tags:
 
