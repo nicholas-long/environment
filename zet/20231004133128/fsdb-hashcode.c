@@ -19,6 +19,7 @@ int get_line(int partitions) {
     }
     switch (c) {
     case ' ':
+    case EOF:
     case '\t':
     case '\n':
       if (parsingId) {
@@ -27,7 +28,7 @@ int get_line(int partitions) {
         printf("%d\t%s", hashcode, buf); // print line
         parsingId = 0;
       }
-      putc(c, stdout);
+      if (c != EOF) putc(c, stdout);
       break;
     default:
       if ( parsingId ) {
