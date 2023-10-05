@@ -5,6 +5,7 @@
 - store here for symlinks
 - 2023-09-22 i looks like i didn't actually get around to using yq in queries, so i didn't tie zkvr to a particular architecture by including the amd binaries.
 - i have things in the install scripts now that could install this interactively and let the user pick the architecture
+- 2023-10-05 because of the above, i am deleting the binaries in favor of install scripts
 
 ```
 
