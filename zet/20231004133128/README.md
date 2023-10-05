@@ -10,17 +10,19 @@
   - new subcommand `load` runs multiple processes to split up the lines
   - new ingest script `ingest-opt` uses provided hashcode and runs as subcommand.
     - runs as multiple subprocesses of `load` command.
+- this optimization has greatly improved the performance of loading data.
+  - the performance increase might only be because now it is compressing partitions with multiple processes
+  - all CPU cores are fully utilized
+- after this change, fsdb can load roughly 30 million rows of real data per hour with a 12 core machine on a SSD
 
-- test program
-```bash
-gcc fsdb-hashcode.c -o program && partitions=10 ./program
-
-gcc zet/20231004133128/fsdb-hashcode.c -o zet/20230929145418/subcommands/hashcode-optimized
-```
+- compile command
+  - included in build script
+  ```bash
+  gcc zet/20231004133128/fsdb-hashcode.c -o zet/20230929145418/subcommands/hashcode-optimized
+  ```
 
 - test awk code to strip out part before tab
 ```bash
-
 echo $'before\tafter' | awk '
 {
   gsub(/^[^\t]+\t/, "")
