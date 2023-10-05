@@ -5,6 +5,7 @@
 - i tried pasting the grep results togeher with the graphquery results, but that didn't work because the graphquery only returns unique results.
 
 ```markdown
+zet/20230922051930/README.md:- [ ] create script to automatically select version based on architecture and informatin from `uname -a`
 zet/20230925193834/README.md:- [ ] adding and deleting tags doesn't work
 zet/20230925193834/README.md:- [ ] unlinking documents doesn't work
 zet/20230927152827/README.md:- [ ] figure out why login doesn't work and return a token
@@ -13,6 +14,7 @@ zet/20230930042658/README.md:- [ ] i could make the number of rows before compre
 zet/20231005062610/README.md:- [ ] implement bloom filter
 zet/20231005062610/README.md:- [ ] implement hooks
 zet/20231005211810/README.md:- [ ] implement github zk markdown sync script
+- [20230922051930](/zet/20230922051930/README.md) lazygit interactive install script #script #git #install
 - [20230925193834](/zet/20230925193834/README.md) testing on mac os #idea
 - [20230927152827](/zet/20230927152827/README.md) reverse engineering obsidian to create an obsidian sync cli tool #program #command #reveng #util
 - [20230928133216](/zet/20230928133216/README.md) scripts to work with burpsuite saved requests and automatically generate python code #script #hacking #http

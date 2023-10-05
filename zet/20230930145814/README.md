@@ -61,6 +61,7 @@ lscpu |  awk '/Architecture/ { print $2 }' | awk '
 - [20230922220109](/zet/20230922220109/README.md) create a dockerfile for this environment
 - [20230905184854](/zet/20230905184854/README.md) prerequesites for environment
 - [20230907151050](/zet/20230907151050/README.md) bat interactive install script
+- [20230922051930](/zet/20230922051930/README.md) lazygit interactive install script
 
 Tags:
 

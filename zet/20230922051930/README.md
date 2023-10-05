@@ -2,6 +2,8 @@
 
 - concept of `lazygit interactive install script`
 - https://github.com/jesseduffield/lazygit
+- [ ] create script to automatically select version based on architecture and informatin from `uname -a`
+- linux vs darwin: `uname` returns `Linux` on linux
 
 ```bash
 ┌──(coyote㉿netbook3)-[~/environment/zet/20230922051930]
@@ -36,6 +38,7 @@ tar -xzvf lazygit_0.40.2_Linux_x86_64.tar.gz
 - [20230905015223](/zet/20230905015223/README.md) install scripts
 - [20230905210416](/zet/20230905210416/README.md) fast file manager fff
 - [20230925193834](/zet/20230925193834/README.md) testing on mac os
+- [20230930145814](/zet/20230930145814/README.md) determining cpu version for install
 
 Tags:
 
