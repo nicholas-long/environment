@@ -6,6 +6,8 @@
   - [20230930041018](/zet/20230930041018/README.md) fsdb future ideas
 - run build script `build-fsdb` to build optimized components.
   - i tried to make the whole thing with just scripts, but it is just too slow to handle billions of rows.
+- fsdb can load roughly 30 million rows of real data per hour with a 12 core machine on a SSD
+  - [20231004133128](/zet/20231004133128/README.md) an optimized hashcode generator for partitioning work into multiple processes
 
 ## how data is stored
 - the first field of the data is regarded as an ID
@@ -25,6 +27,7 @@
 - [20231003062001](/zet/20231003062001/README.md) fsdb use case - using as a set
 
 ## implementation
+- [20231005062610](/zet/20231005062610/README.md) fsdb TODO items
 - basic set of features / subcommands needed for database
   - initialize and set up number of partitions
   - search for one ID or multiple
