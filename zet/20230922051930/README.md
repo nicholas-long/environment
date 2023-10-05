@@ -3,7 +3,7 @@
 - concept of `lazygit interactive install script`
   - `zet/20230922051930/install-lazygit-interactive`
 - https://github.com/jesseduffield/lazygit
-- [ ] create script to automatically select version based on architecture and informatin from `uname -a`
+- [x] create script to automatically select version based on architecture and informatin from `uname -a`
 - linux vs darwin
   - `uname` returns `Linux` on linux
   - `uname` returns `Darwin` on mac os terminal
