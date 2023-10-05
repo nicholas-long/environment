@@ -1,0 +1,13 @@
+#!/bin/bash
+
+export platform=$(uname)
+export desired_arch=$( lscpu |  awk '/Architecture/ { print $2 }' | awk '
+  /aarch/ { print "arm64" } # test this
+  /arm.*64/ { print "arm64" } # test this
+  /x.*64/ { print "x86_64" }
+  /arm.*v6/ { print "armv6" } # test this
+' )
+
+zet/20230905030303/github-latest-files https://github.com/jesseduffield/lazygit | awk '
+$1 ~ ENVIRON["platform"] && $1 ~ ENVIRON["desired_arch"] { print $2 }
+'

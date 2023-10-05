@@ -1,9 +1,13 @@
 # lazygit interactive install script
 
 - concept of `lazygit interactive install script`
+  - `zet/20230922051930/install-lazygit-interactive`
 - https://github.com/jesseduffield/lazygit
 - [ ] create script to automatically select version based on architecture and informatin from `uname -a`
-- linux vs darwin: `uname` returns `Linux` on linux
+- linux vs darwin
+  - `uname` returns `Linux` on linux
+  - `uname` returns `Darwin` on mac os terminal
+- 2023-10-05 version selector script `zet/20230922051930/lazygit-version-selector`
 
 ```bash
 ┌──(coyote㉿netbook3)-[~/environment/zet/20230922051930]

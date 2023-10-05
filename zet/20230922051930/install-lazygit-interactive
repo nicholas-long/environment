@@ -7,12 +7,21 @@ if which brew 2>/dev/null >/dev/null; then
   brew install lazygit # that was easy
   exit 0
 fi
-downloadurl=$(zet/20230905030303/github-latest-files https://github.com/jesseduffield/lazygit | \
-  fzf --preview=lscpu "--prompt=select version of lazygit for your cpu> " | \
-  awk '{print $2}')
+
+# attempt to use version selector to select url first
+versionurl=$(zet/20230922051930/lazygit-version-selector)
+if [ $(echo $versionurl | wc -l | awk '{print 1}') -eq 1 ]; then
+  downloadurl="$versionurl"
+else
+  downloadurl=$(zet/20230905030303/github-latest-files https://github.com/jesseduffield/lazygit | \
+    fzf --preview=lscpu "--prompt=select version of lazygit for your cpu> " | \
+    awk '{print $2}')
+fi
+
 if [ -z "$downloadurl" ]; then
   exit 1
 fi
+
 tf=$(mktemp -d)
 cd "$tf"
 wget $downloadurl
