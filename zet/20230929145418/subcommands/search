@@ -10,6 +10,19 @@ BEGIN {
   partcount = ENVIRON["partitions"]
   print "using", partcount, "partitions" > "/dev/stderr"
   #hasingesthook = (system("test -e hooks/ingest") == 0)
+  # if arguments are passed in, use them as IDs to search for instead of reading input
+  if (ARGC > 1) {
+    for (i = 1; i < ARGC; i++) { # ARGC is 0 indexed and index 0 is the program
+      id = ARGV[i]
+      hashcode = 0
+      for (n = 1; n <= length(id); n++) hashcode += n * ord[substr(id,n,1)]
+      part = hashcode % partcount
+      partusing[part] = 1
+      ids[id] = 1
+    }
+    ARGC = 0
+    exit 0 # skip to END
+  }
 }
 # parse each input line as an ID to read
 {

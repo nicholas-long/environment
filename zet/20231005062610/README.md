@@ -5,7 +5,7 @@
   - [20231004133128](/zet/20231004133128/README.md) an optimized hashcode generator for partitioning work into multiple processes
 - [x] add timestamps before rows and change logic to account for that
   - [20231003063630](/zet/20231003063630/README.md) adding timestamps to fsdb
-- [ ] search subcommand should accept, process, and use arguments if given instead of letting awk treat them as files
+- [x] search subcommand should accept, process, and use arguments if given instead of letting awk treat them as files
 - [ ] implement hooks
 - [ ] implement bloom filter
 
