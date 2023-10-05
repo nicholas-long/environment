@@ -25,6 +25,7 @@
 - [20230930042658](/zet/20230930042658/README.md) fsdb ingest subcommand notes
 - [20231001151606](/zet/20231001151606/README.md) hashcodes for fsdb partitioning
 - [20231002021919](/zet/20231002021919/README.md) bloom filter for fsdb
+- [20231005062610](/zet/20231005062610/README.md) fsdb TODO items
 
 Tags:
 

@@ -20,7 +20,6 @@
 
 - [20230922214602](/zet/20230922214602/README.md) things i want to implement in zkvr after working on the environment
 - [20221008063052](/zet/20221008063052/README.md) autorunning scripts in cards
-- [20221012171100](/zet/20221012171100/README.md) recently created nodes hub
 - [20231001000026](/zet/20231001000026/README.md) script to find the minimum required set of dependent zettels to ship a scripting project
 - [20221008061845](/zet/20221008061845/README.md) workflow
 - [20221013021614](/zet/20221013021614/README.md) zkvr terminal graph browser
