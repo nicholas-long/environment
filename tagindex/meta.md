@@ -2,3 +2,4 @@
 - [20221028172836](/zet/20221028172836/README.md) old dockerfile for testing zkvr with vim and tmux config
 - [20230929024225](/zet/20230929024225/README.md) meta note related scripts
 - [20231001090029](/zet/20231001090029/README.md) find things missing tags
+- [20231005213930](/zet/20231005213930/README.md) list of cards in order

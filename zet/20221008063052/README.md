@@ -15,6 +15,7 @@ zet/20221026064448/autoexec_enrich
 zet/20230905160850/autoexec_enrich
 zet/20230925055222/autoexec_enrich
 zet/20231001082012/autoexec_enrich
+zet/20231005213930/autoexec_enrich
 ```
 
 ` zet/20221008063052/README.md `
@@ -29,6 +30,7 @@ zet/20231001082012/autoexec_enrich
 - [20230905160850](/zet/20230905160850/README.md) directory for executable short commands to run on path
 - [20230925055222](/zet/20230925055222/README.md) list of unfinished todo items
 - [20231001082012](/zet/20231001082012/README.md) automatically keeping track of changes to zkvr binaries
+- [20231005213930](/zet/20231005213930/README.md) list of cards in order
 
 Tags:
 

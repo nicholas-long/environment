@@ -15,3 +15,4 @@
 - [20230930041146](/zet/20230930041146/README.md) fsdb developing ideas
 - [20230930224454](/zet/20230930224454/README.md) problems encountered with zkvr while testing this environment
 - [20231005062610](/zet/20231005062610/README.md) fsdb TODO items
+- [20231005213930](/zet/20231005213930/README.md) list of cards in order
