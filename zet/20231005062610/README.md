@@ -6,6 +6,7 @@
 - [x] add timestamps before rows and change logic to account for that
   - [20231003063630](/zet/20231003063630/README.md) adding timestamps to fsdb
 - [x] search subcommand should accept, process, and use arguments if given instead of letting awk treat them as files
+- [ ] recompress - rewrite all compressed streams as continuous gzip streams to optimize space
 - [ ] implement hooks
   - [20231005170329](/zet/20231005170329/README.md) hooks needed for fsdb
 - [ ] implement bloom filter

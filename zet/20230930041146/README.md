@@ -2,13 +2,8 @@
 
 - put ideas not essential for basic implementation in [20230930041018](/zet/20230930041018/README.md) fsdb future ideas
 - can test compressing files when things are running by writing a python script to keep file(s) open for testing
-- data is stored in partition files named after the partition number
-  - so if you use it with sequential IDs, it will partition reasonably
-- can gawk keep indefinite numbers of files open? i had an implementation to only write a certain number at a time. i could bring that over to here.
-- i like that there's a basic set of ideas here to get a database working, and extra features like bloom filters and indexing things or looking things up by timestamps can be handled by a separate database
-  - call something like `ingest_hook` in the database to pass in duplicate data if such a program exists
-  - something like `search_hook` called before searches, can filter things out
-- hashcodes [20231001151606](/zet/20231001151606/README.md) hashcodes for fsdb project
+- i like that there's currently a basic set of ideas here to get a database working, and extra features like bloom filters can be handled by separate code
+  - [20231005170329](/zet/20231005170329/README.md) hooks needed for fsdb
 
 ### subcommand implementation
 - subcommand directory

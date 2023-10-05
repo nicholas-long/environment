@@ -1,7 +1,9 @@
 # hooks needed for fsdb
 
 - hooks when ingesting to add IDs to the bloom filter
+  - call something like `ingest_hook` in the database to pass in duplicate data if such a program exists
 - hooks when searching to return early for specific IDs
+  - something like `search_hook` called before searches, can filter things out
 
 ```
 ```

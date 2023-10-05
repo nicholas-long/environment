@@ -12,6 +12,9 @@
   - when i used this type of database to store billions of hashes, i split the ingesting into a bunch of processes that were all receiving data.
     - each one was responsible for its own set of partitions - they should never attempt to access the same set of files
   - [20231004133128](/zet/20231004133128/README.md) an optimized hashcode generator for partitioning work into multiple processes
+- can gawk keep indefinite numbers of files open?
+  - i had an implementation to only write a certain number of files at a time with an MRU set that i brought over to here.
+- [ ] i could make the number of rows before compressing configurable. i might be able to speed up ingesting data if there is less compressing happening.
 
 ## debugging
 ```

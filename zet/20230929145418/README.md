@@ -15,8 +15,12 @@
   - a compressed file holds all existing data
   - an uncompressed file holds recently added data.
     - this data can be compressed and appended to the compressed file periodically as data is inserted so the overall size of the database doesn't grow too fast
-- should store a timestamp with each row
+  - data is stored in partition files named after the partition number
+- optionally store a timestamp with each row
+  - [timestamps in fsdb](/zet/20231003063630/README.md)
   - should ignore it when printing unless provided with a command line option to print timestamp?
+  - initialize database with `-t` to enable timestamps
+  - search for timestamps using `searchtime` subcommand
 - [20230930040657](/zet/20230930040657/README.md) fsdb file structure
 - bloom filter could be optional feature implemented with hooks
   - [20231002021919](/zet/20231002021919/README.md) bloom filter for fsdb
@@ -25,6 +29,7 @@
 - [20231003212610](/zet/20231003212610/README.md) example of using fsdb as a lookup table
   - can use as large lookup table like dynamo db
 - [20231003062001](/zet/20231003062001/README.md) fsdb use case - using as a set
+- join with another file or stream piped to standard input. this is possible if the ID is the first column.
 
 ## implementation
 - [20231005062610](/zet/20231005062610/README.md) fsdb TODO items
