@@ -24,6 +24,7 @@ zet/20221012171100/README.md
 - [20231005174423](/zet/20231005174423/README.md) testing reoptimize functionality
 - [20231005211810](/zet/20231005211810/README.md) script to sync only markdown files from zk to github
 - [20231005213930](/zet/20231005213930/README.md) list of cards in order
+- [20231006185420](/zet/20231006185420/README.md) awk and bash fzf scripts
 
 Tags:
 

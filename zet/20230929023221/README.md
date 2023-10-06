@@ -24,6 +24,7 @@ passive option here
 - [20230921220840](/zet/20230921220840/README.md) list of kb scripts that i could decide whether to copy over
 - [20221013021614](/zet/20221013021614/README.md) zkvr terminal graph browser
 - [20221006032546](/zet/20221006032546/README.md) my original implementation of zet cmd
+- [20231006185420](/zet/20231006185420/README.md) awk and bash fzf scripts
 
 Tags:
 

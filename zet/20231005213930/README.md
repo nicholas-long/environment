@@ -169,6 +169,7 @@
 20231005174423 testing reoptimize functionality
 20231005211810 script to sync only markdown files from zk to github
 20231005213930 list of cards in order
+20231006185420 awk and bash fzf scripts
 ```
 
 ` zet/20231005213930/README.md `

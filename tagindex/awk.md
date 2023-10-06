@@ -4,3 +4,4 @@
 - [20230928173645](/zet/20230928173645/README.md) live ssh perimeter defense script with colorized login attempts and shodan lookup
 - [20230929054848](/zet/20230929054848/README.md) awk script to get column headings from the first line of CSV
 - [20230929064428](/zet/20230929064428/README.md) script to check for BEGINFILE usage in awk scripts requiring change to gawk
+- [20231006185420](/zet/20231006185420/README.md) awk and bash fzf scripts
