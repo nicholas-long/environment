@@ -7,7 +7,8 @@
 - `get-burp-http-saved-request.sh` - get raw HTTP request data from burp saved request
 - [x] add error handling if go is not installed - i installed go instead
 - [x] update references within files to point within here
-- [ ] test the new version
+- [x] test the new version
+- [ ] implement json post - right now returns broken code and only works for url encoded
 
 ```bash
 /home/parallels/kb/hacking/scripts/get-burp-http-saved-request.sh # get raw HTTP request data from burp saved request
