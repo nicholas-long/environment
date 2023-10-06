@@ -1,32 +1,30 @@
 # functions to copy over and possibly remake as commands
 
 - from https://github.com/nicholas-long/pen-test-environ/blob/main/functions.sh
-- [ ] check this out and find any good ones
+- [x] check this out and find any good ones
 
 ```bash
-# aliases for quick shell commands
-
-# productivity boosts
-alias startnotes="nvim -c ':split' -c ':e scratch.md' notes.md"
-alias s='nvim scratch.md'
-alias vars='nvim ~/variables.sh && source ~/variables.sh'
 
 # helpful info scripts
-alias k='~/tmux-scripts/searchmarkdown.sh -q "^# " ~/kb'
-alias kc='~/tmux-scripts/searchmarkdown.sh -c -q "^# " ~/kb'
-alias payl='~/tmux-scripts/searchmarkdown.sh -q "^#\+ " ~/PayloadsAllTheThings'
-alias ht='~/tmux-scripts/searchmarkdown.sh -q "^# " ~/hacktricks'
-alias gtfo='~/tmux-scripts/gtfobins.sh'
 alias common='bat --style=plain --paging=never ~/kb/hacking/common-commands.md'
-alias ttl='~/tmux-scripts/markdown-vivid.sh ~/kb/hacking/to-try-list.md'
-alias exploits='~/tmux-scripts/search-fzf-sploit.sh'
 alias ssh_perimeter='~/kb/bash-scripting/watch-failed-ssh-logins-live-check-shodan.sh'
-alias tl='~/kb/bash-scripting/search-tldr-commands-text.sh'
 
 # helpful commands
-alias http='python3 -m http.server'
 alias bc='sudo bettercap -autostart events.stream,net.recon,net.sniff,net.probe,arp.spoof,any.proxy'
 alias ocrurl='~/kb/bash-scripting/copy-text-from-image-url.sh'
+
+# left for reference but dont copy below this line
+#--------------------------------------------------------------------------------
+alias ttl='~/tmux-scripts/markdown-vivid.sh ~/kb/hacking/to-try-list.md'
+alias tl='~/kb/bash-scripting/search-tldr-commands-text.sh'
+alias gtfo='~/tmux-scripts/gtfobins.sh'
+
+# this sounds like a good idea in theory, but it is so useless and returns way too much old shit to actually help find anything
+alias exploits='~/tmux-scripts/search-fzf-sploit.sh'
+
+# combine these to search hacktricks and payloads? or a menu?
+alias ht='~/tmux-scripts/searchmarkdown.sh -q "^# " ~/hacktricks'
+alias payl='~/tmux-scripts/searchmarkdown.sh -q "^#\+ " ~/PayloadsAllTheThings'
 
 ```
 
