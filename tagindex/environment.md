@@ -1,1 +1,2 @@
 - [20230905184854](/zet/20230905184854/README.md) prerequesites for environment
+- [20230922222627](/zet/20230922222627/README.md) testing environment on netbook

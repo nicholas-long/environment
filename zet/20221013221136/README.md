@@ -55,4 +55,4 @@ ln -s zet/20221013221136/graphquery ./graphquery
 
 Tags:
 
-    #idea #todo
+    #done #graph #command

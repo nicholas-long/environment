@@ -1,4 +1,5 @@
 - [20221025024238](/zet/20221025024238/README.md) enumerate tags
+- [20230928185057](/zet/20230928185057/README.md) bash self parsing code
 - [20230929024545](/zet/20230929024545/README.md) scripts for linux tricks
 - [20230929153242](/zet/20230929153242/README.md) natural language processing libraries
 - [20231003062001](/zet/20231003062001/README.md) fsdb use case - using as a set

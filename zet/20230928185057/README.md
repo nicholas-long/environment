@@ -38,4 +38,4 @@ cp /home/parallels/kb/bash-scripting/self-parsing-code-function-names.sh .
 
 Tags:
 
-    #idea
+    #bash #trick #scripting

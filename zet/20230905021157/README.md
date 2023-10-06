@@ -34,4 +34,4 @@ sudo cp fff /usr/bin
 
 Tags:
 
-    #idea
+    #DEL #log

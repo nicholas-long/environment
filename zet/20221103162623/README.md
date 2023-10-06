@@ -2,6 +2,8 @@
 
 - concept of `move zetcmd to wrapper CLI`
 - remove fzf subcommands from CLI
+- 2023-10-06 at this point i would like to move all the command line zet parts and graph browser into a subcommand implementation
+  - but i am not very interested in developing that project much further. maybe i can use zkvr with some simple github compatible zk implementations
 
 ```
 ```
@@ -16,4 +18,4 @@
 
 Tags:
 
-    #idea
+    #enhancement #cleanup

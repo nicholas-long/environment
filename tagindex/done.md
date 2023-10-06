@@ -1,1 +1,2 @@
 - [20221009095853](/zet/20221009095853/README.md) finished
+- [20221013221136](/zet/20221013221136/README.md) graph query language for zettelkasten

@@ -1,2 +1,3 @@
 - [20221028173620](/zet/20221028173620/README.md) yq binaries
 - [20230928175049](/zet/20230928175049/README.md) pwntools template binary exploit script
+- [20230928185057](/zet/20230928185057/README.md) bash self parsing code

@@ -1,0 +1,1 @@
+- [20230905021157](/zet/20230905021157/README.md) log of commands run to set up previous environment
