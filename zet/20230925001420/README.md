@@ -55,6 +55,7 @@ zet/20230925001420/ubuntu-docker-build-environment.sh references executable file
 - [20230921220633](/zet/20230921220633/README.md) list of cool ideas i still want to implement in my environment
 - [20230928164014](/zet/20230928164014/README.md) dockerfile templates
 - [20230928193054](/zet/20230928193054/README.md) docker reverse shell testing project
+- [20231006185420](/zet/20231006185420/README.md) awk fzf scripts
 
 Tags:
 
