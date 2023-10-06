@@ -282,7 +282,7 @@ while [ 1 == "$going" ]; do
       sleep 2
     fi
   elif [ "$act" == "copy..." ]; then
-    zet/$MYID/getcopycontent "$doc" | fzf --tac '--prompt=tab select many :' -m | tmux loadb -
+    ( zet/$MYID/getcopycontent "$doc" && zet/20231004044241/url-scrape "$doc" ) | fzf --tac '--prompt=tab select many :' -m | tmux loadb -
   elif [ "$act" == "copypath" ]; then
     echo -n "$doc" | tmux loadb -
     echo "copied $doc"
