@@ -18,4 +18,4 @@ cp /home/parallels/kb/tmux/tmux-script-log.sh .
 
 Tags:
 
-    #idea #script
+    #script #tmux #log

@@ -21,4 +21,4 @@ cp zet/20221105220915/action.yaml .github/workflows/todo.yml
 
 Tags:
 
-    #idea #program #feature #cron #zet
+    #program #feature #cron #zet

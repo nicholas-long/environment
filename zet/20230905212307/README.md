@@ -1,4 +1,4 @@
-# important things from install scripts
+# important things from old install scripts
 
 - concept of `important things from install scripts`
 - [x] fff
@@ -45,4 +45,4 @@ echo "install bat - disabled"
 
 Tags:
 
-    #idea
+    #list #install #DEL

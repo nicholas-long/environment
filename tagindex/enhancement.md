@@ -1,2 +1,3 @@
 - [20221024215216](/zet/20221024215216/README.md) future enhancements to graph query language
 - [20221103162623](/zet/20221103162623/README.md) move zetcmd to wrapper CLI and remove fzf subcommands from CLI
+- [20230906043752](/zet/20230906043752/README.md) make it easy to work with and source this file from vim

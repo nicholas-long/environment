@@ -46,7 +46,7 @@ ln -s zet/20230905015223/install-environment ./install
 
 # Related
 
-- [20230905212307](/zet/20230905212307/README.md) important things from install scripts
+- [20230905212307](/zet/20230905212307/README.md) important things from old install scripts
 - [20230905212316](/zet/20230905212316/README.md) low priority or optional things from install scripts
 - [20230905015028](/zet/20230905015028/README.md) dotfiles hub
 - [20230905020305](/zet/20230905020305/README.md) symlinks needed for install script

@@ -11,4 +11,5 @@
 - [20230925180815](/zet/20230925180815/README.md) password scripts hub
 - [20230928171946](/zet/20230928171946/README.md) data analysis scripting hub
 - [20230928191243](/zet/20230928191243/README.md) privesc scripts and lists
+- [20230929153207](/zet/20230929153207/README.md) computer science experiments hub
 - [20231003022851](/zet/20231003022851/README.md) data engineering hub

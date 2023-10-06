@@ -1,1 +1,2 @@
 - [20230905021157](/zet/20230905021157/README.md) log of commands run to set up previous environment
+- [20230929055134](/zet/20230929055134/README.md) attempt to create script logs from tmux panes

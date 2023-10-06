@@ -1,2 +1,3 @@
+- [20230928175434](/zet/20230928175434/README.md) tandy project notes and scripts for old machine project
 - [20230929022947](/zet/20230929022947/README.md) script to get headings from wikipedia page
 - [20230929153242](/zet/20230929153242/README.md) natural language processing libraries

@@ -1,39 +1,19 @@
 # list of kb scripts that i could decide whether to copy over
 
-- this is definitely going to be an ongoing project. i think i should copy over the most interesting and useful scripts first, and copy the rest as needed.
-  - i should be able to locate that these scripts exist by name by searching within zkvr as needed
 - created script `zet/20230921220840/describe-script` to print the first comment it finds in scripts to help sorting these
-- i could just copy most of these in to a card here and fix up all the relative paths
-  - there are definitely like 100 scripts here. i think any ones that don't need a lot of cleanup can just be brought right in.
-  - is there a way to check with grep if the scripts contain a nested mess of references to other kb scripts?
-  - [20230923065000](/zet/20230923065000/README.md) determining which scripts have kb references using grep
-  - i could copy them to a card with the intent of storing them and updating them as needed.
-  - should tag cards i make from kb scripts with a tag to keep track of them
-  - could automatically generate cards with some content about each script using manually updated titles in here
-- [x] i need to look for non executable scripts as well
-- [x] i could definitely make a card to store wordlists
-- the collection of docker scripts will be converted and the issue will be tracked within that project's notes
-  - [20230925001420](/zet/20230925001420/README.md) cool docker scripts to migrate
-- git scripts converted
-  - [20230925050125](/zet/20230925050125/README.md) git scripting related hub
+- [20230923065000](/zet/20230923065000/README.md) determining which scripts have kb references using grep
+- i looked for non executable scripts as well
 - 2023-09-29 early AM - everything is converted!
+- 2023-10-06 now this card can serve to link together the old scripts
 
-# list of non-executable scripts
-- [x] finish going though this list
-
+# filtered list
 ```bash
-find ~/kb -type f -not -executable | grep -v '\.md$'
-# filtering the list to find some interesting files i might want to copy over
-/home/coyote/kb/.github/workflows/main.yml # example github workflow
-
 # used zet/20230921220840/describe-script to print headings, but lots of them had no comments
 # then went and manually worked on them
 # then moved them to be included in "filtered list" of everything to copy
 
-```
-
-# filtered list
-```bash
+# maybe
+/home/coyote/kb/.github/workflows/main.yml # example github workflow
 
 # done and converted
 /home/parallels/kb/awk-scripting/center.awk # center text within the terminal - i think i mgiht have converted this one already?
@@ -328,4 +308,4 @@ find ~/kb -type f -executable
 
 Tags:
 
-    #idea #list #script
+    #list #script

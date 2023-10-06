@@ -1,1 +1,3 @@
 - [20230906032330](/zet/20230906032330/README.md) ascii art splash screen
+- [20230928175434](/zet/20230928175434/README.md) tandy project notes and scripts for old machine project
+- [20230929153207](/zet/20230929153207/README.md) computer science experiments hub
