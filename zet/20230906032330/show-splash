@@ -1,14 +1,14 @@
 #!/bin/bash
 
-splashscreen="$ENVIRON_PATH/zet/20230906032330/splash"
+splashscreen="$ENVIRON_BASEPATH/zet/20230906032330/splash"
 cols=$(stty size | awk '{print $2}')
 
 if [ $cols -lt 70 ]; then
-  splashscreen="$ENVIRON_PATH/zet/20230906032330/splash-narrow"
+  splashscreen="$ENVIRON_BASEPATH/zet/20230906032330/splash-narrow"
 fi
 
 if which lolcat >/dev/null 2>/dev/null; then
-  $ENVIRON_PATH/zet/20230906050031/center-text "$splashscreen" | lolcat
+  $ENVIRON_BASEPATH/zet/20230906050031/center-text "$splashscreen" | lolcat
 else
-  $ENVIRON_PATH/zet/20230906050031/center-text "$splashscreen"
+  $ENVIRON_BASEPATH/zet/20230906050031/center-text "$splashscreen"
 fi
