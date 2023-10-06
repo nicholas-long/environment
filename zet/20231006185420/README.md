@@ -2,7 +2,9 @@
 
 - testing fzf menu functionality in awk and bash
 
-```
+```bash
+zet/20231006185420/testfzf.awk
+zet/20231006185420/testfzf.sh                                                                                         │
 ```
 
 ` zet/20231006185420/README.md `
