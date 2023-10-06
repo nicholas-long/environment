@@ -8,7 +8,7 @@ stuff i am working on.
 # Related
 
 - [20230925055222](/zet/20230925055222/README.md) list of unfinished todo items
-- [20221101043303](/zet/20221101043303/README.md) important features and workflow tricks to mention on main page
+- [20221101043303](/zet/20221101043303/README.md) important zkvr features and workflow tricks to mention on main page
 - [20221027011800](/zet/20221027011800/README.md) zetcli bash wrapper subcommand implementation
 - [20221006213953](/zet/20221006213953/README.md) video notes
 - [20221009192000](/zet/20221009192000/README.md) stuff to put on main page

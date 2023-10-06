@@ -70,7 +70,7 @@ zet/20221013021614/getcopycontent zet/20221013021614/README.md
 - [20221028172836](/zet/20221028172836/README.md) old dockerfile for testing zkvr with vim and tmux config
 - [20221009192000](/zet/20221009192000/README.md) stuff to put on main page
 - [20221025024238](/zet/20221025024238/README.md) enumerate tags
-- [20221101043303](/zet/20221101043303/README.md) important features and workflow tricks to mention on main page
+- [20221101043303](/zet/20221101043303/README.md) important zkvr features and workflow tricks to mention on main page
 - [20221014025416](/zet/20221014025416/README.md) clone a subsection of a graph by tag boundaries
 - [20221011145143](/zet/20221011145143/README.md) bat command pretty printer
 - [20221027011800](/zet/20221027011800/README.md) zetcli bash wrapper subcommand implementation

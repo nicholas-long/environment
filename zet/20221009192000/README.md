@@ -22,7 +22,7 @@ Extra:
 - [20221007044552](/zet/20221007044552/README.md) todo or to-try list
 - [20221009095853](/zet/20221009095853/README.md) finished
 - [20221031092923](/zet/20221031092923/README.md) template for video notes
-- [20221101043303](/zet/20221101043303/README.md) important features and workflow tricks to mention on main page
+- [20221101043303](/zet/20221101043303/README.md) important zkvr features and workflow tricks to mention on main page
 - [20221008063052](/zet/20221008063052/README.md) autorunning scripts in cards
 - [20221101052020](/zet/20221101052020/README.md) TODO: Your to-do list
 - [20230905015059](/zet/20230905015059/README.md) vim config

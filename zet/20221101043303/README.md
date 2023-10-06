@@ -1,4 +1,4 @@
-# important features and workflow tricks to mention on main page
+# important zkvr features and workflow tricks to mention on main page
 
 - TUI stuff
   - copy paste fuzzy tricks
@@ -31,4 +31,4 @@
 
 Tags:
 
-    #idea #list
+    #list #old

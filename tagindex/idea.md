@@ -1,4 +1,0 @@
-- [20221101043303](/zet/20221101043303/README.md) important features and workflow tricks to mention on main page
-- [20221105224810](/zet/20221105224810/README.md) launch browser to current card on github
-- [20230905212316](/zet/20230905212316/README.md) low priority or optional things from install scripts
-- [20230921220633](/zet/20230921220633/README.md) list of cool ideas i still want to implement in my environment

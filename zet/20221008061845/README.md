@@ -19,7 +19,7 @@ hub node for `workflow`
 - [20221008042814](/zet/20221008042814/README.md) WIP
 - [20221003150098](/zet/20221003150098/README.md) TODO
 - [20221007044552](/zet/20221007044552/README.md) todo or to-try list
-- [20221101043303](/zet/20221101043303/README.md) important features and workflow tricks to mention on main page
+- [20221101043303](/zet/20221101043303/README.md) important zkvr features and workflow tricks to mention on main page
 - [20230905210416](/zet/20230905210416/README.md) fast file manager fff
 - [20230913044318](/zet/20230913044318/README.md) tmux buffer edit hotkey script
 - [20230914030626](/zet/20230914030626/README.md) tmux pwn menu script for hacking reverse shells and file transfer commands

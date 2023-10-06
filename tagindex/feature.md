@@ -1,4 +1,5 @@
 - [20221105220915](/zet/20221105220915/README.md) add recurring timers using github cron actions
+- [20221105224810](/zet/20221105224810/README.md) launch browser to current card on github
 - [20231002021919](/zet/20231002021919/README.md) bloom filter for fsdb
 - [20231004060725](/zet/20231004060725/README.md) fsdb missing functionality for set difference
 - [20231005174423](/zet/20231005174423/README.md) testing reoptimize functionality

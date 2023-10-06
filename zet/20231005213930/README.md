@@ -31,7 +31,7 @@
 20221028172836 old dockerfile for testing zkvr with vim and tmux config
 20221028173620 yq binaries
 20221031092923 template for video notes
-20221101043303 important features and workflow tricks to mention on main page
+20221101043303 important zkvr features and workflow tricks to mention on main page
 20221101052020 TODO: Your to-do list
 20221103162623 move zetcmd to wrapper CLI and remove fzf subcommands from CLI
 20221105220915 add recurring timers using github cron actions

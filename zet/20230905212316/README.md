@@ -33,4 +33,4 @@ tldr -u
 
 Tags:
 
-    #idea #DEL
+    #DEL
