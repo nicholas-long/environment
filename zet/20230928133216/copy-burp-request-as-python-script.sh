@@ -57,6 +57,12 @@ if [ $method == "POST" ]; then
 postdata = $postdata
 r = requests.post(url, data=postdata, headers=headers, cookies=cookies)
 PYTHON
+  elif [ $ct == "application/json" ]; then
+    postdata=$( $ENVIRON_BASEPATH/zet/20230928133216/get-http-post-content.awk $http_request )
+    cat << PYTHON
+postjson = $postdata
+r = requests.post(url, json=postjson, headers=headers, cookies=cookies)
+PYTHON
   fi
 elif [ $method == "GET" ]; then
     cat << PYTHON
