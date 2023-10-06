@@ -6,9 +6,8 @@ if [ -z "$ENVIRON_PATH" ]; then # running from somewhere without the environment
     export ENVIRON_BASEPATH="."
   fi
 else # running from bashrc
-  echo "sourced the environment: $ENVIRON_PATH"
-  $ENVIRON_PATH/zet/20230906050031/center-text $ENVIRON_PATH/zet/20230906032330/splash
   export ENVIRON_BASEPATH="$ENVIRON_PATH"
+  $ENVIRON_BASEPATH/zet/20230906032330/show-splash
 fi
 
 # configure EDITOR environment variable so sudoedit and fff work
