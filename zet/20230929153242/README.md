@@ -5,6 +5,7 @@
 - testing spacy - complicated
 - testing pattern
 - https://stackabuse.com/python-for-nlp-introduction-to-the-pattern-library/
+  - need to install it and download some data first. get commands?
 
 ```bash
 ┌──(parallels㉿kali-linux-2022-2)-[~/environment/zet/20230929153242]
