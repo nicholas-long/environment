@@ -37,4 +37,4 @@ cp /home/coyote/kb/hacking/passwords/password_cracking_rules/OneRuleToRuleThemAl
 
 Tags:
 
-    #idea
+    #wordlist #password #hacking

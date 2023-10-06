@@ -2,4 +2,5 @@
 - [20221021071146](/zet/20221021071146/README.md) delete things marked as #DEL periodically
 - [20230912192810](/zet/20230912192810/README.md) script to search zk markdown in command line
 - [20230914030626](/zet/20230914030626/README.md) tmux pwn menu script for hacking reverse shells and file transfer commands
+- [20230922222809](/zet/20230922222809/README.md) getting rid of on-screen keyboard
 - [20231005211810](/zet/20231005211810/README.md) script to sync only markdown files from zk to github

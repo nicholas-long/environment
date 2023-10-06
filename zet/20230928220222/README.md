@@ -15,4 +15,4 @@ cp /home/parallels/kb/bash-scripting/get-current-ubuntu-distro.sh .
 
 Tags:
 
-    #idea
+    #script #linux #data

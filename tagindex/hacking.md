@@ -8,6 +8,7 @@
 - [20230925180416](/zet/20230925180416/README.md) print md5 of every line in a password wordlist
 - [20230928014124](/zet/20230928014124/README.md) script to extract an embedded file stream from a PDF
 - [20230928133216](/zet/20230928133216/README.md) scripts to work with burpsuite saved requests and automatically generate python code
+- [20230928164948](/zet/20230928164948/README.md) password cracking rules
 - [20230928173645](/zet/20230928173645/README.md) live ssh perimeter defense script with colorized login attempts and shodan lookup
 - [20230928175049](/zet/20230928175049/README.md) pwntools template binary exploit script
 - [20230928175625](/zet/20230928175625/README.md) ssh keygen automated expect script to generate a public and private key pair

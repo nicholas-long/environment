@@ -12,7 +12,7 @@ zet/20230928133216/README.md:- [ ] implement json post - right now returns broke
 zet/20230930042658/README.md:- [ ] i could make the number of rows before compressing configurable. i might be able to speed up ingesting data if there is less compressing happening.
 zet/20231005062610/README.md:- [ ] implement bloom filter
 zet/20231005062610/README.md:- [ ] implement hooks
-- [20230925193834](/zet/20230925193834/README.md) testing on mac os #idea
+- [20230925193834](/zet/20230925193834/README.md) testing on mac os #test #dotfiles
 - [20230927152827](/zet/20230927152827/README.md) reverse engineering obsidian to create an obsidian sync cli tool #program #command #reveng #util
 - [20230928133216](/zet/20230928133216/README.md) scripts to work with burpsuite saved requests and automatically generate python code #script #hacking #http
 - [20230930042658](/zet/20230930042658/README.md) fsdb ingest subcommand notes #idea

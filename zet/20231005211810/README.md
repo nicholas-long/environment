@@ -26,6 +26,7 @@ zet/20231005211810/sync-script /media/psf/zk https://github.com/nicholas-long/zk
 - [20221105222236](/zet/20221105222236/README.md) cron syntax
 - [20221009095853](/zet/20221009095853/README.md) finished
 - [20221008061845](/zet/20221008061845/README.md) workflow
+- [20230922222627](/zet/20230922222627/README.md) testing environment on netbook
 
 Tags:
 

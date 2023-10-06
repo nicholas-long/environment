@@ -19,4 +19,4 @@ cp /home/parallels/kb/linux/package-it-all.sh .
 
 Tags:
 
-    #idea #hacking #script #linux #program #apt
+    #hacking #script #linux #program #apt

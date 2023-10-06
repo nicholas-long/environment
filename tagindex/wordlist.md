@@ -1,1 +1,2 @@
 - [20230925052317](/zet/20230925052317/README.md) wordlists for pentesting
+- [20230928164948](/zet/20230928164948/README.md) password cracking rules
