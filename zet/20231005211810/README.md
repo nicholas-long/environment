@@ -8,6 +8,8 @@
 - env var `ZK_PATH` tells the path for the script to search markdown - intended to be optional so far
 - include in a cron
   - [20221105222236](/zet/20221105222236/README.md) cron syntax
+- this does not work on my macbook. the issue is that `cp` cannot copy files on a mac if they have some sort of extended attributes
+  - tried `-f` and `-R` and `-X`
 
 ```bash
 zet/20231005211810/sync-script /media/psf/zk https://github.com/nicholas-long/zkmirror
