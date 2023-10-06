@@ -14,11 +14,25 @@ tf=$(mktemp -d)
 
 git clone "$url" "$tf"
 
+cd "$zkpath"
+find . -type f -name '*.md' | sed 's_^\./__' | while read file; do
+  dir=$(echo "$file" | awk 'BEGIN { FS = OFS = "/" } { NF--; print }')
+  #echo "processing file $file in dir $dir"
+  mkdir -p "$tf/$dir"
+  cp "$zkpath/$file" "$tf/$file"
+done
+
+# debugging
+#echo "cd $tf"
+#exit 0
+
 # copy in all the files
-cp -r "$zkpath" "$tf"
-cd "$tf"
+#cp -r "$zkpath" "$tf"
+#cd "$tf"
 # delete anything not markdown or git internal files
-find . -type f | grep -v '\.md$' | grep -v '\.git' | xargs -I{} rm {}
+#find . -type f | grep -v '\.md$' | grep -v '\.git' | xargs -I{} rm {}
+
+cd "$tf"
 
 # if there's changes to commit
 if [[ $(git status --porcelain | wc -l | awk '{print $1}') != "0" ]]; then
@@ -27,4 +41,5 @@ if [[ $(git status --porcelain | wc -l | awk '{print $1}') != "0" ]]; then
   git push
 fi
 
+cd - >/dev/null
 rm -rf "$tf"
