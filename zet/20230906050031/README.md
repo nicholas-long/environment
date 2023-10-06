@@ -16,4 +16,4 @@ zet/20230906050031/center-text
 
 Tags:
 
-    #idea #script
+    #script #shortcmd

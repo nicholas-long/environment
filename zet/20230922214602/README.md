@@ -50,4 +50,4 @@ cp -r zet/20230925055222 ~/zkvr/zet/
 
 Tags:
 
-    #idea
+    #list

@@ -1,0 +1,1 @@
+- [20230927033258](/zet/20230927033258/README.md) debugging the markdown script on mac os

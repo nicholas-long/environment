@@ -62,4 +62,4 @@ find $ZK_PATH -name '*.md' -type f -print0 | xargs -0 awk '
 
 Tags:
 
-    #idea
+    #macos #debug

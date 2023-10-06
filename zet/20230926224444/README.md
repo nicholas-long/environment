@@ -73,4 +73,4 @@ zet/20221006032546/addsnippet:#!/usr/bin/awk -f
 
 Tags:
 
-    #idea
+    #portability #program

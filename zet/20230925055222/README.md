@@ -17,7 +17,7 @@ zet/20231005062610/README.md:- [ ] implement hooks
 - [20230925193834](/zet/20230925193834/README.md) testing on mac os #test #dotfiles
 - [20230927152827](/zet/20230927152827/README.md) reverse engineering obsidian to create an obsidian sync cli tool #program #command #reveng #util
 - [20230928133216](/zet/20230928133216/README.md) scripts to work with burpsuite saved requests and automatically generate python code #script #hacking #http
-- [20230930042658](/zet/20230930042658/README.md) fsdb ingest subcommand notes #idea
+- [20230930042658](/zet/20230930042658/README.md) fsdb ingest subcommand notes #database
 - [20231005062610](/zet/20231005062610/README.md) fsdb TODO items #todo #list
 ```
 

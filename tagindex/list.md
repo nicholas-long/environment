@@ -7,6 +7,7 @@
 - [20230906033259](/zet/20230906033259/README.md) functions to copy over and possibly remake as commands
 - [20230921220633](/zet/20230921220633/README.md) list of cool ideas i still want to implement in my environment
 - [20230921220840](/zet/20230921220840/README.md) list of kb scripts that i could decide whether to copy over
+- [20230922214602](/zet/20230922214602/README.md) things i want to implement in zkvr after working on the environment
 - [20230923065000](/zet/20230923065000/README.md) determining which scripts have kb references using grep
 - [20230925052317](/zet/20230925052317/README.md) wordlists for pentesting
 - [20230925055222](/zet/20230925055222/README.md) list of unfinished todo items
@@ -17,4 +18,5 @@
 - [20230930041146](/zet/20230930041146/README.md) fsdb developing ideas
 - [20230930224454](/zet/20230930224454/README.md) problems encountered with zkvr while testing this environment
 - [20231005062610](/zet/20231005062610/README.md) fsdb TODO items
+- [20231005170329](/zet/20231005170329/README.md) hooks needed for fsdb
 - [20231005213930](/zet/20231005213930/README.md) list of cards in order

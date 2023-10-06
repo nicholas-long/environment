@@ -16,4 +16,4 @@
 
 Tags:
 
-    #idea #list
+    #list

@@ -4,6 +4,7 @@
 - [20221028173620](/zet/20221028173620/README.md) yq binaries
 - [20221105220915](/zet/20221105220915/README.md) add recurring timers using github cron actions
 - [20230905210416](/zet/20230905210416/README.md) fast file manager fff
+- [20230926224444](/zet/20230926224444/README.md) updating scripts to use gawk when possible
 - [20230927152827](/zet/20230927152827/README.md) reverse engineering obsidian to create an obsidian sync cli tool
 - [20230928185944](/zet/20230928185944/README.md) script to package up program and debian dependencies a tar to install on a remote target machine
 - [20231001222624](/zet/20231001222624/README.md) test gzip append functionality
