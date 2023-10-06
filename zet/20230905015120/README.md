@@ -8,6 +8,9 @@
 - example snippet working with shortcut symlink commands from environment in vim
 - need to automatically set `EDITOR` environment variable so features in some other programs work
   - sudoedit and fff use this variable
+- rc scripts will `source ~/.variables.sh` if it is a file that exists.
+  - `vars` shortcut alias to quickly edit this file
+  - common use case: storing IP of target in environment variable that persists across new terminal tabs
 
 ```bash
 source zet/20230905015120/bashrc

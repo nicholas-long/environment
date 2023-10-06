@@ -50,5 +50,9 @@ alias k='search-markdown'
 alias ke='edit-kb-fuzzy-find-markdown'
 
 alias environ='cd $ENVIRON_BASEPATH && ./zkvr'
+alias vars='$EDITOR ~/.variables.sh && source ~/.variables.sh'
 
 export PATH="$PATH:$ENVIRON_BASEPATH/shortcuts"
+if [ -f ~/.variables.sh ]; then
+  source ~/.variables.sh
+fi
