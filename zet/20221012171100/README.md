@@ -11,8 +11,6 @@ zet/20221012171100/README.md
 # Related
 
 - [20221012144502](/zet/20221012144502/README.md) track modification dates
-- [20231001222624](/zet/20231001222624/README.md) test gzip append functionality
-- [20231002021919](/zet/20231002021919/README.md) bloom filter for fsdb
 - [20231003021548](/zet/20231003021548/README.md) script to enumerate all files in an aws s3 bucket url recursively
 - [20231003022851](/zet/20231003022851/README.md) data engineering hub
 - [20231003062001](/zet/20231003062001/README.md) fsdb use case - using as a set
