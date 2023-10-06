@@ -19,8 +19,8 @@ Step 6/6 : RUN tty
  ---> Running in ea39de95341e
 not a tty
 The command '/bin/sh -c tty' returned a non-zero code: 1
-
 ```
+- 2023-10-06 all install scripts now have architecture selection logic and do not require interactive fzf install
 
 ```bash
 ln -s zet/20230922220109/Dockerfile Dockerfile

@@ -13,9 +13,12 @@ versionurl=$(zet/20230922051930/lazygit-version-selector)
 if [ $(echo $versionurl | wc -l | awk '{print 1}') -eq 1 ]; then
   downloadurl="$versionurl"
 else
-  downloadurl=$(zet/20230905030303/github-latest-files https://github.com/jesseduffield/lazygit | \
-    fzf --preview=lscpu "--prompt=select version of lazygit for your cpu> " | \
-    awk '{print $2}')
+  # only do fzf install if we are interactive
+  if tty >/dev/null 2>/dev/null; then
+    downloadurl=$(zet/20230905030303/github-latest-files https://github.com/jesseduffield/lazygit | \
+      fzf --preview=lscpu "--prompt=select version of lazygit for your cpu> " | \
+      awk '{print $2}')
+  fi
 fi
 
 if [ -z "$downloadurl" ]; then
