@@ -5,7 +5,6 @@
 - i tried pasting the grep results togeher with the graphquery results, but that didn't work because the graphquery only returns unique results.
 
 ```markdown
-zet/20230906033259/README.md:- [ ] check this out and find any good ones
 zet/20230925193834/README.md:- [ ] adding and deleting tags doesn't work
 zet/20230925193834/README.md:- [ ] unlinking documents doesn't work
 zet/20230927152827/README.md:- [ ] figure out why login doesn't work and return a token
@@ -13,7 +12,6 @@ zet/20230928133216/README.md:- [ ] implement json post - right now returns broke
 zet/20230930042658/README.md:- [ ] i could make the number of rows before compressing configurable. i might be able to speed up ingesting data if there is less compressing happening.
 zet/20231005062610/README.md:- [ ] implement bloom filter
 zet/20231005062610/README.md:- [ ] implement hooks
-- [20230906033259](/zet/20230906033259/README.md) functions to copy over and possibly remake as commands #command #list #environment #old
 - [20230925193834](/zet/20230925193834/README.md) testing on mac os #test #dotfiles
 - [20230927152827](/zet/20230927152827/README.md) reverse engineering obsidian to create an obsidian sync cli tool #program #command #reveng #util
 - [20230928133216](/zet/20230928133216/README.md) scripts to work with burpsuite saved requests and automatically generate python code #script #hacking #http
