@@ -25,6 +25,7 @@ hub node for `workflow`
 - [20230914030626](/zet/20230914030626/README.md) tmux pwn menu script for hacking reverse shells and file transfer commands
 - [20230923211501](/zet/20230923211501/README.md) get current CVE list as tsv
 - [20231001082012](/zet/20231001082012/README.md) automatically keeping track of changes to zkvr binaries
+- [20231005211810](/zet/20231005211810/README.md) script to sync only markdown files from zk to github
 
 Tags:
 

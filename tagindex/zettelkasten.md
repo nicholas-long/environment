@@ -4,3 +4,4 @@
 - [20221013021614](/zet/20221013021614/README.md) zkvr terminal graph browser
 - [20221024215216](/zet/20221024215216/README.md) future enhancements to graph query language
 - [20230919153113](/zet/20230919153113/README.md) obsidian links scripts
+- [20231005211810](/zet/20231005211810/README.md) script to sync only markdown files from zk to github
