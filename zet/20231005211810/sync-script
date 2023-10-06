@@ -1,0 +1,30 @@
+#!/bin/bash
+
+if [ -z "$1" ]; then
+  echo "need to provide the zk path"
+  exit 1
+fi
+if [ -z "$2" ]; then
+  echo "need to provide the github URL"
+  exit 1
+fi
+zkpath="$1"
+url="$2"
+tf=$(mktemp -d)
+
+git clone "$url" "$tf"
+
+# copy in all the files
+cp -r "$zkpath" "$tf"
+cd "$tf"
+# delete anything not markdown or git internal files
+find . -type f | grep -v '\.md$' | grep -v '\.git' | xargs -I{} rm {}
+
+# if there's changes to commit
+if [[ $(git status --porcelain | wc -l | awk '{print $1}') != "0" ]]; then
+  git add .
+  git commit -m 'syncing changes'
+  git push
+fi
+
+rm -rf "$tf"

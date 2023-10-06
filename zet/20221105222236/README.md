@@ -24,6 +24,7 @@
 # Related
 
 - [20221105220915](/zet/20221105220915/README.md) add recurring timers using github cron actions
+- [20231005211810](/zet/20231005211810/README.md) script to sync only markdown files from zk to github
 
 Tags:
 
