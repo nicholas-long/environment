@@ -1,4 +1,5 @@
 - [20221011145143](/zet/20221011145143/README.md) bat command pretty printer
+- [20221014074318](/zet/20221014074318/README.md) important choices of tech stack
 - [20230928185944](/zet/20230928185944/README.md) script to package up program and debian dependencies a tar to install on a remote target machine
 - [20230928220222](/zet/20230928220222/README.md) get the currently released ubuntu distro
 - [20230929024545](/zet/20230929024545/README.md) scripts for linux tricks

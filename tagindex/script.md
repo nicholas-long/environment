@@ -62,11 +62,13 @@
 - [20230929053721](/zet/20230929053721/README.md) get random hex unique ID bash
 - [20230929054003](/zet/20230929054003/README.md) bash scripting simple program template parsing arguments with case statement
 - [20230929054848](/zet/20230929054848/README.md) awk script to get column headings from the first line of CSV
+- [20230929055042](/zet/20230929055042/README.md) example of how to communicate between the network and a named pipe
 - [20230929055134](/zet/20230929055134/README.md) attempt to create script logs from tmux panes
 - [20230929064428](/zet/20230929064428/README.md) script to check for BEGINFILE usage in awk scripts requiring change to gawk
 - [20230929153242](/zet/20230929153242/README.md) natural language processing libraries
 - [20230930145814](/zet/20230930145814/README.md) determining cpu version for install
 - [20231001000026](/zet/20231001000026/README.md) script to find the minimum required set of dependent zettels to ship a scripting project
+- [20231001082012](/zet/20231001082012/README.md) automatically keeping track of changes to zkvr binaries
 - [20231003021548](/zet/20231003021548/README.md) script to enumerate all files in an aws s3 bucket url recursively
 - [20231004044241](/zet/20231004044241/README.md) script to strip and scrape all URLs out of text
 - [20231005211810](/zet/20231005211810/README.md) script to sync only markdown files from zk to github

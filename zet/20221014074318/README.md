@@ -29,4 +29,4 @@
 
 Tags:
 
-    #idea
+    #linux #meta #notes

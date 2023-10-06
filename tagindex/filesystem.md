@@ -1,1 +1,2 @@
 - [20221027011800](/zet/20221027011800/README.md) zetcli bash wrapper subcommand implementation
+- [20230929055042](/zet/20230929055042/README.md) example of how to communicate between the network and a named pipe

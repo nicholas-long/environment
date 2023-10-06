@@ -15,4 +15,4 @@ cp /home/parallels/kb/linux/named-pipe-to-netcat.sh .
 
 Tags:
 
-    #idea
+    #script #example #filesystem

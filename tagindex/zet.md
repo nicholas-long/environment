@@ -1,3 +1,4 @@
 - [20221025024238](/zet/20221025024238/README.md) enumerate tags
 - [20221105220915](/zet/20221105220915/README.md) add recurring timers using github cron actions
 - [20221105224810](/zet/20221105224810/README.md) launch browser to current card on github
+- [20231001082012](/zet/20231001082012/README.md) automatically keeping track of changes to zkvr binaries

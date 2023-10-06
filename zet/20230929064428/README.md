@@ -34,4 +34,4 @@ find . -type f -executable | xargs file | grep 'awk script' | cut -d : -f 1 | xa
 
 Tags:
 
-    #idea #script #awk #macos
+    #script #awk #macos

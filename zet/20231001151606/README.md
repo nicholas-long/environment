@@ -284,4 +284,4 @@ zet/20231001151606/testhashcode <( seq 1 10000 ) | zet/20231001151606/testhistog
 
 Tags:
 
-    #idea
+    #hash #algo

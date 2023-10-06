@@ -31,4 +31,4 @@
 
 Tags:
 
-    #idea #todo #list
+    #todo #list

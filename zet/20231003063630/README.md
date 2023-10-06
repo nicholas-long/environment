@@ -74,4 +74,4 @@ gzip: data/1.gz: No such file or directory
 
 Tags:
 
-    #idea #data #database
+    #data #database

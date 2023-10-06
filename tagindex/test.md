@@ -4,3 +4,5 @@
 - [20230925193834](/zet/20230925193834/README.md) testing on mac os
 - [20230928193054](/zet/20230928193054/README.md) docker reverse shell testing project
 - [20230929023221](/zet/20230929023221/README.md) testing user interfaces in fzf
+- [20230929194846](/zet/20230929194846/README.md) testing if shortcuts will work and not pick up extra files
+- [20231001222624](/zet/20231001222624/README.md) test gzip append functionality
