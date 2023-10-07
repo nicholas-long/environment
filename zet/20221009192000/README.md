@@ -47,6 +47,7 @@ Extra:
 - [20230929145418](/zet/20230929145418/README.md) fsdb project - file based database for partitioning and event sourced data
 - [20231005213930](/zet/20231005213930/README.md) list of cards in order
 - [20231007033903](/zet/20231007033903/README.md) script to extract text from every second of youtube video frames
+- [20231007144438](/zet/20231007144438/README.md) automated testing
 
 Tags:
 

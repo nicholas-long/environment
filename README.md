@@ -7,6 +7,7 @@
   - [20221013021614](/zet/20221013021614/README.md) zkvr terminal graph browser #tui #program #zettelkasten
 - [20230921220633](/zet/20230921220633/README.md) list of cool ideas i still want to implement in my environment #idea #list #coding
 - [20230925055222](/zet/20230925055222/README.md) list of unfinished todo items #script #todo #list
+- [20231007144438](/zet/20231007144438/README.md) automated testing #test #program
 
 ## useful scripts
 

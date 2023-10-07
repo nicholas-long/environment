@@ -21,6 +21,7 @@ ln -s zet/20231007144438/run-tests run-tests
 - [20230922214323](/zet/20230922214323/README.md) this environment
 - [20231007144749](/zet/20231007144749/README.md) integration test for dockerfile
 - [20221012171100](/zet/20221012171100/README.md) recently created nodes hub
+- [20221009192000](/zet/20221009192000/README.md) stuff to put on main page
 
 Tags:
 
