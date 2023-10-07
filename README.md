@@ -33,9 +33,11 @@
 - [20230905015107](/zet/20230905015107/README.md) tmux config #idea
 - [20230905015223](/zet/20230905015223/README.md) install scripts #script #setup
 
-## projects
+## cool projects
+
 - [20230927152827](/zet/20230927152827/README.md) reverse engineering obsidian to create an obsidian sync cli tool #program #command #reveng #util
 - [20230929145418](/zet/20230929145418/README.md) fsdb project - file based database for partitioning and event sourced data #data #file #database #project #shortcmd
+- [20231007033903](/zet/20231007033903/README.md) script to extract text from every second of youtube video frames #data #youtube #script
 
 ## shortcuts and symbolic links
 
