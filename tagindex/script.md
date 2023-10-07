@@ -73,3 +73,4 @@
 - [20231004044241](/zet/20231004044241/README.md) script to strip and scrape all URLs out of text
 - [20231005211810](/zet/20231005211810/README.md) script to sync only markdown files from zk to github
 - [20231006185420](/zet/20231006185420/README.md) awk and bash fzf scripts
+- [20231007033903](/zet/20231007033903/README.md) script to extract text from every second of a youtube video

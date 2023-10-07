@@ -1,6 +1,6 @@
 # script to extract text from every second of a youtube video
 
-- concept of `script to extract text from every second of a youtube video`
+- [ ] develop this idea further
 - command line utility to download youtube videos https://github.com/ytdl-org/youtube-dl
   - can be installed from python pip
 
@@ -24,4 +24,4 @@ tldr tesseract
 
 Tags:
 
-    #data #youtube
+    #data #youtube #script
