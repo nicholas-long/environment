@@ -1,0 +1,12 @@
+#!/bin/bash
+
+which fff
+if [ $? -ne 0 ]; then exit 1; fi
+
+which lazygit
+if [ $? -ne 0 ]; then exit 1; fi
+
+which bat
+if [ $? -ne 0 ]; then exit 1; fi
+
+exit 0

@@ -1,0 +1,12 @@
+#!/bin/bash
+
+# file to run is zet/20231007144749/run-checks-within-docker
+
+docker build . -t environmenttestdocker
+if [ $? -ne 0 ]; then exit 1; fi
+
+docker run --entrypoint /environment/zet/20231007144749/run-checks-within-docker environmenttestdocker
+if [ $? -ne 0 ]; then
+  echo "tests failed."
+  exit 1
+fi
