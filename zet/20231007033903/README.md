@@ -9,6 +9,8 @@
   - should also print video title or url to output
   - should work out of a temporary directory
 - since it is not instantaneous, it is kind of like watching the video in the terminal while it processes
+- i have a card in my zk about this project 20221006200018
+  - i have a note to check out https://www.videoproc.com/video-editor/extract-frames-from-video.htm
 
 ```bash
 tldr ffmpeg
@@ -72,6 +74,7 @@ pea 10.14.8]-[ippsec@parrot]-[~/htb/mailroom]
 - [20221008042814](/zet/20221008042814/README.md) WIP
 - [20221012171100](/zet/20221012171100/README.md) recently created nodes hub
 - [20221009192000](/zet/20221009192000/README.md) stuff to put on main page
+- [20230929153207](/zet/20230929153207/README.md) computer science experiments hub
 
 Tags:
 
