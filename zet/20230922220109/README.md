@@ -40,6 +40,7 @@ ln -s zet/20230922220109/Dockerfile Dockerfile
 - [20230925001420](/zet/20230925001420/README.md) cool docker scripts to migrate
 - [20230930145814](/zet/20230930145814/README.md) determining cpu version for install
 - [20230905184854](/zet/20230905184854/README.md) prerequesites for environment
+- [20231007140839](/zet/20231007140839/README.md) references to sudo and other considerations for scripts running within a docker
 
 Tags:
 

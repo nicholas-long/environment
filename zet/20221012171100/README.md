@@ -22,6 +22,7 @@ zet/20221012171100/README.md
 - [20231005213930](/zet/20231005213930/README.md) list of cards in order
 - [20231006185420](/zet/20231006185420/README.md) awk and bash fzf scripts
 - [20231007033903](/zet/20231007033903/README.md) script to extract text from every second of youtube video frames
+- [20231007140839](/zet/20231007140839/README.md) references to sudo and other considerations for scripts running within a docker
 
 Tags:
 

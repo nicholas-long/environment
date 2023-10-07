@@ -1,0 +1,1 @@
+- [20231007140839](/zet/20231007140839/README.md) references to sudo and other considerations for scripts running within a docker
