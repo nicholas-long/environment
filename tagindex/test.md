@@ -6,3 +6,5 @@
 - [20230929023221](/zet/20230929023221/README.md) testing user interfaces in fzf
 - [20230929194846](/zet/20230929194846/README.md) testing if shortcuts will work and not pick up extra files
 - [20231001222624](/zet/20231001222624/README.md) test gzip append functionality
+- [20231007144438](/zet/20231007144438/README.md) automated testing
+- [20231007144749](/zet/20231007144749/README.md) integration test for dockerfile

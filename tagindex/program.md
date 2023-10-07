@@ -9,3 +9,4 @@
 - [20230928185944](/zet/20230928185944/README.md) script to package up program and debian dependencies a tar to install on a remote target machine
 - [20231001222624](/zet/20231001222624/README.md) test gzip append functionality
 - [20231002021919](/zet/20231002021919/README.md) bloom filter for fsdb
+- [20231007144438](/zet/20231007144438/README.md) automated testing

@@ -41,6 +41,7 @@ ln -s zet/20230922220109/Dockerfile Dockerfile
 - [20230930145814](/zet/20230930145814/README.md) determining cpu version for install
 - [20230905184854](/zet/20230905184854/README.md) prerequesites for environment
 - [20231007140839](/zet/20231007140839/README.md) references to sudo and other considerations for scripts running within a docker
+- [20231007144749](/zet/20231007144749/README.md) integration test for dockerfile
 
 Tags:
 

@@ -172,6 +172,8 @@
 20231006185420 awk and bash fzf scripts
 20231007033903 script to extract text from every second of youtube video frames
 20231007140839 references to sudo and other considerations for scripts running within a docker
+20231007144438 automated testing
+20231007144749 integration test for dockerfile
 ```
 
 ` zet/20231005213930/README.md `

@@ -19,6 +19,7 @@
 - [20221006013313](/zet/20221006013313/README.md) zettelkasten
 - [20230922222627](/zet/20230922222627/README.md) testing environment on netbook
 - [20230921220840](/zet/20230921220840/README.md) list of kb scripts that i could decide whether to copy over
+- [20231007144438](/zet/20231007144438/README.md) automated testing
 
 Tags:
 

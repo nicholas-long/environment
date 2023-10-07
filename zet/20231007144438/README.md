@@ -16,6 +16,7 @@
 - [20221013021614](/zet/20221013021614/README.md) zkvr terminal graph browser
 - [20230922214323](/zet/20230922214323/README.md) this environment
 - [20231007144749](/zet/20231007144749/README.md) integration test for dockerfile
+- [20221012171100](/zet/20221012171100/README.md) recently created nodes hub
 
 Tags:
 
