@@ -10,3 +10,4 @@
 - [20231001222624](/zet/20231001222624/README.md) test gzip append functionality
 - [20231002021919](/zet/20231002021919/README.md) bloom filter for fsdb
 - [20231007144438](/zet/20231007144438/README.md) automated testing
+- [20231007202209](/zet/20231007202209/README.md) enabling CGI as an API interface on apache

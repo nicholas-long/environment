@@ -20,6 +20,7 @@
 - [20230922222627](/zet/20230922222627/README.md) testing environment on netbook
 - [20230921220840](/zet/20230921220840/README.md) list of kb scripts that i could decide whether to copy over
 - [20231007144438](/zet/20231007144438/README.md) automated testing
+- [20230905015028](/zet/20230905015028/README.md) dotfiles hub
 
 Tags:
 

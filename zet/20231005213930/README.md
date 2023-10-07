@@ -174,6 +174,7 @@
 20231007140839 references to sudo and other considerations for scripts running within a docker
 20231007144438 automated testing
 20231007144749 integration test for dockerfile
+20231007202209 enabling CGI as an API interface on apache
 ```
 
 ` zet/20231005213930/README.md `
