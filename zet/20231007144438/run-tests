@@ -1,0 +1,23 @@
+#!/bin/bash
+
+retcode=0
+
+# search for everything tagged unittest
+./graphquery @unittest | while read id; do
+  echo "test id $id"
+  testfile="zet/$id/test"
+  if [ -f "$testfile" ]; then # check if there's a test program in the card
+    echo "running test $testfile"
+    "$testfile"
+    if [ $? -ne 0 ]; then # if it returned a code then consider it failed
+      echo "test failed: $testfile"
+      retcode=1
+    fi
+  fi
+done
+
+if [ $retcode -eq 0 ]; then
+  echo "All tests passed!"
+fi
+
+exit $retcode

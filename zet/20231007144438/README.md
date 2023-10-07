@@ -5,7 +5,11 @@
 - throw up errors if they don't return 0
 - example test [20231007144749](/zet/20231007144749/README.md) integration test for dockerfile
 
-```
+```bash
+ln -s zet/20231007144438/run-tests run-tests
+
+./graphquery @unittest
+
 ```
 
 ` zet/20231007144438/README.md `
