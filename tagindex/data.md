@@ -12,3 +12,4 @@
 - [20231003022851](/zet/20231003022851/README.md) data engineering hub
 - [20231003062001](/zet/20231003062001/README.md) fsdb use case - using as a set
 - [20231003063630](/zet/20231003063630/README.md) adding timestamps to fsdb
+- [20231007033903](/zet/20231007033903/README.md) script to extract text from every second of a youtube video

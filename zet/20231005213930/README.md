@@ -170,6 +170,7 @@
 20231005211810 script to sync only markdown files from zk to github
 20231005213930 list of cards in order
 20231006185420 awk and bash fzf scripts
+20231007033903 script to extract text from every second of a youtube video
 ```
 
 ` zet/20231005213930/README.md `
