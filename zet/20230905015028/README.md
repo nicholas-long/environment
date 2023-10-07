@@ -17,11 +17,11 @@ ln -s "$(realpath zet/20230905015107/tmux.conf)" $HOME/.tmux.conf
 
 # Related
 
-- [20221008042814](/zet/20221008042814/README.md) WIP
 - [20230905015059](/zet/20230905015059/README.md) vim config
 - [20230905015107](/zet/20230905015107/README.md) tmux config
 - [20230905015120](/zet/20230905015120/README.md) bash rc file and config
 - [20230905015223](/zet/20230905015223/README.md) install scripts
+- [20230922214323](/zet/20230922214323/README.md) this environment
 
 Tags:
 
