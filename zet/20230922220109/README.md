@@ -9,6 +9,9 @@
 - 2023-09-30 i tried the old zkvr dockerfile and it still basically works. i might just need to try running the install command
 - attempting to have the dockerfile install nothing at all
 - it is assumed when you get this environment that you got it with git, but i should install it as a prerequisite in the environment
+- 2023-10-07 docker was caching builds where "apt update" had run, then later, apt installs were failing
+  - i put apt update on the same line as the environment install command
+- general practice: cannot install things with sudo? might be root or be in docker
 
 ## developing
 - the prerequisites are not installing in docker. sudo isn't installed in docker.

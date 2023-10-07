@@ -1,9 +1,8 @@
 FROM kalilinux/kali-rolling
-RUN apt update
 WORKDIR /environment
 ADD . .
 
-RUN ./install
+RUN apt-get update && ./install
 
 # TODO: add entrypoint
 

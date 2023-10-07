@@ -34,6 +34,10 @@ filename=$(ls lazygit_* | head -n 1)
 echo "installing file $filename"
 echo "using directory $tf"
 tar -xzvf "$filename"
-sudo cp lazygit /usr/bin/
+if [ $(id -u) -eq 0 ]; then
+  cp lazygit /usr/bin/
+else
+  sudo cp lazygit /usr/bin/
+fi
 cd - >/dev/null
 rm -rf "$tf"
