@@ -11,10 +11,6 @@ zet/20221012171100/README.md
 # Related
 
 - [20221012144502](/zet/20221012144502/README.md) track modification dates
-- [20231003021548](/zet/20231003021548/README.md) script to enumerate all files in an aws s3 bucket url recursively
-- [20231003022851](/zet/20231003022851/README.md) data engineering hub
-- [20231003062001](/zet/20231003062001/README.md) fsdb use case - using as a set
-- [20231003063630](/zet/20231003063630/README.md) adding timestamps to fsdb
 - [20231003212610](/zet/20231003212610/README.md) example of using fsdb as a lookup table
 - [20231004044241](/zet/20231004044241/README.md) script to strip and scrape all URLs out of text
 - [20231004060725](/zet/20231004060725/README.md) fsdb missing functionality for set difference
@@ -25,7 +21,7 @@ zet/20221012171100/README.md
 - [20231005211810](/zet/20231005211810/README.md) script to sync only markdown files from zk to github
 - [20231005213930](/zet/20231005213930/README.md) list of cards in order
 - [20231006185420](/zet/20231006185420/README.md) awk and bash fzf scripts
-- [20231007033903](/zet/20231007033903/README.md) script to extract text from every second of a youtube video
+- [20231007033903](/zet/20231007033903/README.md) script to extract text from every second of youtube video frames
 
 Tags:
 

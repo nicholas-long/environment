@@ -11,12 +11,10 @@ zet/20230927152827/README.md:- [ ] figure out why login doesn't work and return 
 zet/20230930042658/README.md:- [ ] i could make the number of rows before compressing configurable. i might be able to speed up ingesting data if there is less compressing happening.
 zet/20231005062610/README.md:- [ ] implement bloom filter
 zet/20231005062610/README.md:- [ ] implement hooks
-zet/20231007033903/README.md:- [ ] develop this idea further
 - [20230925193834](/zet/20230925193834/README.md) testing on mac os #test #dotfiles
 - [20230927152827](/zet/20230927152827/README.md) reverse engineering obsidian to create an obsidian sync cli tool #program #command #reveng #util
 - [20230930042658](/zet/20230930042658/README.md) fsdb ingest subcommand notes #database
 - [20231005062610](/zet/20231005062610/README.md) fsdb TODO items #todo #list
-- [20231007033903](/zet/20231007033903/README.md) script to extract text from every second of a youtube video #data #youtube #script
 ```
 
 - where can i find snippets?

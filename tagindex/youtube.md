@@ -1,1 +1,1 @@
-- [20231007033903](/zet/20231007033903/README.md) script to extract text from every second of a youtube video
+- [20231007033903](/zet/20231007033903/README.md) script to extract text from every second of youtube video frames
