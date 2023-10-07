@@ -36,6 +36,7 @@ stuff i am working on.
 - [20231003021548](/zet/20231003021548/README.md) script to enumerate all files in an aws s3 bucket url recursively
 - [20231005062610](/zet/20231005062610/README.md) fsdb TODO items
 - [20230906033259](/zet/20230906033259/README.md) functions to copy over and possibly remake as commands
+- [20231007033903](/zet/20231007033903/README.md) script to extract text from every second of a youtube video
 
 Tags:
 
