@@ -12,7 +12,6 @@ zcat /home/parallels/vulnerable-github-data/grepgithub.gz | url-strip
 
 - [20231003021548](/zet/20231003021548/README.md) script to enumerate all files in an aws s3 bucket url recursively
 - [20230928171946](/zet/20230928171946/README.md) data analysis scripting hub
-- [20221012171100](/zet/20221012171100/README.md) recently created nodes hub
 - [20230929022947](/zet/20230929022947/README.md) script to get headings from wikipedia page
 
 Tags:
