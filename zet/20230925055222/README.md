@@ -9,6 +9,7 @@ zet/20230925193834/README.md:- [ ] adding and deleting tags doesn't work
 zet/20230925193834/README.md:- [ ] unlinking documents doesn't work
 zet/20230927152827/README.md:- [ ] figure out why login doesn't work and return a token
 zet/20230930042658/README.md:- [ ] i could make the number of rows before compressing configurable. i might be able to speed up ingesting data if there is less compressing happening.
+zet/20231005062610/README.md:- [ ] create feature to remove duplicate rows
 zet/20231005062610/README.md:- [ ] implement bloom filter
 zet/20231005062610/README.md:- [ ] implement hooks
 zet/20231005062610/README.md:- [ ] search subcommand should flush search results to output immediately

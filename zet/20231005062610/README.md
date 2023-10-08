@@ -13,6 +13,8 @@
   - [20231005170329](/zet/20231005170329/README.md) hooks needed for fsdb
 - [ ] implement bloom filter
   - [20231002021919](/zet/20231002021919/README.md) bloom filter for fsdb
+- [ ] create feature to remove duplicate rows
+  - maybe just sequential duplicates?
 
 ```
 ```
