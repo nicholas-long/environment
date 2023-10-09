@@ -12,7 +12,6 @@ zet/20230930042658/README.md:- [ ] i could make the number of rows before compre
 zet/20231005062610/README.md:- [ ] create feature to remove duplicate rows
 zet/20231005062610/README.md:- [ ] implement bloom filter
 zet/20231005062610/README.md:- [ ] implement hooks
-zet/20231005062610/README.md:- [ ] search subcommand should flush search results to output immediately
 - [20230925193834](/zet/20230925193834/README.md) testing on mac os #test #dotfiles
 - [20230927152827](/zet/20230927152827/README.md) reverse engineering obsidian to create an obsidian sync cli tool #program #command #reveng #util
 - [20230930042658](/zet/20230930042658/README.md) fsdb ingest subcommand notes #database
