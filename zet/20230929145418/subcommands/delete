@@ -22,3 +22,14 @@ part=$(awk '
 ')
 
 echo "deleting $delid from partition $part" > /dev/stderr
+
+# print stream and skip row
+tf=$(mktemp)
+(zcat "data/$part.gz" 2>/dev/null && cat "data/$part" 2>/dev/null) | awk -v "id=$delid" '
+$1 == id { next }
+{ print }
+' | gzip > "$tf.gz"
+
+# ovewrite old files
+mv "$tf.gz" "data/$part.gz" && rm "data/$part"
+
