@@ -15,6 +15,7 @@
   - [20231002021919](/zet/20231002021919/README.md) bloom filter for fsdb
 - [ ] create feature to remove duplicate rows
   - maybe just sequential duplicates?
+- [ ] create feature to remove rows by IDs
 
 ```
 ```
@@ -25,7 +26,6 @@
 
 - [20230929145418](/zet/20230929145418/README.md) fsdb project - file based database for partitioning and event sourced data
 - [20221008042814](/zet/20221008042814/README.md) WIP
-- [20221012171100](/zet/20221012171100/README.md) recently created nodes hub
 - [20230930041146](/zet/20230930041146/README.md) fsdb developing ideas
 - [20231002021919](/zet/20231002021919/README.md) bloom filter for fsdb
 - [20231005170329](/zet/20231005170329/README.md) hooks needed for fsdb
