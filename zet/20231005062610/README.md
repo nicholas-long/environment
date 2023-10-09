@@ -13,8 +13,9 @@
   - [20231005170329](/zet/20231005170329/README.md) hooks needed for fsdb
 - [ ] implement bloom filter
   - [20231002021919](/zet/20231002021919/README.md) bloom filter for fsdb
-- [ ] create feature to remove duplicate rows
+- [x] create feature to remove duplicate rows
   - maybe just sequential duplicates?
+  - [20231009173031](/zet/20231009173031/README.md) fsdb subcommand to remove duplicate sequential rows from all partitions
 - [x] create feature to remove rows by IDs - [20231009135143](/zet/20231009135143/README.md) fsdb delete functionality
 
 ```
@@ -32,6 +33,7 @@
 - [20230930041018](/zet/20230930041018/README.md) fsdb future ideas
 - [20231005174423](/zet/20231005174423/README.md) testing reoptimize functionality
 - [20231009135143](/zet/20231009135143/README.md) fsdb delete functionality
+- [20231009173031](/zet/20231009173031/README.md) fsdb subcommand to remove duplicate sequential rows from all partitions
 
 Tags:
 
