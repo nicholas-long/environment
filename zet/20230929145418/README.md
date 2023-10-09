@@ -76,6 +76,7 @@ BEGIN {
 - [20230905015223](/zet/20230905015223/README.md) install scripts
 - [20231005062610](/zet/20231005062610/README.md) fsdb TODO items
 - [20231005174423](/zet/20231005174423/README.md) testing reoptimize functionality
+- [20231009135143](/zet/20231009135143/README.md) fsdb delete functionality
 
 Tags:
 
