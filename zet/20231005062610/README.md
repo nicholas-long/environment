@@ -31,6 +31,7 @@
 - [20231005170329](/zet/20231005170329/README.md) hooks needed for fsdb
 - [20230930041018](/zet/20230930041018/README.md) fsdb future ideas
 - [20231005174423](/zet/20231005174423/README.md) testing reoptimize functionality
+- [20231009135143](/zet/20231009135143/README.md) fsdb delete functionality
 
 Tags:
 

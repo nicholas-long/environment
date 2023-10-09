@@ -176,6 +176,7 @@
 20231007144749 integration test for dockerfile
 20231007202209 enabling CGI as an API interface on apache
 20231009060511 enabling gzip compression on CGI script output
+20231009135143 fsdb delete functionality
 ```
 
 ` zet/20231005213930/README.md `
