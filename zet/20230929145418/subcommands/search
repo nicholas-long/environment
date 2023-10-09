@@ -39,12 +39,16 @@ END {
     datafile = "data/" p
     cmd = "zcat data/" p ".gz"
     while ((cmd | getline) > 0) {
-      if (timestamps && $2 in ids || !timestamps && $1 in ids) print
-      #if ($1 in ids) print
+      if (timestamps && $2 in ids || !timestamps && $1 in ids) {
+        print
+        fflush()
+      }
     }
     while ((getline < datafile) > 0) { # read in file
-      #if ($1 in ids) print
-      if (timestamps && $2 in ids || !timestamps && $1 in ids) print
+      if (timestamps && $2 in ids || !timestamps && $1 in ids) {
+        print
+        fflush()
+      }
     }
   }
 }

@@ -8,7 +8,7 @@
 - [x] search subcommand should accept, process, and use arguments if given instead of letting awk treat them as files
 - [x] recompress or reoptimize - rewrite all compressed streams as continuous gzip streams to optimize space
   - [20231005174423](/zet/20231005174423/README.md) testing reoptimize functionality
-- [ ] search subcommand should flush search results to output immediately
+- [x] search subcommand should flush search results to output immediately
 - [ ] implement hooks
   - [20231005170329](/zet/20231005170329/README.md) hooks needed for fsdb
 - [ ] implement bloom filter
