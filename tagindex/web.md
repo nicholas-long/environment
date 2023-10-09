@@ -1,2 +1,3 @@
 - [20221105224810](/zet/20221105224810/README.md) launch browser to current card on github
 - [20231007202209](/zet/20231007202209/README.md) enabling CGI as an API interface on apache
+- [20231009060511](/zet/20231009060511/README.md) enabling gzip compression on CGI script output

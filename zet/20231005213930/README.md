@@ -175,6 +175,7 @@
 20231007144438 automated testing
 20231007144749 integration test for dockerfile
 20231007202209 enabling CGI as an API interface on apache
+20231009060511 enabling gzip compression on CGI script output
 ```
 
 ` zet/20231005213930/README.md `

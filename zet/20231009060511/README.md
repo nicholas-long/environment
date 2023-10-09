@@ -19,6 +19,7 @@ echo "it worked" | gzip
 # Related
 
 - [20231007202209](/zet/20231007202209/README.md) enabling CGI as an API interface on apache
+- [20221012171100](/zet/20221012171100/README.md) recently created nodes hub
 
 Tags:
 

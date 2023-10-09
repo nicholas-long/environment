@@ -22,6 +22,7 @@ zet/20221012171100/README.md
 - [20231007144438](/zet/20231007144438/README.md) automated testing
 - [20231007144749](/zet/20231007144749/README.md) integration test for dockerfile
 - [20231007202209](/zet/20231007202209/README.md) enabling CGI as an API interface on apache
+- [20231009060511](/zet/20231009060511/README.md) enabling gzip compression on CGI script output
 
 Tags:
 

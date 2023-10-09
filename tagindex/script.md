@@ -74,3 +74,4 @@
 - [20231005211810](/zet/20231005211810/README.md) script to sync only markdown files from zk to github
 - [20231006185420](/zet/20231006185420/README.md) awk and bash fzf scripts
 - [20231007033903](/zet/20231007033903/README.md) script to extract text from every second of youtube video frames
+- [20231009060511](/zet/20231009060511/README.md) enabling gzip compression on CGI script output
