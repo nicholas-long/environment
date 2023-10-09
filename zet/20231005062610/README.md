@@ -15,7 +15,7 @@
   - [20231002021919](/zet/20231002021919/README.md) bloom filter for fsdb
 - [ ] create feature to remove duplicate rows
   - maybe just sequential duplicates?
-- [ ] create feature to remove rows by IDs
+- [x] create feature to remove rows by IDs - [20231009135143](/zet/20231009135143/README.md) fsdb delete functionality
 
 ```
 ```
