@@ -1,0 +1,9 @@
+#!/bin/bash
+
+programarg="$1"
+shift
+# process files
+while [ $# -gt 0 ]; do
+  cat "$1" | gzip -d | awk "$programarg"
+  shift
+done
