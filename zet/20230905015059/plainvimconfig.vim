@@ -12,7 +12,8 @@ filetype off                  " required
 set path=.,,**
 set mouse=a
 
-set list listchars=tab:▸\ ,eol:¬,trail:·
+" there's a lot of warnings about these characters if the terminal variable is not configured properly
+"set list listchars=tab:▸\ ,eol:¬,trail:·
 set list
 
 set number
