@@ -178,6 +178,7 @@
 20231009060511 enabling gzip compression on CGI script output
 20231009135143 fsdb delete functionality
 20231009173031 fsdb subcommand to remove duplicate sequential rows from all partitions
+20231010153354 zawk script to run awk programs on gzipped files and streams
 ```
 
 ` zet/20231005213930/README.md `
@@ -186,7 +187,6 @@
 
 - [20230925055222](/zet/20230925055222/README.md) list of unfinished todo items
 - [20221008063052](/zet/20221008063052/README.md) autorunning scripts in cards
-- [20221012171100](/zet/20221012171100/README.md) recently created nodes hub
 - [20221009192000](/zet/20221009192000/README.md) stuff to put on main page
 
 Tags:

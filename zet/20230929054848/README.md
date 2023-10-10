@@ -12,6 +12,7 @@ cp /home/parallels/kb/awk-scripting/get-columns.awk .
 # Related
 
 - [20230921220840](/zet/20230921220840/README.md) list of kb scripts that i could decide whether to copy over
+- [20231010153354](/zet/20231010153354/README.md) zawk script to run awk programs on gzipped files and streams
 
 Tags:
 

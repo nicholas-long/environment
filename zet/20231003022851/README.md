@@ -29,6 +29,7 @@
 - [20230928172527](/zet/20230928172527/README.md) image analysis commands
 - [20230925180815](/zet/20230925180815/README.md) password scripts hub
 - [20230929145418](/zet/20230929145418/README.md) fsdb project - file based database for partitioning and event sourced data
+- [20231010153354](/zet/20231010153354/README.md) zawk script to run awk programs on gzipped files and streams
 
 Tags:
 

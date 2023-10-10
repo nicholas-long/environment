@@ -1,1 +1,2 @@
 - [20231009060511](/zet/20231009060511/README.md) enabling gzip compression on CGI script output
+- [20231010153354](/zet/20231010153354/README.md) zawk script to run awk programs on gzipped files and streams

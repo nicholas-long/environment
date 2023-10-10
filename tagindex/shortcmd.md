@@ -29,3 +29,4 @@
 - [20231001000026](/zet/20231001000026/README.md) script to find the minimum required set of dependent zettels to ship a scripting project
 - [20231003021548](/zet/20231003021548/README.md) script to enumerate all files in an aws s3 bucket url recursively
 - [20231004044241](/zet/20231004044241/README.md) script to strip and scrape all URLs out of text
+- [20231010153354](/zet/20231010153354/README.md) zawk script to run awk programs on gzipped files and streams

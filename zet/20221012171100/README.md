@@ -11,10 +11,6 @@ zet/20221012171100/README.md
 # Related
 
 - [20221012144502](/zet/20221012144502/README.md) track modification dates
-- [20231005170329](/zet/20231005170329/README.md) hooks needed for fsdb
-- [20231005174423](/zet/20231005174423/README.md) testing reoptimize functionality
-- [20231005211810](/zet/20231005211810/README.md) script to sync only markdown files from zk to github
-- [20231005213930](/zet/20231005213930/README.md) list of cards in order
 - [20231006185420](/zet/20231006185420/README.md) awk and bash fzf scripts
 - [20231007033903](/zet/20231007033903/README.md) script to extract text from every second of youtube video frames
 - [20231007140839](/zet/20231007140839/README.md) references to sudo and other considerations for scripts running within a docker
@@ -24,6 +20,7 @@ zet/20221012171100/README.md
 - [20231009060511](/zet/20231009060511/README.md) enabling gzip compression on CGI script output
 - [20231009135143](/zet/20231009135143/README.md) fsdb delete functionality
 - [20231009173031](/zet/20231009173031/README.md) fsdb subcommand to remove duplicate sequential rows from all partitions
+- [20231010153354](/zet/20231010153354/README.md) zawk script to run awk programs on gzipped files and streams
 
 Tags:
 

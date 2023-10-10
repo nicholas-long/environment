@@ -22,7 +22,6 @@ zet/20231005211810/sync-script /media/psf/zk https://github.com/nicholas-long/zk
 # Related
 
 - [20230912192810](/zet/20230912192810/README.md) script to search zk markdown in command line
-- [20221012171100](/zet/20221012171100/README.md) recently created nodes hub
 - [20221105222236](/zet/20221105222236/README.md) cron syntax
 - [20221009095853](/zet/20221009095853/README.md) finished
 - [20221008061845](/zet/20221008061845/README.md) workflow
