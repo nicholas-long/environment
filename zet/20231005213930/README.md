@@ -179,6 +179,7 @@
 20231009135143 fsdb delete functionality
 20231009173031 fsdb subcommand to remove duplicate sequential rows from all partitions
 20231010153354 zawk script to run awk programs on gzipped files and streams
+20231011030523 working with a queue or scheduling system in bash
 ```
 
 ` zet/20231005213930/README.md `
