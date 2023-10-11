@@ -37,6 +37,7 @@ stuff i am working on.
 - [20231007033903](/zet/20231007033903/README.md) script to extract text from every second of youtube video frames
 - [20231007144438](/zet/20231007144438/README.md) automated testing
 - [20231010153354](/zet/20231010153354/README.md) zawk script to run awk programs on gzipped files and streams
+- [20231011030523](/zet/20231011030523/README.md) working with a queue or scheduling system in bash
 
 Tags:
 
