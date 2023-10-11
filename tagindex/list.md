@@ -20,3 +20,4 @@
 - [20231005062610](/zet/20231005062610/README.md) fsdb TODO items
 - [20231005170329](/zet/20231005170329/README.md) hooks needed for fsdb
 - [20231005213930](/zet/20231005213930/README.md) list of cards in order
+- [20231011062458](/zet/20231011062458/README.md) stuff like secrets that needs to be transferred to new machines
