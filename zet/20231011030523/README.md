@@ -25,6 +25,9 @@ q
 hi
 
 └─$ amqp-consume -q q echo
+
+# consume single message - will block until at least 1 message is in queue
+└─$ amqp-consume -q q ./testscript -c 1
 ```
 
 ` zet/20231011030523/README.md `
