@@ -8,7 +8,7 @@ BEGIN {
   compress_line_limit = 100 # constant value
   for(n=0;n<256;n++) ord[sprintf("%c",n)]=n # prepare char code lookup table
   partcount = ENVIRON["partitions"]
-  print "using", partcount, "partitions" > "/dev/stderr"
+  #print "using", partcount, "partitions" > "/dev/stderr"
   #hasingesthook = (system("test -e hooks/ingest") == 0)
   # if arguments are passed in, use them as IDs to search for instead of reading input
   if (ARGC > 1) {
@@ -35,7 +35,7 @@ BEGIN {
 }
 END {
   for (p in partusing) {
-    print "scanning partition", p > "/dev/stderr"
+    #print "scanning partition", p > "/dev/stderr"
     datafile = "data/" p
     cmd = "zcat data/" p ".gz"
     while ((cmd | getline) > 0) {
