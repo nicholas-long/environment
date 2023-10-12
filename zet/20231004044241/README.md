@@ -3,7 +3,7 @@
 - concept of `script to strip all URLs out of text`
 
 ```bash
-zcat /home/parallels/vulnerable-github-data/grepgithub.gz | url-strip
+zcat /home/parallels/vulnerable-github-data/grepgithub.gz | url-scrape
 ```
 
 ` zet/20231004044241/README.md `
