@@ -1,0 +1,11 @@
+#!/bin/bash
+
+outputfile=$(hostname)
+echo "writing to output file $outputfile"
+
+if [ -z "$RABBIT" ]; then
+  echo "rabbit is not defined"
+  exit 1
+fi
+
+amqp-consume -s "$RABBIT" -q testqueue ./workjob

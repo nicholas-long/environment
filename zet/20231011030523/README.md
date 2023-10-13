@@ -36,7 +36,8 @@ hi
 
 - [20221008042814](/zet/20221008042814/README.md) WIP
 - [20221012171100](/zet/20221012171100/README.md) recently created nodes hub
+- [20231013173509](/zet/20231013173509/README.md) testing a work queue docker
 
 Tags:
 
-    #bash #scripting
+    #bash #scripting #queue

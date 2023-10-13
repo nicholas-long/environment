@@ -1,0 +1,5 @@
+#!/bin/bash
+
+read job
+echo "processing job $job"
+exit 0
