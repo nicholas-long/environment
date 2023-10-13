@@ -77,3 +77,4 @@
 - [20231009060511](/zet/20231009060511/README.md) enabling gzip compression on CGI script output
 - [20231009173031](/zet/20231009173031/README.md) fsdb subcommand to remove duplicate sequential rows from all partitions
 - [20231010153354](/zet/20231010153354/README.md) zawk script to run awk programs on gzipped files and streams
+- [20231013173509](/zet/20231013173509/README.md) example of connecting to a work queue docker

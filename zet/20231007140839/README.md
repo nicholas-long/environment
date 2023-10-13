@@ -49,7 +49,6 @@ zet/20230925001420/docker-current-directory.sh:sudo docker run --rm -it -v "$(pw
 # Related
 
 - [20230922220109](/zet/20230922220109/README.md) create a dockerfile for this environment
-- [20221012171100](/zet/20221012171100/README.md) recently created nodes hub
 
 Tags:
 

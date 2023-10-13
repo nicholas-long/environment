@@ -18,7 +18,6 @@
 # Related
 
 - [20230929153207](/zet/20230929153207/README.md) computer science experiments hub
-- [20221012171100](/zet/20221012171100/README.md) recently created nodes hub
 - [20231009060511](/zet/20231009060511/README.md) enabling gzip compression on CGI script output
 
 Tags:
