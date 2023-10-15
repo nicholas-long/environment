@@ -1,0 +1,11 @@
+#!/bin/bash
+
+batcommand="bat --style=plain --language=md --paging=never"
+find $HOME -type d -name 20230925055222 | while read dir; do
+  # print title
+  head -n 1 $dir/../../README.md | \
+    $batcommand
+  # print todos within markdown snippets
+  awk -f $ENVIRON_BASEPATH/zet/20230928184621/snippet.awk $dir/README.md | \
+    $batcommand
+done

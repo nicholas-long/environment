@@ -17,13 +17,6 @@ zet/20231005062610/README.md:- [ ] implement hooks
 - [20231005062610](/zet/20231005062610/README.md) fsdb TODO items #todo #list
 ```
 
-- where can i find snippets?
-  - zet/20221008063052/autoexec_enrich
-  - zet/20221009192000/autoexec_enrich
-  - zet/20221006213953/autoexec_enrich
-  - zet/20221026064448/autoexec_enrich
-
-
 ` zet/20230925055222/README.md `
 
 # Related
@@ -32,6 +25,7 @@ zet/20231005062610/README.md:- [ ] implement hooks
 - [20221008063052](/zet/20221008063052/README.md) autorunning scripts in cards
 - [20221009192000](/zet/20221009192000/README.md) stuff to put on main page
 - [20231005213930](/zet/20231005213930/README.md) list of cards in order
+- [20231015213012](/zet/20231015213012/README.md) script to print todo items in terminal
 
 Tags:
 
