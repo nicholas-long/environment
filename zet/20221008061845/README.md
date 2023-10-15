@@ -26,6 +26,7 @@ hub node for `workflow`
 - [20230923211501](/zet/20230923211501/README.md) get current CVE list as tsv
 - [20231001082012](/zet/20231001082012/README.md) automatically keeping track of changes to zkvr binaries
 - [20231005211810](/zet/20231005211810/README.md) script to sync only markdown files from zk to github
+- [20231015213012](/zet/20231015213012/README.md) script to print todo items in terminal
 
 Tags:
 

@@ -182,6 +182,7 @@
 20231011030523 working with a queue or scheduling system in bash
 20231011062458 stuff like secrets that needs to be transferred to new machines
 20231013173509 example of connecting to a work queue docker
+20231015213012 script to print todo items in terminal
 ```
 
 ` zet/20231005213930/README.md `
