@@ -29,15 +29,44 @@ snyk code test
 
 ## scanning
 - sometimes scans get stuck for quite a while after upload
+- if there is a `composer.lock` file, then run `snyk test` as well to scan dependency versions
+- all output from snyk goes to stdout, at least if it is not running in a tty
 
 ### output
+- program returns exit code ( 1? ) if there are issues
 - successful code scan result
 ```
 ✔ Awesome! No issues were found.
 
-# grep works, but output from run goes to stderr and refreshes with CR
 snyk code test | grep 'Awesome! No issues'
 ✔ Awesome! No issues were found.
+```
+
+## dependency scanning output with results
+- composer lock scan results
+```
+└─$ snyk test
+
+Testing /home/parallels/testing/symfony-actuator-bundle...
+
+✗ High severity vulnerability found in symfony/http-kernel
+  Description: Authentication Bypass
+  Info: https://security.snyk.io/vuln/SNYK-PHP-SYMFONYHTTPKERNEL-3266769
+  Introduced through: symfony/framework-bundle@5.4.14
+  From: symfony/framework-bundle@5.4.14 > symfony/http-kernel@5.4.15
+  Fixed in: 4.4.50, 5.4.20, 6.0.20, 6.1.12, 6.2.6
+
+
+
+Organization:      nicholas.eden.long
+Package manager:   composer
+Target file:       composer.lock
+Project name:      akondas/symfony-actuator-bundle
+Open source:       no
+Project path:      /home/parallels/testing/symfony-actuator-bundle
+Licenses:          enabled
+
+Tested 33 dependencies for known issues, found 1 issue, 1 vulnerable path.
 ```
 
 ` zet/20231016050403/README.md `
