@@ -183,6 +183,8 @@
 20231011062458 stuff like secrets that needs to be transferred to new machines
 20231013173509 example of connecting to a work queue docker
 20231015213012 script to print todo items in terminal
+20231016050313 scanning code for vulnerabilities
+20231016050403 snyk vulnerability scanner
 ```
 
 ` zet/20231005213930/README.md `

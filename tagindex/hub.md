@@ -13,3 +13,4 @@
 - [20230928191243](/zet/20230928191243/README.md) privesc scripts and lists
 - [20230929153207](/zet/20230929153207/README.md) computer science experiments hub
 - [20231003022851](/zet/20231003022851/README.md) data engineering hub
+- [20231016050313](/zet/20231016050313/README.md) scanning code for vulnerabilities

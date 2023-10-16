@@ -2,3 +2,4 @@
 - [20230921220633](/zet/20230921220633/README.md) list of cool ideas i still want to implement in my environment
 - [20230928174503](/zet/20230928174503/README.md) script to automatically generate headings and markdown for displaying code files as snippets
 - [20231001082012](/zet/20231001082012/README.md) automatically keeping track of changes to zkvr binaries
+- [20231016050313](/zet/20231016050313/README.md) scanning code for vulnerabilities

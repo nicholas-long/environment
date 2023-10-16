@@ -17,6 +17,7 @@
 
 - [20221006032546](/zet/20221006032546/README.md) my original implementation of zet cmd
 - [20221008063052](/zet/20221008063052/README.md) autorunning scripts in cards
+- [20231016050313](/zet/20231016050313/README.md) scanning code for vulnerabilities
 
 Tags:
 

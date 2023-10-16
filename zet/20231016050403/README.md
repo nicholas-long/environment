@@ -37,6 +37,7 @@ snyk code test
 # Related
 
 - [20231016050313](/zet/20231016050313/README.md) scanning code for vulnerabilities
+- [20221012171100](/zet/20221012171100/README.md) recently created nodes hub
 
 Tags:
 

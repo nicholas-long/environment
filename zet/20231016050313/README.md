@@ -13,6 +13,7 @@
 - [20231016050403](/zet/20231016050403/README.md) snyk vulnerability scanner
 - [20221007193324](/zet/20221007193324/README.md) github actions
 - [20230905030303](/zet/20230905030303/README.md) script to get github release links
+- [20221012171100](/zet/20221012171100/README.md) recently created nodes hub
 
 Tags:
 

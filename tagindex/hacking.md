@@ -16,3 +16,5 @@
 - [20230928191243](/zet/20230928191243/README.md) privesc scripts and lists
 - [20230928191955](/zet/20230928191955/README.md) get library dependency versions from composer.lock json file
 - [20230928193054](/zet/20230928193054/README.md) docker reverse shell testing project
+- [20231016050313](/zet/20231016050313/README.md) scanning code for vulnerabilities
+- [20231016050403](/zet/20231016050403/README.md) snyk vulnerability scanner
