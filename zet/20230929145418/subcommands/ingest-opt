@@ -5,7 +5,7 @@ BEGIN {
   ARGC = 0 # clean out environ var for this
   timestamps = ENVIRON["timestamps"]
   if (timestamps) OFS = "\t" # use tab char to separate timestamp from line
-  compress_line_limit = 100 # constant value
+  compress_line_limit = 1000 # constant value
   for(n=0;n<256;n++) ord[sprintf("%c",n)]=n # prepare char code lookup table
   partcount = ENVIRON["partitions"]
   print "using", partcount, "partitions"

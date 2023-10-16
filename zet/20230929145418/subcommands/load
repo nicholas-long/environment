@@ -18,4 +18,5 @@ BEGIN {
   target = $1 % splits
   print | (subproc target)
 }
+#NR % 1000000 == 0 { print "progress", NR > "/dev/stderr" }
 '
