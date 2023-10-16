@@ -9,4 +9,4 @@ git clone "$1" >/dev/null
 dirname="$(ls)"
 
 cd /secaudit/phpcs-security-audit
-phpcs --extensions=php,inc,lib,module,info --standard=Security "/repo/$dirname"
+timeout 600 phpcs --extensions=php,inc,lib,module,info --standard=Security "/repo/$dirname"
