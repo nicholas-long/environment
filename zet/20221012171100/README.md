@@ -15,6 +15,7 @@ zet/20221012171100/README.md
 - [20231015213012](/zet/20231015213012/README.md) script to print todo items in terminal
 - [20231016050313](/zet/20231016050313/README.md) scanning code for vulnerabilities
 - [20231016050403](/zet/20231016050403/README.md) snyk vulnerability scanner
+- [20231016172333](/zet/20231016172333/README.md) phpcs code scanner security audit extensions
 
 Tags:
 
