@@ -41,9 +41,11 @@
   /usr/bin/awk: bailing out at source line 4 source file implementation/parseids
   no more results
   ```
+- default terminal fonts don't support the arrow symbols required to draw the tmux hotbar
+  - https://gist.github.com/480/3b41f449686a089f34edb45d00672f28
+  - installed hack nerd fonts
 
 ## open issues
-- default terminal fonts don't support the arrow symbols required to draw the tmux hotbar
 - `$EDITOR` is still not defined from within tmux - why?
 - could try changing relevant zkvr commands to gawk instead of awk?
   - awk on mac os does not support `BEGINFILE`. i will need to search for this and use gawk instead.
