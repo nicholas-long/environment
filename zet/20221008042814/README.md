@@ -38,6 +38,7 @@ stuff i am working on.
 - [20231007144438](/zet/20231007144438/README.md) automated testing
 - [20231010153354](/zet/20231010153354/README.md) zawk script to run awk programs on gzipped files and streams
 - [20231011030523](/zet/20231011030523/README.md) working with a queue or scheduling system in bash
+- [20231016050313](/zet/20231016050313/README.md) scanning code for vulnerabilities
 
 Tags:
 
