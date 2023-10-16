@@ -17,6 +17,10 @@
   - Swift and Objective-C
   - TypeScript
   - VB.NET
+- API keys
+  - i'm not able to get an API key easily for testing without paying for some reason
+  - but i can authenticate using the browser with `snyk auth` and grab my API key afterwards
+  - API key stored at `~/.config/configstore/snyk.json`.
 - command reference on web https://docs.snyk.io/snyk-cli/cli-commands-and-options-summary
 - example commands to authenticate and scan a repository
 ```bash
@@ -28,7 +32,8 @@ snyk code test
 ```
 
 ## scanning
-- sometimes scans get stuck for quite a while after upload
+- scanning uploads files to snyk
+  - sometimes scans get stuck for quite a while after upload. scanning might need a timeout.
 - if there is a `composer.lock` file, then run `snyk test` as well to scan dependency versions
 - all output from snyk goes to stdout, at least if it is not running in a tty
 
