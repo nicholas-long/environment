@@ -51,6 +51,7 @@ Time: 75ms; Memory: 6MB
 
 - [20231016050313](/zet/20231016050313/README.md) scanning code for vulnerabilities
 - [20221012171100](/zet/20221012171100/README.md) recently created nodes hub
+- [20231016185250](/zet/20231016185250/README.md) php code security scanner phpcs docker
 
 Tags:
 
