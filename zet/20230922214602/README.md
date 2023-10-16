@@ -30,6 +30,7 @@ query --human /dev/fd/63
 
 for zkvrid in $(minimum-required-dependency-zets 20221013021614); do
   echo "doing id $zkvrid"
+  mkdir -p ~/zkvr/zet/$zkvrid/
   cp -r zet/$zkvrid/* ~/zkvr/zet/$zkvrid/
 done
 
