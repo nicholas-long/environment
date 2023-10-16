@@ -1,0 +1,15 @@
+#!/bin/bash
+
+echo ">>>>>>>>>> REPO $1"
+echo ">>>>>>>>>> REPO $1" > /dev/stderr
+
+mkdir /repo
+cd /repo
+git clone "$1" >/dev/null
+dirname="$(ls)"
+
+cd "/repo/$dirname"
+timeout 600 snyk code test
+if [ -e "composer.lock" ]; then
+  timeout 600 snyk test
+fi
