@@ -1,0 +1,4 @@
+#!/bin/bash
+
+echo you hit the entry point
+echo arg is $1
