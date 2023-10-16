@@ -27,6 +27,10 @@ snyk auth
 snyk code test
 ```
 
+## scanning
+- sometimes scans get stuck for quite a while after upload
+
+### output
 - successful code scan result
 ```
 ✔ Awesome! No issues were found.
