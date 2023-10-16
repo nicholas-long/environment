@@ -1,4 +1,12 @@
 #!/bin/bash
 
-echo you hit the entry point
-echo arg is $1
+echo ">>>>>>>>>> REPO $1"
+echo ">>>>>>>>>> REPO $1" > /dev/stderr
+
+mkdir /repo
+cd /repo
+git clone "$1" >/dev/null
+dirname="$(ls)"
+
+cd /secaudit/phpcs-security-audit
+phpcs --extensions=php,inc,lib,module,info --standard=Security "/repo/$dirname"

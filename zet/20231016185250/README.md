@@ -4,10 +4,7 @@
 
 ```bash
 docker build . -t phpcsrunner
-
-coyote@Nicholass-MacBook-Pro 20231016185250 % docker run --rm -it phpcsrunner testing123
-you hit the entry point
-arg is testing123
+docker run --rm phpcsrunner https://github.com/akondas/symfony-actuator-bundle
 ```
 
 ` zet/20231016185250/README.md `
