@@ -2,7 +2,10 @@
 
 - concept of `snyk code scanning docker`
 
-```
+```bash
+docker build . -t snykrunner
+docker run --rm snykrunner https://github.com/akondas/symfony-actuator-bundle
+docker run --rm -e SNYK_API_KEY=XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX snykrunner https://github.com/akondas/symfony-actuator-bundle
 ```
 
 ` zet/20231016195712/README.md `

@@ -8,6 +8,12 @@ cd /repo
 git clone "$1" >/dev/null
 dirname="$(ls)"
 
+# set API key from env vars SNYK_API_KEY
+if [ ! -z "$SNYK_API_KEY" ]; then
+  mkdir -p $HOME/.config/configstore
+  printf "{\n\"api\":\"$SNYK_API_KEY\"\n}\n" > $HOME/.config/configstore/snyk.json
+fi
+
 cd "/repo/$dirname"
 timeout 600 snyk code test
 if [ -e "composer.lock" ]; then
