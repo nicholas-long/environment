@@ -34,6 +34,10 @@ snyk code test
 - successful code scan result
 ```
 ✔ Awesome! No issues were found.
+
+# grep works, but output from run goes to stderr and refreshes with CR
+snyk code test | grep 'Awesome! No issues'
+✔ Awesome! No issues were found.
 ```
 
 ` zet/20231016050403/README.md `
