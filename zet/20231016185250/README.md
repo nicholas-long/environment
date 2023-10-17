@@ -1,6 +1,7 @@
 # php code security scanner phpcs docker
 
 - concept of `php code security scanner phpcs docker`
+- pass a git repsitory as an argument
 
 ```bash
 docker build . -t phpcsrunner

@@ -1,6 +1,7 @@
 # snyk code scanning docker
 
 - concept of `snyk code scanning docker`
+- pass a git repsitory as an argument
 
 ```bash
 docker build . -t snykrunner
