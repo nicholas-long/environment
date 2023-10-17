@@ -31,6 +31,7 @@ set -o vi
 
 # productivity boost shortcuts
 alias g=lazygit
+alias dk='docker-killer'
 alias v='fzf --preview="bat --color=always {}" | xargs -o -I{} $EDITOR {}'
 alias t='tmux a -t $(tmux ls | fzf| cut -d ":" -f 1) || tmux'
 alias a='sudo apt install -y $(apt list 2>/dev/null | fzf | cut -d '/' -f 1)'
