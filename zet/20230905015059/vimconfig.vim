@@ -59,6 +59,9 @@ set nowrap
 " source the file
 nmap <Space>gs :source ~/.config/nvim/init.vim <Enter>
 
+" clear highlights double space
+nmap <Space><Space> :nohl<Enter>
+
 " terminal normal mode escape for neovim
 tmap <Esc> <C-\><C-N>
 
@@ -157,11 +160,11 @@ nmap <Space>( ebi(<Esc>A)<Esc>%
 nmap <Space>< ebi<<Esc>ea><Esc>
 
 " spacing lines
-nmap <Space><Space>j o<Esc>
-nmap <Space><Space>k O<Esc>
+"nmap <Space><Space>j o<Esc>
+"nmap <Space><Space>k O<Esc>
 
 " trim last char
-nmap <Space><Space>x mz$x`z
+"nmap <Space><Space>x mz$x`z
 "
 " quit all
 nmap <C-q> :qa!
@@ -170,7 +173,7 @@ nmap <C-q> :qa!
 nmap <Space><C-m> :set norelativenumber<C-m>:
 
 " reset relative numbers when you are done doing ex stuff
-nmap <Space><Space>r :set relativenumber<C-m>
+"nmap <Space><Space>r :set relativenumber<C-m>
 
 " make titles
 nmap <Space>- yypv$r-o<Esc>
@@ -270,7 +273,7 @@ nmap gk Do<C-r>"<Esc>
 " split on commas
 nmap g, :s/,/\r/g<Enter>
 " insert a space up
-nmap <Space><Space><Space> O<Esc>
+"nmap <Space><Space><Space> O<Esc>
 
 " mass join lines
 "nmap Gj :0,.j<Enter>
