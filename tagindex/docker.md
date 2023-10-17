@@ -7,3 +7,4 @@
 - [20231013173509](/zet/20231013173509/README.md) example of connecting to a work queue docker
 - [20231016185250](/zet/20231016185250/README.md) php code security scanner phpcs docker
 - [20231016195712](/zet/20231016195712/README.md) snyk code scanning docker
+- [20231017183957](/zet/20231017183957/README.md) command shortcut to pick and kill dockers

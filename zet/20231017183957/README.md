@@ -13,6 +13,7 @@ docker ps | tail -n +2 | fzf
 
 - [20231016185250](/zet/20231016185250/README.md) php code security scanner phpcs docker
 - [20221008042814](/zet/20221008042814/README.md) WIP
+- [20221012171100](/zet/20221012171100/README.md) recently created nodes hub
 
 Tags:
 

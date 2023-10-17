@@ -39,6 +39,7 @@ stuff i am working on.
 - [20231010153354](/zet/20231010153354/README.md) zawk script to run awk programs on gzipped files and streams
 - [20231011030523](/zet/20231011030523/README.md) working with a queue or scheduling system in bash
 - [20231016050313](/zet/20231016050313/README.md) scanning code for vulnerabilities
+- [20231017183957](/zet/20231017183957/README.md) command shortcut to pick and kill dockers
 
 Tags:
 
