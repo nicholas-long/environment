@@ -16,6 +16,7 @@
 - [20221012171100](/zet/20221012171100/README.md) recently created nodes hub
 - [20231016172333](/zet/20231016172333/README.md) phpcs code scanner security audit extensions
 - [20231016195712](/zet/20231016195712/README.md) snyk code scanning docker
+- [20231016185250](/zet/20231016185250/README.md) php code security scanner phpcs docker
 
 Tags:
 
