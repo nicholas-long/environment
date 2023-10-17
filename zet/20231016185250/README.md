@@ -18,4 +18,4 @@ docker run --rm phpcsrunner https://github.com/akondas/symfony-actuator-bundle
 
 Tags:
 
-    #idea
+    #hacking #scan #docker

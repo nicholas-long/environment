@@ -5,3 +5,5 @@
 - [20230928164014](/zet/20230928164014/README.md) dockerfile templates
 - [20230928193054](/zet/20230928193054/README.md) docker reverse shell testing project
 - [20231013173509](/zet/20231013173509/README.md) example of connecting to a work queue docker
+- [20231016185250](/zet/20231016185250/README.md) php code security scanner phpcs docker
+- [20231016195712](/zet/20231016195712/README.md) snyk code scanning docker

@@ -1,5 +1,3 @@
 - [20231007140839](/zet/20231007140839/README.md) references to sudo and other considerations for scripts running within a docker
 - [20231009135143](/zet/20231009135143/README.md) fsdb delete functionality
 - [20231016172333](/zet/20231016172333/README.md) phpcs code scanner security audit extensions
-- [20231016185250](/zet/20231016185250/README.md) php code security scanner phpcs docker
-- [20231016195712](/zet/20231016195712/README.md) snyk code scanning docker

@@ -1,0 +1,3 @@
+- [20231016050313](/zet/20231016050313/README.md) scanning code for vulnerabilities
+- [20231016185250](/zet/20231016185250/README.md) php code security scanner phpcs docker
+- [20231016195712](/zet/20231016195712/README.md) snyk code scanning docker

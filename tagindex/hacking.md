@@ -18,3 +18,5 @@
 - [20230928193054](/zet/20230928193054/README.md) docker reverse shell testing project
 - [20231016050313](/zet/20231016050313/README.md) scanning code for vulnerabilities
 - [20231016050403](/zet/20231016050403/README.md) snyk vulnerability scanner
+- [20231016185250](/zet/20231016185250/README.md) php code security scanner phpcs docker
+- [20231016195712](/zet/20231016195712/README.md) snyk code scanning docker

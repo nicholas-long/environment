@@ -19,4 +19,4 @@ docker run --rm -e SNYK_API_KEY=XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX snykrunner 
 
 Tags:
 
-    #idea
+    #scan #docker #hacking
