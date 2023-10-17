@@ -1,0 +1,1 @@
+- [20231017151258](/zet/20231017151258/README.md) script to get snyk api key

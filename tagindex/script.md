@@ -79,3 +79,4 @@
 - [20231010153354](/zet/20231010153354/README.md) zawk script to run awk programs on gzipped files and streams
 - [20231013173509](/zet/20231013173509/README.md) example of connecting to a work queue docker
 - [20231015213012](/zet/20231015213012/README.md) script to print todo items in terminal
+- [20231017151258](/zet/20231017151258/README.md) script to get snyk api key
