@@ -6,4 +6,4 @@ cp $ENVIRON_BASEPATH/zet/20231020033222/Dockerfile .
 cp $ENVIRON_BASEPATH/zet/20231020033222/site.conf .
 mkdir www
 
-bat $ENVIRON_BASEPATH/zet/20231020033222/README.md .
+bat --color=always --style=plain $ENVIRON_BASEPATH/zet/20231020033222/README.md

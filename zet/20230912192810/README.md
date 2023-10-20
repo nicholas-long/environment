@@ -19,6 +19,7 @@
 - [x] need to use single quotes because commands can execute in double quotes, like for instance with backticks
 - changed to print tags only on lines with headings and next to the filename just in case
 - added script to find and edit markdown pages in my obsidian zk, but it doesn't work with files with single quotes in the name
+- [ ] this should also search notes and content from within the environment?
 
 ```bash
 # from zet/20221013021614/graphbrowser
@@ -110,6 +111,7 @@ find $ZK_PATH -name '*.md' -type f -print0 | xargs -0 awk '
 - [20230928184621](/zet/20230928184621/README.md) markdown helper scripts
 - [20231005211810](/zet/20231005211810/README.md) script to sync only markdown files from zk to github
 - [20221011145143](/zet/20221011145143/README.md) bat command pretty printer
+- [20230922214323](/zet/20230922214323/README.md) this environment
 
 Tags:
 

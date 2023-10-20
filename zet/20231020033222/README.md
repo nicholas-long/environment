@@ -1,4 +1,4 @@
-# apache docker for testing vulnerabilities template
+# apache docker template shortcut command for testing vulnerabilities
 
 - here are the commands to build and run the docker
 ```bash
