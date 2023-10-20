@@ -1,0 +1,9 @@
+#!/bin/bash
+
+ENVIRON_BASEPATH=/home/coyote/environment
+
+cp $ENVIRON_BASEPATH/zet/20231020033222/Dockerfile .
+cp $ENVIRON_BASEPATH/zet/20231020033222/site.conf .
+mkdir www
+
+bat $ENVIRON_BASEPATH/zet/20231020033222/README.md .
