@@ -22,6 +22,7 @@
 - [20231007144438](/zet/20231007144438/README.md) automated testing
 - [20230905015028](/zet/20230905015028/README.md) dotfiles hub
 - [20231011062458](/zet/20231011062458/README.md) stuff like secrets that needs to be transferred to new machines
+- [20230912192810](/zet/20230912192810/README.md) script to search zk markdown in command line
 
 Tags:
 

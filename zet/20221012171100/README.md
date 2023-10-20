@@ -19,7 +19,7 @@ zet/20221012171100/README.md
 - [20231017151258](/zet/20231017151258/README.md) script to get snyk api key
 - [20231017183957](/zet/20231017183957/README.md) command shortcut to pick and kill dockers
 - [20231020032025](/zet/20231020032025/README.md) apache docker with CGI enabled
-- [20231020033222](/zet/20231020033222/README.md) apache docker for testing vulnerabilities template
+- [20231020033222](/zet/20231020033222/README.md) apache docker template shortcut command for testing vulnerabilities
 
 Tags:
 
