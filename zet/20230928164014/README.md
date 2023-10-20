@@ -20,6 +20,7 @@ zet/20230925024118/scripts-dependencies zet/20230928164014
 - [20230921220840](/zet/20230921220840/README.md) list of kb scripts that i could decide whether to copy over
 - [20230925001420](/zet/20230925001420/README.md) cool docker scripts to migrate
 - [20230928193054](/zet/20230928193054/README.md) docker reverse shell testing project
+- [20231020032025](/zet/20231020032025/README.md) apache docker with CGI enabled
 
 Tags:
 
