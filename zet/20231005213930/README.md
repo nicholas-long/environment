@@ -190,6 +190,8 @@
 20231016195712 snyk code scanning docker
 20231017151258 script to get snyk api key
 20231017183957 command shortcut to pick and kill dockers
+20231020032025 apache docker with CGI enabled
+20231020033222 apache docker for testing vulnerabilities template
 ```
 
 ` zet/20231005213930/README.md `

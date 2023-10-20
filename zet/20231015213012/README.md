@@ -20,7 +20,6 @@ done
 
 - [20230925055222](/zet/20230925055222/README.md) list of unfinished todo items
 - [20221008061845](/zet/20221008061845/README.md) workflow
-- [20221012171100](/zet/20221012171100/README.md) recently created nodes hub
 
 Tags:
 

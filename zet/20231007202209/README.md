@@ -19,6 +19,7 @@
 
 - [20230929153207](/zet/20230929153207/README.md) computer science experiments hub
 - [20231009060511](/zet/20231009060511/README.md) enabling gzip compression on CGI script output
+- [20231020032025](/zet/20231020032025/README.md) apache docker with CGI enabled
 
 Tags:
 

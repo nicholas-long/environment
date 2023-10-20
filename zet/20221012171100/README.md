@@ -11,7 +11,6 @@ zet/20221012171100/README.md
 # Related
 
 - [20221012144502](/zet/20221012144502/README.md) track modification dates
-- [20231015213012](/zet/20231015213012/README.md) script to print todo items in terminal
 - [20231016050313](/zet/20231016050313/README.md) scanning code for vulnerabilities
 - [20231016050403](/zet/20231016050403/README.md) snyk vulnerability scanner
 - [20231016172333](/zet/20231016172333/README.md) phpcs code scanner security audit extensions
@@ -19,6 +18,8 @@ zet/20221012171100/README.md
 - [20231016195712](/zet/20231016195712/README.md) snyk code scanning docker
 - [20231017151258](/zet/20231017151258/README.md) script to get snyk api key
 - [20231017183957](/zet/20231017183957/README.md) command shortcut to pick and kill dockers
+- [20231020032025](/zet/20231020032025/README.md) apache docker with CGI enabled
+- [20231020033222](/zet/20231020033222/README.md) apache docker for testing vulnerabilities template
 
 Tags:
 

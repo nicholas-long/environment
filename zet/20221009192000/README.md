@@ -6,6 +6,7 @@ a script will check to see if the ID numbers appear on the main README.
 
 ```
 Missing:
+- [20231020032025](/zet/20231020032025/README.md) apache docker with CGI enabled #web #docker
 Extra:
 - [20221012171100](/zet/20221012171100/README.md) recently created nodes hub #hub
 ```
@@ -48,6 +49,7 @@ Extra:
 - [20231005213930](/zet/20231005213930/README.md) list of cards in order
 - [20231007033903](/zet/20231007033903/README.md) script to extract text from every second of youtube video frames
 - [20231007144438](/zet/20231007144438/README.md) automated testing
+- [20231020032025](/zet/20231020032025/README.md) apache docker with CGI enabled
 
 Tags:
 

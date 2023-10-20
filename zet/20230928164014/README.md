@@ -21,6 +21,7 @@ zet/20230925024118/scripts-dependencies zet/20230928164014
 - [20230925001420](/zet/20230925001420/README.md) cool docker scripts to migrate
 - [20230928193054](/zet/20230928193054/README.md) docker reverse shell testing project
 - [20231020032025](/zet/20231020032025/README.md) apache docker with CGI enabled
+- [20231020033222](/zet/20231020033222/README.md) apache docker for testing vulnerabilities template
 
 Tags:
 
