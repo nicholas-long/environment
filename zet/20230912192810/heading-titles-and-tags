@@ -16,6 +16,7 @@ BEGINFILE {
   delete heading
   delete tags
 }
+/^# Related/ { next } # skip related headings from zkvr
 /^#+ / {
   level=length($1)
   if (block) level = 5 # comments go as nested headings
