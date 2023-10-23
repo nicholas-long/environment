@@ -13,3 +13,4 @@
 - [20231003062001](/zet/20231003062001/README.md) fsdb use case - using as a set
 - [20231003063630](/zet/20231003063630/README.md) adding timestamps to fsdb
 - [20231007033903](/zet/20231007033903/README.md) script to extract text from every second of youtube video frames
+- [20231023142155](/zet/20231023142155/README.md) script to scrape information from github pages to avoid API usage

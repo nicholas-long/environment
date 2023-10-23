@@ -192,6 +192,7 @@
 20231017183957 command shortcut to pick and kill dockers
 20231020032025 apache docker with CGI enabled
 20231020033222 apache docker template shortcut command for testing vulnerabilities
+20231023142155 script to scrape information from github pages to avoid API usage
 ```
 
 ` zet/20231005213930/README.md `
