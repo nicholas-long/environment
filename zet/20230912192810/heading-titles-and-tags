@@ -1,0 +1,44 @@
+#!/usr/bin/awk -f
+
+BEGIN {
+  OFS = "\t"
+}
+BEGINFILE {
+  fn=FILENAME
+  gsub(/.*\//,"",fn)
+  gsub(/\.md$/,"",fn)
+  gsub(/^[0-9]+ /,"",fn)
+  split("", array) # clear out lines array
+  split("", tags) # clear out tags array
+  if (fn == "README") fn = ""
+  ndx = 0 # array index
+  block = 0
+  delete heading
+  delete tags
+}
+/^#+ / {
+  level=length($1)
+  if (block) level = 5 # comments go as nested headings
+  heading[level]=$0
+  for (n=level + 1; n <= 6; n++) heading[n]="" # clear nested headings
+  fulltext=""
+  for (n=1; n <= level; n++) fulltext = fulltext " " heading[n]
+  array[ndx++] = fulltext
+}
+/^ *```/ { block = !block }
+{ # look for tags
+  for (f = 1; f < NF; f++) { # loop over all words
+    if ($f ~ /^#[A-Za-z0-9]+$/) { # regular expression to match valid tags
+      tags[$f]++
+    }
+  }
+}
+ENDFILE {
+  tagline = ""
+  for (t in tags) { tagline = tagline " " t }
+  for (i = 0; i < ndx; i++) {
+    print FILENAME, fn, array[i] tagline # can print tags next to titles here
+    printedstuff = 1
+  }
+  if (!printedstuff) print FILENAME, fn, tagline # print tagline in case it did not get printed with a title
+}
