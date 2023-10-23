@@ -1,3 +1,4 @@
 #!/bin/bash
 
-find $ZK_PATH -name '*.md' -type f -print0 | xargs -0 gawk -f $ENVIRON_BASEPATH/zet/20230912192810/heading-titles-and-tags
+(find $ENVIRON_BASEPATH -type f -name README.md -print0 && find $ZK_PATH -name '*.md' -type f -print0) | \
+  xargs -0 gawk -f $ENVIRON_BASEPATH/zet/20230912192810/heading-titles-and-tags

@@ -19,7 +19,7 @@
 - [x] need to use single quotes because commands can execute in double quotes, like for instance with backticks
 - changed to print tags only on lines with headings and next to the filename just in case
 - added script to find and edit markdown pages in my obsidian zk, but it doesn't work with files with single quotes in the name
-- [ ] this should also search notes and content from within the environment?
+- [x] this should also search notes and content from within the environment?
 - 2023-10-23 converting this to use titles and have a separate version for deep searching
   - copy from [20230924221605](/zet/20230924221605/README.md) script to get nested markdown headings for keyword searching
 
