@@ -14,6 +14,7 @@ zet/20221012171100/README.md
 - [20231020032025](/zet/20231020032025/README.md) apache docker with CGI enabled
 - [20231020033222](/zet/20231020033222/README.md) apache docker template shortcut command for testing vulnerabilities
 - [20231023142155](/zet/20231023142155/README.md) script to scrape information from github pages to avoid API usage
+- [20231024041243](/zet/20231024041243/README.md) API queue server implemented in python
 
 Tags:
 
