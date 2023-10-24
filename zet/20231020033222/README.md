@@ -3,7 +3,8 @@
 - here are the commands to build and run the docker
 ```bash
 docker build . -t apache2testing
-docker run --rm -d -v "${PWD}/www:/var/www/html" -p "80:8000" apache2testing
+docker run --rm -d -v "${PWD}/www:/var/www/html" -p "80:80" apache2testing
+docker run -d -p "8000:80" apache2testing
 ```
 
 ` zet/20231020033222/README.md `
