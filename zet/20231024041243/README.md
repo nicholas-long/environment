@@ -11,6 +11,9 @@
 ┌──(parallels㉿kali-linux-2022-2)-[~/environment/zet/20231024041243]
 └─$ curl localhost:8000/get
 https://github.com/nicholas-long/environ
+
+docker build . -t queue
+docker run --rm -it -p 8000:8000 queue
 ```
 
 ` zet/20231024041243/README.md `
