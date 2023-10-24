@@ -36,6 +36,7 @@ hi
 
 - [20221008042814](/zet/20221008042814/README.md) WIP
 - [20231013173509](/zet/20231013173509/README.md) example of connecting to a work queue docker
+- [20231024041243](/zet/20231024041243/README.md) API queue server implemented in python
 
 Tags:
 
