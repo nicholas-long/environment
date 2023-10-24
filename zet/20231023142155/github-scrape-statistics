@@ -3,7 +3,7 @@
 #xpup="go run github.com/ericchiang/xpup@latest"
 url="$1"
 tf=$(mktemp)
-curl "$url" > $tf
+curl "$url" > $tf 2>/dev/null
 stars=$(cat $tf | pup '#repo-stars-counter-star attr{title}' | sed 's/,//g')
 echo "stars $stars"
 echo "Last releases:"
