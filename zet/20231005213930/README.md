@@ -194,6 +194,8 @@
 20231020033222 apache docker template shortcut command for testing vulnerabilities
 20231023142155 script to scrape information from github pages to avoid API usage
 20231024041243 API queue server implemented in python
+20231025200754 script to update obsidian internal links in markdown
+20231025200905 zettelkasten to blog conversion hub
 ```
 
 ` zet/20231005213930/README.md `

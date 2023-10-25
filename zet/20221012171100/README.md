@@ -11,10 +11,10 @@ zet/20221012171100/README.md
 # Related
 
 - [20221012144502](/zet/20221012144502/README.md) track modification dates
-- [20231020032025](/zet/20231020032025/README.md) apache docker with CGI enabled
-- [20231020033222](/zet/20231020033222/README.md) apache docker template shortcut command for testing vulnerabilities
 - [20231023142155](/zet/20231023142155/README.md) script to scrape information from github pages to avoid API usage
 - [20231024041243](/zet/20231024041243/README.md) API queue server implemented in python
+- [20231025200754](/zet/20231025200754/README.md) script to update obsidian internal links in markdown
+- [20231025200905](/zet/20231025200905/README.md) zettelkasten to blog conversion hub
 
 Tags:
 

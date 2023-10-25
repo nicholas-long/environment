@@ -107,7 +107,7 @@ grep -R '\[\[.*\[\[' /home/coyote/Documents/zk/
 - [20230905160850](/zet/20230905160850/README.md) directory for executable short commands to run on path
 - [20221013221136](/zet/20221013221136/README.md) graph query language for zettelkasten
 - [20230919172630](/zet/20230919172630/README.md) script to get root of repository or obsidian knowledge base
-- [20231025200754](/zet/20231025200754/README.md) script to update links in markdown
+- [20231025200754](/zet/20231025200754/README.md) script to update obsidian internal links in markdown
 
 Tags:
 

@@ -19,6 +19,7 @@
 - [20221013221136](/zet/20221013221136/README.md) graph query language for zettelkasten
 - [20230922210126](/zet/20230922210126/README.md) cards i can clean up
 - [20230922214323](/zet/20230922214323/README.md) this environment
+- [20231025200905](/zet/20231025200905/README.md) zettelkasten to blog conversion hub
 
 Tags:
 

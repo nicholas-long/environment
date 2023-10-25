@@ -41,6 +41,7 @@ stuff i am working on.
 - [20231016050313](/zet/20231016050313/README.md) scanning code for vulnerabilities
 - [20231017183957](/zet/20231017183957/README.md) command shortcut to pick and kill dockers
 - [20231023142155](/zet/20231023142155/README.md) script to scrape information from github pages to avoid API usage
+- [20231025200905](/zet/20231025200905/README.md) zettelkasten to blog conversion hub
 
 Tags:
 
