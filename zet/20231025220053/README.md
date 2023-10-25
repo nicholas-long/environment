@@ -2,6 +2,7 @@
 
 - concept of `script for updating blog`
 - call this from the server
+- i am unable to get the blog to build on the server. jekyll will not work when installed from ubuntu. i even tried it in a kali linux docker.
 
 ```bash
 ```
