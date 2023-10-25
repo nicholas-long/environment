@@ -1,0 +1,15 @@
+#!/usr/bin/awk -f
+# replace a markdown link with another markdown link.
+# provide link to change as parameters in environment variables "source" and "dest"
+BEGIN {
+  source = ENVIRON["source"]
+  dest = ENVIRON["dest"]
+  searchquery = "\\[\\[" source "\\]\\]"
+  replacewith = "[[" dest "]]"
+}
+$0 ~ searchquery {
+  gsub(searchquery, replacewith)
+  print
+  next
+}
+{ print }
