@@ -9,3 +9,4 @@
 - [20230928185603](/zet/20230928185603/README.md) script to print the content of markdown text within the heading level of a particular line
 - [20230929024225](/zet/20230929024225/README.md) meta note related scripts
 - [20231025200754](/zet/20231025200754/README.md) script to update obsidian internal links in markdown
+- [20231025200905](/zet/20231025200905/README.md) zettelkasten to blog conversion hub

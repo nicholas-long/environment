@@ -3,3 +3,5 @@
 - [20231009060511](/zet/20231009060511/README.md) enabling gzip compression on CGI script output
 - [20231020032025](/zet/20231020032025/README.md) apache docker with CGI enabled
 - [20231024041243](/zet/20231024041243/README.md) API queue server implemented in python
+- [20231025200905](/zet/20231025200905/README.md) zettelkasten to blog conversion hub
+- [20231025210314](/zet/20231025210314/README.md) getting jekyll to work in the workflow of publishing a blog

@@ -13,6 +13,7 @@
 # Related
 
 - [20231025200905](/zet/20231025200905/README.md) zettelkasten to blog conversion hub
+- [20221012171100](/zet/20221012171100/README.md) recently created nodes hub
 
 Tags:
 

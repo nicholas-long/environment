@@ -196,6 +196,7 @@
 20231024041243 API queue server implemented in python
 20231025200754 script to update obsidian internal links in markdown
 20231025200905 zettelkasten to blog conversion hub
+20231025210314 getting jekyll to work in the workflow of publishing a blog
 ```
 
 ` zet/20231005213930/README.md `
