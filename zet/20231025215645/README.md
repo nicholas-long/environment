@@ -1,0 +1,18 @@
+# my blog
+
+- concept of `my blog`
+- located at [my domain](httos://nicklong.xyz)
+
+```
+```
+
+` zet/20231025215645/README.md `
+
+# Related
+
+- [20230922214323](/zet/20230922214323/README.md) this environment
+- [20231025220053](/zet/20231025220053/README.md) script for updating blog
+
+Tags:
+
+    #blog

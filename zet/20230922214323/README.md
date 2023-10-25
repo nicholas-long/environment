@@ -23,6 +23,7 @@
 - [20230905015028](/zet/20230905015028/README.md) dotfiles hub
 - [20231011062458](/zet/20231011062458/README.md) stuff like secrets that needs to be transferred to new machines
 - [20230912192810](/zet/20230912192810/README.md) script to search zk markdown in command line
+- [20231025215645](/zet/20231025215645/README.md) my blog
 
 Tags:
 
