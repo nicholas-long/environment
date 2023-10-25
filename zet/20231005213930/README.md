@@ -197,6 +197,9 @@
 20231025200754 script to update obsidian internal links in markdown
 20231025200905 zettelkasten to blog conversion hub
 20231025210314 getting jekyll to work in the workflow of publishing a blog
+20231025215645 my blog
+20231025215645/_site my blog
+20231025220053 script for updating blog
 ```
 
 ` zet/20231005213930/README.md `

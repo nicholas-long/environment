@@ -85,3 +85,4 @@
 - [20231023142155](/zet/20231023142155/README.md) script to scrape information from github pages to avoid API usage
 - [20231024041243](/zet/20231024041243/README.md) API queue server implemented in python
 - [20231025200754](/zet/20231025200754/README.md) script to update obsidian internal links in markdown
+- [20231025220053](/zet/20231025220053/README.md) script for updating blog
