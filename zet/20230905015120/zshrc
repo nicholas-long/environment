@@ -53,6 +53,9 @@ alias ke='edit-kb-fuzzy-find-markdown'
 alias environ='cd $ENVIRON_BASEPATH && ./zkvr'
 alias vars='$EDITOR ~/.variables.sh && source ~/.variables.sh'
 
+if [ -d "$HOME/go/bin" ]; then
+  export PATH="$PATH:$HOME/go/bin"
+fi
 export PATH="$PATH:$ENVIRON_BASEPATH/shortcuts"
 if [ -f ~/.variables.sh ]; then
   source ~/.variables.sh
