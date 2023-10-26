@@ -3,7 +3,11 @@
 - concept of `my blog`
 - located at [my domain](httos://nicklong.xyz)
 
+# testing hugo
+- https://gohugo.io/getting-started/quick-start/
+- links do not work right out of the box. can be fixed by cleaning them up like this:
 ```
+testing links within hugo [link text]({{< ref "third" >}})
 ```
 
 ` zet/20231025215645/README.md `
