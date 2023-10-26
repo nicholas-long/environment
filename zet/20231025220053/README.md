@@ -5,6 +5,8 @@
 - i am unable to get the blog to build on the server. jekyll will not work when installed from ubuntu. i even tried it in a kali linux docker.
 
 ```bash
+# this works but it should be cleaned out too
+sudo cp -r public/* /var/www/html/
 ```
 
 ` zet/20231025220053/README.md `
