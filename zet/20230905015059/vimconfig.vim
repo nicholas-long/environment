@@ -148,7 +148,7 @@ abbr _sh #!/bin/bash
 abbr _awk #!/usr/bin/awk -f
 abbr _dn /dev/null
 
-nmap <Space>kb :r ~/kb/
+"nmap <Space>kb :r ~/kb/
 
 " add comma from normal mode
 nmap <Space>, Ea,<Esc>
@@ -328,4 +328,4 @@ nmap <Space>hs :Hi:save<CR>
 nmap <Space>h= :Hi ==<CR>
 
 setlocal complete+=k
-setlocal dictionary+=~/kb/wordlists/all-words-in-kb.txt
+"setlocal dictionary+=~/kb/wordlists/all-words-in-kb.txt
