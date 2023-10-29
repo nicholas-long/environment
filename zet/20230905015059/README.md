@@ -19,7 +19,17 @@ vmap <Right> :m'}-1<Enter>
 ```
 
 - https://unix.stackexchange.com/questions/732092/vim-warning-input-is-not-from-a-terminal
-- [ ] i am having an issue where neovim tabstop is resetting to 4 by itself on my macbook. seems to only happen on markdown files.
+- [x] i am having an issue where neovim tabstop is resetting to 4 by itself on my macbook. seems to only happen on markdown files.
+```
+coyote@Nicholass-MacBook-Pro ftplugin % pwd
+/opt/homebrew/Cellar/neovim/0.9.2/share/nvim/runtime/ftplugin
+# i commented this out
+coyote@Nicholass-MacBook-Pro ftplugin % cat markdown.vim | grep -B 2 -A 2 tabstop
+
+"if get(g:, 'markdown_recommended_style', 1)
+"  setlocal expandtab tabstop=4 softtabstop=4 shiftwidth=4
+"endif
+```
 
 - install it
 ```bash
