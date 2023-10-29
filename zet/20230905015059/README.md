@@ -4,12 +4,6 @@
 - copied from my old config https://github.com/nicholas-long/pen-test-environ/blob/main/neovim-bindings.vim
 - created a new plain version for normal vim bindings. i guess i'm assuming that if you have vim instead of nvim then you want less bindings or lightweight set of useful hotkeys?
   - `plainvimconfig.vim`
-  - [x] one potential issue is that normal vim (not neovim) seems to mess up the terminal when lauched with multiple files with xfer
-    - i think this is related to the error message about vim not being launched from a terminal. it works if you launch it from the command line with `-p`.
-    - the editor is called from within an awk system call
-    - i tried printing printing the command instead and piping it to bash, but it didn't fix it
-    - https://unix.stackexchange.com/questions/732092/vim-warning-input-is-not-from-a-terminal
-    - fixed this in zkvr graphbrowser. should migrate the fix up to the main zkvr later
 > Vim's user-specific configuration file is located in the home directory: `~/.vimrc`, and Vim files of current user are located inside ~/.vim/ . The global configuration file is located at /etc/vimrc .Jul 29, 2023
 - created script to install `zet/20230905015059/install-vim-config`
 - i like having space q to quit while working in zkvr
@@ -23,6 +17,9 @@ vmap <Down> :m$<Enter>
 vmap <Left> :m'{<Enter>
 vmap <Right> :m'}-1<Enter>
 ```
+
+- https://unix.stackexchange.com/questions/732092/vim-warning-input-is-not-from-a-terminal
+- [ ] i am having an issue where neovim tabstop is resetting to 4 by itself on my macbook. seems to only happen on markdown files.
 
 - install it
 ```bash
