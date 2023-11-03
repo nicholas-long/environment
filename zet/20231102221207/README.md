@@ -7,6 +7,9 @@
 - other scripts make use of python langchain library to load content in a directory https://github.com/techleadhd/chatgpt-retrieval
 - history is stored in file called `history` 
   - [ ] could periodically ask GPT to summarize this file and shrink it
+- header passed into every prompt is stored in file called `prime-directive`
+- `generate-prompt` is the script to generate the whole prompt each time
+- `run` is the script to run each prompt
 
 ```bash
 pip3 install openai-cli
