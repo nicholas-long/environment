@@ -1,0 +1,17 @@
+#!/bin/bash
+
+if [ -z "$OPENAI_API_TOKEN" ]; then
+  echo "you need an API token"
+  exit 1
+fi
+
+if [ ! -f "./history" ]; then
+  touch ./history
+fi
+
+echo -n "Prompt: "
+tf=$(mktemp)
+cat > "$tf"
+cat "$tf" | ./generate-prompt | openai complete -
+cat "$tf" >> ./history
+rm "$tf"
