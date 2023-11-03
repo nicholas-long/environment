@@ -1,7 +1,8 @@
 # working with openai chatgpt prompts
 
-- concept of `testing openai chatgpt prompts`
 - i have been hearing about crafting GPT prompts lately. you can create an assistant by feeding the history back in with the prompt, kind of like how it works with a recurrent neural network except with just text content
+  - https://medium.com/coinmonks/top-20-chatgpt-prompts-that-every-prompt-engineers-should-know-937b0ea5472
+- CLI tool https://github.com/peterdemin/openai-cli
 - i am making it so i can source a config.rc file in here to get the API key. this file should be excluded from git in gitignore for security.
 
 ```bash
