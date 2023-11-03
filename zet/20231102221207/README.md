@@ -4,6 +4,9 @@
   - https://medium.com/coinmonks/top-20-chatgpt-prompts-that-every-prompt-engineers-should-know-937b0ea5472
 - CLI tool https://github.com/peterdemin/openai-cli
 - i am making it so i can source a config.rc file in here to get the API key. this file should be excluded from git in gitignore for security.
+- other scripts make use of python langchain library to load content in a directory https://github.com/techleadhd/chatgpt-retrieval
+- history is stored in file called `history` 
+  - [ ] could periodically ask GPT to summarize this file and shrink it
 
 ```bash
 pip3 install openai-cli
