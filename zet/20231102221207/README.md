@@ -13,6 +13,7 @@ pip3 install openai-cli
 
 - [20230929153207](/zet/20230929153207/README.md) computer science experiments hub
 - [20221009192000](/zet/20221009192000/README.md) stuff to put on main page
+- [20221012171100](/zet/20221012171100/README.md) recently created nodes hub
 
 Tags:
 

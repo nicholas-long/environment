@@ -14,7 +14,6 @@ sudo cp -r public/* /var/www/html/
 # Related
 
 - [20231025215645](/zet/20231025215645/README.md) my blog
-- [20221012171100](/zet/20221012171100/README.md) recently created nodes hub
 
 Tags:
 

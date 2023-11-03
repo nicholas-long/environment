@@ -1,0 +1,1 @@
+- [20231102221207](/zet/20231102221207/README.md) working with openai chatgpt prompts

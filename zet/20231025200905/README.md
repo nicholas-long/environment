@@ -40,7 +40,6 @@
 - [20231025200754](/zet/20231025200754/README.md) script to update obsidian internal links in markdown
 - [20221008042814](/zet/20221008042814/README.md) WIP
 - [20221006013313](/zet/20221006013313/README.md) zettelkasten
-- [20221012171100](/zet/20221012171100/README.md) recently created nodes hub
 - [20231025210314](/zet/20231025210314/README.md) getting jekyll to work in the workflow of publishing a blog
 
 Tags:

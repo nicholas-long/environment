@@ -21,7 +21,6 @@ docker run --rm -it -p 8000:8000 queue
 # Related
 
 - [20231011030523](/zet/20231011030523/README.md) working with a queue or scheduling system in bash
-- [20221012171100](/zet/20221012171100/README.md) recently created nodes hub
 
 Tags:
 
