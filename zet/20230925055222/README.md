@@ -12,12 +12,14 @@ zet/20231005062610/README.md:- [ ] implement bloom filter
 zet/20231005062610/README.md:- [ ] implement hooks
 zet/20231025200905/README.md:- [ ] i can make scripts to start blog posts and copy one file in from zk at a time
 zet/20231025210314/README.md:- [ ] where do you put images in a jekyll blog?
+zet/20231102221207/README.md:  - [ ] could periodically ask GPT to summarize this file and shrink it
 - [20230925193834](/zet/20230925193834/README.md) testing on mac os #test #dotfiles
 - [20230927152827](/zet/20230927152827/README.md) reverse engineering obsidian to create an obsidian sync cli tool #program #command #reveng #util
 - [20230930042658](/zet/20230930042658/README.md) fsdb ingest subcommand notes #database
 - [20231005062610](/zet/20231005062610/README.md) fsdb TODO items #todo #list
 - [20231025200905](/zet/20231025200905/README.md) zettelkasten to blog conversion hub #zettelkasten #markdown #web
 - [20231025210314](/zet/20231025210314/README.md) getting jekyll to work in the workflow of publishing a blog #idea #web
+- [20231102221207](/zet/20231102221207/README.md) working with openai chatgpt prompts #ai
 ```
 
 ` zet/20230925055222/README.md `

@@ -9,3 +9,4 @@
 - [20231007144438](/zet/20231007144438/README.md) automated testing
 - [20231007144749](/zet/20231007144749/README.md) integration test for dockerfile
 - [20231009173031](/zet/20231009173031/README.md) fsdb subcommand to remove duplicate sequential rows from all partitions
+- [20231104035739](/zet/20231104035739/README.md) testing openai chatgpt to create some scripts

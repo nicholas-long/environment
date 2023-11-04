@@ -2,3 +2,4 @@
 - [20231009135143](/zet/20231009135143/README.md) fsdb delete functionality
 - [20231016172333](/zet/20231016172333/README.md) phpcs code scanner security audit extensions
 - [20231025210314](/zet/20231025210314/README.md) getting jekyll to work in the workflow of publishing a blog
+- [20231104035739](/zet/20231104035739/README.md) testing openai chatgpt to create some scripts

@@ -8,3 +8,4 @@
 - [20230926234809](/zet/20230926234809/README.md) a non-platform-specific find command script for executable files
 - [20230927152827](/zet/20230927152827/README.md) reverse engineering obsidian to create an obsidian sync cli tool
 - [20231016050403](/zet/20231016050403/README.md) snyk vulnerability scanner
+- [20231103204105](/zet/20231103204105/README.md) openai chatgpt CLI command
