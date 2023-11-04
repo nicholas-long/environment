@@ -3,6 +3,7 @@
 - want to be able to use it from within vim
 - store the API key somewhere in home directory and load it dynamically
 - https://github.com/kharvd/gpt-cli
+- created wrapper script `chatgpt` to call it with gpt-4
 
 ```bash
 pip3 install gpt-command-line
