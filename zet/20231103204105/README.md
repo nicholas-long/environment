@@ -7,6 +7,11 @@
 
 ```bash
 pip3 install gpt-command-line
+
+$ cat chatgpt
+#!/bin/bash
+
+gpt --model gpt-4 --prompt -
 ```
 
 - config file `~/.config/gpt-cli/gpt.yml`
