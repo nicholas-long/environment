@@ -2,12 +2,13 @@
 BEGIN {
   system("cat prime-directive")
   print ""
-  print "For context, the following is everything you have been asked so far in a markdown code snippet surrounded by three backticks:"
+  print "For context, the following is everything the human has asked you so far, surrounded by three markdown code snippet backticks."
+  print "You have already responded to any questions in here, so there is no need to repeat the answers to them unless asked again."
   print "```"
   system("cat history")
   print "```"
   print ""
-  print "Here is the current question:"
+  print "Here is the current message:"
 }
 {
   print
