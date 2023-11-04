@@ -13,6 +13,8 @@
 
 ```bash
 pip3 install openai-cli
+# better version
+pip3 install gpt-command-line
 
 # before running, export API key variable
 export OPENAI_API_TOKEN="..."
@@ -38,6 +40,7 @@ I don't have a sister, Max. But I'm sure you have lots of friends your age that 
 - [20230929153207](/zet/20230929153207/README.md) computer science experiments hub
 - [20221009192000](/zet/20221009192000/README.md) stuff to put on main page
 - [20221012171100](/zet/20221012171100/README.md) recently created nodes hub
+- [20231103204105](/zet/20231103204105/README.md) openai chatgpt shortcut command
 
 Tags:
 
