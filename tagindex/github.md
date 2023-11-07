@@ -1,2 +1,3 @@
 - [20230905030303](/zet/20230905030303/README.md) script to get github release links
 - [20231023142155](/zet/20231023142155/README.md) script to scrape information from github pages to avoid API usage
+- [20231107183617](/zet/20231107183617/README.md) github action permission issues with automatic enrich workflows

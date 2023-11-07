@@ -86,3 +86,4 @@
 - [20231024041243](/zet/20231024041243/README.md) API queue server implemented in python
 - [20231025200754](/zet/20231025200754/README.md) script to update obsidian internal links in markdown
 - [20231025220053](/zet/20231025220053/README.md) script for updating blog
+- [20231107183617](/zet/20231107183617/README.md) github action permission issues with automatic enrich workflows

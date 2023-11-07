@@ -1,1 +1,2 @@
 - [20230928192818](/zet/20230928192818/README.md) micro environment scripts needed to get programs working
+- [20231107183617](/zet/20231107183617/README.md) github action permission issues with automatic enrich workflows
