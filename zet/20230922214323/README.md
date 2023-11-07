@@ -24,6 +24,7 @@
 - [20231011062458](/zet/20231011062458/README.md) stuff like secrets that needs to be transferred to new machines
 - [20230912192810](/zet/20230912192810/README.md) script to search zk markdown in command line
 - [20231025215645](/zet/20231025215645/README.md) my blog
+- [20231107183617](/zet/20231107183617/README.md) github action permission issues with automatic enrich workflows
 
 Tags:
 
