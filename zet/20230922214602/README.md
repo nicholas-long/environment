@@ -5,6 +5,8 @@
   - 2023-09-29 copied in
 - [x] should copy up find executable command - id 20230926234809
 - [x] copy up new code fixes 2023-09-30
+- [ ] include information about setting up github actions
+  - [20231107183617](/zet/20231107183617/README.md) github action permission issues with automatic enrich workflows
 
 - commands to sync new code changes to zkvr
 ```bash
@@ -43,6 +45,7 @@ cp -r zet/20230925055222 ~/zkvr/zet/
 - [20230930224454](/zet/20230930224454/README.md) problems encountered with zkvr while testing this environment
 - [20231001000026](/zet/20231001000026/README.md) script to find the minimum required set of dependent zettels to ship a scripting project
 - [20231001082012](/zet/20231001082012/README.md) automatically keeping track of changes to zkvr binaries
+- [20231107183617](/zet/20231107183617/README.md) github action permission issues with automatic enrich workflows
 
 Tags:
 
