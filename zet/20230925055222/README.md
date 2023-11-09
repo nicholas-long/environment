@@ -5,6 +5,8 @@
 - i tried pasting the grep results togeher with the graphquery results, but that didn't work because the graphquery only returns unique results.
 
 ```markdown
+zet/20230922214602/README.md:- [ ] automatic tag suggestions for documents from chatGPT
+zet/20230922214602/README.md:- [ ] automatically browsing between any directory that is modified in git, include titles
 zet/20230922214602/README.md:- [ ] include information about setting up github actions
 zet/20230925193834/README.md:- [ ] adding and deleting tags doesn't work
 zet/20230927152827/README.md:- [ ] figure out why login doesn't work and return a token
