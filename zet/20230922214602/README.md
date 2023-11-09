@@ -7,6 +7,9 @@
 - [x] copy up new code fixes 2023-09-30
 - [ ] include information about setting up github actions
   - [20231107183617](/zet/20231107183617/README.md) github action permission issues with automatic enrich workflows
+- [ ] automatically browsing between any directory that is modified in git, include titles
+- [ ] automatic tag suggestions for documents from chatGPT
+  - i want to implement this for any markdown document in general, select appropriate tags for this document from a list
 
 - commands to sync new code changes to zkvr
 ```bash
