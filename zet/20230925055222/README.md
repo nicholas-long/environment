@@ -5,23 +5,23 @@
 - i tried pasting the grep results togeher with the graphquery results, but that didn't work because the graphquery only returns unique results.
 
 ```markdown
+zet/20230905015223/README.md:- [ ] do i need to run the install scripts in the github actions runner docker? scripts that run during the enrich process might expect certain commands installed.
 zet/20230922214602/README.md:- [ ] automatic tag suggestions for documents from chatGPT
 zet/20230922214602/README.md:- [ ] automatically browsing between any directory that is modified in git, include titles
 zet/20230922214602/README.md:- [ ] include information about setting up github actions
 zet/20230925193834/README.md:- [ ] adding and deleting tags doesn't work
 zet/20230927152827/README.md:- [ ] figure out why login doesn't work and return a token
 zet/20230930042658/README.md:- [ ] i could make the number of rows before compressing configurable. i might be able to speed up ingesting data if there is less compressing happening.
-zet/20231001082012/README.md:- [ ] this does not work properly when run in a docker within github actions. it returns several md5 hashes of empty files
 zet/20231005062610/README.md:- [ ] implement bloom filter
 zet/20231005062610/README.md:- [ ] implement hooks
 zet/20231025200905/README.md:- [ ] i can make scripts to start blog posts and copy one file in from zk at a time
 zet/20231025210314/README.md:- [ ] where do you put images in a jekyll blog?
 zet/20231102221207/README.md:  - [ ] could periodically ask GPT to summarize this file and shrink it
+- [20230905015223](/zet/20230905015223/README.md) install scripts #script #setup
 - [20230922214602](/zet/20230922214602/README.md) things i want to implement in zkvr after working on the environment #list
 - [20230925193834](/zet/20230925193834/README.md) testing on mac os #test #dotfiles
 - [20230927152827](/zet/20230927152827/README.md) reverse engineering obsidian to create an obsidian sync cli tool #program #command #reveng #util
 - [20230930042658](/zet/20230930042658/README.md) fsdb ingest subcommand notes #database
-- [20231001082012](/zet/20231001082012/README.md) automatically keeping track of changes to zkvr binaries #workflow #script #coding #zet
 - [20231005062610](/zet/20231005062610/README.md) fsdb TODO items #todo #list
 - [20231025200905](/zet/20231025200905/README.md) zettelkasten to blog conversion hub #zettelkasten #markdown #web
 - [20231025210314](/zet/20231025210314/README.md) getting jekyll to work in the workflow of publishing a blog #idea #web
