@@ -83,6 +83,7 @@ zet/20221013021614/getcopycontent zet/20221013021614/README.md
 - [20230930224454](/zet/20230930224454/README.md) problems encountered with zkvr while testing this environment
 - [20231001082012](/zet/20231001082012/README.md) automatically keeping track of changes to zkvr binaries
 - [20231007144438](/zet/20231007144438/README.md) automated testing
+- [20231111154742](/zet/20231111154742/README.md) guidelines for enrich scripts within this environment
 
 Tags:
 

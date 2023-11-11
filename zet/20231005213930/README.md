@@ -203,6 +203,7 @@
 20231103204105 openai chatgpt CLI command
 20231104035739 testing openai chatgpt to create some scripts
 20231107183617 github action permission issues with automatic enrich workflows
+20231111154742 guidelines for enrich scripts within this environment
 ```
 
 ` zet/20231005213930/README.md `

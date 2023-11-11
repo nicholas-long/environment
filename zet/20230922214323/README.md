@@ -25,6 +25,7 @@
 - [20230912192810](/zet/20230912192810/README.md) script to search zk markdown in command line
 - [20231025215645](/zet/20231025215645/README.md) my blog
 - [20231107183617](/zet/20231107183617/README.md) github action permission issues with automatic enrich workflows
+- [20231111154742](/zet/20231111154742/README.md) guidelines for enrich scripts within this environment
 
 Tags:
 
