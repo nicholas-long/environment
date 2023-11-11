@@ -6,7 +6,8 @@
   - [20231001000026](/zet/20231001000026/README.md) script to find the minimum required set of zettels to ship a scripting project
 - update the data file after you ship using the data generation script
   - `zet/20231001082012/get-data > zet/20231001082012/data`
-- [ ] this does not work properly when run in a docker within github actions. it returns several md5 hashes of empty files
+- 2023-11-11 this was not working properly when run in a docker within github actions. it returned several md5 hashes of empty files. the issue was references to find-executable without the full relative path.
+  - do i need to run the install scripts in the github docker?
 
 ```diff
 8a9
