@@ -6,6 +6,7 @@
   - [20231001000026](/zet/20231001000026/README.md) script to find the minimum required set of zettels to ship a scripting project
 - update the data file after you ship using the data generation script
   - `zet/20231001082012/get-data > zet/20231001082012/data`
+- [ ] this does not work properly when run in a docker within github actions. it returns several md5 hashes of empty files
 
 ```diff
 1,6c1,22
