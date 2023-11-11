@@ -5,6 +5,7 @@
 - the idea is that scripts and projects start expanding and growing in complexity, but they also tend to tie into each other. this seems like the best way to store and work with all your scripts.
   - case in point: the kb repository with 10 months of notes has over 100 scripts, some tie together
     - [20230921220840](/zet/20230921220840/README.md) list of kb scripts that i could decide whether to copy over
+- [guidelines for enrich scripts that run automatically within this environment](/zet/20231111154742/README.md)
 
 ```
 ```
