@@ -15,6 +15,8 @@ git remote get-url $(git remote)
 # Related
 
 - [20230925050125](/zet/20230925050125/README.md) git scripting hub
+- [20230919172630](/zet/20230919172630/README.md) script to get root of repository or obsidian knowledge base
+- [20221012171100](/zet/20221012171100/README.md) recently created nodes hub
 
 Tags:
 

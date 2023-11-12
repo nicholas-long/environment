@@ -204,6 +204,7 @@
 20231104035739 testing openai chatgpt to create some scripts
 20231107183617 github action permission issues with automatic enrich workflows
 20231111154742 guidelines for enrich scripts within this environment
+20231112170729 script to get remote github URL from git repository
 ```
 
 ` zet/20231005213930/README.md `
