@@ -51,6 +51,7 @@ zet/20230912192810/search-markdown:# #--preview="$ENVIRON_BASEPATH/zet/202309121
 
 - [20230919153113](/zet/20230919153113/README.md) obsidian links scripts
 - [20230905015120](/zet/20230905015120/README.md) bash rc file and config
+- [20231112170729](/zet/20231112170729/README.md) script to get remote github URL from git repository
 
 Tags:
 
