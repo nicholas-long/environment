@@ -35,3 +35,4 @@
 - [20231017183957](/zet/20231017183957/README.md) command shortcut to pick and kill dockers
 - [20231020033222](/zet/20231020033222/README.md) apache docker template shortcut command for testing vulnerabilities
 - [20231103204105](/zet/20231103204105/README.md) openai chatgpt CLI command
+- [20231112170729](/zet/20231112170729/README.md) script to get remote github URL from git repository
