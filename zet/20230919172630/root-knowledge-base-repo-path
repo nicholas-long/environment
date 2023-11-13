@@ -5,10 +5,12 @@
 # traverse up the directory until it finds the root of the thing we are in...
 
 rp="$1"
+if [ -z "$rp" ]; then # if empty arg then assume we want to use the current directory
+  rp="$(pwd)"
+fi
 # TODO: bash do while
 going=1
 while [ $going -ne 0 ]; do
-  rp=$(dirname "$rp")
   ls "$rp/.git" 2>/dev/null >/dev/null || ls "$rp/.obsidian" 2>/dev/null >/dev/null
   if [ $? -eq 0 ]; then # found it
     going=0
@@ -24,4 +26,5 @@ while [ $going -ne 0 ]; do
     echo "root path not found" > /dev/stderr
     exit 1
   fi
+  rp=$(dirname "$rp")
 done

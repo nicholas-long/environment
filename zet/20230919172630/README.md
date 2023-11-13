@@ -1,9 +1,10 @@
 # script to get root of repository or obsidian knowledge base
 
 - `zet/20230919172630/root-knowledge-base-repo-path`
-- pass in filename as argument
-- prints the root knowledge base or git repository path containing this file
-- traverse up the directory until it finds the root of the thing we are in...
+- pass in filename or directory name as argument
+  - if there's no argument, use the current directory
+- output: prints the root knowledge base or git repository path containing this file
+- traverses up the directory until it finds the root of the thing we are in...
 - things i want to find the root of:
   - knowledge base or zettelkasten
     - look for .obsidian directory
