@@ -10,14 +10,13 @@
   - do i need to run the install scripts in the github docker?
 
 ```diff
-9d8
+9,10d8
 < 68ce93463dfcbf017785eab9a9c2cc2d  zet/20221013021614/graphbrowser
-11a11
+< 864334c55ed4ef62ffe42a203252bc4f  zet/20230919172630/root-knowledge-base-repo-path
+12a11
 > 9cda6d8ce722acb785ee7a1629ab9374  zet/20221013021614/graphbrowser
-18d17
+19d17
 < e78047db565e7e9464744c9a1e07b410  zet/20231112170729/git-remote-url
-22d20
-< f22b0fef45d60315e32a45aacf3a1fc8  zet/20230919172630/root-knowledge-base-repo-path
 ```
 
 ` zet/20231001082012/README.md `
