@@ -9,12 +9,12 @@
   - it is rust though. i cannot expect to have rust installed on any random environment?
   - easy to install on a kali distro with tons of dev tools
 
-- work in progress
 - use github API responses and jq to parse out URLs
 - should use awk to parse the correct version and architecture
 - can download from this URL with wget
 - can find this machine's architecture with `lscpu | awk '/Arch/ { print $2 }'`
 - architecture AArch64 is the same as ARM64
+- fixed in [bat install script](/zet/20230907151050/README.md)
 
 ```bash
 ┌──(parallels㉿kali-linux-2022-2)-[/media/psf/zk/20230831_batversionscript]
