@@ -1,4 +1,4 @@
-# script to select tags for documents automatically using chatgpt
+# script for chatGPT prompt to select tags for documents automatically
 
 - concept of `script to select tags for documents automatically using chatgpt`
 
