@@ -6,3 +6,4 @@
 - [20230929024225](/zet/20230929024225/README.md) meta note related scripts
 - [20231001090029](/zet/20231001090029/README.md) find things missing tags
 - [20231005213930](/zet/20231005213930/README.md) list of cards in order
+- [20231114070621](/zet/20231114070621/README.md) script for chatGPT prompt to select tags for documents automatically

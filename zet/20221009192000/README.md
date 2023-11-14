@@ -8,6 +8,7 @@ a script will check to see if the ID numbers appear on the main README.
 Missing:
 - [20231020032025](/zet/20231020032025/README.md) apache docker with CGI enabled #web #docker
 - [20231102221207](/zet/20231102221207/README.md) working with openai chatgpt prompts #ai
+- [20231114070621](/zet/20231114070621/README.md) script for chatGPT prompt to select tags for documents automatically #ai #meta
 Extra:
 - [20221012171100](/zet/20221012171100/README.md) recently created nodes hub #hub
 ```
@@ -52,6 +53,7 @@ Extra:
 - [20231007144438](/zet/20231007144438/README.md) automated testing
 - [20231020032025](/zet/20231020032025/README.md) apache docker with CGI enabled
 - [20231102221207](/zet/20231102221207/README.md) working with openai chatgpt prompts
+- [20231114070621](/zet/20231114070621/README.md) script for chatGPT prompt to select tags for documents automatically
 
 Tags:
 

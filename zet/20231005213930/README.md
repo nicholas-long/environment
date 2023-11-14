@@ -205,6 +205,7 @@
 20231107183617 github action permission issues with automatic enrich workflows
 20231111154742 guidelines for enrich scripts within this environment
 20231112170729 script to get remote github URL from git repository
+20231114070621 script for chatGPT prompt to select tags for documents automatically
 ```
 
 ` zet/20231005213930/README.md `
