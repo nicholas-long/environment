@@ -20,6 +20,7 @@ upower -i $(upower -e | grep 'battery') | grep 'percentage:' | awk '{print $2}'
 # Related
 
 - [20231103204105](/zet/20231103204105/README.md) openai chatgpt CLI command
+- [20231114070621](/zet/20231114070621/README.md) script for chatGPT prompt to select tags for documents automatically
 
 Tags:
 
