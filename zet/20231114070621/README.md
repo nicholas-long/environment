@@ -2,7 +2,7 @@
 
 - concept of `script to select tags for documents automatically using chatgpt`
 
-- asking chatgpt to label a document. i chose the zkvr page to test.
+- asking chatgpt to label a document. i chose the [zkvr page](/zet/20221013021614/README.md) to test.
 ```
 ┌──(coyote㉿netbook3)-[~/environment/zet/20231114070621]
 └─$ ./generate-prompt ../20221013021614/README.md | chatgpt
