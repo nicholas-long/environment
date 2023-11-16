@@ -1,4 +1,4 @@
-# how to implement a subcommand - ideas for a blog post
+# how to implement a modular subcommand with lightweight scripts - ideas for a blog post
 
 - this is a way to organize code in order to create powerful CLI tools quickly
   - modular design is easy to test
