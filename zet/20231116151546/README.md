@@ -27,6 +27,7 @@
 - [20230922214323](/zet/20230922214323/README.md) this environment
 - [20221013021614](/zet/20221013021614/README.md) zkvr terminal graph browser
 - [20230929145418](/zet/20230929145418/README.md) fsdb project - file based database for partitioning and event sourced data
+- [20221012171100](/zet/20221012171100/README.md) recently created nodes hub
 
 Tags:
 

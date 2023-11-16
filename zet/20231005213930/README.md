@@ -206,6 +206,7 @@
 20231111154742 guidelines for enrich scripts within this environment
 20231112170729 script to get remote github URL from git repository
 20231114070621 script for chatGPT prompt to select tags for documents automatically
+20231116151546 how to implement a subcommand - ideas for a blog post
 ```
 
 ` zet/20231005213930/README.md `

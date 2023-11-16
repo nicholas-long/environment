@@ -78,6 +78,7 @@ BEGIN {
 - [20231005174423](/zet/20231005174423/README.md) testing reoptimize functionality
 - [20231009135143](/zet/20231009135143/README.md) fsdb delete functionality
 - [20231009173031](/zet/20231009173031/README.md) fsdb subcommand to remove duplicate sequential rows from all partitions
+- [20231116151546](/zet/20231116151546/README.md) how to implement a subcommand - ideas for a blog post
 
 Tags:
 
