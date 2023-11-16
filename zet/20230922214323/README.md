@@ -28,6 +28,7 @@
 - [20231107183617](/zet/20231107183617/README.md) github action permission issues with automatic enrich workflows
 - [20231111154742](/zet/20231111154742/README.md) guidelines for enrich scripts within this environment
 - [20231114070621](/zet/20231114070621/README.md) script for chatGPT prompt to select tags for documents automatically
+- [20231116151546](/zet/20231116151546/README.md) how to implement a subcommand - ideas for a blog post
 
 Tags:
 
