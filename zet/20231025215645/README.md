@@ -16,6 +16,7 @@ testing links within hugo [link text]({{< ref "third" >}})
 
 - [20230922214323](/zet/20230922214323/README.md) this environment
 - [20231025220053](/zet/20231025220053/README.md) script for updating blog
+- [20231116151546](/zet/20231116151546/README.md) how to implement a subcommand - ideas for a blog post
 
 Tags:
 
