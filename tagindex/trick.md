@@ -3,3 +3,4 @@
 - [20230929024545](/zet/20230929024545/README.md) scripts for linux tricks
 - [20230929153242](/zet/20230929153242/README.md) natural language processing libraries
 - [20231003062001](/zet/20231003062001/README.md) fsdb use case - using as a set
+- [20231116151546](/zet/20231116151546/README.md) how to implement a modular subcommand with lightweight scripts - ideas for a blog post

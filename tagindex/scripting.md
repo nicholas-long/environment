@@ -3,3 +3,4 @@
 - [20230928175049](/zet/20230928175049/README.md) pwntools template binary exploit script
 - [20230928185057](/zet/20230928185057/README.md) bash self parsing code
 - [20231011030523](/zet/20231011030523/README.md) working with a queue or scheduling system in bash
+- [20231116151546](/zet/20231116151546/README.md) how to implement a modular subcommand with lightweight scripts - ideas for a blog post

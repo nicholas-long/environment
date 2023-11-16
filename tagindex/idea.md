@@ -3,4 +3,3 @@
 - [20231016172333](/zet/20231016172333/README.md) phpcs code scanner security audit extensions
 - [20231025210314](/zet/20231025210314/README.md) getting jekyll to work in the workflow of publishing a blog
 - [20231104035739](/zet/20231104035739/README.md) testing openai chatgpt to create some scripts
-- [20231116151546](/zet/20231116151546/README.md) how to implement a modular subcommand with lightweight scripts - ideas for a blog post
