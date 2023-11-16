@@ -28,6 +28,9 @@
 # get directory where current script is located
 SCRIPT_DIR=$( cd -- "$( dirname -- "${BASH_SOURCE[0]}" )" &> /dev/null && pwd )
 
+# save the current command to an environment variable so subcommands can call other subcommands easily by running this wrapper script
+export prog="$0"
+
 # if this current script running is a symlink then we have to follow it to find subcommands
 if [ -L "$0" ]; then
   realdir=$(dirname $(realpath "$0") )
