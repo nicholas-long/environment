@@ -19,10 +19,40 @@
 - set an env var for main program command `$0` to pass to subcommands
   - this way, subcommands can call each other using the main wrapper script. if there is logic involved in finding subcommand scripts then it will be easier to have the parent wrapper script responsible for finding them
 - switch based on subcommand name. there are two options:
+  - one giant switch statement. this is acceptable for small projects, but it can grow very lengthy and complicated
   - separate files with subcommand as file name
-  - one giant switch statement
 
-```
+## code example
+- how to implement a simple subcommand as a bash script
+```bash
+# get directory where current script is located
+SCRIPT_DIR=$( cd -- "$( dirname -- "${BASH_SOURCE[0]}" )" &> /dev/null && pwd )
+
+# if this current script running is a symlink then we have to follow it to find subcommands
+if [ -L "$0" ]; then
+  realdir=$(dirname $(realpath "$0") )
+  subcommand_dir="$realdir/subcommands"
+else
+  subcommand_dir="$SCRIPT_DIR/subcommands"
+fi
+
+subcommand="$1"
+shift
+if [ -z "$subcommand" ]; then # if args are empty then show help - common case
+  subcommand="--help"
+elif [[ "$subcommand" == "-h" ]]; then
+  subcommand="--help"
+fi
+
+if [[ "$subcommand" == "--help" ]]; then
+  echo "Usage: $0 [ subcommand ] ..."
+  echo "Subcommand Options:"
+  # list out all available subcommands
+  ls "$subcommand_dir"
+  exit 1
+else
+  "$subcommand_dir/$subcommand" "$@" # run subcommand with all arguments passed in
+fi
 ```
 
 ` zet/20231116151546/README.md `
