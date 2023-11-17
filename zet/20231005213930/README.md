@@ -207,6 +207,7 @@
 20231112170729 script to get remote github URL from git repository
 20231114070621 script for chatGPT prompt to select tags for documents automatically
 20231116151546 how to implement a modular subcommand with lightweight scripts - ideas for a blog post
+20231117071155 testing automatic blog post creation
 ```
 
 ` zet/20231005213930/README.md `
