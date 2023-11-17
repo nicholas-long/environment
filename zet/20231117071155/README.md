@@ -2,7 +2,8 @@
 
 - creating blog posts automatically with chatgpt
 - i don't want to do this for my blog but it's something i was discussing with someone recently
-- gpt-4 only says "sorry i cannot assist with that"
+- `gpt-4` only says "sorry i cannot assist with that"
+- `gpt-3.5-turbo` seems to be more versatile at this kind of stuff
 
 ```bash
 gpt --model gpt-3.5-turbo --prompt "write a short blog post about how to train a female puppy"
