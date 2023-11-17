@@ -16,6 +16,7 @@
 - [20231007033903](/zet/20231007033903/README.md) script to extract text from every second of youtube video frames
 - [20231007202209](/zet/20231007202209/README.md) enabling CGI as an API interface on apache
 - [20231102221207](/zet/20231102221207/README.md) working with openai chatgpt prompts
+- [20231117074621](/zet/20231117074621/README.md) automatic pentesting and hacking enumeration scripts
 
 Tags:
 
