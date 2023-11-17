@@ -5,6 +5,7 @@
 
 ## what kinds of things could be automated
 - testing credentials on all services every time new ones are found
+  - learn from first attempt here https://github.com/nicholas-long/credpanda
 - finding hardcoded credentials in code - use linpeas logic on directory?
 - web dirbusting - i don't like how feroxbuster works exactly...
   - wrap wfuzz and use increasingly complex wordlists, scanning each subdirectory
