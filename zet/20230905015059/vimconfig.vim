@@ -147,6 +147,8 @@ nmap <Space>w :w<Enter>
 abbr _sh #!/bin/bash
 abbr _awk #!/usr/bin/awk -f
 abbr _dn /dev/null
+abbr _link [link]()
+abbr _ref []({{< ref "" >}})
 
 "nmap <Space>kb :r ~/kb/
 
