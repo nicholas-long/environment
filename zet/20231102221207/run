@@ -1,17 +1,22 @@
 #!/bin/bash
 
-if [ -z "$OPENAI_API_TOKEN" ]; then
-  echo "you need an API token"
-  exit 1
-fi
+#if [ -z "$OPENAI_API_TOKEN" ]; then
+#  echo "you need an API token"
+#  exit 1
+#fi
 
 if [ ! -f "./history" ]; then
   touch ./history
 fi
 
-echo -n "Prompt: "
+#echo -n "Prompt: "
 tf=$(mktemp)
 cat > "$tf"
-cat "$tf" | ./generate-prompt | openai complete -
+cat "$tf" | ./generate-prompt | gpt --model gpt-3.5-turbo --prompt -
 cat "$tf" >> ./history
+if [ $(wc -l ./history | awk '{print $1}') -gt 10 ]; then
+  ( echo "summarize all relevant information from this chat history from the user. condense it down and summarize it as short as you can:" && cat ./history) | gpt --model gpt-3.5-turbo --prompt - > ./next-history
+  mv ./history ./history.bak
+  mv ./next-history ./history
+fi
 rm "$tf"
