@@ -13,14 +13,12 @@ zet/20230927152827/README.md:- [ ] figure out why login doesn't work and return 
 zet/20230930042658/README.md:- [ ] i could make the number of rows before compressing configurable. i might be able to speed up ingesting data if there is less compressing happening.
 zet/20231005062610/README.md:- [ ] implement bloom filter
 zet/20231005062610/README.md:- [ ] implement hooks
-zet/20231102221207/README.md:  - [ ] could periodically ask GPT to summarize this file and shrink it
 - [20230905015223](/zet/20230905015223/README.md) install scripts #script #setup
 - [20230922214602](/zet/20230922214602/README.md) things i want to implement in zkvr after working on the environment #list
 - [20230925193834](/zet/20230925193834/README.md) testing on mac os #test #dotfiles
 - [20230927152827](/zet/20230927152827/README.md) reverse engineering obsidian to create an obsidian sync cli tool #program #command #reveng #util
 - [20230930042658](/zet/20230930042658/README.md) fsdb ingest subcommand notes #database
 - [20231005062610](/zet/20231005062610/README.md) fsdb TODO items #todo #list
-- [20231102221207](/zet/20231102221207/README.md) working with openai chatgpt prompts #ai
 ```
 
 ` zet/20230925055222/README.md `
