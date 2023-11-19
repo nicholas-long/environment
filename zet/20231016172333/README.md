@@ -54,4 +54,4 @@ Time: 75ms; Memory: 6MB
 
 Tags:
 
-    #idea
+    #code #hacking #scan

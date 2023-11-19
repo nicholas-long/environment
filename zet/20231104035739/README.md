@@ -24,4 +24,4 @@ upower -i $(upower -e | grep 'battery') | grep 'percentage:' | awk '{print $2}'
 
 Tags:
 
-    #idea #test #ai
+    #test #ai
