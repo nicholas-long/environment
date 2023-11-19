@@ -3,7 +3,7 @@
 - concept of `zettelkasten to blog conversion hub`
 - the more i look into jekyll, the more i think i should manually maintain a blog and copy information in
 - i think the blog should be located in this repository so i can easily add files
-- [ ] i can make scripts to start blog posts and copy one file in from zk at a time
+- i can make scripts to start blog posts and copy one file in from zk at a time
   - identify a file
   - create appropriate frontmatter
   - echo it to the blog
@@ -41,6 +41,7 @@
 - [20221008042814](/zet/20221008042814/README.md) WIP
 - [20221006013313](/zet/20221006013313/README.md) zettelkasten
 - [20231025210314](/zet/20231025210314/README.md) getting jekyll to work in the workflow of publishing a blog
+- [20231025215645](/zet/20231025215645/README.md) my blog
 
 Tags:
 

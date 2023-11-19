@@ -18,6 +18,7 @@ testing links within hugo [link text]({{< ref "third" >}})
 - [20231025220053](/zet/20231025220053/README.md) script for updating blog
 - [20231116151546](/zet/20231116151546/README.md) how to implement a modular subcommand with lightweight scripts - ideas for a blog post
 - [20231117071155](/zet/20231117071155/README.md) testing automatic blog post creation
+- [20231025200905](/zet/20231025200905/README.md) zettelkasten to blog conversion hub
 
 Tags:
 
