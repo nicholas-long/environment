@@ -32,4 +32,4 @@
 
 Tags:
 
-    #hub
+    #hub #environment #zettelkasten #repository
