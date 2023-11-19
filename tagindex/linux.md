@@ -3,3 +3,4 @@
 - [20230928185944](/zet/20230928185944/README.md) script to package up program and debian dependencies a tar to install on a remote target machine
 - [20230928220222](/zet/20230928220222/README.md) get the currently released ubuntu distro
 - [20230929024545](/zet/20230929024545/README.md) scripts for linux tricks
+- [20231007140839](/zet/20231007140839/README.md) references to sudo and other considerations for scripts running within a docker
