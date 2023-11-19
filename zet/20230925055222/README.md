@@ -11,8 +11,7 @@ zet/20230922214602/README.md:- [ ] include information about setting up github a
 zet/20230925193834/README.md:- [ ] adding and deleting tags doesn't work
 zet/20230927152827/README.md:- [ ] figure out why login doesn't work and return a token
 zet/20230930042658/README.md:- [ ] i could make the number of rows before compressing configurable. i might be able to speed up ingesting data if there is less compressing happening.
-zet/20231005062610/README.md:- [ ] implement bloom filter
-zet/20231005062610/README.md:- [ ] implement hooks
+zet/20231005062610/README.md:- [ ] publish and move zkvr to its own repository
 - [20230905015223](/zet/20230905015223/README.md) install scripts #script #setup
 - [20230922214602](/zet/20230922214602/README.md) things i want to implement in zkvr after working on the environment #list
 - [20230925193834](/zet/20230925193834/README.md) testing on mac os #test #dotfiles
