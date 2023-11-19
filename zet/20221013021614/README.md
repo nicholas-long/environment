@@ -86,6 +86,7 @@ zet/20221013021614/getcopycontent zet/20221013021614/README.md
 - [20231111154742](/zet/20231111154742/README.md) guidelines for enrich scripts within this environment
 - [20231112170729](/zet/20231112170729/README.md) script to get remote github URL from git repository
 - [20231116151546](/zet/20231116151546/README.md) how to implement a modular subcommand with lightweight scripts - ideas for a blog post
+- [20231114070621](/zet/20231114070621/README.md) script for chatGPT prompt to select tags for documents automatically
 
 Tags:
 
