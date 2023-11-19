@@ -14,7 +14,8 @@
   - [20231004133128](/zet/20231004133128/README.md) an optimized hashcode generator for partitioning work into multiple processes
 - can gawk keep indefinite numbers of files open?
   - i had an implementation to only write a certain number of files at a time with an MRU set that i brought over to here.
-- [ ] i could make the number of rows before compressing configurable. i might be able to speed up ingesting data if there is less compressing happening.
+- i could make the number of rows before compressing configurable. i might be able to speed up ingesting data if there is less compressing happening.
+  - from experimental testing, it seems that 1000 uncompressed rows is acceptable per partition. this will speed up the ingesting if compressing happens less often.
 
 ## debugging
 ```
