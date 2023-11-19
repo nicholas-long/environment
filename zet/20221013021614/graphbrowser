@@ -109,6 +109,7 @@ while [ 1 == "$going" ]; do
     }
     print "tagindex"
     print "enrich"
+    print "autotag"
     print "stat"
     print "quit"
     print "zkcopy"
@@ -412,6 +413,14 @@ while [ 1 == "$going" ]; do
     fi
   elif [ "$act" == "copyURL" ]; then
     zet/20231112170729/git-remote-url "$doc" | tmux loadb -
+  elif [ "$act" == "autotag" ]; then
+    temptags=$(mktemp)
+    echo "Generating tags..."
+    zet/20231114070621/generate-tags "$doc" > "$temptags"
+    echo "Tags:"
+    cat "$temptags"
+    cat "$temptags" | xargs -IR -n 1 ./zc addtag -t R "$id"
+    rm "$temptags"
   fi
 done
 rm "$selection"
