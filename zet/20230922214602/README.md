@@ -8,6 +8,7 @@
 - [ ] include information about setting up github actions
   - [20231107183617](/zet/20231107183617/README.md) github action permission issues with automatic enrich workflows
 - [ ] automatically browsing between any directory that is modified in git, include titles
+- Automatically browsing between any directories that's mentioned in the tmux clipboard
 - [x] automatic tag suggestions for documents from chatGPT
   - i want to implement this for any markdown document in general, select appropriate tags for this document from a list
   - [20231114070621](/zet/20231114070621/README.md) script for chatGPT prompt to select tags for documents automatically
