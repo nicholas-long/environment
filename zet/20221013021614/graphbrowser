@@ -443,7 +443,7 @@ while [ 1 == "$going" ]; do
       # delete source directory
       rm -rf zet/$id
       # set current document to point to dest readme
-      doc="zet/$selection/README.md"
+      export doc="zet/$selection/README.md"
       # enrich to update all backlinks
       $prog enrich
       $prog enrich
