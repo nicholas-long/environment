@@ -14,6 +14,8 @@
   - merge with install scripts
 - [ ] one potential issue that i might need to look at later is that if you end up with duplicate tags, this might break the tag index file
 - [x] fix weird broken file
+  - a weird file was being created because i reused a variable `selection` in the code. it was important, and reusing it within the code was causing undefined behavior.
+- 2023-11-21 i got this working in zkvr
 
 ## procedure
 - select a link to merge into
