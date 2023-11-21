@@ -429,7 +429,7 @@ while [ 1 == "$going" ]; do
         print $0
         fflush()
       }
-      ' "$doc" | fzf -m | zet/$IMPL/parseids)
+      ' "$doc" | fzf | zet/$IMPL/parseids)
     echo "merge into $selection"
     sleep 1
     if [ ! -z "$selection" ]; then
