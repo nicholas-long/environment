@@ -12,11 +12,14 @@ zet/20230922214602/README.md:- [ ] include information about setting up github a
 zet/20230925193834/README.md:- [ ] adding and deleting tags doesn't work
 zet/20230927152827/README.md:- [ ] figure out why login doesn't work and return a token
 zet/20231005062610/README.md:- [ ] publish and move fsdb to its own repository
+zet/20231121064457/README.md:- [ ] fix weird broken file
+zet/20231121064457/README.md:- [ ] one potential issue that i might need to look at later is that if you end up with duplicate tags, this might break the tag index file
 - [20230905015223](/zet/20230905015223/README.md) install scripts #script #setup
 - [20230922214602](/zet/20230922214602/README.md) things i want to implement in zkvr after working on the environment #list
 - [20230925193834](/zet/20230925193834/README.md) testing on mac os #test #dotfiles
 - [20230927152827](/zet/20230927152827/README.md) reverse engineering obsidian to create an obsidian sync cli tool #program #command #reveng #util
 - [20231005062610](/zet/20231005062610/README.md) fsdb TODO items #todo #list
+- [20231121064457](/zet/20231121064457/README.md) merge note functionality for zkvr #zet #zettelkasten #markdown
 ```
 
 ` zet/20230925055222/README.md `
