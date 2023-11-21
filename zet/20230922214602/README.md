@@ -13,6 +13,7 @@
   - i want to implement this for any markdown document in general, select appropriate tags for this document from a list
   - [20231114070621](/zet/20231114070621/README.md) script for chatGPT prompt to select tags for documents automatically
 - cleanup old and unnecessary cards
+- [ ] [merge note functionality for zkvr](/zet/20231121064457/README.md)
 
 - commands to sync new code changes to zkvr
 ```bash
