@@ -424,26 +424,26 @@ while [ 1 == "$going" ]; do
     rm "$temptags"
   elif [ "$act" == "merge-into" ]; then
     # select a link to merge into
-    selection=$(awk '
+    sel=$(awk '
       /^ *- \[.*\]\(\/zet\/[0-9]+\/README.md\)/ {
         print $0
         fflush()
       }
       ' "$doc" | fzf | zet/$IMPL/parseids)
-    echo "merge into $selection"
+    echo "merge into $sel"
     sleep 1
-    if [ ! -z "$selection" ]; then
+    if [ ! -z "$sel" ]; then
       # write to a temp file
       mergefile=$(mktemp)
       # call this script to merge the destination readme and the source readme into temp file
-      zet/20231121064457/merge-markdown-related-links zet/$selection/README.md "$doc" > "$mergefile"
+      zet/20231121064457/merge-markdown-related-links zet/$sel/README.md "$doc" > "$mergefile"
       # TODO: remove self references from resulting file
       # move temp file to dest readme
-      mv "$mergefile" "zet/$selection/README.md"
+      mv "$mergefile" "zet/$sel/README.md"
       # delete source directory
       rm -rf zet/$id
       # set current document to point to dest readme
-      export doc="zet/$selection/README.md"
+      export doc="zet/$sel/README.md"
       # enrich to update all backlinks
       $prog enrich
       $prog enrich
