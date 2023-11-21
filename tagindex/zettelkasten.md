@@ -7,3 +7,4 @@
 - [20230922214323](/zet/20230922214323/README.md) this environment
 - [20231005211810](/zet/20231005211810/README.md) script to sync only markdown files from zk to github
 - [20231025200905](/zet/20231025200905/README.md) zettelkasten to blog conversion hub
+- [20231121064457](/zet/20231121064457/README.md) merge note functionality for zkvr

@@ -53,6 +53,7 @@ cp -r zet/20230925055222 ~/zkvr/zet/
 - [20231001082012](/zet/20231001082012/README.md) automatically keeping track of changes to zkvr binaries
 - [20231107183617](/zet/20231107183617/README.md) github action permission issues with automatic enrich workflows
 - [20231114070621](/zet/20231114070621/README.md) script for chatGPT prompt to select tags for documents automatically
+- [20231121064457](/zet/20231121064457/README.md) merge note functionality for zkvr
 
 Tags:
 

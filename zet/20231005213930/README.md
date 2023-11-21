@@ -209,6 +209,7 @@
 20231116151546 how to implement a modular subcommand with lightweight scripts - ideas for a blog post
 20231117071155 testing automatic blog post creation
 20231117074621 automatic pentesting and hacking enumeration scripts
+20231121064457 merge note functionality for zkvr
 ```
 
 ` zet/20231005213930/README.md `

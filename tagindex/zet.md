@@ -2,3 +2,4 @@
 - [20221105220915](/zet/20221105220915/README.md) add recurring timers using github cron actions
 - [20221105224810](/zet/20221105224810/README.md) launch browser to current card on github
 - [20231001082012](/zet/20231001082012/README.md) automatically keeping track of changes to zkvr binaries
+- [20231121064457](/zet/20231121064457/README.md) merge note functionality for zkvr
