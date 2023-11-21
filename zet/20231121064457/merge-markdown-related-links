@@ -2,16 +2,15 @@
 
 ENDFILE {
   links = 0
+  tagsect = 0
   tags[t++] = lastline
 }
 /^# Related/ { links = 1; next }
-/^Tags/ { next }
+/^Tags/ { tagsect=1; next }
 !links { print }
 /^ *$/ { next }
-links {
-  link[x++] = $0
-  lastline = $0
-}
+links { lastline = $0 }
+links && !tagsect { link[x++] = $0 }
 
 END {
   print "# Related"
@@ -20,6 +19,8 @@ END {
     print link[i]
   }
   print ""
+  print "Tags:"
+  print ""
   # loop through tag lines
   for (ndx in tags) {
     temp = tags[ndx]
@@ -27,5 +28,5 @@ END {
     gsub(/ *$/,"",temp)
     output = output " " temp
   }
-  print output
+  print "    " output
 }
