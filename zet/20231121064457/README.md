@@ -7,6 +7,9 @@
     - read any number of files
     - combine related sections and tags into one
 - any note you want to merge should be linked to the current note. i think that is a reasonable restriction. if you want to merge one quickly, then you can add a link.
+- first victim test case
+  - [20230916132320](/zet/20230916132320/README.md) script to get platform install command
+  - merge with install scripts
 
 ```bash
 zet/20231121064457/merge-markdown-related-links zet/20231121064457/README.md zet/20230922214602/README.md
