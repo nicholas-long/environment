@@ -6,6 +6,7 @@
   - need an awk script to combine the related sections
     - read any number of files
     - combine related sections and tags into one
+  - enrich step will update backlinks in all other files to point to the correct place by reinserting them after the files are merged
 - any note you want to merge should be linked to the current note. i think that is a reasonable restriction. if you want to merge one quickly, then you can add a link.
 - when merging, the existing note should come first
 - first victim test case
@@ -16,9 +17,11 @@
 - select a link to merge into
 - write to a temp file
 - call this script to merge the destination readme and the source readme into temp file
+- remove self references from resulting file
 - copy temp file to dest readme
 - set current document to point to dest readme
 - delete source directory
+- enrich to update all backlinks
 
 ```bash
 zet/20231121064457/merge-markdown-related-links zet/20231121064457/README.md zet/20230922214602/README.md
