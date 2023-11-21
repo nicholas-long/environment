@@ -10,17 +10,17 @@
   - do i need to run the install scripts in the github docker?
 
 ```diff
-6,8d5
+6,7d5
 < 338646415a29aa2481a619fa4f499994  zet/20231121064457/merge-markdown-related-links
 < 3797e1edf846ec9b43a4d0bd0ee8f6d5  zet/20231114070621/scrapetags
-< 41e170a456172a51d4ca75ab20bc672c  zet/20221013021614/graphbrowser
-12,14d8
+11,13d8
 < 771f07a3e69b62e61d82f65441290e37  zet/20231114070621/generate-prompt
 < 77d1892ae9f612518f59e99c3a543002  zet/20231114070621/generate-tags
 < 864334c55ed4ef62ffe42a203252bc4f  zet/20230919172630/root-knowledge-base-repo-path
-16a11
+15a11
 > 9cda6d8ce722acb785ee7a1629ab9374  zet/20221013021614/graphbrowser
-23d17
+22,23d17
+< e08b0be689a93ddf1d3f4323e2f7b74b  zet/20221013021614/graphbrowser
 < e78047db565e7e9464744c9a1e07b410  zet/20231112170729/git-remote-url
 ```
 
