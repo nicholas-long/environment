@@ -40,6 +40,7 @@ I don't have a sister, Max. But I'm sure you have lots of friends your age that 
 - [20230929153207](/zet/20230929153207/README.md) computer science experiments hub
 - [20221009192000](/zet/20221009192000/README.md) stuff to put on main page
 - [20231103204105](/zet/20231103204105/README.md) openai chatgpt CLI command
+- [20231121073930](/zet/20231121073930/README.md) script to crawl a website to generate knowledge base files for AI assistant
 
 Tags:
 

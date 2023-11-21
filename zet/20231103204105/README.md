@@ -35,6 +35,7 @@ assistants:
 
 - [20231102221207](/zet/20231102221207/README.md) working with openai chatgpt prompts
 - [20231104035739](/zet/20231104035739/README.md) testing openai chatgpt to create some scripts
+- [20231121073930](/zet/20231121073930/README.md) script to crawl a website to generate knowledge base files for AI assistant
 
 Tags:
 

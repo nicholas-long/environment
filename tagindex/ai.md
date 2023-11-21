@@ -3,3 +3,4 @@
 - [20231104035739](/zet/20231104035739/README.md) testing openai chatgpt to create some scripts
 - [20231114070621](/zet/20231114070621/README.md) script for chatGPT prompt to select tags for documents automatically
 - [20231117071155](/zet/20231117071155/README.md) testing automatic blog post creation
+- [20231121073930](/zet/20231121073930/README.md) script to crawl a website to generate knowledge base files for AI assistant

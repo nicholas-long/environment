@@ -11,3 +11,4 @@
 - [20231002021919](/zet/20231002021919/README.md) bloom filter for fsdb
 - [20231007144438](/zet/20231007144438/README.md) automated testing
 - [20231007202209](/zet/20231007202209/README.md) enabling CGI as an API interface on apache
+- [20231121073930](/zet/20231121073930/README.md) script to crawl a website to generate knowledge base files for AI assistant
