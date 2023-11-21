@@ -1,0 +1,31 @@
+#!/usr/bin/awk -f
+
+ENDFILE {
+  links = 0
+  tags[t++] = lastline
+}
+/^# Related/ { links = 1; next }
+/^Tags/ { next }
+!links { print }
+/^ *$/ { next }
+links {
+  link[x++] = $0
+  lastline = $0
+}
+
+END {
+  print "# Related"
+  print ""
+  for (i = 0; i < x; i++) {
+    print link[i]
+  }
+  print ""
+  # loop through tag lines
+  for (ndx in tags) {
+    temp = tags[ndx]
+    gsub(/^ */,"",temp)
+    gsub(/ *$/,"",temp)
+    output = output " " temp
+  }
+  print output
+}
