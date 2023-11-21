@@ -67,7 +67,6 @@
 20230914030626 tmux pwn menu script for hacking reverse shells and file transfer commands
 20230916125222 tmux scripts directory
 20230916125704 terminal color schemes
-20230916132320 script to get platform install command
 20230919153113 obsidian links scripts
 20230919172630 script to get root of repository or obsidian knowledge base
 20230920022857 script to get linpeas to current directory

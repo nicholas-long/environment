@@ -56,7 +56,6 @@ function install_it {
 - [20230905185446](/zet/20230905185446/README.md) bash file commands that are not builtins
 - [20230905021157](/zet/20230905021157/README.md) log of commands run to set up previous environment
 - [20230914030626](/zet/20230914030626/README.md) tmux pwn menu script for hacking reverse shells and file transfer commands
-- [20230916132320](/zet/20230916132320/README.md) script to get platform install command
 - [20230925193834](/zet/20230925193834/README.md) testing on mac os
 - [20230927233110](/zet/20230927233110/README.md) colorizing and prettifying scripts for transforming text
 - [20230928133216](/zet/20230928133216/README.md) scripts to work with burpsuite saved requests and automatically generate python code

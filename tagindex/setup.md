@@ -1,1 +1,0 @@
-- [20230905015223](/zet/20230905015223/README.md) install scripts

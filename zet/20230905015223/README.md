@@ -45,6 +45,21 @@ ln -s zet/20230905015223/install-environment ./install
 
 ` zet/20230905015223/README.md `
 
+# script to get platform install command
+
+- concept of `script to get platform install command`
+- use apt or brew or whatever
+- determine if we need to use sudo if the user is not root
+- i think it would be cool to accept arguments, like say `get-install-platform list` and it would return "apt list" as the command to list packages
+  - pass "install" to get the install command, i.e. `sudo apt install`
+
+```bash
+# get user id
+id -u
+1000
+```
+
+
 # Related
 
 - [20230905212307](/zet/20230905212307/README.md) important things from old install scripts
@@ -61,13 +76,13 @@ ln -s zet/20230905015223/install-environment ./install
 - [20230905210416](/zet/20230905210416/README.md) fast file manager fff
 - [20230907151050](/zet/20230907151050/README.md) bat interactive install script
 - [20230914030626](/zet/20230914030626/README.md) tmux pwn menu script for hacking reverse shells and file transfer commands
-- [20230916132320](/zet/20230916132320/README.md) script to get platform install command
 - [20230922051930](/zet/20230922051930/README.md) lazygit interactive install script
 - [20230905015059](/zet/20230905015059/README.md) vim config
 - [20230925024118](/zet/20230925024118/README.md) script to display information about other scripts and their dependencies
 - [20230929145418](/zet/20230929145418/README.md) fsdb project - file based database for partitioning and event sourced data
 - [20231111154742](/zet/20231111154742/README.md) guidelines for enrich scripts within this environment
+- [20230916125222](/zet/20230916125222/README.md) tmux scripts directory
 
 Tags:
 
-    #script #setup
+     #script #setup #script #install

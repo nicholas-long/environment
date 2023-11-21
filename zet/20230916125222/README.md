@@ -108,10 +108,10 @@ tmux-scripts
 - [20230913044318](/zet/20230913044318/README.md) tmux buffer edit hotkey script
 - [20230912192810](/zet/20230912192810/README.md) script to search zk markdown in command line
 - [20230914030626](/zet/20230914030626/README.md) tmux pwn menu script for hacking reverse shells and file transfer commands
-- [20230916132320](/zet/20230916132320/README.md) script to get platform install command
 - [20221008042814](/zet/20221008042814/README.md) WIP
 - [20230921220840](/zet/20230921220840/README.md) list of kb scripts that i could decide whether to copy over
 - [20230925143506](/zet/20230925143506/README.md) searchsploit fuzzy search for exploits
+- [20230905015223](/zet/20230905015223/README.md) install scripts
 
 Tags:
 
