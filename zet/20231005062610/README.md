@@ -17,7 +17,8 @@
   - maybe just sequential duplicates?
   - [20231009173031](/zet/20231009173031/README.md) fsdb subcommand to remove duplicate sequential rows from all partitions
 - [x] create feature to remove rows by IDs - [20231009135143](/zet/20231009135143/README.md) fsdb delete functionality
-- [ ] publish and move zkvr to its own repository
+- [ ] publish and move fsdb to its own repository
+- could simplify ingest script and require ulimit to be greater than the number of partitions to speed up
 
 ```
 ```
