@@ -12,6 +12,8 @@
 - first victim test case
   - [20230916132320](/zet/20230916132320/README.md) script to get platform install command
   - merge with install scripts
+- [ ] one potential issue that i might need to look at later is that if you end up with duplicate tags, this might break the tag index file
+- [ ] fix weird broken file
 
 ## procedure
 - select a link to merge into
