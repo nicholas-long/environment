@@ -12,6 +12,14 @@
   - [20230916132320](/zet/20230916132320/README.md) script to get platform install command
   - merge with install scripts
 
+## procedure
+- select a link to merge into
+- write to a temp file
+- call this script to merge the destination readme and the source readme into temp file
+- copy temp file to dest readme
+- set current document to point to dest readme
+- delete source directory
+
 ```bash
 zet/20231121064457/merge-markdown-related-links zet/20231121064457/README.md zet/20230922214602/README.md
 ./merge-markdown-related-links ../20231121064457/README.md ../20230922214602/README.md
