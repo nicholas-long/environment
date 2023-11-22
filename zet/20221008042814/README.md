@@ -28,7 +28,6 @@ stuff i am working on.
 - [20230929153207](/zet/20230929153207/README.md) computer science experiments hub
 - [20230929153242](/zet/20230929153242/README.md) natural language processing libraries
 - [20231003021548](/zet/20231003021548/README.md) script to enumerate all files in an aws s3 bucket url recursively
-- [20230906033259](/zet/20230906033259/README.md) functions to copy over and possibly remake as commands
 - [20231007033903](/zet/20231007033903/README.md) script to extract text from every second of youtube video frames
 - [20231007144438](/zet/20231007144438/README.md) automated testing
 - [20231010153354](/zet/20231010153354/README.md) zawk script to run awk programs on gzipped files and streams
@@ -40,6 +39,7 @@ stuff i am working on.
 - [20231112170729](/zet/20231112170729/README.md) script to get remote github URL from git repository
 - [20230930041146](/zet/20230930041146/README.md) fsdb developing ideas
 - [20221013021614](/zet/20221013021614/README.md) zkvr terminal graph browser
+- [20230905212307](/zet/20230905212307/README.md) important things from old install scripts
 
 Tags:
 

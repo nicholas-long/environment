@@ -3,7 +3,7 @@
 - [20221013221136](/zet/20221013221136/README.md) graph query language for zettelkasten
 - [20221027011800](/zet/20221027011800/README.md) zetcli bash wrapper subcommand implementation
 - [20230905184854](/zet/20230905184854/README.md) prerequesites for environment
-- [20230906033259](/zet/20230906033259/README.md) functions to copy over and possibly remake as commands
+- [20230905212307](/zet/20230905212307/README.md) important things from old install scripts
 - [20230922212036](/zet/20230922212036/README.md) command shortcut to get markdown titles or content summaries
 - [20230926234809](/zet/20230926234809/README.md) a non-platform-specific find command script for executable files
 - [20230927152827](/zet/20230927152827/README.md) reverse engineering obsidian to create an obsidian sync cli tool

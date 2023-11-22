@@ -1,4 +1,4 @@
 - [20230905184854](/zet/20230905184854/README.md) prerequesites for environment
-- [20230906033259](/zet/20230906033259/README.md) functions to copy over and possibly remake as commands
+- [20230905212307](/zet/20230905212307/README.md) important things from old install scripts
 - [20230922214323](/zet/20230922214323/README.md) this environment
 - [20230922222627](/zet/20230922222627/README.md) testing environment on netbook

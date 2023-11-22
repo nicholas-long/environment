@@ -11,7 +11,6 @@
 
 # Related
 
-- [20230906033259](/zet/20230906033259/README.md) functions to copy over and possibly remake as commands
 - [20230906035744](/zet/20230906035744/README.md) scripts to optimize alphanumeric base64
 - [20230906033727](/zet/20230906033727/README.md) commands to get ip
 - [20230906035236](/zet/20230906035236/README.md) scripts to draw title bars
@@ -20,6 +19,7 @@
 - [20230928175625](/zet/20230928175625/README.md) ssh keygen automated expect script to generate a public and private key pair
 - [20230928185944](/zet/20230928185944/README.md) script to package up program and debian dependencies a tar to install on a remote target machine
 - [20230929023608](/zet/20230929023608/README.md) script to get your preferred networking interface based on what is available
+- [20230905212307](/zet/20230905212307/README.md) important things from old install scripts
 
 Tags:
 

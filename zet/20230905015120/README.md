@@ -28,7 +28,6 @@ getmyip_silent
 - [20230905210416](/zet/20230905210416/README.md) fast file manager fff
 - [20230905160850](/zet/20230905160850/README.md) directory for executable short commands to run on path
 - [20230906032330](/zet/20230906032330/README.md) ascii art splash screen
-- [20230906033259](/zet/20230906033259/README.md) functions to copy over and possibly remake as commands
 - [20230906035744](/zet/20230906035744/README.md) scripts to optimize alphanumeric base64
 - [20230906043752](/zet/20230906043752/README.md) make it easy to work with and source this file from vim
 - [20230912192810](/zet/20230912192810/README.md) script to search zk markdown in command line
@@ -36,6 +35,7 @@ getmyip_silent
 - [20230919172630](/zet/20230919172630/README.md) script to get root of repository or obsidian knowledge base
 - [20230925193834](/zet/20230925193834/README.md) testing on mac os
 - [20231017183957](/zet/20231017183957/README.md) command shortcut to pick and kill dockers
+- [20230905212307](/zet/20230905212307/README.md) important things from old install scripts
 
 Tags:
 
