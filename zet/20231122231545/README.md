@@ -2,7 +2,8 @@
 
 - [ ] publish and move fsdb to its own repository
 
-```
+- find all dependencies required to ship binaries
+```bash
 ./graphquery --human <(zet/20231001000026/minimum-required-dependency-zets 20230929145418)
 - [20230929145418](/zet/20230929145418/README.md) fsdb project - file based database for partitioning and event sourced data #data #file #database #project #shortcmd
 - [20231004133128](/zet/20231004133128/README.md) an optimized hashcode generator for partitioning work into multiple processes #enhancement
