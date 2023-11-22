@@ -144,7 +144,6 @@
 20231003063630	zet/20231003063630/README.md	adding timestamps to fsdb
 20231004044241	zet/20231004044241/README.md	script to strip and scrape all URLs out of text
 20231004133128	zet/20231004133128/README.md	an optimized hashcode generator for partitioning work into multiple processes
-20231005174423	zet/20231005174423/README.md	testing reoptimize functionality
 20231005211810	zet/20231005211810/README.md	script to sync only markdown files from zk to github
 20231005213930	zet/20231005213930/README.md	list of cards in order
 20231006185420	zet/20231006185420/README.md	awk and bash fzf scripts

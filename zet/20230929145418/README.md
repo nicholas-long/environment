@@ -65,7 +65,6 @@ BEGIN {
 - [20231003063630](/zet/20231003063630/README.md) adding timestamps to fsdb
 - [20231004133128](/zet/20231004133128/README.md) an optimized hashcode generator for partitioning work into multiple processes
 - [20230905015223](/zet/20230905015223/README.md) install scripts
-- [20231005174423](/zet/20231005174423/README.md) testing reoptimize functionality
 - [20231116151546](/zet/20231116151546/README.md) how to implement a modular subcommand with lightweight scripts - ideas for a blog post
 - [20231122053807](/zet/20231122053807/README.md) fsdb implementation details
 

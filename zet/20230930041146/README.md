@@ -52,7 +52,6 @@
   - [20231003063630](/zet/20231003063630/README.md) adding timestamps to fsdb
 - [x] search subcommand should accept, process, and use arguments if given instead of letting awk treat them as files
 - [x] recompress or reoptimize - rewrite all compressed streams as continuous gzip streams to optimize space
-  - [20231005174423](/zet/20231005174423/README.md) testing reoptimize functionality
 - [x] search subcommand should flush search results to output immediately
 - implement hooks - later
 - implement bloom filter - later
@@ -71,7 +70,6 @@
 - [20231001151606](/zet/20231001151606/README.md) hashcodes for fsdb partitioning
 - [20231122053807](/zet/20231122053807/README.md) fsdb implementation details
 - [20221008042814](/zet/20221008042814/README.md) WIP
-- [20231005174423](/zet/20231005174423/README.md) testing reoptimize functionality
 
 Tags:
 
