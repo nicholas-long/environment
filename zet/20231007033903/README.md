@@ -74,6 +74,7 @@ pea 10.14.8]-[ippsec@parrot]-[~/htb/mailroom]
 - [20221008042814](/zet/20221008042814/README.md) WIP
 - [20221009192000](/zet/20221009192000/README.md) stuff to put on main page
 - [20230929153207](/zet/20230929153207/README.md) computer science experiments hub
+- [20231122214039](/zet/20231122214039/README.md) things i should blog about
 
 Tags:
 

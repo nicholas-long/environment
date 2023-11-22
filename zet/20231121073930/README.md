@@ -14,6 +14,7 @@
 - [20231102221207](/zet/20231102221207/README.md) working with openai chatgpt prompts
 - [20231103204105](/zet/20231103204105/README.md) openai chatgpt CLI command
 - [20221012171100](/zet/20221012171100/README.md) recently created nodes hub
+- [20231122214039](/zet/20231122214039/README.md) things i should blog about
 
 Tags:
 
