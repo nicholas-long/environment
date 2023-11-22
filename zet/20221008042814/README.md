@@ -39,6 +39,7 @@ stuff i am working on.
 - [20231025200905](/zet/20231025200905/README.md) zettelkasten to blog conversion hub
 - [20231112170729](/zet/20231112170729/README.md) script to get remote github URL from git repository
 - [20230930041146](/zet/20230930041146/README.md) fsdb developing ideas
+- [20221013021614](/zet/20221013021614/README.md) zkvr terminal graph browser
 
 Tags:
 
