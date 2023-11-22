@@ -6,3 +6,4 @@
 - [20230929064428](/zet/20230929064428/README.md) script to check for BEGINFILE usage in awk scripts requiring change to gawk
 - [20231006185420](/zet/20231006185420/README.md) awk and bash fzf scripts
 - [20231010153354](/zet/20231010153354/README.md) zawk script to run awk programs on gzipped files and streams
+- [20231122213142](/zet/20231122213142/README.md) script to describe other scripts based on their comments

@@ -32,8 +32,8 @@ cp /home/coyote/kb/hacking/passwords/password_cracking_rules/OneRuleToRuleThemAl
 
 # Related
 
-- [20230921220840](/zet/20230921220840/README.md) script to describe other kb scripts based on their comments
 - [20230925180815](/zet/20230925180815/README.md) password scripts hub
+- [20230905212307](/zet/20230905212307/README.md) important things from old install scripts and pen test environ that were copied to environment
 
 Tags:
 

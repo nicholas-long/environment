@@ -17,11 +17,11 @@ zet/20230925024118/scripts-dependencies zet/20230928164014
 
 # Related
 
-- [20230921220840](/zet/20230921220840/README.md) script to describe other kb scripts based on their comments
 - [20230925001420](/zet/20230925001420/README.md) cool docker scripts to migrate
 - [20230928193054](/zet/20230928193054/README.md) docker reverse shell testing project
 - [20231020032025](/zet/20231020032025/README.md) apache docker with CGI enabled
 - [20231020033222](/zet/20231020033222/README.md) apache docker template shortcut command for testing vulnerabilities
+- [20230905212307](/zet/20230905212307/README.md) important things from old install scripts and pen test environ that were copied to environment
 
 Tags:
 

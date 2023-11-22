@@ -57,9 +57,9 @@ cp /home/parallels/kb/bash-scripting/template.sh .
 
 # Related
 
-- [20230921220840](/zet/20230921220840/README.md) script to describe other kb scripts based on their comments
 - [20230925050125](/zet/20230925050125/README.md) git scripting hub
 - [20230928185057](/zet/20230928185057/README.md) bash self parsing code
+- [20230905212307](/zet/20230905212307/README.md) important things from old install scripts and pen test environ that were copied to environment
 
 Tags:
 

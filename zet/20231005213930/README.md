@@ -61,7 +61,6 @@
 20230920022857 script to get linpeas to current directory
 20230920031249 script to search tldr commands by features to find ways to do things
 20230921220633 list of cool ideas i still want to implement in my environment
-20230921220840 script to describe other kb scripts based on their comments
 20230922051930 lazygit interactive install script
 20230922203837 get rid of all platform specific binaries from zkvr
 20230922210126 cards i can clean up
@@ -182,6 +181,7 @@
 20231121064457 merge note functionality for zkvr
 20231121073930 script to crawl a website to generate knowledge base files for AI assistant
 20231122053807 fsdb implementation details
+20231122213142 script to describe other scripts based on their comments
 ```
 
 ` zet/20231005213930/README.md `

@@ -11,8 +11,8 @@ cp /home/coyote/kb/bash-scripting/get-wikipedia-info.sh .
 
 # Related
 
-- [20230921220840](/zet/20230921220840/README.md) script to describe other kb scripts based on their comments
 - [20231004044241](/zet/20231004044241/README.md) script to strip and scrape all URLs out of text
+- [20230905212307](/zet/20230905212307/README.md) important things from old install scripts and pen test environ that were copied to environment
 
 Tags:
 

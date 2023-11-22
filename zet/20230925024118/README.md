@@ -21,7 +21,6 @@ zet/20230925024118/scripts-dependencies
 
 # Related
 
-- [20230921220840](/zet/20230921220840/README.md) script to describe other kb scripts based on their comments
 - [20230905015223](/zet/20230905015223/README.md) install scripts
 - [20230925001420](/zet/20230925001420/README.md) cool docker scripts to migrate
 - [20230925033312](/zet/20230925033312/README.md) bash current script directory

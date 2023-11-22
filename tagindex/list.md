@@ -4,7 +4,6 @@
 - [20230905015223](/zet/20230905015223/README.md) install scripts
 - [20230905212307](/zet/20230905212307/README.md) important things from old install scripts and pen test environ that were copied to environment
 - [20230921220633](/zet/20230921220633/README.md) list of cool ideas i still want to implement in my environment
-- [20230921220840](/zet/20230921220840/README.md) script to describe other kb scripts based on their comments
 - [20230922214602](/zet/20230922214602/README.md) things i want to implement in zkvr after working on the environment
 - [20230925052317](/zet/20230925052317/README.md) wordlists for pentesting
 - [20230925055222](/zet/20230925055222/README.md) list of unfinished todo items

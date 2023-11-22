@@ -15,10 +15,10 @@ cp /home/parallels/kb/awk-scripting/find-only-h1-files.awk .
 
 # Related
 
-- [20230921220840](/zet/20230921220840/README.md) script to describe other kb scripts based on their comments
 - [20221013021614](/zet/20221013021614/README.md) zkvr terminal graph browser
 - [20230912192810](/zet/20230912192810/README.md) script to search zk markdown in command line
 - [20230924221605](/zet/20230924221605/README.md) script to get nested markdown headings for keyword searching
+- [20230905212307](/zet/20230905212307/README.md) important things from old install scripts and pen test environ that were copied to environment
 
 Tags:
 

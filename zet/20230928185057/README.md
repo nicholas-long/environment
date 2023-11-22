@@ -33,8 +33,8 @@ cp /home/parallels/kb/bash-scripting/self-parsing-code-function-names.sh .
 
 # Related
 
-- [20230921220840](/zet/20230921220840/README.md) script to describe other kb scripts based on their comments
 - [20230929054003](/zet/20230929054003/README.md) bash scripting simple program template parsing arguments with case statement
+- [20230905212307](/zet/20230905212307/README.md) important things from old install scripts and pen test environ that were copied to environment
 
 Tags:
 

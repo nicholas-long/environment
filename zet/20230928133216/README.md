@@ -76,11 +76,11 @@ zet/20230928133216/copy-burp-request-as-python-script.sh references executable f
 
 # Related
 
-- [20230921220840](/zet/20230921220840/README.md) script to describe other kb scripts based on their comments
 - [20221009192000](/zet/20221009192000/README.md) stuff to put on main page
 - [20230906035650](/zet/20230906035650/README.md) script to print reverse shell snippets
 - [20230928134931](/zet/20230928134931/README.md) scripts for URL and HTTP encoding
 - [20230905184854](/zet/20230905184854/README.md) prerequesites for environment
+- [20230905212307](/zet/20230905212307/README.md) important things from old install scripts and pen test environ that were copied to environment
 
 Tags:
 
