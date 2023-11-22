@@ -139,7 +139,6 @@
 20230930224454 problems encountered with zkvr while testing this environment
 20231001000026 script to find the minimum required set of dependent zettels to ship a scripting project
 20231001082012 automatically keeping track of changes to zkvr binaries
-20231001090029 find things missing tags
 20231001151606 hashcodes for fsdb partitioning
 20231001222624 test gzip append functionality
 20231003021548 script to enumerate all files in an aws s3 bucket url recursively

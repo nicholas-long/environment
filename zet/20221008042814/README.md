@@ -27,7 +27,6 @@ stuff i am working on.
 - [20230929145418](/zet/20230929145418/README.md) fsdb project - file based database for partitioning and event sourced data
 - [20230929153207](/zet/20230929153207/README.md) computer science experiments hub
 - [20230929153242](/zet/20230929153242/README.md) natural language processing libraries
-- [20231001090029](/zet/20231001090029/README.md) find things missing tags
 - [20231003021548](/zet/20231003021548/README.md) script to enumerate all files in an aws s3 bucket url recursively
 - [20230906033259](/zet/20230906033259/README.md) functions to copy over and possibly remake as commands
 - [20231007033903](/zet/20231007033903/README.md) script to extract text from every second of youtube video frames
