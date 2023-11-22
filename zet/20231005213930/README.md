@@ -43,7 +43,6 @@
 20230905184854 prerequesites for environment
 20230905210416 fast file manager fff
 20230905212307 important things from old install scripts
-20230905212316 low priority or optional things from install scripts
 20230906032330 ascii art splash screen
 20230906033259 functions to copy over and possibly remake as commands
 20230906033727 commands to get ip
