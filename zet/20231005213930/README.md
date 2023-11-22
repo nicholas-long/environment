@@ -135,10 +135,8 @@
 20230929153207 computer science experiments hub
 20230929153242 natural language processing libraries
 20230929194846 testing if shortcuts will work and not pick up extra files
-20230930040657 fsdb file structure
 20230930041018 fsdb future ideas
 20230930041146 fsdb developing ideas
-20230930042658 fsdb ingest subcommand notes
 20230930145814 determining cpu version for install
 20230930224454 problems encountered with zkvr while testing this environment
 20231001000026 script to find the minimum required set of dependent zettels to ship a scripting project
@@ -149,14 +147,12 @@
 20231002021919 bloom filter for fsdb
 20231003021548 script to enumerate all files in an aws s3 bucket url recursively
 20231003022851 data engineering hub
-20231003062001 fsdb use case - using as a set
+20231003062001 fsdb use cases
 20231003063630 adding timestamps to fsdb
 20231003212610 example of using fsdb as a lookup table
 20231004044241 script to strip and scrape all URLs out of text
-20231004060725 fsdb missing functionality for set difference
 20231004133128 an optimized hashcode generator for partitioning work into multiple processes
 20231005062610 fsdb TODO items
-20231005170329 hooks needed for fsdb
 20231005174423 testing reoptimize functionality
 20231005211810 script to sync only markdown files from zk to github
 20231005213930 list of cards in order
@@ -167,7 +163,6 @@
 20231007144749 integration test for dockerfile
 20231007202209 enabling CGI as an API interface on apache
 20231009060511 enabling gzip compression on CGI script output
-20231009135143 fsdb delete functionality
 20231009173031 fsdb subcommand to remove duplicate sequential rows from all partitions
 20231010153354 zawk script to run awk programs on gzipped files and streams
 20231011030523 working with a queue or scheduling system in bash
@@ -200,6 +195,7 @@
 20231117074621 automatic pentesting and hacking enumeration scripts
 20231121064457 merge note functionality for zkvr
 20231121073930 script to crawl a website to generate knowledge base files for AI assistant
+20231122053807 fsdb implementation details
 ```
 
 ` zet/20231005213930/README.md `

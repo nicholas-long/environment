@@ -84,8 +84,8 @@ sys     0m2.038s
 # Related
 
 - [20230929145418](/zet/20230929145418/README.md) fsdb project - file based database for partitioning and event sourced data
-- [20230930042658](/zet/20230930042658/README.md) fsdb ingest subcommand notes
 - [20231001151606](/zet/20231001151606/README.md) hashcodes for fsdb partitioning
+- [20231122053807](/zet/20231122053807/README.md) fsdb implementation details
 
 Tags:
 

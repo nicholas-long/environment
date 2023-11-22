@@ -22,7 +22,7 @@
 - [20230930041018](/zet/20230930041018/README.md) fsdb future ideas
 - [20230930041146](/zet/20230930041146/README.md) fsdb developing ideas
 - [20231005062610](/zet/20231005062610/README.md) fsdb TODO items
-- [20231005170329](/zet/20231005170329/README.md) hooks needed for fsdb
+- [20231122053807](/zet/20231122053807/README.md) fsdb implementation details
 
 Tags:
 

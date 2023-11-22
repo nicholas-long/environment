@@ -1,1 +1,1 @@
-- [20231009135143](/zet/20231009135143/README.md) fsdb delete functionality
+- [20231122053807](/zet/20231122053807/README.md) fsdb implementation details

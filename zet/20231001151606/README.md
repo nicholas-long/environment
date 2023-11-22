@@ -279,8 +279,8 @@ zet/20231001151606/testhashcode <( seq 1 10000 ) | zet/20231001151606/testhistog
 
 - [20230929145418](/zet/20230929145418/README.md) fsdb project - file based database for partitioning and event sourced data
 - [20230930041146](/zet/20230930041146/README.md) fsdb developing ideas
-- [20230930042658](/zet/20230930042658/README.md) fsdb ingest subcommand notes
 - [20231004133128](/zet/20231004133128/README.md) an optimized hashcode generator for partitioning work into multiple processes
+- [20231122053807](/zet/20231122053807/README.md) fsdb implementation details
 
 Tags:
 

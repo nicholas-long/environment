@@ -1,9 +1,7 @@
 - [20230929145418](/zet/20230929145418/README.md) fsdb project - file based database for partitioning and event sourced data
-- [20230930040657](/zet/20230930040657/README.md) fsdb file structure
 - [20230930041146](/zet/20230930041146/README.md) fsdb developing ideas
-- [20230930042658](/zet/20230930042658/README.md) fsdb ingest subcommand notes
 - [20231003022851](/zet/20231003022851/README.md) data engineering hub
 - [20231003063630](/zet/20231003063630/README.md) adding timestamps to fsdb
 - [20231003212610](/zet/20231003212610/README.md) example of using fsdb as a lookup table
-- [20231004060725](/zet/20231004060725/README.md) fsdb missing functionality for set difference
 - [20231005174423](/zet/20231005174423/README.md) testing reoptimize functionality
+- [20231122053807](/zet/20231122053807/README.md) fsdb implementation details

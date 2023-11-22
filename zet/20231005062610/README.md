@@ -10,13 +10,11 @@
   - [20231005174423](/zet/20231005174423/README.md) testing reoptimize functionality
 - [x] search subcommand should flush search results to output immediately
 - implement hooks - later
-  - [20231005170329](/zet/20231005170329/README.md) hooks needed for fsdb
 - implement bloom filter - later
   - [20231002021919](/zet/20231002021919/README.md) bloom filter for fsdb
 - [x] create feature to remove duplicate rows
   - maybe just sequential duplicates?
   - [20231009173031](/zet/20231009173031/README.md) fsdb subcommand to remove duplicate sequential rows from all partitions
-- [x] create feature to remove rows by IDs - [20231009135143](/zet/20231009135143/README.md) fsdb delete functionality
 - [ ] publish and move fsdb to its own repository
 - could simplify ingest script and require ulimit to be greater than the number of partitions to speed up
 
@@ -31,11 +29,10 @@
 - [20221008042814](/zet/20221008042814/README.md) WIP
 - [20230930041146](/zet/20230930041146/README.md) fsdb developing ideas
 - [20231002021919](/zet/20231002021919/README.md) bloom filter for fsdb
-- [20231005170329](/zet/20231005170329/README.md) hooks needed for fsdb
 - [20230930041018](/zet/20230930041018/README.md) fsdb future ideas
 - [20231005174423](/zet/20231005174423/README.md) testing reoptimize functionality
-- [20231009135143](/zet/20231009135143/README.md) fsdb delete functionality
 - [20231009173031](/zet/20231009173031/README.md) fsdb subcommand to remove duplicate sequential rows from all partitions
+- [20231122053807](/zet/20231122053807/README.md) fsdb implementation details
 
 Tags:
 

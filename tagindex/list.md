@@ -17,6 +17,6 @@
 - [20230930041146](/zet/20230930041146/README.md) fsdb developing ideas
 - [20230930224454](/zet/20230930224454/README.md) problems encountered with zkvr while testing this environment
 - [20231005062610](/zet/20231005062610/README.md) fsdb TODO items
-- [20231005170329](/zet/20231005170329/README.md) hooks needed for fsdb
 - [20231005213930](/zet/20231005213930/README.md) list of cards in order
 - [20231011062458](/zet/20231011062458/README.md) stuff like secrets that needs to be transferred to new machines
+- [20231122053807](/zet/20231122053807/README.md) fsdb implementation details

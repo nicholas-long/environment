@@ -1,4 +1,6 @@
-# fsdb use case - using as a set
+# fsdb use cases
+
+# using as a set
 
 - i am able to use fsdb as a set of big data
 - takes a little while to load it - estimating a few hours for 90 million rows
@@ -137,7 +139,7 @@ scanning partition 2
 
 - [20230929145418](/zet/20230929145418/README.md) fsdb project - file based database for partitioning and event sourced data
 - [20231003063630](/zet/20231003063630/README.md) adding timestamps to fsdb
-- [20231004060725](/zet/20231004060725/README.md) fsdb missing functionality for set difference
+- [20231122053807](/zet/20231122053807/README.md) fsdb implementation details
 
 Tags:
 
