@@ -17,7 +17,6 @@ hub node for `workflow`
 - [20221012144502](/zet/20221012144502/README.md) track modification dates
 - [20221006213953](/zet/20221006213953/README.md) video notes
 - [20221008042814](/zet/20221008042814/README.md) WIP
-- [20221003150098](/zet/20221003150098/README.md) TODO
 - [20221007044552](/zet/20221007044552/README.md) todo or to-try list
 - [20221101043303](/zet/20221101043303/README.md) important zkvr features and workflow tricks to mention on main page
 - [20230905210416](/zet/20230905210416/README.md) fast file manager fff
@@ -27,6 +26,7 @@ hub node for `workflow`
 - [20231001082012](/zet/20231001082012/README.md) automatically keeping track of changes to zkvr binaries
 - [20231005211810](/zet/20231005211810/README.md) script to sync only markdown files from zk to github
 - [20231015213012](/zet/20231015213012/README.md) script to print todo items in terminal
+- [20221101052020](/zet/20221101052020/README.md) TODO: Your to-do list
 
 Tags:
 

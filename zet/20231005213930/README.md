@@ -3,7 +3,6 @@
 - concept of `list of cards in order`
 
 ```
-20221003150098 TODO
 20221006013313 zettelkasten
 20221006032546 my original implementation of zet cmd
 20221006213953 video notes
