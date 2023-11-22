@@ -67,6 +67,7 @@ BEGIN {
 - [20230905015223](/zet/20230905015223/README.md) install scripts
 - [20231116151546](/zet/20231116151546/README.md) how to implement a modular subcommand with lightweight scripts - ideas for a blog post
 - [20231122053807](/zet/20231122053807/README.md) fsdb implementation details
+- [20231122231545](/zet/20231122231545/README.md) publishing fsdb to github as a standalone project in a repository
 
 Tags:
 

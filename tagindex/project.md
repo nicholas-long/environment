@@ -1,3 +1,4 @@
 - [20230928175434](/zet/20230928175434/README.md) tandy project notes and scripts for old machine project
 - [20230929145418](/zet/20230929145418/README.md) fsdb project - file based database for partitioning and event sourced data
 - [20230929153207](/zet/20230929153207/README.md) computer science experiments hub
+- [20231122231545](/zet/20231122231545/README.md) publishing fsdb to github as a standalone project in a repository

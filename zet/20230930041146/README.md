@@ -57,7 +57,7 @@
 - implement bloom filter - later
 - [x] create feature to remove duplicate rows
   - maybe just sequential duplicates?
-- [ ] publish and move fsdb to its own repository
+- [20231122231545](/zet/20231122231545/README.md) publishing fsdb to github as a standalone project in a repository
 - could simplify ingest script and require ulimit to be greater than the number of partitions to speed up
 
 ```
@@ -70,6 +70,7 @@
 - [20231001151606](/zet/20231001151606/README.md) hashcodes for fsdb partitioning
 - [20231122053807](/zet/20231122053807/README.md) fsdb implementation details
 - [20221008042814](/zet/20221008042814/README.md) WIP
+- [20231122231545](/zet/20231122231545/README.md) publishing fsdb to github as a standalone project in a repository
 
 Tags:
 

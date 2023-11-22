@@ -16,6 +16,7 @@ zet/20221012171100/README.md
 - [20231122053807](/zet/20231122053807/README.md) fsdb implementation details
 - [20231122213142](/zet/20231122213142/README.md) script to describe other scripts based on their comments
 - [20231122214039](/zet/20231122214039/README.md) stuff i should blog about
+- [20231122231545](/zet/20231122231545/README.md) publishing fsdb to github as a standalone project in a repository
 
 Tags:
 

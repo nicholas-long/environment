@@ -1,3 +1,4 @@
 - [20221007193324](/zet/20221007193324/README.md) github actions
 - [20230905030303](/zet/20230905030303/README.md) script to get github release links
 - [20231023142155](/zet/20231023142155/README.md) script to scrape information from github pages to avoid API usage
+- [20231122231545](/zet/20231122231545/README.md) publishing fsdb to github as a standalone project in a repository

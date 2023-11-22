@@ -182,6 +182,7 @@
 20231122053807 fsdb implementation details
 20231122213142 script to describe other scripts based on their comments
 20231122214039 stuff i should blog about
+20231122231545 publishing fsdb to github as a standalone project in a repository
 ```
 
 ` zet/20231005213930/README.md `
