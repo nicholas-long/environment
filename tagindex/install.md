@@ -1,3 +1,4 @@
+- [20230905015223](/zet/20230905015223/README.md) install scripts
 - [20230905185446](/zet/20230905185446/README.md) bash file commands that are not builtins
 - [20230905212307](/zet/20230905212307/README.md) important things from old install scripts
 - [20230922051930](/zet/20230922051930/README.md) lazygit interactive install script

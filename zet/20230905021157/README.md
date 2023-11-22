@@ -28,7 +28,6 @@ sudo cp fff /usr/bin
 # Related
 
 - [20230905015223](/zet/20230905015223/README.md) install scripts
-- [20230905020305](/zet/20230905020305/README.md) symlinks needed for install script
 - [20230905184854](/zet/20230905184854/README.md) prerequesites for environment
 - [20230907151050](/zet/20230907151050/README.md) bat interactive install script
 

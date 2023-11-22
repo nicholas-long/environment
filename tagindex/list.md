@@ -1,7 +1,7 @@
 - [20221007044552](/zet/20221007044552/README.md) todo or to-try list
 - [20221101043303](/zet/20221101043303/README.md) important zkvr features and workflow tricks to mention on main page
 - [20221101052020](/zet/20221101052020/README.md) TODO: Your to-do list
-- [20230905020305](/zet/20230905020305/README.md) symlinks needed for install script
+- [20230905015223](/zet/20230905015223/README.md) install scripts
 - [20230905212307](/zet/20230905212307/README.md) important things from old install scripts
 - [20230906033259](/zet/20230906033259/README.md) functions to copy over and possibly remake as commands
 - [20230921220633](/zet/20230921220633/README.md) list of cool ideas i still want to implement in my environment
