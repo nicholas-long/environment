@@ -9,10 +9,8 @@
   - enrich step will update backlinks in all other files to point to the correct place by reinserting them after the files are merged
 - any note you want to merge should be linked to the current note. i think that is a reasonable restriction. if you want to merge one quickly, then you can add a link.
 - when merging, the existing note should come first
-- first victim test case
-  - [20230916132320](/zet/20230916132320/README.md) script to get platform install command
-  - merge with install scripts
-- [ ] one potential issue that i might need to look at later is that if you end up with duplicate tags, this might break the tag index file
+- [x] one potential issue is that if you end up with duplicate tags, this might break the tag index file
+  - created script `zet/20231121064457/fix-duplicate-tags` to remove the duplicate tags on the last line
 - [x] fix weird broken file
   - a weird file was being created because i reused a variable `selection` in the code. it was important, and reusing it within the code was causing undefined behavior.
 - 2023-11-21 i got this working in zkvr
@@ -43,4 +41,4 @@ zet/20231121064457/merge-markdown-related-links zet/20231121064457/README.md zet
 
 Tags:
 
-    #zet #zettelkasten #markdown
+    #zet #zettelkasten #markdown #zet
