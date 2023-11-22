@@ -6,7 +6,6 @@
 - [x] should copy up find executable command - id 20230926234809
 - [x] copy up new code fixes 2023-09-30
 - [ ] include information about setting up github actions
-  - [20231107183617](/zet/20231107183617/README.md) github action permission issues with automatic enrich workflows
 - [ ] automatically browsing between any directory that is modified in git, include titles
 - Automatically browsing between any directories that's mentioned in the tmux clipboard
 - [x] automatic tag suggestions for documents from chatGPT
@@ -52,9 +51,9 @@ cp -r zet/20230925055222 ~/zkvr/zet/
 - [20230930224454](/zet/20230930224454/README.md) problems encountered with zkvr while testing this environment
 - [20231001000026](/zet/20231001000026/README.md) script to find the minimum required set of dependent zettels to ship a scripting project
 - [20231001082012](/zet/20231001082012/README.md) automatically keeping track of changes to zkvr binaries
-- [20231107183617](/zet/20231107183617/README.md) github action permission issues with automatic enrich workflows
 - [20231114070621](/zet/20231114070621/README.md) script for chatGPT prompt to select tags for documents automatically
 - [20231121064457](/zet/20231121064457/README.md) merge note functionality for zkvr
+- [20221007193324](/zet/20221007193324/README.md) github actions
 
 Tags:
 

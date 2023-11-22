@@ -172,7 +172,6 @@
 20231102221207 working with openai chatgpt prompts
 20231103204105 openai chatgpt CLI command
 20231104035739 testing openai chatgpt to create some scripts
-20231107183617 github action permission issues with automatic enrich workflows
 20231112170729 script to get remote github URL from git repository
 20231114070621 script for chatGPT prompt to select tags for documents automatically
 20231116151546 how to implement a modular subcommand with lightweight scripts - ideas for a blog post
