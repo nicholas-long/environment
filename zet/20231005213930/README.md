@@ -20,7 +20,6 @@
 20221013021614 zkvr terminal graph browser
 20221013221136 graph query language for zettelkasten
 20221014025416 clone a subsection of a graph by tag boundaries
-20221014074318 important choices of tech stack
 20221021071146 delete things marked as #DEL periodically
 20221022000131 put tmux and vim rc config in dockerfile for testing zkvr
 20221023085822 implement returning paths or tables in graph query language

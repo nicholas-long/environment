@@ -15,7 +15,6 @@
 20221013021614	zet/20221013021614/README.md	zkvr terminal graph browser
 20221013221136	zet/20221013221136/README.md	graph query language for zettelkasten
 20221014025416	zet/20221014025416/README.md	clone a subsection of a graph by tag boundaries
-20221014074318	zet/20221014074318/README.md	important choices of tech stack
 20221021071146	zet/20221021071146/README.md	delete things marked as #DEL periodically
 20221022000131	zet/20221022000131/README.md	put tmux and vim rc config in dockerfile for testing zkvr
 20221023085822	zet/20221023085822/README.md	implement returning paths or tables in graph query language
