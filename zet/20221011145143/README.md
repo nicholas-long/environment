@@ -2,6 +2,8 @@
 
 - the command `bat` - useful for previewing markdown
 - https://github.com/sharkdp/bat
+- bat version in debian apt repository never installs correctly. no binary installed on path. nothing seems to be in the package except manuals.
+  - is this an issue worth reporting?
 - 2023-09-22 install bat from github release pages now with environment install scripts
   - [20230907151050](/zet/20230907151050/README.md) bat interactive install script
   - 2023-10-05 removing binary from attachments here
