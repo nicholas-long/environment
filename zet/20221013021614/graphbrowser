@@ -436,7 +436,7 @@ while [ 1 == "$going" ]; do
       # write to a temp file
       mergefile=$(mktemp)
       # call this script to merge the destination readme and the source readme into temp file
-      zet/20231121064457/merge-markdown-related-links zet/$sel/README.md "$doc" > "$mergefile"
+      zet/20231121064457/merge-markdown-related-links zet/$sel/README.md "$doc" | zet/20231121064457/fix-duplicate-tags > "$mergefile"
       # remove self references from resulting file
       sed -i "/^- .*$sel/d" "$mergefile"
       # move temp file to dest readme
