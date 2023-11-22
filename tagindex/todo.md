@@ -1,6 +1,5 @@
 - [20221007044552](/zet/20221007044552/README.md) todo or to-try list
 - [20221008042814](/zet/20221008042814/README.md) WIP
-- [20221024215216](/zet/20221024215216/README.md) future enhancements to graph query language
 - [20221101052020](/zet/20221101052020/README.md) TODO: Your to-do list
 - [20230921220633](/zet/20230921220633/README.md) list of cool ideas i still want to implement in my environment
 - [20230925055222](/zet/20230925055222/README.md) list of unfinished todo items

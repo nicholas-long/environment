@@ -22,7 +22,6 @@
 20221021071146 delete things marked as #DEL periodically
 20221022000131 put tmux and vim rc config in dockerfile for testing zkvr
 20221023085822 implement returning paths or tables in graph query language
-20221024215216 future enhancements to graph query language
 20221025024238 enumerate tags
 20221026064448 check syntax of dash lists for tabstop 4
 20221027011800 zetcli bash wrapper subcommand implementation
