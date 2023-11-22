@@ -69,7 +69,6 @@ function install_it {
 # Related
 
 - [20230905015223](/zet/20230905015223/README.md) install scripts
-- [20230905021157](/zet/20230905021157/README.md) log of commands run to set up previous environment
 - [20230914030626](/zet/20230914030626/README.md) tmux pwn menu script for hacking reverse shells and file transfer commands
 - [20230925193834](/zet/20230925193834/README.md) testing on mac os
 - [20230927233110](/zet/20230927233110/README.md) colorizing and prettifying scripts for transforming text
@@ -77,6 +76,7 @@ function install_it {
 - [20230930145814](/zet/20230930145814/README.md) determining cpu version for install
 - [20230922220109](/zet/20230922220109/README.md) create a dockerfile for this environment
 - [20230925033312](/zet/20230925033312/README.md) bash current script directory
+- [20230905212307](/zet/20230905212307/README.md) important things from old install scripts
 
 Tags:
 
