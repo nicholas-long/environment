@@ -11,7 +11,6 @@
 - [20230925052317](/zet/20230925052317/README.md) wordlists for pentesting
 - [20230925055222](/zet/20230925055222/README.md) list of unfinished todo items
 - [20230926190350](/zet/20230926190350/README.md) scripts to process text with line by line operations
-- [20230927001343](/zet/20230927001343/README.md) places to update find command to use new executable version in order to be compatible on mac
 - [20230929024225](/zet/20230929024225/README.md) meta note related scripts
 - [20230930041146](/zet/20230930041146/README.md) fsdb developing ideas
 - [20230930224454](/zet/20230930224454/README.md) problems encountered with zkvr while testing this environment

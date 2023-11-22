@@ -25,7 +25,6 @@
   - fixed this with a custom script.
     - [20230926234809](/zet/20230926234809/README.md) a non-platform-specific find command script for executable files
   - many places still need to be updated to use this script
-    - [20230927001343](/zet/20230927001343/README.md) places to update find command to use new executable version in order to be compatible on mac
   - https://apple.stackexchange.com/questions/116367/find-all-executable-files-within-a-folder-in-terminal
   - problems with the find command mean that i am unable to search markdown from within the terminal
     - [20230912192810](/zet/20230912192810/README.md) script to search zk markdown in command line
@@ -96,7 +95,6 @@
 - [20230912192810](/zet/20230912192810/README.md) script to search zk markdown in command line
 - [20230926224444](/zet/20230926224444/README.md) updating scripts to use gawk when possible
 - [20230926234809](/zet/20230926234809/README.md) a non-platform-specific find command script for executable files
-- [20230927001343](/zet/20230927001343/README.md) places to update find command to use new executable version in order to be compatible on mac
 - [20230927033258](/zet/20230927033258/README.md) debugging the markdown script on mac os
 - [20230929064428](/zet/20230929064428/README.md) script to check for BEGINFILE usage in awk scripts requiring change to gawk
 
