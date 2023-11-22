@@ -1,7 +1,7 @@
 - [20230929145418](/zet/20230929145418/README.md) fsdb project - file based database for partitioning and event sourced data
 - [20230930041146](/zet/20230930041146/README.md) fsdb developing ideas
 - [20231003022851](/zet/20231003022851/README.md) data engineering hub
+- [20231003062001](/zet/20231003062001/README.md) fsdb use cases
 - [20231003063630](/zet/20231003063630/README.md) adding timestamps to fsdb
-- [20231003212610](/zet/20231003212610/README.md) example of using fsdb as a lookup table
 - [20231005174423](/zet/20231005174423/README.md) testing reoptimize functionality
 - [20231122053807](/zet/20231122053807/README.md) fsdb implementation details

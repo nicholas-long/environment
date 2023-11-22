@@ -70,6 +70,7 @@ gzip: data/1.gz: No such file or directory
 
 - [20230929145418](/zet/20230929145418/README.md) fsdb project - file based database for partitioning and event sourced data
 - [20231003062001](/zet/20231003062001/README.md) fsdb use cases
+- [20231122053807](/zet/20231122053807/README.md) fsdb implementation details
 
 Tags:
 
