@@ -83,7 +83,7 @@ Remember to ensure proper security measures are in place when handling user inpu
 # Related
 
 - [20231025215645](/zet/20231025215645/README.md) my blog
-- [20231122214039](/zet/20231122214039/README.md) things i should blog about
+- [20231122214039](/zet/20231122214039/README.md) stuff i should blog about
 
 Tags:
 

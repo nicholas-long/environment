@@ -181,7 +181,7 @@
 20231121073930 script to crawl a website to generate knowledge base files for AI assistant
 20231122053807 fsdb implementation details
 20231122213142 script to describe other scripts based on their comments
-20231122214039 things i should blog about
+20231122214039 stuff i should blog about
 ```
 
 ` zet/20231005213930/README.md `
@@ -191,6 +191,7 @@
 - [20230925055222](/zet/20230925055222/README.md) list of unfinished todo items
 - [20221008063052](/zet/20221008063052/README.md) autorunning scripts in cards
 - [20221009192000](/zet/20221009192000/README.md) stuff to put on main page
+- [20221008061845](/zet/20221008061845/README.md) workflow
 
 Tags:
 

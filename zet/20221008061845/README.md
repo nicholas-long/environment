@@ -27,6 +27,7 @@ hub node for `workflow`
 - [20231005211810](/zet/20231005211810/README.md) script to sync only markdown files from zk to github
 - [20231015213012](/zet/20231015213012/README.md) script to print todo items in terminal
 - [20221101052020](/zet/20221101052020/README.md) TODO: Your to-do list
+- [20231005213930](/zet/20231005213930/README.md) list of cards in order
 
 Tags:
 

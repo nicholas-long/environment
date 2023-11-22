@@ -1,4 +1,4 @@
-# things i should blog about
+# stuff i should blog about
 
 - [20231007033903](/zet/20231007033903/README.md) script to extract text from every second of youtube video frames
 - [20231121064457](/zet/20231121064457/README.md) merge note functionality for zkvr
