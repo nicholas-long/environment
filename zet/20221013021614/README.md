@@ -16,11 +16,14 @@
   - `deltags`     - remove multiple tags from card
   - `spraytag`    - add a tag to multiple links on a card at once. select with fuzzy search.
   - `edit ...`    - edit card or attachments in vim
-  - `/deep`       - deep keyword search combining links, titles, content, and fzf fuzzy finding. launches new tmux windows if tmux is running.
+  - `/search`     - deep keyword search combining links, titles, content, and fzf fuzzy finding. launches new tmux windows if tmux is running.
   - `~`           - return to home page
   - `spawn`       - create a new zettel card linked to here. enter title at prompt. new card is available to navigate and edit immediately.
+  - `merge-into`  - merge the content of the current card into a linked card, updating backlinks
+  - `autotag`     - use ChatGPT to automatically select tags for the current document
   - `clone`       - copy a template card in, replacing current card. copy entire linked network of cards with tag `#template`. capable of creating large structures of notes.
   - `copy...`     - if running in tmux, select text to copy from snippets with fzf
+  - `copyURL`     - if running in tmux, copy the remote github URL to view the current file
   - `copypath`    - if running in tmux, copy the current markdown file path to tmux buffer
   - `xfer`        - copy between cards or attached files easily by selecting files or cards to open alongside `README.md` in vim tabs
   - `fxfer`       - copy files between cards
@@ -67,26 +70,22 @@ zet/20221013021614/getcopycontent zet/20221013021614/README.md
 # Related
 
 - [20221006032546](/zet/20221006032546/README.md) my original implementation of zet cmd
-- [20221028172836](/zet/20221028172836/README.md) old dockerfile for testing zkvr with vim and tmux config
+- [20221028172836](/zet/20221028172836/README.md) symlink dockerfile
 - [20221009192000](/zet/20221009192000/README.md) stuff to put on main page
 - [20221025024238](/zet/20221025024238/README.md) enumerate tags
-- [20221101043303](/zet/20221101043303/README.md) important zkvr features and workflow tricks to mention on main page
+- [20221101043303](/zet/20221101043303/README.md) important features and workflow tricks to mention on main page
 - [20221014025416](/zet/20221014025416/README.md) clone a subsection of a graph by tag boundaries
 - [20221011145143](/zet/20221011145143/README.md) bat command pretty printer
 - [20221027011800](/zet/20221027011800/README.md) zetcli bash wrapper subcommand implementation
-- [20230912192810](/zet/20230912192810/README.md) script to search zk markdown in command line
-- [20230926224444](/zet/20230926224444/README.md) updating scripts to use gawk when possible
-- [20230922214602](/zet/20230922214602/README.md) things i want to implement in zkvr after working on the environment
-- [20230928184621](/zet/20230928184621/README.md) markdown helper scripts
-- [20230929023221](/zet/20230929023221/README.md) testing user interfaces in fzf
-- [20230930224454](/zet/20230930224454/README.md) problems encountered with zkvr while testing this environment
-- [20231001082012](/zet/20231001082012/README.md) automatically keeping track of changes to zkvr binaries
-- [20231007144438](/zet/20231007144438/README.md) automated testing
-- [20231112170729](/zet/20231112170729/README.md) script to get remote github URL from git repository
-- [20231116151546](/zet/20231116151546/README.md) how to implement a modular subcommand with lightweight scripts - ideas for a blog post
+- [20221105224810](/zet/20221105224810/README.md) launch browser to current card on github
+- [20221014215609](/zet/20221014215609/README.md) finished, but with ongoing related work
+- [20221105021715](/zet/20221105021715/README.md) git diff picker feature
+- [20221101163755](/zet/20221101163755/README.md) fix clone
+- [20221008042814](/zet/20221008042814/README.md) WIP
+- [20231004044241](/zet/20231004044241/README.md) script to strip and scrape all URLs out of text
 - [20231114070621](/zet/20231114070621/README.md) script for chatGPT prompt to select tags for documents automatically
 - [20231121064457](/zet/20231121064457/README.md) merge note functionality for zkvr
-- [20230922214323](/zet/20230922214323/README.md) this environment
+- [20231112170729](/zet/20231112170729/README.md) script to get remote github URL from git repository
 
 Tags:
 
