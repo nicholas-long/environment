@@ -19,6 +19,7 @@ things that are finished.
 - [20230921220840](/zet/20230921220840/README.md) list of kb scripts that i could decide whether to copy over
 - [20231001000026](/zet/20231001000026/README.md) script to find the minimum required set of dependent zettels to ship a scripting project
 - [20231005211810](/zet/20231005211810/README.md) script to sync only markdown files from zk to github
+- [20230922203837](/zet/20230922203837/README.md) get rid of all platform specific binaries from zkvr
 
 Tags:
 

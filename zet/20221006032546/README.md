@@ -86,7 +86,6 @@ Options:
 - https://github.com/naps62/zk - another implementation in bash for reference
 - https://www.google.com/search?q=zettelkasten+fzf+vim ?
 - [20221027011800](/zet/20221027011800/README.md) zetcli bash wrapper subcommand implementation
-- [20221028173620](/zet/20221028173620/README.md) yq binaries
 - [20221009192000](/zet/20221009192000/README.md) stuff to put on main page
 - [20221006013313](/zet/20221006013313/README.md) zettelkasten
 - [20221025024238](/zet/20221025024238/README.md) enumerate tags
@@ -98,6 +97,7 @@ Options:
 - [20230926224444](/zet/20230926224444/README.md) updating scripts to use gawk when possible
 - [20230927001343](/zet/20230927001343/README.md) places to update find command to use new executable version in order to be compatible on mac
 - [20230929023221](/zet/20230929023221/README.md) testing user interfaces in fzf
+- [20230922203837](/zet/20230922203837/README.md) get rid of all platform specific binaries from zkvr
 
 Tags:
 

@@ -28,7 +28,6 @@
 20221026064448 check syntax of dash lists for tabstop 4
 20221027011800 zetcli bash wrapper subcommand implementation
 20221028172836 old dockerfile for testing zkvr with vim and tmux config
-20221028173620 yq binaries
 20221031092923 template for video notes
 20221101043303 important zkvr features and workflow tricks to mention on main page
 20221101052020 TODO: Your to-do list
