@@ -54,7 +54,7 @@ curl -X POST -H 'Content-Type: application/json' -d "{\"email\":\"$email\",\"pas
 ```
 - still not able to log in, but maybe i can use my existing tokens for a while
 - there is an error message returned. maybe it's blocking it based on something from the http request headers?
-- [ ] figure out why login doesn't work and return a token
+- in order to create a real script, i still need to figure out why login doesn't work and return a token
 
 ### grabbing tokens from obsidian local storage
 ```bash
