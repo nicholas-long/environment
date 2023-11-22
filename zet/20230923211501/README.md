@@ -29,7 +29,7 @@ cp /home/coyote/kb/python/convert-csv-to-tsv.py /home/coyote/kb/hacking/cve/get-
 
 # Related
 
-- [20230921220840](/zet/20230921220840/README.md) list of kb scripts that i could decide whether to copy over
+- [20230921220840](/zet/20230921220840/README.md) script to describe other kb scripts based on their comments
 - [20221008061845](/zet/20221008061845/README.md) workflow
 - [20221009192000](/zet/20221009192000/README.md) stuff to put on main page
 

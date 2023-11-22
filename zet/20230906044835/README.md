@@ -26,7 +26,7 @@ ex -s -c "\$s/4444/$PORT/" -c wq nishang.ps1
 # Related
 
 - [20230906033727](/zet/20230906033727/README.md) commands to get ip
-- [20230905212307](/zet/20230905212307/README.md) important things from old install scripts
+- [20230905212307](/zet/20230905212307/README.md) important things from old install scripts and pen test environ that were copied to environment
 
 Tags:
 

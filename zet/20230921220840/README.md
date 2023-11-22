@@ -1,12 +1,12 @@
-# list of kb scripts that i could decide whether to copy over
+# script to describe other kb scripts based on their comments
 
 - created script `zet/20230921220840/describe-script` to print the first comment it finds in scripts to help sorting these
-- [20230923065000](/zet/20230923065000/README.md) determining which scripts have kb references using grep
-- i looked for non executable scripts as well
-- 2023-09-29 early AM - everything is converted!
-- 2023-10-06 now this card can serve to link together the old scripts
+- used this to convert kb scripts
+  - i looked for non executable scripts as well
+  - 2023-09-29 early AM - everything is converted!
+  - 2023-10-06 now this card can serve to link together the old scripts
 
-# filtered list
+## filtered list
 ```bash
 # used zet/20230921220840/describe-script to print headings, but lots of them had no comments
 # then went and manually worked on them
@@ -123,7 +123,7 @@
 
 ```
 
-# do not copy these
+## do not copy these
 ```
 /home/coyote/kb/awk-scripting/convert-to-try-list-to-separate-files.awk # rewriting a lot of commands. trash this
 /home/coyote/kb/zettelkasten-tag-ideas # example tags to use in zettelkasten? trash this
@@ -145,7 +145,7 @@
 /home/parallels/kb/autogenerate-all-languages.sh # generated the markdown content for files named auto-bash, auto-awk, etc
 ```
 
-# full list
+## full list of kb files
 ```bash
 find ~/kb -type f -executable
 /home/parallels/kb/linux/package-it-all.sh
@@ -256,7 +256,6 @@ find ~/kb -type f -executable
 # Related
 
 - [20230921220633](/zet/20230921220633/README.md) list of cool ideas i still want to implement in my environment
-- [20230923065000](/zet/20230923065000/README.md) determining which scripts have kb references using grep
 - [20230922214323](/zet/20230922214323/README.md) this environment
 - [20230923211501](/zet/20230923211501/README.md) get current CVE list as tsv
 - [20230924221605](/zet/20230924221605/README.md) script to get nested markdown headings for keyword searching
@@ -304,7 +303,7 @@ find ~/kb -type f -executable
 - [20230929055042](/zet/20230929055042/README.md) example of how to communicate between the network and a named pipe
 - [20230929055134](/zet/20230929055134/README.md) attempt to create script logs from tmux panes
 - [20221009095853](/zet/20221009095853/README.md) finished
-- [20230905212307](/zet/20230905212307/README.md) important things from old install scripts
+- [20230905212307](/zet/20230905212307/README.md) important things from old install scripts and pen test environ that were copied to environment
 
 Tags:
 

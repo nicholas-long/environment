@@ -46,7 +46,7 @@ zet/20230925001420/ubuntu-docker-build-environment.sh references executable file
 
 # Related
 
-- [20230921220840](/zet/20230921220840/README.md) list of kb scripts that i could decide whether to copy over
+- [20230921220840](/zet/20230921220840/README.md) script to describe other kb scripts based on their comments
 - [20221008042814](/zet/20221008042814/README.md) WIP
 - [20221022000131](/zet/20221022000131/README.md) put tmux and vim rc config in dockerfile for testing zkvr
 - [20221028172836](/zet/20221028172836/README.md) old dockerfile for testing zkvr with vim and tmux config

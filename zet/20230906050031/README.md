@@ -12,7 +12,7 @@ zet/20230906050031/center-text
 
 - [20230906032330](/zet/20230906032330/README.md) ascii art splash screen
 - [20230927233110](/zet/20230927233110/README.md) colorizing and prettifying scripts for transforming text
-- [20230905212307](/zet/20230905212307/README.md) important things from old install scripts
+- [20230905212307](/zet/20230905212307/README.md) important things from old install scripts and pen test environ that were copied to environment
 
 Tags:
 

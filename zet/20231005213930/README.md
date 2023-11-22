@@ -41,7 +41,7 @@
 20230905160850 directory for executable short commands to run on path
 20230905184854 prerequesites for environment
 20230905210416 fast file manager fff
-20230905212307 important things from old install scripts
+20230905212307 important things from old install scripts and pen test environ that were copied to environment
 20230906032330 ascii art splash screen
 20230906033727 commands to get ip
 20230906035236 scripts to draw title bars
@@ -61,7 +61,7 @@
 20230920022857 script to get linpeas to current directory
 20230920031249 script to search tldr commands by features to find ways to do things
 20230921220633 list of cool ideas i still want to implement in my environment
-20230921220840 list of kb scripts that i could decide whether to copy over
+20230921220840 script to describe other kb scripts based on their comments
 20230922051930 lazygit interactive install script
 20230922203837 get rid of all platform specific binaries from zkvr
 20230922210126 cards i can clean up
@@ -71,7 +71,6 @@
 20230922220109 create a dockerfile for this environment
 20230922222627 testing environment on netbook
 20230922222809 getting rid of on-screen keyboard
-20230923065000 determining which scripts have kb references using grep
 20230923211501 get current CVE list as tsv
 20230924221605 script to get nested markdown headings for keyword searching
 20230924224635 scripts to get nmap information

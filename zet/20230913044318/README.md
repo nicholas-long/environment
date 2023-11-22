@@ -29,7 +29,7 @@ rm $tf
 - [20221008061845](/zet/20221008061845/README.md) workflow
 - [20230916125222](/zet/20230916125222/README.md) tmux scripts directory
 - [20230925193834](/zet/20230925193834/README.md) testing on mac os
-- [20230905212307](/zet/20230905212307/README.md) important things from old install scripts
+- [20230905212307](/zet/20230905212307/README.md) important things from old install scripts and pen test environ that were copied to environment
 
 Tags:
 

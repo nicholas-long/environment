@@ -12,7 +12,7 @@ cp /home/parallels/kb/bash-scripting/find-largest-files.sh .
 
 # Related
 
-- [20230921220840](/zet/20230921220840/README.md) list of kb scripts that i could decide whether to copy over
+- [20230921220840](/zet/20230921220840/README.md) script to describe other kb scripts based on their comments
 
 Tags:
 

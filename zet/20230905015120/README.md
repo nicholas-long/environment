@@ -35,7 +35,7 @@ getmyip_silent
 - [20230919172630](/zet/20230919172630/README.md) script to get root of repository or obsidian knowledge base
 - [20230925193834](/zet/20230925193834/README.md) testing on mac os
 - [20231017183957](/zet/20231017183957/README.md) command shortcut to pick and kill dockers
-- [20230905212307](/zet/20230905212307/README.md) important things from old install scripts
+- [20230905212307](/zet/20230905212307/README.md) important things from old install scripts and pen test environ that were copied to environment
 
 Tags:
 

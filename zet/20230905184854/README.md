@@ -76,7 +76,7 @@ function install_it {
 - [20230930145814](/zet/20230930145814/README.md) determining cpu version for install
 - [20230922220109](/zet/20230922220109/README.md) create a dockerfile for this environment
 - [20230925033312](/zet/20230925033312/README.md) bash current script directory
-- [20230905212307](/zet/20230905212307/README.md) important things from old install scripts
+- [20230905212307](/zet/20230905212307/README.md) important things from old install scripts and pen test environ that were copied to environment
 
 Tags:
 

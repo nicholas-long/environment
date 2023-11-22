@@ -84,7 +84,7 @@ bat_0.23.0_i686.deb https://github.com/sharkdp/bat/releases/download/v0.23.0/bat
 - [20230905210416](/zet/20230905210416/README.md) fast file manager fff
 - [20230930145814](/zet/20230930145814/README.md) determining cpu version for install
 - [20230922203837](/zet/20230922203837/README.md) get rid of all platform specific binaries from zkvr
-- [20230905212307](/zet/20230905212307/README.md) important things from old install scripts
+- [20230905212307](/zet/20230905212307/README.md) important things from old install scripts and pen test environ that were copied to environment
 
 Tags:
 

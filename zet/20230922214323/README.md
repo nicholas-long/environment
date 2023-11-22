@@ -29,7 +29,7 @@
 - [20221009192000](/zet/20221009192000/README.md) stuff to put on main page
 - [20221006013313](/zet/20221006013313/README.md) zettelkasten
 - [20230922222627](/zet/20230922222627/README.md) testing environment on netbook
-- [20230921220840](/zet/20230921220840/README.md) list of kb scripts that i could decide whether to copy over
+- [20230921220840](/zet/20230921220840/README.md) script to describe other kb scripts based on their comments
 - [20231007144438](/zet/20231007144438/README.md) automated testing
 - [20230905015028](/zet/20230905015028/README.md) dotfiles hub
 - [20231011062458](/zet/20231011062458/README.md) stuff like secrets that needs to be transferred to new machines
@@ -41,6 +41,7 @@
 - [20230905015223](/zet/20230905015223/README.md) install scripts
 - [20221007193324](/zet/20221007193324/README.md) github actions
 - [20221013021614](/zet/20221013021614/README.md) zkvr terminal graph browser
+- [20230905212307](/zet/20230905212307/README.md) important things from old install scripts and pen test environ that were copied to environment
 
 Tags:
 

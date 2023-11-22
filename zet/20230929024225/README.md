@@ -26,7 +26,7 @@ find ~/kb -type f | grep -f ~/kb/notes-extensions | xargs cat | wc -l
 
 # Related
 
-- [20230921220840](/zet/20230921220840/README.md) list of kb scripts that i could decide whether to copy over
+- [20230921220840](/zet/20230921220840/README.md) script to describe other kb scripts based on their comments
 - [20231001000026](/zet/20231001000026/README.md) script to find the minimum required set of dependent zettels to ship a scripting project
 
 Tags:

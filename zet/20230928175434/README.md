@@ -11,7 +11,7 @@ cp /home/parallels/kb/linux/old-machine-project/tandy-output-filter.c .
 
 # Related
 
-- [20230921220840](/zet/20230921220840/README.md) list of kb scripts that i could decide whether to copy over
+- [20230921220840](/zet/20230921220840/README.md) script to describe other kb scripts based on their comments
 - [20230929153207](/zet/20230929153207/README.md) computer science experiments hub
 
 Tags:

@@ -21,7 +21,7 @@ cp /home/parallels/kb/hacking/test-vuln-in-dockers/ubuntu-reverse-shell/Dockerfi
 
 # Related
 
-- [20230921220840](/zet/20230921220840/README.md) list of kb scripts that i could decide whether to copy over
+- [20230921220840](/zet/20230921220840/README.md) script to describe other kb scripts based on their comments
 - [20230925001420](/zet/20230925001420/README.md) cool docker scripts to migrate
 - [20230928164014](/zet/20230928164014/README.md) dockerfile templates
 

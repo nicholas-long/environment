@@ -16,7 +16,7 @@ zet/20230925024118/scripts-dependencies zet/20230928173645 # no dependencies?
 
 # Related
 
-- [20230921220840](/zet/20230921220840/README.md) list of kb scripts that i could decide whether to copy over
+- [20230921220840](/zet/20230921220840/README.md) script to describe other kb scripts based on their comments
 - [20230928171946](/zet/20230928171946/README.md) data analysis scripting hub
 
 Tags:

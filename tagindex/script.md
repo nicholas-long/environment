@@ -4,6 +4,7 @@
 - [20230905015120](/zet/20230905015120/README.md) bash rc file and config
 - [20230905015223](/zet/20230905015223/README.md) install scripts
 - [20230905030303](/zet/20230905030303/README.md) script to get github release links
+- [20230905212307](/zet/20230905212307/README.md) important things from old install scripts and pen test environ that were copied to environment
 - [20230906035236](/zet/20230906035236/README.md) scripts to draw title bars
 - [20230906035650](/zet/20230906035650/README.md) script to print reverse shell snippets
 - [20230906035744](/zet/20230906035744/README.md) scripts to optimize alphanumeric base64
@@ -18,11 +19,10 @@
 - [20230919172630](/zet/20230919172630/README.md) script to get root of repository or obsidian knowledge base
 - [20230920022857](/zet/20230920022857/README.md) script to get linpeas to current directory
 - [20230920031249](/zet/20230920031249/README.md) script to search tldr commands by features to find ways to do things
-- [20230921220840](/zet/20230921220840/README.md) list of kb scripts that i could decide whether to copy over
+- [20230921220840](/zet/20230921220840/README.md) script to describe other kb scripts based on their comments
 - [20230922051930](/zet/20230922051930/README.md) lazygit interactive install script
 - [20230922214323](/zet/20230922214323/README.md) this environment
 - [20230922220109](/zet/20230922220109/README.md) create a dockerfile for this environment
-- [20230923065000](/zet/20230923065000/README.md) determining which scripts have kb references using grep
 - [20230923211501](/zet/20230923211501/README.md) get current CVE list as tsv
 - [20230924221605](/zet/20230924221605/README.md) script to get nested markdown headings for keyword searching
 - [20230924224635](/zet/20230924224635/README.md) scripts to get nmap information

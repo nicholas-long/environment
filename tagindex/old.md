@@ -1,2 +1,2 @@
 - [20221101043303](/zet/20221101043303/README.md) important zkvr features and workflow tricks to mention on main page
-- [20230905212307](/zet/20230905212307/README.md) important things from old install scripts
+- [20230905212307](/zet/20230905212307/README.md) important things from old install scripts and pen test environ that were copied to environment

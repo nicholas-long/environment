@@ -23,7 +23,7 @@ zet/20230927233110/decorate-xml.sh references executable file colorize.sh
 
 # Related
 
-- [20230921220840](/zet/20230921220840/README.md) list of kb scripts that i could decide whether to copy over
+- [20230921220840](/zet/20230921220840/README.md) script to describe other kb scripts based on their comments
 - [20230906050031](/zet/20230906050031/README.md) script to center text in the terminal
 - [20230905184854](/zet/20230905184854/README.md) prerequesites for environment
 
