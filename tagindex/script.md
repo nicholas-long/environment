@@ -20,6 +20,7 @@
 - [20230920031249](/zet/20230920031249/README.md) script to search tldr commands by features to find ways to do things
 - [20230921220840](/zet/20230921220840/README.md) list of kb scripts that i could decide whether to copy over
 - [20230922051930](/zet/20230922051930/README.md) lazygit interactive install script
+- [20230922214323](/zet/20230922214323/README.md) this environment
 - [20230922220109](/zet/20230922220109/README.md) create a dockerfile for this environment
 - [20230923065000](/zet/20230923065000/README.md) determining which scripts have kb references using grep
 - [20230923211501](/zet/20230923211501/README.md) get current CVE list as tsv
@@ -85,6 +86,5 @@
 - [20231025200754](/zet/20231025200754/README.md) script to update obsidian internal links in markdown
 - [20231025220053](/zet/20231025220053/README.md) script for updating blog
 - [20231107183617](/zet/20231107183617/README.md) github action permission issues with automatic enrich workflows
-- [20231111154742](/zet/20231111154742/README.md) guidelines for enrich scripts within this environment
 - [20231112170729](/zet/20231112170729/README.md) script to get remote github URL from git repository
 - [20231122053807](/zet/20231122053807/README.md) fsdb implementation details

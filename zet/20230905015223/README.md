@@ -92,8 +92,8 @@ ln -s $(pwd)/alacritty.yml $HOME/.alacritty.yml
 - [20230905015059](/zet/20230905015059/README.md) vim config
 - [20230925024118](/zet/20230925024118/README.md) script to display information about other scripts and their dependencies
 - [20230929145418](/zet/20230929145418/README.md) fsdb project - file based database for partitioning and event sourced data
-- [20231111154742](/zet/20231111154742/README.md) guidelines for enrich scripts within this environment
 - [20230916125222](/zet/20230916125222/README.md) tmux scripts directory
+- [20230922214323](/zet/20230922214323/README.md) this environment
 
 Tags:
 

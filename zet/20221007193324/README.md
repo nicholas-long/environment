@@ -19,7 +19,7 @@
 - [20221008063052](/zet/20221008063052/README.md) autorunning scripts in cards
 - [20231016050313](/zet/20231016050313/README.md) scanning code for vulnerabilities
 - [20231107183617](/zet/20231107183617/README.md) github action permission issues with automatic enrich workflows
-- [20231111154742](/zet/20231111154742/README.md) guidelines for enrich scripts within this environment
+- [20230922214323](/zet/20230922214323/README.md) this environment
 
 Tags:
 

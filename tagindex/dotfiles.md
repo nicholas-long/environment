@@ -1,2 +1,3 @@
 - [20221022000131](/zet/20221022000131/README.md) put tmux and vim rc config in dockerfile for testing zkvr
+- [20230922214323](/zet/20230922214323/README.md) this environment
 - [20230925193834](/zet/20230925193834/README.md) testing on mac os
