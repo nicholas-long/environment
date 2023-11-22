@@ -177,7 +177,6 @@
 20231025200754 script to update obsidian internal links in markdown
 20231025200905 zettelkasten to blog conversion hub
 20231025215645 my blog
-20231025220053 script for updating blog
 20231102221207 working with openai chatgpt prompts
 20231103204105 openai chatgpt CLI command
 20231104035739 testing openai chatgpt to create some scripts
