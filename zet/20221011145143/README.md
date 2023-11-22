@@ -10,7 +10,6 @@
 - powers markdown searching scripts
   - [20230912192810](/zet/20230912192810/README.md) script to search zk markdown in command line
 - formerly had problems with automatically installing in environments
-  - [20230905021249](/zet/20230905021249/README.md) the issue with installing bat
   - fixed by [new script](/zet/20230907151050/README.md) - bat interactive install script
 
 ```
@@ -23,7 +22,6 @@
 - https://github.com/sharkdp/bat
 - [20221006032546](/zet/20221006032546/README.md) my original implementation of zet cmd
 - [20221013021614](/zet/20221013021614/README.md) zkvr terminal graph browser
-- [20230905021249](/zet/20230905021249/README.md) the issue with installing bat
 - [20230907151050](/zet/20230907151050/README.md) bat interactive install script
 - [20230922203837](/zet/20230922203837/README.md) get rid of all platform specific binaries from zkvr
 - [20230912192810](/zet/20230912192810/README.md) script to search zk markdown in command line

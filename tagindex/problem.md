@@ -1,1 +1,0 @@
-- [20230905021249](/zet/20230905021249/README.md) the issue with installing bat

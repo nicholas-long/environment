@@ -43,7 +43,6 @@
 20230905015223 install scripts
 20230905020305 symlinks needed for install script
 20230905021157 log of commands run to set up previous environment
-20230905021249 the issue with installing bat
 20230905030303 script to get github release links
 20230905160850 directory for executable short commands to run on path
 20230905184854 prerequesites for environment

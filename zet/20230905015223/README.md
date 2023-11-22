@@ -68,7 +68,6 @@ id -u
 - [20221008042814](/zet/20221008042814/README.md) WIP
 - [20230905021157](/zet/20230905021157/README.md) log of commands run to set up previous environment
 - [20221009192000](/zet/20221009192000/README.md) stuff to put on main page
-- [20230905021249](/zet/20230905021249/README.md) the issue with installing bat
 - [20230905015120](/zet/20230905015120/README.md) bash rc file and config
 - [20230905160850](/zet/20230905160850/README.md) directory for executable short commands to run on path
 - [20230905184854](/zet/20230905184854/README.md) prerequesites for environment
