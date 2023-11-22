@@ -17,7 +17,8 @@
 - [20231025215645](/zet/20231025215645/README.md) my blog
 - [20231121064457](/zet/20231121064457/README.md) merge note functionality for zkvr
 - [20231114070621](/zet/20231114070621/README.md) script for chatGPT prompt to select tags for documents automatically
-- [20231117071155](/zet/20231117071155/README.md) testing automatic blog post creation
+- [20231117071155](/zet/20231117071155/README.md) testing automatic blog post creation with ChatGPT
+- [20221012171100](/zet/20221012171100/README.md) recently created nodes hub
 
 Tags:
 

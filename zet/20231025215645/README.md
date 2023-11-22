@@ -28,7 +28,7 @@ sudo cp -r public/* /var/www/html/
 
 - [20230922214323](/zet/20230922214323/README.md) this environment
 - [20231116151546](/zet/20231116151546/README.md) how to implement a modular subcommand with lightweight scripts - ideas for a blog post
-- [20231117071155](/zet/20231117071155/README.md) testing automatic blog post creation
+- [20231117071155](/zet/20231117071155/README.md) testing automatic blog post creation with ChatGPT
 - [20231025200905](/zet/20231025200905/README.md) zettelkasten to blog conversion hub
 - [20231122214039](/zet/20231122214039/README.md) things i should blog about
 

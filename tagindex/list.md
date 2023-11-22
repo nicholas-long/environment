@@ -14,3 +14,4 @@
 - [20231005213930](/zet/20231005213930/README.md) list of cards in order
 - [20231011062458](/zet/20231011062458/README.md) stuff like secrets that needs to be transferred to new machines
 - [20231122053807](/zet/20231122053807/README.md) fsdb implementation details
+- [20231122214039](/zet/20231122214039/README.md) things i should blog about
