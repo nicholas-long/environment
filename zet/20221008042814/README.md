@@ -14,7 +14,6 @@ stuff i am working on.
 - [20221009192000](/zet/20221009192000/README.md) stuff to put on main page
 - [20221007044552](/zet/20221007044552/README.md) todo or to-try list
 - [20221008061845](/zet/20221008061845/README.md) workflow
-- [20221105224810](/zet/20221105224810/README.md) launch browser to current card on github
 - [20230905015223](/zet/20230905015223/README.md) install scripts
 - [20230922210126](/zet/20230922210126/README.md) cards i can clean up
 - [20230922214323](/zet/20230922214323/README.md) this environment
@@ -41,6 +40,7 @@ stuff i am working on.
 - [20231017183957](/zet/20231017183957/README.md) command shortcut to pick and kill dockers
 - [20231023142155](/zet/20231023142155/README.md) script to scrape information from github pages to avoid API usage
 - [20231025200905](/zet/20231025200905/README.md) zettelkasten to blog conversion hub
+- [20231112170729](/zet/20231112170729/README.md) script to get remote github URL from git repository
 
 Tags:
 

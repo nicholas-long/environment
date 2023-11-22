@@ -1,5 +1,4 @@
 - [20221007193324](/zet/20221007193324/README.md) github actions
-- [20221105224810](/zet/20221105224810/README.md) launch browser to current card on github
 - [20230922051930](/zet/20230922051930/README.md) lazygit interactive install script
 - [20230925050125](/zet/20230925050125/README.md) git scripting hub
 - [20231112170729](/zet/20231112170729/README.md) script to get remote github URL from git repository

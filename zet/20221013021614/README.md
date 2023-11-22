@@ -74,7 +74,6 @@ zet/20221013021614/getcopycontent zet/20221013021614/README.md
 - [20221014025416](/zet/20221014025416/README.md) clone a subsection of a graph by tag boundaries
 - [20221011145143](/zet/20221011145143/README.md) bat command pretty printer
 - [20221027011800](/zet/20221027011800/README.md) zetcli bash wrapper subcommand implementation
-- [20221105224810](/zet/20221105224810/README.md) launch browser to current card on github
 - [20230912192810](/zet/20230912192810/README.md) script to search zk markdown in command line
 - [20230926224444](/zet/20230926224444/README.md) updating scripts to use gawk when possible
 - [20230922214602](/zet/20230922214602/README.md) things i want to implement in zkvr after working on the environment

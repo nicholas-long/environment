@@ -1,8 +1,8 @@
-- [20221105224810](/zet/20221105224810/README.md) launch browser to current card on github
 - [20231007202209](/zet/20231007202209/README.md) enabling CGI as an API interface on apache
 - [20231009060511](/zet/20231009060511/README.md) enabling gzip compression on CGI script output
 - [20231020032025](/zet/20231020032025/README.md) apache docker with CGI enabled
 - [20231024041243](/zet/20231024041243/README.md) API queue server implemented in python
 - [20231025200905](/zet/20231025200905/README.md) zettelkasten to blog conversion hub
 - [20231025210314](/zet/20231025210314/README.md) getting jekyll to work in the workflow of publishing a blog
+- [20231112170729](/zet/20231112170729/README.md) script to get remote github URL from git repository
 - [20231121073930](/zet/20231121073930/README.md) script to crawl a website to generate knowledge base files for AI assistant

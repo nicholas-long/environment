@@ -33,7 +33,6 @@
 20221103162623 move zetcmd to wrapper CLI and remove fzf subcommands from CLI
 20221105220915 add recurring timers using github cron actions
 20221105222236 cron syntax
-20221105224810 launch browser to current card on github
 20230905015028 dotfiles hub
 20230905015059 vim config
 20230905015107 tmux config
