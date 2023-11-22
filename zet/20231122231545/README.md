@@ -9,6 +9,14 @@
 - [20231004133128](/zet/20231004133128/README.md) an optimized hashcode generator for partitioning work into multiple processes #enhancement
 ```
 
+- C build step required
+```bash
+cat zet/20230929145418/build-fsdb
+#!/bin/bash
+
+gcc zet/20231004133128/fsdb-hashcode.c -o zet/20230929145418/subcommands/hashcode-optimized
+```
+
 ` zet/20231122231545/README.md `
 
 # Related
