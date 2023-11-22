@@ -79,6 +79,7 @@ while [ 1 == "$going" ]; do
       print "tab"
       print "copypath"
       print "workdir"
+      print "browseclip"
     }
     print "~"
     print "/search"
@@ -448,6 +449,12 @@ while [ 1 == "$going" ]; do
       # enrich to update all backlinks
       $prog enrich
       $prog enrich
+    fi
+  elif [ "$act" == "browseclip" ]; then
+    nextid=$(tmux saveb - | implementation/parseids | zet/20221013221136/graphquery --human /dev/stdin | fzf | implementation/parseids)
+    if [ ! -z "$nextid" ]; then
+      export prevdoc="$doc"
+      export doc="zet/$nextid/README.md"
     fi
   fi
 done

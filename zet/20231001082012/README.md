@@ -10,6 +10,12 @@
   - do i need to run the install scripts in the github docker?
 
 ```diff
+4d3
+< 21c3a9358116c5c4f2a6a6b8a938b9cb  zet/20221013221136/graphquery
+15d13
+< 882615358834c48d2ae91504b8747234  zet/20221013021614/graphbrowser
+18a17
+> 9f8f3907b15837d270bb1e2bf13e2734  zet/20221013021614/graphbrowser
 ```
 
 ` zet/20231001082012/README.md `

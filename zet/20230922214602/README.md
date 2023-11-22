@@ -6,8 +6,8 @@
 - [x] should copy up find executable command - id 20230926234809
 - [x] copy up new code fixes 2023-09-30
 - [x] include information about setting up github actions
-- [ ] automatically browsing between any directory that is modified in git, include titles
-- Automatically browsing between any directories that's mentioned in the tmux clipboard
+- [x] Automatically browsing between any directories that's mentioned in the tmux clipboard
+  - automatically browsing between any directory that is modified in git, include titles - this could be handled
 - [x] automatic tag suggestions for documents from chatGPT
   - i want to implement this for any markdown document in general, select appropriate tags for this document from a list
   - [20231114070621](/zet/20231114070621/README.md) script for chatGPT prompt to select tags for documents automatically
