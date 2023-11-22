@@ -1,4 +1,4 @@
-# testing automatic blog post creation
+# testing automatic blog post creation with ChatGPT
 
 - creating blog posts automatically with chatgpt
 - i don't want to do this for my blog but it's something i was discussing with someone recently
