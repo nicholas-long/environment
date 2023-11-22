@@ -74,7 +74,6 @@
 - [20231006185420](/zet/20231006185420/README.md) awk and bash fzf scripts
 - [20231007033903](/zet/20231007033903/README.md) script to extract text from every second of youtube video frames
 - [20231009060511](/zet/20231009060511/README.md) enabling gzip compression on CGI script output
-- [20231009173031](/zet/20231009173031/README.md) fsdb subcommand to remove duplicate sequential rows from all partitions
 - [20231010153354](/zet/20231010153354/README.md) zawk script to run awk programs on gzipped files and streams
 - [20231013173509](/zet/20231013173509/README.md) example of connecting to a work queue docker
 - [20231015213012](/zet/20231015213012/README.md) script to print todo items in terminal
@@ -88,3 +87,4 @@
 - [20231107183617](/zet/20231107183617/README.md) github action permission issues with automatic enrich workflows
 - [20231111154742](/zet/20231111154742/README.md) guidelines for enrich scripts within this environment
 - [20231112170729](/zet/20231112170729/README.md) script to get remote github URL from git repository
+- [20231122053807](/zet/20231122053807/README.md) fsdb implementation details

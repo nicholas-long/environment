@@ -58,7 +58,6 @@
 - implement bloom filter - later
 - [x] create feature to remove duplicate rows
   - maybe just sequential duplicates?
-  - [20231009173031](/zet/20231009173031/README.md) fsdb subcommand to remove duplicate sequential rows from all partitions
 - [ ] publish and move fsdb to its own repository
 - could simplify ingest script and require ulimit to be greater than the number of partitions to speed up
 
@@ -73,7 +72,6 @@
 - [20231122053807](/zet/20231122053807/README.md) fsdb implementation details
 - [20221008042814](/zet/20221008042814/README.md) WIP
 - [20231005174423](/zet/20231005174423/README.md) testing reoptimize functionality
-- [20231009173031](/zet/20231009173031/README.md) fsdb subcommand to remove duplicate sequential rows from all partitions
 
 Tags:
 
