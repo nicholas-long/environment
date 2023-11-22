@@ -135,7 +135,6 @@
 20230929153207 computer science experiments hub
 20230929153242 natural language processing libraries
 20230929194846 testing if shortcuts will work and not pick up extra files
-20230930041018 fsdb future ideas
 20230930041146 fsdb developing ideas
 20230930145814 determining cpu version for install
 20230930224454 problems encountered with zkvr while testing this environment
@@ -144,14 +143,12 @@
 20231001090029 find things missing tags
 20231001151606 hashcodes for fsdb partitioning
 20231001222624 test gzip append functionality
-20231002021919 bloom filter for fsdb
 20231003021548 script to enumerate all files in an aws s3 bucket url recursively
 20231003022851 data engineering hub
 20231003062001 fsdb use cases
 20231003063630 adding timestamps to fsdb
 20231004044241 script to strip and scrape all URLs out of text
 20231004133128 an optimized hashcode generator for partitioning work into multiple processes
-20231005062610 fsdb TODO items
 20231005174423 testing reoptimize functionality
 20231005211810 script to sync only markdown files from zk to github
 20231005213930 list of cards in order

@@ -3,7 +3,6 @@
 - concept of `file based database for partitioning and event sourced data`
   - like a local file storage version of a kafka database
 - [20230930041146](/zet/20230930041146/README.md) fsdb developing ideas
-  - [20230930041018](/zet/20230930041018/README.md) fsdb future ideas
 - run build script `build-fsdb` to build optimized components.
   - i tried to make the whole thing with just scripts, but it is just too slow to handle billions of rows.
 - fsdb can load roughly 30 million rows of real data per hour with a 12 core machine on a SSD
@@ -30,7 +29,6 @@
 - join with another file or stream piped to standard input. this is possible if the ID is the first column.
 
 ## implementation
-- [20231005062610](/zet/20231005062610/README.md) fsdb TODO items
 - basic set of features / subcommands needed for database
   - initialize and set up number of partitions
   - search for one ID or multiple
@@ -58,7 +56,6 @@ BEGIN {
 - [20230929153207](/zet/20230929153207/README.md) computer science experiments hub
 - [20230929194846](/zet/20230929194846/README.md) testing if shortcuts will work and not pick up extra files
 - [20230930041146](/zet/20230930041146/README.md) fsdb developing ideas
-- [20230930041018](/zet/20230930041018/README.md) fsdb future ideas
 - [20230930224454](/zet/20230930224454/README.md) problems encountered with zkvr while testing this environment
 - [20231001151606](/zet/20231001151606/README.md) hashcodes for fsdb partitioning
 - [20231001222624](/zet/20231001222624/README.md) test gzip append functionality
@@ -68,7 +65,6 @@ BEGIN {
 - [20231003063630](/zet/20231003063630/README.md) adding timestamps to fsdb
 - [20231004133128](/zet/20231004133128/README.md) an optimized hashcode generator for partitioning work into multiple processes
 - [20230905015223](/zet/20230905015223/README.md) install scripts
-- [20231005062610](/zet/20231005062610/README.md) fsdb TODO items
 - [20231005174423](/zet/20231005174423/README.md) testing reoptimize functionality
 - [20231009173031](/zet/20231009173031/README.md) fsdb subcommand to remove duplicate sequential rows from all partitions
 - [20231116151546](/zet/20231116151546/README.md) how to implement a modular subcommand with lightweight scripts - ideas for a blog post

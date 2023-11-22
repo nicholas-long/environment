@@ -27,10 +27,8 @@ stuff i am working on.
 - [20230929145418](/zet/20230929145418/README.md) fsdb project - file based database for partitioning and event sourced data
 - [20230929153207](/zet/20230929153207/README.md) computer science experiments hub
 - [20230929153242](/zet/20230929153242/README.md) natural language processing libraries
-- [20230930041146](/zet/20230930041146/README.md) fsdb developing ideas
 - [20231001090029](/zet/20231001090029/README.md) find things missing tags
 - [20231003021548](/zet/20231003021548/README.md) script to enumerate all files in an aws s3 bucket url recursively
-- [20231005062610](/zet/20231005062610/README.md) fsdb TODO items
 - [20230906033259](/zet/20230906033259/README.md) functions to copy over and possibly remake as commands
 - [20231007033903](/zet/20231007033903/README.md) script to extract text from every second of youtube video frames
 - [20231007144438](/zet/20231007144438/README.md) automated testing
@@ -41,6 +39,7 @@ stuff i am working on.
 - [20231023142155](/zet/20231023142155/README.md) script to scrape information from github pages to avoid API usage
 - [20231025200905](/zet/20231025200905/README.md) zettelkasten to blog conversion hub
 - [20231112170729](/zet/20231112170729/README.md) script to get remote github URL from git repository
+- [20230930041146](/zet/20230930041146/README.md) fsdb developing ideas
 
 Tags:
 

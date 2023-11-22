@@ -183,15 +183,13 @@ asdf
 
 # Related
 
-- [20230930041018](/zet/20230930041018/README.md) fsdb future ideas
 - [20230929145418](/zet/20230929145418/README.md) fsdb project - file based database for partitioning and event sourced data
 - [20221012171100](/zet/20221012171100/README.md) recently created nodes hub
-- [20231005062610](/zet/20231005062610/README.md) fsdb TODO items
 - [20230930041146](/zet/20230930041146/README.md) fsdb developing ideas
 - [20231001151606](/zet/20231001151606/README.md) hashcodes for fsdb partitioning
 - [20231004133128](/zet/20231004133128/README.md) an optimized hashcode generator for partitioning work into multiple processes
 - [20231003062001](/zet/20231003062001/README.md) fsdb use cases
-- [20231002021919](/zet/20231002021919/README.md) bloom filter for fsdb
+- [20231003063630](/zet/20231003063630/README.md) adding timestamps to fsdb
 
 Tags:
 

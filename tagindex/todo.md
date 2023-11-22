@@ -3,5 +3,5 @@
 - [20221101052020](/zet/20221101052020/README.md) TODO: Your to-do list
 - [20230921220633](/zet/20230921220633/README.md) list of cool ideas i still want to implement in my environment
 - [20230925055222](/zet/20230925055222/README.md) list of unfinished todo items
-- [20231005062610](/zet/20231005062610/README.md) fsdb TODO items
+- [20230930041146](/zet/20230930041146/README.md) fsdb developing ideas
 - [20231015213012](/zet/20231015213012/README.md) script to print todo items in terminal

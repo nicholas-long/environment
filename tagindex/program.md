@@ -6,8 +6,8 @@
 - [20230926224444](/zet/20230926224444/README.md) updating scripts to use gawk when possible
 - [20230927152827](/zet/20230927152827/README.md) reverse engineering obsidian to create an obsidian sync cli tool
 - [20230928185944](/zet/20230928185944/README.md) script to package up program and debian dependencies a tar to install on a remote target machine
+- [20230930041146](/zet/20230930041146/README.md) fsdb developing ideas
 - [20231001222624](/zet/20231001222624/README.md) test gzip append functionality
-- [20231002021919](/zet/20231002021919/README.md) bloom filter for fsdb
 - [20231007144438](/zet/20231007144438/README.md) automated testing
 - [20231007202209](/zet/20231007202209/README.md) enabling CGI as an API interface on apache
 - [20231121073930](/zet/20231121073930/README.md) script to crawl a website to generate knowledge base files for AI assistant
