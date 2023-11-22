@@ -41,7 +41,6 @@
 20230905030303 script to get github release links
 20230905160850 directory for executable short commands to run on path
 20230905184854 prerequesites for environment
-20230905185446 bash file commands that are not builtins
 20230905210416 fast file manager fff
 20230905212307 important things from old install scripts
 20230905212316 low priority or optional things from install scripts

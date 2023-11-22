@@ -5,12 +5,10 @@
 - [x] vim or nvim
   - choose one to install into?
 - [x] coreutils bash
-  - [20230905185446](/zet/20230905185446/README.md) bash file commands that are not builtins
 - [x] jq
 - normal programs that might not be in light distros or containers
   - curl
   - wget
-- script is called `zet/20230905184854/install-prerequisites`
 - python3 and pip3
 - xclip - xclip does not work on mac os. use pbcopy instead.
   - [x] i still want xclip installed as a dependency on linux.
@@ -50,10 +48,27 @@ function install_it {
 
 ` zet/20230905184854/README.md `
 
+# bash file commands that are not builtins
+
+## steps
+- if debian or ubuntu
+  - install `basename`
+- install `coreutils`
+
+## investigation
+- are things like `realpath` a built-in?
+  - might not be https://command-not-found.com/realpath
+  - on debian and ubuntu, package is called `realpath`
+    - `basename` is in `coreutils` though
+  - on other distros, realpath is in `coreutils`
+
+```
+```
+
+
 # Related
 
 - [20230905015223](/zet/20230905015223/README.md) install scripts
-- [20230905185446](/zet/20230905185446/README.md) bash file commands that are not builtins
 - [20230905021157](/zet/20230905021157/README.md) log of commands run to set up previous environment
 - [20230914030626](/zet/20230914030626/README.md) tmux pwn menu script for hacking reverse shells and file transfer commands
 - [20230925193834](/zet/20230925193834/README.md) testing on mac os
@@ -61,7 +76,8 @@ function install_it {
 - [20230928133216](/zet/20230928133216/README.md) scripts to work with burpsuite saved requests and automatically generate python code
 - [20230930145814](/zet/20230930145814/README.md) determining cpu version for install
 - [20230922220109](/zet/20230922220109/README.md) create a dockerfile for this environment
+- [20230925033312](/zet/20230925033312/README.md) bash current script directory
 
 Tags:
 
-    #environment
+    #environment #install #command #bash
