@@ -28,21 +28,31 @@
 - remove dead links to things within zk or just unlink them?
 - get it to a single directory of markdown files
 - run jekyll
-  - [20231025210314](/zet/20231025210314/README.md) getting jekyll to work in the workflow of publishing a blog
 
 ```
 ```
 
 ` zet/20231025200905/README.md `
 
+# getting jekyll to work in the workflow of publishing a blog
+
+- where do you put images in a jekyll blog?
+- links
+  - jekyll does not work with obsidian format links `[[title]]`
+  - if you use regular links, you have to figure out manually where your blog post will be on the server which is annoying
+- 2023-11-19 i have decided to use hugo instead of jekyll
+
+```
+```
+
+
 # Related
 
 - [20231025200754](/zet/20231025200754/README.md) script to update obsidian internal links in markdown
 - [20221008042814](/zet/20221008042814/README.md) WIP
 - [20221006013313](/zet/20221006013313/README.md) zettelkasten
-- [20231025210314](/zet/20231025210314/README.md) getting jekyll to work in the workflow of publishing a blog
 - [20231025215645](/zet/20231025215645/README.md) my blog
 
 Tags:
 
-    #zettelkasten #markdown #web
+    #markdown #web #blog #zettelkasten

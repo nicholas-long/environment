@@ -1,2 +1,2 @@
-- [20231025210314](/zet/20231025210314/README.md) getting jekyll to work in the workflow of publishing a blog
+- [20231025200905](/zet/20231025200905/README.md) zettelkasten to blog conversion hub
 - [20231025215645](/zet/20231025215645/README.md) my blog
