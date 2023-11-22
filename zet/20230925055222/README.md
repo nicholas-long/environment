@@ -7,7 +7,6 @@
 ```markdown
 zet/20230905015223/README.md:- [ ] do i need to run the install scripts in the github actions runner docker? scripts that run during the enrich process might expect certain commands installed.
 zet/20230922214602/README.md:- [ ] automatically browsing between any directory that is modified in git, include titles
-zet/20230922214602/README.md:- [ ] include information about setting up github actions
 zet/20230925193834/README.md:- [ ] adding and deleting tags doesn't work
 zet/20230927152827/README.md:- [ ] figure out why login doesn't work and return a token
 zet/20230930041146/README.md:- [ ] publish and move fsdb to its own repository

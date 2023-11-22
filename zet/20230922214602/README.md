@@ -5,7 +5,7 @@
   - 2023-09-29 copied in
 - [x] should copy up find executable command - id 20230926234809
 - [x] copy up new code fixes 2023-09-30
-- [ ] include information about setting up github actions
+- [x] include information about setting up github actions
 - [ ] automatically browsing between any directory that is modified in git, include titles
 - Automatically browsing between any directories that's mentioned in the tmux clipboard
 - [x] automatic tag suggestions for documents from chatGPT
