@@ -176,7 +176,6 @@
 20231015213012 script to print todo items in terminal
 20231016050313 scanning code for vulnerabilities
 20231016050403 snyk vulnerability scanner
-20231016172333 phpcs code scanner security audit extensions
 20231016185250 php code security scanner phpcs docker
 20231016195712 snyk code scanning docker
 20231017151258 script to get snyk api key
