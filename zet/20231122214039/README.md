@@ -1,8 +1,6 @@
 # stuff i should blog about
 
 - [20231007033903](/zet/20231007033903/README.md) script to extract text from every second of youtube video frames
-- [20231121064457](/zet/20231121064457/README.md) merge note functionality for zkvr
-  - it has been an amazing help. a lot like obsidian now.
 - [20231117071155](/zet/20231117071155/README.md) testing automatic blog post creation
   - mad science experiment that sounds cool
 - [20231114070621](/zet/20231114070621/README.md) script for chatGPT prompt to select tags for documents automatically
@@ -16,6 +14,7 @@
 - this environment
 - a little bit about chatgpt
 - mass vulnerability scanning
+- [merge note functionality for zkvr](/zet/20231121064457/README.md)
 
 ```
 ```
