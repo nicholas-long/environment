@@ -34,7 +34,7 @@
 
 ` zet/20231025200905/README.md `
 
-# getting jekyll to work in the workflow of publishing a blog
+## getting jekyll to work in the workflow of publishing a blog
 
 - where do you put images in a jekyll blog?
 - links
@@ -45,6 +45,15 @@
 ```
 ```
 
+# using hugo
+
+- everything in content directory is converted
+- front matter of posts
+  - is important but not necessary
+  - tags must go in front matter in yaml array format
+- references format is different.
+  - converting from zkvr to hugo might be easy because all files are linked by full path
+  - could convert wikilinks from obsidian to hugo refs
 
 # Related
 
