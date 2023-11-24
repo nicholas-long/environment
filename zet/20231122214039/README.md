@@ -8,6 +8,7 @@
 - try out [20231121073930](/zet/20231121073930/README.md) script to crawl a website to generate knowledge base files for AI assistant
   - is this a duplicate?
 - cool walkthrough idea [20231013173509](/zet/20231013173509/README.md) example of connecting to a work queue docker
+- [20230906035744](/zet/20230906035744/README.md) scripts to optimize alphanumeric base64
 
 # things i am already done blogging about
 - zkvr
@@ -31,6 +32,7 @@
 - [20231121073930](/zet/20231121073930/README.md) script to crawl a website to generate knowledge base files for AI assistant
 - [20231013173509](/zet/20231013173509/README.md) connecting to an amqp work queue
 - [20231007033903](/zet/20231007033903/README.md) script to extract text from every second of youtube video frames
+- [20230906035744](/zet/20230906035744/README.md) scripts to optimize alphanumeric base64
 
 Tags:
 

@@ -13,7 +13,6 @@
 
 # Related
 
-- [20221008042814](/zet/20221008042814/README.md) WIP
 - [20230928171946](/zet/20230928171946/README.md) data analysis scripting hub
 - [20231003022851](/zet/20231003022851/README.md) data engineering hub
 - [20230929054848](/zet/20230929054848/README.md) awk script to get column headings from the first line of CSV

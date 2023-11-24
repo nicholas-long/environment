@@ -18,7 +18,6 @@ zet/20231003021548/enum-s3-files-within-url s3://bucketname/path/to/directory/
 
 # Related
 
-- [20221008042814](/zet/20221008042814/README.md) WIP
 - [20230928171946](/zet/20230928171946/README.md) data analysis scripting hub
 - [20231003022851](/zet/20231003022851/README.md) data engineering hub
 - [20231004044241](/zet/20231004044241/README.md) script to strip and scrape all URLs out of text
