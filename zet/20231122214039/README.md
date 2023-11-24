@@ -6,7 +6,6 @@
 - try out [20231121073930](/zet/20231121073930/README.md) script to crawl a website to generate knowledge base files for AI assistant
   - is this a duplicate?
 - cool walkthrough idea [20231013173509](/zet/20231013173509/README.md) example of connecting to a work queue docker
-- [20230906035744](/zet/20230906035744/README.md) scripts to optimize alphanumeric base64
 - cool trick from zet cmd implementation to find missing backlinks `zet/20221006032546/scanrefs`
   - is this blogworthy?
 - [20230928175434](/zet/20230928175434/README.md) tandy project notes and scripts for old machine project
@@ -18,6 +17,7 @@
 - mass vulnerability scanning
 - [merge note functionality for zkvr](/zet/20231121064457/README.md)
 - [x] [20231114070621](/zet/20231114070621/README.md) script for chatGPT prompt to select tags for documents automatically
+- [20230906035744](/zet/20230906035744/README.md) scripts to optimize alphanumeric base64
 
 ```
 ```
