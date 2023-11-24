@@ -76,7 +76,6 @@
 - [20231007033903](/zet/20231007033903/README.md) script to extract text from every second of youtube video frames
 - [20231009060511](/zet/20231009060511/README.md) enabling gzip compression on CGI script output
 - [20231010153354](/zet/20231010153354/README.md) zawk script to run awk programs on gzipped files and streams
-- [20231013173509](/zet/20231013173509/README.md) example of connecting to a work queue docker
 - [20231015213012](/zet/20231015213012/README.md) script to print todo items in terminal
 - [20231017151258](/zet/20231017151258/README.md) script to get snyk api key
 - [20231017183957](/zet/20231017183957/README.md) command shortcut to pick and kill dockers

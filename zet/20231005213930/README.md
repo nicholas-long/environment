@@ -152,7 +152,6 @@
 20231007202209 enabling CGI as an API interface on apache
 20231009060511 enabling gzip compression on CGI script output
 20231010153354 zawk script to run awk programs on gzipped files and streams
-20231011030523 working with a queue or scheduling system in bash
 20231011062458 stuff like secrets that needs to be transferred to new machines
 20231013173509 example of connecting to a work queue docker
 20231015213012 script to print todo items in terminal

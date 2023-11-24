@@ -31,7 +31,6 @@ stuff i am working on.
 - [20231007033903](/zet/20231007033903/README.md) script to extract text from every second of youtube video frames
 - [20231007144438](/zet/20231007144438/README.md) automated testing
 - [20231010153354](/zet/20231010153354/README.md) zawk script to run awk programs on gzipped files and streams
-- [20231011030523](/zet/20231011030523/README.md) working with a queue or scheduling system in bash
 - [20231016050313](/zet/20231016050313/README.md) scanning code for vulnerabilities
 - [20231017183957](/zet/20231017183957/README.md) command shortcut to pick and kill dockers
 - [20231023142155](/zet/20231023142155/README.md) script to scrape information from github pages to avoid API usage

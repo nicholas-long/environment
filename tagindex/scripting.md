@@ -1,6 +1,5 @@
 - [20230906043752](/zet/20230906043752/README.md) make it easy to work with and source this file from vim
 - [20230928175049](/zet/20230928175049/README.md) pwntools template binary exploit script
 - [20230928185057](/zet/20230928185057/README.md) bash self parsing code
-- [20231011030523](/zet/20231011030523/README.md) working with a queue or scheduling system in bash
 - [20231116151546](/zet/20231116151546/README.md) how to implement a modular subcommand with lightweight scripts - ideas for a blog post
 - [20231117074621](/zet/20231117074621/README.md) automatic pentesting and hacking enumeration scripts

@@ -20,7 +20,7 @@ docker run --rm -it -p 8000:8000 queue
 
 # Related
 
-- [20231011030523](/zet/20231011030523/README.md) working with a queue or scheduling system in bash
+- [20231013173509](/zet/20231013173509/README.md) example of connecting to a work queue docker
 
 Tags:
 
