@@ -63,7 +63,7 @@
 20230921220633 list of cool ideas i still want to implement in my environment
 20230922051930 lazygit interactive install script
 20230922203837 get rid of all platform specific binaries from zkvr
-20230922210126 cards i can clean up
+20230922210126 cards i have cleaned up
 20230922212036 command shortcut to get markdown titles or content summaries
 20230922214323 this environment
 20230922214602 things i want to implement in zkvr after working on the environment

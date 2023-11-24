@@ -31,6 +31,7 @@
 - [20231016050313](/zet/20231016050313/README.md) scanning code for vulnerabilities
 - [20230922214323](/zet/20230922214323/README.md) this environment
 - [20230922214602](/zet/20230922214602/README.md) things i want to implement in zkvr after working on the environment
+- [20230925050125](/zet/20230925050125/README.md) git scripting hub
 
 Tags:
 

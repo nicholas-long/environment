@@ -10,7 +10,7 @@ ls zet | ./graphquery --human
 
 # Related
 
-- [20230922210126](/zet/20230922210126/README.md) cards i can clean up
+- [20230922210126](/zet/20230922210126/README.md) cards i have cleaned up
 
 Tags:
 

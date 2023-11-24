@@ -233,7 +233,7 @@ zet/20221023085822/walkquery --human --path id 20221011181347 refs not <( echo 2
 # Related
 
 - [20221013221136](/zet/20221013221136/README.md) graph query language for zettelkasten
-- [20230922210126](/zet/20230922210126/README.md) cards i can clean up
+- [20230922210126](/zet/20230922210126/README.md) cards i have cleaned up
 
 Tags:
 

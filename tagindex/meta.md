@@ -3,7 +3,7 @@
 - [20221012144502](/zet/20221012144502/README.md) track modification dates
 - [20221026064448](/zet/20221026064448/README.md) check syntax of dash lists for tabstop 4
 - [20221028172836](/zet/20221028172836/README.md) old dockerfile for testing zkvr with vim and tmux config
-- [20230922210126](/zet/20230922210126/README.md) cards i can clean up
+- [20230922210126](/zet/20230922210126/README.md) cards i have cleaned up
 - [20230929024225](/zet/20230929024225/README.md) meta note related scripts
 - [20231005213930](/zet/20231005213930/README.md) list of cards in order
 - [20231114070621](/zet/20231114070621/README.md) script for chatGPT prompt to select tags for documents automatically
