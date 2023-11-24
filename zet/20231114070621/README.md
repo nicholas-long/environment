@@ -11,6 +11,8 @@
 The appropriate tags for this markdown document are: `#tui`, `#workflow`, `#git`, `#terminal`, `#zettelkasten`.
 ```
 - sometimes it gets creative and adds extra tags that do not exist yet
+- can reuse script for removing duplicate tags [from merging functionality](/zet/20231121064457/README.md)
+  - `zet/20231121064457/fix-duplicate-tags`
 
 - adding tags programmatically
 ```bash
@@ -27,6 +29,7 @@ $ ./zc addtag -t test 20231114070621
 - [20230922214602](/zet/20230922214602/README.md) things i want to implement in zkvr after working on the environment
 - [20221013021614](/zet/20221013021614/README.md) zkvr terminal graph browser
 - [20231122214039](/zet/20231122214039/README.md) stuff i should blog about
+- [20231121064457](/zet/20231121064457/README.md) merge note functionality for zkvr
 
 Tags:
 

@@ -422,7 +422,9 @@ while [ 1 == "$going" ]; do
     echo "Tags:"
     cat "$temptags"
     cat "$temptags" | xargs -IR -n 1 ./zc addtag -t R "$id"
-    rm "$temptags"
+    zet/20231121064457/fix-duplicate-tags "zet/$id/README.md" > $temptags
+    #rm "$temptags"
+    mv $temptags "zet/$id/README.md"
   elif [ "$act" == "merge-into" ]; then
     # select a link to merge into
     sel=$(awk '
