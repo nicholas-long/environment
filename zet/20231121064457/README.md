@@ -39,6 +39,7 @@ zet/20231121064457/merge-markdown-related-links zet/20231121064457/README.md zet
 - [20230922214602](/zet/20230922214602/README.md) things i want to implement in zkvr after working on the environment
 - [20221012171100](/zet/20221012171100/README.md) recently created nodes hub
 - [20231122214039](/zet/20231122214039/README.md) stuff i should blog about
+- [20231114070621](/zet/20231114070621/README.md) script for chatGPT prompt to select tags for documents automatically
 
 Tags:
 
