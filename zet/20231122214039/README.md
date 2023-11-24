@@ -10,6 +10,8 @@
 - cool walkthrough idea [20231013173509](/zet/20231013173509/README.md) example of connecting to a work queue docker
 - [20230906035744](/zet/20230906035744/README.md) scripts to optimize alphanumeric base64
 - cool trick from zet cmd implementation to find missing backlinks `zet/20221006032546/scanrefs`
+  - is this blogworthy?
+- [20230928175434](/zet/20230928175434/README.md) tandy project notes and scripts for old machine project
 
 # things i am already done blogging about
 - zkvr
@@ -34,6 +36,7 @@
 - [20231013173509](/zet/20231013173509/README.md) connecting to an amqp work queue
 - [20231007033903](/zet/20231007033903/README.md) script to extract text from every second of youtube video frames
 - [20230906035744](/zet/20230906035744/README.md) scripts to optimize alphanumeric base64
+- [20230928175434](/zet/20230928175434/README.md) tandy project notes and scripts for old machine project
 
 Tags:
 
