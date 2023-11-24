@@ -1,7 +1,7 @@
 # my blog
 
 - concept of `my blog`
-- located at [my domain](httos://nicklong.xyz)
+- located at [my domain](https://nicklong.xyz)
 
 # testing hugo
 - https://gohugo.io/getting-started/quick-start/
