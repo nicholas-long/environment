@@ -10,6 +10,7 @@
 └─$ ./generate-prompt ../20221013021614/README.md | chatgpt
 The appropriate tags for this markdown document are: `#tui`, `#workflow`, `#git`, `#terminal`, `#zettelkasten`.
 ```
+- sometimes it gets creative and adds extra tags that do not exist yet
 
 - adding tags programmatically
 ```bash
