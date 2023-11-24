@@ -9,6 +9,7 @@
   - is this a duplicate?
 - cool walkthrough idea [20231013173509](/zet/20231013173509/README.md) example of connecting to a work queue docker
 - [20230906035744](/zet/20230906035744/README.md) scripts to optimize alphanumeric base64
+- cool trick from zet cmd implementation to find missing backlinks `zet/20221006032546/scanrefs`
 
 # things i am already done blogging about
 - zkvr
