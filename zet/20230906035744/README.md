@@ -19,6 +19,7 @@ asdf asdf  asdf
 
 - [20230906035650](/zet/20230906035650/README.md) script to print reverse shell snippets
 - [20230905015120](/zet/20230905015120/README.md) bash rc file and config
+- [20231122214039](/zet/20231122214039/README.md) stuff i should blog about
 
 Tags:
 
