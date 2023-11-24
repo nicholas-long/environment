@@ -17,3 +17,4 @@
 - [20230928185057](/zet/20230928185057/README.md) bash self parsing code
 - [20230929053721](/zet/20230929053721/README.md) get random hex unique ID bash
 - [20230929054003](/zet/20230929054003/README.md) bash scripting simple program template parsing arguments with case statement
+- [20231013173509](/zet/20231013173509/README.md) connecting to an amqp work queue
