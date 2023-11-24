@@ -1,9 +1,9 @@
 # stuff i should blog about
 
+- [ ] [20231114070621](/zet/20231114070621/README.md) script for chatGPT prompt to select tags for documents automatically
+  - mad science experiment that sounds cool
 - [20231007033903](/zet/20231007033903/README.md) script to extract text from every second of youtube video frames
 - [20231117071155](/zet/20231117071155/README.md) testing automatic blog post creation
-  - mad science experiment that sounds cool
-- [20231114070621](/zet/20231114070621/README.md) script for chatGPT prompt to select tags for documents automatically
   - mad science experiment that sounds cool
 - try out [20231121073930](/zet/20231121073930/README.md) script to crawl a website to generate knowledge base files for AI assistant
   - is this a duplicate?
