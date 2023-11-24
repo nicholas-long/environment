@@ -153,7 +153,7 @@
 20231009060511 enabling gzip compression on CGI script output
 20231010153354 zawk script to run awk programs on gzipped files and streams
 20231011062458 stuff like secrets that needs to be transferred to new machines
-20231013173509 example of connecting to a work queue docker
+20231013173509 connecting to an amqp work queue
 20231015213012 script to print todo items in terminal
 20231016050313 scanning code for vulnerabilities
 20231016050403 snyk vulnerability scanner

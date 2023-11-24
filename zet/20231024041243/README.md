@@ -20,7 +20,7 @@ docker run --rm -it -p 8000:8000 queue
 
 # Related
 
-- [20231013173509](/zet/20231013173509/README.md) example of connecting to a work queue docker
+- [20231013173509](/zet/20231013173509/README.md) connecting to an amqp work queue
 
 Tags:
 
