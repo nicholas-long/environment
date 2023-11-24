@@ -1,4 +1,4 @@
-# cards i can clean up
+# cards i have cleaned up
 
 - workflow:
   - list all the cards and get summaries.
@@ -75,7 +75,6 @@ ls zet | ./graphquery --human
 - [20221003150098](/zet/20221003150098/README.md) TODO #hub #todo #list
 - [20221006213953](/zet/20221006213953/README.md) video notes #video #notes #hub #videonotes
 - [20221007044552](/zet/20221007044552/README.md) todo or to-try list #todo #list #to-try-list #hub
-- [20221008042814](/zet/20221008042814/README.md) WIP #todo #hub
 - [20221008061845](/zet/20221008061845/README.md) workflow #workflow #optimization #hub #concept
 - [20221008063052](/zet/20221008063052/README.md) autorunning scripts in cards #zettelkasten #bash #script #template #test
 - [20221009095853](/zet/20221009095853/README.md) finished #done #hub
@@ -152,7 +151,6 @@ grep -R '^# .*script' zet
 
 # Related
 
-- [20221008042814](/zet/20221008042814/README.md) WIP
 - [20221023085822](/zet/20221023085822/README.md) implement returning paths or tables in graph query language
 - [20221006013313](/zet/20221006013313/README.md) zettelkasten
 - [20221006213953](/zet/20221006213953/README.md) video notes

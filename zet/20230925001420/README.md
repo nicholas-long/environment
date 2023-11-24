@@ -3,7 +3,6 @@
 - concept of `cool docker scripts to migrate`
 - the script to get tags needed help fixing up docker API calls
   - https://nickjanetakis.com/blog/using-dockers-v2-api-to-get-a-list-of-tags-with-the-help-of-jq
-- these are not done yet
 - [x] update and fix any relative paths or kb references
 - [x] fix get tags script because the API changed
 - renamed script to `docker-build-github-repo-image`
@@ -46,7 +45,6 @@ zet/20230925001420/ubuntu-docker-build-environment.sh references executable file
 
 # Related
 
-- [20221008042814](/zet/20221008042814/README.md) WIP
 - [20221022000131](/zet/20221022000131/README.md) put tmux and vim rc config in dockerfile for testing zkvr
 - [20221028172836](/zet/20221028172836/README.md) old dockerfile for testing zkvr with vim and tmux config
 - [20230922220109](/zet/20230922220109/README.md) create a dockerfile for this environment

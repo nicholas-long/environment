@@ -77,7 +77,6 @@ ln -s $(pwd)/alacritty.yml $HOME/.alacritty.yml
 
 - [20230905212307](/zet/20230905212307/README.md) important things from old install scripts and pen test environ that were copied to environment
 - [20230905015028](/zet/20230905015028/README.md) dotfiles hub
-- [20221008042814](/zet/20221008042814/README.md) WIP
 - [20221009192000](/zet/20221009192000/README.md) stuff to put on main page
 - [20230905015120](/zet/20230905015120/README.md) bash rc file and config
 - [20230905160850](/zet/20230905160850/README.md) directory for executable short commands to run on path
