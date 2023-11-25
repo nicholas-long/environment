@@ -1,6 +1,10 @@
 # scripts to work with burpsuite saved requests and automatically generate python code
 
-- right now only POST with HTTP form encoding is implemented
+- request types that are implemented
+  - HTTP GET
+  - HTTP POST
+    - HTTP Form encoding
+    - JSON
 - these scripts require go to be installed. runs xpup go library to parse xml
   - added go to [20230905184854](/zet/20230905184854/README.md) prerequesites for environment
 - `copy-burp-request-as-python-script.sh` - parse burpsuite saved request file and convert to python requests script
