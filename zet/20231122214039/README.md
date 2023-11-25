@@ -1,5 +1,6 @@
 # stuff i should blog about
 
+- [ ] [20221009192000](/zet/20221009192000/README.md) copy in from stuff to put on main page
 - [20231007033903](/zet/20231007033903/README.md) script to extract text from every second of youtube video frames
 - [20231117071155](/zet/20231117071155/README.md) testing automatic blog post creation
   - mad science experiment that sounds cool
@@ -18,6 +19,7 @@
 - [merge note functionality for zkvr](/zet/20231121064457/README.md)
 - [x] [20231114070621](/zet/20231114070621/README.md) script for chatGPT prompt to select tags for documents automatically
 - [20230906035744](/zet/20230906035744/README.md) scripts to optimize alphanumeric base64
+- [20231116151546](/zet/20231116151546/README.md) how to implement a modular subcommand with lightweight scripts - ideas for a blog post
 
 ```
 ```
@@ -37,6 +39,7 @@
 - [20230906035744](/zet/20230906035744/README.md) scripts to optimize alphanumeric base64
 - [20230928175434](/zet/20230928175434/README.md) tandy project notes and scripts for old machine project
 - [20231116151546](/zet/20231116151546/README.md) how to implement a modular subcommand with lightweight scripts - ideas for a blog post
+- [20221009192000](/zet/20221009192000/README.md) stuff to put on main page
 
 Tags:
 
