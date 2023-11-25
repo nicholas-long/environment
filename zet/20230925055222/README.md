@@ -8,10 +8,12 @@
 zet/20230905015223/README.md:- [ ] do i need to run the install scripts in the github actions runner docker? scripts that run during the enrich process might expect certain commands installed.
 zet/20230925193834/README.md:- [ ] adding and deleting tags doesn't work
 zet/20230928175434/README.md:  - [ ] copy them here
+zet/20231122214039/README.md:- [ ] [20221009192000](/zet/20221009192000/README.md) copy in from stuff to put on main page
 zet/20231122231545/README.md:- [ ] publish and move fsdb to its own repository
 - [20230905015223](/zet/20230905015223/README.md) install scripts #setup #script #install #list
 - [20230925193834](/zet/20230925193834/README.md) testing on mac os #test #dotfiles
 - [20230928175434](/zet/20230928175434/README.md) tandy project notes and scripts for old machine project #text #fun #project
+- [20231122214039](/zet/20231122214039/README.md) stuff i should blog about #idea #blogpost #list
 - [20231122231545](/zet/20231122231545/README.md) publishing fsdb to github as a standalone project in a repository #github #project
 ```
 
