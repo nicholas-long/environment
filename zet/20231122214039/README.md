@@ -36,6 +36,7 @@
 - [20231007033903](/zet/20231007033903/README.md) script to extract text from every second of youtube video frames
 - [20230906035744](/zet/20230906035744/README.md) scripts to optimize alphanumeric base64
 - [20230928175434](/zet/20230928175434/README.md) tandy project notes and scripts for old machine project
+- [20231116151546](/zet/20231116151546/README.md) how to implement a modular subcommand with lightweight scripts - ideas for a blog post
 
 Tags:
 
