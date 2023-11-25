@@ -1,6 +1,7 @@
 # stuff i should blog about
 
-- [ ] [20221009192000](/zet/20221009192000/README.md) copy in from stuff to put on main page
+- [x] [20221009192000](/zet/20221009192000/README.md) copy in from stuff to put on main page
+- [20230928133216](/zet/20230928133216/README.md) scripts to work with burpsuite saved requests and automatically generate python code
 - [20231007033903](/zet/20231007033903/README.md) script to extract text from every second of youtube video frames
 - [20231117071155](/zet/20231117071155/README.md) testing automatic blog post creation
   - mad science experiment that sounds cool
@@ -10,6 +11,9 @@
 - cool trick from zet cmd implementation to find missing backlinks `zet/20221006032546/scanrefs`
   - is this blogworthy?
 - [20230928175434](/zet/20230928175434/README.md) tandy project notes and scripts for old machine project
+- [20230928185944](/zet/20230928185944/README.md) script to package up program and debian dependencies a tar to install on a remote target machine
+- [20230920031249](/zet/20230920031249/README.md) script to search tldr commands by features to find ways to do things
+- [20230927152827](/zet/20230927152827/README.md) reverse engineering obsidian to create an obsidian sync cli tool
 
 # things i am already done blogging about
 - zkvr
