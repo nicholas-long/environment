@@ -1,11 +1,12 @@
 # stuff i should blog about
 
-- [20230928133216](/zet/20230928133216/README.md) scripts to work with burpsuite saved requests and automatically generate python code
 - [20231007033903](/zet/20231007033903/README.md) script to extract text from every second of youtube video frames
 - [20231117071155](/zet/20231117071155/README.md) testing automatic blog post creation
   - mad science experiment that sounds cool
 - try out [20231121073930](/zet/20231121073930/README.md) script to crawl a website to generate knowledge base files for AI assistant
   - is this a duplicate?
+- [20230928133216](/zet/20230928133216/README.md) scripts to work with burpsuite saved requests and automatically generate python code
+  - there is some awkward code in here that should be reworked or ignored
 - cool walkthrough idea [20231013173509](/zet/20231013173509/README.md) example of connecting to a work queue docker
 - cool trick from zet cmd implementation to find missing backlinks `zet/20221006032546/scanrefs`
   - is this blogworthy?
