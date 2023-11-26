@@ -283,7 +283,6 @@ lines in database
 # Related
 
 - [20230929145418](/zet/20230929145418/README.md) fsdb project - file based database for partitioning and event sourced data
-- [20221012171100](/zet/20221012171100/README.md) recently created nodes hub
 - [20230930041146](/zet/20230930041146/README.md) fsdb developing ideas
 - [20231001151606](/zet/20231001151606/README.md) hashcodes for fsdb partitioning
 - [20231004133128](/zet/20231004133128/README.md) an optimized hashcode generator for partitioning work into multiple processes
