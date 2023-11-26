@@ -4,6 +4,10 @@
 - command line utility to download youtube videos https://github.com/ytdl-org/youtube-dl
   - can be installed from python pip - doesn't work
   - installing and running the fresh version from github does work
+- install dependencies
+  - youtube-dl
+  - ffmpeg
+  - tesseract
 - right now it works, but it is a little sketchy. there's some opportunity for future development.
   - assumes youtube-dl makes a mkv file - is it always mkv? i swear i saw an mp4 download once
   - should also print video title or url to output
