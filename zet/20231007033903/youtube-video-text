@@ -2,11 +2,11 @@
 
 url="$1"
 
-#if ! which youtube-dl >/dev/null; then
-#  exit 1
-#fi
-#youtube-dl "$url"
-#mv *.mkv video.mkv
+if ! which youtube-dl >/dev/null; then
+  exit 1
+fi
+youtube-dl "$url"
+mv *.mkv video.mkv
 srcfile="video.mkv"
 
 if [ ! -f $srcfile ]; then
@@ -29,12 +29,12 @@ for m in $(seq 0 $minutes); do
   fi
   for s in $(seq 0 $sec); do
     echo ">>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 00:$m:$s"
-    ffmpeg -ss $m:$s -i $srcfile -frames 1 -s 1024x768 -f image2 image.png
-    tesseract image.png output
+    ffmpeg -ss $m:$s -i $srcfile -frames 1 -s 1024x768 -f image2 image.png >/dev/null 2>/dev/null
+    tesseract image.png output >/dev/null 2>/dev/null
     cat output.txt
     rm image.png
     rm output.txt
-    sleep 1
+    #sleep 1
   done
 done
 rm video.mkv
