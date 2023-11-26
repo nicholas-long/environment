@@ -2,7 +2,17 @@
 
 # search through tldr command descriptions with fzf and display file with bat
 
-find ~/.local/share/tldr/pages -type f -name '*.md' | \
+pagepath="$HOME/.local/share/tldr/pages"
+if [ ! -d "$pagepath" ]; then
+  pagepath="$HOME/.tldrc/tldr/pages"
+fi
+
+if [ ! -d "$pagepath" ]; then
+  echo "cannot locate TLDR pages"
+  exit 1
+fi
+
+find $pagepath -type f -name '*.md' | \
   xargs awk 'BEGIN { OFS="\t" } /^# / { h = $2 } /^- / || /^> / { print FILENAME,FNR,h,$0 }' | \
   fzf | \
   awk -F $'\t' '{system("bat " $1) }'
