@@ -7,9 +7,10 @@
 - install dependencies
   - youtube-dl
   - ffmpeg
+    - this was awkward to install on my system. i had to do a full upgrade and fix apt dependencies to install it.
   - tesseract
 - right now it works, but it is a little sketchy. there's some opportunity for future development.
-  - assumes youtube-dl makes a mkv file - is it always mkv? i swear i saw an mp4 download once
+  - check if it returned an mkv or mp4 file
   - should also print video title or url to output
   - should work out of a temporary directory
 - since it is not instantaneous, it is kind of like watching the video in the terminal while it processes
