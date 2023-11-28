@@ -1,6 +1,5 @@
 # stuff i should blog about
 
-- [20231007033903](/zet/20231007033903/README.md) script to extract text from every second of youtube video frames
 - [20231117071155](/zet/20231117071155/README.md) testing automatic blog post creation
   - mad science experiment that sounds cool
 - try out [20231121073930](/zet/20231121073930/README.md) script to crawl a website to generate knowledge base files for AI assistant
@@ -22,7 +21,6 @@
 - how to make a ratchet socket wrench attachment for drill bits
 - reiki
 
-
 # things i am already done blogging about
 - zkvr
 - this environment
@@ -34,6 +32,7 @@
 - [20231116151546](/zet/20231116151546/README.md) how to implement a modular subcommand with lightweight scripts - ideas for a blog post
 - [20230928133216](/zet/20230928133216/README.md) scripts to work with burpsuite saved requests and automatically generate python code
 - [20230906032330](/zet/20230906032330/README.md) how to do an ascii art splash screen
+- [20231007033903](/zet/20231007033903/README.md) script to extract text from every second of youtube video frames
 
 ```
 ```
