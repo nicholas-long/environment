@@ -45,7 +45,6 @@
 - [20231121064457](/zet/20231121064457/README.md) merge note functionality for zkvr
 - [20231114070621](/zet/20231114070621/README.md) script for chatGPT prompt to select tags for documents automatically
 - [20231117071155](/zet/20231117071155/README.md) testing automatic blog post creation with ChatGPT
-- [20221012171100](/zet/20221012171100/README.md) recently created nodes hub
 - [20231121073930](/zet/20231121073930/README.md) script to crawl a website to generate knowledge base files for AI assistant
 - [20231013173509](/zet/20231013173509/README.md) connecting to an amqp work queue
 - [20231007033903](/zet/20231007033903/README.md) script to extract text from every second of youtube video frames
