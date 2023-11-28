@@ -1,2 +1,3 @@
 - [20230927033258](/zet/20230927033258/README.md) debugging the markdown script on mac os
 - [20230929064428](/zet/20230929064428/README.md) script to check for BEGINFILE usage in awk scripts requiring change to gawk
+- [20231128160825](/zet/20231128160825/README.md) cross platform scripts to implement broken zkvr features on mac os

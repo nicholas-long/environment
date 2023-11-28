@@ -87,3 +87,4 @@
 - [20231112170729](/zet/20231112170729/README.md) script to get remote github URL from git repository
 - [20231122053807](/zet/20231122053807/README.md) fsdb implementation details
 - [20231122213142](/zet/20231122213142/README.md) script to describe other scripts based on their comments
+- [20231128160825](/zet/20231128160825/README.md) cross platform scripts to implement broken zkvr features on mac os

@@ -182,6 +182,7 @@
 20231122213142 script to describe other scripts based on their comments
 20231122214039 stuff i should blog about
 20231122231545 publishing fsdb to github as a standalone project in a repository
+20231128160825 cross platform scripts to implement broken zkvr features on mac os
 ```
 
 ` zet/20231005213930/README.md `

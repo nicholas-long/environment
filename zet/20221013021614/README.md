@@ -92,6 +92,7 @@ zet/20221013021614/getcopycontent zet/20221013021614/README.md
 - [20230922214602](/zet/20230922214602/README.md) things i want to implement in zkvr after working on the environment
 - [20231001082012](/zet/20231001082012/README.md) automatically keeping track of changes to zkvr binaries
 - [20231116151546](/zet/20231116151546/README.md) how to implement a modular subcommand with lightweight scripts - ideas for a blog post
+- [20231128160825](/zet/20231128160825/README.md) cross platform scripts to implement broken zkvr features on mac os
 
 Tags:
 
