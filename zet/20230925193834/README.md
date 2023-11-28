@@ -1,5 +1,11 @@
 # testing on mac os
 
+- `sed` does not have working implementations of the `-e` or `-i` arguments on Mac OS
+  - cannot include multiple sed commands to execute
+  - need additional arguments in order to edit in place
+  - these differences are enough that i need to make new scripts in order to get specificic zkvr features to work on mac os
+  - [20231128160825](/zet/20231128160825/README.md) cross platform scripts to implement broken zkvr features on mac os
+
 ## resolved issues
 - [20230905160850](/zet/20230905160850/README.md) directory for executable short commands to run on path
   - trying to avoid using graphquery to build this because it might be hard to get it working
@@ -55,18 +61,19 @@
   - [x] add iproute2 to dependencies. that doesn't fix it on mac os though, but maybe on some dockers. there is not a version of ip for mac os?
 
 ## zkvr-specific issues on mac os
+- things to fix in cross platform scripts [cross platform scripts to implement broken zkvr features on mac os](/zet/20231128160825/README.md)
+  - adding and deleting tags doesn't work
+  - spawn doesn't work - fix in cross platform scripts
 - zkvr scripts should be updated to use gawk instead of awk
   - [20230926224444](/zet/20230926224444/README.md) updating scripts to use gawk when possible
   - [20230929064428](/zet/20230929064428/README.md) script to check for beginfile usage
-- linking documents was initially broken, but seems to be working now after changing one problem script to gawk
-  - the particular script that was fixed on the mac is called `parseids`
-- [x] unlinking documents doesn't work
-  - fixed. was due to differences with `sed -i`
-- [ ] adding and deleting tags doesn't work
-- many things are broken in enrich
+- many things are broken in enrich - won't fix? run that on linux for now or use the github action
 - navigation and editing documents work
 - awk script that drives the copy snippet functionality works as expected
-- spawn doesn't work. it looks like an issue with sed in a script
+- [x] unlinking documents doesn't work
+  - fixed. was due to differences with `sed -i`
+- linking documents was initially broken, but seems to be working now after changing one problem script to gawk
+  - the particular script that was fixed on the mac is called `parseids`
   ```
   enter title> debugging the script on mac os
   [diag] new debugging the script on mac os
@@ -97,6 +104,7 @@
 - [20230926234809](/zet/20230926234809/README.md) a non-platform-specific find command script for executable files
 - [20230927033258](/zet/20230927033258/README.md) debugging the markdown script on mac os
 - [20230929064428](/zet/20230929064428/README.md) script to check for BEGINFILE usage in awk scripts requiring change to gawk
+- [20231128160825](/zet/20231128160825/README.md) cross platform scripts to implement broken zkvr features on mac os
 
 Tags:
 
