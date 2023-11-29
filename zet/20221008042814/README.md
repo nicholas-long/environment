@@ -32,6 +32,7 @@ stuff i am working on.
 - [20230930041146](/zet/20230930041146/README.md) fsdb developing ideas
 - [20221013021614](/zet/20221013021614/README.md) zkvr terminal graph browser
 - [20231122231545](/zet/20231122231545/README.md) publishing fsdb to github as a standalone project in a repository
+- [20231129161540](/zet/20231129161540/README.md) jump to recently edited files feature or copy their filenams
 
 Tags:
 
