@@ -3,11 +3,13 @@
 - need to make custom scripts in order to implement certain features on mac os
   - `sed` does not have working implementations of the `-e` or `-i` arguments on Mac OS
 - include changes in zkvr
+- will this script become required, as it should, if these changes are implemented in zetcmd?
 
 ## things to implement
 - [x] add tags
 - [x] delete tags
 - [ ] spawn from template and replace content
+  - script `zet/20231128160825/createtemplate` to edit the template after spawning
 
 ```bash
 $ ./addtag macos README.md
