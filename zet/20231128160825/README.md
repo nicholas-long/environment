@@ -5,8 +5,8 @@
 - include changes in zkvr
 
 ## things to implement
-- [ ] add tags
-- [ ] delete tags
+- [x] add tags
+- [x] delete tags
 - [ ] spawn from template and replace content
 
 ```bash
