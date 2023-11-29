@@ -69,6 +69,7 @@
   - [20230929064428](/zet/20230929064428/README.md) script to check for beginfile usage
 - many things are broken in enrich - won't fix? run that on linux for now or use the github action
 - navigation and editing documents work
+- merge-into does not work with enriching. if i disable enriching and fix the scripts, maybe i can merge on mac os.
 - awk script that drives the copy snippet functionality works as expected
 - [x] unlinking documents doesn't work
   - fixed. was due to differences with `sed -i`
