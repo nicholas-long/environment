@@ -24,7 +24,6 @@ stuff i am working on.
 - [20230929145418](/zet/20230929145418/README.md) fsdb project - file based database for partitioning and event sourced data
 - [20230929153207](/zet/20230929153207/README.md) computer science experiments hub
 - [20230929153242](/zet/20230929153242/README.md) natural language processing libraries
-- [20231007033903](/zet/20231007033903/README.md) script to extract text from every second of youtube video frames
 - [20231007144438](/zet/20231007144438/README.md) automated testing
 - [20231017183957](/zet/20231017183957/README.md) command shortcut to pick and kill dockers
 - [20231023142155](/zet/20231023142155/README.md) script to scrape information from github pages to avoid API usage
