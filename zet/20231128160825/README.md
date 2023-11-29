@@ -9,7 +9,11 @@
 - [ ] delete tags
 - [ ] spawn from template and replace content
 
-```
+```bash
+$ ./addtag macos README.md
+# unchanged
+$ ./addtag newtag README.md
+# new tag added
 ```
 
 ` zet/20231128160825/README.md `
