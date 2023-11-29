@@ -10,25 +10,6 @@
   - do i need to run the install scripts in the github docker?
 
 ```diff
-2d1
-< 0ec96ae252216e09532f139d2564ce31  zet/20221006032546/zetcmd
-5d3
-< 21c3a9358116c5c4f2a6a6b8a938b9cb  zet/20221013221136/graphquery
-7a6
-> 338646415a29aa2481a619fa4f499994  zet/20231121064457/merge-markdown-related-links
-9,10d7
-< 3b8c4bcd28e6a85a5ba17ee3411fb7f6  zet/20231128160825/deltag
-< 41b3a4c040a741611910d322d6f39263  zet/20221013021614/graphbrowser
-12a10
-> 565eb5d465c85ff04b20616f00744601  zet/20221006032546/zetcmd
-18a17
-> 9f8f3907b15837d270bb1e2bf13e2734  zet/20221013021614/graphbrowser
-22d20
-< c3ab3e22ac1659f41b7bff1c641bcef6  zet/20231128160825/addtag
-26d23
-< e24a74d28401f6cf2b11b16049676f18  zet/20231128160825/createtemplate
-31d27
-< f47ee32d6b7f7d3e5ede1ab41b5efe7c  zet/20231121064457/merge-markdown-related-links
 ```
 
 ` zet/20231001082012/README.md `
