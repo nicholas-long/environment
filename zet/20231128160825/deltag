@@ -22,7 +22,7 @@ END {
   tags = ""
   for (n = 1; n <= NF; n++) {
     if ($n != ("#" tag)) {
-      tags = " " $n
+      tags = tags " " $n
     }
   }
   print "   " tags
