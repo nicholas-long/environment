@@ -1,5 +1,10 @@
 # stuff i should blog about
 
+- cyberdecks reviews and how to set them up
+  - one mix netbook - find link for historical purposes, no longer for sale
+  - devterm - they have a website
+  - current laptop - find information and link
+  - setting up with gnome and zkvr
 - [20231117071155](/zet/20231117071155/README.md) testing automatic blog post creation
   - mad science experiment that sounds cool
 - try out [20231121073930](/zet/20231121073930/README.md) script to crawl a website to generate knowledge base files for AI assistant
