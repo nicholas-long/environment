@@ -8,8 +8,6 @@
 zet/20230905015223/README.md:- [ ] do i need to run the install scripts in the github actions runner docker? scripts that run during the enrich process might expect certain commands installed.
 zet/20230928175434/README.md:  - [ ] copy them here
 zet/20231122231545/README.md:- [ ] publish and move fsdb to its own repository
-zet/20231128160825/README.md:- [ ] add tags
-zet/20231128160825/README.md:- [ ] delete tags
 zet/20231128160825/README.md:- [ ] spawn from template and replace content
 - [20230905015223](/zet/20230905015223/README.md) install scripts #setup #script #install #list
 - [20230928175434](/zet/20230928175434/README.md) tandy project notes and scripts for old machine project #text #fun #project
