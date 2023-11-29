@@ -13,6 +13,7 @@
   - [20231114070621](/zet/20231114070621/README.md) script for chatGPT prompt to select tags for documents automatically
 - cleanup old and unnecessary cards
 - [x] [merge note functionality for zkvr](/zet/20231121064457/README.md)
+- changes from [20231128160825](/zet/20231128160825/README.md) cross platform scripts to implement broken zkvr features on mac os
 
 - commands to sync new code changes to zkvr
 ```bash
@@ -54,6 +55,7 @@ cp -r zet/20230925055222 ~/zkvr/zet/
 - [20231114070621](/zet/20231114070621/README.md) script for chatGPT prompt to select tags for documents automatically
 - [20231121064457](/zet/20231121064457/README.md) merge note functionality for zkvr
 - [20221007193324](/zet/20221007193324/README.md) github actions
+- [20231128160825](/zet/20231128160825/README.md) cross platform scripts to implement broken zkvr features on mac os
 
 Tags:
 
