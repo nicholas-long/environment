@@ -12,7 +12,6 @@ zet/20221012171100/README.md
 
 - [20221012144502](/zet/20221012144502/README.md) track modification dates
 - [20231128160825](/zet/20231128160825/README.md) cross platform scripts to implement broken zkvr features on mac os
-- [20231129044538](/zet/20231129044538/README.md) fixing merge-into functionality on mac os
 
 Tags:
 

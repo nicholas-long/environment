@@ -1,3 +1,2 @@
 - [20231122053807](/zet/20231122053807/README.md) fsdb implementation details
 - [20231122214039](/zet/20231122214039/README.md) stuff i should blog about
-- [20231129044538](/zet/20231129044538/README.md) fixing merge-into functionality on mac os

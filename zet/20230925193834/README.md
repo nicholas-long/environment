@@ -100,7 +100,6 @@
 #!/usr/bin/env -S gawk -f
 ```
 
-` zet/20231129044538/README.md `
 
 # Related
 
@@ -118,11 +117,8 @@
 - [20230927033258](/zet/20230927033258/README.md) debugging the markdown script on mac os
 - [20230929064428](/zet/20230929064428/README.md) script to check for BEGINFILE usage in awk scripts requiring change to gawk
 - [20231128160825](/zet/20231128160825/README.md) cross platform scripts to implement broken zkvr features on mac os
-- [20231129044538](/zet/20231129044538/README.md) fixing merge-into functionality on mac os
 - [20230925193834](/zet/20230925193834/README.md) testing on mac os
 - [20231121064457](/zet/20231121064457/README.md) merge note functionality for zkvr
-- [20230926224444](/zet/20230926224444/README.md) updating scripts to use gawk when possible
-- [20221012171100](/zet/20221012171100/README.md) recently created nodes hub
 
 Tags:
 
