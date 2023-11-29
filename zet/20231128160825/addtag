@@ -12,6 +12,8 @@ fi
 
 export tag
 
+tf=$(mktemp)
+
 awk '
 NR > 1 { print last }
 {last = $0}
@@ -28,4 +30,5 @@ END {
   tags = tags "#" tag
   print tags
 }
-' "$doc"
+' "$doc" > $tf
+mv $tf "$doc"
