@@ -1,6 +1,7 @@
 # copy or jump to recently edited files feature
 
 - concept of `jump to recently edited files feature or copy their filenams`
+- created script `zet/20231129161540/modified-file-timestamps`
 
 ```bash
 #!/bin/bash
@@ -15,6 +16,15 @@ find zet -type f -print0 | xargs -0 ls --full-time | awk '
   print
 }
 ' | sort
+```
+
+- version for mac and linux
+```bash
+if [[ $(uname) =~ Darwin ]]; then
+  find zet -type f -print0 | xargs -0 stat -f $'%m\t%N'
+else
+  find zet -type f -print0 | xargs -0 stat -c $'%Y\t%n'
+fi | sort
 ```
 
 ` zet/20231129161540/README.md `
