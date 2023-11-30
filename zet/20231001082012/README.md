@@ -10,14 +10,6 @@
   - do i need to run the install scripts in the github docker?
 
 ```diff
-9a10
-> 41b3a4c040a741611910d322d6f39263  zet/20221013021614/graphbrowser
-14d14
-< 85339da0cc055d8f9d2c97be3fd0ed49  zet/20231129161540/modified-file-timestamps
-26d25
-< e247fcefc917692ede25ad9c96df1ce5  zet/20221013021614/graphbrowser
-28d26
-< e4a9c95fd18378341eba424f1b2a7143  zet/20231129161540/get-recent-file
 ```
 
 ` zet/20231001082012/README.md `
