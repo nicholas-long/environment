@@ -5,8 +5,6 @@
 - i tried pasting the grep results togeher with the graphquery results, but that didn't work because the graphquery only returns unique results.
 
 ```markdown
-zet/20230928175434/README.md:  - [ ] copy them here
-- [20230928175434](/zet/20230928175434/README.md) tandy project notes and scripts for old machine project #text #fun #project
 ```
 
 ` zet/20230925055222/README.md `

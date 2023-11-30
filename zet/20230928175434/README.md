@@ -2,7 +2,7 @@
 
 - concept of `tandy project notes and scripts for old machine project`
 - notes about this project are in my private zk
-  - [ ] copy them here
+- put any related scripts here
 
 ```
 /home/coyote/kb/linux/old-machine-project/tandy-output-filter.c # a poor attempt to create a text filter to get the tandy screen working as a terminal. link this to the old machine terminal project.
