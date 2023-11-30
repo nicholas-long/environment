@@ -6,6 +6,15 @@
   - connected together by references to form graph
 - Folgezettel = child nodes
 
+## tips from rwxrob
+- this is called a "personal knowledge graph"
+- limits help you (watch out for "by the way")
+  - the moment you have a "by the way" thought, go make a new zettel instead
+  - can open new tmux panes
+- the things i have been writing in ~/kb is an outline/notes
+- recommendations @ 35:40 video week 1
+  - title < 50 unicode chars
+
 ` zet/20221006013313/README.md `
 
 # Related
