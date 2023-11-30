@@ -5,9 +5,7 @@
 - i tried pasting the grep results togeher with the graphquery results, but that didn't work because the graphquery only returns unique results.
 
 ```markdown
-zet/20230905015223/README.md:- [ ] do i need to run the install scripts in the github actions runner docker? scripts that run during the enrich process might expect certain commands installed.
 zet/20230928175434/README.md:  - [ ] copy them here
-- [20230905015223](/zet/20230905015223/README.md) install scripts #setup #script #install #list
 - [20230928175434](/zet/20230928175434/README.md) tandy project notes and scripts for old machine project #text #fun #project
 ```
 
