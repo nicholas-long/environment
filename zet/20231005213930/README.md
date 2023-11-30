@@ -183,6 +183,7 @@
 20231122231545 publishing fsdb to github as a standalone project in a repository
 20231128160825 cross platform scripts to implement broken zkvr features on mac os
 20231129161540 copy or jump to recently edited files feature
+20231130231902 things to learn about
 ```
 
 ` zet/20231005213930/README.md `

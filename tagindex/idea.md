@@ -1,2 +1,3 @@
 - [20231122053807](/zet/20231122053807/README.md) fsdb implementation details
 - [20231122214039](/zet/20231122214039/README.md) stuff i should blog about
+- [20231130231902](/zet/20231130231902/README.md) things to learn about
