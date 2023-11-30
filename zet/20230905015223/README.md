@@ -17,7 +17,7 @@
 - [x] install python requirements for tmux scripts
 - [x] choose correct config and location for both vim and neovim
 - testing on Mac OS, and the install script did not work. tried to run homebrew as root?
-- [ ] do i need to run the install scripts in the github actions runner docker? scripts that run during the enrich process might expect certain commands installed.
+- do i need to run the install scripts in the github actions runner docker? scripts that run during the enrich process might expect certain commands installed.
 
 - is it a good idea to set up git credential storage?
 ```
