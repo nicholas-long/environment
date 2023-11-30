@@ -2,6 +2,8 @@
 
 - concept of `jump to recently edited files feature or copy their filenams`
 - created script `zet/20231129161540/modified-file-timestamps`
+- created `zet/20231129161540/get-recent-file` to run fzf and return a file
+- after selecting a file, zkvr should ask what you want to do: copy the path, edit the file, navigate there, etc.
 
 ```bash
 #!/bin/bash
