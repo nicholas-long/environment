@@ -5,7 +5,6 @@
 - update scripts within zc implementation `lrwxrwxrwx 1 parallels parallels 18 Aug 31 23:50 implementation -> zet/20221006032546`
 - linking documents was initially broken, but seems to be working now after changing one problem script to gawk
   - the particular script that was fixed on the mac is called `parseids`
-- [20230929064428](/zet/20230929064428/README.md) script to check for BEGINFILE usage in awk scripts requiring change to gawk
 - shebang line to use
   - because awk has a -f parameter and this influences how scripts are run
 ```
@@ -62,15 +61,28 @@ zet/20221006032546/addsnippet:#!/usr/bin/awk -f
 
 ` zet/20230926224444/README.md `
 
+# script to check for BEGINFILE usage in awk scripts requiring change to gawk
+
+- concept of `script to check for beginfile usage`
+- have to use `#!/usr/bin/env gawk -f` for scripts that use beginfile
+
+```bash
+# find all the awk scripts
+find . -type f -executable | xargs file | grep 'awk script' | cut -d : -f 1 | xargs grep 'BEGINFILE\|ENDFILE'
+
+# find example scripts that are updated to use gawk
+grep -R 'env.*gawk'
+```
+
+
 # Related
 
 - [20230925193834](/zet/20230925193834/README.md) testing on mac os
 - [20221013021614](/zet/20221013021614/README.md) zkvr terminal graph browser
 - [20221013221136](/zet/20221013221136/README.md) graph query language for zettelkasten
 - [20221006032546](/zet/20221006032546/README.md) my original implementation of zet cmd
-- [20230929064428](/zet/20230929064428/README.md) script to check for BEGINFILE usage in awk scripts requiring change to gawk
 - [20221008042814](/zet/20221008042814/README.md) WIP
 
 Tags:
 
-    #portability #program
+    #portability #macos #script #program #awk

@@ -34,6 +34,7 @@
 - [20230925180416](/zet/20230925180416/README.md) print md5 of every line in a password wordlist
 - [20230925180815](/zet/20230925180815/README.md) password scripts hub
 - [20230926190350](/zet/20230926190350/README.md) scripts to process text with line by line operations
+- [20230926224444](/zet/20230926224444/README.md) updating scripts to use gawk when possible
 - [20230926234809](/zet/20230926234809/README.md) a non-platform-specific find command script for executable files
 - [20230927233110](/zet/20230927233110/README.md) colorizing and prettifying scripts for transforming text
 - [20230928014124](/zet/20230928014124/README.md) script to extract an embedded file stream from a PDF
@@ -64,7 +65,6 @@
 - [20230929054848](/zet/20230929054848/README.md) awk script to get column headings from the first line of CSV
 - [20230929055042](/zet/20230929055042/README.md) example of how to communicate between the network and a named pipe
 - [20230929055134](/zet/20230929055134/README.md) attempt to create script logs from tmux panes
-- [20230929064428](/zet/20230929064428/README.md) script to check for BEGINFILE usage in awk scripts requiring change to gawk
 - [20230929153242](/zet/20230929153242/README.md) natural language processing libraries
 - [20230930145814](/zet/20230930145814/README.md) determining cpu version for install
 - [20231001000026](/zet/20231001000026/README.md) script to find the minimum required set of dependent zettels to ship a scripting project

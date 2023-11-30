@@ -1,9 +1,9 @@
 - [20221025024238](/zet/20221025024238/README.md) enumerate tags
 - [20230923211501](/zet/20230923211501/README.md) get current CVE list as tsv
+- [20230926224444](/zet/20230926224444/README.md) updating scripts to use gawk when possible
 - [20230928165457](/zet/20230928165457/README.md) awk print unique lines
 - [20230928173645](/zet/20230928173645/README.md) live ssh perimeter defense script with colorized login attempts and shodan lookup
 - [20230929054848](/zet/20230929054848/README.md) awk script to get column headings from the first line of CSV
-- [20230929064428](/zet/20230929064428/README.md) script to check for BEGINFILE usage in awk scripts requiring change to gawk
 - [20231006185420](/zet/20231006185420/README.md) awk and bash fzf scripts
 - [20231010153354](/zet/20231010153354/README.md) zawk script to run awk programs on gzipped files and streams
 - [20231122213142](/zet/20231122213142/README.md) script to describe other scripts based on their comments

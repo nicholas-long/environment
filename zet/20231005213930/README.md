@@ -124,7 +124,6 @@
 20230929054848 awk script to get column headings from the first line of CSV
 20230929055042 example of how to communicate between the network and a named pipe
 20230929055134 attempt to create script logs from tmux panes
-20230929064428 script to check for BEGINFILE usage in awk scripts requiring change to gawk
 20230929145418 fsdb project - file based database for partitioning and event sourced data
 20230929153207 computer science experiments hub
 20230929153242 natural language processing libraries

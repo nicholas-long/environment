@@ -55,7 +55,6 @@
 - could try changing relevant zkvr commands to gawk instead of awk?
   - awk on mac os does not support `BEGINFILE`. i will need to search for this and use gawk instead.
   - have to use `#!/usr/bin/env gawk -f`
-  - [20230929064428](/zet/20230929064428/README.md) script to check for beginfile usage
 - mac os is missing the `ip` command. this means scripts that get my ip will definitely not work.
   - https://command-not-found.com/ip
   - [x] add iproute2 to dependencies. that doesn't fix it on mac os though, but maybe on some dockers. there is not a version of ip for mac os?
@@ -66,7 +65,6 @@
   - spawn doesn't work - fix in cross platform scripts
 - zkvr scripts should be updated to use gawk instead of awk
   - [20230926224444](/zet/20230926224444/README.md) updating scripts to use gawk when possible
-  - [20230929064428](/zet/20230929064428/README.md) script to check for beginfile usage
 - many things are broken in enrich - won't fix? run that on linux for now or use the github action
 - navigation and editing documents work
 - merge-into does not work with enriching. if i disable enriching and fix the scripts, maybe i can merge on mac os.
@@ -115,7 +113,6 @@
 - [20230926224444](/zet/20230926224444/README.md) updating scripts to use gawk when possible
 - [20230926234809](/zet/20230926234809/README.md) a non-platform-specific find command script for executable files
 - [20230927033258](/zet/20230927033258/README.md) debugging the markdown script on mac os
-- [20230929064428](/zet/20230929064428/README.md) script to check for BEGINFILE usage in awk scripts requiring change to gawk
 - [20231128160825](/zet/20231128160825/README.md) cross platform scripts to implement broken zkvr features on mac os
 - [20230925193834](/zet/20230925193834/README.md) testing on mac os
 - [20231121064457](/zet/20231121064457/README.md) merge note functionality for zkvr
