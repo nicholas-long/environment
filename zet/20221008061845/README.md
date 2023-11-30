@@ -28,6 +28,7 @@ hub node for `workflow`
 - [20231015213012](/zet/20231015213012/README.md) script to print todo items in terminal
 - [20221101052020](/zet/20221101052020/README.md) TODO: Your to-do list
 - [20231005213930](/zet/20231005213930/README.md) list of cards in order
+- [20231129161540](/zet/20231129161540/README.md) copy or jump to recently edited files feature
 
 Tags:
 

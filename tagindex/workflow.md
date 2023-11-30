@@ -5,3 +5,4 @@
 - [20230922222809](/zet/20230922222809/README.md) getting rid of on-screen keyboard
 - [20231001082012](/zet/20231001082012/README.md) automatically keeping track of changes to zkvr binaries
 - [20231005211810](/zet/20231005211810/README.md) script to sync only markdown files from zk to github
+- [20231129161540](/zet/20231129161540/README.md) copy or jump to recently edited files feature
