@@ -2,9 +2,8 @@
 
 - concept of `get random hex unique ID bash`
 
-```
-/home/parallels/kb/bash-scripting/get-random-unique-id.sh # get random hex unique ID bash
-cp /home/parallels/kb/bash-scripting/get-random-unique-id.sh .
+```bash
+cat /dev/urandom | head -c 6 | xxd -p
 ```
 
 ` zet/20230929053721/README.md `
