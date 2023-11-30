@@ -1,6 +1,7 @@
 # publishing fsdb to github as a standalone project in a repository
 
 - [ ] publish and move fsdb to its own repository
+- learn how to make a makefile and install step
 
 - find all dependencies required to ship binaries
 ```bash
