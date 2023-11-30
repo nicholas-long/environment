@@ -24,7 +24,6 @@ zet/20230925024118/scripts-dependencies
 - [20230905015223](/zet/20230905015223/README.md) install scripts
 - [20230925001420](/zet/20230925001420/README.md) cool docker scripts to migrate
 - [20230925033312](/zet/20230925033312/README.md) bash current script directory
-- [20230925050125](/zet/20230925050125/README.md) git scripting hub
 - [20230905212307](/zet/20230905212307/README.md) important things from old install scripts and pen test environ that were copied to environment
 
 Tags:

@@ -28,7 +28,6 @@ cp /home/coyote/kb/bash-scripting/get-github-api-key.sh /home/coyote/kb/bash-scr
 
 - checking references within scripts
 ```
-zet/20230925024118/scripts-dependencies zet/20230925050125
 zet/20230925050125/update-all-git-repos.sh references executable file git-enum-repos-in-directory
 > $SCRIPT_DIR/git-enum-repos-in-directory $HOME |\
 zet/20230925050125/pull-all-git-repos.sh references executable file git-enum-repos-in-directory
@@ -39,11 +38,9 @@ zet/20230925050125/pull-all-git-repos.sh references executable file git-enum-rep
 
 # Related
 
-- [20230925024118](/zet/20230925024118/README.md) script to display information about other scripts and their dependencies
 - [20221008042814](/zet/20221008042814/README.md) WIP
 - [20230929054003](/zet/20230929054003/README.md) bash scripting simple program template parsing arguments with case statement
 - [20231112170729](/zet/20231112170729/README.md) script to get remote github URL from git repository
-- [20230905212307](/zet/20230905212307/README.md) important things from old install scripts and pen test environ that were copied to environment
 - [20221007193324](/zet/20221007193324/README.md) github actions
 
 Tags:
