@@ -13,6 +13,7 @@
 
 - [20230905030303](/zet/20230905030303/README.md) script to get github release links
 - [20221008042814](/zet/20221008042814/README.md) WIP
+- [20230925050125](/zet/20230925050125/README.md) git scripting hub
 
 Tags:
 

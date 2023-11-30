@@ -35,6 +35,7 @@ curl -L \
 - [20230920022857](/zet/20230920022857/README.md) script to get linpeas to current directory
 - [20231016050313](/zet/20231016050313/README.md) scanning code for vulnerabilities
 - [20231023142155](/zet/20231023142155/README.md) script to scrape information from github pages to avoid API usage
+- [20230925050125](/zet/20230925050125/README.md) git scripting hub
 
 Tags:
 
