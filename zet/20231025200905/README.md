@@ -61,6 +61,7 @@
 - [20221008042814](/zet/20221008042814/README.md) WIP
 - [20221006013313](/zet/20221006013313/README.md) zettelkasten
 - [20231025215645](/zet/20231025215645/README.md) my blog
+- [20231201154515](/zet/20231201154515/README.md) findings from converting to zettelkasten and converting formats
 
 Tags:
 
