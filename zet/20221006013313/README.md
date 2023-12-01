@@ -29,6 +29,7 @@
 - [20230922210126](/zet/20230922210126/README.md) cards i have cleaned up
 - [20230922214323](/zet/20230922214323/README.md) this environment
 - [20231025200905](/zet/20231025200905/README.md) zettelkasten to blog conversion hub
+- [20231201154515](/zet/20231201154515/README.md) findings from converting to zettelkasten and converting formats
 
 Tags:
 
