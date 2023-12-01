@@ -8,3 +8,4 @@
 - [20231005211810](/zet/20231005211810/README.md) script to sync only markdown files from zk to github
 - [20231025200905](/zet/20231025200905/README.md) zettelkasten to blog conversion hub
 - [20231121064457](/zet/20231121064457/README.md) merge note functionality for zkvr
+- [20231201154515](/zet/20231201154515/README.md) findings from converting to zettelkasten and converting formats

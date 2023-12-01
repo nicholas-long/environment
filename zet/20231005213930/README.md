@@ -184,6 +184,7 @@
 20231128160825 cross platform scripts to implement broken zkvr features on mac os
 20231129161540 copy or jump to recently edited files feature
 20231130231902 things to learn about
+20231201154515 findings from converting to zettelkasten and converting formats
 ```
 
 ` zet/20231005213930/README.md `
