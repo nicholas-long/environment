@@ -18,7 +18,6 @@ stuff i am working on.
 - [20230922214602](/zet/20230922214602/README.md) things i want to implement in zkvr after working on the environment
 - [20230922220109](/zet/20230922220109/README.md) create a dockerfile for this environment
 - [20230916125222](/zet/20230916125222/README.md) tmux scripts directory
-- [20230925050125](/zet/20230925050125/README.md) git scripting hub
 - [20230927152827](/zet/20230927152827/README.md) reverse engineering obsidian to create an obsidian sync cli tool
 - [20230926224444](/zet/20230926224444/README.md) updating scripts to use gawk when possible
 - [20230929153207](/zet/20230929153207/README.md) computer science experiments hub

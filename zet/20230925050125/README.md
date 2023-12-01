@@ -38,7 +38,6 @@ zet/20230925050125/pull-all-git-repos.sh references executable file git-enum-rep
 
 # Related
 
-- [20221008042814](/zet/20221008042814/README.md) WIP
 - [20230929054003](/zet/20230929054003/README.md) bash scripting simple program template parsing arguments with case statement
 - [20231112170729](/zet/20231112170729/README.md) script to get remote github URL from git repository
 - [20221007193324](/zet/20221007193324/README.md) github actions
