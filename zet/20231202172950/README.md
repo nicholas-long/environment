@@ -11,6 +11,11 @@ grep -R '#hacking' | cut -d : -f 1 | sort -u | wc -l
 841
 ```
 
+- create a list of files
+```bash
+grep -R '#hacking' ~/zkmirror/ | cut -d : -f 1 | sort -u > hacking-notes-list
+```
+
 ` zet/20231202172950/README.md `
 
 # Related
