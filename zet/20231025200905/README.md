@@ -62,6 +62,7 @@
 - [20221006013313](/zet/20221006013313/README.md) zettelkasten
 - [20231025215645](/zet/20231025215645/README.md) my blog
 - [20231201154515](/zet/20231201154515/README.md) findings from converting to zettelkasten and converting formats
+- [20231202172950](/zet/20231202172950/README.md) converting hacking notes to zkvr
 
 Tags:
 
