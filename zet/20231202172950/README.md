@@ -2,8 +2,9 @@
 
 - concept of `converting hacking notes to zkvr`
 - i want them on github
-- i can still link to thinks in my notes directly from a zkvr repo
+- i can still link to things in my notes directly from a zkvr repo
 
+- count of unique files that have this tag
 ```bash
 grep -R '#hacking' | cut -d : -f 1 | sort -u | wc -l
 841
