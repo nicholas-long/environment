@@ -4,6 +4,8 @@
 - i want them on github
 - i can still link to things in my notes directly from a zkvr repo
 - can use [obsidian links scripts](/zet/20230919153113/README.md)  to get links
+- i need private notes for hacking boxes
+- i can release retired machine notes as blog posts
 
 - count of unique files that have this tag
 ```bash
