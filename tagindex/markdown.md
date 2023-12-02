@@ -11,3 +11,4 @@
 - [20231025200754](/zet/20231025200754/README.md) script to update obsidian internal links in markdown
 - [20231025200905](/zet/20231025200905/README.md) zettelkasten to blog conversion hub
 - [20231121064457](/zet/20231121064457/README.md) merge note functionality for zkvr
+- [20231202172950](/zet/20231202172950/README.md) converting hacking notes to zkvr

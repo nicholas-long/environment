@@ -1,1 +1,2 @@
 - [20231201154515](/zet/20231201154515/README.md) findings from converting to zettelkasten and converting formats
+- [20231202172950](/zet/20231202172950/README.md) converting hacking notes to zkvr

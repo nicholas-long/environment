@@ -14,6 +14,7 @@ grep -R '#hacking' | cut -d : -f 1 | sort -u | wc -l
 # Related
 
 - [20231201154515](/zet/20231201154515/README.md) findings from converting to zettelkasten and converting formats
+- [20221012171100](/zet/20221012171100/README.md) recently created nodes hub
 
 Tags:
 
