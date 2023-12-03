@@ -13,7 +13,6 @@ stuff i am working on.
 - [20221006213953](/zet/20221006213953/README.md) video notes
 - [20221009192000](/zet/20221009192000/README.md) stuff to put on main page
 - [20221007044552](/zet/20221007044552/README.md) todo or to-try list
-- [20221008061845](/zet/20221008061845/README.md) workflow
 - [20230922214323](/zet/20230922214323/README.md) this environment
 - [20230922214602](/zet/20230922214602/README.md) things i want to implement in zkvr after working on the environment
 - [20230922220109](/zet/20230922220109/README.md) create a dockerfile for this environment

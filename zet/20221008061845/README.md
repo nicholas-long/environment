@@ -12,7 +12,6 @@
 
 - [20221012144502](/zet/20221012144502/README.md) track modification dates
 - [20221006213953](/zet/20221006213953/README.md) video notes
-- [20221008042814](/zet/20221008042814/README.md) WIP
 - [20221007044552](/zet/20221007044552/README.md) todo or to-try list
 - [20221101043303](/zet/20221101043303/README.md) important zkvr features and workflow tricks to mention on main page
 - [20230905210416](/zet/20230905210416/README.md) fast file manager fff
