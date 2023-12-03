@@ -28,6 +28,7 @@ stuff i am working on.
 - [20231122231545](/zet/20231122231545/README.md) publishing fsdb to github as a standalone project in a repository
 - [20231130231902](/zet/20231130231902/README.md) things to learn about
 - [20231202172950](/zet/20231202172950/README.md) converting hacking notes to zkvr
+- [20231203212512](/zet/20231203212512/README.md) TUCTF23 blog post about git blob analysis forensics challenge
 
 Tags:
 
