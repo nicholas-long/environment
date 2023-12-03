@@ -76,6 +76,7 @@ ln -s zet/20221013221136/graphquery ./graphquery
 - [20221014025416](/zet/20221014025416/README.md) clone a subsection of a graph by tag boundaries
 - [20230919153113](/zet/20230919153113/README.md) obsidian links scripts
 - [20230926224444](/zet/20230926224444/README.md) updating scripts to use gawk when possible
+- [20231122214039](/zet/20231122214039/README.md) stuff i should blog about
 
 Tags:
 
