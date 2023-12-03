@@ -259,6 +259,10 @@ vmap <Right> :m'}-1<Enter>
 nmap <Space>m :m
 vmap m :m
 
+" useful visual mode quoting
+vmap " di""<Esc>P
+vmap ` di``<Esc>P
+
 " insert at top
 nmap <Space>I :0<Enter>O
 nmap <Space>A :$<Enter>o
