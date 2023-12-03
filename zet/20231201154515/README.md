@@ -12,6 +12,10 @@
   - i like that there are one way links supported in obsidian but that backlinks are also visible as needed
   - otoh, 2 way links can keep things from getting lost. i think they are perfect for a medium to large sized project.
 - obsidian already has a great workflow for working on your phone, so it is foolish to try to only ever work in the terminal
+- it is practical to use different things on different devices such as using Obsidian on my phone and using ZKVR in the Linux terminal
+  - private zk - Obsidian
+  - private hacking/development notes - zkvr
+  - public environment - zkvr
 
 ```
 ```

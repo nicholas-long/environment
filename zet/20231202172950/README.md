@@ -1,6 +1,10 @@
 # converting hacking notes to zkvr
 
 - concept of `converting hacking notes to zkvr`
+- it is practical to use different things on different devices such as using Obsidian on my phone and using ZKVR in the Linux terminal
+  - private zk - Obsidian
+  - private hacking/development notes - zkvr
+  - public environment - zkvr
 - i want them on github
 - i can still link to things in my notes directly from a zkvr repo
 - can use [obsidian links scripts](/zet/20230919153113/README.md)  to get links
