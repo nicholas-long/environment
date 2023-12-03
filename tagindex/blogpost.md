@@ -1,3 +1,4 @@
 - [20231116151546](/zet/20231116151546/README.md) how to implement a modular subcommand with lightweight scripts - ideas for a blog post
 - [20231117071155](/zet/20231117071155/README.md) testing automatic blog post creation with ChatGPT
 - [20231122214039](/zet/20231122214039/README.md) stuff i should blog about
+- [20231203212512](/zet/20231203212512/README.md) TUCTF23 blog post about git blob analysis forensics challenge
