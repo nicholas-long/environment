@@ -1,5 +1,6 @@
 # stuff i should blog about
 
+- [20221013221136](/zet/20221013221136/README.md) graph query language for zettelkasten
 - cyberdecks reviews and how to set them up
   - one mix netbook - find link for historical purposes, no longer for sale
   - devterm - they have a website
@@ -57,6 +58,7 @@
 - [20230928175434](/zet/20230928175434/README.md) tandy project notes and scripts for old machine project
 - [20231116151546](/zet/20231116151546/README.md) how to implement a modular subcommand with lightweight scripts - ideas for a blog post
 - [20230906032330](/zet/20230906032330/README.md) ascii art splash screen
+- [20221013221136](/zet/20221013221136/README.md) graph query language for zettelkasten
 
 Tags:
 
