@@ -14,6 +14,7 @@ alias work='cd ~/workspace && ./zkvr'
 
 - [20231201154515](/zet/20231201154515/README.md) findings from converting to zettelkasten and converting formats
 - [20221006013313](/zet/20221006013313/README.md) zettelkasten
+- [20221012171100](/zet/20221012171100/README.md) recently created nodes hub
 
 Tags:
 

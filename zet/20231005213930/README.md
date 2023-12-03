@@ -186,6 +186,7 @@
 20231130231902 things to learn about
 20231201154515 findings from converting to zettelkasten and converting formats
 20231202172950 converting hacking notes to zkvr
+20231203041218 private workspace
 ```
 
 ` zet/20231005213930/README.md `
