@@ -26,6 +26,7 @@ grep -R '#hacking' ~/zkmirror/ | cut -d : -f 1 | sort -u > hacking-notes-list
 - [20221012171100](/zet/20221012171100/README.md) recently created nodes hub
 - [20231025200905](/zet/20231025200905/README.md) zettelkasten to blog conversion hub
 - [20230919153113](/zet/20230919153113/README.md) obsidian links scripts
+- [20221008042814](/zet/20221008042814/README.md) WIP
 
 Tags:
 

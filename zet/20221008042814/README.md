@@ -28,6 +28,7 @@ stuff i am working on.
 - [20221013021614](/zet/20221013021614/README.md) zkvr terminal graph browser
 - [20231122231545](/zet/20231122231545/README.md) publishing fsdb to github as a standalone project in a repository
 - [20231130231902](/zet/20231130231902/README.md) things to learn about
+- [20231202172950](/zet/20231202172950/README.md) converting hacking notes to zkvr
 
 Tags:
 
