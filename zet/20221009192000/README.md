@@ -11,6 +11,7 @@ Missing:
 - [20231114070621](/zet/20231114070621/README.md) script for chatGPT prompt to select tags for documents automatically #ai #meta
 Extra:
 - [20221012171100](/zet/20221012171100/README.md) recently created nodes hub #hub
+- [20221031092923](/zet/20221031092923/README.md) template for video notes #templatemain #videonotes #notes
 ```
 
 ` zet/20221009192000/README.md `

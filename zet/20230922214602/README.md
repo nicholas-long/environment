@@ -56,6 +56,7 @@ cp -r zet/20230925055222 ~/zkvr/zet/
 - [20231121064457](/zet/20231121064457/README.md) merge note functionality for zkvr
 - [20221007193324](/zet/20221007193324/README.md) github actions
 - [20231128160825](/zet/20231128160825/README.md) cross platform scripts to implement broken zkvr features on mac os
+- [20221101043303](/zet/20221101043303/README.md) important zkvr features and workflow tricks to mention on main page
 
 Tags:
 

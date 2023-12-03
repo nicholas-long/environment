@@ -40,6 +40,7 @@ zet/20231121064457/merge-markdown-related-links zet/20231121064457/README.md zet
 - [20231122214039](/zet/20231122214039/README.md) stuff i should blog about
 - [20231114070621](/zet/20231114070621/README.md) script for chatGPT prompt to select tags for documents automatically
 - [20230925193834](/zet/20230925193834/README.md) testing on mac os
+- [20221101043303](/zet/20221101043303/README.md) important zkvr features and workflow tricks to mention on main page
 
 Tags:
 
