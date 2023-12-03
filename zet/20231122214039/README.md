@@ -59,6 +59,7 @@
 - [20231116151546](/zet/20231116151546/README.md) how to implement a modular subcommand with lightweight scripts - ideas for a blog post
 - [20230906032330](/zet/20230906032330/README.md) ascii art splash screen
 - [20221013221136](/zet/20221013221136/README.md) graph query language for zettelkasten
+- [20231203212512](/zet/20231203212512/README.md) TUCTF23 blog post about git blob analysis forensics challenge
 
 Tags:
 

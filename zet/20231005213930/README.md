@@ -187,6 +187,7 @@
 20231201154515 findings from converting to zettelkasten and converting formats
 20231202172950 converting hacking notes to zkvr
 20231203041218 private workspace
+20231203212512 TUCTF23 blog post about git blob analysis forensics challenge
 ```
 
 ` zet/20231005213930/README.md `

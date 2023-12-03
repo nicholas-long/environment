@@ -43,6 +43,7 @@ zet/20230925050125/pull-all-git-repos.sh references executable file git-enum-rep
 - [20221007193324](/zet/20221007193324/README.md) github actions
 - [20231023142155](/zet/20231023142155/README.md) script to scrape information from github pages to avoid API usage
 - [20230905030303](/zet/20230905030303/README.md) script to get github release links
+- [20231203212512](/zet/20231203212512/README.md) TUCTF23 blog post about git blob analysis forensics challenge
 
 Tags:
 
