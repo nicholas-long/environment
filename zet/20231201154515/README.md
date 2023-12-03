@@ -28,6 +28,7 @@
 - [20221012171100](/zet/20221012171100/README.md) recently created nodes hub
 - [20231025200905](/zet/20231025200905/README.md) zettelkasten to blog conversion hub
 - [20231202172950](/zet/20231202172950/README.md) converting hacking notes to zkvr
+- [20231203041218](/zet/20231203041218/README.md) private workspace shortcut
 
 Tags:
 
