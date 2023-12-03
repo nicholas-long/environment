@@ -35,6 +35,7 @@ BEGINFILE {
   }
 }
 ENDFILE {
+  printedstuff = 0
   tagline = ""
   for (t in tags) { tagline = tagline " " t }
   for (i = 0; i < ndx; i++) {
