@@ -10,6 +10,10 @@
   - do i need to run the install scripts in the github docker?
 
 ```diff
+2c2
+< 11d6c4ac0b066a6ae90befae47559fba  zet/20221006032546/zetcmd
+---
+> 0ec96ae252216e09532f139d2564ce31  zet/20221006032546/zetcmd
 ```
 
 ` zet/20231001082012/README.md `
