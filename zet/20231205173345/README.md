@@ -3,6 +3,8 @@
 - need to run chisel in a loop on target client machines so that it reconnects if it dies
 - there should be a service to do this here
 - credentials and ports are required so there should be a config file on every machine that can be specific to ports for that machine
+  - how about `$HOME/.chiselsetup`
+- created script `zet/20231205173345/chiselpivot` to run this in a loop
 
 ```
 ```

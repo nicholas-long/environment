@@ -1,0 +1,10 @@
+#!/bin/bash
+
+# script to reconnect continuously with chisel in order to expose ssh on a client computer through a chisel server
+configfile="$HOME/.chiselsetup"
+
+while [ 1 ]; do
+  # need variables creds and port
+  source "$configfile"
+  chisel client --auth "$creds" nicklong.xyz:9000 "R:$port:127.0.0.1:22"
+done
