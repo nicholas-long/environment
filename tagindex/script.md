@@ -89,3 +89,4 @@
 - [20231122213142](/zet/20231122213142/README.md) script to describe other scripts based on their comments
 - [20231128160825](/zet/20231128160825/README.md) cross platform scripts to implement broken zkvr features on mac os
 - [20231129161540](/zet/20231129161540/README.md) copy or jump to recently edited files feature
+- [20231205173345](/zet/20231205173345/README.md) chisel continuous ssh tunnel script
