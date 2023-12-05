@@ -6,7 +6,10 @@
   - how about `$HOME/.chiselsetup`
 - created script `zet/20231205173345/chiselpivot` to run this in a loop
 
-```
+- example config file
+```bash
+creds="username:SUPER_SECRET_PASSWRD"
+port=9001
 ```
 
 ` zet/20231205173345/README.md `
