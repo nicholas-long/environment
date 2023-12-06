@@ -1,0 +1,4 @@
+#!/bin/bash
+
+tmux set -g prefix C-A
+tmux bind C-A send-prefix
