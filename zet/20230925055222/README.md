@@ -5,6 +5,8 @@
 - i tried pasting the grep results togeher with the graphquery results, but that didn't work because the graphquery only returns unique results.
 
 ```markdown
+zet/20231206225901/README.md:- [ ] finish this
+- [20231206225901](/zet/20231206225901/README.md) script to fuzzy search blog posts to get links #idea
 ```
 
 ` zet/20230925055222/README.md `

@@ -190,6 +190,7 @@
 20231203212512 TUCTF23 blog post about git blob analysis forensics challenge
 20231205173345 chisel continuous ssh tunnel script
 20231206002013 webssh environment issues
+20231206225901 script to fuzzy search blog posts to get links
 ```
 
 ` zet/20231005213930/README.md `
