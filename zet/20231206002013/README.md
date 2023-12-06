@@ -6,6 +6,7 @@
 - created script `zet/20231206002013/fix-tmux-hotkey` to change hotkey back
   - added to bashrc as shortcut
 
+- this works to change the hotkey back and forth between Ctrl-A and Ctrl-Space
 ```bash
 fixtmux on
 fixtmux off
