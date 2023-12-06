@@ -1,2 +1,3 @@
 - [20230922222809](/zet/20230922222809/README.md) getting rid of on-screen keyboard
 - [20230930224454](/zet/20230930224454/README.md) problems encountered with zkvr while testing this environment
+- [20231206002013](/zet/20231206002013/README.md) webssh environment issues

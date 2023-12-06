@@ -53,6 +53,7 @@ grep 'kb' zet/20230905015107/tmux.conf
 - [20230914030626](/zet/20230914030626/README.md) tmux pwn menu script for hacking reverse shells and file transfer commands
 - [20230916125222](/zet/20230916125222/README.md) tmux scripts directory
 - [20230925193834](/zet/20230925193834/README.md) testing on mac os
+- [20231206002013](/zet/20231206002013/README.md) webssh environment issues
 
 Tags:
 

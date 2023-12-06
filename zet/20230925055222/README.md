@@ -5,6 +5,8 @@
 - i tried pasting the grep results togeher with the graphquery results, but that didn't work because the graphquery only returns unique results.
 
 ```markdown
+zet/20231206002013/README.md:- [ ] tmux hotkey does not work. need a backup to convert it to ctrl-b.
+- [20231206002013](/zet/20231206002013/README.md) webssh environment issues #broken #terminal
 ```
 
 ` zet/20230925055222/README.md `
