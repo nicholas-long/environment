@@ -6,7 +6,7 @@
 
 ```markdown
 zet/20231206002013/README.md:- [ ] tmux hotkey does not work. need a backup to convert it to ctrl-b.
-- [20231206002013](/zet/20231206002013/README.md) webssh environment issues #broken #terminal
+- [20231206002013](/zet/20231206002013/README.md) webssh environment issues #broken #terminal #shortcmd
 ```
 
 ` zet/20230925055222/README.md `
