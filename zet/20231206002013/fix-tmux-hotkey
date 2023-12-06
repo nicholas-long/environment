@@ -1,4 +1,9 @@
 #!/bin/bash
 
-tmux set -g prefix C-A
-tmux bind C-A send-prefix
+if [[ "$1" == "off" ]]; then
+  tmux set -g prefix C-Space
+  tmux bind C-Space send-prefix
+else
+  tmux set -g prefix C-A
+  tmux bind C-A send-prefix
+fi

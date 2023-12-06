@@ -6,7 +6,9 @@
 - created script `zet/20231206002013/fix-tmux-hotkey` to change hotkey back
   - added to bashrc as shortcut
 
-```
+```bash
+fixtmux on
+fixtmux off
 ```
 
 ` zet/20231206002013/README.md `
@@ -20,4 +22,4 @@
 
 Tags:
 
-    #broken #terminal
+    #broken #terminal #shortcmd
