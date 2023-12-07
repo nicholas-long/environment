@@ -487,7 +487,12 @@ while [ 1 == "$going" ]; do
     timestamp=$(date -u +%Y%m%d%H%M%S)
     dir=$(echo "$doc" | awk 'BEGIN{FS=OFS="/"}{NF--;print}')
     filename="$dir/screenshot-$timestamp.png"
-    xclip -selection c -t image/png -o > "$filename"
+    if [[ $(uname) =~ Darwin ]]; then
+      screenshotfile=$(ls ~/Desktop/Screenshot* | sort | tail -n 1)
+      cp "$screenshotfile" "$filename"
+    else
+      xclip -selection c -t image/png -o > "$filename"
+    fi
   fi
 done
 rm "$selection"

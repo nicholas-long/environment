@@ -11,6 +11,7 @@
 ```bash
 xclip -selection c -t image/png -o | file -
 date +%s
+ls ~/Desktop/Screenshot* | sort | tail -n 1
 ```
 
 ` zet/20231207155238/README.md `
