@@ -86,6 +86,7 @@ while [ 1 == "$going" ]; do
     print "/search"
     print "back"
     print "fuzz"
+    print "clipimage"
     if (doc != "README.md") {
       id = doc
       gsub(/^zet\//,"",id)
@@ -482,6 +483,11 @@ while [ 1 == "$going" ]; do
         ./zc addref -t $id $nextid
       fi
     fi
+  elif [ "$act" == "clipimage" ]; then
+    timestamp=$(date +%s)
+    dir=$(echo "$doc" | awk 'BEGIN{FS=OFS="/"}{NF--;print}')
+    filename="$dir/screenshot-$timestamp.png"
+    xclip -selection c -t image/png -o > "$filename"
   fi
 done
 rm "$selection"

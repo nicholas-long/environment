@@ -1,4 +1,4 @@
-# script to move downloads and screenshots to current directory
+# script to move downloads and screenshots from clipboard to current directory
 
 - concept of `script to move downloads and screenshots to current directory`
 
