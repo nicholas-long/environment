@@ -59,6 +59,9 @@ alias fixtmux='$ENVIRON_BASEPATH/zet/20231206002013/fix-tmux-hotkey'
 if [ -d "$HOME/go/bin" ]; then
   export PATH="$PATH:$HOME/go/bin"
 fi
+if [ -d "$HOME/.dotnet" ]; then
+  export PATH="$PATH:$HOME/.dotnet"
+fi
 export PATH="$PATH:$ENVIRON_BASEPATH/shortcuts"
 if [ -f ~/.variables.sh ]; then
   source ~/.variables.sh
