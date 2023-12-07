@@ -94,6 +94,7 @@ zet/20221013021614/getcopycontent zet/20221013021614/README.md
 - [20231116151546](/zet/20231116151546/README.md) how to implement a modular subcommand with lightweight scripts - ideas for a blog post
 - [20231128160825](/zet/20231128160825/README.md) cross platform scripts to implement broken zkvr features on mac os
 - [20231129161540](/zet/20231129161540/README.md) copy or jump to recently edited files feature
+- [20231207171853](/zet/20231207171853/README.md) test screenshot of zkvr
 
 Tags:
 
