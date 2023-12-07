@@ -31,6 +31,7 @@ sudo cp -r public/* /var/www/html/
 - [20231117071155](/zet/20231117071155/README.md) testing automatic blog post creation with ChatGPT
 - [20231025200905](/zet/20231025200905/README.md) zettelkasten to blog conversion hub
 - [20231122214039](/zet/20231122214039/README.md) stuff i should blog about
+- [20231206225901](/zet/20231206225901/README.md) script to fuzzy search blog posts to get links
 
 Tags:
 
