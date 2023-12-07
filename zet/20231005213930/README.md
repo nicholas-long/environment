@@ -192,6 +192,7 @@
 20231206002013 webssh environment issues
 20231206225901 script to fuzzy search blog posts to get links
 20231207155238 script to move downloads and screenshots from clipboard to current directory
+20231207171853 test screenshot of zkvr
 ```
 
 ` zet/20231005213930/README.md `
