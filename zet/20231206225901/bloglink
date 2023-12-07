@@ -1,0 +1,11 @@
+#!/bin/bash
+
+# get in blog to fix paths
+# get in content dir because it is not part of path
+cd ~/blog/content
+find posts -name '*.md' | fzf | awk '
+{
+  gsub(/.md$/,"/")
+  print "https://nicklong.xyz/" $0
+}
+'

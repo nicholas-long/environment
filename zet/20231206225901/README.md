@@ -2,7 +2,7 @@
 
 - when i talk to someone and i want to link to a specific blog post
 - get links
-- [ ] finish this
+- [x] finish this
 
 ```bash
 find ~/blog/content -name '*.md'
@@ -14,7 +14,8 @@ find ~/blog/content -name '*.md'
 
 - [20221008042814](/zet/20221008042814/README.md) WIP
 - [20221012171100](/zet/20221012171100/README.md) recently created nodes hub
+- [20231025215645](/zet/20231025215645/README.md) my blog
 
 Tags:
 
-    #idea
+    #script #url
