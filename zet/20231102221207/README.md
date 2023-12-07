@@ -21,7 +21,7 @@ export OPENAI_API_TOKEN="..."
 ```
 
 ## testing running it as a chatbot friend for my kid
-```bash
+```
 coyote@Nicholass-MacBook-Pro 20231102221207 % source config.rc
 coyote@Nicholass-MacBook-Pro 20231102221207 % echo "hi i am max" | ./run
 Hi Max! It's nice to meet you. What would you like to talk about?
