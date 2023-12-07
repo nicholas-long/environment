@@ -6,7 +6,7 @@
 - [x] where do screenshots go on linux?
   - print screen copies them to the clipboard
 - [x] on mac, screenshots go on the desktop
-- [ ] add as feature to zkvr
+- [x] add as feature to zkvr
 
 ```bash
 xclip -selection c -t image/png -o | file -
