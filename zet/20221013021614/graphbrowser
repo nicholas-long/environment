@@ -29,6 +29,19 @@ if [ "$1" == "video" ]; then
     zet/$IMPL/previewgit
   elif [[ "$3" =~ ^edit ]]; then
     editdoc=$(echo "$3" | awk '{print $2}')
+    if [[ $editdoc =~ png$ ]]; then
+      if which tesseract 2>/dev/null >/dev/null; then
+        echo "Image Preview"
+        echo "-------------"
+        zkpath=$(pwd)
+        tf=$(mktemp -d)
+        cd $tf
+        tesseract "$zkpath/$editdoc" output 2>/dev/null
+        cat output.txt
+        cd - >/dev/null
+        rm -rf $tf
+      fi
+    fi
     bat --style=plain --color=always "$editdoc"
   elif [ "$2" == "preview" ]; then
     selid=$(echo "$3" | implementation/parseids)

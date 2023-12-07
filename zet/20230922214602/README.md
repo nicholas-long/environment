@@ -15,7 +15,7 @@
 - [x] [merge note functionality for zkvr](/zet/20231121064457/README.md)
 - changes from [20231128160825](/zet/20231128160825/README.md) cross platform scripts to implement broken zkvr features on mac os
 - [x] fix having a nested git repo causes weird tag metadata issues - example is git ctf challenge card in private zk, extract tar
-- [ ] preview images with tesseract optionally if it is installed
+- [x] preview images with tesseract optionally if it is installed
 
 - commands to sync new code changes to zkvr
 ```bash
