@@ -5,6 +5,8 @@
 - i tried pasting the grep results togeher with the graphquery results, but that didn't work because the graphquery only returns unique results.
 
 ```markdown
+zet/20231207155238/README.md:- [ ] add as feature to zkvr
+- [20231207155238](/zet/20231207155238/README.md) script to move downloads and screenshots to current directory #script #shortcmd
 ```
 
 ` zet/20230925055222/README.md `
