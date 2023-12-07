@@ -5,8 +5,6 @@
 - i tried pasting the grep results togeher with the graphquery results, but that didn't work because the graphquery only returns unique results.
 
 ```markdown
-zet/20230922214602/README.md:- [ ] preview images with tesseract optionally if it is installed
-- [20230922214602](/zet/20230922214602/README.md) things i want to implement in zkvr after working on the environment #list
 ```
 
 ` zet/20230925055222/README.md `

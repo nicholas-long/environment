@@ -10,8 +10,8 @@
   - do i need to run the install scripts in the github docker?
 
 ```diff
-12d11
-< 75d602ed8c0a5e59f437779508b426da  zet/20221013021614/graphbrowser
+6d5
+< 22310922314cdd2f248deb87e9a32b81  zet/20221013021614/graphbrowser
 14a14
 > 7f105b97767c9427f61d14cc412361f9  zet/20221013021614/graphbrowser
 ```
