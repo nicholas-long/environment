@@ -1,0 +1,6 @@
+#!/bin/bash
+
+f=$(find ~/Desktop -type f | fzf)
+if [ ! -z "$f" ]; then
+  cp "$f" .
+fi

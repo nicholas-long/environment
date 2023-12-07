@@ -1,0 +1,5 @@
+#!/bin/bash
+
+timestamp=$(date +%s)
+filename="screenshot-$timestamp.png"
+xclip -selection c -t image/png -o > "$filename"
