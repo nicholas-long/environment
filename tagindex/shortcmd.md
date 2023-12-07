@@ -37,3 +37,4 @@
 - [20231103204105](/zet/20231103204105/README.md) openai chatgpt CLI command
 - [20231112170729](/zet/20231112170729/README.md) script to get remote github URL from git repository
 - [20231206002013](/zet/20231206002013/README.md) webssh environment issues
+- [20231206225901](/zet/20231206225901/README.md) script to fuzzy search blog posts to get links

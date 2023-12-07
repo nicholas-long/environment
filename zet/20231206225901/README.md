@@ -18,4 +18,4 @@ find ~/blog/content -name '*.md'
 
 Tags:
 
-    #script #url
+    #script #url #shortcmd
