@@ -91,4 +91,4 @@
 - [20231129161540](/zet/20231129161540/README.md) copy or jump to recently edited files feature
 - [20231205173345](/zet/20231205173345/README.md) chisel continuous ssh tunnel script
 - [20231206225901](/zet/20231206225901/README.md) script to fuzzy search blog posts to get links
-- [20231207155238](/zet/20231207155238/README.md) script to move downloads and screenshots to current directory
+- [20231207155238](/zet/20231207155238/README.md) script to move downloads and screenshots from clipboard to current directory

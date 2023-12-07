@@ -6,7 +6,7 @@
 
 ```markdown
 zet/20231207155238/README.md:- [ ] add as feature to zkvr
-- [20231207155238](/zet/20231207155238/README.md) script to move downloads and screenshots to current directory #script #shortcmd
+- [20231207155238](/zet/20231207155238/README.md) script to move downloads and screenshots from clipboard to current directory #script #shortcmd
 ```
 
 ` zet/20230925055222/README.md `
