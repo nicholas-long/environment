@@ -1,6 +1,5 @@
 # my blog
 
-- concept of `my blog`
 - located at [my domain](https://nicklong.xyz)
 
 # testing hugo
@@ -14,9 +13,7 @@ testing links within hugo [link text]({{< ref "third" >}})
 
 # script for updating blog
 
-- concept of `script for updating blog`
-- call this from the server
-- i am unable to get the blog to build on the server. jekyll will not work when installed from ubuntu. i even tried it in a kali linux docker.
+- i set up a local service to call this from the server on demand when github calls a webhook
 
 ```bash
 # this works but it should be cleaned out too
