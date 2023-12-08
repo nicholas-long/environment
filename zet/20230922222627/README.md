@@ -1,7 +1,5 @@
 # testing environment on netbook
 
-- concept of `testing environment on netbook`
-- using normal vim so i can test the lightweight keybinds
 - need to get rid of on-screen keyboard
   - [20230922222809](/zet/20230922222809/README.md) getting rid of on-screen keyboard
 - i can work on it for a couple hours and it is still at 60%
@@ -12,6 +10,7 @@
 ```bash
 git clone https://github.com/sezanzeb/input-remapper.git
 ```
+- regularly crashes when receiving touch input on the menu bar in gnome.
 
 ` zet/20230922222627/README.md `
 
