@@ -4,3 +4,4 @@
 - [20231001082012](/zet/20231001082012/README.md) automatically keeping track of changes to zkvr binaries
 - [20231112170729](/zet/20231112170729/README.md) script to get remote github URL from git repository
 - [20231121064457](/zet/20231121064457/README.md) merge note functionality for zkvr
+- [20231207171853](/zet/20231207171853/README.md) test screenshot of zkvr

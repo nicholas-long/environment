@@ -85,7 +85,6 @@
 - [20231024041243](/zet/20231024041243/README.md) API queue server implemented in python
 - [20231025200754](/zet/20231025200754/README.md) script to update obsidian internal links in markdown
 - [20231112170729](/zet/20231112170729/README.md) script to get remote github URL from git repository
-- [20231122053807](/zet/20231122053807/README.md) fsdb implementation details
 - [20231122213142](/zet/20231122213142/README.md) script to describe other scripts based on their comments
 - [20231128160825](/zet/20231128160825/README.md) cross platform scripts to implement broken zkvr features on mac os
 - [20231129161540](/zet/20231129161540/README.md) copy or jump to recently edited files feature
