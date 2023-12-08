@@ -3,6 +3,7 @@
 - concept of `wordlists for pentesting`
 - also putting scripts that generate wordlists (like dates and stuff) in here
 - script to generate common passwords `zet/20230925052317/generate-common-passwords.sh`
+- date script appears broken
 
 ```bash
 /home/coyote/kb/wordlists/active_directory_brute # simple season and year wordlist plus some simple passwords
