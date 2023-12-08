@@ -18,6 +18,7 @@ port=9001
 
 - [20221012171100](/zet/20221012171100/README.md) recently created nodes hub
 - [20231206002013](/zet/20231206002013/README.md) webssh environment issues
+- [20230922222627](/zet/20230922222627/README.md) testing environment on netbook
 
 Tags:
 
