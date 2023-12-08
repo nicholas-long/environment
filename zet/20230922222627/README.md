@@ -20,6 +20,7 @@ git clone https://github.com/sezanzeb/input-remapper.git
 - [20230922214323](/zet/20230922214323/README.md) this environment
 - [20230922222809](/zet/20230922222809/README.md) getting rid of on-screen keyboard
 - [20231005211810](/zet/20231005211810/README.md) script to sync only markdown files from zk to github
+- [20231205173345](/zet/20231205173345/README.md) chisel continuous ssh tunnel script
 
 Tags:
 
