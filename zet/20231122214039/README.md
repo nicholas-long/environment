@@ -60,6 +60,7 @@
 - [20230906032330](/zet/20230906032330/README.md) ascii art splash screen
 - [20221013221136](/zet/20221013221136/README.md) graph query language for zettelkasten
 - [20231203212512](/zet/20231203212512/README.md) TUCTF23 blog post about git blob analysis forensics challenge
+- [20231209171536](/zet/20231209171536/README.md) iOS siri shortcuts
 
 Tags:
 
