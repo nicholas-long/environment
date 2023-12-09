@@ -16,6 +16,7 @@ zet/20221012171100/README.md
 - [20231206225901](/zet/20231206225901/README.md) script to fuzzy search blog posts to get links
 - [20231207155238](/zet/20231207155238/README.md) script to move downloads and screenshots from clipboard to current directory
 - [20231207171853](/zet/20231207171853/README.md) test screenshot of zkvr
+- [20231209171536](/zet/20231209171536/README.md) iOS siri shortcuts
 
 Tags:
 

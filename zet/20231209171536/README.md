@@ -25,6 +25,7 @@
 
 - [20231122214039](/zet/20231122214039/README.md) stuff i should blog about
 - [20221008061845](/zet/20221008061845/README.md) workflow
+- [20221012171100](/zet/20221012171100/README.md) recently created nodes hub
 
 Tags:
 

@@ -6,3 +6,4 @@
 - [20231001082012](/zet/20231001082012/README.md) automatically keeping track of changes to zkvr binaries
 - [20231005211810](/zet/20231005211810/README.md) script to sync only markdown files from zk to github
 - [20231129161540](/zet/20231129161540/README.md) copy or jump to recently edited files feature
+- [20231209171536](/zet/20231209171536/README.md) iOS siri shortcuts

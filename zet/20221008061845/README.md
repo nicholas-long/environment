@@ -24,6 +24,7 @@
 - [20221101052020](/zet/20221101052020/README.md) TODO: Your to-do list
 - [20231005213930](/zet/20231005213930/README.md) list of cards in order
 - [20231129161540](/zet/20231129161540/README.md) copy or jump to recently edited files feature
+- [20231209171536](/zet/20231209171536/README.md) iOS siri shortcuts
 
 Tags:
 
