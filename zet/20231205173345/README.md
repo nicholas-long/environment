@@ -1,5 +1,9 @@
 # chisel continuous ssh tunnel script
 
+- install chisel
+```bash
+go install github.com/jpillora/chisel@latest
+```
 - need to run chisel in a loop on target client machines so that it reconnects if it dies
 - there should be a service to do this here
 - credentials and ports are required so there should be a config file on every machine that can be specific to ports for that machine
