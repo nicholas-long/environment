@@ -22,6 +22,7 @@
 # Related
 
 - [20230929153207](/zet/20230929153207/README.md) computer science experiments hub
+- [20231212133828](/zet/20231212133828/README.md) building kerbrute for arm64
 
 Tags:
 
