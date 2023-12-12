@@ -194,6 +194,7 @@
 20231207155238 script to move downloads and screenshots from clipboard to current directory
 20231207171853 test screenshot of zkvr
 20231209171536 iOS siri shortcuts
+20231212133828 building kerbrute for arm64
 ```
 
 ` zet/20231005213930/README.md `

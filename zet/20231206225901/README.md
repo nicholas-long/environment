@@ -13,7 +13,6 @@ find ~/blog/content -name '*.md'
 # Related
 
 - [20221008042814](/zet/20221008042814/README.md) WIP
-- [20221012171100](/zet/20221012171100/README.md) recently created nodes hub
 - [20231025215645](/zet/20231025215645/README.md) my blog
 
 Tags:
