@@ -6,20 +6,9 @@
 - date script appears broken
 
 ```bash
-/home/coyote/kb/wordlists/active_directory_brute # simple season and year wordlist plus some simple passwords
-/home/coyote/kb/wordlists/etc.files # list of etc files from seclists project. could just link to project.
-/home/coyote/kb/wordlists/custom.dirbusting # my custom dirbusting list of things that sounded important and missing from existing lists
-
-cp /home/coyote/kb/wordlists/active_directory_brute /home/coyote/kb/wordlists/etc.files /home/coyote/kb/wordlists/custom.dirbusting .
-
-/home/parallels/kb/hacking/passwords/generate-common-passwords.sh # generate common passwords
-cp /home/parallels/kb/hacking/passwords/generate-common-passwords.sh .
-
-/home/parallels/kb/hacking/tricks/python-fuzz-valid-dates.py # fuzz valid dates
-cp /home/parallels/kb/hacking/tricks/python-fuzz-valid-dates.py .
-
-/home/parallels/kb/bash-scripting/generate-dates.sh # generate ISO format dates wordlists for the last few years
-cp /home/parallels/kb/bash-scripting/generate-dates.sh .
+$ENVIRON_BASEPATH/zet/20230925052317/custom.dirbusting
+feroxbuster --url http://$IP -w $ENVIRON_BASEPATH/zet/20230925052317/custom.dirbusting
+gobuster dir -u $URL -w "$ENVIRON_BASEPATH/zet/20230925052317/custom.dirbusting"
 ```
 
 ` zet/20230925052317/README.md `
