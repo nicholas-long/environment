@@ -17,7 +17,6 @@
 
 # Related
 
-- [20221012171100](/zet/20221012171100/README.md) recently created nodes hub
 - [20231117074621](/zet/20231117074621/README.md) automatic pentesting and hacking enumeration scripts
 - [20231122214039](/zet/20231122214039/README.md) stuff i should blog about
 

@@ -11,7 +11,6 @@ zet/20221012171100/README.md
 # Related
 
 - [20221012144502](/zet/20221012144502/README.md) track modification dates
-- [20231212133828](/zet/20231212133828/README.md) building kerbrute for arm64
 
 Tags:
 
