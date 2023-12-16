@@ -1,6 +1,8 @@
 # stuff i should blog about
 
 - [20221013221136](/zet/20221013221136/README.md) graph query language for zettelkasten
+- [20231212133828](/zet/20231212133828/README.md) building kerbrute for arm64
+  - short and sweet. talk about how other people had the same idea.
 - cyberdecks reviews and how to set them up
   - one mix netbook - find link for historical purposes, no longer for sale
   - devterm - they have a website
@@ -18,12 +20,15 @@
 - [20230927152827](/zet/20230927152827/README.md) reverse engineering obsidian to create an obsidian sync cli tool
 - iOS reminder and obsidian URL handler integration - workflow for tracking personal projects
 - 3d printing...
+  - wreath project with youtube video links
 - how to be a merchant and selling things on amazon
   - taking decent product photos with a lightbox and removing backgrounds
 - why everyone needs a set of clamps in their toolbox (with pictures of setting up jungle gym)
 - how to make a ratchet socket wrench attachment for drill bits
 - reiki
 - more about apple iOS shortcuts
+- htb boxes that have been retired
+  - find an API for this
 
 # things i am already done blogging about
 - apple shortcuts workflow automation
