@@ -9,7 +9,6 @@
 - [20231117071155](/zet/20231117071155/README.md) testing automatic blog post creation
   - mad science experiment that sounds cool
 - try out [20231121073930](/zet/20231121073930/README.md) script to crawl a website to generate knowledge base files for AI assistant
-  - is this a duplicate?
 - cool walkthrough idea [20231013173509](/zet/20231013173509/README.md) example of connecting to a work queue docker
 - cool trick from zet cmd implementation to find missing backlinks `zet/20221006032546/scanrefs`
   - is this blogworthy?
@@ -17,8 +16,6 @@
 - [20230928185944](/zet/20230928185944/README.md) script to package up program and debian dependencies a tar to install on a remote target machine
 - [20230920031249](/zet/20230920031249/README.md) script to search tldr commands by features to find ways to do things
 - [20230927152827](/zet/20230927152827/README.md) reverse engineering obsidian to create an obsidian sync cli tool
-- apple shortcuts workflow automation
-  - making a siri shortcut that does API calls (with screenshots)
 - iOS reminder and obsidian URL handler integration - workflow for tracking personal projects
 - 3d printing...
 - how to be a merchant and selling things on amazon
@@ -26,8 +23,11 @@
 - why everyone needs a set of clamps in their toolbox (with pictures of setting up jungle gym)
 - how to make a ratchet socket wrench attachment for drill bits
 - reiki
+- more about apple iOS shortcuts
 
 # things i am already done blogging about
+- apple shortcuts workflow automation
+  - making a siri shortcut that does API calls (with screenshots)
 - zkvr
 - this environment
 - a little bit about chatgpt
