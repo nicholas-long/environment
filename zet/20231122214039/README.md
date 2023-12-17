@@ -66,6 +66,7 @@
 - [20231203212512](/zet/20231203212512/README.md) TUCTF23 blog post about git blob analysis forensics challenge
 - [20231209171536](/zet/20231209171536/README.md) iOS siri shortcuts
 - [20231212133828](/zet/20231212133828/README.md) building kerbrute for arm64
+- [20231206225901](/zet/20231206225901/README.md) script to fuzzy search blog posts to get links
 
 Tags:
 

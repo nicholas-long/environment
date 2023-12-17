@@ -20,6 +20,8 @@ things that are finished.
 - [20231005211810](/zet/20231005211810/README.md) script to sync only markdown files from zk to github
 - [20230922203837](/zet/20230922203837/README.md) get rid of all platform specific binaries from zkvr
 - [20230905212307](/zet/20230905212307/README.md) important things from old install scripts and pen test environ that were copied to environment
+- [20231206225901](/zet/20231206225901/README.md) script to fuzzy search blog posts to get links
+- [20231207155238](/zet/20231207155238/README.md) script to move downloads and screenshots from clipboard to current directory
 
 Tags:
 
