@@ -1,6 +1,12 @@
 # things i want to implement in zkvr after working on the environment
 
 - could run a docker to enrich the links on mac os!
+  - [20230922220109](/zet/20230922220109/README.md) create a dockerfile for this environment
+  - build docker
+  - spawn a docker, entrypoint is script
+    - mount the current drectory
+    - run enrich step
+    - chown all root files back to the user's id
 - [x] fuzzy file search for opening and editing multiple files, any files in any directory
 - [x] copy current fixes back up to zkvr
   - 2023-09-29 copied in
@@ -60,6 +66,7 @@ cp -r zet/20230925055222 ~/zkvr/zet/
 - [20221007193324](/zet/20221007193324/README.md) github actions
 - [20231128160825](/zet/20231128160825/README.md) cross platform scripts to implement broken zkvr features on mac os
 - [20221101043303](/zet/20221101043303/README.md) important zkvr features and workflow tricks to mention on main page
+- [20230922220109](/zet/20230922220109/README.md) create a dockerfile for this environment
 
 Tags:
 

@@ -5,6 +5,8 @@
 - my workflow
   - zkvr
   - my environment
+  - obsidian
+- planning out my workflow (private workspace link): https://github.com/nicholas-long/workspace/blob/main/zet/20231203232410/README.md
 
 ` zet/20221008061845/README.md `
 
