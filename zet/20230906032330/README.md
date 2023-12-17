@@ -2,6 +2,7 @@
 
 - cat this file: `zet/20230906032330/splash`
 - script `zet/20230906032330/show-splash`
+- added randomized changing splash screens
 
 ```
 ```

@@ -1,6 +1,6 @@
 #!/bin/bash
 
-splashscreen="$ENVIRON_BASEPATH/zet/20230906032330/splash"
+splashscreen=$(ls $ENVIRON_BASEPATH/zet/20230906032330/splash? | shuf | head -n 1)
 cols=$(stty size | awk '{print $2}')
 
 if [ $cols -lt 70 ]; then
