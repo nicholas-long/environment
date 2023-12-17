@@ -1,8 +1,6 @@
 # stuff i should blog about
 
 - [20221013221136](/zet/20221013221136/README.md) graph query language for zettelkasten
-- [20231212133828](/zet/20231212133828/README.md) building kerbrute for arm64
-  - short and sweet. talk about how other people had the same idea.
 - cyberdecks reviews and how to set them up
   - one mix netbook - find link for historical purposes, no longer for sale
   - devterm - they have a website
@@ -44,6 +42,7 @@
 - [20230928133216](/zet/20230928133216/README.md) scripts to work with burpsuite saved requests and automatically generate python code
 - [20230906032330](/zet/20230906032330/README.md) how to do an ascii art splash screen
 - [20231007033903](/zet/20231007033903/README.md) script to extract text from every second of youtube video frames
+- [20231212133828](/zet/20231212133828/README.md) building kerbrute for arm64
 
 ```
 ```
