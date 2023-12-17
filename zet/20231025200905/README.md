@@ -7,6 +7,13 @@
   - pull together a list of all relevant cards to use as source material for blog post
   - link to these cards when writing blog so there are entrypoints to browse into zk from the blog
 
+## steps for starting blog post from zk cards
+- i can make scripts to start blog posts and copy one file in from zk at a time
+  - identify a file
+  - create appropriate frontmatter
+  - echo it to the blog
+  - open it in vim for editing
+
 ## decisions on automating zk to blog deployment
 - the more i look into jekyll, the more i think i should manually maintain a blog and copy information in
 - I don't think i'm going to do this for my blog. it makes more sense to just create posts manually from stuff in my zk.
@@ -14,13 +21,6 @@
   - images can be resized, video links can be embedded
 - i think the blog should be located in this repository so i can easily add files
   - i'm not doing this right now
-
-## steps for automatically converting markdown to a blog
-- i can make scripts to start blog posts and copy one file in from zk at a time
-  - identify a file
-  - create appropriate frontmatter
-  - echo it to the blog
-  - open it in vim for editing
 
 ### converting
 - search for tag `blogpost` in zk
