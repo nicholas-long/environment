@@ -1,6 +1,11 @@
 # zettelkasten to blog conversion hub
 
 - originally, i set out to automatically write blog posts from zettelkasten cards, but i enjoy writing my blog. the cards can still be used as source material or to organize things
+- the process should look like:
+  - undertake a project and make cards for it
+  - organize and merge together extra cards
+  - pull together a list of all relevant cards to use as source material for blog post
+  - link to these cards when writing blog so there are entrypoints to browse into zk from the blog
 
 ## decisions on automating zk to blog deployment
 - the more i look into jekyll, the more i think i should manually maintain a blog and copy information in
@@ -16,6 +21,7 @@
   - create appropriate frontmatter
   - echo it to the blog
   - open it in vim for editing
+
 ### converting
 - search for tag `blogpost` in zk
 - take text files from ZK
