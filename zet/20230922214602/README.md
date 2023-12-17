@@ -1,5 +1,6 @@
 # things i want to implement in zkvr after working on the environment
 
+- could run a docker to enrich the links on mac os!
 - [x] fuzzy file search for opening and editing multiple files, any files in any directory
 - [x] copy current fixes back up to zkvr
   - 2023-09-29 copied in
