@@ -8,4 +8,4 @@ find posts -name '*.md' | fzf | awk '
   gsub(/.md$/,"/")
   print "https://nicklong.xyz/" $0
 }
-'
+' | tr A-Z a-z # convert to lowercase
