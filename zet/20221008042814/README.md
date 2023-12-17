@@ -30,8 +30,6 @@ stuff i am working on.
 - [20231202172950](/zet/20231202172950/README.md) converting hacking notes to zkvr
 - [20231203212512](/zet/20231203212512/README.md) TUCTF23 blog post about git blob analysis forensics challenge
 - [20231206002013](/zet/20231206002013/README.md) webssh environment issues
-- [20231206225901](/zet/20231206225901/README.md) script to fuzzy search blog posts to get links
-- [20231207155238](/zet/20231207155238/README.md) script to move downloads and screenshots from clipboard to current directory
 
 Tags:
 

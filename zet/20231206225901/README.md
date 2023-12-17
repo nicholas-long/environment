@@ -12,8 +12,9 @@ find ~/blog/content -name '*.md'
 
 # Related
 
-- [20221008042814](/zet/20221008042814/README.md) WIP
 - [20231025215645](/zet/20231025215645/README.md) my blog
+- [20221009095853](/zet/20221009095853/README.md) finished
+- [20231122214039](/zet/20231122214039/README.md) stuff i should blog about
 
 Tags:
 

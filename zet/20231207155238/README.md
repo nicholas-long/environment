@@ -18,8 +18,8 @@ ls ~/Desktop/Screenshot* | sort | tail -n 1
 
 # Related
 
-- [20221008042814](/zet/20221008042814/README.md) WIP
 - [20231207171853](/zet/20231207171853/README.md) test screenshot of zkvr
+- [20221009095853](/zet/20221009095853/README.md) finished
 
 Tags:
 
