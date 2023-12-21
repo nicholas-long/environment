@@ -195,6 +195,7 @@
 20231207171853 test screenshot of zkvr
 20231209171536 iOS siri shortcuts
 20231212133828 building kerbrute for arm64
+20231221234303 starting docker service on mac os
 ```
 
 ` zet/20231005213930/README.md `

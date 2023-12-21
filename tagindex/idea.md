@@ -1,2 +1,3 @@
 - [20231122214039](/zet/20231122214039/README.md) stuff i should blog about
 - [20231130231902](/zet/20231130231902/README.md) things to learn about
+- [20231221234303](/zet/20231221234303/README.md) starting docker service on mac os
