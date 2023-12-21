@@ -116,6 +116,7 @@
 - [20231128160825](/zet/20231128160825/README.md) cross platform scripts to implement broken zkvr features on mac os
 - [20230925193834](/zet/20230925193834/README.md) testing on mac os
 - [20231121064457](/zet/20231121064457/README.md) merge note functionality for zkvr
+- [20231221234303](/zet/20231221234303/README.md) starting docker service on mac os
 
 Tags:
 
