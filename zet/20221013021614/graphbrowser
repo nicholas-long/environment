@@ -100,6 +100,7 @@ while [ 1 == "$going" ]; do
     print "back"
     print "fuzz"
     print "clipimage"
+    print "opendir"
     if (doc != "README.md") {
       id = doc
       gsub(/^zet\//,"",id)
@@ -506,6 +507,9 @@ while [ 1 == "$going" ]; do
     else
       xclip -selection c -t image/png -o > "$filename"
     fi
+  elif [ "$act" == "opendir" ]; then
+    dir=$(echo "$doc" | awk 'BEGIN{FS=OFS="/"}{NF--;print}')
+    open "$dir"
   fi
 done
 rm "$selection"
