@@ -5,6 +5,9 @@
 - i tried pasting the grep results togeher with the graphquery results, but that didn't work because the graphquery only returns unique results.
 
 ```markdown
+zet/20231122214039/README.md:  - [ ] find an API to list retired boxes and check my notes automatically
+zet/20231122214039/README.md:  - [ ] sau is retiring soon so create a draft
+- [20231122214039](/zet/20231122214039/README.md) stuff i should blog about #idea #blogpost #list
 ```
 
 ` zet/20230925055222/README.md `
