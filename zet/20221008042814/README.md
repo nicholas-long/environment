@@ -30,6 +30,7 @@ stuff i am working on.
 - [20231202172950](/zet/20231202172950/README.md) converting hacking notes to zkvr
 - [20231203212512](/zet/20231203212512/README.md) TUCTF23 blog post about git blob analysis forensics challenge
 - [20231206002013](/zet/20231206002013/README.md) webssh environment issues
+- [20240107171624](/zet/20240107171624/README.md) java version selector for linux
 
 Tags:
 

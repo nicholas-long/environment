@@ -53,6 +53,7 @@ alias ke='edit-kb-fuzzy-find-markdown'
 alias environ='cd $ENVIRON_BASEPATH && ./zkvr'
 alias work='cd ~/workspace && ./zkvr'
 alias vars='$EDITOR ~/.variables.sh && source ~/.variables.sh'
+alias java-selector='source $ENVIRON_BASEPATH/zet/20240107171624/java-selector'
 
 alias fixtmux='$ENVIRON_BASEPATH/zet/20231206002013/fix-tmux-hotkey'
 

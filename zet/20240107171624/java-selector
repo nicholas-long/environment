@@ -1,0 +1,6 @@
+#!/bin/bash
+
+javapath=$(find /usr/lib/jvm -name java | fzf | awk 'BEGIN {OFS=FS="/"} {NF--; print}')
+javadir=$(echo "$javapath" | awk 'BEGIN {OFS=FS="/"} {NF--; print}')
+export PATH=$javapath:$PATH
+export JAVA_HOME=$javadir
