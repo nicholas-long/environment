@@ -196,6 +196,7 @@
 20231209171536 iOS siri shortcuts
 20231212133828 building kerbrute for arm64
 20231221234303 starting docker service on mac os
+20240107171624 java version selector for linux
 ```
 
 ` zet/20231005213930/README.md `

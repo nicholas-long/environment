@@ -91,3 +91,4 @@
 - [20231205173345](/zet/20231205173345/README.md) chisel continuous ssh tunnel script
 - [20231206225901](/zet/20231206225901/README.md) script to fuzzy search blog posts to get links
 - [20231207155238](/zet/20231207155238/README.md) script to move downloads and screenshots from clipboard to current directory
+- [20240107171624](/zet/20240107171624/README.md) java version selector for linux

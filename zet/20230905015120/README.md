@@ -36,6 +36,7 @@ getmyip_silent
 - [20230925193834](/zet/20230925193834/README.md) testing on mac os
 - [20231017183957](/zet/20231017183957/README.md) command shortcut to pick and kill dockers
 - [20230905212307](/zet/20230905212307/README.md) important things from old install scripts and pen test environ that were copied to environment
+- [20240107171624](/zet/20240107171624/README.md) java version selector for linux
 
 Tags:
 
