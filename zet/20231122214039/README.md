@@ -3,7 +3,6 @@
 - obsidian shortcut running toolbar integration that creates reminder with link that opens current card
 - [20221013221136](/zet/20221013221136/README.md) graph query language for zettelkasten
 - htb boxes that have been retired
-  - [ ] sau is retiring soon so create a draft
   - [ ] find an API to list retired boxes and check my notes automatically
 - cyberdecks reviews and how to set them up
   - one mix netbook - find link for historical purposes, no longer for sale
@@ -31,6 +30,7 @@
 - more about apple iOS shortcuts
 - cool trick from zet cmd implementation to find missing backlinks `zet/20221006032546/scanrefs`
   - is this blogworthy?
+- notes from meeting with dog trainer
 
 # things i am already done blogging about
 - apple shortcuts workflow automation
@@ -47,6 +47,7 @@
 - [20230906032330](/zet/20230906032330/README.md) how to do an ascii art splash screen
 - [20231007033903](/zet/20231007033903/README.md) script to extract text from every second of youtube video frames
 - [20231212133828](/zet/20231212133828/README.md) building kerbrute for arm64
+- [x] sau is retired - made blog post
 
 ```
 ```
