@@ -46,7 +46,6 @@ OpenJDK 64-Bit Server VM (build 17.0.9+9-Debian-2, mixed mode, sharing)
 
 - [20221008042814](/zet/20221008042814/README.md) WIP
 - [20230905015120](/zet/20230905015120/README.md) bash rc file and config
-- [20221012171100](/zet/20221012171100/README.md) recently created nodes hub
 
 Tags:
 
